@@ -1,0 +1,31 @@
+{
+  "type": "rarities",
+  "count": 5,
+  "items": [
+    {
+      "id": 0,
+      "name": "All Common Units",
+      "slug": "common-units"
+    },
+    {
+      "id": 0,
+      "name": "All Rare Units",
+      "slug": "rare-units"
+    },
+    {
+      "id": 0,
+      "name": "All Epic Units",
+      "slug": "epic-units"
+    },
+    {
+      "id": 0,
+      "name": "All Legendary Units",
+      "slug": "legendary-units"
+    },
+    {
+      "id": 0,
+      "name": "All Mythic Units",
+      "slug": "mythic-units"
+    }
+  ]
+}

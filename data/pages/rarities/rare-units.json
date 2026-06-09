@@ -1,0 +1,467 @@
+{
+  "slug": "rare-units",
+  "name": "All Rare Units",
+  "title": "All Rare Units - Stats and Tier List | War Inc: Rising Wiki",
+  "meta_description": "Browse all 57 Rare units in War Inc: Rising. Ranked by combat power.",
+  "type": "rarities",
+  "rarity_id": 2,
+  "rarity_name": "Rare",
+  "units": [
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "profession": 8,
+      "cost": 0,
+      "combat_power": 588
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 588
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 575
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 575
+    },
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 500
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 408
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 406
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 406
+    },
+    {
+      "id": 3024,
+      "name": "Thunder Tower",
+      "slug": "thunder-tower",
+      "profession": 3,
+      "cost": 0,
+      "combat_power": 406
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 379
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 372
+    },
+    {
+      "id": 3067,
+      "name": "Fireworks Launcher",
+      "slug": "fireworks-launcher",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 306
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 306
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 297
+    },
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "profession": 4,
+      "cost": 3,
+      "combat_power": 258
+    },
+    {
+      "id": 655,
+      "name": "Frost Skeleton",
+      "slug": "frost-skeleton",
+      "profession": 4,
+      "cost": 3,
+      "combat_power": 249
+    },
+    {
+      "id": 832,
+      "name": "Bomber",
+      "slug": "bomber",
+      "profession": 3,
+      "cost": 4,
+      "combat_power": 242
+    },
+    {
+      "id": 835,
+      "name": "Paladin",
+      "slug": "paladin",
+      "profession": 8,
+      "cost": 3,
+      "combat_power": 235
+    },
+    {
+      "id": 838,
+      "name": "Goblin Shaman",
+      "slug": "goblin-shaman",
+      "profession": 5,
+      "cost": 3,
+      "combat_power": 235
+    },
+    {
+      "id": 201,
+      "name": "Gold Mine",
+      "slug": "gold-mine-1",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 104,
+      "name": "Follower Camp",
+      "slug": "follower-camp",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 601,
+      "name": "Spell Cauldron",
+      "slug": "spell-cauldron",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 203,
+      "name": "Sawmill",
+      "slug": "sawmill",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3036,
+      "name": "Timber Extractor",
+      "slug": "timber-extractor",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3037,
+      "name": "Stone Extractor",
+      "slug": "stone-extractor",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3038,
+      "name": "Metal Extractor",
+      "slug": "metal-extractor",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3039,
+      "name": "Redstone Mine",
+      "slug": "redstone-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3040,
+      "name": "Rock Mine",
+      "slug": "rock-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3041,
+      "name": "Lava Rock Mine",
+      "slug": "lava-rock-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3042,
+      "name": "Granite Mine",
+      "slug": "granite-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3043,
+      "name": "Marble Mine",
+      "slug": "marble-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3044,
+      "name": "Obsidian Mine",
+      "slug": "obsidian-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3045,
+      "name": "Pine Grove",
+      "slug": "pine-grove",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3046,
+      "name": "Cedar Grove",
+      "slug": "cedar-grove",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3047,
+      "name": "Birch Grove",
+      "slug": "birch-grove",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3048,
+      "name": "Maple Grove",
+      "slug": "maple-grove",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3049,
+      "name": "Red Wood Grove",
+      "slug": "red-wood-grove",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3050,
+      "name": "White Iron Mine",
+      "slug": "white-iron-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3051,
+      "name": "Black Iron Mine",
+      "slug": "black-iron-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3052,
+      "name": "Copper Mine",
+      "slug": "copper-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3053,
+      "name": "Silver Mine",
+      "slug": "silver-mine",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3054,
+      "name": "Gold Mine",
+      "slug": "gold-mine-2",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 629,
+      "name": "Goblin Warrior",
+      "slug": "goblin-warrior",
+      "profession": 4,
+      "cost": 3,
+      "combat_power": 216
+    },
+    {
+      "id": 635,
+      "name": "Flail Warden",
+      "slug": "flail-warden",
+      "profession": 4,
+      "cost": 3,
+      "combat_power": 215
+    },
+    {
+      "id": 619,
+      "name": "Berserker",
+      "slug": "berserker",
+      "profession": 4,
+      "cost": 3,
+      "combat_power": 208
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "profession": 2,
+      "cost": 3,
+      "combat_power": 195
+    },
+    {
+      "id": 645,
+      "name": "Apprentice Mage",
+      "slug": "apprentice-mage",
+      "profession": 3,
+      "cost": 3,
+      "combat_power": 186
+    },
+    {
+      "id": 3055,
+      "name": "Turret",
+      "slug": "turret-2",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3061,
+      "name": "Wind Blast Tower",
+      "slug": "wind-blast-tower",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3062,
+      "name": "Portal",
+      "slug": "portal",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3063,
+      "name": "Landmine",
+      "slug": "landmine",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3064,
+      "name": "ATM",
+      "slug": "atm",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3065,
+      "name": "Taunt Target",
+      "slug": "taunt-target",
+      "profession": 8,
+      "cost": 0,
+      "combat_power": 185
+    },
+    {
+      "id": 831,
+      "name": "Cannon Chariot",
+      "slug": "cannon-chariot",
+      "profession": 2,
+      "cost": 4,
+      "combat_power": 133
+    },
+    {
+      "id": 836,
+      "name": "Goblin Chef",
+      "slug": "goblin-chef",
+      "profession": 8,
+      "cost": 4,
+      "combat_power": 109
+    },
+    {
+      "id": 3066,
+      "name": "Tree",
+      "slug": "tree",
+      "profession": 7,
+      "cost": 0,
+      "combat_power": 0
+    }
+  ]
+}

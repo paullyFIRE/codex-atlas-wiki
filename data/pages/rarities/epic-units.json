@@ -1,0 +1,123 @@
+{
+  "slug": "epic-units",
+  "name": "All Epic Units",
+  "title": "All Epic Units - Stats and Tier List | War Inc: Rising Wiki",
+  "meta_description": "Browse all 14 Epic units in War Inc: Rising. Ranked by combat power.",
+  "type": "rarities",
+  "rarity_id": 3,
+  "rarity_name": "Epic",
+  "units": [
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "profession": 2,
+      "cost": 6,
+      "combat_power": 345
+    },
+    {
+      "id": 656,
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "profession": 5,
+      "cost": 6,
+      "combat_power": 323
+    },
+    {
+      "id": 620,
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "profession": 4,
+      "cost": 6,
+      "combat_power": 300
+    },
+    {
+      "id": 830,
+      "name": "Pumpkin Guard",
+      "slug": "pumpkin-guard",
+      "profession": 8,
+      "cost": 6,
+      "combat_power": 298
+    },
+    {
+      "id": 626,
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "profession": 5,
+      "cost": 6,
+      "combat_power": 293
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "profession": 5,
+      "cost": 6,
+      "combat_power": 290
+    },
+    {
+      "id": 627,
+      "name": "Flame Mage",
+      "slug": "flame-mage",
+      "profession": 3,
+      "cost": 6,
+      "combat_power": 286
+    },
+    {
+      "id": 624,
+      "name": "Poison Master",
+      "slug": "poison-master",
+      "profession": 3,
+      "cost": 6,
+      "combat_power": 283
+    },
+    {
+      "id": 659,
+      "name": "Bone Warlock",
+      "slug": "bone-warlock",
+      "profession": 5,
+      "cost": 6,
+      "combat_power": 242
+    },
+    {
+      "id": 840,
+      "name": "Dwarf Berserker",
+      "slug": "dwarf-berserker",
+      "profession": 4,
+      "cost": 6,
+      "combat_power": 223
+    },
+    {
+      "id": 842,
+      "name": "Minotaur Chieftain",
+      "slug": "minotaur-chieftain",
+      "profession": 4,
+      "cost": 5,
+      "combat_power": 211
+    },
+    {
+      "id": 841,
+      "name": "Knight",
+      "slug": "knight",
+      "profession": 4,
+      "cost": 5,
+      "combat_power": 205
+    },
+    {
+      "id": 839,
+      "name": "Wooden Wizard",
+      "slug": "wooden-wizard",
+      "profession": 5,
+      "cost": 5,
+      "combat_power": 162
+    },
+    {
+      "id": 833,
+      "name": "Guard Chario",
+      "slug": "guard-chario",
+      "profession": 4,
+      "cost": 5,
+      "combat_power": 126
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "slug": "ranger",
+  "name": "All Rangers",
+  "title": "All Rangers - Stats and Analysis | War Inc: Rising Wiki",
+  "meta_description": "Browse all 25 Ranger units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "type": "professions",
+  "profession_id": 7,
+  "profession_name": "Ranger",
+  "units": [
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 500
+    },
+    {
+      "id": 201,
+      "name": "Gold Mine",
+      "slug": "gold-mine-1",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 104,
+      "name": "Follower Camp",
+      "slug": "follower-camp",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 601,
+      "name": "Spell Cauldron",
+      "slug": "spell-cauldron",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 203,
+      "name": "Sawmill",
+      "slug": "sawmill",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3036,
+      "name": "Timber Extractor",
+      "slug": "timber-extractor",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3037,
+      "name": "Stone Extractor",
+      "slug": "stone-extractor",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3038,
+      "name": "Metal Extractor",
+      "slug": "metal-extractor",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3039,
+      "name": "Redstone Mine",
+      "slug": "redstone-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3040,
+      "name": "Rock Mine",
+      "slug": "rock-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3041,
+      "name": "Lava Rock Mine",
+      "slug": "lava-rock-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3042,
+      "name": "Granite Mine",
+      "slug": "granite-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3043,
+      "name": "Marble Mine",
+      "slug": "marble-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3044,
+      "name": "Obsidian Mine",
+      "slug": "obsidian-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3045,
+      "name": "Pine Grove",
+      "slug": "pine-grove",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3046,
+      "name": "Cedar Grove",
+      "slug": "cedar-grove",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3047,
+      "name": "Birch Grove",
+      "slug": "birch-grove",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3048,
+      "name": "Maple Grove",
+      "slug": "maple-grove",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3049,
+      "name": "Red Wood Grove",
+      "slug": "red-wood-grove",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3050,
+      "name": "White Iron Mine",
+      "slug": "white-iron-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3051,
+      "name": "Black Iron Mine",
+      "slug": "black-iron-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3052,
+      "name": "Copper Mine",
+      "slug": "copper-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3053,
+      "name": "Silver Mine",
+      "slug": "silver-mine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3054,
+      "name": "Gold Mine",
+      "slug": "gold-mine-2",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 3066,
+      "name": "Tree",
+      "slug": "tree",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 0
+    }
+  ]
+}

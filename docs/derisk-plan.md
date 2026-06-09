@@ -104,14 +104,16 @@ Site: `https://war-inc-rising-wiki.pages.dev`
 
 ## Phase 4 — Ongoing
 
-**Goal**: Stay up-to-date with game releases. Optimize for AI search. Improve content depth.
+**Goal**: Stay up-to-date with game releases. Improve content depth and community integration.
 
-- [ ] **Localize remaining entity types**: buffs (36 Chinese remarks), synergies (9 Chinese remarks), equipment (144 unnamed items) — translate or add English descriptions
-- [ ] **Strategy guides**: deep-dive articles layered on stat data (tier lists, team comps, counters)
-- [ ] **Compare pages**: auto-generate `/compare/{a}-vs-{b}` for hero comparisons
-- [ ] **Sitemap indexing**: monitor Google Search Console coverage for the verified property
+- [x] **Compare pages** — 2,580 auto-generated hero matchups (`/compare/{a}-vs-{b}`)
+- [x] **Profession guides** — 7 pages ranking all units by class (`/professions/warrior/`)
+- [x] **Rarity tier lists** — 5 pages ranking units by rarity (`/rarities/legendary-units/`)
+- [x] **External resources** — `/resources/` with Discord, YouTube, APKPure, Facebook links
+- [ ] **Localize buffs/synergies/equipment**: translate 36 buffs + 9 synergies from Chinese, name 144 unnamed equipment items
+- [ ] **Strategy guides**: deep-dive articles (tier lists, team comps, counters)
 - [ ] **Re-extraction script**: automate version detection + re-extraction on APK update
-- [ ] **Traffic + ad monitoring**: set up analytics, track impressions, plan ad integration
+- [ ] **Traffic + ad monitoring**: track Search Console impressions, plan ad integration
 
 ### AI Search (AEO/LLMO) Actions
 

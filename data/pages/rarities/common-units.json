@@ -1,0 +1,179 @@
+{
+  "slug": "common-units",
+  "name": "All Common Units",
+  "title": "All Common Units - Stats and Tier List | War Inc: Rising Wiki",
+  "meta_description": "Browse all 21 Common units in War Inc: Rising. Ranked by combat power.",
+  "type": "rarities",
+  "rarity_id": 1,
+  "rarity_name": "Common",
+  "units": [
+    {
+      "id": 803,
+      "name": "Woodshield Guard",
+      "slug": "woodshield-guard",
+      "profession": 8,
+      "cost": 2,
+      "combat_power": 113
+    },
+    {
+      "id": 700,
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "profession": 4,
+      "cost": 2,
+      "combat_power": 109
+    },
+    {
+      "id": 623,
+      "name": "Demoman",
+      "slug": "demoman",
+      "profession": 5,
+      "cost": 2,
+      "combat_power": 108
+    },
+    {
+      "id": 618,
+      "name": "Archer",
+      "slug": "archer",
+      "profession": 2,
+      "cost": 2,
+      "combat_power": 97
+    },
+    {
+      "id": 622,
+      "name": "Gunner",
+      "slug": "gunner",
+      "profession": 2,
+      "cost": 2,
+      "combat_power": 96
+    },
+    {
+      "id": 630,
+      "name": "Snowball Thrower",
+      "slug": "snowball-thrower",
+      "profession": 5,
+      "cost": 2,
+      "combat_power": 91
+    },
+    {
+      "id": 43,
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 20
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 32,
+      "name": "Dune Troll",
+      "slug": "dune-troll",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 131,
+      "name": "Venom Beetle",
+      "slug": "venom-beetle",
+      "profession": 2,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 132,
+      "name": "Tidal Drake",
+      "slug": "tidal-drake",
+      "profession": 3,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 133,
+      "name": "Gale Wyvern",
+      "slug": "gale-wyvern",
+      "profession": 3,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "profession": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 136,
+      "name": "Yeti Ancestor",
+      "slug": "yeti-ancestor",
+      "profession": null,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 137,
+      "name": "Spiked Beetle",
+      "slug": "spiked-beetle",
+      "profession": null,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 138,
+      "name": "Sharpen Drake",
+      "slug": "sharpen-drake",
+      "profession": null,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 139,
+      "name": "Gale Breaker",
+      "slug": "gale-breaker",
+      "profession": null,
+      "cost": 0,
+      "combat_power": 0
+    }
+  ]
+}

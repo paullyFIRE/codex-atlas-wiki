@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/compare/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/compare/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/compare/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/compare/${slug}.json`];
+if (!pageData) return Astro.redirect('/compare/', 404);
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/compare/">Comparisons</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <h1>{pageData.name}</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>{pageData.comparison.a.name}</th>
+          <th>{pageData.comparison.b.name}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>HP (Lv1)</td><td>{pageData.comparison.a.hp ?? '-'}</td><td>{pageData.comparison.b.hp ?? '-'}</td></tr>
+        <tr><td>ATK (Lv1)</td><td>{pageData.comparison.a.atk ?? '-'}</td><td>{pageData.comparison.b.atk ?? '-'}</td></tr>
+        <tr><td>DEF (Lv1)</td><td>{pageData.comparison.a.def ?? '-'}</td><td>{pageData.comparison.b.def ?? '-'}</td></tr>
+        <tr><td>Cost</td><td>{pageData.comparison.a.cost}</td><td>{pageData.comparison.b.cost}</td></tr>
+        <tr><td>Combat Power</td><td>{pageData.comparison.a.power}</td><td>{pageData.comparison.b.power}</td></tr>
+      </tbody>
+    </table>
+
+    <p>
+      <a href={`/heroes/${pageData.comparison.a.slug}/`}>{pageData.comparison.a.name} full stats</a>
+      &nbsp;·&nbsp;
+      <a href={`/heroes/${pageData.comparison.b.slug}/`}>{pageData.comparison.b.name} full stats</a>
+    </p>
+  </article>
+</BaseLayout>

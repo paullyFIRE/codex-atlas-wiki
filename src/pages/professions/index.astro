@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/professions/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/professions/_index.json'] ?? { items: [], count: 0 };
+---
+
+<BaseLayout title="All Professions - Unit Classes | War Inc: Rising Wiki">
+  <h1>All Professions</h1>
+  <p>Browse units by profession — Warriors, Tanks, Assassins, Mages, Supports, Rangers.</p>
+  <ul>
+    <li><a href="/professions/warrior/">Warriors</a></li>
+    <li><a href="/professions/tank/">Tanks</a></li>
+    <li><a href="/professions/assassin/">Assassins</a></li>
+    <li><a href="/professions/mage/">Mages</a></li>
+    <li><a href="/professions/support/">Supports</a></li>
+    <li><a href="/professions/ranger/">Rangers</a></li>
+    <li><a href="/professions/special/">Special</a></li>
+  </ul>
+</BaseLayout>

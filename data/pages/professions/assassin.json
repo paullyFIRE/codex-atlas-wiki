@@ -1,0 +1,419 @@
+{
+  "slug": "assassin",
+  "name": "All Assassins",
+  "title": "All Assassins - Stats and Analysis | War Inc: Rising Wiki",
+  "meta_description": "Browse all 51 Assassin units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "type": "professions",
+  "profession_id": 4,
+  "profession_name": "Assassin",
+  "units": [
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 588
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 529
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 507
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 505
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 503
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 483
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 474
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 466
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 445
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 442
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 433
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 429
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 425
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 406
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 358
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 358
+    },
+    {
+      "id": 625,
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 342
+    },
+    {
+      "id": 715,
+      "name": "Phantom Reaper",
+      "slug": "phantom-reaper",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 305
+    },
+    {
+      "id": 620,
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "rarity": 3,
+      "cost": 6,
+      "combat_power": 300
+    },
+    {
+      "id": 722,
+      "name": "Viper Warrior",
+      "slug": "viper-warrior",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 294
+    },
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 258
+    },
+    {
+      "id": 655,
+      "name": "Frost Skeleton",
+      "slug": "frost-skeleton",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 249
+    },
+    {
+      "id": 840,
+      "name": "Dwarf Berserker",
+      "slug": "dwarf-berserker",
+      "rarity": 3,
+      "cost": 6,
+      "combat_power": 223
+    },
+    {
+      "id": 629,
+      "name": "Goblin Warrior",
+      "slug": "goblin-warrior",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 216
+    },
+    {
+      "id": 635,
+      "name": "Flail Warden",
+      "slug": "flail-warden",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 215
+    },
+    {
+      "id": 842,
+      "name": "Minotaur Chieftain",
+      "slug": "minotaur-chieftain",
+      "rarity": 3,
+      "cost": 5,
+      "combat_power": 211
+    },
+    {
+      "id": 619,
+      "name": "Berserker",
+      "slug": "berserker",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 208
+    },
+    {
+      "id": 841,
+      "name": "Knight",
+      "slug": "knight",
+      "rarity": 3,
+      "cost": 5,
+      "combat_power": 205
+    },
+    {
+      "id": 833,
+      "name": "Guard Chario",
+      "slug": "guard-chario",
+      "rarity": 3,
+      "cost": 5,
+      "combat_power": 126
+    },
+    {
+      "id": 700,
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "rarity": 1,
+      "cost": 2,
+      "combat_power": 109
+    },
+    {
+      "id": 43,
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 20
+    },
+    {
+      "id": 30,
+      "name": "Evil Ivy",
+      "slug": "evil-ivy",
+      "rarity": 5,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 41,
+      "name": "Twin-Dragon",
+      "slug": "twin-dragon",
+      "rarity": 5,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 144,
+      "name": "Castle Assassin",
+      "slug": "castle-assassin",
+      "rarity": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 32,
+      "name": "Dune Troll",
+      "slug": "dune-troll",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 753,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 758,
+      "name": "Blacksmith Warrior",
+      "slug": "blacksmith-warrior-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 759,
+      "name": "Blacksmith Warrior",
+      "slug": "blacksmith-warrior-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 764,
+      "name": "Weakened One",
+      "slug": "weakened-one",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 769,
+      "name": "Mech Artisan",
+      "slug": "mech-artisan-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 770,
+      "name": "Mech Artisan",
+      "slug": "mech-artisan-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 777,
+      "name": "Seraph",
+      "slug": "seraph-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 779,
+      "name": "Wandering Swordsman",
+      "slug": "wandering-swordsman-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 780,
+      "name": "Wandering Swordsman",
+      "slug": "wandering-swordsman-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 781,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    }
+  ]
+}

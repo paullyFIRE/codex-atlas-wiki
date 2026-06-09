@@ -678,6 +678,171 @@ def build_mode_pages(loc: dict) -> list:
     return pages
 
 
+# ─── Compare pages ─────────────────────────────────────────────────
+
+def build_compare_pages(db: dict, name_map: dict, slug_map: dict) -> list:
+    pages = []
+    # Build list of type-1 units with names
+    units = []
+    for uid, u in db.items():
+        if u.get("unit_type") != 1:
+            continue
+        name = name_map.get(str(uid)) or u.get("name_en")
+        if not name:
+            continue
+        units.append({
+            "id": u["id"],
+            "name": name,
+            "slug": slug_map.get(str(uid), slugify(name)),
+            "rarity": u.get("rarity"),
+            "profession": u.get("profession"),
+            "cost": u.get("cost", 0),
+            "combat_power": u.get("combat_power", 0),
+            "stats": u.get("stats", {}),
+        })
+
+    # Generate top compare pages: same profession or same cost
+    compared = set()
+    for i, a in enumerate(units):
+        for j, b in enumerate(units):
+            if i >= j:
+                continue
+            key = tuple(sorted([a["id"], b["id"]]))
+            if key in compared:
+                continue
+            compared.add(key)
+
+            # Only compare same profession (targeted search queries)
+            if a["profession"] != b["profession"]:
+                continue
+
+            slug = f"{a['slug']}-vs-{b['slug']}"
+            name = f"{a['name']} vs {b['name']}"
+            title = f"{a['name']} vs {b['name']} - Which Hero is Better? | War Inc: Rising Wiki"
+            meta_desc = f"Compare {a['name']} vs {b['name']} in War Inc: Rising. Side-by-side stats, skills, and combat power analysis."
+
+            lv1_a = a["stats"].get("1", {})
+            lv12_a = a["stats"].get("12", {})
+            lv1_b = b["stats"].get("1", {})
+            lv12_b = b["stats"].get("12", {})
+
+            comparison = {
+                "a": {"name": a["name"], "slug": a["slug"], "hp": lv1_a.get("1050"), "atk": lv1_a.get("1070"),
+                      "def": lv1_a.get("1080"), "cost": a["cost"], "power": a["combat_power"]},
+                "b": {"name": b["name"], "slug": b["slug"], "hp": lv1_b.get("1050"), "atk": lv1_b.get("1070"),
+                      "def": lv1_b.get("1080"), "cost": b["cost"], "power": b["combat_power"]},
+            }
+
+            pages.append({
+                "slug": slug,
+                "name": name,
+                "title": title,
+                "meta_description": meta_desc,
+                "type": "compare",
+                "hero_a": a,
+                "hero_b": b,
+                "comparison": comparison,
+            })
+
+    return pages
+
+
+# ─── Profession guide pages ────────────────────────────────────────
+
+PROFESSION_MAP_GUIDES = {2: "Warrior", 3: "Tank", 4: "Assassin", 5: "Mage", 6: "Support", 7: "Ranger", 8: "Special"}
+
+def build_profession_pages(db: dict, name_map: dict, slug_map: dict) -> list:
+    pages = []
+    prof_units = {p: [] for p in PROFESSION_MAP_GUIDES}
+
+    for uid, u in db.items():
+        p = u.get("profession")
+        if p not in prof_units:
+            continue
+        name = name_map.get(str(uid)) or u.get("name_en")
+        if not name:
+            continue
+        prof_units[p].append({
+            "id": u["id"],
+            "name": name,
+            "slug": slug_map.get(str(uid), slugify(name)),
+            "rarity": u.get("rarity"),
+            "cost": u.get("cost", 0),
+            "combat_power": u.get("combat_power", 0),
+        })
+
+    for p_id, units in prof_units.items():
+        if not units:
+            continue
+        p_name = PROFESSION_MAP_GUIDES[p_id]
+        slug = slugify(p_name)
+        title = f"All {p_name}s - Stats and Analysis | War Inc: Rising Wiki"
+        meta_desc = f"Browse all {len(units)} {p_name} units in War Inc: Rising. Compare stats, costs, and combat power rankings."
+
+        units.sort(key=lambda u: -u["combat_power"])
+
+        pages.append({
+            "slug": slug,
+            "name": f"All {p_name}s",
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "professions",
+            "profession_id": p_id,
+            "profession_name": p_name,
+            "units": units,
+        })
+
+    return pages
+
+
+# ─── Rarity tier list pages ────────────────────────────────────────
+
+RARITY_MAP_GUIDES = {1: "Common", 2: "Rare", 3: "Epic", 4: "Legendary", 5: "Mythic"}
+
+def build_rarity_pages(db: dict, name_map: dict, slug_map: dict) -> list:
+    pages = []
+    rarity_units = {r: [] for r in RARITY_MAP_GUIDES}
+
+    for uid, u in db.items():
+        r = u.get("rarity")
+        if r not in rarity_units:
+            continue
+        name = name_map.get(str(uid)) or u.get("name_en")
+        if not name:
+            continue
+        rarity_units[r].append({
+            "id": u["id"],
+            "name": name,
+            "slug": slug_map.get(str(uid), slugify(name)),
+            "profession": u.get("profession"),
+            "cost": u.get("cost", 0),
+            "combat_power": u.get("combat_power", 0),
+        })
+
+    for r_id, units in rarity_units.items():
+        if not units:
+            continue
+        r_name = RARITY_MAP_GUIDES[r_id]
+        slug = f"{slugify(r_name)}-units"
+        title = f"All {r_name} Units - Stats and Tier List | War Inc: Rising Wiki"
+        meta_desc = f"Browse all {len(units)} {r_name} units in War Inc: Rising. Ranked by combat power."
+
+        units.sort(key=lambda u: -u["combat_power"])
+
+        pages.append({
+            "slug": slug,
+            "name": f"All {r_name} Units",
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "rarities",
+            "rarity_id": r_id,
+            "rarity_name": r_name,
+            "units": units,
+        })
+
+    return pages
+
+
 def main():
     print("Loading data sources...")
     db = load_json(DATA_DIR / "unit_database.json")
@@ -749,6 +914,18 @@ def main():
 
     print("Building game mode pages...")
     for page in build_mode_pages(loc):
+        all_pages.append(page)
+
+    print("Building compare pages...")
+    for page in build_compare_pages(db, name_map, slug_map):
+        all_pages.append(page)
+
+    print("Building profession guide pages...")
+    for page in build_profession_pages(db, name_map, slug_map):
+        all_pages.append(page)
+
+    print("Building rarity tier list pages...")
+    for page in build_rarity_pages(db, name_map, slug_map):
         all_pages.append(page)
 
     # Write pages

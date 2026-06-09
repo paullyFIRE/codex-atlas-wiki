@@ -1,0 +1,331 @@
+{
+  "slug": "warrior",
+  "name": "All Warriors",
+  "title": "All Warriors - Stats and Analysis | War Inc: Rising Wiki",
+  "meta_description": "Browse all 40 Warrior units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "type": "professions",
+  "profession_id": 2,
+  "profession_name": "Warrior",
+  "units": [
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 575
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 575
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 465
+    },
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 433
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 411
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 408
+    },
+    {
+      "id": 711,
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "id": 742,
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "id": 848,
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 406
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 406
+    },
+    {
+      "id": 739,
+      "name": "Fury Cannoneer",
+      "slug": "fury-cannoneer",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 405
+    },
+    {
+      "id": 741,
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 392
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 379
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 372
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "cost": 6,
+      "combat_power": 345
+    },
+    {
+      "id": 719,
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 312
+    },
+    {
+      "id": 3067,
+      "name": "Fireworks Launcher",
+      "slug": "fireworks-launcher",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 306
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 306
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 297
+    },
+    {
+      "id": 729,
+      "name": "Elven Archer",
+      "slug": "elven-archer",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 286
+    },
+    {
+      "id": 720,
+      "name": "Cowboy Gunner",
+      "slug": "cowboy-gunner",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 284
+    },
+    {
+      "id": 658,
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 258
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 231
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "rarity": 2,
+      "cost": 3,
+      "combat_power": 195
+    },
+    {
+      "id": 3055,
+      "name": "Turret",
+      "slug": "turret-2",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3061,
+      "name": "Wind Blast Tower",
+      "slug": "wind-blast-tower",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3062,
+      "name": "Portal",
+      "slug": "portal",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3063,
+      "name": "Landmine",
+      "slug": "landmine",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 3064,
+      "name": "ATM",
+      "slug": "atm",
+      "rarity": 2,
+      "cost": 0,
+      "combat_power": 186
+    },
+    {
+      "id": 831,
+      "name": "Cannon Chariot",
+      "slug": "cannon-chariot",
+      "rarity": 2,
+      "cost": 4,
+      "combat_power": 133
+    },
+    {
+      "id": 618,
+      "name": "Archer",
+      "slug": "archer",
+      "rarity": 1,
+      "cost": 2,
+      "combat_power": 97
+    },
+    {
+      "id": 622,
+      "name": "Gunner",
+      "slug": "gunner",
+      "rarity": 1,
+      "cost": 2,
+      "combat_power": 96
+    },
+    {
+      "id": 145,
+      "name": "Castle Archer",
+      "slug": "castle-archer",
+      "rarity": 4,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 131,
+      "name": "Venom Beetle",
+      "slug": "venom-beetle",
+      "rarity": 1,
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "id": 732,
+      "name": "Heartpiercing Crossbowman",
+      "slug": "heartpiercing-crossbowman",
+      "rarity": 4,
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "id": 710,
+      "name": "Mech-Magic Cannon",
+      "slug": "mech-magic-cannon",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 757,
+      "name": "Molten Archer",
+      "slug": "molten-archer-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 800,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-1",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "id": 801,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-2",
+      "rarity": 5,
+      "cost": 8,
+      "combat_power": 0
+    }
+  ]
+}

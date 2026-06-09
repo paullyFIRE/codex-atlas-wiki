@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/compare/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/compare/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
+---
+
+<BaseLayout
+  title="Hero Comparisons - Stats Side-by-Side | War Inc: Rising Wiki"
+  description={`Compare ${items.length} hero matchups in War Inc: Rising. Side-by-side stats for every hero pair.`}
+>
+  <h1>Hero Comparisons</h1>
+  <p>Side-by-side stat comparisons for all heroes. Find which hero is better for your strategy.</p>
+
+  <ul>
+    {items.slice(0, 100).map((item) => (
+      <li><a href={`/compare/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
+  {items.length > 100 && <p><em>Showing 100 of {items.length} comparisons.</em></p>}
+</BaseLayout>

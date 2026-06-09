@@ -1,0 +1,41 @@
+{
+  "type": "professions",
+  "count": 7,
+  "items": [
+    {
+      "id": 0,
+      "name": "All Warriors",
+      "slug": "warrior"
+    },
+    {
+      "id": 0,
+      "name": "All Tanks",
+      "slug": "tank"
+    },
+    {
+      "id": 0,
+      "name": "All Assassins",
+      "slug": "assassin"
+    },
+    {
+      "id": 0,
+      "name": "All Mages",
+      "slug": "mage"
+    },
+    {
+      "id": 0,
+      "name": "All Supports",
+      "slug": "support"
+    },
+    {
+      "id": 0,
+      "name": "All Rangers",
+      "slug": "ranger"
+    },
+    {
+      "id": 0,
+      "name": "All Specials",
+      "slug": "special"
+    }
+  ]
+}
