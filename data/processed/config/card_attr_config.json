@@ -1,0 +1,1615 @@
+{
+  "basic": [
+    {
+      "id": 637,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u72ee\u9e6b\u9a91\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 638,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u4ea1\u7075\u672f\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 702,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u661f\u843d\u5148\u9a71",
+      "levelAttr": []
+    },
+    {
+      "id": 704,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u65cb\u98ce\u548f\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 706,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u661f\u8f89\u4f7f\u5f92",
+      "levelAttr": []
+    },
+    {
+      "id": 734,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u4e5d\u5c3e\u5996\u72d0",
+      "levelAttr": []
+    },
+    {
+      "id": 736,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u65cb\u5f8b\u7f16\u7ec7\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 738,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6c34\u6ce2\u5deb\u533b",
+      "levelAttr": []
+    },
+    {
+      "id": 739,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u72c2\u6012\u70ae\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 741,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u8ff7\u96fe\u5c04\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 742,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u4e1b\u6797\u6e38\u4fa0",
+      "levelAttr": []
+    },
+    {
+      "id": 743,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6bc1\u706d\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 744,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u7130\u706b\u5251\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 746,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6218\u4e89\u5973\u795e",
+      "levelAttr": []
+    },
+    {
+      "id": 748,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6bd2\u83c7\u523a\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 749,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9a91\u58eb\u4e4b\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 621,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6a31\u82b1\u5251\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 625,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5e7d\u7075\u523a\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 628,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u718a\u7075\u52c7\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 632,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6697\u591c\u5973\u5deb",
+      "levelAttr": []
+    },
+    {
+      "id": 640,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u7075\u9b42\u6e21\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 729,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6697\u5f71\u4e4b\u5f13",
+      "levelAttr": []
+    },
+    {
+      "id": 620,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u6295\u77f3\u5de8\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 624,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u725b\u89d2\u5deb\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 626,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u96ea\u4eba\u6218\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 643,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u795e\u8c15\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 627,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u706b\u7130\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 635,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u7687\u5bb6\u5b88\u536b",
+      "levelAttr": []
+    },
+    {
+      "id": 619,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u72c2\u6218\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 629,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u7687\u5bb6\u730e\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 631,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u4e1b\u6797\u730e\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 645,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u89c1\u4e60\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 618,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u5f13\u7bad\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 622,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u706b\u67aa\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 623,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u7206\u7834\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 630,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u6295\u77db\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 700,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u5251\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 48,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 0.7,
+      "scale": 1.8,
+      "remark": "\u9f99\u796d\u53f8",
+      "levelAttr": []
+    },
+    {
+      "id": 43,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 1,
+      "remark": "\u9ab7\u9ac5\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 44,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 1,
+      "remark": "\u9ab7\u9ac5\u5f13\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 45,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 1,
+      "remark": "\u8725\u8734\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 65,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.4,
+      "scale": 1,
+      "remark": "\u68d5\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 66,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 1.2,
+      "remark": "\u9ab7\u9ac5\u5b88\u536b",
+      "levelAttr": []
+    },
+    {
+      "id": 67,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 1.2,
+      "remark": "\u72ec\u8f6e\u8f66\u9ab7\u9ac5",
+      "levelAttr": []
+    },
+    {
+      "id": 68,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.5,
+      "remark": "\u9ab7\u9ac5\u5de8\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 72,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 1,
+      "remark": "\u7d2b\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 46,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 1,
+      "remark": "\u541e\u566c\u6c99\u866b",
+      "levelAttr": []
+    },
+    {
+      "id": 11,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u591c\u9b54\u536b\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 13,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u5de8\u50cf",
+      "levelAttr": []
+    },
+    {
+      "id": 21,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u8fdc\u53e4\u5de8\u9f99",
+      "levelAttr": []
+    },
+    {
+      "id": 29,
+      "kind": 16,
+      "threat": 3,
+      "hpHeight": 6,
+      "scale": 0.6,
+      "remark": "\u8548\u83c7",
+      "levelAttr": []
+    },
+    {
+      "id": 33,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u5c0f\u6811\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 35,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u6a61\u679c",
+      "levelAttr": []
+    },
+    {
+      "id": 49,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 3,
+      "scale": 1,
+      "remark": "\u5927\u7532\u9b42",
+      "levelAttr": []
+    },
+    {
+      "id": 52,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u5a1c\u8fe6\u5b88\u536b",
+      "levelAttr": []
+    },
+    {
+      "id": 59,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u7f8e\u675c\u838e",
+      "levelAttr": []
+    },
+    {
+      "id": 111,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u7194\u5ca9\u9b54\u50cf",
+      "levelAttr": []
+    },
+    {
+      "id": 114,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u9ca8\u9c7c\u6218\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 119,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u95ea\u7535\u72fc\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 128,
+      "kind": 16,
+      "threat": 2,
+      "hpHeight": 2,
+      "scale": 1,
+      "remark": "\u6811\u7075\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 3,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5c0f\u98de\u9f99",
+      "levelAttr": []
+    },
+    {
+      "id": 504,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.4,
+      "scale": 0.6,
+      "remark": "\u5927\u68d2\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 22,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5c0f\u5e7d\u7075",
+      "levelAttr": []
+    },
+    {
+      "id": 23,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u767d\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 24,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u9ec4\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 25,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u7ea2\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 26,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u7ea2\u773c\u4e4c\u9e26",
+      "levelAttr": []
+    },
+    {
+      "id": 27,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u6447\u6eda\u9ab7\u9ac5",
+      "levelAttr": []
+    },
+    {
+      "id": 28,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5,
+      "remark": "\u72fc\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 30,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.22499999999999998,
+      "remark": "\u8346\u68d8\u6076\u7075",
+      "levelAttr": []
+    },
+    {
+      "id": 31,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u706b\u7130\u8815\u866b",
+      "levelAttr": []
+    },
+    {
+      "id": 32,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u5c0f\u72fc",
+      "levelAttr": []
+    },
+    {
+      "id": 36,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u7532\u9b42",
+      "levelAttr": []
+    },
+    {
+      "id": 37,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u6c61\u6ce5\u602a",
+      "levelAttr": []
+    },
+    {
+      "id": 38,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u6bd2\u82b1",
+      "levelAttr": []
+    },
+    {
+      "id": 39,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u8001\u9f20\u77ff\u5de5",
+      "levelAttr": []
+    },
+    {
+      "id": 40,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u866b\u540e",
+      "levelAttr": []
+    },
+    {
+      "id": 41,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.15000000000000002,
+      "remark": "\u53cc\u5934\u9f99",
+      "levelAttr": []
+    },
+    {
+      "id": 42,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5c0f\u6c61\u6ce5\u602a",
+      "levelAttr": []
+    },
+    {
+      "id": 47,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 2,
+      "remark": "\u8725\u8734\u9f99\u9a91\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 50,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u9f99\u9a91\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 51,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.22499999999999998,
+      "remark": "\u8718\u86db\u5973\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 53,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5a1c\u8fe6\u5f13\u7bad\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 54,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5a1c\u8fe6\u5de8\u517d",
+      "levelAttr": []
+    },
+    {
+      "id": 55,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u9c7c\u4eba\u6218\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 56,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u9c7c\u4eba\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 57,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u6c34\u5143\u7d20",
+      "levelAttr": []
+    },
+    {
+      "id": 58,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u5a1c\u8fe6\u5251\u5723",
+      "levelAttr": []
+    },
+    {
+      "id": 60,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.30000000000000004,
+      "remark": "\u4e2d\u8718\u86db\u5973\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 61,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.22500000000000003,
+      "remark": "\u5c0f\u8718\u86db\u5973\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 62,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u5927\u8718\u86db\u86cb",
+      "levelAttr": []
+    },
+    {
+      "id": 63,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.30000000000000004,
+      "remark": "\u4e2d\u8718\u86db\u86cb",
+      "levelAttr": []
+    },
+    {
+      "id": 64,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.375,
+      "remark": "\u5c0f\u7f8e\u675c\u838e",
+      "levelAttr": []
+    },
+    {
+      "id": 69,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u51b0\u539f\u9ab7\u9ac5\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 70,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u51b0\u539f\u9ab7\u9ac5\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 71,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.5249999999999999,
+      "remark": "\u51b0\u539f\u9ab7\u9ac5\u5f13\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 105,
+      "kind": 2,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.30000000000000004,
+      "remark": "\u57ce\u5821\u5efa\u7b51",
+      "levelAttr": []
+    },
+    {
+      "id": 2001,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u6258\u9a6c\u65af",
+      "levelAttr": []
+    },
+    {
+      "id": 2002,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u83b1\u62c9",
+      "levelAttr": []
+    },
+    {
+      "id": 2003,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u897f\u5965\u591a",
+      "levelAttr": []
+    },
+    {
+      "id": 2004,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u6cfd\u52d2",
+      "levelAttr": []
+    },
+    {
+      "id": 2005,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u683c\u6797",
+      "levelAttr": []
+    },
+    {
+      "id": 2006,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u675c\u62c9\u6c57",
+      "levelAttr": []
+    },
+    {
+      "id": 2007,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u5e03\u5947",
+      "levelAttr": []
+    },
+    {
+      "id": 2008,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.8999999999999999,
+      "remark": "\u970d\u5fb7\u5c14",
+      "levelAttr": []
+    },
+    {
+      "id": 3032,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u5c0f\u72fc",
+      "levelAttr": []
+    },
+    {
+      "id": 3026,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u7ea2\u773c\u4e4c\u9e26",
+      "levelAttr": []
+    },
+    {
+      "id": 3022,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u5c0f\u5e7d\u7075",
+      "levelAttr": []
+    },
+    {
+      "id": 3028,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u72fc\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 3013,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u5de8\u50cf",
+      "levelAttr": []
+    },
+    {
+      "id": 3036,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u7532\u9b42",
+      "levelAttr": []
+    },
+    {
+      "id": 3039,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u8001\u9f20\u77ff\u5de5",
+      "levelAttr": []
+    },
+    {
+      "id": 3027,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6447\u6eda\u9ab7\u9ac5",
+      "levelAttr": []
+    },
+    {
+      "id": 3040,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u866b\u540e",
+      "levelAttr": []
+    },
+    {
+      "id": 3033,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u5c0f\u6811\u4eba",
+      "levelAttr": []
+    },
+    {
+      "id": 3035,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u6a61\u679c",
+      "levelAttr": []
+    },
+    {
+      "id": 3023,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u767d\u8718\u86db",
+      "levelAttr": []
+    },
+    {
+      "id": 3029,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u8548\u83c7",
+      "levelAttr": []
+    },
+    {
+      "id": 3030,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u8346\u68d8\u6076\u7075",
+      "levelAttr": []
+    },
+    {
+      "id": 3049,
+      "kind": 16,
+      "threat": 1,
+      "hpHeight": 1.6,
+      "scale": 0.75,
+      "remark": "\u6211\u65b9\u5927\u7532\u9b42",
+      "levelAttr": []
+    },
+    {
+      "id": 2009,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u5fb7\u96f7\u514b",
+      "levelAttr": []
+    },
+    {
+      "id": 2010,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 1.125,
+      "remark": "\u7f57\u5bbe\u6c49",
+      "levelAttr": []
+    },
+    {
+      "id": 2011,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u514b\u62c9\u80af",
+      "levelAttr": []
+    },
+    {
+      "id": 2012,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u83ab\u5fb7\u53e4\u5fb7",
+      "levelAttr": []
+    },
+    {
+      "id": 2013,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u970d\u6069\u6d77\u59c6",
+      "levelAttr": []
+    },
+    {
+      "id": 2014,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u5f26\u4e00\u90ce",
+      "levelAttr": []
+    },
+    {
+      "id": 2015,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u5361\u620e",
+      "levelAttr": []
+    },
+    {
+      "id": 2016,
+      "kind": 8,
+      "threat": 1,
+      "hpHeight": 1,
+      "scale": 0.75,
+      "remark": "\u8377\u9c81\u65af",
+      "levelAttr": []
+    },
+    {
+      "id": 703,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u51b0\u96ea\u5973\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 705,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u4e0d\u706d\u7130\u7fbd",
+      "levelAttr": []
+    },
+    {
+      "id": 707,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9b54\u6e90\u796d\u53f8",
+      "levelAttr": []
+    },
+    {
+      "id": 708,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6697\u6708\u5973\u7687",
+      "levelAttr": []
+    },
+    {
+      "id": 709,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5e7d\u51a5\u5224\u5b98",
+      "levelAttr": []
+    },
+    {
+      "id": 710,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u673a\u68b0\u9b54\u70ae",
+      "levelAttr": []
+    },
+    {
+      "id": 711,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u4ea1\u9aa8\u67aa\u624b",
+      "levelAttr": []
+    },
+    {
+      "id": 712,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5927\u5730\u4e4b\u950b",
+      "levelAttr": []
+    },
+    {
+      "id": 713,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6ce2\u6d9b\u4f7f\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 714,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6697\u7130\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 715,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5e7d\u9570\u6536\u5272\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 716,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u98ce\u4f7f\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 717,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6218\u9f13\u7329\u7329",
+      "levelAttr": []
+    },
+    {
+      "id": 718,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6ce2\u6d9b\u56de\u590d\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 719,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u7206\u88c2\u5f39\u5320",
+      "levelAttr": []
+    },
+    {
+      "id": 720,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u67aa\u70ae\u94f3\u5175",
+      "levelAttr": []
+    },
+    {
+      "id": 721,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u91cd\u5251\u62a4\u536b",
+      "levelAttr": []
+    },
+    {
+      "id": 722,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u672b\u65e5\u6bd2\u5203",
+      "levelAttr": []
+    },
+    {
+      "id": 723,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5e7d\u7075\u9668\u77f3",
+      "levelAttr": []
+    },
+    {
+      "id": 724,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u78d0\u77f3\u8d4b\u80fd\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 725,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u7075\u80fd\u4ed9\u5b50",
+      "levelAttr": []
+    },
+    {
+      "id": 726,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5fa1\u98ce\u7edf\u9886",
+      "levelAttr": []
+    },
+    {
+      "id": 727,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5bd2\u6c34\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 728,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u5de1\u793c\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 730,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u91cd\u9524\u6218\u58eb",
+      "levelAttr": []
+    },
+    {
+      "id": 731,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u6d6a\u6f6e\u4e3b\u5bb0",
+      "levelAttr": []
+    },
+    {
+      "id": 732,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 2.5,
+      "scale": 1,
+      "remark": "\u7a7f\u5fc3\u5f29\u7bad\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 733,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9b54\u6cd5\u5c11\u5973",
+      "levelAttr": []
+    },
+    {
+      "id": 735,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6728\u7075\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 737,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u795e\u706f\u4e4b\u7075",
+      "levelAttr": []
+    },
+    {
+      "id": 740,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u91cd\u70ae\u5148\u950b",
+      "levelAttr": []
+    },
+    {
+      "id": 745,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u661f\u8fb0\u523a\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 747,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u7334\u738b",
+      "levelAttr": []
+    },
+    {
+      "id": 769,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9b54\u5076\u5de5\u5320",
+      "levelAttr": []
+    },
+    {
+      "id": 770,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9b54\u5076\u5de5\u5320",
+      "levelAttr": []
+    },
+    {
+      "id": 771,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u70c8\u7130\u51e4\u51f0",
+      "levelAttr": []
+    },
+    {
+      "id": 772,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u70c8\u7130\u51e4\u51f0",
+      "levelAttr": []
+    },
+    {
+      "id": 773,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u706b\u7130\u56da\u5f92",
+      "levelAttr": []
+    },
+    {
+      "id": 774,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u706b\u7130\u56da\u5f92",
+      "levelAttr": []
+    },
+    {
+      "id": 775,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5143\u7d20\u9f99",
+      "levelAttr": []
+    },
+    {
+      "id": 776,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5143\u7d20\u9f99",
+      "levelAttr": []
+    },
+    {
+      "id": 777,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5929\u4f7f\u96d5\u50cf",
+      "levelAttr": []
+    },
+    {
+      "id": 778,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u5929\u4f7f\u96d5\u50cf",
+      "levelAttr": []
+    },
+    {
+      "id": 779,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6d41\u6d6a\u5251\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 780,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u6d41\u6d6a\u5251\u5ba2",
+      "levelAttr": []
+    },
+    {
+      "id": 781,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u81f4\u547d\u4e4b\u5203",
+      "levelAttr": []
+    },
+    {
+      "id": 782,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u81f4\u547d\u4e4b\u5203",
+      "levelAttr": []
+    },
+    {
+      "id": 783,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9ed1\u6697\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 784,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u9ed1\u6697\u6cd5\u5e08",
+      "levelAttr": []
+    },
+    {
+      "id": 785,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u80fd\u91cf\u51b2\u51fb\u8005",
+      "levelAttr": []
+    },
+    {
+      "id": 786,
+      "kind": 1,
+      "threat": 1,
+      "hpHeight": 3.2,
+      "scale": 1,
+      "remark": "\u80fd\u91cf\u51b2\u51fb\u8005",
+      "levelAttr": []
+    }
+  ]
+}
