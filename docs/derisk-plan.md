@@ -127,6 +127,18 @@ Site: `https://war-inc-rising-wiki.pages.dev`
 | Breadcrumb JSON-LD on all pages | ✅ Done | Internal linking graph for query fan-out |
 | Unique APK-extracted stats (not republished from other wikis) | ✅ Built-in | Non-commodity content LLMs prefer to cite |
 
+### Content Synergies ✅
+
+| Feature | Pages | What it does |
+|---|---|---|
+| Compare pages (`/compare/{a}-vs-{b}`) | 2,580 | Hero matchups targeting "X vs Y" queries |
+| Profession guides (`/professions/warrior/`) | 7 | All units in a class ranked by power |
+| Rarity tier lists (`/rarities/mythic-units/`) | 5 | Units ranked within each rarity tier |
+| Community resources (`/resources/`) | 1 | Discord, YouTube, APKPure, Facebook links |
+| Data API page (`/data/`) | 1 | Dataset schema + downloadable JSON |
+
+**Total site**: **3,065 static pages** (4.68s build time)
+
 ---
 
 ## Key Risks
