@@ -30,7 +30,7 @@
       "profession_name": "Tank",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/140.png"
     },
     {
       "id": 141,
@@ -50,7 +50,7 @@
       "profession_name": "Special",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/143.png"
     },
     {
       "id": 148,
@@ -70,7 +70,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/50.png"
     },
     {
       "id": 58,
@@ -80,7 +80,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/58.png"
     },
     {
       "id": 31,
@@ -90,7 +90,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/31.png"
     },
     {
       "id": 32,
@@ -100,7 +100,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/32.png"
     },
     {
       "id": 130,
@@ -110,7 +110,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/130.png"
     },
     {
       "id": 131,
@@ -120,7 +120,7 @@
       "profession_name": "Warrior",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/131.png"
     },
     {
       "id": 132,
@@ -130,7 +130,7 @@
       "profession_name": "Tank",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/132.png"
     },
     {
       "id": 133,
@@ -140,7 +140,7 @@
       "profession_name": "Tank",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/133.png"
     },
     {
       "id": 134,
@@ -150,7 +150,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/134.png"
     },
     {
       "id": 135,
@@ -160,7 +160,7 @@
       "profession_name": "Assassin",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/135.png"
     },
     {
       "id": 136,
@@ -170,7 +170,7 @@
       "profession_name": "Unknown",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/136.png"
     },
     {
       "id": 137,
@@ -190,7 +190,7 @@
       "profession_name": "Unknown",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/138.png"
     },
     {
       "id": 139,
@@ -200,7 +200,7 @@
       "profession_name": "Unknown",
       "cost": 0,
       "combat_power": 0,
-      "image": null
+      "image": "/images/hunting-bosses/139.png"
     }
   ]
 }

@@ -289,7 +289,7 @@
     "Gold Mine attacks from range, dealing physical damage from a safe distance.",
     "Position Gold Mine on high ground or behind walls for maximum effectiveness."
   ],
-  "image": null,
+  "image": "/images/buildings/201.png",
   "upgrade_table": [
     {
       "level": 1,

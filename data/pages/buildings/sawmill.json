@@ -289,7 +289,7 @@
     "Sawmill attacks from range, dealing physical damage from a safe distance.",
     "Position Sawmill on high ground or behind walls for maximum effectiveness."
   ],
-  "image": null,
+  "image": "/images/buildings/203.png",
   "upgrade_table": [
     {
       "level": 1,

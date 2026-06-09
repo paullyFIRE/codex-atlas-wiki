@@ -30,7 +30,7 @@
       "profession_name": "Mage",
       "cost": 2,
       "combat_power": 108,
-      "image": "/images/heroes/623.png"
+      "image": null
     },
     {
       "id": 630,
@@ -40,7 +40,7 @@
       "profession_name": "Mage",
       "cost": 2,
       "combat_power": 91,
-      "image": "/images/heroes/630.png"
+      "image": null
     },
     {
       "id": 700,
@@ -50,7 +50,7 @@
       "profession_name": "Assassin",
       "cost": 2,
       "combat_power": 109,
-      "image": "/images/heroes/700.png"
+      "image": null
     },
     {
       "id": 803,
@@ -60,7 +60,7 @@
       "profession_name": "Special",
       "cost": 2,
       "combat_power": 113,
-      "image": "/images/heroes/803.png"
+      "image": null
     },
     {
       "id": 619,
@@ -80,7 +80,7 @@
       "profession_name": "Assassin",
       "cost": 3,
       "combat_power": 216,
-      "image": "/images/heroes/629.png"
+      "image": null
     },
     {
       "id": 631,
@@ -90,7 +90,7 @@
       "profession_name": "Warrior",
       "cost": 3,
       "combat_power": 195,
-      "image": "/images/heroes/631.png"
+      "image": null
     },
     {
       "id": 635,
@@ -100,7 +100,7 @@
       "profession_name": "Assassin",
       "cost": 3,
       "combat_power": 215,
-      "image": "/images/heroes/635.png"
+      "image": null
     },
     {
       "id": 645,
@@ -110,7 +110,7 @@
       "profession_name": "Tank",
       "cost": 3,
       "combat_power": 186,
-      "image": "/images/heroes/645.png"
+      "image": null
     },
     {
       "id": 655,
@@ -190,7 +190,7 @@
       "profession_name": "Assassin",
       "cost": 6,
       "combat_power": 300,
-      "image": "/images/heroes/620.png"
+      "image": null
     },
     {
       "id": 624,
@@ -200,7 +200,7 @@
       "profession_name": "Tank",
       "cost": 6,
       "combat_power": 283,
-      "image": "/images/heroes/624.png"
+      "image": null
     },
     {
       "id": 626,
@@ -210,7 +210,7 @@
       "profession_name": "Mage",
       "cost": 6,
       "combat_power": 293,
-      "image": "/images/heroes/626.png"
+      "image": null
     },
     {
       "id": 627,
@@ -230,7 +230,7 @@
       "profession_name": "Mage",
       "cost": 6,
       "combat_power": 290,
-      "image": "/images/heroes/643.png"
+      "image": null
     },
     {
       "id": 656,
@@ -270,7 +270,7 @@
       "profession_name": "Special",
       "cost": 6,
       "combat_power": 298,
-      "image": "/images/heroes/830.png"
+      "image": null
     },
     {
       "id": 833,
@@ -340,7 +340,7 @@
       "profession_name": "Warrior",
       "cost": 6,
       "combat_power": 312,
-      "image": "/images/heroes/719.png"
+      "image": null
     },
     {
       "id": 721,
@@ -350,7 +350,7 @@
       "profession_name": "Special",
       "cost": 6,
       "combat_power": 324,
-      "image": "/images/heroes/721.png"
+      "image": null
     },
     {
       "id": 726,
@@ -360,7 +360,7 @@
       "profession_name": "Tank",
       "cost": 6,
       "combat_power": 266,
-      "image": "/images/heroes/726.png"
+      "image": null
     },
     {
       "id": 729,
@@ -370,7 +370,7 @@
       "profession_name": "Warrior",
       "cost": 6,
       "combat_power": 286,
-      "image": "/images/heroes/729.png"
+      "image": null
     },
     {
       "id": 730,
@@ -380,7 +380,7 @@
       "profession_name": "Assassin",
       "cost": 6,
       "combat_power": 358,
-      "image": "/images/heroes/730.png"
+      "image": null
     },
     {
       "id": 621,
@@ -390,7 +390,7 @@
       "profession_name": "Special",
       "cost": 6,
       "combat_power": 324,
-      "image": "/images/heroes/621.png"
+      "image": null
     },
     {
       "id": 625,
@@ -400,7 +400,7 @@
       "profession_name": "Assassin",
       "cost": 6,
       "combat_power": 342,
-      "image": "/images/heroes/625.png"
+      "image": null
     },
     {
       "id": 628,
@@ -410,7 +410,7 @@
       "profession_name": "Mage",
       "cost": 6,
       "combat_power": 317,
-      "image": "/images/heroes/628.png"
+      "image": null
     },
     {
       "id": 632,
@@ -420,7 +420,7 @@
       "profession_name": "Tank",
       "cost": 6,
       "combat_power": 278,
-      "image": "/images/heroes/632.png"
+      "image": null
     },
     {
       "id": 640,
@@ -430,7 +430,7 @@
       "profession_name": "Tank",
       "cost": 6,
       "combat_power": 273,
-      "image": "/images/heroes/640.png"
+      "image": null
     },
     {
       "id": 637,
@@ -440,7 +440,7 @@
       "profession_name": "Assassin",
       "cost": 8,
       "combat_power": 483,
-      "image": "/images/heroes/637.png"
+      "image": null
     },
     {
       "id": 638,
@@ -450,7 +450,7 @@
       "profession_name": "Tank",
       "cost": 8,
       "combat_power": 384,
-      "image": "/images/heroes/638.png"
+      "image": null
     },
     {
       "id": 663,
@@ -470,7 +470,7 @@
       "profession_name": "Tank",
       "cost": 8,
       "combat_power": 360,
-      "image": "/images/heroes/703.png"
+      "image": null
     },
     {
       "id": 704,
@@ -480,7 +480,7 @@
       "profession_name": "Tank",
       "cost": 8,
       "combat_power": 394,
-      "image": "/images/heroes/704.png"
+      "image": null
     },
     {
       "id": 705,
@@ -490,7 +490,7 @@
       "profession_name": "Tank",
       "cost": 8,
       "combat_power": 403,
-      "image": "/images/heroes/705.png"
+      "image": null
     },
     {
       "id": 706,
@@ -500,7 +500,7 @@
       "profession_name": "Mage",
       "cost": 8,
       "combat_power": 392,
-      "image": "/images/heroes/706.png"
+      "image": null
     },
     {
       "id": 708,
@@ -510,7 +510,7 @@
       "profession_name": "Mage",
       "cost": 8,
       "combat_power": 391,
-      "image": "/images/heroes/708.png"
+      "image": null
     },
     {
       "id": 711,
@@ -520,7 +520,7 @@
       "profession_name": "Warrior",
       "cost": 8,
       "combat_power": 407,
-      "image": "/images/heroes/711.png"
+      "image": null
     },
     {
       "id": 712,
@@ -530,7 +530,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 393,
-      "image": "/images/heroes/712.png"
+      "image": null
     },
     {
       "id": 734,
@@ -540,7 +540,7 @@
       "profession_name": "Tank",
       "cost": 8,
       "combat_power": 403,
-      "image": "/images/heroes/734.png"
+      "image": null
     },
     {
       "id": 735,
@@ -550,7 +550,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 407,
-      "image": "/images/heroes/735.png"
+      "image": null
     },
     {
       "id": 736,
@@ -560,7 +560,7 @@
       "profession_name": "Mage",
       "cost": 8,
       "combat_power": 390,
-      "image": "/images/heroes/736.png"
+      "image": null
     },
     {
       "id": 738,
@@ -570,7 +570,7 @@
       "profession_name": "Mage",
       "cost": 8,
       "combat_power": 408,
-      "image": "/images/heroes/738.png"
+      "image": null
     },
     {
       "id": 739,
@@ -580,7 +580,7 @@
       "profession_name": "Warrior",
       "cost": 8,
       "combat_power": 405,
-      "image": "/images/heroes/739.png"
+      "image": null
     },
     {
       "id": 740,
@@ -590,7 +590,7 @@
       "profession_name": "Warrior",
       "cost": 8,
       "combat_power": 433,
-      "image": "/images/heroes/740.png"
+      "image": null
     },
     {
       "id": 741,
@@ -600,7 +600,7 @@
       "profession_name": "Warrior",
       "cost": 8,
       "combat_power": 392,
-      "image": "/images/heroes/741.png"
+      "image": null
     },
     {
       "id": 742,
@@ -610,7 +610,7 @@
       "profession_name": "Warrior",
       "cost": 8,
       "combat_power": 407,
-      "image": "/images/heroes/742.png"
+      "image": null
     },
     {
       "id": 743,
@@ -620,7 +620,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 464,
-      "image": "/images/heroes/743.png"
+      "image": null
     },
     {
       "id": 744,
@@ -630,7 +630,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 469,
-      "image": "/images/heroes/744.png"
+      "image": null
     },
     {
       "id": 745,
@@ -640,7 +640,7 @@
       "profession_name": "Assassin",
       "cost": 8,
       "combat_power": 425,
-      "image": "/images/heroes/745.png"
+      "image": null
     },
     {
       "id": 746,
@@ -650,7 +650,7 @@
       "profession_name": "Assassin",
       "cost": 8,
       "combat_power": 507,
-      "image": "/images/heroes/746.png"
+      "image": null
     },
     {
       "id": 748,
@@ -660,7 +660,7 @@
       "profession_name": "Assassin",
       "cost": 8,
       "combat_power": 358,
-      "image": "/images/heroes/748.png"
+      "image": null
     },
     {
       "id": 749,
@@ -670,7 +670,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 420,
-      "image": "/images/heroes/749.png"
+      "image": null
     },
     {
       "id": 750,
@@ -720,7 +720,7 @@
       "profession_name": "Special",
       "cost": 8,
       "combat_power": 449,
-      "image": "/images/heroes/762.png"
+      "image": null
     },
     {
       "id": 764,
@@ -780,7 +780,7 @@
       "profession_name": "Assassin",
       "cost": 8,
       "combat_power": 442,
-      "image": "/images/heroes/778.png"
+      "image": null
     },
     {
       "id": 779,
@@ -890,7 +890,7 @@
       "profession_name": "Tank",
       "cost": 10,
       "combat_power": 463,
-      "image": "/images/heroes/845.png"
+      "image": null
     },
     {
       "id": 846,
@@ -900,7 +900,7 @@
       "profession_name": "Tank",
       "cost": 10,
       "combat_power": 463,
-      "image": "/images/heroes/846.png"
+      "image": null
     },
     {
       "id": 847,
