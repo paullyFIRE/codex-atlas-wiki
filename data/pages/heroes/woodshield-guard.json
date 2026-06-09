@@ -1,0 +1,321 @@
+{
+  "id": 803,
+  "slug": "woodshield-guard",
+  "name": "Woodshield Guard",
+  "title": "Woodshield Guard - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Woodshield Guard in War Inc: Rising. Common Special unit costing 2. HP 2020, ATK 98, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 2,
+  "combat_power": 113,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 2020,
+      "atk": 98,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 113
+    },
+    {
+      "level": 2,
+      "hp": 2420,
+      "atk": 120,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 175
+    },
+    {
+      "level": 3,
+      "hp": 2900,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 263
+    },
+    {
+      "level": 4,
+      "hp": 3480,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 381
+    },
+    {
+      "level": 5,
+      "hp": 4180,
+      "atk": 200,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 533
+    },
+    {
+      "level": 6,
+      "hp": 5020,
+      "atk": 240,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 747
+    },
+    {
+      "level": 7,
+      "hp": 6530,
+      "atk": 310,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1045
+    },
+    {
+      "level": 8,
+      "hp": 8490,
+      "atk": 400,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1411
+    },
+    {
+      "level": 9,
+      "hp": 11040,
+      "atk": 520,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1835
+    },
+    {
+      "level": 10,
+      "hp": 14350,
+      "atk": 680,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 2385
+    },
+    {
+      "level": 11,
+      "hp": 18660,
+      "atk": 880,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 3100
+    },
+    {
+      "level": 12,
+      "hp": 24260,
+      "atk": 1140,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 4031
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 1
+    },
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 1
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 1
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 1
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 650,
+      "name": "Shell Guard",
+      "slug": "shell-guard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 402,
+      "relevance": 1
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 1
+    },
+    {
+      "id": 844,
+      "name": "Cactus Guardian",
+      "slug": "cactus-guardian",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 349,
+      "relevance": 1
+    },
+    {
+      "id": 657,
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 341,
+      "relevance": 1
+    },
+    {
+      "id": 721,
+      "name": "Ironguard",
+      "slug": "ironguard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Woodshield Guard",
+    "description": "Woodshield Guard is a Common Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Woodshield Guard - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "2"
+        }
+      ]
+    }
+  }
+}

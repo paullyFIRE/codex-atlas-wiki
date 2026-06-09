@@ -1,0 +1,288 @@
+{
+  "id": 3012,
+  "slug": "turret-1",
+  "name": "Turret",
+  "title": "Turret - Special Entity Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Turret in War Inc: Rising. Rare Warrior unit costing 0. HP 4500, ATK 256, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": 5,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 0,
+  "combat_power": 406,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4500,
+      "atk": 256,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 406
+    },
+    {
+      "level": 2,
+      "hp": 6980,
+      "atk": 400,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 629
+    },
+    {
+      "level": 3,
+      "hp": 10470,
+      "atk": 600,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 944
+    },
+    {
+      "level": 4,
+      "hp": 15180,
+      "atk": 870,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 1369
+    },
+    {
+      "level": 5,
+      "hp": 21250,
+      "atk": 1220,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 1916
+    },
+    {
+      "level": 6,
+      "hp": 29750,
+      "atk": 1710,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 2683
+    },
+    {
+      "level": 7,
+      "hp": 41650,
+      "atk": 2390,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 3756
+    },
+    {
+      "level": 8,
+      "hp": 56230,
+      "atk": 3230,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 5070
+    },
+    {
+      "level": 9,
+      "hp": 73100,
+      "atk": 4200,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 6591
+    },
+    {
+      "level": 10,
+      "hp": 95030,
+      "atk": 5460,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 8569
+    },
+    {
+      "level": 11,
+      "hp": 123540,
+      "atk": 7100,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 11139
+    },
+    {
+      "level": 12,
+      "hp": 160600,
+      "atk": 9230,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 14481
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 379,
+      "relevance": 2
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 372,
+      "relevance": 2
+    },
+    {
+      "id": 3067,
+      "name": "Fireworks Launcher",
+      "slug": "fireworks-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 297,
+      "relevance": 2
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 195,
+      "relevance": 2
+    },
+    {
+      "id": 3055,
+      "name": "Turret",
+      "slug": "turret-2",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 186,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Turret",
+    "description": "Turret is a Rare Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Turret - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

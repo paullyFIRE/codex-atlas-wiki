@@ -1,0 +1,343 @@
+{
+  "id": 758,
+  "slug": "blacksmith-warrior-1",
+  "name": "Blacksmith Warrior",
+  "title": "Blacksmith Warrior - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Blacksmith Warrior in War Inc: Rising. Mythic Assassin unit costing 8. HP 6080000, ATK 133120, DEF - per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 8,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 6080000,
+      "atk": 133120,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 6688000,
+      "atk": 146432,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7356800,
+      "atk": 161075,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 8092480,
+      "atk": 177183,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 8901730,
+      "atk": 194901,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 9791900,
+      "atk": 214391,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 10771090,
+      "atk": 235830,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 11848200,
+      "atk": 259413,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 13033020,
+      "atk": 285354,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 14336320,
+      "atk": 313889,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 15769950,
+      "atk": 345278,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 17346950,
+      "atk": 379806,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 75802,
+      "skill_number": 1,
+      "name": "Hammer Strike",
+      "description": "When energy reaches {0}, deal physical damage equal to {1} attack power to enemies within range. Spend {2} silver coins for a {3} chance to increase damage by {4} attack power. Failing breaks the weapon, resetting weapon status on the next enhancement.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 75803,
+      "skill_number": 2,
+      "name": "Forging",
+      "description": "Skill damage increased by {0}.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 75806,
+      "skill_number": 3,
+      "name": "Resonant Hammer",
+      "description": "Using a skill slows enemies by {0}, lasting {1} seconds.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 2
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 2
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 2
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 2
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 2
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 2
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 445,
+      "relevance": 2
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 442,
+      "relevance": 2
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 429,
+      "relevance": 2
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 2
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 406,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Blacksmith Warrior",
+    "description": "Blacksmith Warrior is a Mythic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Blacksmith Warrior - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

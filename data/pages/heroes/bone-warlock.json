@@ -1,0 +1,288 @@
+{
+  "id": 659,
+  "slug": "bone-warlock",
+  "name": "Bone Warlock",
+  "title": "Bone Warlock - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Bone Warlock in War Inc: Rising. Epic Mage unit costing 6. HP 2360, ATK 192, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 6,
+  "combat_power": 242,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 2360,
+      "atk": 192,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 242
+    },
+    {
+      "level": 2,
+      "hp": 3660,
+      "atk": 300,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 375
+    },
+    {
+      "level": 3,
+      "hp": 5490,
+      "atk": 450,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 563
+    },
+    {
+      "level": 4,
+      "hp": 7960,
+      "atk": 650,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 816
+    },
+    {
+      "level": 5,
+      "hp": 11140,
+      "atk": 910,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1142
+    },
+    {
+      "level": 6,
+      "hp": 15600,
+      "atk": 1270,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1599
+    },
+    {
+      "level": 7,
+      "hp": 21840,
+      "atk": 1780,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2239
+    },
+    {
+      "level": 8,
+      "hp": 29480,
+      "atk": 2400,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3022
+    },
+    {
+      "level": 9,
+      "hp": 38320,
+      "atk": 3120,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3929
+    },
+    {
+      "level": 10,
+      "hp": 49820,
+      "atk": 4060,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5108
+    },
+    {
+      "level": 11,
+      "hp": 64770,
+      "atk": 5280,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6640
+    },
+    {
+      "level": 12,
+      "hp": 84200,
+      "atk": 6860,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8632
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 656,
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 323,
+      "relevance": 2
+    },
+    {
+      "id": 626,
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 293,
+      "relevance": 2
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 290,
+      "relevance": 2
+    },
+    {
+      "id": 839,
+      "name": "Wooden Wizard",
+      "slug": "wooden-wizard",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 162,
+      "relevance": 2
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 1
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
+      "relevance": 1
+    },
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 1
+    },
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Bone Warlock",
+    "description": "Bone Warlock is a Epic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Bone Warlock - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "id": 711,
+  "slug": "bone-marksman",
+  "name": "Bone Marksman",
+  "title": "Bone Marksman - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Bone Marksman in War Inc: Rising. Mythic Warrior unit costing 8. HP 4040, ATK 288, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 8,
+  "combat_power": 407,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4040,
+      "atk": 288,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 407
+    },
+    {
+      "level": 2,
+      "hp": 8080,
+      "atk": 580,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 814
+    },
+    {
+      "level": 3,
+      "hp": 16160,
+      "atk": 1160,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1628
+    },
+    {
+      "level": 4,
+      "hp": 32320,
+      "atk": 2320,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3256
+    },
+    {
+      "level": 5,
+      "hp": 38780,
+      "atk": 2780,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3907
+    },
+    {
+      "level": 6,
+      "hp": 46540,
+      "atk": 3340,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4689
+    },
+    {
+      "level": 7,
+      "hp": 55850,
+      "atk": 4010,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5626
+    },
+    {
+      "level": 8,
+      "hp": 61440,
+      "atk": 4410,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6189
+    },
+    {
+      "level": 9,
+      "hp": 67580,
+      "atk": 4850,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6808
+    },
+    {
+      "level": 10,
+      "hp": 70960,
+      "atk": 5090,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7148
+    },
+    {
+      "level": 11,
+      "hp": 74510,
+      "atk": 5340,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7506
+    },
+    {
+      "level": 12,
+      "hp": 78240,
+      "atk": 5610,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7881
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 71102,
+      "skill_number": 1,
+      "name": "Bone Shot",
+      "description": "Prioritize Archers and Mages to fire 1 bullets that can penetrate the path of enemies.",
+      "level_effects": {
+        "1": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "2": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "3": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "4": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "5": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "6": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "7": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "8": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "9": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "10": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "11": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        },
+        "12": {
+          "cooldown": 8,
+          "attack_range": 3,
+          "damage": 2.5
+        }
+      }
+    },
+    {
+      "skill_id": 71103,
+      "skill_number": 2,
+      "name": "Flaw Exploit",
+      "description": "If skill target has low Attack Speed, fire 1 extra shot.",
+      "level_effects": {
+        "1": {
+          "damage": 2.5
+        },
+        "2": {
+          "damage": 2.5
+        },
+        "3": {
+          "damage": 2.5
+        },
+        "4": {
+          "damage": 2.5
+        },
+        "5": {
+          "damage": 2.5
+        },
+        "6": {
+          "damage": 2.5
+        },
+        "7": {
+          "damage": 2.5
+        },
+        "8": {
+          "damage": 2.5
+        },
+        "9": {
+          "damage": 2.5
+        },
+        "10": {
+          "damage": 2.5
+        },
+        "11": {
+          "damage": 2.5
+        },
+        "12": {
+          "damage": 2.5
+        }
+      }
+    },
+    {
+      "skill_id": 71104,
+      "skill_number": 3,
+      "name": "Rapid Shot",
+      "description": "Cooldown reduced.",
+      "level_effects": {
+        "1": {
+          "cooldown": 6
+        },
+        "2": {
+          "cooldown": 6
+        },
+        "3": {
+          "cooldown": 6
+        },
+        "4": {
+          "cooldown": 6
+        },
+        "5": {
+          "cooldown": 6
+        },
+        "6": {
+          "cooldown": 6
+        },
+        "7": {
+          "cooldown": 6
+        },
+        "8": {
+          "cooldown": 6
+        },
+        "9": {
+          "cooldown": 6
+        },
+        "10": {
+          "cooldown": 6
+        },
+        "11": {
+          "cooldown": 6
+        },
+        "12": {
+          "cooldown": 6
+        }
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 2
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 2
+    },
+    {
+      "id": 742,
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 848,
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 739,
+      "name": "Fury Cannoneer",
+      "slug": "fury-cannoneer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 405,
+      "relevance": 2
+    },
+    {
+      "id": 741,
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 2
+    },
+    {
+      "id": 710,
+      "name": "Mech-Magic Cannon",
+      "slug": "mech-magic-cannon",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 757,
+      "name": "Molten Archer",
+      "slug": "molten-archer-2",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 800,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 801,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-2",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Bone Marksman",
+    "description": "Bone Marksman is a Mythic Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Bone Marksman - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

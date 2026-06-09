@@ -1,0 +1,288 @@
+{
+  "id": 838,
+  "slug": "goblin-shaman",
+  "name": "Goblin Shaman",
+  "title": "Goblin Shaman - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Goblin Shaman in War Inc: Rising. Rare Mage unit costing 3. HP 1380, ATK 102, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 3,
+  "combat_power": 235,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1380,
+      "atk": 102,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 235
+    },
+    {
+      "level": 2,
+      "hp": 1660,
+      "atk": 120,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 364
+    },
+    {
+      "level": 3,
+      "hp": 1990,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 546
+    },
+    {
+      "level": 4,
+      "hp": 2590,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 792
+    },
+    {
+      "level": 5,
+      "hp": 3370,
+      "atk": 200,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1109
+    },
+    {
+      "level": 6,
+      "hp": 4380,
+      "atk": 240,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1553
+    },
+    {
+      "level": 7,
+      "hp": 5690,
+      "atk": 310,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2174
+    },
+    {
+      "level": 8,
+      "hp": 7400,
+      "atk": 400,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2935
+    },
+    {
+      "level": 9,
+      "hp": 9620,
+      "atk": 520,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3815
+    },
+    {
+      "level": 10,
+      "hp": 12510,
+      "atk": 680,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4960
+    },
+    {
+      "level": 11,
+      "hp": 16260,
+      "atk": 880,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6448
+    },
+    {
+      "level": 12,
+      "hp": 21140,
+      "atk": 1140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8382
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 500,
+      "relevance": 1
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    },
+    {
+      "id": 3024,
+      "name": "Thunder Tower",
+      "slug": "thunder-tower",
+      "rarity": 2,
+      "profession": 3,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Goblin Shaman",
+    "description": "Goblin Shaman is a Rare Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Goblin Shaman - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "3"
+        }
+      ]
+    }
+  }
+}

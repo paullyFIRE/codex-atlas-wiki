@@ -1,0 +1,288 @@
+{
+  "id": 142,
+  "slug": "tempest-core",
+  "name": "Tempest Core",
+  "title": "Tempest Core - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Tempest Core in War Inc: Rising. Legendary Tank unit costing 0. HP 49200, ATK 1000, DEF 3 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 49200,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 49200,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 49200,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 98400,
+      "atk": 1300,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 295200,
+      "atk": 1600,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 590400,
+      "atk": 1900,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 885600,
+      "atk": 2200,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 1062720,
+      "atk": 2500,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 1168990,
+      "atk": 2800,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 1285890,
+      "atk": 3100,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 1414480,
+      "atk": 3400,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 1555930,
+      "atk": 3700,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 2
+    },
+    {
+      "id": 723,
+      "name": "Ghost Meteor",
+      "slug": "ghost-meteor",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 328,
+      "relevance": 2
+    },
+    {
+      "id": 792,
+      "name": "Frostcrystal Spirit",
+      "slug": "frostcrystal-spirit",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 307,
+      "relevance": 2
+    },
+    {
+      "id": 731,
+      "name": "Wave Mage",
+      "slug": "wave-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 632,
+      "name": "Wind Apostle",
+      "slug": "wind-apostle",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 278,
+      "relevance": 2
+    },
+    {
+      "id": 640,
+      "name": "Ashen Arcanist",
+      "slug": "ashen-arcanist",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 273,
+      "relevance": 2
+    },
+    {
+      "id": 726,
+      "name": "Windlord",
+      "slug": "windlord",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 266,
+      "relevance": 2
+    },
+    {
+      "id": 146,
+      "name": "Castle Mage",
+      "slug": "castle-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 713,
+      "name": "Tide Caller",
+      "slug": "tide-caller",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 714,
+      "name": "Shadowflame Sorcerer",
+      "slug": "shadowflame-sorcerer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Tempest Core",
+    "description": "Tempest Core is a Legendary Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Tempest Core - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

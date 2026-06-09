@@ -1,0 +1,385 @@
+{
+  "id": 624,
+  "slug": "poison-master",
+  "name": "Poison Master",
+  "title": "Poison Master - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Poison Master in War Inc: Rising. Epic Tank unit costing 6. HP 1212, ATK 83, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 6,
+  "combat_power": 283,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1212,
+      "atk": 83,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 283
+    },
+    {
+      "level": 2,
+      "hp": 1450,
+      "atk": 100,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 439
+    },
+    {
+      "level": 3,
+      "hp": 1740,
+      "atk": 120,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 658
+    },
+    {
+      "level": 4,
+      "hp": 2260,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 954
+    },
+    {
+      "level": 5,
+      "hp": 2940,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1336
+    },
+    {
+      "level": 6,
+      "hp": 3820,
+      "atk": 200,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1870
+    },
+    {
+      "level": 7,
+      "hp": 4970,
+      "atk": 260,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2618
+    },
+    {
+      "level": 8,
+      "hp": 6460,
+      "atk": 340,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3534
+    },
+    {
+      "level": 9,
+      "hp": 8400,
+      "atk": 440,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4595
+    },
+    {
+      "level": 10,
+      "hp": 10920,
+      "atk": 570,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5973
+    },
+    {
+      "level": 11,
+      "hp": 14200,
+      "atk": 740,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7765
+    },
+    {
+      "level": 12,
+      "hp": 18460,
+      "atk": 960,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 10094
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 627,
+      "name": "Flame Mage",
+      "slug": "flame-mage",
+      "rarity": 3,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 286,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 1
+    },
+    {
+      "id": 3024,
+      "name": "Thunder Tower",
+      "slug": "thunder-tower",
+      "rarity": 2,
+      "profession": 3,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Poison Master",
+    "description": "Poison Master is a Epic Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Poison Master - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

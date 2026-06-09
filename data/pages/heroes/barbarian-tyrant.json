@@ -1,0 +1,321 @@
+{
+  "id": 743,
+  "slug": "barbarian-tyrant",
+  "name": "Barbarian Tyrant",
+  "title": "Barbarian Tyrant - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Barbarian Tyrant in War Inc: Rising. Mythic Special unit costing 8. HP 7640, ATK 128, DEF 3 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 8,
+  "combat_power": 464,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 7640,
+      "atk": 128,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 464
+    },
+    {
+      "level": 2,
+      "hp": 11840,
+      "atk": 200,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 719
+    },
+    {
+      "level": 3,
+      "hp": 17760,
+      "atk": 300,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1079
+    },
+    {
+      "level": 4,
+      "hp": 25750,
+      "atk": 440,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1564
+    },
+    {
+      "level": 5,
+      "hp": 36050,
+      "atk": 620,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2190
+    },
+    {
+      "level": 6,
+      "hp": 50470,
+      "atk": 870,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3066
+    },
+    {
+      "level": 7,
+      "hp": 70660,
+      "atk": 1220,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4292
+    },
+    {
+      "level": 8,
+      "hp": 95390,
+      "atk": 1650,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5795
+    },
+    {
+      "level": 9,
+      "hp": 124010,
+      "atk": 2150,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7533
+    },
+    {
+      "level": 10,
+      "hp": 161210,
+      "atk": 2800,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 9793
+    },
+    {
+      "level": 11,
+      "hp": 209570,
+      "atk": 3640,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 12731
+    },
+    {
+      "level": 12,
+      "hp": 272440,
+      "atk": 4730,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 16550
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 2
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 2
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 2
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 2
+    },
+    {
+      "id": 141,
+      "name": "Castle Colossus",
+      "slug": "castle-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 143,
+      "name": "Tower Colossus",
+      "slug": "tower-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 763,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 794,
+      "name": "Dark Knight",
+      "slug": "dark-knight-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Barbarian Tyrant",
+    "description": "Barbarian Tyrant is a Mythic Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Barbarian Tyrant - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

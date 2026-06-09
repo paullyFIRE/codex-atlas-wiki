@@ -1,0 +1,566 @@
+{
+  "id": 705,
+  "slug": "blazewing-lord",
+  "name": "Blazewing Lord",
+  "title": "Blazewing Lord - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Blazewing Lord in War Inc: Rising. Mythic Tank unit costing 8. HP 3840, ATK 298, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 8,
+  "combat_power": 403,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3840,
+      "atk": 298,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 403
+    },
+    {
+      "level": 2,
+      "hp": 5950,
+      "atk": 460,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 625
+    },
+    {
+      "level": 3,
+      "hp": 8930,
+      "atk": 690,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 937
+    },
+    {
+      "level": 4,
+      "hp": 12950,
+      "atk": 1000,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1359
+    },
+    {
+      "level": 5,
+      "hp": 18130,
+      "atk": 1400,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1902
+    },
+    {
+      "level": 6,
+      "hp": 25380,
+      "atk": 1960,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2663
+    },
+    {
+      "level": 7,
+      "hp": 35530,
+      "atk": 2740,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3728
+    },
+    {
+      "level": 8,
+      "hp": 47970,
+      "atk": 3700,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5033
+    },
+    {
+      "level": 9,
+      "hp": 62360,
+      "atk": 4810,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6543
+    },
+    {
+      "level": 10,
+      "hp": 81070,
+      "atk": 6250,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8506
+    },
+    {
+      "level": 11,
+      "hp": 105390,
+      "atk": 8130,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 11057
+    },
+    {
+      "level": 12,
+      "hp": 137010,
+      "atk": 10570,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 14374
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 70502,
+      "skill_number": 1,
+      "name": "Ignite",
+      "description": "Launch a fireball that ignites the target, dealing damage over time.",
+      "level_effects": {
+        "1": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "2": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "3": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "4": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "5": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "6": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "7": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "8": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "9": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "10": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "11": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        },
+        "12": {
+          "charges": 60,
+          "duration": 3,
+          "damage": 1.5,
+          "damage_element": 3
+        }
+      }
+    },
+    {
+      "skill_id": 70503,
+      "skill_number": 2,
+      "name": "Embers Everlasting",
+      "description": "Skill duration increased.",
+      "level_effects": {
+        "1": {
+          "duration": 4
+        },
+        "2": {
+          "duration": 4
+        },
+        "3": {
+          "duration": 4
+        },
+        "4": {
+          "duration": 4
+        },
+        "5": {
+          "duration": 4
+        },
+        "6": {
+          "duration": 4
+        },
+        "7": {
+          "duration": 4
+        },
+        "8": {
+          "duration": 4
+        },
+        "9": {
+          "duration": 4
+        },
+        "10": {
+          "duration": 4
+        },
+        "11": {
+          "duration": 4
+        },
+        "12": {
+          "duration": 4
+        }
+      }
+    },
+    {
+      "skill_id": 70504,
+      "skill_number": 3,
+      "name": "Flammable Status",
+      "description": "Reduces fire resistance of ignited targets.",
+      "level_effects": {
+        "1": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "2": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "3": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "4": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "5": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "6": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "7": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "8": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "9": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "10": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "11": {
+          "duration": 4,
+          "fire_def": -0.2
+        },
+        "12": {
+          "duration": 4,
+          "fire_def": -0.2
+        }
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 2
+    },
+    {
+      "id": 774,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-2",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 376,
+      "relevance": 2
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Blazewing Lord",
+    "description": "Blazewing Lord is a Mythic Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Blazewing Lord - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

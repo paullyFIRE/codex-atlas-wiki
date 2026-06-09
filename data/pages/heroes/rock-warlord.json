@@ -1,0 +1,288 @@
+{
+  "id": 851,
+  "slug": "rock-warlord",
+  "name": "Rock Warlord",
+  "title": "Rock Warlord - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Rock Warlord in War Inc: Rising. Mythic Assassin unit costing 8. HP 7480, ATK 210, DEF 3 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 8,
+  "combat_power": 474,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 7480,
+      "atk": 210,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 474
+    },
+    {
+      "level": 2,
+      "hp": 14960,
+      "atk": 420,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 948
+    },
+    {
+      "level": 3,
+      "hp": 29920,
+      "atk": 840,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1896
+    },
+    {
+      "level": 4,
+      "hp": 59840,
+      "atk": 1680,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3792
+    },
+    {
+      "level": 5,
+      "hp": 71810,
+      "atk": 2020,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4550
+    },
+    {
+      "level": 6,
+      "hp": 86170,
+      "atk": 2420,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5460
+    },
+    {
+      "level": 7,
+      "hp": 103400,
+      "atk": 2900,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6553
+    },
+    {
+      "level": 8,
+      "hp": 113740,
+      "atk": 3190,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7208
+    },
+    {
+      "level": 9,
+      "hp": 125110,
+      "atk": 3510,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7929
+    },
+    {
+      "level": 10,
+      "hp": 131370,
+      "atk": 3690,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8325
+    },
+    {
+      "level": 11,
+      "hp": 137940,
+      "atk": 3870,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8741
+    },
+    {
+      "level": 12,
+      "hp": 144840,
+      "atk": 4060,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 9178
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 2
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 2
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 2
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 2
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 2
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 445,
+      "relevance": 2
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 442,
+      "relevance": 2
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 429,
+      "relevance": 2
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 2
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Rock Warlord",
+    "description": "Rock Warlord is a Mythic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Rock Warlord - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

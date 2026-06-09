@@ -1,0 +1,385 @@
+{
+  "id": 631,
+  "slug": "forest-scout",
+  "name": "Forest Scout",
+  "title": "Forest Scout - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Forest Scout in War Inc: Rising. Rare Warrior unit costing 3. HP 1128, ATK 105, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 3,
+  "combat_power": 195,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1128,
+      "atk": 105,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 195
+    },
+    {
+      "level": 2,
+      "hp": 1350,
+      "atk": 130,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 302
+    },
+    {
+      "level": 3,
+      "hp": 1620,
+      "atk": 160,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 453
+    },
+    {
+      "level": 4,
+      "hp": 2110,
+      "atk": 190,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 657
+    },
+    {
+      "level": 5,
+      "hp": 2740,
+      "atk": 230,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 920
+    },
+    {
+      "level": 6,
+      "hp": 3560,
+      "atk": 280,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1288
+    },
+    {
+      "level": 7,
+      "hp": 4630,
+      "atk": 360,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1804
+    },
+    {
+      "level": 8,
+      "hp": 6020,
+      "atk": 470,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2435
+    },
+    {
+      "level": 9,
+      "hp": 7830,
+      "atk": 610,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3166
+    },
+    {
+      "level": 10,
+      "hp": 10180,
+      "atk": 790,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4116
+    },
+    {
+      "level": 11,
+      "hp": 13230,
+      "atk": 1030,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5350
+    },
+    {
+      "level": 12,
+      "hp": 17200,
+      "atk": 1340,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6955
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 379,
+      "relevance": 2
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 372,
+      "relevance": 2
+    },
+    {
+      "id": 3067,
+      "name": "Fireworks Launcher",
+      "slug": "fireworks-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 297,
+      "relevance": 2
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3055,
+      "name": "Turret",
+      "slug": "turret-2",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 186,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Forest Scout",
+    "description": "Forest Scout is a Rare Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Forest Scout - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "3"
+        }
+      ]
+    }
+  }
+}

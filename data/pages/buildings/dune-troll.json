@@ -1,0 +1,288 @@
+{
+  "id": 32,
+  "slug": "dune-troll",
+  "name": "Dune Troll",
+  "title": "Dune Troll - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Dune Troll in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1840, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3896000,
+      "atk": 1840,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 5454400,
+      "atk": 2850,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7636160,
+      "atk": 4420,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 10690620,
+      "atk": 6850,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 14966870,
+      "atk": 10620,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 20953620,
+      "atk": 16460,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 29335070,
+      "atk": 25510,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 41069100,
+      "atk": 39540,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 57496740,
+      "atk": 61290,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 80495440,
+      "atk": 95000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 112693620,
+      "atk": 147250,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 157771070,
+      "atk": 228240,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 700,
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 109,
+      "relevance": 2
+    },
+    {
+      "id": 43,
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 20,
+      "relevance": 2
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Dune Troll",
+    "description": "Dune Troll is a Common Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Dune Troll - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

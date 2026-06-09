@@ -1,0 +1,288 @@
+{
+  "id": 43,
+  "slug": "skeleton-troop",
+  "name": "Skeleton Troop",
+  "title": "Skeleton Troop - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Skeleton Troop in War Inc: Rising. Common Assassin unit costing 0. HP 3546, ATK 185, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 0,
+  "combat_power": 20,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3546,
+      "atk": 185,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 20
+    },
+    {
+      "level": 2,
+      "hp": 5670,
+      "atk": 300,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 40
+    },
+    {
+      "level": 3,
+      "hp": 9070,
+      "atk": 480,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 80
+    },
+    {
+      "level": 4,
+      "hp": 14510,
+      "atk": 770,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 160
+    },
+    {
+      "level": 5,
+      "hp": 17410,
+      "atk": 920,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 192
+    },
+    {
+      "level": 6,
+      "hp": 20890,
+      "atk": 1100,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 230
+    },
+    {
+      "level": 7,
+      "hp": 25070,
+      "atk": 1320,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 276
+    },
+    {
+      "level": 8,
+      "hp": 27580,
+      "atk": 1450,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 304
+    },
+    {
+      "level": 9,
+      "hp": 30340,
+      "atk": 1600,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 335
+    },
+    {
+      "level": 10,
+      "hp": 31860,
+      "atk": 1680,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 351
+    },
+    {
+      "level": 11,
+      "hp": 33450,
+      "atk": 1760,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 369
+    },
+    {
+      "level": 12,
+      "hp": 35120,
+      "atk": 1850,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 387
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 700,
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 109,
+      "relevance": 2
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 32,
+      "name": "Dune Troll",
+      "slug": "dune-troll",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Skeleton Troop",
+    "description": "Skeleton Troop is a Common Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Skeleton Troop - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

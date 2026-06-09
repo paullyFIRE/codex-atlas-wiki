@@ -1,0 +1,336 @@
+{
+  "id": 715,
+  "slug": "phantom-reaper",
+  "name": "Phantom Reaper",
+  "title": "Phantom Reaper - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Phantom Reaper in War Inc: Rising. Legendary Assassin unit costing 6. HP 4860, ATK 108, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 6,
+  "combat_power": 305,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4860,
+      "atk": 108,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 305
+    },
+    {
+      "level": 2,
+      "hp": 7530,
+      "atk": 170,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 473
+    },
+    {
+      "level": 3,
+      "hp": 11300,
+      "atk": 260,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 709
+    },
+    {
+      "level": 4,
+      "hp": 16390,
+      "atk": 380,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1028
+    },
+    {
+      "level": 5,
+      "hp": 22950,
+      "atk": 530,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1440
+    },
+    {
+      "level": 6,
+      "hp": 32130,
+      "atk": 740,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2015
+    },
+    {
+      "level": 7,
+      "hp": 44980,
+      "atk": 1040,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2821
+    },
+    {
+      "level": 8,
+      "hp": 60720,
+      "atk": 1400,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3809
+    },
+    {
+      "level": 9,
+      "hp": 78940,
+      "atk": 1820,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4952
+    },
+    {
+      "level": 10,
+      "hp": 102620,
+      "atk": 2370,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6437
+    },
+    {
+      "level": 11,
+      "hp": 133410,
+      "atk": 3080,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8368
+    },
+    {
+      "level": 12,
+      "hp": 173430,
+      "atk": 4000,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 10879
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 71502,
+      "skill_number": 1,
+      "name": "Gale Slash",
+      "description": "Deal high damage to enemy units within your own area.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 71503,
+      "skill_number": 2,
+      "name": "Chain Strike",
+      "description": "Skill damage increased.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 2
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 2
+    },
+    {
+      "id": 625,
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 342,
+      "relevance": 2
+    },
+    {
+      "id": 722,
+      "name": "Viper Warrior",
+      "slug": "viper-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 294,
+      "relevance": 2
+    },
+    {
+      "id": 144,
+      "name": "Castle Assassin",
+      "slug": "castle-assassin",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Phantom Reaper",
+    "description": "Phantom Reaper is a Legendary Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Phantom Reaper - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

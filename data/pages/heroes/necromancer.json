@@ -1,0 +1,385 @@
+{
+  "id": 783,
+  "slug": "necromancer",
+  "name": "Necromancer",
+  "title": "Necromancer - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Necromancer in War Inc: Rising. Mythic Tank unit costing 8. HP 4065, ATK 283, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 8,
+  "combat_power": 378,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4065,
+      "atk": 283,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 378
+    },
+    {
+      "level": 2,
+      "hp": 8130,
+      "atk": 570,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 756
+    },
+    {
+      "level": 3,
+      "hp": 16260,
+      "atk": 1140,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1512
+    },
+    {
+      "level": 4,
+      "hp": 32520,
+      "atk": 2280,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3024
+    },
+    {
+      "level": 5,
+      "hp": 39020,
+      "atk": 2740,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3629
+    },
+    {
+      "level": 6,
+      "hp": 46820,
+      "atk": 3290,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4355
+    },
+    {
+      "level": 7,
+      "hp": 56180,
+      "atk": 3950,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5225
+    },
+    {
+      "level": 8,
+      "hp": 61800,
+      "atk": 4350,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5748
+    },
+    {
+      "level": 9,
+      "hp": 67980,
+      "atk": 4790,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6323
+    },
+    {
+      "level": 10,
+      "hp": 71380,
+      "atk": 5030,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6639
+    },
+    {
+      "level": 11,
+      "hp": 74950,
+      "atk": 5280,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6971
+    },
+    {
+      "level": 12,
+      "hp": 78700,
+      "atk": 5540,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7319
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 2
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 774,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-2",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 376,
+      "relevance": 2
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Necromancer",
+    "description": "Necromancer is a Mythic Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Necromancer - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id": 656,
+  "slug": "soul-usher",
+  "name": "Soul Usher",
+  "title": "Soul Usher - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Soul Usher in War Inc: Rising. Epic Mage unit costing 6. HP 1440, ATK 128, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 6,
+  "combat_power": 323,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1440,
+      "atk": 128,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 323
+    },
+    {
+      "level": 2,
+      "hp": 1730,
+      "atk": 150,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 501
+    },
+    {
+      "level": 3,
+      "hp": 2080,
+      "atk": 180,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 751
+    },
+    {
+      "level": 4,
+      "hp": 2700,
+      "atk": 220,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1089
+    },
+    {
+      "level": 5,
+      "hp": 3510,
+      "atk": 260,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1524
+    },
+    {
+      "level": 6,
+      "hp": 4560,
+      "atk": 310,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2134
+    },
+    {
+      "level": 7,
+      "hp": 5930,
+      "atk": 400,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2988
+    },
+    {
+      "level": 8,
+      "hp": 7710,
+      "atk": 520,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4034
+    },
+    {
+      "level": 9,
+      "hp": 10020,
+      "atk": 680,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5244
+    },
+    {
+      "level": 10,
+      "hp": 13030,
+      "atk": 880,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6817
+    },
+    {
+      "level": 11,
+      "hp": 16940,
+      "atk": 1140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8862
+    },
+    {
+      "level": 12,
+      "hp": 22020,
+      "atk": 1480,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 11521
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 626,
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 293,
+      "relevance": 2
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 290,
+      "relevance": 2
+    },
+    {
+      "id": 659,
+      "name": "Bone Warlock",
+      "slug": "bone-warlock",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 242,
+      "relevance": 2
+    },
+    {
+      "id": 839,
+      "name": "Wooden Wizard",
+      "slug": "wooden-wizard",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 162,
+      "relevance": 2
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 1
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
+      "relevance": 1
+    },
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 1
+    },
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Soul Usher",
+    "description": "Soul Usher is a Epic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Soul Usher - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

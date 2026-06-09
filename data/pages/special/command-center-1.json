@@ -1,0 +1,288 @@
+{
+  "id": 101,
+  "slug": "command-center-1",
+  "name": "Command Center",
+  "title": "Command Center - Special Entity Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Command Center in War Inc: Rising. Rare Ranger unit costing 0. HP 9720, ATK -, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": 5,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 7,
+  "profession_name": "Ranger",
+  "cost": 0,
+  "combat_power": 500,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 9720,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 500
+    },
+    {
+      "level": 2,
+      "hp": 15070,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 775
+    },
+    {
+      "level": 3,
+      "hp": 22610,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 1162
+    },
+    {
+      "level": 4,
+      "hp": 32780,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 1686
+    },
+    {
+      "level": 5,
+      "hp": 45890,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 2360
+    },
+    {
+      "level": 6,
+      "hp": 64250,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 3304
+    },
+    {
+      "level": 7,
+      "hp": 89950,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 4625
+    },
+    {
+      "level": 8,
+      "hp": 121430,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 6244
+    },
+    {
+      "level": 9,
+      "hp": 157860,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 8117
+    },
+    {
+      "level": 10,
+      "hp": 205220,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 10553
+    },
+    {
+      "level": 11,
+      "hp": 266790,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 13719
+    },
+    {
+      "level": 12,
+      "hp": 346830,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 17834
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 201,
+      "name": "Gold Mine",
+      "slug": "gold-mine-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 104,
+      "name": "Follower Camp",
+      "slug": "follower-camp",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 601,
+      "name": "Spell Cauldron",
+      "slug": "spell-cauldron",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 203,
+      "name": "Sawmill",
+      "slug": "sawmill",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3036,
+      "name": "Timber Extractor",
+      "slug": "timber-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3037,
+      "name": "Stone Extractor",
+      "slug": "stone-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3038,
+      "name": "Metal Extractor",
+      "slug": "metal-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3039,
+      "name": "Redstone Mine",
+      "slug": "redstone-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3040,
+      "name": "Rock Mine",
+      "slug": "rock-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3041,
+      "name": "Lava Rock Mine",
+      "slug": "lava-rock-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3042,
+      "name": "Granite Mine",
+      "slug": "granite-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3043,
+      "name": "Marble Mine",
+      "slug": "marble-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Command Center",
+    "description": "Command Center is a Rare Ranger in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Command Center - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Ranger"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": 2008,
+  "slug": "donnie",
+  "name": "Donnie",
+  "title": "Donnie - Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Donnie in War Inc: Rising. Unknown Unknown unit costing None. HP 6000, ATK 40, DEF 1 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": null,
+  "rarity": null,
+  "rarity_name": "Unknown",
+  "profession": null,
+  "profession_name": "Unknown",
+  "cost": null,
+  "combat_power": null,
+  "atk_range": null,
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 6000,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 2,
+      "hp": 6600,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 3,
+      "hp": 7260,
+      "atk": 90,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 4,
+      "hp": 7990,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 5,
+      "hp": 8790,
+      "atk": 210,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 6,
+      "hp": 9670,
+      "atk": 320,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 7,
+      "hp": 10640,
+      "atk": 480,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    }
+  ],
+  "skills": [],
+  "related": [],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Donnie",
+    "description": "Donnie is a Unknown Unknown in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Donnie - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "None"
+        }
+      ]
+    }
+  }
+}

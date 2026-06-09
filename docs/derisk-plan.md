@@ -1,18 +1,19 @@
-# Derisk Plan — War Inc: Rising Stats Blog
+# Derisk Plan — War Inc: Rising Wiki (codex-atlas.com)
 
 ## Goal
 
-Build a PSEO (Programmatic SEO) blog indexing all characters, cards, entities, modes, and stats for War Inc: Rising (com.i89trillion.strategy.rising). Generate wiki-style onboard pages from extracted game data.
+Build a PSEO (Programmatic SEO) wiki indexing all characters, cards, entities, modes, and stats for War Inc: Rising (com.i89trillion.strategy.rising). Generate wiki-style onboard pages from extracted game data to drive search traffic.
 
 ## Stack Decisions
 
-| Concern         | Decision               |
-|-----------------|------------------------|
-| Framework       | Astro                  |
-| Hosting         | Cloudflare Pages       |
-| Package manager | pnpm ^11.0.8           |
-| Module system   | ESM                    |
-| APK source      | APKPure (no device)    |
+| Concern         | Decision                          |
+|-----------------|-----------------------------------|
+| Domain          | `war-inc-rising.codex-atlas.com`  |
+| Framework       | Astro v6 (static output)          |
+| Hosting         | Cloudflare Pages                  |
+| Package manager | npm ^11.8.0                       |
+| Module system   | ESM                               |
+| APK source      | APKPure (no device)               |
 
 ---
 
@@ -33,45 +34,49 @@ Build a PSEO (Programmatic SEO) blog indexing all characters, cards, entities, m
 
 ---
 
-## Phase 1 — Data Pipeline
+## Phase 1 — Data Pipeline ✅
 
 **Goal**: Scripted, reproducible extraction from APK to clean structured data.
 
-- `scripts/extract.js` — automate APK download + extraction
-- `scripts/transform.js` — normalize raw exports into clean JSON
-- Entity inventory (count by type, assess page potential)
+- `scripts/extract_all.py` — Python extraction pipeline (replaces initial `.js` plan)
+- `scripts/extract_data.py` / `scripts/extract_data_v2.py` — UnityPy asset extraction
+- `scripts/generate_pages.py` — Merges raw configs → `data/pages/{type}/{slug}.json`
+- Entity inventory: **250 units** (161 heroes, 20 buildings, 69 special entities)
 
-**Deliverable**: Clean JSON data files in `data/processed/` + entity inventory.
+**Deliverable**: Clean JSON data files in `data/processed/` + page-ready JSON in `data/pages/`.
 
 ---
 
-## Phase 2 — Content Prototype
+## Phase 2 — Content Prototype ✅
 
 **Goal**: Deployable prototype with real entity data.
 
-- Scaffold Astro project (`pnpm create astro`)
-- One template per entity type
-- SEO foundation:
-  - Flat slug structure
-  - Per-page meta tags + canonical URLs
-  - Schema.org structured data (Game, Character, Item)
-  - Auto-generated sitemap + robots.txt
-- Measure build time vs projected entity count
+- Astro v6 scaffolded (static output, `npm run build` → `dist/`)
+- Dynamic routes: `[slug].astro` for heroes, buildings, special entities
+- Each page: breadcrumb, H1, rarity/profession, per-level stats table (12 levels), skills (with effects where available), related units, JSON-LD schema
+- **259 pages generated** (161 hero + 20 building + 69 special + 9 index/home pages)
+- Build time: ~600ms, output: ~1.7MB
+- `wrangler.toml` configured for Cloudflare Pages
 
-**Deliverable**: Live prototype on Cloudflare Pages with 1-2 entity types rendered.
+**Deliverable**: Live prototype on Cloudflare Pages with all entity types rendered.
 
 ---
 
 ## Phase 3 — Scale
 
-**Goal**: Full site with all entities indexed.
+## Phase 3 — Scale (in progress)
 
-- Generate all entity pages
-- Category landing pages per entity type
-- Deploy to Cloudflare Pages (build config, caching, redirects)
-- SEO audit (validators, Core Web Vitals, indexability)
+**Goal**: Full site with all entities indexed. Domain live on Cloudflare Pages.
 
-**Deliverable**: Live site covering all current game entities.
+- [x] Generate all entity pages (250 pages from unit_database.json)
+- [x] Category landing pages per entity type (heroes, buildings, special)
+- [ ] Deploy to Cloudflare Pages (`wrangler pages deploy dist/`)
+- [ ] Add remaining entity types (equipment, modes, synergies, buffs, followers)
+- [ ] SEO audit (validators, Core Web Vitals, indexability)
+- [ ] Set up custom domain + Cloudflare SSL
+- [ ] Add sitemap.xml + robots.txt
+
+**Deliverable**: Live site at `war-inc-rising.codex-atlas.com` covering all game entities.
 
 ---
 

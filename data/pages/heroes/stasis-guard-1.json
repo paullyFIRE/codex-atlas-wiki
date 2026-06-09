@@ -1,0 +1,343 @@
+{
+  "id": 796,
+  "slug": "stasis-guard-1",
+  "name": "Stasis Guard",
+  "title": "Stasis Guard - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Stasis Guard in War Inc: Rising. Mythic Mage unit costing 8. HP 1520000, ATK 96000, DEF - per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 8,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1520000,
+      "atk": 96000,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 1672000,
+      "atk": 105600,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 1839200,
+      "atk": 116160,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 2023120,
+      "atk": 127776,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 2225430,
+      "atk": 140554,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 2447970,
+      "atk": 154609,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 2692770,
+      "atk": 170070,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 2962050,
+      "atk": 187077,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 3258260,
+      "atk": 205785,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 3584090,
+      "atk": 226364,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 3942500,
+      "atk": 249000,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 4336750,
+      "atk": 273900,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 79702,
+      "skill_number": 1,
+      "name": "Shield Wall Bind",
+      "description": "When attacking, has a {0} chance to bind the target for {1} seconds. Spends {2} Lucky Coins to transform, turning binds into area effects.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 79703,
+      "skill_number": 2,
+      "name": "Divine Shield Awakening",
+      "description": "Bind duration increased by {0} seconds.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 79704,
+      "skill_number": 3,
+      "name": "Guardian's Decree",
+      "description": "Upon deployment, increases skill activation chance by {0}.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 2
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 2
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 2
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 2
+    },
+    {
+      "id": 709,
+      "name": "Netherworld Arbiter",
+      "slug": "netherworld-arbiter",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 760,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 761,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 787,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 788,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 797,
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 798,
+      "name": "Gaia",
+      "slug": "gaia-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Stasis Guard",
+    "description": "Stasis Guard is a Mythic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Stasis Guard - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

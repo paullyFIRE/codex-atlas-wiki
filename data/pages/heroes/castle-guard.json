@@ -1,0 +1,288 @@
+{
+  "id": 147,
+  "slug": "castle-guard",
+  "name": "Castle Guard",
+  "title": "Castle Guard - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Castle Guard in War Inc: Rising. Legendary Special unit costing 0. HP 4860, ATK 108, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4860,
+      "atk": 108,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 7530,
+      "atk": 170,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 11300,
+      "atk": 260,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 16390,
+      "atk": 380,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 22950,
+      "atk": 530,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 32130,
+      "atk": 740,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 44980,
+      "atk": 1040,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 60720,
+      "atk": 1400,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 78940,
+      "atk": 1820,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 4860,
+      "atk": 108,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 7530,
+      "atk": 170,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 11300,
+      "atk": 260,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 650,
+      "name": "Shell Guard",
+      "slug": "shell-guard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 402,
+      "relevance": 2
+    },
+    {
+      "id": 844,
+      "name": "Cactus Guardian",
+      "slug": "cactus-guardian",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 349,
+      "relevance": 2
+    },
+    {
+      "id": 657,
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 341,
+      "relevance": 2
+    },
+    {
+      "id": 721,
+      "name": "Ironguard",
+      "slug": "ironguard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
+      "relevance": 2
+    },
+    {
+      "id": 621,
+      "name": "Sakura Ronin",
+      "slug": "sakura-ronin",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 1
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 1
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 1
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Castle Guard",
+    "description": "Castle Guard is a Legendary Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Castle Guard - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

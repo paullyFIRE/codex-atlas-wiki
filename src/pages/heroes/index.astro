@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const indexFiles = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
+const index = indexFiles['/data/pages/heroes/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
+---
+
+<BaseLayout
+  title="All Heroes - Stats and Analysis | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} heroes in War Inc: Rising. Filter by rarity, profession, and stats to find the best units.`}
+>
+  <h1>All Heroes</h1>
+  <p>{items.length} playable units — sorted by combat power.</p>
+
+  <ul>
+    {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
+      <li>
+        <a href={`/heroes/${item.slug}/`}>{item.name}</a>
+        <span class="meta">{item.rarity_name} · {item.profession_name} · Cost {item.cost} · Power {item.combat_power}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

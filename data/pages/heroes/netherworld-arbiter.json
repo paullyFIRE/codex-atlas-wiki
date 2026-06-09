@@ -1,0 +1,407 @@
+{
+  "id": 709,
+  "slug": "netherworld-arbiter",
+  "name": "Netherworld Arbiter",
+  "title": "Netherworld Arbiter - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Netherworld Arbiter in War Inc: Rising. Mythic Mage unit costing 8. HP 3040000, ATK 128000, DEF - per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 8,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3040000,
+      "atk": 128000,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 4712000,
+      "atk": 198400,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7068000,
+      "atk": 297600,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 10248600,
+      "atk": 431520,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 14348040,
+      "atk": 604130,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 20087260,
+      "atk": 845780,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 28122160,
+      "atk": 1184090,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 37964920,
+      "atk": 1598520,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 49354400,
+      "atk": 2078080,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 64160720,
+      "atk": 2701500,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 83408940,
+      "atk": 3511950,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 108431620,
+      "atk": 4565540,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 70902,
+      "skill_number": 1,
+      "name": "Reaper's Judgment",
+      "description": "Deal moderate damage to enemy units in a medium area.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 70903,
+      "skill_number": 2,
+      "name": "Death Bind",
+      "description": "Attacks on targets in an area will apply a significant slowing effect.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 70904,
+      "skill_number": 3,
+      "name": "Netherwave Breaker",
+      "description": "Slightly ignore the enemy's wind resistance.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 2
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 2
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 2
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 2
+    },
+    {
+      "id": 760,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 761,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 787,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 788,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 796,
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 797,
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 798,
+      "name": "Gaia",
+      "slug": "gaia-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Netherworld Arbiter",
+    "description": "Netherworld Arbiter is a Mythic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Netherworld Arbiter - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

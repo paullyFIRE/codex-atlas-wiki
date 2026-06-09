@@ -1,0 +1,385 @@
+{
+  "id": 706,
+  "slug": "starlight-apostle",
+  "name": "Starlight Apostle",
+  "title": "Starlight Apostle - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Starlight Apostle in War Inc: Rising. Mythic Mage unit costing 8. HP 4040, ATK 268, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 8,
+  "combat_power": 392,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4040,
+      "atk": 268,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 392
+    },
+    {
+      "level": 2,
+      "hp": 6260,
+      "atk": 420,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 608
+    },
+    {
+      "level": 3,
+      "hp": 9390,
+      "atk": 630,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 911
+    },
+    {
+      "level": 4,
+      "hp": 13620,
+      "atk": 910,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1322
+    },
+    {
+      "level": 5,
+      "hp": 19070,
+      "atk": 1270,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1850
+    },
+    {
+      "level": 6,
+      "hp": 26700,
+      "atk": 1780,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2590
+    },
+    {
+      "level": 7,
+      "hp": 37380,
+      "atk": 2490,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3626
+    },
+    {
+      "level": 8,
+      "hp": 50460,
+      "atk": 3360,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4895
+    },
+    {
+      "level": 9,
+      "hp": 65600,
+      "atk": 4370,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6364
+    },
+    {
+      "level": 10,
+      "hp": 85280,
+      "atk": 5680,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8273
+    },
+    {
+      "level": 11,
+      "hp": 110860,
+      "atk": 7380,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 10755
+    },
+    {
+      "level": 12,
+      "hp": 144120,
+      "atk": 9590,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 13982
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 2
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 2
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 2
+    },
+    {
+      "id": 709,
+      "name": "Netherworld Arbiter",
+      "slug": "netherworld-arbiter",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 760,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 761,
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 787,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 788,
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 796,
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 797,
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-2",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 798,
+      "name": "Gaia",
+      "slug": "gaia-1",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Starlight Apostle",
+    "description": "Starlight Apostle is a Mythic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Starlight Apostle - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

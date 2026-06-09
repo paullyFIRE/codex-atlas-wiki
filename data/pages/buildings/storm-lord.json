@@ -1,0 +1,288 @@
+{
+  "id": 140,
+  "slug": "storm-lord",
+  "name": "Storm Lord",
+  "title": "Storm Lord - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Storm Lord in War Inc: Rising. Mythic Tank unit costing 0. HP 999999999, ATK 1000, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 999999999,
+      "atk": 1000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 2
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 2
+    },
+    {
+      "id": 774,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-2",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 376,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Storm Lord",
+    "description": "Storm Lord is a Mythic Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Storm Lord - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

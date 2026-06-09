@@ -1,0 +1,288 @@
+{
+  "id": 655,
+  "slug": "frost-skeleton",
+  "name": "Frost Skeleton",
+  "title": "Frost Skeleton - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Frost Skeleton in War Inc: Rising. Rare Assassin unit costing 3. HP 1464, ATK 40, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 3,
+  "combat_power": 249,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1464,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 249
+    },
+    {
+      "level": 2,
+      "hp": 1760,
+      "atk": 50,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 386
+    },
+    {
+      "level": 3,
+      "hp": 2110,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 579
+    },
+    {
+      "level": 4,
+      "hp": 2740,
+      "atk": 70,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 839
+    },
+    {
+      "level": 5,
+      "hp": 3560,
+      "atk": 80,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1175
+    },
+    {
+      "level": 6,
+      "hp": 4630,
+      "atk": 100,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1645
+    },
+    {
+      "level": 7,
+      "hp": 6020,
+      "atk": 130,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2303
+    },
+    {
+      "level": 8,
+      "hp": 7830,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3110
+    },
+    {
+      "level": 9,
+      "hp": 10180,
+      "atk": 220,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4043
+    },
+    {
+      "level": 10,
+      "hp": 13230,
+      "atk": 290,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5255
+    },
+    {
+      "level": 11,
+      "hp": 17200,
+      "atk": 380,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6832
+    },
+    {
+      "level": 12,
+      "hp": 22360,
+      "atk": 490,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8881
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 2
+    },
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 2
+    },
+    {
+      "id": 629,
+      "name": "Goblin Warrior",
+      "slug": "goblin-warrior",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 216,
+      "relevance": 2
+    },
+    {
+      "id": 635,
+      "name": "Flail Warden",
+      "slug": "flail-warden",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 215,
+      "relevance": 2
+    },
+    {
+      "id": 619,
+      "name": "Berserker",
+      "slug": "berserker",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 208,
+      "relevance": 2
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Frost Skeleton",
+    "description": "Frost Skeleton is a Rare Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Frost Skeleton - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "3"
+        }
+      ]
+    }
+  }
+}

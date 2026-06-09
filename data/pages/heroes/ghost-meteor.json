@@ -1,0 +1,336 @@
+{
+  "id": 723,
+  "slug": "ghost-meteor",
+  "name": "Ghost Meteor",
+  "title": "Ghost Meteor - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Ghost Meteor in War Inc: Rising. Legendary Tank unit costing 6. HP 4370, ATK 260, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 6,
+  "combat_power": 328,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4370,
+      "atk": 260,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 328
+    },
+    {
+      "level": 2,
+      "hp": 6770,
+      "atk": 400,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 508
+    },
+    {
+      "level": 3,
+      "hp": 10160,
+      "atk": 600,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 763
+    },
+    {
+      "level": 4,
+      "hp": 14730,
+      "atk": 870,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1106
+    },
+    {
+      "level": 5,
+      "hp": 20620,
+      "atk": 1220,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1548
+    },
+    {
+      "level": 6,
+      "hp": 28870,
+      "atk": 1710,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2167
+    },
+    {
+      "level": 7,
+      "hp": 40420,
+      "atk": 2390,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3034
+    },
+    {
+      "level": 8,
+      "hp": 54570,
+      "atk": 3230,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4096
+    },
+    {
+      "level": 9,
+      "hp": 70940,
+      "atk": 4200,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5325
+    },
+    {
+      "level": 10,
+      "hp": 92220,
+      "atk": 5460,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6923
+    },
+    {
+      "level": 11,
+      "hp": 119890,
+      "atk": 7100,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8999
+    },
+    {
+      "level": 12,
+      "hp": 155860,
+      "atk": 9230,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 11699
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 72302,
+      "skill_number": 1,
+      "name": "Quicksand Vortex",
+      "description": "Upon death, deals area damage and stuns.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 72303,
+      "skill_number": 2,
+      "name": "Shattering Earth",
+      "description": "Stun duration increased.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 2
+    },
+    {
+      "id": 792,
+      "name": "Frostcrystal Spirit",
+      "slug": "frostcrystal-spirit",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 307,
+      "relevance": 2
+    },
+    {
+      "id": 731,
+      "name": "Wave Mage",
+      "slug": "wave-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 632,
+      "name": "Wind Apostle",
+      "slug": "wind-apostle",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 278,
+      "relevance": 2
+    },
+    {
+      "id": 640,
+      "name": "Ashen Arcanist",
+      "slug": "ashen-arcanist",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 273,
+      "relevance": 2
+    },
+    {
+      "id": 726,
+      "name": "Windlord",
+      "slug": "windlord",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 266,
+      "relevance": 2
+    },
+    {
+      "id": 142,
+      "name": "Tempest Core",
+      "slug": "tempest-core",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 146,
+      "name": "Castle Mage",
+      "slug": "castle-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 713,
+      "name": "Tide Caller",
+      "slug": "tide-caller",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 714,
+      "name": "Shadowflame Sorcerer",
+      "slug": "shadowflame-sorcerer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Ghost Meteor",
+    "description": "Ghost Meteor is a Legendary Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Ghost Meteor - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

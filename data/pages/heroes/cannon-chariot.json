@@ -1,0 +1,288 @@
+{
+  "id": 831,
+  "slug": "cannon-chariot",
+  "name": "Cannon Chariot",
+  "title": "Cannon Chariot - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Cannon Chariot in War Inc: Rising. Rare Warrior unit costing 4. HP 980, ATK 105, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 4,
+  "combat_power": 133,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 980,
+      "atk": 105,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 133
+    },
+    {
+      "level": 2,
+      "hp": 1520,
+      "atk": 160,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 206
+    },
+    {
+      "level": 3,
+      "hp": 2280,
+      "atk": 240,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 309
+    },
+    {
+      "level": 4,
+      "hp": 3310,
+      "atk": 350,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 448
+    },
+    {
+      "level": 5,
+      "hp": 4630,
+      "atk": 490,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 628
+    },
+    {
+      "level": 6,
+      "hp": 6480,
+      "atk": 690,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 879
+    },
+    {
+      "level": 7,
+      "hp": 9070,
+      "atk": 970,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1230
+    },
+    {
+      "level": 8,
+      "hp": 12240,
+      "atk": 1310,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1661
+    },
+    {
+      "level": 9,
+      "hp": 15910,
+      "atk": 1700,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2159
+    },
+    {
+      "level": 10,
+      "hp": 20680,
+      "atk": 2210,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2807
+    },
+    {
+      "level": 11,
+      "hp": 26880,
+      "atk": 2870,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3649
+    },
+    {
+      "level": 12,
+      "hp": 34940,
+      "atk": 3730,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4744
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 379,
+      "relevance": 2
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 372,
+      "relevance": 2
+    },
+    {
+      "id": 3067,
+      "name": "Fireworks Launcher",
+      "slug": "fireworks-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 297,
+      "relevance": 2
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 195,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Cannon Chariot",
+    "description": "Cannon Chariot is a Rare Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Cannon Chariot - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "4"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/heroes/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/heroes/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+let pageData;
+try {
+  const pages = import.meta.glob('/data/pages/heroes/*.json', { eager: true, import: 'default' });
+  pageData = pages[`/data/pages/heroes/${slug}.json`];
+} catch {}
+
+if (!pageData) {
+  return Astro.redirect('/heroes/', 404);
+}
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/heroes/">Heroes</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <header>
+      <h1>{pageData.name}</h1>
+      <p>
+        <span class="rarity">{pageData.rarity_name}</span>
+        <span class="profession">{pageData.profession_name}</span>
+        <span class="cost">Cost: {pageData.cost}</span>
+        <span class="power">Power: {pageData.combat_power}</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>Stats by Level</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>HP</th>
+            <th>ATK</th>
+            <th>DEF</th>
+            <th>ATK Speed</th>
+            <th>Move Speed</th>
+            <th>Range</th>
+            <th>Power</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pageData.stats_table.map((row) => (
+            <tr>
+              <td>{row.level}</td>
+              <td>{row.hp ?? '-'}</td>
+              <td>{row.atk ?? '-'}</td>
+              <td>{row.def ?? '-'}</td>
+              <td>{row.attack_speed ?? '-'}</td>
+              <td>{row.move_speed ?? '-'}</td>
+              <td>{row.attack_range ?? '-'}</td>
+              <td>{row.combat_power ?? '-'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    {pageData.skills.length > 0 && (
+      <section>
+        <h2>Skills</h2>
+        {pageData.skills.map((skill) => (
+          <div class="skill">
+            <h3>{skill.name}</h3>
+            {skill.description && <p>{skill.description}</p>}
+            {Object.keys(skill.level_effects).length > 0 && (
+              <table>
+                <thead>
+                  <tr>
+                    <th>Level</th>
+                    {Object.keys(Object.values(skill.level_effects)[0] || {}).map((key) => (
+                      <th>{key.replace(/_/g, ' ')}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(skill.level_effects).map(([lv, effects]) => (
+                    <tr>
+                      <td>{lv}</td>
+                      {Object.values(effects).map((val) => (
+                        <td>{val}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+          </div>
+        ))}
+      </section>
+    )}
+
+    <section>
+      <h2>How to Use {pageData.name}</h2>
+      <p><em>Strategy guide coming soon — based on profession, stats, and skill analysis.</em></p>
+    </section>
+
+    {pageData.related.length > 0 && (
+      <section>
+        <h2>Related Heroes</h2>
+        <ul>
+          {pageData.related.map((r) => (
+            <li>
+              <a href={`/heroes/${r.slug}/`}>{r.name}</a>
+              <span class="meta">{r.rarity_name} · {r.profession_name}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

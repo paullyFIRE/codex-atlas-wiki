@@ -1,0 +1,288 @@
+{
+  "id": 845,
+  "slug": "tide-lord",
+  "name": "Tide Lord",
+  "title": "Tide Lord - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Tide Lord in War Inc: Rising. Mythic Tank unit costing 10. HP 4040, ATK 298, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 10,
+  "combat_power": 463,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4040,
+      "atk": 298,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 463
+    },
+    {
+      "level": 2,
+      "hp": 6260,
+      "atk": 460,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 718
+    },
+    {
+      "level": 3,
+      "hp": 9390,
+      "atk": 690,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1076
+    },
+    {
+      "level": 4,
+      "hp": 13620,
+      "atk": 1000,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1561
+    },
+    {
+      "level": 5,
+      "hp": 19070,
+      "atk": 1400,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2185
+    },
+    {
+      "level": 6,
+      "hp": 26700,
+      "atk": 1960,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3059
+    },
+    {
+      "level": 7,
+      "hp": 37380,
+      "atk": 2740,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4283
+    },
+    {
+      "level": 8,
+      "hp": 50460,
+      "atk": 3700,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5782
+    },
+    {
+      "level": 9,
+      "hp": 65600,
+      "atk": 4810,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7517
+    },
+    {
+      "level": 10,
+      "hp": 85280,
+      "atk": 6250,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 9772
+    },
+    {
+      "level": 11,
+      "hp": 110860,
+      "atk": 8130,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 12703
+    },
+    {
+      "level": 12,
+      "hp": 144120,
+      "atk": 10570,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 16514
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 2
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 2
+    },
+    {
+      "id": 774,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-2",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 376,
+      "relevance": 2
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Tide Lord",
+    "description": "Tide Lord is a Mythic Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Tide Lord - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "10"
+        }
+      ]
+    }
+  }
+}

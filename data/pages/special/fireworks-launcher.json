@@ -1,0 +1,288 @@
+{
+  "id": 3067,
+  "slug": "fireworks-launcher",
+  "name": "Fireworks Launcher",
+  "title": "Fireworks Launcher - Special Entity Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Fireworks Launcher in War Inc: Rising. Rare Warrior unit costing 0. HP 25110, ATK 360, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": 5,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 0,
+  "combat_power": 306,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 25110,
+      "atk": 360,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 306
+    },
+    {
+      "level": 2,
+      "hp": 40180,
+      "atk": 580,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 474
+    },
+    {
+      "level": 3,
+      "hp": 62280,
+      "atk": 900,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 711
+    },
+    {
+      "level": 4,
+      "hp": 96530,
+      "atk": 1400,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 1032
+    },
+    {
+      "level": 5,
+      "hp": 144800,
+      "atk": 2100,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 1444
+    },
+    {
+      "level": 6,
+      "hp": 217200,
+      "atk": 3150,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 2022
+    },
+    {
+      "level": 7,
+      "hp": 325800,
+      "atk": 4730,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 2831
+    },
+    {
+      "level": 8,
+      "hp": 488700,
+      "atk": 7100,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 3821
+    },
+    {
+      "level": 9,
+      "hp": 733050,
+      "atk": 10650,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 4968
+    },
+    {
+      "level": 10,
+      "hp": 1099580,
+      "atk": 15980,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 6458
+    },
+    {
+      "level": 11,
+      "hp": 1649370,
+      "atk": 23970,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 8396
+    },
+    {
+      "level": 12,
+      "hp": 2474060,
+      "atk": 35960,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 10914
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 2
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 2
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3023,
+      "name": "Cannon",
+      "slug": "cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 3011,
+      "name": "Arrow Tower",
+      "slug": "arrow-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 379,
+      "relevance": 2
+    },
+    {
+      "id": 3010,
+      "name": "Bunker",
+      "slug": "bunker",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 372,
+      "relevance": 2
+    },
+    {
+      "id": 3068,
+      "name": "Electric Tower",
+      "slug": "electric-tower",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 3056,
+      "name": "Saw Launcher",
+      "slug": "saw-launcher",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 297,
+      "relevance": 2
+    },
+    {
+      "id": 3060,
+      "name": "Shield Generator",
+      "slug": "shield-generator",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 195,
+      "relevance": 2
+    },
+    {
+      "id": 3055,
+      "name": "Turret",
+      "slug": "turret-2",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 186,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Fireworks Launcher",
+    "description": "Fireworks Launcher is a Rare Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Fireworks Launcher - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

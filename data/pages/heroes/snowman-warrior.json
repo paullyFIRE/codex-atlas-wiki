@@ -1,0 +1,385 @@
+{
+  "id": 626,
+  "slug": "snowman-warrior",
+  "name": "Snowman Warrior",
+  "title": "Snowman Warrior - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Snowman Warrior in War Inc: Rising. Epic Mage unit costing 6. HP 1236, ATK 85, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 6,
+  "combat_power": 293,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1236,
+      "atk": 85,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 293
+    },
+    {
+      "level": 2,
+      "hp": 1480,
+      "atk": 100,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 454
+    },
+    {
+      "level": 3,
+      "hp": 1780,
+      "atk": 120,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 681
+    },
+    {
+      "level": 4,
+      "hp": 2310,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 988
+    },
+    {
+      "level": 5,
+      "hp": 3000,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1383
+    },
+    {
+      "level": 6,
+      "hp": 3900,
+      "atk": 200,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1936
+    },
+    {
+      "level": 7,
+      "hp": 5070,
+      "atk": 260,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2710
+    },
+    {
+      "level": 8,
+      "hp": 6590,
+      "atk": 340,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3659
+    },
+    {
+      "level": 9,
+      "hp": 8570,
+      "atk": 440,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4757
+    },
+    {
+      "level": 10,
+      "hp": 11140,
+      "atk": 570,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6184
+    },
+    {
+      "level": 11,
+      "hp": 14480,
+      "atk": 740,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8039
+    },
+    {
+      "level": 12,
+      "hp": 18820,
+      "atk": 960,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 10451
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 656,
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 323,
+      "relevance": 2
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 290,
+      "relevance": 2
+    },
+    {
+      "id": 659,
+      "name": "Bone Warlock",
+      "slug": "bone-warlock",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 242,
+      "relevance": 2
+    },
+    {
+      "id": 839,
+      "name": "Wooden Wizard",
+      "slug": "wooden-wizard",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 162,
+      "relevance": 2
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 1
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
+      "relevance": 1
+    },
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 1
+    },
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Snowman Warrior",
+    "description": "Snowman Warrior is a Epic Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Snowman Warrior - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

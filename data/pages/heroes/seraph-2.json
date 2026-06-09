@@ -1,0 +1,385 @@
+{
+  "id": 778,
+  "slug": "seraph-2",
+  "name": "Seraph",
+  "title": "Seraph - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Seraph in War Inc: Rising. Mythic Assassin unit costing 8. HP 7480, ATK 210, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 8,
+  "combat_power": 442,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 7480,
+      "atk": 210,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 442
+    },
+    {
+      "level": 2,
+      "hp": 11590,
+      "atk": 330,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 685
+    },
+    {
+      "level": 3,
+      "hp": 17390,
+      "atk": 500,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1028
+    },
+    {
+      "level": 4,
+      "hp": 25220,
+      "atk": 730,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1490
+    },
+    {
+      "level": 5,
+      "hp": 35310,
+      "atk": 1020,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2086
+    },
+    {
+      "level": 6,
+      "hp": 49430,
+      "atk": 1430,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2921
+    },
+    {
+      "level": 7,
+      "hp": 69200,
+      "atk": 2000,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4089
+    },
+    {
+      "level": 8,
+      "hp": 93420,
+      "atk": 2700,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5520
+    },
+    {
+      "level": 9,
+      "hp": 121450,
+      "atk": 3510,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7176
+    },
+    {
+      "level": 10,
+      "hp": 157890,
+      "atk": 4560,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 9329
+    },
+    {
+      "level": 11,
+      "hp": 205260,
+      "atk": 5930,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 12127
+    },
+    {
+      "level": 12,
+      "hp": 266840,
+      "atk": 7710,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 15765
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 2
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 2
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 2
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 2
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 2
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 2
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 445,
+      "relevance": 2
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 429,
+      "relevance": 2
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 2
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Seraph",
+    "description": "Seraph is a Mythic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Seraph - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

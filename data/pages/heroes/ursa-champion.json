@@ -1,0 +1,385 @@
+{
+  "id": 628,
+  "slug": "ursa-champion",
+  "name": "Ursa Champion",
+  "title": "Ursa Champion - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Ursa Champion in War Inc: Rising. Legendary Mage unit costing 6. HP 3760, ATK 108, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 6,
+  "combat_power": 317,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3760,
+      "atk": 108,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 317
+    },
+    {
+      "level": 2,
+      "hp": 5830,
+      "atk": 170,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 491
+    },
+    {
+      "level": 3,
+      "hp": 8750,
+      "atk": 260,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 737
+    },
+    {
+      "level": 4,
+      "hp": 12690,
+      "atk": 380,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 1069
+    },
+    {
+      "level": 5,
+      "hp": 17770,
+      "atk": 530,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 1496
+    },
+    {
+      "level": 6,
+      "hp": 24880,
+      "atk": 740,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 2095
+    },
+    {
+      "level": 7,
+      "hp": 34830,
+      "atk": 1040,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 2932
+    },
+    {
+      "level": 8,
+      "hp": 47020,
+      "atk": 1400,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 3959
+    },
+    {
+      "level": 9,
+      "hp": 61130,
+      "atk": 1820,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 5146
+    },
+    {
+      "level": 10,
+      "hp": 79470,
+      "atk": 2370,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 6690
+    },
+    {
+      "level": 11,
+      "hp": 103310,
+      "atk": 3080,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 8698
+    },
+    {
+      "level": 12,
+      "hp": 134300,
+      "atk": 4000,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 11307
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 2
+    },
+    {
+      "id": 718,
+      "name": "Grace Priest",
+      "slug": "grace-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 289,
+      "relevance": 2
+    },
+    {
+      "id": 717,
+      "name": "Drumbeast Gorilla",
+      "slug": "drumbeast-gorilla",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 280,
+      "relevance": 2
+    },
+    {
+      "id": 716,
+      "name": "Windbearer",
+      "slug": "windbearer",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 724,
+      "name": "Stoneheart Empowerer",
+      "slug": "stoneheart-empowerer",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 725,
+      "name": "Psychic Nymph",
+      "slug": "psychic-nymph",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 727,
+      "name": "Frostwater Mage",
+      "slug": "frostwater-mage",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 728,
+      "name": "The Pilgrim",
+      "slug": "the-pilgrim",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Ursa Champion",
+    "description": "Ursa Champion is a Legendary Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Ursa Champion - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

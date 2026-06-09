@@ -1,0 +1,343 @@
+{
+  "id": 747,
+  "slug": "monkey-king",
+  "name": "Monkey King",
+  "title": "Monkey King - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Monkey King in War Inc: Rising. Mythic Assassin unit costing 8. HP 6840, ATK 230, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 8,
+  "combat_power": 445,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 6840,
+      "atk": 230,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 445
+    },
+    {
+      "level": 2,
+      "hp": 10600,
+      "atk": 360,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 690
+    },
+    {
+      "level": 3,
+      "hp": 15900,
+      "atk": 540,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1035
+    },
+    {
+      "level": 4,
+      "hp": 23060,
+      "atk": 780,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1500
+    },
+    {
+      "level": 5,
+      "hp": 32280,
+      "atk": 1090,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2100
+    },
+    {
+      "level": 6,
+      "hp": 45190,
+      "atk": 1530,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2940
+    },
+    {
+      "level": 7,
+      "hp": 63270,
+      "atk": 2140,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4117
+    },
+    {
+      "level": 8,
+      "hp": 85410,
+      "atk": 2890,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5557
+    },
+    {
+      "level": 9,
+      "hp": 111030,
+      "atk": 3760,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7225
+    },
+    {
+      "level": 10,
+      "hp": 144340,
+      "atk": 4890,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 9392
+    },
+    {
+      "level": 11,
+      "hp": 187640,
+      "atk": 6360,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 12210
+    },
+    {
+      "level": 12,
+      "hp": 243930,
+      "atk": 8270,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 15872
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 74702,
+      "skill_number": 1,
+      "name": "Heaven Strike",
+      "description": "Deal single-target damage and stun the enemy.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 74703,
+      "skill_number": 2,
+      "name": "Band of Power",
+      "description": "Increase own attack power for a short time when skill triggers.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 74704,
+      "skill_number": 3,
+      "name": "King’s Fury",
+      "description": "Skill greatly increases stun duration.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 2
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 2
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 2
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 2
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 2
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 2
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 442,
+      "relevance": 2
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 429,
+      "relevance": 2
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 2
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Monkey King",
+    "description": "Monkey King is a Mythic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Monkey King - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

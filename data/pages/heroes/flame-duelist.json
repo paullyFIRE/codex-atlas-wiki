@@ -1,0 +1,321 @@
+{
+  "id": 744,
+  "slug": "flame-duelist",
+  "name": "Flame Duelist",
+  "title": "Flame Duelist - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Flame Duelist in War Inc: Rising. Mythic Special unit costing 8. HP 7200, ATK 175, DEF 3 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 8,
+  "combat_power": 469,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 7200,
+      "atk": 175,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 469
+    },
+    {
+      "level": 2,
+      "hp": 11160,
+      "atk": 270,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 727
+    },
+    {
+      "level": 3,
+      "hp": 16740,
+      "atk": 410,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1090
+    },
+    {
+      "level": 4,
+      "hp": 24270,
+      "atk": 590,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1581
+    },
+    {
+      "level": 5,
+      "hp": 33980,
+      "atk": 830,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 2214
+    },
+    {
+      "level": 6,
+      "hp": 47570,
+      "atk": 1160,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 3099
+    },
+    {
+      "level": 7,
+      "hp": 66600,
+      "atk": 1620,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 4339
+    },
+    {
+      "level": 8,
+      "hp": 89910,
+      "atk": 2190,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 5857
+    },
+    {
+      "level": 9,
+      "hp": 116880,
+      "atk": 2850,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 7614
+    },
+    {
+      "level": 10,
+      "hp": 151940,
+      "atk": 3710,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 9898
+    },
+    {
+      "level": 11,
+      "hp": 197520,
+      "atk": 4820,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 12868
+    },
+    {
+      "level": 12,
+      "hp": 256780,
+      "atk": 6270,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 16728
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 2
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 2
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 2
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 2
+    },
+    {
+      "id": 141,
+      "name": "Castle Colossus",
+      "slug": "castle-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 143,
+      "name": "Tower Colossus",
+      "slug": "tower-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 763,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 794,
+      "name": "Dark Knight",
+      "slug": "dark-knight-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Flame Duelist",
+    "description": "Flame Duelist is a Mythic Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Flame Duelist - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

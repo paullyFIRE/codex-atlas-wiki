@@ -1,0 +1,288 @@
+{
+  "id": 3066,
+  "slug": "tree",
+  "name": "Tree",
+  "title": "Tree - Special Entity Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Tree in War Inc: Rising. Rare Ranger unit costing 0. HP 5400, ATK -, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": 5,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 7,
+  "profession_name": "Ranger",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 5400,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 6480,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7780,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 9340,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 11210,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 13450,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 16140,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 19370,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 23240,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 27890,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 32070,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 36880,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 500,
+      "relevance": 2
+    },
+    {
+      "id": 201,
+      "name": "Gold Mine",
+      "slug": "gold-mine-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 104,
+      "name": "Follower Camp",
+      "slug": "follower-camp",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 601,
+      "name": "Spell Cauldron",
+      "slug": "spell-cauldron",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 203,
+      "name": "Sawmill",
+      "slug": "sawmill",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3036,
+      "name": "Timber Extractor",
+      "slug": "timber-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3037,
+      "name": "Stone Extractor",
+      "slug": "stone-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3038,
+      "name": "Metal Extractor",
+      "slug": "metal-extractor",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3039,
+      "name": "Redstone Mine",
+      "slug": "redstone-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3040,
+      "name": "Rock Mine",
+      "slug": "rock-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3041,
+      "name": "Lava Rock Mine",
+      "slug": "lava-rock-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    },
+    {
+      "id": 3042,
+      "name": "Granite Mine",
+      "slug": "granite-mine",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 231,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Tree",
+    "description": "Tree is a Rare Ranger in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Tree - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Ranger"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id": 630,
+  "slug": "snowball-thrower",
+  "name": "Snowball Thrower",
+  "title": "Snowball Thrower - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Snowball Thrower in War Inc: Rising. Common Mage unit costing 2. HP 732, ATK 34, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 2,
+  "combat_power": 91,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 732,
+      "atk": 34,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 91
+    },
+    {
+      "level": 2,
+      "hp": 880,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 141
+    },
+    {
+      "level": 3,
+      "hp": 1060,
+      "atk": 50,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 212
+    },
+    {
+      "level": 4,
+      "hp": 1380,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 307
+    },
+    {
+      "level": 5,
+      "hp": 1790,
+      "atk": 70,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 429
+    },
+    {
+      "level": 6,
+      "hp": 2330,
+      "atk": 80,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 601
+    },
+    {
+      "level": 7,
+      "hp": 3030,
+      "atk": 100,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 842
+    },
+    {
+      "level": 8,
+      "hp": 3940,
+      "atk": 130,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 1136
+    },
+    {
+      "level": 9,
+      "hp": 5120,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 1477
+    },
+    {
+      "level": 10,
+      "hp": 6660,
+      "atk": 220,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 1921
+    },
+    {
+      "level": 11,
+      "hp": 8660,
+      "atk": 290,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 2497
+    },
+    {
+      "level": 12,
+      "hp": 11260,
+      "atk": 380,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 3246
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 623,
+      "name": "Demoman",
+      "slug": "demoman",
+      "rarity": 1,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 108,
+      "relevance": 2
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    },
+    {
+      "id": 738,
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 706,
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 708,
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 391,
+      "relevance": 1
+    },
+    {
+      "id": 736,
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 390,
+      "relevance": 1
+    },
+    {
+      "id": 656,
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 323,
+      "relevance": 1
+    },
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 1
+    },
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 1
+    },
+    {
+      "id": 626,
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 293,
+      "relevance": 1
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 290,
+      "relevance": 1
+    },
+    {
+      "id": 718,
+      "name": "Grace Priest",
+      "slug": "grace-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 289,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Snowball Thrower",
+    "description": "Snowball Thrower is a Common Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Snowball Thrower - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id": 840,
+  "slug": "dwarf-berserker",
+  "name": "Dwarf Berserker",
+  "title": "Dwarf Berserker - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Dwarf Berserker in War Inc: Rising. Epic Assassin unit costing 6. HP 2424, ATK 92, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 6,
+  "combat_power": 223,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 2424,
+      "atk": 92,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 223
+    },
+    {
+      "level": 2,
+      "hp": 2910,
+      "atk": 110,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 346
+    },
+    {
+      "level": 3,
+      "hp": 3490,
+      "atk": 130,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 518
+    },
+    {
+      "level": 4,
+      "hp": 4540,
+      "atk": 160,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 752
+    },
+    {
+      "level": 5,
+      "hp": 5900,
+      "atk": 190,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1053
+    },
+    {
+      "level": 6,
+      "hp": 7670,
+      "atk": 230,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1474
+    },
+    {
+      "level": 7,
+      "hp": 9970,
+      "atk": 300,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2063
+    },
+    {
+      "level": 8,
+      "hp": 12960,
+      "atk": 390,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2785
+    },
+    {
+      "level": 9,
+      "hp": 16850,
+      "atk": 510,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3620
+    },
+    {
+      "level": 10,
+      "hp": 21910,
+      "atk": 660,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4707
+    },
+    {
+      "level": 11,
+      "hp": 28480,
+      "atk": 860,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6118
+    },
+    {
+      "level": 12,
+      "hp": 37020,
+      "atk": 1120,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 7954
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 620,
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 300,
+      "relevance": 2
+    },
+    {
+      "id": 842,
+      "name": "Minotaur Chieftain",
+      "slug": "minotaur-chieftain",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 211,
+      "relevance": 2
+    },
+    {
+      "id": 841,
+      "name": "Knight",
+      "slug": "knight",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 205,
+      "relevance": 2
+    },
+    {
+      "id": 833,
+      "name": "Guard Chario",
+      "slug": "guard-chario",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 126,
+      "relevance": 2
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 1
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Dwarf Berserker",
+    "description": "Dwarf Berserker is a Epic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Dwarf Berserker - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

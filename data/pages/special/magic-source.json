@@ -1,0 +1,167 @@
+{
+  "id": 3022,
+  "slug": "magic-source",
+  "name": "Magic Source",
+  "title": "Magic Source - Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Magic Source in War Inc: Rising. Unknown Unknown unit costing None. HP 7480, ATK -, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": null,
+  "rarity": null,
+  "rarity_name": "Unknown",
+  "profession": null,
+  "profession_name": "Unknown",
+  "cost": null,
+  "combat_power": null,
+  "atk_range": null,
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 7480,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 2,
+      "hp": 8980,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 3,
+      "hp": 10780,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 4,
+      "hp": 12940,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 5,
+      "hp": 15530,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 6,
+      "hp": 18640,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 7,
+      "hp": 22370,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 8,
+      "hp": 26840,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 9,
+      "hp": 32210,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 10,
+      "hp": 38650,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 11,
+      "hp": 46380,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 12,
+      "hp": 55660,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    }
+  ],
+  "skills": [],
+  "related": [],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Magic Source",
+    "description": "Magic Source is a Unknown Unknown in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Magic Source - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "None"
+        }
+      ]
+    }
+  }
+}

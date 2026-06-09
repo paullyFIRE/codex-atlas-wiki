@@ -1,0 +1,385 @@
+{
+  "id": 739,
+  "slug": "fury-cannoneer",
+  "name": "Fury Cannoneer",
+  "title": "Fury Cannoneer - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Fury Cannoneer in War Inc: Rising. Mythic Warrior unit costing 8. HP 3580, ATK 128, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 8,
+  "combat_power": 405,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3580,
+      "atk": 128,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 405
+    },
+    {
+      "level": 2,
+      "hp": 5550,
+      "atk": 200,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 628
+    },
+    {
+      "level": 3,
+      "hp": 8330,
+      "atk": 300,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 942
+    },
+    {
+      "level": 4,
+      "hp": 12080,
+      "atk": 440,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1365
+    },
+    {
+      "level": 5,
+      "hp": 16910,
+      "atk": 620,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1911
+    },
+    {
+      "level": 6,
+      "hp": 23670,
+      "atk": 870,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2676
+    },
+    {
+      "level": 7,
+      "hp": 33140,
+      "atk": 1220,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3747
+    },
+    {
+      "level": 8,
+      "hp": 44740,
+      "atk": 1650,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5058
+    },
+    {
+      "level": 9,
+      "hp": 58160,
+      "atk": 2150,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6575
+    },
+    {
+      "level": 10,
+      "hp": 75610,
+      "atk": 2800,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8548
+    },
+    {
+      "level": 11,
+      "hp": 98290,
+      "atk": 3640,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 11112
+    },
+    {
+      "level": 12,
+      "hp": 127780,
+      "atk": 4730,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 14446
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 2
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 2
+    },
+    {
+      "id": 711,
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 742,
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 848,
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 741,
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 2
+    },
+    {
+      "id": 710,
+      "name": "Mech-Magic Cannon",
+      "slug": "mech-magic-cannon",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 757,
+      "name": "Molten Archer",
+      "slug": "molten-archer-2",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 800,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 801,
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-2",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Fury Cannoneer",
+    "description": "Fury Cannoneer is a Mythic Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Fury Cannoneer - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "8"
+        }
+      ]
+    }
+  }
+}

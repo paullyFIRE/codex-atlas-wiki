@@ -1,0 +1,336 @@
+{
+  "id": 732,
+  "slug": "heartpiercing-crossbowman",
+  "name": "Heartpiercing Crossbowman",
+  "title": "Heartpiercing Crossbowman - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Heartpiercing Crossbowman in War Inc: Rising. Legendary Warrior unit costing 6. HP 304000, ATK 16000, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 6,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 304000,
+      "atk": 16000,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 471200,
+      "atk": 24800,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 706800,
+      "atk": 37200,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 1024860,
+      "atk": 53940,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 1434800,
+      "atk": 75520,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 2008720,
+      "atk": 105730,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 2812210,
+      "atk": 148020,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 3796480,
+      "atk": 199830,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 4935420,
+      "atk": 259780,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 6416050,
+      "atk": 337710,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 8340870,
+      "atk": 439020,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 10843130,
+      "atk": 570730,
+      "def": 1,
+      "attack_speed": 3,
+      "move_speed": 1,
+      "attack_range": 2,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 73202,
+      "skill_number": 1,
+      "name": "Flame Spread",
+      "description": "Each attack has a chance to apply a minor damage-over-time effect to enemies in a small area.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 73203,
+      "skill_number": 2,
+      "name": "Crossbow Barrage",
+      "description": "Gain a moderate attack speed bonus when casting a skill.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 2
+    },
+    {
+      "id": 719,
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 2
+    },
+    {
+      "id": 729,
+      "name": "Elven Archer",
+      "slug": "elven-archer",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 286,
+      "relevance": 2
+    },
+    {
+      "id": 720,
+      "name": "Cowboy Gunner",
+      "slug": "cowboy-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 284,
+      "relevance": 2
+    },
+    {
+      "id": 658,
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 2
+    },
+    {
+      "id": 145,
+      "name": "Castle Archer",
+      "slug": "castle-archer",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Heartpiercing Crossbowman",
+    "description": "Heartpiercing Crossbowman is a Legendary Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Heartpiercing Crossbowman - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

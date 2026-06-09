@@ -1,0 +1,288 @@
+{
+  "id": 835,
+  "slug": "paladin",
+  "name": "Paladin",
+  "title": "Paladin - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Paladin in War Inc: Rising. Rare Special unit costing 3. HP 1956, ATK 72, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 3,
+  "combat_power": 235,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1956,
+      "atk": 72,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 235
+    },
+    {
+      "level": 2,
+      "hp": 2350,
+      "atk": 90,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 364
+    },
+    {
+      "level": 3,
+      "hp": 2820,
+      "atk": 110,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 546
+    },
+    {
+      "level": 4,
+      "hp": 3670,
+      "atk": 130,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 792
+    },
+    {
+      "level": 5,
+      "hp": 4770,
+      "atk": 160,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1109
+    },
+    {
+      "level": 6,
+      "hp": 6200,
+      "atk": 190,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1553
+    },
+    {
+      "level": 7,
+      "hp": 8060,
+      "atk": 250,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2174
+    },
+    {
+      "level": 8,
+      "hp": 10480,
+      "atk": 330,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2935
+    },
+    {
+      "level": 9,
+      "hp": 13620,
+      "atk": 430,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3815
+    },
+    {
+      "level": 10,
+      "hp": 17710,
+      "atk": 560,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4960
+    },
+    {
+      "level": 11,
+      "hp": 23020,
+      "atk": 730,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6448
+    },
+    {
+      "level": 12,
+      "hp": 29930,
+      "atk": 950,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8382
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 2
+    },
+    {
+      "id": 3065,
+      "name": "Taunt Target",
+      "slug": "taunt-target",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 185,
+      "relevance": 2
+    },
+    {
+      "id": 836,
+      "name": "Goblin Chef",
+      "slug": "goblin-chef",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 109,
+      "relevance": 2
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 500,
+      "relevance": 1
+    },
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 1
+    },
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 1
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 1
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 1
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Paladin",
+    "description": "Paladin is a Rare Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Paladin - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "3"
+        }
+      ]
+    }
+  }
+}

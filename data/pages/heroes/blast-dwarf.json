@@ -1,0 +1,498 @@
+{
+  "id": 719,
+  "slug": "blast-dwarf",
+  "name": "Blast Dwarf",
+  "title": "Blast Dwarf - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Blast Dwarf in War Inc: Rising. Legendary Warrior unit costing 6. HP 2560, ATK 91, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 6,
+  "combat_power": 312,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 2560,
+      "atk": 91,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 312
+    },
+    {
+      "level": 2,
+      "hp": 3970,
+      "atk": 140,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 484
+    },
+    {
+      "level": 3,
+      "hp": 5960,
+      "atk": 210,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 725
+    },
+    {
+      "level": 4,
+      "hp": 8640,
+      "atk": 300,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1052
+    },
+    {
+      "level": 5,
+      "hp": 12100,
+      "atk": 420,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1473
+    },
+    {
+      "level": 6,
+      "hp": 16940,
+      "atk": 590,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2062
+    },
+    {
+      "level": 7,
+      "hp": 23720,
+      "atk": 830,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2886
+    },
+    {
+      "level": 8,
+      "hp": 32020,
+      "atk": 1120,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3896
+    },
+    {
+      "level": 9,
+      "hp": 41630,
+      "atk": 1460,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5065
+    },
+    {
+      "level": 10,
+      "hp": 54120,
+      "atk": 1900,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6585
+    },
+    {
+      "level": 11,
+      "hp": 70360,
+      "atk": 2470,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 8560
+    },
+    {
+      "level": 12,
+      "hp": 91470,
+      "atk": 3210,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 11129
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 71902,
+      "skill_number": 1,
+      "name": "Explosive Slam",
+      "description": "Grants increased Attack Power to self.",
+      "level_effects": {
+        "1": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "2": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "3": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "4": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "5": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "6": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "7": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "8": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "9": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "10": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "11": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        },
+        "12": {
+          "duration": 3,
+          "trigger_chance": 0.12,
+          "atk_mod": 0.3
+        }
+      }
+    },
+    {
+      "skill_id": 71903,
+      "skill_number": 2,
+      "name": "Full Firepower",
+      "description": "Increased skill activation chance.",
+      "level_effects": {
+        "1": {
+          "trigger_chance": 0.25
+        },
+        "2": {
+          "trigger_chance": 0.25
+        },
+        "3": {
+          "trigger_chance": 0.25
+        },
+        "4": {
+          "trigger_chance": 0.25
+        },
+        "5": {
+          "trigger_chance": 0.25
+        },
+        "6": {
+          "trigger_chance": 0.25
+        },
+        "7": {
+          "trigger_chance": 0.25
+        },
+        "8": {
+          "trigger_chance": 0.25
+        },
+        "9": {
+          "trigger_chance": 0.25
+        },
+        "10": {
+          "trigger_chance": 0.25
+        },
+        "11": {
+          "trigger_chance": 0.25
+        },
+        "12": {
+          "trigger_chance": 0.25
+        }
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 2
+    },
+    {
+      "id": 729,
+      "name": "Elven Archer",
+      "slug": "elven-archer",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 286,
+      "relevance": 2
+    },
+    {
+      "id": 720,
+      "name": "Cowboy Gunner",
+      "slug": "cowboy-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 284,
+      "relevance": 2
+    },
+    {
+      "id": 658,
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 2
+    },
+    {
+      "id": 145,
+      "name": "Castle Archer",
+      "slug": "castle-archer",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 732,
+      "name": "Heartpiercing Crossbowman",
+      "slug": "heartpiercing-crossbowman",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Blast Dwarf",
+    "description": "Blast Dwarf is a Legendary Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Blast Dwarf - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

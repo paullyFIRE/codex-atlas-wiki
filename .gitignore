@@ -5,5 +5,17 @@ data/raw/
 /tmp/assetripper_extracted/
 /tmp/il2cppdumper/
 
+# Node
+node_modules/
+
+# Astro build output
+dist/
+
+# Astro generated types
+.astro/
+
+# Wrangler
+.wrangler/
+
 # OS files
 .DS_Store

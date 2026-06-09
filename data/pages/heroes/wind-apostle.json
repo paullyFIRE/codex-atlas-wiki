@@ -1,0 +1,385 @@
+{
+  "id": 632,
+  "slug": "wind-apostle",
+  "name": "Wind Apostle",
+  "title": "Wind Apostle - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Wind Apostle in War Inc: Rising. Legendary Tank unit costing 6. HP 2560, ATK 142, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 6,
+  "combat_power": 278,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 2560,
+      "atk": 142,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 278
+    },
+    {
+      "level": 2,
+      "hp": 3970,
+      "atk": 220,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 431
+    },
+    {
+      "level": 3,
+      "hp": 5960,
+      "atk": 330,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 646
+    },
+    {
+      "level": 4,
+      "hp": 8640,
+      "atk": 480,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 937
+    },
+    {
+      "level": 5,
+      "hp": 12100,
+      "atk": 670,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1312
+    },
+    {
+      "level": 6,
+      "hp": 16940,
+      "atk": 940,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1837
+    },
+    {
+      "level": 7,
+      "hp": 23720,
+      "atk": 1320,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2572
+    },
+    {
+      "level": 8,
+      "hp": 32020,
+      "atk": 1780,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3472
+    },
+    {
+      "level": 9,
+      "hp": 41630,
+      "atk": 2310,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4513
+    },
+    {
+      "level": 10,
+      "hp": 54120,
+      "atk": 3000,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 5867
+    },
+    {
+      "level": 11,
+      "hp": 70360,
+      "atk": 3900,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7628
+    },
+    {
+      "level": 12,
+      "hp": 91470,
+      "atk": 5070,
+      "def": 2,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 9916
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 2
+    },
+    {
+      "id": 723,
+      "name": "Ghost Meteor",
+      "slug": "ghost-meteor",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 328,
+      "relevance": 2
+    },
+    {
+      "id": 792,
+      "name": "Frostcrystal Spirit",
+      "slug": "frostcrystal-spirit",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 307,
+      "relevance": 2
+    },
+    {
+      "id": 731,
+      "name": "Wave Mage",
+      "slug": "wave-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 306,
+      "relevance": 2
+    },
+    {
+      "id": 640,
+      "name": "Ashen Arcanist",
+      "slug": "ashen-arcanist",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 273,
+      "relevance": 2
+    },
+    {
+      "id": 726,
+      "name": "Windlord",
+      "slug": "windlord",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 266,
+      "relevance": 2
+    },
+    {
+      "id": 142,
+      "name": "Tempest Core",
+      "slug": "tempest-core",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 146,
+      "name": "Castle Mage",
+      "slug": "castle-mage",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 713,
+      "name": "Tide Caller",
+      "slug": "tide-caller",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 714,
+      "name": "Shadowflame Sorcerer",
+      "slug": "shadowflame-sorcerer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Wind Apostle",
+    "description": "Wind Apostle is a Legendary Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Wind Apostle - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

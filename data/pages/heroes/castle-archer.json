@@ -1,0 +1,288 @@
+{
+  "id": 145,
+  "slug": "castle-archer",
+  "name": "Castle Archer",
+  "title": "Castle Archer - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Castle Archer in War Inc: Rising. Legendary Warrior unit costing 0. HP 3020, ATK 272, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3020,
+      "atk": 272,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 4680,
+      "atk": 420,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7020,
+      "atk": 630,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 10180,
+      "atk": 910,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 14250,
+      "atk": 1270,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 19950,
+      "atk": 1780,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 27930,
+      "atk": 2490,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 37710,
+      "atk": 3360,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 49020,
+      "atk": 4370,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 3020,
+      "atk": 272,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 4680,
+      "atk": 420,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 7020,
+      "atk": 630,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 2
+    },
+    {
+      "id": 719,
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 2
+    },
+    {
+      "id": 729,
+      "name": "Elven Archer",
+      "slug": "elven-archer",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 286,
+      "relevance": 2
+    },
+    {
+      "id": 720,
+      "name": "Cowboy Gunner",
+      "slug": "cowboy-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 284,
+      "relevance": 2
+    },
+    {
+      "id": 658,
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 2
+    },
+    {
+      "id": 732,
+      "name": "Heartpiercing Crossbowman",
+      "slug": "heartpiercing-crossbowman",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Castle Archer",
+    "description": "Castle Archer is a Legendary Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Castle Archer - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

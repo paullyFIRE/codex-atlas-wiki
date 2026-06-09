@@ -1,0 +1,481 @@
+{
+  "id": 30,
+  "slug": "evil-ivy",
+  "name": "Evil Ivy",
+  "title": "Evil Ivy - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Evil Ivy in War Inc: Rising. Mythic Assassin unit costing 0. HP 999999999, ATK 1440, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -3,
+      "z": 3
+    },
+    {
+      "x": -2,
+      "z": 3
+    },
+    {
+      "x": -1,
+      "z": 3
+    },
+    {
+      "x": 0,
+      "z": 3
+    },
+    {
+      "x": 1,
+      "z": 3
+    },
+    {
+      "x": 2,
+      "z": 3
+    },
+    {
+      "x": 3,
+      "z": 3
+    },
+    {
+      "x": -3,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": 3,
+      "z": 2
+    },
+    {
+      "x": -3,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "z": 1
+    },
+    {
+      "x": -3,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": 3,
+      "z": -1
+    },
+    {
+      "x": -3,
+      "z": -2
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    },
+    {
+      "x": 3,
+      "z": -2
+    },
+    {
+      "x": -3,
+      "z": -3
+    },
+    {
+      "x": -2,
+      "z": -3
+    },
+    {
+      "x": -1,
+      "z": -3
+    },
+    {
+      "x": 0,
+      "z": -3
+    },
+    {
+      "x": 1,
+      "z": -3
+    },
+    {
+      "x": 2,
+      "z": -3
+    },
+    {
+      "x": 3,
+      "z": -3
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 999999999,
+      "atk": 1440,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 2
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 2
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 2
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 2
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 2
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 2
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 445,
+      "relevance": 2
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 442,
+      "relevance": 2
+    },
+    {
+      "id": 765,
+      "name": "Joker",
+      "slug": "joker",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 429,
+      "relevance": 2
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 2
+    },
+    {
+      "id": 752,
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 406,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Evil Ivy",
+    "description": "Evil Ivy is a Mythic Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Evil Ivy - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

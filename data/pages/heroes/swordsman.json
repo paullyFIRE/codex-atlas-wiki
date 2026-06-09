@@ -1,0 +1,321 @@
+{
+  "id": 700,
+  "slug": "swordsman",
+  "name": "Swordsman",
+  "title": "Swordsman - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Swordsman in War Inc: Rising. Common Assassin unit costing 2. HP 936, ATK 24, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 2,
+  "combat_power": 109,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 936,
+      "atk": 24,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 109
+    },
+    {
+      "level": 2,
+      "hp": 1120,
+      "atk": 30,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 169
+    },
+    {
+      "level": 3,
+      "hp": 1340,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 253
+    },
+    {
+      "level": 4,
+      "hp": 1740,
+      "atk": 50,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 367
+    },
+    {
+      "level": 5,
+      "hp": 2260,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 514
+    },
+    {
+      "level": 6,
+      "hp": 2940,
+      "atk": 70,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 720
+    },
+    {
+      "level": 7,
+      "hp": 3820,
+      "atk": 90,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1008
+    },
+    {
+      "level": 8,
+      "hp": 4970,
+      "atk": 120,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1361
+    },
+    {
+      "level": 9,
+      "hp": 6460,
+      "atk": 160,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 1770
+    },
+    {
+      "level": 10,
+      "hp": 8400,
+      "atk": 210,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 2300
+    },
+    {
+      "level": 11,
+      "hp": 10920,
+      "atk": 270,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 2991
+    },
+    {
+      "level": 12,
+      "hp": 14200,
+      "atk": 350,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": 3888
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 43,
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 20,
+      "relevance": 2
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 32,
+      "name": "Dune Troll",
+      "slug": "dune-troll",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Swordsman",
+    "description": "Swordsman is a Common Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Swordsman - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "2"
+        }
+      ]
+    }
+  }
+}

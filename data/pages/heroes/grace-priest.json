@@ -1,0 +1,422 @@
+{
+  "id": 718,
+  "slug": "grace-priest",
+  "name": "Grace Priest",
+  "title": "Grace Priest - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Grace Priest in War Inc: Rising. Legendary Mage unit costing 6. HP 3624, ATK 130, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 4,
+  "rarity_name": "Legendary",
+  "profession": 5,
+  "profession_name": "Mage",
+  "cost": 6,
+  "combat_power": 289,
+  "atk_range": [
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3624,
+      "atk": 130,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 289
+    },
+    {
+      "level": 2,
+      "hp": 5620,
+      "atk": 200,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 448
+    },
+    {
+      "level": 3,
+      "hp": 8430,
+      "atk": 300,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 672
+    },
+    {
+      "level": 4,
+      "hp": 12220,
+      "atk": 440,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 974
+    },
+    {
+      "level": 5,
+      "hp": 17110,
+      "atk": 620,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1364
+    },
+    {
+      "level": 6,
+      "hp": 23950,
+      "atk": 870,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1910
+    },
+    {
+      "level": 7,
+      "hp": 33530,
+      "atk": 1220,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2673
+    },
+    {
+      "level": 8,
+      "hp": 45270,
+      "atk": 1650,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3609
+    },
+    {
+      "level": 9,
+      "hp": 58850,
+      "atk": 2150,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 4692
+    },
+    {
+      "level": 10,
+      "hp": 76510,
+      "atk": 2800,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 6099
+    },
+    {
+      "level": 11,
+      "hp": 99460,
+      "atk": 3640,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 7929
+    },
+    {
+      "level": 12,
+      "hp": 129300,
+      "atk": 4730,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 10308
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 71802,
+      "skill_number": 1,
+      "name": "Divine Heal",
+      "description": "Heal multiple random allies within a large area.",
+      "level_effects": {
+        "1": {
+          "cooldown": 6,
+          "heal_fixed": 2992
+        },
+        "2": {
+          "cooldown": 6,
+          "heal_fixed": 4636
+        },
+        "3": {
+          "cooldown": 6,
+          "heal_fixed": 6956
+        },
+        "4": {
+          "cooldown": 6,
+          "heal_fixed": 10088
+        },
+        "5": {
+          "cooldown": 6,
+          "heal_fixed": 14124
+        },
+        "6": {
+          "cooldown": 6,
+          "heal_fixed": 29658
+        },
+        "7": {
+          "cooldown": 6,
+          "heal_fixed": 41520
+        },
+        "8": {
+          "cooldown": 6,
+          "heal_fixed": 56052
+        },
+        "9": {
+          "cooldown": 6,
+          "heal_fixed": 72870
+        },
+        "10": {
+          "cooldown": 6,
+          "heal_fixed": 94734
+        },
+        "11": {
+          "cooldown": 6,
+          "heal_fixed": 123156
+        },
+        "12": {
+          "cooldown": 6,
+          "heal_fixed": 160104
+        }
+      }
+    },
+    {
+      "skill_id": 71803,
+      "skill_number": 2,
+      "name": "Sacred Focus",
+      "description": "Increase healing ratio.",
+      "level_effects": {
+        "1": {
+          "heal_pct": 0.1
+        },
+        "2": {
+          "heal_pct": 0.1
+        },
+        "3": {
+          "heal_pct": 0.1
+        },
+        "4": {
+          "heal_pct": 0.1
+        },
+        "5": {
+          "heal_pct": 0.1
+        },
+        "6": {
+          "heal_pct": 0.1
+        },
+        "7": {
+          "heal_pct": 0.1
+        },
+        "8": {
+          "heal_pct": 0.1
+        },
+        "9": {
+          "heal_pct": 0.1
+        },
+        "10": {
+          "heal_pct": 0.1
+        },
+        "11": {
+          "heal_pct": 0.1
+        },
+        "12": {
+          "heal_pct": 0.1
+        }
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 2
+    },
+    {
+      "id": 654,
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 2
+    },
+    {
+      "id": 717,
+      "name": "Drumbeast Gorilla",
+      "slug": "drumbeast-gorilla",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 280,
+      "relevance": 2
+    },
+    {
+      "id": 716,
+      "name": "Windbearer",
+      "slug": "windbearer",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 724,
+      "name": "Stoneheart Empowerer",
+      "slug": "stoneheart-empowerer",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 725,
+      "name": "Psychic Nymph",
+      "slug": "psychic-nymph",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 727,
+      "name": "Frostwater Mage",
+      "slug": "frostwater-mage",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 728,
+      "name": "The Pilgrim",
+      "slug": "the-pilgrim",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 737,
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity": 5,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 426,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Grace Priest",
+    "description": "Grace Priest is a Legendary Mage in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Grace Priest - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Legendary"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Mage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

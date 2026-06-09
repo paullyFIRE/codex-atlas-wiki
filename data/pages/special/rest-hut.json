@@ -1,0 +1,167 @@
+{
+  "id": 3032,
+  "slug": "rest-hut",
+  "name": "Rest Hut",
+  "title": "Rest Hut - Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Rest Hut in War Inc: Rising. Unknown Unknown unit costing None. HP 4860, ATK -, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": null,
+  "rarity": null,
+  "rarity_name": "Unknown",
+  "profession": null,
+  "profession_name": "Unknown",
+  "cost": null,
+  "combat_power": null,
+  "atk_range": null,
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 4860,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 2,
+      "hp": 5830,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 3,
+      "hp": 7000,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 4,
+      "hp": 8400,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 5,
+      "hp": 10080,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 6,
+      "hp": 12100,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 7,
+      "hp": 14520,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 8,
+      "hp": 17420,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 9,
+      "hp": 20900,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 10,
+      "hp": 25080,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 11,
+      "hp": 30100,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 12,
+      "hp": 36120,
+      "atk": null,
+      "def": 3,
+      "attack_speed": null,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": null
+    }
+  ],
+  "skills": [],
+  "related": [],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Rest Hut",
+    "description": "Rest Hut is a Unknown Unknown in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Rest Hut - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "None"
+        }
+      ]
+    }
+  }
+}

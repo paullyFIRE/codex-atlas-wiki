@@ -1,0 +1,288 @@
+{
+  "id": 832,
+  "slug": "bomber",
+  "name": "Bomber",
+  "title": "Bomber - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Bomber in War Inc: Rising. Rare Tank unit costing 4. HP 960, ATK 260, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 4,
+  "combat_power": 242,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 960,
+      "atk": 260,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 242
+    },
+    {
+      "level": 2,
+      "hp": 1300,
+      "atk": 350,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 375
+    },
+    {
+      "level": 3,
+      "hp": 1690,
+      "atk": 460,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 563
+    },
+    {
+      "level": 4,
+      "hp": 2110,
+      "atk": 580,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 816
+    },
+    {
+      "level": 5,
+      "hp": 2640,
+      "atk": 730,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1142
+    },
+    {
+      "level": 6,
+      "hp": 3300,
+      "atk": 910,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1599
+    },
+    {
+      "level": 7,
+      "hp": 4130,
+      "atk": 1140,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2239
+    },
+    {
+      "level": 8,
+      "hp": 5160,
+      "atk": 1430,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3022
+    },
+    {
+      "level": 9,
+      "hp": 6190,
+      "atk": 1720,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3929
+    },
+    {
+      "level": 10,
+      "hp": 7430,
+      "atk": 2060,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 5108
+    },
+    {
+      "level": 11,
+      "hp": 8920,
+      "atk": 2470,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6640
+    },
+    {
+      "level": 12,
+      "hp": 10700,
+      "atk": 2960,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8632
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3024,
+      "name": "Thunder Tower",
+      "slug": "thunder-tower",
+      "rarity": 2,
+      "profession": 3,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 2
+    },
+    {
+      "id": 645,
+      "name": "Apprentice Mage",
+      "slug": "apprentice-mage",
+      "rarity": 2,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 186,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3034,
+      "name": "Ancient Guardian",
+      "slug": "ancient-guardian",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 101,
+      "name": "Command Center",
+      "slug": "command-center-1",
+      "rarity": 2,
+      "profession": 7,
+      "unit_type": 5,
+      "combat_power": 500,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Bomber",
+    "description": "Bomber is a Rare Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Bomber - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "4"
+        }
+      ]
+    }
+  }
+}

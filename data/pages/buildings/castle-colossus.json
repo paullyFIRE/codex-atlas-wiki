@@ -1,0 +1,288 @@
+{
+  "id": 141,
+  "slug": "castle-colossus",
+  "name": "Castle Colossus",
+  "title": "Castle Colossus - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Castle Colossus in War Inc: Rising. Mythic Special unit costing 0. HP 999999999, ATK 3000, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 999999999,
+      "atk": 3000,
+      "def": 3,
+      "attack_speed": 1,
+      "move_speed": null,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 2
+    },
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 2
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 2
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 2
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 2
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 2
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 2
+    },
+    {
+      "id": 143,
+      "name": "Tower Colossus",
+      "slug": "tower-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 763,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 794,
+      "name": "Dark Knight",
+      "slug": "dark-knight-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Castle Colossus",
+    "description": "Castle Colossus is a Mythic Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Castle Colossus - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Mythic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

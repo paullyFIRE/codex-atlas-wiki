@@ -1,0 +1,385 @@
+{
+  "id": 622,
+  "slug": "gunner",
+  "name": "Gunner",
+  "title": "Gunner - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Gunner in War Inc: Rising. Common Warrior unit costing 2. HP 744, ATK 36, DEF 1 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 2,
+  "profession_name": "Warrior",
+  "cost": 2,
+  "combat_power": 96,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 744,
+      "atk": 36,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 96
+    },
+    {
+      "level": 2,
+      "hp": 890,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 149
+    },
+    {
+      "level": 3,
+      "hp": 1070,
+      "atk": 50,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 223
+    },
+    {
+      "level": 4,
+      "hp": 1390,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 324
+    },
+    {
+      "level": 5,
+      "hp": 1810,
+      "atk": 70,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 453
+    },
+    {
+      "level": 6,
+      "hp": 2350,
+      "atk": 80,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 634
+    },
+    {
+      "level": 7,
+      "hp": 3060,
+      "atk": 100,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 888
+    },
+    {
+      "level": 8,
+      "hp": 3980,
+      "atk": 130,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1199
+    },
+    {
+      "level": 9,
+      "hp": 5170,
+      "atk": 170,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 1559
+    },
+    {
+      "level": 10,
+      "hp": 6720,
+      "atk": 220,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2026
+    },
+    {
+      "level": 11,
+      "hp": 8740,
+      "atk": 290,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 2634
+    },
+    {
+      "level": 12,
+      "hp": 11360,
+      "atk": 380,
+      "def": 1,
+      "attack_speed": 1,
+      "move_speed": 2,
+      "attack_range": 3,
+      "combat_power": 3424
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 618,
+      "name": "Archer",
+      "slug": "archer",
+      "rarity": 1,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 97,
+      "relevance": 2
+    },
+    {
+      "id": 131,
+      "name": "Venom Beetle",
+      "slug": "venom-beetle",
+      "rarity": 1,
+      "profession": 2,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 652,
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 465,
+      "relevance": 1
+    },
+    {
+      "id": 740,
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 433,
+      "relevance": 1
+    },
+    {
+      "id": 756,
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 411,
+      "relevance": 1
+    },
+    {
+      "id": 3059,
+      "name": "Electromagnetic Coil",
+      "slug": "electromagnetic-coil",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 408,
+      "relevance": 1
+    },
+    {
+      "id": 711,
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 742,
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 848,
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 3012,
+      "name": "Turret",
+      "slug": "turret-1",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Gunner",
+    "description": "Gunner is a Common Warrior in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Gunner - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Warrior"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id": 137,
+  "slug": "spiked-beetle",
+  "name": "Spiked Beetle",
+  "title": "Spiked Beetle - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Spiked Beetle in War Inc: Rising. Common Unknown unit costing 0. HP 3896000, ATK 1520, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": null,
+  "profession_name": "Unknown",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3896000,
+      "atk": 1520,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 5454400,
+      "atk": 2360,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7636160,
+      "atk": 3540,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 10690620,
+      "atk": 5130,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 14966870,
+      "atk": 7180,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 20953620,
+      "atk": 10050,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 29335070,
+      "atk": 14070,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 39602340,
+      "atk": 18990,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 51483040,
+      "atk": 24690,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 66927950,
+      "atk": 32100,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 87006340,
+      "atk": 41730,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 113108240,
+      "atk": 54250,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 803,
+      "name": "Woodshield Guard",
+      "slug": "woodshield-guard",
+      "rarity": 1,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 113,
+      "relevance": 1
+    },
+    {
+      "id": 700,
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 109,
+      "relevance": 1
+    },
+    {
+      "id": 623,
+      "name": "Demoman",
+      "slug": "demoman",
+      "rarity": 1,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 108,
+      "relevance": 1
+    },
+    {
+      "id": 618,
+      "name": "Archer",
+      "slug": "archer",
+      "rarity": 1,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 97,
+      "relevance": 1
+    },
+    {
+      "id": 622,
+      "name": "Gunner",
+      "slug": "gunner",
+      "rarity": 1,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 96,
+      "relevance": 1
+    },
+    {
+      "id": 630,
+      "name": "Snowball Thrower",
+      "slug": "snowball-thrower",
+      "rarity": 1,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 91,
+      "relevance": 1
+    },
+    {
+      "id": 43,
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 20,
+      "relevance": 1
+    },
+    {
+      "id": 50,
+      "name": "Dragon Knight",
+      "slug": "dragon-knight",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 58,
+      "name": "Naga Blade Master",
+      "slug": "naga-blade-master",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 32,
+      "name": "Dune Troll",
+      "slug": "dune-troll",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 130,
+      "name": "Ridge Drake",
+      "slug": "ridge-drake",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Spiked Beetle",
+    "description": "Spiked Beetle is a Common Unknown in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Spiked Beetle - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": 2006,
+  "slug": "steaky",
+  "name": "Steaky",
+  "title": "Steaky - Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Steaky in War Inc: Rising. Unknown Unknown unit costing None. HP 3900, ATK 40, DEF 1 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": null,
+  "rarity": null,
+  "rarity_name": "Unknown",
+  "profession": null,
+  "profession_name": "Unknown",
+  "cost": null,
+  "combat_power": null,
+  "atk_range": null,
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3900,
+      "atk": 40,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 2,
+      "hp": 4290,
+      "atk": 60,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 3,
+      "hp": 4720,
+      "atk": 90,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 4,
+      "hp": 5190,
+      "atk": 140,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 5,
+      "hp": 5710,
+      "atk": 210,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 6,
+      "hp": 6280,
+      "atk": 320,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    },
+    {
+      "level": 7,
+      "hp": 6910,
+      "atk": 480,
+      "def": 1,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 1,
+      "combat_power": null
+    }
+  ],
+  "skills": [],
+  "related": [],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Steaky",
+    "description": "Steaky is a Unknown Unknown in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Steaky - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "None"
+        }
+      ]
+    }
+  }
+}

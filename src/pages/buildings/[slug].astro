@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/buildings/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+let pageData;
+try {
+  const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
+  pageData = pages[`/data/pages/buildings/${slug}.json`];
+} catch {}
+
+if (!pageData) {
+  return Astro.redirect('/buildings/', 404);
+}
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/buildings/">Buildings</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <header>
+      <h1>{pageData.name}</h1>
+      <p>
+        <span class="rarity">{pageData.rarity_name}</span>
+        <span class="cost">Cost: {pageData.cost}</span>
+        <span class="power">Power: {pageData.combat_power}</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>Stats by Level</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>HP</th>
+            <th>ATK</th>
+            <th>DEF</th>
+            <th>ATK Speed</th>
+            <th>Range</th>
+            <th>Power</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pageData.stats_table.map((row) => (
+            <tr>
+              <td>{row.level}</td>
+              <td>{row.hp ?? '-'}</td>
+              <td>{row.atk ?? '-'}</td>
+              <td>{row.def ?? '-'}</td>
+              <td>{row.attack_speed ?? '-'}</td>
+              <td>{row.attack_range ?? '-'}</td>
+              <td>{row.combat_power ?? '-'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    {pageData.skills.length > 0 && (
+      <section>
+        <h2>Abilities</h2>
+        {pageData.skills.map((skill) => (
+          <div class="skill">
+            <h3>{skill.name}</h3>
+            {skill.description && <p>{skill.description}</p>}
+          </div>
+        ))}
+      </section>
+    )}
+  </article>
+</BaseLayout>

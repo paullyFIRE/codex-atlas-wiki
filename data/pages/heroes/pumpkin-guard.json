@@ -1,0 +1,288 @@
+{
+  "id": 830,
+  "slug": "pumpkin-guard",
+  "name": "Pumpkin Guard",
+  "title": "Pumpkin Guard - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Pumpkin Guard in War Inc: Rising. Epic Special unit costing 6. HP 5160, ATK 188, DEF 2 per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 3,
+  "rarity_name": "Epic",
+  "profession": 8,
+  "profession_name": "Special",
+  "cost": 6,
+  "combat_power": 298,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 5160,
+      "atk": 188,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 298
+    },
+    {
+      "level": 2,
+      "hp": 8000,
+      "atk": 290,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 462
+    },
+    {
+      "level": 3,
+      "hp": 12000,
+      "atk": 440,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 693
+    },
+    {
+      "level": 4,
+      "hp": 17400,
+      "atk": 640,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1005
+    },
+    {
+      "level": 5,
+      "hp": 24360,
+      "atk": 900,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1406
+    },
+    {
+      "level": 6,
+      "hp": 34100,
+      "atk": 1260,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 1969
+    },
+    {
+      "level": 7,
+      "hp": 47740,
+      "atk": 1760,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 2757
+    },
+    {
+      "level": 8,
+      "hp": 64450,
+      "atk": 2380,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 3722
+    },
+    {
+      "level": 9,
+      "hp": 83790,
+      "atk": 3090,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 4838
+    },
+    {
+      "level": 10,
+      "hp": 108930,
+      "atk": 4020,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 6289
+    },
+    {
+      "level": 11,
+      "hp": 141610,
+      "atk": 5230,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 8176
+    },
+    {
+      "level": 12,
+      "hp": 184090,
+      "atk": 6800,
+      "def": 2,
+      "attack_speed": 2,
+      "move_speed": 2,
+      "attack_range": 1,
+      "combat_power": 10629
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
+      "relevance": 1
+    },
+    {
+      "id": 743,
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 464,
+      "relevance": 1
+    },
+    {
+      "id": 795,
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 452,
+      "relevance": 1
+    },
+    {
+      "id": 762,
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 449,
+      "relevance": 1
+    },
+    {
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 650,
+      "name": "Shell Guard",
+      "slug": "shell-guard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 402,
+      "relevance": 1
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 1
+    },
+    {
+      "id": 844,
+      "name": "Cactus Guardian",
+      "slug": "cactus-guardian",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 349,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
+      "relevance": 1
+    },
+    {
+      "id": 657,
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 341,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Pumpkin Guard",
+    "description": "Pumpkin Guard is a Epic Special in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Pumpkin Guard - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Epic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Special"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "6"
+        }
+      ]
+    }
+  }
+}

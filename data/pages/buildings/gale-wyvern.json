@@ -1,0 +1,288 @@
+{
+  "id": 133,
+  "slug": "gale-wyvern",
+  "name": "Gale Wyvern",
+  "title": "Gale Wyvern - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Gale Wyvern in War Inc: Rising. Common Tank unit costing 0. HP 3896000, ATK 1320, DEF 3 per level, skills, and best game modes.",
+  "type": "buildings",
+  "unit_type": 4,
+  "rarity": 1,
+  "rarity_name": "Common",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 0,
+  "combat_power": 0,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 3896000,
+      "atk": 1320,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 5454400,
+      "atk": 2050,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 7636160,
+      "atk": 3080,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 10690620,
+      "atk": 4470,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 14966870,
+      "atk": 6260,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 20953620,
+      "atk": 8760,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 29335070,
+      "atk": 12260,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 39602340,
+      "atk": 16550,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 51483040,
+      "atk": 21520,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 66927950,
+      "atk": 27980,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 87006340,
+      "atk": 36370,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 113108240,
+      "atk": 47280,
+      "def": 3,
+      "attack_speed": 2,
+      "move_speed": 3,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 132,
+      "name": "Tidal Drake",
+      "slug": "tidal-drake",
+      "rarity": 1,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 653,
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity": 4,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 603,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 702,
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 707,
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 412,
+      "relevance": 1
+    },
+    {
+      "id": 3024,
+      "name": "Thunder Tower",
+      "slug": "thunder-tower",
+      "rarity": 2,
+      "profession": 3,
+      "unit_type": 5,
+      "combat_power": 406,
+      "relevance": 1
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Gale Wyvern",
+    "description": "Gale Wyvern is a Common Tank in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Gale Wyvern - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Common"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Tank"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}

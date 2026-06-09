@@ -1,0 +1,288 @@
+{
+  "id": 3034,
+  "slug": "ancient-guardian",
+  "name": "Ancient Guardian",
+  "title": "Ancient Guardian - Special Entity Stats | War Inc: Rising Wiki",
+  "meta_description": "Learn about Ancient Guardian in War Inc: Rising. Rare Assassin unit costing 0. HP 9720, ATK 68, DEF 3 per level, skills, and best game modes.",
+  "type": "special",
+  "unit_type": 5,
+  "rarity": 2,
+  "rarity_name": "Rare",
+  "profession": 4,
+  "profession_name": "Assassin",
+  "cost": 0,
+  "combat_power": 588,
+  "atk_range": [],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 9720,
+      "atk": 68,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 588
+    },
+    {
+      "level": 2,
+      "hp": 15070,
+      "atk": 110,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 911
+    },
+    {
+      "level": 3,
+      "hp": 22610,
+      "atk": 170,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 1367
+    },
+    {
+      "level": 4,
+      "hp": 32780,
+      "atk": 250,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 1982
+    },
+    {
+      "level": 5,
+      "hp": 45890,
+      "atk": 350,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 2775
+    },
+    {
+      "level": 6,
+      "hp": 64250,
+      "atk": 490,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 3885
+    },
+    {
+      "level": 7,
+      "hp": 89950,
+      "atk": 690,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 5439
+    },
+    {
+      "level": 8,
+      "hp": 121430,
+      "atk": 930,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 7343
+    },
+    {
+      "level": 9,
+      "hp": 157860,
+      "atk": 1210,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 9546
+    },
+    {
+      "level": 10,
+      "hp": 205220,
+      "atk": 1570,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 12410
+    },
+    {
+      "level": 11,
+      "hp": 266790,
+      "atk": 2040,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 16133
+    },
+    {
+      "level": 12,
+      "hp": 346830,
+      "atk": 2650,
+      "def": 3,
+      "attack_speed": 3,
+      "move_speed": null,
+      "attack_range": 1,
+      "combat_power": 20973
+    }
+  ],
+  "skills": [],
+  "related": [
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 2
+    },
+    {
+      "id": 655,
+      "name": "Frost Skeleton",
+      "slug": "frost-skeleton",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 249,
+      "relevance": 2
+    },
+    {
+      "id": 629,
+      "name": "Goblin Warrior",
+      "slug": "goblin-warrior",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 216,
+      "relevance": 2
+    },
+    {
+      "id": 635,
+      "name": "Flail Warden",
+      "slug": "flail-warden",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 215,
+      "relevance": 2
+    },
+    {
+      "id": 619,
+      "name": "Berserker",
+      "slug": "berserker",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 208,
+      "relevance": 2
+    },
+    {
+      "id": 3025,
+      "name": "Hammer Tower",
+      "slug": "hammer-tower",
+      "rarity": 2,
+      "profession": 8,
+      "unit_type": 5,
+      "combat_power": 588,
+      "relevance": 1
+    },
+    {
+      "id": 3057,
+      "name": "Flame Cannon",
+      "slug": "flame-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 3058,
+      "name": "Frost Cannon",
+      "slug": "frost-cannon",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 5,
+      "combat_power": 575,
+      "relevance": 1
+    },
+    {
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Ancient Guardian",
+    "description": "Ancient Guardian is a Rare Assassin in War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "name": "Ancient Guardian - War Inc: Rising Unit",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Rarity",
+          "value": "Rare"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Profession",
+          "value": "Assassin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost",
+          "value": "0"
+        }
+      ]
+    }
+  }
+}
