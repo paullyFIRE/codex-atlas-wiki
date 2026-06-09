@@ -1,10 +1,10 @@
 {
-  "id": 134,
-  "slug": "molten-bat",
-  "name": "Molten Bat",
-  "title": "Molten Bat - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Molten Bat in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1520, DEF 3 per level, skills, and best game modes.",
-  "type": "bosses",
+  "id": 130,
+  "slug": "ridge-drake",
+  "name": "Ridge Drake",
+  "title": "Ridge Drake - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Ridge Drake in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1448, DEF 3 per level, skills, and best game modes.",
+  "type": "hunting-bosses",
   "unit_type": 4,
   "rarity": 1,
   "rarity_name": "Common",
@@ -17,121 +17,121 @@
     {
       "level": 1,
       "hp": 3896000,
-      "atk": 1520,
+      "atk": 1448,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 2,
       "hp": 5454400,
-      "atk": 2360,
+      "atk": 2240,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 3,
       "hp": 7636160,
-      "atk": 3540,
+      "atk": 3360,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 4,
       "hp": 10690620,
-      "atk": 5130,
+      "atk": 4870,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 5,
       "hp": 14966870,
-      "atk": 7180,
+      "atk": 6820,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 6,
       "hp": 20953620,
-      "atk": 10050,
+      "atk": 9550,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 7,
       "hp": 29335070,
-      "atk": 14070,
+      "atk": 13370,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 8,
       "hp": 39602340,
-      "atk": 18990,
+      "atk": 18050,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 9,
       "hp": 51483040,
-      "atk": 24690,
+      "atk": 23470,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 10,
       "hp": 66927950,
-      "atk": 32100,
+      "atk": 30510,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 11,
       "hp": 87006340,
-      "atk": 41730,
+      "atk": 39660,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     },
     {
       "level": 12,
       "hp": 113108240,
-      "atk": 54250,
+      "atk": 51560,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 3,
+      "attack_range": 1,
       "combat_power": 0
     }
   ],
@@ -178,9 +178,9 @@
       "relevance": 2
     },
     {
-      "id": 130,
-      "name": "Ridge Drake",
-      "slug": "ridge-drake",
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
       "rarity": 1,
       "profession": 4,
       "unit_type": 4,
@@ -261,8 +261,8 @@
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Molten Bat",
-    "description": "Molten Bat is a Common Assassin in War Inc: Rising.",
+    "name": "Ridge Drake",
+    "description": "Ridge Drake is a Common Assassin in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -292,7 +292,7 @@
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "1520"
+        "value": "1448"
       },
       {
         "@type": "PropertyValue",
@@ -320,18 +320,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Bosses",
-        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
+        "name": "Hunting Mode Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/hunting-bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Molten Bat"
+        "name": "Ridge Drake"
       }
     ]
   },
   "strategy_tips": [
-    "Molten Bat excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Molten Bat behind tanks to protect them while they deal damage."
+    "Ridge Drake excels at single-target burst damage, making them ideal for eliminating key threats.",
+    "Deploy Ridge Drake behind tanks to protect them while they deal damage."
   ]
 }
