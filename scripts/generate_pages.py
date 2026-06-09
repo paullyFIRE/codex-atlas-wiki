@@ -224,11 +224,15 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
     # Sort skills by skill_number
     skills_list.sort(key=lambda s: s["skill_number"])
 
-    # Related units (same rarity or profession)
+    # Related units (same page type + same rarity or profession)
     related = []
     if rarity or profession:
         for other_id, other in db.items():
             if other_id == unit_id:
+                continue
+            # Only relate same page type (hero↔hero, building↔building, etc.)
+            other_type = other.get("unit_type")
+            if other_type != unit_type:
                 continue
             score = 0
             if rarity and other.get("rarity") == rarity:

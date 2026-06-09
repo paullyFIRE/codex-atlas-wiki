@@ -248,13 +248,13 @@
       "relevance": 2
     },
     {
-      "id": 631,
-      "name": "Forest Scout",
-      "slug": "forest-scout",
+      "id": 3061,
+      "name": "Wind Blast Tower",
+      "slug": "wind-blast-tower",
       "rarity": 2,
       "profession": 2,
-      "unit_type": 1,
-      "combat_power": 195,
+      "unit_type": 5,
+      "combat_power": 186,
       "relevance": 2
     }
   ],

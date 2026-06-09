@@ -241,26 +241,6 @@
       "relevance": 2
     },
     {
-      "id": 141,
-      "name": "Castle Colossus",
-      "slug": "castle-colossus",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 143,
-      "name": "Tower Colossus",
-      "slug": "tower-colossus",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
       "id": 763,
       "name": "Radiant Warrior",
       "slug": "radiant-warrior-2",
@@ -271,16 +251,6 @@
       "relevance": 2
     },
     {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "profession": 8,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
       "id": 664,
       "name": "Blaze Wanderer",
       "slug": "blaze-wanderer",
@@ -288,6 +258,36 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 529,
+      "relevance": 1
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
       "relevance": 1
     }
   ],

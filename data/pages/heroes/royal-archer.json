@@ -138,26 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
       "id": 652,
       "name": "Windhunt Arbalist",
       "slug": "windhunt-arbalist",
@@ -185,16 +165,6 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 411,
-      "relevance": 1
-    },
-    {
-      "id": 3059,
-      "name": "Electromagnetic Coil",
-      "slug": "electromagnetic-coil",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 408,
       "relevance": 1
     },
     {
@@ -228,26 +198,6 @@
       "relevance": 1
     },
     {
-      "id": 3012,
-      "name": "Turret",
-      "slug": "turret-1",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 406,
-      "relevance": 1
-    },
-    {
-      "id": 3023,
-      "name": "Cannon",
-      "slug": "cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 406,
-      "relevance": 1
-    },
-    {
       "id": 739,
       "name": "Fury Cannoneer",
       "slug": "fury-cannoneer",
@@ -255,6 +205,56 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 405,
+      "relevance": 1
+    },
+    {
+      "id": 741,
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 656,
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 323,
+      "relevance": 1
+    },
+    {
+      "id": 719,
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 312,
+      "relevance": 1
+    },
+    {
+      "id": 620,
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 300,
+      "relevance": 1
+    },
+    {
+      "id": 830,
+      "name": "Pumpkin Guard",
+      "slug": "pumpkin-guard",
+      "rarity": 3,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 298,
       "relevance": 1
     }
   ],

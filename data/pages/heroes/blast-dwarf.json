@@ -418,26 +418,6 @@
       "relevance": 1
     },
     {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
       "id": 651,
       "name": "Jungle Hunter",
       "slug": "jungle-hunter",
@@ -465,6 +445,26 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 411,
+      "relevance": 1
+    },
+    {
+      "id": 711,
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 742,
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
       "relevance": 1
     }
   ],

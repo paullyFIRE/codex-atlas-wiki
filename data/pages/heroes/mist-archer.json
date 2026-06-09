@@ -335,23 +335,23 @@
       "relevance": 2
     },
     {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
+      "id": 664,
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 529,
       "relevance": 1
     },
     {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
       "relevance": 1
     }
   ],

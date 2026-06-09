@@ -295,16 +295,6 @@
       "relevance": 1
     },
     {
-      "id": 3024,
-      "name": "Thunder Tower",
-      "slug": "thunder-tower",
-      "rarity": 2,
-      "profession": 3,
-      "unit_type": 5,
-      "combat_power": 406,
-      "relevance": 1
-    },
-    {
       "id": 705,
       "name": "Blazewing Lord",
       "slug": "blazewing-lord",
@@ -352,6 +342,16 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 394,
+      "relevance": 1
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
       "relevance": 1
     }
   ],

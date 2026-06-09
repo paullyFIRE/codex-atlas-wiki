@@ -235,16 +235,6 @@
   "skills": [],
   "related": [
     {
-      "id": 3024,
-      "name": "Thunder Tower",
-      "slug": "thunder-tower",
-      "rarity": 2,
-      "profession": 3,
-      "unit_type": 5,
-      "combat_power": 406,
-      "relevance": 2
-    },
-    {
       "id": 832,
       "name": "Bomber",
       "slug": "bomber",
@@ -262,56 +252,6 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 603,
-      "relevance": 1
-    },
-    {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "profession": 8,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
-      "id": 3034,
-      "name": "Ancient Guardian",
-      "slug": "ancient-guardian",
-      "rarity": 2,
-      "profession": 4,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
-      "id": 101,
-      "name": "Command Center",
-      "slug": "command-center-1",
-      "rarity": 2,
-      "profession": 7,
-      "unit_type": 5,
-      "combat_power": 500,
       "relevance": 1
     },
     {
@@ -352,6 +292,66 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 412,
+      "relevance": 1
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 1
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
       "relevance": 1
     }
   ],

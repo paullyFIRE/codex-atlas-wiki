@@ -138,16 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 3034,
-      "name": "Ancient Guardian",
-      "slug": "ancient-guardian",
-      "rarity": 2,
-      "profession": 4,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 2
-    },
-    {
       "id": 655,
       "name": "Frost Skeleton",
       "slug": "frost-skeleton",
@@ -188,36 +178,6 @@
       "relevance": 2
     },
     {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "profession": 8,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "profession": 2,
-      "unit_type": 5,
-      "combat_power": 575,
-      "relevance": 1
-    },
-    {
       "id": 664,
       "name": "Blaze Wanderer",
       "slug": "blaze-wanderer",
@@ -255,6 +215,46 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 1
+    },
+    {
+      "id": 782,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 466,
+      "relevance": 1
+    },
+    {
+      "id": 747,
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 445,
       "relevance": 1
     }
   ],

@@ -138,124 +138,74 @@
   "skills": [],
   "related": [
     {
-      "id": 845,
-      "name": "Tide Lord",
-      "slug": "tide-lord",
+      "id": 148,
+      "name": "Stormbringers",
+      "slug": "stormbringers",
       "rarity": 5,
       "profession": 3,
-      "unit_type": 1,
-      "combat_power": 463,
+      "unit_type": 4,
+      "combat_power": 0,
       "relevance": 2
     },
     {
-      "id": 846,
-      "name": "Blazeking",
-      "slug": "blazeking",
+      "id": 30,
+      "name": "Evil Ivy",
+      "slug": "evil-ivy",
       "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 463,
-      "relevance": 2
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     },
     {
-      "id": 702,
-      "name": "Earth Sage",
-      "slug": "earth-sage",
+      "id": 41,
+      "name": "Twin-Dragon",
+      "slug": "twin-dragon",
       "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 420,
-      "relevance": 2
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     },
     {
-      "id": 707,
-      "name": "Lord of Hatred",
-      "slug": "lord-of-hatred",
+      "id": 141,
+      "name": "Castle Colossus",
+      "slug": "castle-colossus",
       "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 412,
-      "relevance": 2
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     },
     {
-      "id": 705,
-      "name": "Blazewing Lord",
-      "slug": "blazewing-lord",
+      "id": 143,
+      "name": "Tower Colossus",
+      "slug": "tower-colossus",
       "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 403,
-      "relevance": 2
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     },
     {
-      "id": 734,
-      "name": "Nine-Tailed Fox",
-      "slug": "nine-tailed-fox",
-      "rarity": 5,
+      "id": 132,
+      "name": "Tidal Drake",
+      "slug": "tidal-drake",
+      "rarity": 1,
       "profession": 3,
-      "unit_type": 1,
-      "combat_power": 403,
-      "relevance": 2
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     },
     {
-      "id": 849,
-      "name": "Solar Sage",
-      "slug": "solar-sage",
-      "rarity": 5,
+      "id": 133,
+      "name": "Gale Wyvern",
+      "slug": "gale-wyvern",
+      "rarity": 1,
       "profession": 3,
-      "unit_type": 1,
-      "combat_power": 403,
-      "relevance": 2
-    },
-    {
-      "id": 850,
-      "name": "Shadow Witch",
-      "slug": "shadow-witch",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 403,
-      "relevance": 2
-    },
-    {
-      "id": 704,
-      "name": "Storm Maiden",
-      "slug": "storm-maiden",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 394,
-      "relevance": 2
-    },
-    {
-      "id": 638,
-      "name": "Geomancer",
-      "slug": "geomancer",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 384,
-      "relevance": 2
-    },
-    {
-      "id": 783,
-      "name": "Necromancer",
-      "slug": "necromancer",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 378,
-      "relevance": 2
-    },
-    {
-      "id": 774,
-      "name": "Flame Prisoner",
-      "slug": "flame-prisoner-2",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 376,
-      "relevance": 2
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
     }
   ],
   "schema": {

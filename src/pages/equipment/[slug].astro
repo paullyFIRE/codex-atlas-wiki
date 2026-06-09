@@ -1,6 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
+const STAT_NAMES = {
+  1053: "HP%", 1073: "ATK%", 1083: "DEF%",
+  1050: "HP", 1070: "ATK", 1080: "DEF",
+  1100: "Move Spd", 1090: "ATK Spd",
+};
+function statName(id) { return STAT_NAMES[id] ?? `Stat ${id}`; }
+
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/equipment/*.json', { eager: true, import: 'default' });
   const index = pages['/data/pages/equipment/_index.json'];
@@ -37,7 +44,7 @@ if (!pageData) return Astro.redirect('/equipment/', 404);
         <thead>
           <tr>
             <th>Tier</th>
-            {pageData.stats_by_tier[0]?.buffs.map((b) => <th>Stat {b.stat}</th>)}
+            {pageData.stats_by_tier[0]?.buffs.map((b) => <th>{statName(b.stat)}</th>)}
           </tr>
         </thead>
         <tbody>

@@ -198,16 +198,6 @@
       "relevance": 1
     },
     {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "profession": 8,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
       "id": 744,
       "name": "Flame Duelist",
       "slug": "flame-duelist",
@@ -255,6 +245,16 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 449,
+      "relevance": 1
+    },
+    {
+      "id": 651,
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 433,
       "relevance": 1
     }
   ],

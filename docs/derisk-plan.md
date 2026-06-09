@@ -71,9 +71,14 @@ Build a PSEO (Programmatic SEO) wiki indexing all characters, cards, entities, m
 - [x] Deploy to Cloudflare Pages (`wrangler pages deploy dist/`)
 - [x] Custom domain `war-inc-rising.codex-atlas.com` added via Cloudflare Pages API
 - [x] Add remaining entity types: equipment (160), field buffs (36), synergies (9), game modes (5)
-- [ ] Move followers (10 units) from /special/ to /followers/
-- [ ] SEO audit (validators, Core Web Vitals, indexability)
-- [ ] Add sitemap.xml + robots.txt
+- [x] Move followers (10 units) from /special/ to /followers/
+- [x] SEO audit — key findings resolved:
+  - [x] robots.txt + sitemap.xml (469 URLs) via @astrojs/sitemap
+  - [x] Canonical URLs on all pages (`<link rel="canonical">`)
+  - [x] Equipment stats display named values instead of raw IDs
+  - [x] Related units filtered by page type (no cross-type links)
+- [ ] Submit sitemap to Google Search Console
+- [ ] Monitor SSL certificate provisioning for custom domain
 
 **Deliverable**: Live site at `war-inc-rising.codex-atlas.com` covering all game entities.
 

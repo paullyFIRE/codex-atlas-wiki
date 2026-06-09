@@ -138,76 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 803,
-      "name": "Woodshield Guard",
-      "slug": "woodshield-guard",
-      "rarity": 1,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 113,
-      "relevance": 1
-    },
-    {
-      "id": 700,
-      "name": "Swordsman",
-      "slug": "swordsman",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 109,
-      "relevance": 1
-    },
-    {
-      "id": 623,
-      "name": "Demoman",
-      "slug": "demoman",
-      "rarity": 1,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 108,
-      "relevance": 1
-    },
-    {
-      "id": 618,
-      "name": "Archer",
-      "slug": "archer",
-      "rarity": 1,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 97,
-      "relevance": 1
-    },
-    {
-      "id": 622,
-      "name": "Gunner",
-      "slug": "gunner",
-      "rarity": 1,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 96,
-      "relevance": 1
-    },
-    {
-      "id": 630,
-      "name": "Snowball Thrower",
-      "slug": "snowball-thrower",
-      "rarity": 1,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 91,
-      "relevance": 1
-    },
-    {
-      "id": 43,
-      "name": "Skeleton Troop",
-      "slug": "skeleton-troop",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 20,
-      "relevance": 1
-    },
-    {
       "id": 50,
       "name": "Dragon Knight",
       "slug": "dragon-knight",
@@ -253,6 +183,76 @@
       "slug": "ridge-drake",
       "rarity": 1,
       "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 131,
+      "name": "Venom Beetle",
+      "slug": "venom-beetle",
+      "rarity": 1,
+      "profession": 2,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 132,
+      "name": "Tidal Drake",
+      "slug": "tidal-drake",
+      "rarity": 1,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 133,
+      "name": "Gale Wyvern",
+      "slug": "gale-wyvern",
+      "rarity": 1,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 136,
+      "name": "Yeti Ancestor",
+      "slug": "yeti-ancestor",
+      "rarity": 1,
+      "profession": null,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 137,
+      "name": "Spiked Beetle",
+      "slug": "spiked-beetle",
+      "rarity": 1,
+      "profession": null,
       "unit_type": 4,
       "combat_power": 0,
       "relevance": 1

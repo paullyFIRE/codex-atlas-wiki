@@ -138,16 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "profession": 8,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
       "id": 744,
       "name": "Flame Duelist",
       "slug": "flame-duelist",
@@ -255,6 +245,16 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 341,
+      "relevance": 1
+    },
+    {
+      "id": 721,
+      "name": "Ironguard",
+      "slug": "ironguard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
       "relevance": 1
     }
   ],

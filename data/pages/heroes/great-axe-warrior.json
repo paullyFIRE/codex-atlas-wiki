@@ -380,16 +380,6 @@
       "relevance": 1
     },
     {
-      "id": 3034,
-      "name": "Ancient Guardian",
-      "slug": "ancient-guardian",
-      "rarity": 2,
-      "profession": 4,
-      "unit_type": 5,
-      "combat_power": 588,
-      "relevance": 1
-    },
-    {
       "id": 664,
       "name": "Blaze Wanderer",
       "slug": "blaze-wanderer",
@@ -437,6 +427,16 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
       "relevance": 1
     }
   ],
