@@ -450,29 +450,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "The Blade of Earth",
     "description": "The Blade of Earth is a Mythic Special in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "The Blade of Earth - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Mythic"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Special"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "8"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Special"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "8"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "393"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "8200"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "120"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "3"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

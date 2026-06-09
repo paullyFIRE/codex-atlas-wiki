@@ -105,11 +105,25 @@ Site: `https://war-inc-rising-wiki.pages.dev`
 
 ## Phase 4 — Ongoing
 
-**Goal**: Stay up-to-date with game releases.
+**Goal**: Stay up-to-date with game releases. Optimize for AI search (ChatGPT, Claude, Gemini, AI Overviews).
 
-- Re-extraction script with APK version change detection
-- Strategy guides layered on stat data
-- Google Search Console + traffic + ad monitoring
+- [ ] Re-extraction script with APK version change detection
+- [ ] Strategy guides layered on stat data
+- [ ] Google Search Console + traffic + ad monitoring
+- [ ] Submit sitemap to Google Search Console
+- [ ] Monitor SSL certificate provisioning for custom domain
+
+### AI Search (AEO/LLMO) Actions
+
+| Action | Status | Impact |
+|---|---|---|
+| Allow AI crawlers (GPTBot, Claude-Web, CCBot) in robots.txt | ✅ Done | Citation eligibility |
+| Block Google-Extended from training (still allows AI Overviews) | ✅ Done | Training opt-out |
+| Upgrade hero schema: CreativeWork → VideoGame + characterAttribute | ✅ Done | Machine-readable facts for LLMs |
+| Dataset schema page at `/data/` with JSON distribution links | ✅ Done | Position as canonical data source |
+| Q&A-format H2 headings for AI Overview snippet capture | ✅ Done | Increases citation by AI Overviews |
+| Breadcrumb JSON-LD on all pages | ✅ Done | Internal linking graph for query fan-out |
+| Unique APK-extracted stats (not republished from other wikis) | ✅ Built-in | Non-commodity content LLMs prefer to cite |
 
 ---
 

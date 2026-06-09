@@ -260,29 +260,46 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Wind Blast Tower",
     "description": "Wind Blast Tower is a Rare Warrior in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Wind Blast Tower - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Warrior"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "0"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Warrior"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "186"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "4860"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "3"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

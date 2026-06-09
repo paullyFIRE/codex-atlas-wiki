@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Jungle Hunter",
     "description": "Jungle Hunter is a Legendary Assassin in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Jungle Hunter - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Legendary"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Assassin"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "6"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Assassin"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "6"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "433"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "2680"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "56"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "2"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

@@ -379,29 +379,46 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Netherworld Arbiter",
     "description": "Netherworld Arbiter is a Mythic Mage in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Netherworld Arbiter - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Mythic"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Mage"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "8"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Mage"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "8"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "3040000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "128000"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

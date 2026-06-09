@@ -357,29 +357,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Jungle Ranger",
     "description": "Jungle Ranger is a Mythic Warrior in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Jungle Ranger - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Mythic"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Warrior"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "8"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Warrior"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "8"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "407"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "4040"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "288"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "2"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

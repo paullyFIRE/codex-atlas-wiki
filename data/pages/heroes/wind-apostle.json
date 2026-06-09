@@ -357,29 +357,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Wind Apostle",
     "description": "Wind Apostle is a Legendary Tank in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Wind Apostle - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Legendary"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Tank"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "6"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Tank"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "6"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "278"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "2560"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "142"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "2"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

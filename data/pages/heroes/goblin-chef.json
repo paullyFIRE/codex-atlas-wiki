@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Goblin Chef",
     "description": "Goblin Chef is a Rare Special in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Goblin Chef - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Special"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "4"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Special"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "4"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "109"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "3560"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "188"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "1"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

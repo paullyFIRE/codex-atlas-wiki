@@ -260,29 +260,46 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Timber Extractor",
     "description": "Timber Extractor is a Rare Ranger in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Timber Extractor - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Ranger"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "0"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Ranger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "231"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "4500"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "3"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Bone Gunner",
     "description": "Bone Gunner is a Legendary Warrior in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Bone Gunner - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Legendary"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Warrior"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "6"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Warrior"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "6"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "258"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "3020"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "220"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "2"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

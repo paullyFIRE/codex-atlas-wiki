@@ -29,29 +29,36 @@
   "related": [],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Healing Spell",
     "description": "Healing Spell is a Unknown Unknown in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Healing Spell - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Unknown"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Unknown"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "None"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Unknown"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Unknown"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "None"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "None"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

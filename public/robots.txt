@@ -1,4 +1,22 @@
+# Allow all crawlers for indexing
 User-agent: *
 Allow: /
+
+# Explicitly allow AI crawlers for citation eligibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Block Google-Extended from model training (still allows AI Overviews via Googlebot)
+User-agent: Google-Extended
+Disallow: /
 
 Sitemap: https://war-inc-rising.codex-atlas.com/sitemap-index.xml

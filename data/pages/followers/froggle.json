@@ -89,29 +89,51 @@
   "related": [],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Froggle",
     "description": "Froggle is a Unknown Unknown in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Froggle - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Unknown"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Unknown"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "None"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Unknown"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Unknown"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "None"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "None"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "6200"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "50"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "1"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

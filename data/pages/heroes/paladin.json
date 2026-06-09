@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Paladin",
     "description": "Paladin is a Rare Special in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Paladin - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Special"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "3"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Special"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "3"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "235"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "1956"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "72"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "1"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

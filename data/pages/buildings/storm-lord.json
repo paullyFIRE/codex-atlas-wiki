@@ -210,29 +210,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Storm Lord",
     "description": "Storm Lord is a Mythic Tank in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Storm Lord - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Mythic"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Tank"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "0"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Tank"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "999999999"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "1000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "3"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

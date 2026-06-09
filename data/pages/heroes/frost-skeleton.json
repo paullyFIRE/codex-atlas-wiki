@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Frost Skeleton",
     "description": "Frost Skeleton is a Rare Assassin in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Frost Skeleton - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Assassin"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "3"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Assassin"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "3"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "249"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "1464"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "40"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "1"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

@@ -255,21 +255,30 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         related.sort(key=lambda r: (-r["relevance"], -r["combat_power"]))
         related = related[:12]
 
-    # Schema.org
+    # Schema.org — VideoGame with characterAttribute for LLM extraction
+    char_attrs = [
+        {"@type": "PropertyValue", "name": "Rarity", "value": rarity_name},
+        {"@type": "PropertyValue", "name": "Profession", "value": prof_name},
+        {"@type": "PropertyValue", "name": "Cost", "value": str(cost)},
+        {"@type": "PropertyValue", "name": "Combat Power", "value": str(combat_power)},
+    ]
+    lv1 = stats.get("1", {})
+    if lv1.get("1050"):
+        char_attrs.append({"@type": "PropertyValue", "name": "HP (Lv1)", "value": str(lv1["1050"])})
+    if lv1.get("1070"):
+        char_attrs.append({"@type": "PropertyValue", "name": "ATK (Lv1)", "value": str(lv1["1070"])})
+    if lv1.get("1080"):
+        char_attrs.append({"@type": "PropertyValue", "name": "DEF (Lv1)", "value": str(lv1["1080"])})
+
     schema = {
         "@context": "https://schema.org",
-        "@type": "CreativeWork",
+        "@type": "VideoGame",
         "name": name,
         "description": f"{name} is a {rarity_name} {prof_name} in War Inc: Rising.",
-        "about": {
-            "@type": "Thing",
-            "name": f"{name} - War Inc: Rising Unit",
-            "additionalProperty": [
-                {"@type": "PropertyValue", "name": "Rarity", "value": rarity_name},
-                {"@type": "PropertyValue", "name": "Profession", "value": prof_name},
-                {"@type": "PropertyValue", "name": "Cost", "value": str(cost)},
-            ],
-        },
+        "characterAttribute": char_attrs,
+        "applicationCategory": "Game",
+        "operatingSystem": "Android",
+        "author": {"@type": "Organization", "name": "Fastone Games"},
     }
 
     # Breadcrumb schema

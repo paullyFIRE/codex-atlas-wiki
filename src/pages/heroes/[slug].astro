@@ -44,7 +44,7 @@ if (!pageData) {
     </header>
 
     <section>
-      <h2>Stats by Level</h2>
+      <h2>What are {pageData.name}'s stats by level?</h2>
       <table>
         <thead>
           <tr>
@@ -77,7 +77,7 @@ if (!pageData) {
 
     {pageData.skills.length > 0 && (
       <section>
-        <h2>Skills</h2>
+        <h2>What skills does {pageData.name} have?</h2>
         {pageData.skills.map((skill) => (
           <div class="skill">
             <h3>{skill.name}</h3>
@@ -110,7 +110,7 @@ if (!pageData) {
     )}
 
     <section>
-      <h2>How to Use {pageData.name}</h2>
+      <h2>How to use {pageData.name} effectively?</h2>
       <ul>
         {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
       </ul>

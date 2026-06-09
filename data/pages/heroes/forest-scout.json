@@ -357,29 +357,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Forest Scout",
     "description": "Forest Scout is a Rare Warrior in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Forest Scout - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Rare"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Warrior"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "3"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Warrior"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "3"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "195"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "1128"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "105"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "1"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {

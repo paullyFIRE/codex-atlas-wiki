@@ -260,29 +260,51 @@
   ],
   "schema": {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "VideoGame",
     "name": "Knight",
     "description": "Knight is a Epic Assassin in War Inc: Rising.",
-    "about": {
-      "@type": "Thing",
-      "name": "Knight - War Inc: Rising Unit",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Rarity",
-          "value": "Epic"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Profession",
-          "value": "Assassin"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Cost",
-          "value": "5"
-        }
-      ]
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Epic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Assassin"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "5"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "205"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "3640"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "175"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "DEF (Lv1)",
+        "value": "2"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
     }
   },
   "breadcrumb_schema": {
