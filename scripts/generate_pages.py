@@ -1039,7 +1039,9 @@ def main():
         # Inject image URL from extracted game assets
         img_key = f'{page["type"]}/{page["id"]}'
         if image_map and img_key in image_map:
-            page["image"] = image_map[img_key]
+            # Only images for non-hero entities (buildings, hunting-bosses, special)
+            if page["type"] != "heroes":
+                page["image"] = image_map[img_key]
 
         all_pages.append(page)
 
