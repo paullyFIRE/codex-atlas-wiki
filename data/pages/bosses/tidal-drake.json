@@ -1,15 +1,15 @@
 {
-  "id": 137,
-  "slug": "spiked-beetle",
-  "name": "Spiked Beetle",
-  "title": "Spiked Beetle - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Spiked Beetle in War Inc: Rising. Common Unknown unit costing 0. HP 3896000, ATK 1520, DEF 3 per level, skills, and best game modes.",
-  "type": "buildings",
+  "id": 132,
+  "slug": "tidal-drake",
+  "name": "Tidal Drake",
+  "title": "Tidal Drake - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Tidal Drake in War Inc: Rising. Common Tank unit costing 0. HP 3896000, ATK 1448, DEF 3 per level, skills, and best game modes.",
+  "type": "bosses",
   "unit_type": 4,
   "rarity": 1,
   "rarity_name": "Common",
-  "profession": null,
-  "profession_name": "Unknown",
+  "profession": 3,
+  "profession_name": "Tank",
   "cost": 0,
   "combat_power": 0,
   "atk_range": [],
@@ -17,7 +17,7 @@
     {
       "level": 1,
       "hp": 3896000,
-      "atk": 1520,
+      "atk": 1448,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -27,7 +27,7 @@
     {
       "level": 2,
       "hp": 5454400,
-      "atk": 2360,
+      "atk": 2240,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -37,7 +37,7 @@
     {
       "level": 3,
       "hp": 7636160,
-      "atk": 3540,
+      "atk": 3360,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -47,7 +47,7 @@
     {
       "level": 4,
       "hp": 10690620,
-      "atk": 5130,
+      "atk": 4870,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -57,7 +57,7 @@
     {
       "level": 5,
       "hp": 14966870,
-      "atk": 7180,
+      "atk": 6820,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -67,7 +67,7 @@
     {
       "level": 6,
       "hp": 20953620,
-      "atk": 10050,
+      "atk": 9550,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -77,7 +77,7 @@
     {
       "level": 7,
       "hp": 29335070,
-      "atk": 14070,
+      "atk": 13370,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -87,7 +87,7 @@
     {
       "level": 8,
       "hp": 39602340,
-      "atk": 18990,
+      "atk": 18050,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -97,7 +97,7 @@
     {
       "level": 9,
       "hp": 51483040,
-      "atk": 24690,
+      "atk": 23470,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -107,7 +107,7 @@
     {
       "level": 10,
       "hp": 66927950,
-      "atk": 32100,
+      "atk": 30510,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -117,7 +117,7 @@
     {
       "level": 11,
       "hp": 87006340,
-      "atk": 41730,
+      "atk": 39660,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -127,7 +127,7 @@
     {
       "level": 12,
       "hp": 113108240,
-      "atk": 54250,
+      "atk": 51560,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -137,6 +137,36 @@
   ],
   "skills": [],
   "related": [
+    {
+      "id": 133,
+      "name": "Gale Wyvern",
+      "slug": "gale-wyvern",
+      "rarity": 1,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 140,
+      "name": "Storm Lord",
+      "slug": "storm-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 148,
+      "name": "Stormbringers",
+      "slug": "stormbringers",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
     {
       "id": 50,
       "name": "Dragon Knight",
@@ -198,26 +228,6 @@
       "relevance": 1
     },
     {
-      "id": 132,
-      "name": "Tidal Drake",
-      "slug": "tidal-drake",
-      "rarity": 1,
-      "profession": 3,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 133,
-      "name": "Gale Wyvern",
-      "slug": "gale-wyvern",
-      "rarity": 1,
-      "profession": 3,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
       "id": 134,
       "name": "Molten Bat",
       "slug": "molten-bat",
@@ -246,23 +256,13 @@
       "unit_type": 4,
       "combat_power": 0,
       "relevance": 1
-    },
-    {
-      "id": 138,
-      "name": "Sharpen Drake",
-      "slug": "sharpen-drake",
-      "rarity": 1,
-      "profession": null,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
     }
   ],
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Spiked Beetle",
-    "description": "Spiked Beetle is a Common Unknown in War Inc: Rising.",
+    "name": "Tidal Drake",
+    "description": "Tidal Drake is a Common Tank in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -272,7 +272,7 @@
       {
         "@type": "PropertyValue",
         "name": "Profession",
-        "value": "Unknown"
+        "value": "Tank"
       },
       {
         "@type": "PropertyValue",
@@ -292,7 +292,7 @@
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "1520"
+        "value": "1448"
       },
       {
         "@type": "PropertyValue",
@@ -320,17 +320,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Buildings",
-        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+        "name": "Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Spiked Beetle"
+        "name": "Tidal Drake"
       }
     ]
   },
   "strategy_tips": [
-    "Spiked Beetle can be effective in various battle situations depending on team composition."
+    "Tidal Drake is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
+    "Position Tidal Drake in choke points to maximize their tanking potential."
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "id": 31,
-  "slug": "ghostwind-wolf",
-  "name": "Ghostwind Wolf",
-  "title": "Ghostwind Wolf - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Ghostwind Wolf in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1380, DEF 3 per level, skills, and best game modes.",
-  "type": "buildings",
+  "id": 32,
+  "slug": "dune-troll",
+  "name": "Dune Troll",
+  "title": "Dune Troll - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Dune Troll in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1840, DEF 3 per level, skills, and best game modes.",
+  "type": "bosses",
   "unit_type": 4,
   "rarity": 1,
   "rarity_name": "Common",
@@ -17,9 +17,9 @@
     {
       "level": 1,
       "hp": 3896000,
-      "atk": 1380,
+      "atk": 1840,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -27,9 +27,9 @@
     {
       "level": 2,
       "hp": 5454400,
-      "atk": 2140,
+      "atk": 2850,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -37,9 +37,9 @@
     {
       "level": 3,
       "hp": 7636160,
-      "atk": 3320,
+      "atk": 4420,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -47,9 +47,9 @@
     {
       "level": 4,
       "hp": 10690620,
-      "atk": 5150,
+      "atk": 6850,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -57,9 +57,9 @@
     {
       "level": 5,
       "hp": 14966870,
-      "atk": 7980,
+      "atk": 10620,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -67,9 +67,9 @@
     {
       "level": 6,
       "hp": 20953620,
-      "atk": 12370,
+      "atk": 16460,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -77,9 +77,9 @@
     {
       "level": 7,
       "hp": 29335070,
-      "atk": 19170,
+      "atk": 25510,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -87,9 +87,9 @@
     {
       "level": 8,
       "hp": 41069100,
-      "atk": 29710,
+      "atk": 39540,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -97,9 +97,9 @@
     {
       "level": 9,
       "hp": 57496740,
-      "atk": 46050,
+      "atk": 61290,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -107,9 +107,9 @@
     {
       "level": 10,
       "hp": 80495440,
-      "atk": 71380,
+      "atk": 95000,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -117,9 +117,9 @@
     {
       "level": 11,
       "hp": 112693620,
-      "atk": 110640,
+      "atk": 147250,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -127,9 +127,9 @@
     {
       "level": 12,
       "hp": 157771070,
-      "atk": 171490,
+      "atk": 228240,
       "def": 3,
-      "attack_speed": 2,
+      "attack_speed": 1,
       "move_speed": 3,
       "attack_range": 1,
       "combat_power": 0
@@ -158,9 +158,9 @@
       "relevance": 2
     },
     {
-      "id": 32,
-      "name": "Dune Troll",
-      "slug": "dune-troll",
+      "id": 31,
+      "name": "Ghostwind Wolf",
+      "slug": "ghostwind-wolf",
       "rarity": 1,
       "profession": 4,
       "unit_type": 4,
@@ -261,8 +261,8 @@
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Ghostwind Wolf",
-    "description": "Ghostwind Wolf is a Common Assassin in War Inc: Rising.",
+    "name": "Dune Troll",
+    "description": "Dune Troll is a Common Assassin in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -292,7 +292,7 @@
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "1380"
+        "value": "1840"
       },
       {
         "@type": "PropertyValue",
@@ -320,18 +320,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Buildings",
-        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+        "name": "Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Ghostwind Wolf"
+        "name": "Dune Troll"
       }
     ]
   },
   "strategy_tips": [
-    "Ghostwind Wolf excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Ghostwind Wolf behind tanks to protect them while they deal damage."
+    "Dune Troll excels at single-target burst damage, making them ideal for eliminating key threats.",
+    "Deploy Dune Troll behind tanks to protect them while they deal damage."
   ]
 }

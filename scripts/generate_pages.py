@@ -19,7 +19,7 @@ from pathlib import Path
 DATA_DIR = Path("data/processed")
 OUT_DIR = Path("data/pages")
 
-TYPE_MAP = {1: "heroes", 4: "buildings", 5: "special"}
+TYPE_MAP = {1: "heroes", 4: "bosses", 5: "special"}
 PROFESSION_MAP = {2: "Warrior", 3: "Tank", 4: "Assassin", 5: "Mage", 6: "Support", 7: "Ranger", 8: "Special"}
 RARITY_MAP = {1: "Common", 2: "Rare", 3: "Epic", 4: "Legendary", 5: "Mythic"}
 STAT_NAMES = {1050: "HP", 1070: "ATK", 1080: "DEF", 1090: "Attack Speed", 1100: "Move Speed", 1110: "Attack Range", 36: "Cost"}
@@ -283,7 +283,7 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
 
     # Breadcrumb schema
     bc_type = TYPE_MAP.get(unit_type, "special")
-    bc_label = {"heroes": "Heroes", "buildings": "Buildings", "special": "Special"}.get(bc_type, bc_type.capitalize())
+    bc_label = {"heroes": "Heroes", "bosses": "Bosses", "special": "Special"}.get(bc_type, bc_type.capitalize())
     breadcrumb_schema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",

@@ -1,15 +1,15 @@
 {
-  "id": 138,
-  "slug": "sharpen-drake",
-  "name": "Sharpen Drake",
-  "title": "Sharpen Drake - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Sharpen Drake in War Inc: Rising. Common Unknown unit costing 0. HP 3896000, ATK 1648, DEF 3 per level, skills, and best game modes.",
-  "type": "buildings",
+  "id": 58,
+  "slug": "naga-blade-master",
+  "name": "Naga Blade Master",
+  "title": "Naga Blade Master - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Naga Blade Master in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1692, DEF 3 per level, skills, and best game modes.",
+  "type": "bosses",
   "unit_type": 4,
   "rarity": 1,
   "rarity_name": "Common",
-  "profession": null,
-  "profession_name": "Unknown",
+  "profession": 4,
+  "profession_name": "Assassin",
   "cost": 0,
   "combat_power": 0,
   "atk_range": [],
@@ -17,121 +17,121 @@
     {
       "level": 1,
       "hp": 3896000,
-      "atk": 1648,
+      "atk": 1692,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 2,
       "hp": 5454400,
-      "atk": 2550,
+      "atk": 2620,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 3,
       "hp": 7636160,
-      "atk": 3830,
+      "atk": 3930,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 4,
       "hp": 10690620,
-      "atk": 5550,
+      "atk": 5700,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 5,
       "hp": 14966870,
-      "atk": 7770,
+      "atk": 7980,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 6,
       "hp": 20953620,
-      "atk": 10880,
+      "atk": 11170,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 7,
       "hp": 29335070,
-      "atk": 15230,
+      "atk": 15640,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 8,
       "hp": 39602340,
-      "atk": 20560,
+      "atk": 21110,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 9,
       "hp": 51483040,
-      "atk": 26730,
+      "atk": 27440,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 10,
       "hp": 66927950,
-      "atk": 34750,
+      "atk": 35670,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 11,
       "hp": 87006340,
-      "atk": 45180,
+      "atk": 46370,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     },
     {
       "level": 12,
       "hp": 113108240,
-      "atk": 58730,
+      "atk": 60280,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
-      "attack_range": 1,
+      "attack_range": 2,
       "combat_power": 0
     }
   ],
@@ -145,17 +145,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 58,
-      "name": "Naga Blade Master",
-      "slug": "naga-blade-master",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
+      "relevance": 2
     },
     {
       "id": 31,
@@ -165,7 +155,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 1
+      "relevance": 2
     },
     {
       "id": 32,
@@ -175,13 +165,53 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 1
+      "relevance": 2
     },
     {
       "id": 130,
       "name": "Ridge Drake",
       "slug": "ridge-drake",
       "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 30,
+      "name": "Evil Ivy",
+      "slug": "evil-ivy",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 41,
+      "name": "Twin-Dragon",
+      "slug": "twin-dragon",
+      "rarity": 5,
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
@@ -218,39 +248,9 @@
       "relevance": 1
     },
     {
-      "id": 134,
-      "name": "Molten Bat",
-      "slug": "molten-bat",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 135,
-      "name": "Lava Eater",
-      "slug": "lava-eater",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
       "id": 136,
       "name": "Yeti Ancestor",
       "slug": "yeti-ancestor",
-      "rarity": 1,
-      "profession": null,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 137,
-      "name": "Spiked Beetle",
-      "slug": "spiked-beetle",
       "rarity": 1,
       "profession": null,
       "unit_type": 4,
@@ -261,8 +261,8 @@
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Sharpen Drake",
-    "description": "Sharpen Drake is a Common Unknown in War Inc: Rising.",
+    "name": "Naga Blade Master",
+    "description": "Naga Blade Master is a Common Assassin in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -272,7 +272,7 @@
       {
         "@type": "PropertyValue",
         "name": "Profession",
-        "value": "Unknown"
+        "value": "Assassin"
       },
       {
         "@type": "PropertyValue",
@@ -292,7 +292,7 @@
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "1648"
+        "value": "1692"
       },
       {
         "@type": "PropertyValue",
@@ -320,17 +320,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Buildings",
-        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+        "name": "Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Sharpen Drake"
+        "name": "Naga Blade Master"
       }
     ]
   },
   "strategy_tips": [
-    "Sharpen Drake can be effective in various battle situations depending on team composition."
+    "Naga Blade Master excels at single-target burst damage, making them ideal for eliminating key threats.",
+    "Deploy Naga Blade Master behind tanks to protect them while they deal damage."
   ]
 }

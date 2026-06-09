@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/bosses/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/bosses/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
+---
+
+<BaseLayout
+  title="All Bosses - Hunting Mode | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} bosses in War Inc: Rising Hunting mode. Stats, abilities, and strategies.`}
+>
+  <h1>All Bosses (Hunting Mode)</h1>
+  <p>{items.length} bosses encountered in Hunting mode — stats, abilities, and combat power.</p>
+
+  <ul>
+    {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
+      <li>
+        <a href={`/bosses/${item.slug}/`}>{item.name}</a>
+        <span class="meta">{item.rarity_name} · Cost {item.cost} · Power {item.combat_power}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

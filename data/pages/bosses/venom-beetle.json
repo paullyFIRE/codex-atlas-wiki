@@ -1,15 +1,15 @@
 {
-  "id": 135,
-  "slug": "lava-eater",
-  "name": "Lava Eater",
-  "title": "Lava Eater - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Lava Eater in War Inc: Rising. Common Assassin unit costing 0. HP 3896000, ATK 1520, DEF 3 per level, skills, and best game modes.",
-  "type": "buildings",
+  "id": 131,
+  "slug": "venom-beetle",
+  "name": "Venom Beetle",
+  "title": "Venom Beetle - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Venom Beetle in War Inc: Rising. Common Warrior unit costing 0. HP 3896000, ATK 1220, DEF 3 per level, skills, and best game modes.",
+  "type": "bosses",
   "unit_type": 4,
   "rarity": 1,
   "rarity_name": "Common",
-  "profession": 4,
-  "profession_name": "Assassin",
+  "profession": 2,
+  "profession_name": "Warrior",
   "cost": 0,
   "combat_power": 0,
   "atk_range": [],
@@ -17,7 +17,7 @@
     {
       "level": 1,
       "hp": 3896000,
-      "atk": 1520,
+      "atk": 1220,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -27,7 +27,7 @@
     {
       "level": 2,
       "hp": 5454400,
-      "atk": 2360,
+      "atk": 1890,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -37,7 +37,7 @@
     {
       "level": 3,
       "hp": 7636160,
-      "atk": 3540,
+      "atk": 2840,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -47,7 +47,7 @@
     {
       "level": 4,
       "hp": 10690620,
-      "atk": 5130,
+      "atk": 4120,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -57,7 +57,7 @@
     {
       "level": 5,
       "hp": 14966870,
-      "atk": 7180,
+      "atk": 5770,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -67,7 +67,7 @@
     {
       "level": 6,
       "hp": 20953620,
-      "atk": 10050,
+      "atk": 8080,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -77,7 +77,7 @@
     {
       "level": 7,
       "hp": 29335070,
-      "atk": 14070,
+      "atk": 11310,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -87,7 +87,7 @@
     {
       "level": 8,
       "hp": 39602340,
-      "atk": 18990,
+      "atk": 15270,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -97,7 +97,7 @@
     {
       "level": 9,
       "hp": 51483040,
-      "atk": 24690,
+      "atk": 19850,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -107,7 +107,7 @@
     {
       "level": 10,
       "hp": 66927950,
-      "atk": 32100,
+      "atk": 25810,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -117,7 +117,7 @@
     {
       "level": 11,
       "hp": 87006340,
-      "atk": 41730,
+      "atk": 33550,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -127,7 +127,7 @@
     {
       "level": 12,
       "hp": 113108240,
-      "atk": 54250,
+      "atk": 43620,
       "def": 3,
       "attack_speed": 2,
       "move_speed": 3,
@@ -145,7 +145,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 2
+      "relevance": 1
     },
     {
       "id": 58,
@@ -155,7 +155,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 2
+      "relevance": 1
     },
     {
       "id": 31,
@@ -165,7 +165,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 2
+      "relevance": 1
     },
     {
       "id": 32,
@@ -175,7 +175,7 @@
       "profession": 4,
       "unit_type": 4,
       "combat_power": 0,
-      "relevance": 2
+      "relevance": 1
     },
     {
       "id": 130,
@@ -183,46 +183,6 @@
       "slug": "ridge-drake",
       "rarity": 1,
       "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 134,
-      "name": "Molten Bat",
-      "slug": "molten-bat",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 30,
-      "name": "Evil Ivy",
-      "slug": "evil-ivy",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 41,
-      "name": "Twin-Dragon",
-      "slug": "twin-dragon",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 4,
-      "combat_power": 0,
-      "relevance": 1
-    },
-    {
-      "id": 131,
-      "name": "Venom Beetle",
-      "slug": "venom-beetle",
-      "rarity": 1,
-      "profession": 2,
       "unit_type": 4,
       "combat_power": 0,
       "relevance": 1
@@ -248,9 +208,49 @@
       "relevance": 1
     },
     {
+      "id": 134,
+      "name": "Molten Bat",
+      "slug": "molten-bat",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 135,
+      "name": "Lava Eater",
+      "slug": "lava-eater",
+      "rarity": 1,
+      "profession": 4,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
       "id": 136,
       "name": "Yeti Ancestor",
       "slug": "yeti-ancestor",
+      "rarity": 1,
+      "profession": null,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 137,
+      "name": "Spiked Beetle",
+      "slug": "spiked-beetle",
+      "rarity": 1,
+      "profession": null,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 138,
+      "name": "Sharpen Drake",
+      "slug": "sharpen-drake",
       "rarity": 1,
       "profession": null,
       "unit_type": 4,
@@ -261,8 +261,8 @@
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Lava Eater",
-    "description": "Lava Eater is a Common Assassin in War Inc: Rising.",
+    "name": "Venom Beetle",
+    "description": "Venom Beetle is a Common Warrior in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -272,7 +272,7 @@
       {
         "@type": "PropertyValue",
         "name": "Profession",
-        "value": "Assassin"
+        "value": "Warrior"
       },
       {
         "@type": "PropertyValue",
@@ -292,7 +292,7 @@
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "1520"
+        "value": "1220"
       },
       {
         "@type": "PropertyValue",
@@ -320,18 +320,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Buildings",
-        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+        "name": "Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Lava Eater"
+        "name": "Venom Beetle"
       }
     ]
   },
   "strategy_tips": [
-    "Lava Eater excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Lava Eater behind tanks to protect them while they deal damage."
+    "Venom Beetle is a balanced melee unit, effective in both offense and defense.",
+    "Use Venom Beetle in the front line to deal consistent damage while holding position."
   ]
 }

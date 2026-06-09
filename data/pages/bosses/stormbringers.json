@@ -1,136 +1,136 @@
 {
-  "id": 141,
-  "slug": "castle-colossus",
-  "name": "Castle Colossus",
-  "title": "Castle Colossus - Building Stats and Upgrades | War Inc: Rising Wiki",
-  "meta_description": "Learn about Castle Colossus in War Inc: Rising. Mythic Special unit costing 0. HP 999999999, ATK 3000, DEF 3 per level, skills, and best game modes.",
-  "type": "buildings",
+  "id": 148,
+  "slug": "stormbringers",
+  "name": "Stormbringers",
+  "title": "Stormbringers - Building Stats and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Learn about Stormbringers in War Inc: Rising. Mythic Tank unit costing 0. HP 3896000, ATK 1320, DEF 3 per level, skills, and best game modes.",
+  "type": "bosses",
   "unit_type": 4,
   "rarity": 5,
   "rarity_name": "Mythic",
-  "profession": 8,
-  "profession_name": "Special",
+  "profession": 3,
+  "profession_name": "Tank",
   "cost": 0,
   "combat_power": 0,
   "atk_range": [],
   "stats_table": [
     {
       "level": 1,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 3896000,
+      "atk": 1320,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 2,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 5454400,
+      "atk": 2050,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 3,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 7636160,
+      "atk": 3080,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 4,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 10690620,
+      "atk": 4470,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 5,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 14966870,
+      "atk": 6260,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 6,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 20953620,
+      "atk": 8760,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 7,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 29335070,
+      "atk": 12260,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 8,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 39602340,
+      "atk": 16550,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 9,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 51483040,
+      "atk": 21520,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 10,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 66927950,
+      "atk": 27980,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 11,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 87006340,
+      "atk": 36370,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     },
     {
       "level": 12,
-      "hp": 999999999,
-      "atk": 3000,
+      "hp": 113108240,
+      "atk": 47280,
       "def": 3,
-      "attack_speed": 1,
-      "move_speed": null,
+      "attack_speed": 2,
+      "move_speed": 3,
       "attack_range": 3,
       "combat_power": 0
     }
@@ -138,11 +138,11 @@
   "skills": [],
   "related": [
     {
-      "id": 143,
-      "name": "Tower Colossus",
-      "slug": "tower-colossus",
+      "id": 140,
+      "name": "Storm Lord",
+      "slug": "storm-lord",
       "rarity": 5,
-      "profession": 8,
+      "profession": 3,
       "unit_type": 4,
       "combat_power": 0,
       "relevance": 2
@@ -168,20 +168,40 @@
       "relevance": 1
     },
     {
-      "id": 140,
-      "name": "Storm Lord",
-      "slug": "storm-lord",
+      "id": 141,
+      "name": "Castle Colossus",
+      "slug": "castle-colossus",
       "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 143,
+      "name": "Tower Colossus",
+      "slug": "tower-colossus",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 4,
+      "combat_power": 0,
+      "relevance": 1
+    },
+    {
+      "id": 132,
+      "name": "Tidal Drake",
+      "slug": "tidal-drake",
+      "rarity": 1,
       "profession": 3,
       "unit_type": 4,
       "combat_power": 0,
       "relevance": 1
     },
     {
-      "id": 148,
-      "name": "Stormbringers",
-      "slug": "stormbringers",
-      "rarity": 5,
+      "id": 133,
+      "name": "Gale Wyvern",
+      "slug": "gale-wyvern",
+      "rarity": 1,
       "profession": 3,
       "unit_type": 4,
       "combat_power": 0,
@@ -191,8 +211,8 @@
   "schema": {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "Castle Colossus",
-    "description": "Castle Colossus is a Mythic Special in War Inc: Rising.",
+    "name": "Stormbringers",
+    "description": "Stormbringers is a Mythic Tank in War Inc: Rising.",
     "characterAttribute": [
       {
         "@type": "PropertyValue",
@@ -202,7 +222,7 @@
       {
         "@type": "PropertyValue",
         "name": "Profession",
-        "value": "Special"
+        "value": "Tank"
       },
       {
         "@type": "PropertyValue",
@@ -217,12 +237,12 @@
       {
         "@type": "PropertyValue",
         "name": "HP (Lv1)",
-        "value": "999999999"
+        "value": "3896000"
       },
       {
         "@type": "PropertyValue",
         "name": "ATK (Lv1)",
-        "value": "3000"
+        "value": "1320"
       },
       {
         "@type": "PropertyValue",
@@ -250,17 +270,18 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Buildings",
-        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+        "name": "Bosses",
+        "item": "https://war-inc-rising.codex-atlas.com/bosses/"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Castle Colossus"
+        "name": "Stormbringers"
       }
     ]
   },
   "strategy_tips": [
-    "Castle Colossus has unique abilities that can turn the tide of battle when used correctly."
+    "Stormbringers is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
+    "Position Stormbringers in choke points to maximize their tanking potential."
   ]
 }

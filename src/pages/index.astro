@@ -5,7 +5,7 @@ const siteTitle = 'War Inc: Rising Wiki | war-inc-rising.codex-atlas.com';
 const siteDescription = 'Comprehensive War Inc: Rising wiki — hero stats, skills, equipment, and strategy guides for all game modes.';
 
 const heroIndexFiles = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
-const buildIndexFiles = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
+const buildIndexFiles = import.meta.glob('/data/pages/bosses/_index.json', { eager: true, import: 'default' });
 const specIndexFiles = import.meta.glob('/data/pages/special/_index.json', { eager: true, import: 'default' });
 const buffIndexFiles = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
 const synIndexFiles = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
@@ -13,7 +13,7 @@ const modeIndexFiles = import.meta.glob('/data/pages/modes/_index.json', { eager
 const followerIndexFiles = import.meta.glob('/data/pages/followers/_index.json', { eager: true, import: 'default' });
 
 const heroCount = heroIndexFiles['/data/pages/heroes/_index.json']?.count ?? 0;
-const buildingCount = buildIndexFiles['/data/pages/buildings/_index.json']?.count ?? 0;
+const buildingCount = buildIndexFiles['/data/pages/bosses/_index.json']?.count ?? 0;
 const specialCount = specIndexFiles['/data/pages/special/_index.json']?.count ?? 0;
 const buffCount = buffIndexFiles['/data/pages/buffs/_index.json']?.count ?? 0;
 const synCount = synIndexFiles['/data/pages/synergies/_index.json']?.count ?? 0;
@@ -48,7 +48,7 @@ const followerCount = followerIndexFiles['/data/pages/followers/_index.json']?.c
     <h2>Browse by Category</h2>
     <ul>
       <li><a href="/heroes/">All Heroes</a> — {heroCount} playable units</li>
-      <li><a href="/buildings/">Buildings & Towers</a> — {buildingCount} defensive structures</li>
+      <li><a href="/bosses/">Bosses (Hunting Mode)</a> — {buildingCount} boss enemies</li>
       <li><a href="/special/">Special Entities</a> — {specialCount} resource buildings, mines, barracks</li>
       <li><a href="/followers/">Followers</a> — {followerCount} troop and pet units</li>
       <li><a href="/modes/">Game Modes</a> — {modeCount} mode configurations</li>

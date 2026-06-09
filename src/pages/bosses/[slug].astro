@@ -2,8 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
-  const index = pages['/data/pages/buildings/_index.json'];
+  const pages = import.meta.glob('/data/pages/bosses/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/bosses/_index.json'];
   const items = index?.items ?? [];
   return items.map((item) => ({
     params: { slug: item.slug },
@@ -15,12 +15,12 @@ const { slug } = Astro.params;
 
 let pageData;
 try {
-  const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
-  pageData = pages[`/data/pages/buildings/${slug}.json`];
+  const pages = import.meta.glob('/data/pages/bosses/*.json', { eager: true, import: 'default' });
+  pageData = pages[`/data/pages/bosses/${slug}.json`];
 } catch {}
 
 if (!pageData) {
-  return Astro.redirect('/buildings/', 404);
+  return Astro.redirect('/bosses/', 404);
 }
 ---
 
@@ -29,7 +29,7 @@ if (!pageData) {
   <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
   <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <a href="/buildings/">Buildings</a> &gt; <span>{pageData.name}</span>
+    <a href="/">Home</a> &gt; <a href="/bosses/">Bosses</a> &gt; <span>{pageData.name}</span>
   </nav>
 
   <article>
