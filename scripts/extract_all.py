@@ -35,7 +35,7 @@ def extract_config_json():
             name_map = [
                 ('battle_conf_lib', 'battle_conf_lib'),
                 ('battle_synergy_config', 'battle_synergy'),
-                ('battle_config', 'battle'),
+                ('battle_config', 'battle_config'),
                 ('card_growth_config', 'card_growth'),
                 ('equip_battle_config', 'equip_battle'),
                 ('field_buff_config', 'field_buff'),
@@ -52,7 +52,7 @@ def extract_config_json():
             with open(out_path, 'w') as out:
                 json.dump(data, out, indent=2)
             count += 1
-            print(f"  ✓ {name}_config.json ({len(data)} keys)")
+            print(f"  ✓ {name}.json ({len(data)} keys)")
         except json.JSONDecodeError:
             print(f"  ✗ {f.name}: JSON parse error")
     print(f"  Configs extracted: {count}")

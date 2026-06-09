@@ -23,6 +23,10 @@ PSEO (Programmatic SEO) blog indexing all characters, cards, entities, modes, an
 pnpm install        # Install deps
 pnpm add <pkg>      # Add dependency
 pnpm run <script>   # Run script (check package.json)
+
+# Full extraction pipeline (one command)
+./scripts/extract.sh [version]   # APK download → Il2Cpp dump → configs → localization → Unity assets
+python3 scripts/extract_all.py   # Same as above but skips APK/Il2Cpp steps
 ```
 
 ## Content Architecture (intended)
