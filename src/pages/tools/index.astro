@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Tools & Calculators — War Inc: Rising Wiki"
+  description="Interactive tools and calculators for War Inc: Rising — team builder, boss tracker, spell calculator, mode loot explorer.">
+  <style>
+    .tool-card { border: 1px solid #dee2e6; border-radius: 6px; padding: 1rem; margin: 0 0 1rem 0; background: #fff; }
+    .tool-card h2 { margin-top: 0; }
+  </style>
+  <h1>Tools & Calculators</h1>
+  <div class="tool-card">
+    <h2><a href="/build-team/">Team Builder</a></h2>
+    <p>Interactive formation builder — browse heroes, build teams up to 8 units, see total power and active synergies.</p>
+  </div>
+  <div class="tool-card">
+    <h2><a href="/tools/mode-loot/">Mode Loot & Boss Explorer</a></h2>
+    <p>Discover which bosses and rewards each game mode offers at every build level.</p>
+  </div>
+  <div class="tool-card">
+    <h2><a href="/tools/boss-waves/">Boss Wave Calculator</a></h2>
+    <p>Track boss combat power scaling across all 12 levels. See which bosses have the highest stats.</p>
+  </div>
+  <div class="tool-card">
+    <h2><a href="/tools/spell-calc/">Spell Calculator</a></h2>
+    <p>Spell training times, cooldowns, capacity, and speed-up costs from the Spell Cauldron.</p>
+  </div>
+  <div class="tool-card">
+    <h2><a href="/tools/evolution/">Unit Evolution & Merge Costs</a></h2>
+    <p>Unit evolution paths, upgrade costs, and merge requirements for all rarities.</p>
+  </div>
+</BaseLayout>

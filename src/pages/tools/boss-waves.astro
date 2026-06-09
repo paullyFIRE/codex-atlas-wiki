@@ -1,0 +1,74 @@
+---
+import { readFileSync } from 'fs';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cg = JSON.parse(readFileSync('data/processed/config/card_growth.json', 'utf-8'));
+const nm = JSON.parse(readFileSync('data/processed/unit_name_map.json', 'utf-8'));
+const db = JSON.parse(readFileSync('data/processed/unit_database.json', 'utf-8'));
+
+// Boss combat power multipliers per level
+const bossPower = cg.bossCombatPowerGrowth || {};
+const baseCombatPowerGrowth = cg.combatPowerGrowth || {};
+
+// Find boss units (type-4 buildings with high HP/ATK)
+const bossUnits = Object.entries(db)
+  .filter(([_, u]) => u.unit_type === 4 && u.combat_power > 0 && u.stats?.["1"])
+  .map(([id, u]) => ({
+    id,
+    name: nm[id] || u.name_en || `Unit ${id}`,
+    power: u.combat_power,
+    hp: u.stats["1"]["1050"] || 0,
+    atk: u.stats["1"]["1070"] || 0,
+    def: u.stats["1"]["1080"] || 0,
+  }))
+  .sort((a, b) => b.power - a.power)
+  .slice(0, 20);
+
+// Generate boss power table for levels 1-12
+const levels = Array.from({length: 12}, (_, i) => i + 1);
+const powerTable = bossUnits.slice(0, 5).map(boss => ({
+  name: boss.name,
+  values: levels.map(lv => {
+    const mult = parseFloat(bossPower[String(lv)] || baseCombatPowerGrowth[String(lv)] || 1);
+    return Math.round(boss.power * mult);
+  }),
+}));
+---
+
+<BaseLayout title="Boss Wave Calculator — Boss Power Scaling | War Inc: Rising Wiki"
+  description="Track boss combat power scaling across all 12 levels. See which bosses have the highest stats.">
+  <style>
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    th, td { border: 1px solid #dee2e6; padding: 0.4rem 0.6rem; text-align: left; }
+    th { background: #e9ecef; font-weight: 600; }
+    tr:nth-child(even) { background: #f8f9fa; }
+  </style>
+  <h1>Boss Wave Calculator</h1>
+  <p>Boss combat power scales differently per level. Shows top 5 bosses by base power and their scaling across all levels.</p>
+
+  <h2>Boss Power Scaling (Levels 1-12)</h2>
+  <table>
+    <thead><tr><th>Boss</th><th>Base</th>{levels.map(lv => <th>Lv{lv}</th>)}</tr></thead>
+    <tbody>
+    {powerTable.map(boss => (
+      <tr><td>{boss.name}</td><td>{boss.values[0]}</td>{boss.values.map(v => <td>{v}</td>)}</tr>
+    ))}
+    </tbody>
+  </table>
+
+  <h2>Top 20 Boss Units (by Base Combat Power)</h2>
+  <table>
+    <thead><tr><th>#</th><th>Boss</th><th>HP (Lv1)</th><th>ATK (Lv1)</th><th>DEF (Lv1)</th><th>Power</th></tr></thead>
+    <tbody>
+    {bossUnits.map((b, i) => (
+      <tr><td>{i + 1}</td><td>{b.name}</td><td>{b.hp}</td><td>{b.atk}</td><td>{b.def}</td><td>{b.power}</td></tr>
+    ))}
+    </tbody>
+  </table>
+
+  <h2>Power Multiplier by Level</h2>
+  <table>
+    <thead><tr><th>Level</th>{levels.map(lv => <th>{lv}</th>)}</tr></thead>
+    <tbody><tr><td>Boss Multiplier</td>{levels.map(lv => <td>{bossPower[String(lv)] || '-'}</td>)}</tr></tbody>
+  </table>
+</BaseLayout>

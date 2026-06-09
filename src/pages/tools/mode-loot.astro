@@ -1,0 +1,54 @@
+---
+import { readFileSync } from 'fs';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const gm = JSON.parse(readFileSync('data/processed/config/battle_conf_lib.json', 'utf-8'));
+const nm = JSON.parse(readFileSync('data/processed/unit_name_map.json', 'utf-8'));
+const locRaw = readFileSync('data/processed/localization/en.csv', 'utf-8').split('\n');
+const loc = {};
+for (const line of locRaw) {
+  const i = line.indexOf(',');
+  if (i > 0) loc[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^"/, '').replace(/"+$/, '');
+}
+
+const modes = Object.entries(gm).map(([mid, m]) => ({
+  id: mid,
+  name: loc[`game_mode_name_${mid}`] || `Mode ${mid}`,
+  drops: (m.dropRewards || []).map(d => ({
+    buildLv: d.buildLv,
+    monsterPools: d.rewards?.monsterPoolIds || [],
+    bosses: (d.rewards?.boss || []).flatMap(b =>
+      (b.unitId || []).map((id, i) => ({
+        name: nm[String(id)] || `Boss ${id}`,
+        count: Array.isArray(b.unitCount) ? b.unitCount[i] : b.unitCount || 1,
+      }))
+    ),
+  })),
+}));
+---
+
+<BaseLayout title="Mode Loot & Boss Explorer — War Inc: Rising Wiki"
+  description="Every game mode's drop tiers, boss spawns, and monster pools.">
+  <style>
+    .mc { border: 1px solid #dee2e6; border-radius: 6px; padding: 1rem; margin: 0 0 1rem 0; background: #fff; }
+    .dt { margin: 0.5rem 0; padding: 0.5rem; background: #f8f9fa; border-radius: 4px; }
+    .bt { display: inline-block; padding: 0.15rem 0.5rem; background: #fff3e0; color: #e65100; border-radius: 3px; font-size: 0.85rem; margin: 0.15rem; }
+  </style>
+  <h1>Mode Loot & Boss Explorer</h1>
+  <p>What each game mode drops, which bosses spawn, and at what build level.</p>
+  {modes.filter(m => m.drops.length > 0).map(mode => (
+    <div class="mc"><h2>{mode.name}</h2>
+    {mode.drops.map(d => (
+      <div class="dt"><strong>Build Lv {d.buildLv}</strong> · Pool {d.monsterPools.join(', ')}
+      {d.bosses.length > 0 && (
+        <p>Bosses: {d.bosses.map(b => (
+          <span class="bt">{b.name} ×{b.count} </span>
+        ))}</p>
+      )}
+      </div>
+    ))}</div>
+  ))}
+  {modes.filter(m => m.drops.length === 0).map(mode => (
+    <div class="mc"><h2>{mode.name}</h2><p>PvP mode — no PvE loot drops.</p></div>
+  ))}
+</BaseLayout>
