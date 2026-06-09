@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/buildings/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
+---
+
+<BaseLayout
+  title="All Buildings — Base Defenses & Resource Structures | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} player buildings in War Inc: Rising — resource generators, defenses, and base structures.`}
+>
+  <h1>All Buildings</h1>
+  <p>{items.length} player-constructible buildings — resource generators, defensive towers, and base infrastructure.</p>
+
+  <ul>
+    {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
+      <li>
+        <a href={`/buildings/${item.slug}/`}>{item.name}</a>
+        <span class="meta">{item.rarity_name ?? ''} · Power {item.combat_power}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

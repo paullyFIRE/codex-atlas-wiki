@@ -117,6 +117,13 @@ def parse_skill_descs(path: Path) -> dict:
     return result
 
 
+# IDs of units that are player-constructible buildings (type=5 special entities)
+BUILDING_IDS = {101, 104, 201, 203, 601, 3010, 3011, 3012, 3023, 3024, 3025,
+                3034, 3036, 3037, 3038, 3054, 3055, 3056, 3057, 3058, 3059,
+                3060, 3061, 3062, 3068, 3021, 3022, 3026, 3027, 3028, 3029,
+                3030, 3031, 3032, 3033, 3035}
+
+
 def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
                     skill_attrs: dict, skill_descs: dict, db: dict,
                     slug_map: dict | None = None) -> dict | None:
@@ -283,7 +290,7 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
 
     # Breadcrumb schema
     bc_type = TYPE_MAP.get(unit_type, "special")
-    bc_label = {"heroes": "Heroes", "hunting-bosses": "Hunting Mode Bosses", "special": "Special"}.get(bc_type, bc_type.capitalize())
+    bc_label = {"heroes": "Heroes", "buildings": "Buildings", "hunting-bosses": "Hunting Mode Bosses", "special": "Special"}.get(bc_type, bc_type.capitalize())
     breadcrumb_schema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -899,8 +906,14 @@ def main():
             uid_int = unit.get("id") or (int(unit_id) if str(unit_id).isdigit() else 0)
             if 2001 <= uid_int <= 2010:
                 page["type"] = "followers"
+            elif uid_int in BUILDING_IDS:
+                page["type"] = "buildings"
             else:
                 page["type"] = "special"
+
+        # Also catch type=5 buildings
+        if unit.get("unit_type") == 5 and unit.get("id") in BUILDING_IDS:
+            page["type"] = "buildings"
 
         all_pages.append(page)
 

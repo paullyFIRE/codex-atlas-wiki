@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/buildings/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/buildings/${slug}.json`];
+if (!pageData) return Astro.redirect('/buildings/', 404);
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
+
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/buildings/">Buildings</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <header>
+      <h1>{pageData.name}</h1>
+      <p>
+        {pageData.rarity_name && <span class="rarity">{pageData.rarity_name}</span>}
+        {pageData.profession_name && <span> · {pageData.profession_name}</span>}
+        {pageData.cost > 0 && <span> · Cost {pageData.cost}</span>}
+        <span> · Power {pageData.combat_power}</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>What are {pageData.name}'s stats by level?</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>HP</th>
+            <th>ATK</th>
+            <th>DEF</th>
+            <th>Power</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pageData.stats_table?.map((row) => (
+            <tr>
+              <td>{row.level}</td>
+              <td>{row.hp ?? '-'}</td>
+              <td>{row.atk ?? '-'}</td>
+              <td>{row.def ?? '-'}</td>
+              <td>{row.combat_power ?? '-'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    {pageData.strategy_tips?.length > 0 && (
+      <section>
+        <h2>How to use {pageData.name} effectively?</h2>
+        <ul>
+          {pageData.strategy_tips.map((tip) => <li>{tip}</li>)}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

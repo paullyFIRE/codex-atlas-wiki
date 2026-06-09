@@ -1,6 +1,6 @@
 {
   "type": "special",
-  "count": 59,
+  "count": 23,
   "items": [
     {
       "id": 802,
@@ -16,136 +16,6 @@
       "id": 1402,
       "name": "Fireball",
       "slug": "fireball"
-    },
-    {
-      "id": 101,
-      "name": "Command Center",
-      "slug": "command-center-1"
-    },
-    {
-      "id": 201,
-      "name": "Gold Mine",
-      "slug": "gold-mine-1"
-    },
-    {
-      "id": 104,
-      "name": "Follower Camp",
-      "slug": "follower-camp"
-    },
-    {
-      "id": 601,
-      "name": "Spell Cauldron",
-      "slug": "spell-cauldron"
-    },
-    {
-      "id": 203,
-      "name": "Sawmill",
-      "slug": "sawmill"
-    },
-    {
-      "id": 3010,
-      "name": "Bunker",
-      "slug": "bunker"
-    },
-    {
-      "id": 3011,
-      "name": "Arrow Tower",
-      "slug": "arrow-tower"
-    },
-    {
-      "id": 3012,
-      "name": "Turret",
-      "slug": "turret-1"
-    },
-    {
-      "id": 3021,
-      "name": "Command Center",
-      "slug": "command-center-2"
-    },
-    {
-      "id": 3022,
-      "name": "Magic Source",
-      "slug": "magic-source"
-    },
-    {
-      "id": 3023,
-      "name": "Cannon",
-      "slug": "cannon"
-    },
-    {
-      "id": 3024,
-      "name": "Thunder Tower",
-      "slug": "thunder-tower"
-    },
-    {
-      "id": 3025,
-      "name": "Hammer Tower",
-      "slug": "hammer-tower"
-    },
-    {
-      "id": 3026,
-      "name": "Statue",
-      "slug": "statue"
-    },
-    {
-      "id": 3027,
-      "name": "Watchtower",
-      "slug": "watchtower"
-    },
-    {
-      "id": 3028,
-      "name": "Alchemy House",
-      "slug": "alchemy-house"
-    },
-    {
-      "id": 3029,
-      "name": "Temple",
-      "slug": "temple"
-    },
-    {
-      "id": 3030,
-      "name": "Camp",
-      "slug": "camp"
-    },
-    {
-      "id": 3031,
-      "name": "Military Academy",
-      "slug": "military-academy"
-    },
-    {
-      "id": 3032,
-      "name": "Rest Hut",
-      "slug": "rest-hut"
-    },
-    {
-      "id": 3033,
-      "name": "City Wall",
-      "slug": "city-wall"
-    },
-    {
-      "id": 3034,
-      "name": "Ancient Guardian",
-      "slug": "ancient-guardian"
-    },
-    {
-      "id": 3035,
-      "name": "Mystic Spire",
-      "slug": "mystic-spire"
-    },
-    {
-      "id": 3036,
-      "name": "Timber Extractor",
-      "slug": "timber-extractor"
-    },
-    {
-      "id": 3037,
-      "name": "Stone Extractor",
-      "slug": "stone-extractor"
-    },
-    {
-      "id": 3038,
-      "name": "Metal Extractor",
-      "slug": "metal-extractor"
     },
     {
       "id": 3039,
@@ -223,51 +93,6 @@
       "slug": "silver-mine"
     },
     {
-      "id": 3054,
-      "name": "Gold Mine",
-      "slug": "gold-mine-2"
-    },
-    {
-      "id": 3055,
-      "name": "Turret",
-      "slug": "turret-2"
-    },
-    {
-      "id": 3056,
-      "name": "Saw Launcher",
-      "slug": "saw-launcher"
-    },
-    {
-      "id": 3057,
-      "name": "Flame Cannon",
-      "slug": "flame-cannon"
-    },
-    {
-      "id": 3058,
-      "name": "Frost Cannon",
-      "slug": "frost-cannon"
-    },
-    {
-      "id": 3059,
-      "name": "Electromagnetic Coil",
-      "slug": "electromagnetic-coil"
-    },
-    {
-      "id": 3060,
-      "name": "Shield Generator",
-      "slug": "shield-generator"
-    },
-    {
-      "id": 3061,
-      "name": "Wind Blast Tower",
-      "slug": "wind-blast-tower"
-    },
-    {
-      "id": 3062,
-      "name": "Portal",
-      "slug": "portal"
-    },
-    {
       "id": 3063,
       "name": "Landmine",
       "slug": "landmine"
@@ -291,11 +116,6 @@
       "id": 3067,
       "name": "Fireworks Launcher",
       "slug": "fireworks-launcher"
-    },
-    {
-      "id": 3068,
-      "name": "Electric Tower",
-      "slug": "electric-tower"
     }
   ]
 }
