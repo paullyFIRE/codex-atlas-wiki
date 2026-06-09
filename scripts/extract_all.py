@@ -112,16 +112,27 @@ def extract_localization():
     print(f"  Localization CSVs: {count}")
 
 def extract_unity_assets():
-    """Extract assets via UnityPy"""
+    """Extract assets via UnityPy from ALL Unity asset directories"""
     try:
         import UnityPy
     except ImportError:
         print("[SKIP] UnityPy not installed (pip install UnityPy)")
         return
 
-    data_dir = RAW / "_apk_decompiled_assets" / "assets" / "bin" / "Data"
-    if not data_dir.exists():
-        print("[SKIP] Unity data dir not found")
+    # Scan multiple directories for Unity assets
+    scan_dirs = [
+        RAW / "_apk_decompiled_assets" / "assets" / "bin" / "Data",
+        RAW / "_apk_decompiled_assets" / "assets" / "Bundles",
+        RAW / "_apk_decompiled_assets" / "assets" / "embeddedpackages",
+    ]
+    
+    found = False
+    for d in scan_dirs:
+        if d.exists():
+            found = True
+            break
+    if not found:
+        print("[SKIP] No Unity asset directories found")
         return
 
     out_dir = ROOT / "data/raw/_auto_extracted"
@@ -135,64 +146,53 @@ def extract_unity_assets():
     sprite_dir.mkdir(exist_ok=True)
 
     text_count = tex_count = sprite_count = 0
+    file_count = 0
 
-    for f in sorted(data_dir.iterdir()):
-        if f.stat().st_size < 1000: continue
-        try:
-            env = UnityPy.load(str(f))
-        except: continue
-        for path, obj in env.container.items():
+    for scan_dir in scan_dirs:
+        if not scan_dir.exists(): continue
+        for f in sorted(scan_dir.rglob("*")):
+            if not f.is_file() or f.stat().st_size < 200: continue
             try:
-                if obj.type.name == "TextAsset":
-                    data = obj.read()
-                    script = data.m_Script
-                    if script:
-                        name = data.m_Name or f"text_{text_count}"
-                        fname = re.sub(r'[\\/*?:"<>|]', '_', name)
-                        with open(text_dir / f"{fname}.txt", 'wb') as fp:
-                            fp.write(script if isinstance(script, bytes) else script.encode())
-                        text_count += 1
-                elif obj.type.name == "Texture2D":
-                    try:
-                        data = obj.read()
-                        img = data.image
-                        if img:
-                            name = data.m_Name or f"tex_{tex_count}"
-                            fname = re.sub(r'[\\/*?:"<>|]', '_', name)
-                            img.save(tex_dir / f"{fname}.png")
-                            tex_count += 1
-                    except: pass
-                elif obj.type.name == "Sprite":
-                    try:
-                        data = obj.read()
-                        img = data.image
-                        if img:
-                            name = data.m_Name or f"sprite_{sprite_count}"
-                            fname = re.sub(r'[\\/*?:"<>|]', '_', name)
-                            img.save(sprite_dir / f"{fname}.png")
-                            sprite_count += 1
-                    except: pass
-            except: pass
-
-    # Inventory
-    inventory = {}
-    for f in sorted(data_dir.iterdir()):
-        if f.stat().st_size < 1000: continue
-        try:
-            env = UnityPy.load(str(f))
+                env = UnityPy.load(str(f))
+                file_count += 1
+            except: continue
             for path, obj in env.container.items():
-                t = obj.type.name
-                inventory[t] = inventory.get(t, 0) + 1
-        except: pass
+                try:
+                    if obj.type.name == "TextAsset":
+                        data = obj.read()
+                        script = data.m_Script
+                        if script:
+                            name = data.m_Name or f"text_{text_count}"
+                            fname = re.sub(r'[\\/*?:"<>|]', '_', name)
+                            with open(text_dir / f"{fname}.txt", 'wb') as fp:
+                                fp.write(script if isinstance(script, bytes) else script.encode())
+                            text_count += 1
+                    elif obj.type.name == "Texture2D":
+                        try:
+                            data = obj.read()
+                            img = data.image
+                            if img:
+                                name = data.m_Name or f"tex_{tex_count}"
+                                fname = re.sub(r'[\\/*?:"<>|]', '_', name)
+                                img.save(tex_dir / f"{fname}.png")
+                                tex_count += 1
+                        except: pass
+                    elif obj.type.name == "Sprite":
+                        try:
+                            data = obj.read()
+                            img = data.image
+                            if img:
+                                name = data.m_Name or f"sprite_{sprite_count}"
+                                fname = re.sub(r'[\\/*?:"<>|]', '_', name)
+                                img.save(sprite_dir / f"{fname}.png")
+                                sprite_count += 1
+                        except: pass
+                except: pass
 
-    inv_path = out_dir / "asset_inventory.json"
-    with open(inv_path, 'w') as fp:
-        json.dump(inventory, fp, indent=2)
-
+    print(f"  Files processed: {file_count}")
     print(f"  TextAssets: {text_count}")
     print(f"  Texture2D: {tex_count}")
     print(f"  Sprites: {sprite_count}")
-    print(f"  Inventory: {inv_path}")
 
 def extract_other_bundles():
     """Extract JSON configs from Unity AssetBundles"""
