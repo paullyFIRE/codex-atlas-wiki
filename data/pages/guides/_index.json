@@ -1,0 +1,46 @@
+{
+  "type": "guides",
+  "count": 8,
+  "items": [
+    {
+      "id": 0,
+      "name": "Best Low Cost Units",
+      "slug": "best-low-cost-units"
+    },
+    {
+      "id": 0,
+      "name": "Best Mid Cost Units",
+      "slug": "best-mid-cost-units"
+    },
+    {
+      "id": 0,
+      "name": "Best High Cost Units",
+      "slug": "best-high-cost-units"
+    },
+    {
+      "id": 0,
+      "name": "Best Heroes for General Lineup",
+      "slug": "best-heroes-for-general-lineup"
+    },
+    {
+      "id": 0,
+      "name": "Best Heroes for Mode 3",
+      "slug": "best-heroes-for-mode-3"
+    },
+    {
+      "id": 0,
+      "name": "Best Heroes for Ace Showdown",
+      "slug": "best-heroes-for-ace-showdown"
+    },
+    {
+      "id": 0,
+      "name": "Best Heroes for Mode 5",
+      "slug": "best-heroes-for-mode-5"
+    },
+    {
+      "id": 0,
+      "name": "Best Heroes for Mode 6",
+      "slug": "best-heroes-for-mode-6"
+    }
+  ]
+}

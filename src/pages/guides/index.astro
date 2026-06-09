@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/guides/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/guides/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
+---
+
+<BaseLayout title="Strategy Guides - Best Heroes by Cost and Mode | War Inc: Rising Wiki">
+  <h1>Strategy Guides</h1>
+  <p>Data-driven guides to help you choose the best heroes.</p>
+  <ul>
+    {items.map((item) => (
+      <li><a href={`/guides/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
+</BaseLayout>

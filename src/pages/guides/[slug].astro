@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/guides/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/guides/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/guides/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/guides/${slug}.json`];
+if (!pageData) return Astro.redirect('/guides/', 404);
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/guides/">Guides</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <h1>{pageData.name}</h1>
+    {pageData.mode_name && <p>Recommended units for <strong>{pageData.mode_name}</strong>.</p>}
+    {pageData.cost_label && <p>Heroes costing {pageData.cost_min}{pageData.cost_max != null ? '-' + pageData.cost_max : '+'}.</p>}
+
+    <table>
+      <thead>
+        <tr><th>#</th><th>Unit</th><th>Rarity</th><th>Class</th><th>Cost</th><th>Power</th></tr>
+      </thead>
+      <tbody>
+        {pageData.units.map((u, i) => (
+          <tr>
+            <td>{i + 1}</td>
+            <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
+            <td>{u.rarity_name}</td>
+            <td>{u.profession_name}</td>
+            <td>{u.cost}</td>
+            <td>{u.combat_power}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </article>
+</BaseLayout>

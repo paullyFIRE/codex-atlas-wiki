@@ -742,10 +742,105 @@ def build_compare_pages(db: dict, name_map: dict, slug_map: dict) -> list:
                 "hero_a": a,
                 "hero_b": b,
                 "comparison": comparison,
-            })
+        })
 
     return pages
 
+
+# ─── Cost bracket guides ───────────────────────────────────────────
+
+def build_cost_guides(db: dict, name_map: dict, slug_map: dict) -> list:
+    pages = []
+    cost_brackets = [
+        ("low-cost", 0, 2, "Low Cost"),
+        ("mid-cost", 3, 4, "Mid Cost"),
+        ("high-cost", 5, 100, "High Cost"),
+    ]
+
+    for slug_suffix, cmin, cmax, clabel in cost_brackets:
+        units = []
+        for uid, u in db.items():
+            if u.get("unit_type") != 1:
+                continue
+            cost = u.get("cost", 0)
+            if cost < cmin or cost > cmax:
+                continue
+            name = name_map.get(str(uid)) or u.get("name_en")
+            if not name:
+                continue
+            units.append({
+                "name": name,
+                "slug": slug_map.get(str(uid), slugify(name)),
+                "rarity_name": RARITY_MAP.get(u.get("rarity"), "Unknown"),
+                "profession_name": PROFESSION_MAP.get(u.get("profession"), "Unknown"),
+                "cost": cost,
+                "combat_power": u.get("combat_power", 0),
+            })
+
+        units.sort(key=lambda u: -u["combat_power"])
+        label = f"Best {clabel} Units"
+        slug = f"best-{slug_suffix}-units"
+        title = f"{label} | War Inc: Rising Wiki"
+        meta_desc = f"Browse the best {clabel.lower()} units in War Inc: Rising. Top heroes costing {'-'.join(str(x) for x in [cmin, cmax])} ranked by combat power."
+
+        pages.append({
+            "slug": slug,
+            "name": label,
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "guides",
+            "units": units,
+            "cost_min": cmin,
+            "cost_max": cmax if cmax < 100 else None,
+            "cost_label": clabel,
+        })
+
+    return pages
+
+
+# ─── Mode hero recommendations ─────────────────────────────────────
+
+def build_mode_guides(db: dict, name_map: dict, slug_map: dict, loc: dict) -> list:
+    pages = []
+    mode_data = load_json(DATA_DIR / "config" / "battle_conf_lib.json")
+
+    for mid, mode in mode_data.items():
+        mode_name = loc.get(f"game_mode_name_{mid}", f"Mode {mid}")
+        slug = slugify(f"best-heroes-for-{mode_name}")
+
+        units = []
+        for uid, u in db.items():
+            if u.get("unit_type") != 1:
+                continue
+            name = name_map.get(str(uid)) or u.get("name_en")
+            if not name:
+                continue
+            units.append({
+                "name": name,
+                "slug": slug_map.get(str(uid), slugify(name)),
+                "rarity_name": RARITY_MAP.get(u.get("rarity"), "Unknown"),
+                "profession_name": PROFESSION_MAP.get(u.get("profession"), "Unknown"),
+                "cost": u.get("cost", 0),
+                "combat_power": u.get("combat_power", 0),
+            })
+
+        units.sort(key=lambda u: -u["combat_power"])
+
+        title = f"Best Heroes for {mode_name} | War Inc: Rising Wiki"
+        meta_desc = f"Top heroes for {mode_name} in War Inc: Rising. Ranked by combat power."
+
+        pages.append({
+            "slug": slug,
+            "name": f"Best Heroes for {mode_name}",
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "guides",
+            "mode_id": int(mid),
+            "mode_name": mode_name,
+            "units": units[:30],
+        })
+
+    return pages
 
 # ─── Profession guide pages ────────────────────────────────────────
 
@@ -926,6 +1021,14 @@ def main():
 
     print("Building rarity tier list pages...")
     for page in build_rarity_pages(db, name_map, slug_map):
+        all_pages.append(page)
+
+    print("Building cost bracket guides...")
+    for page in build_cost_guides(db, name_map, slug_map):
+        all_pages.append(page)
+
+    print("Building mode hero guides...")
+    for page in build_mode_guides(db, name_map, slug_map, loc):
         all_pages.append(page)
 
     # Write pages

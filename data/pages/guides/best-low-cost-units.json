@@ -1,0 +1,108 @@
+{
+  "slug": "best-low-cost-units",
+  "name": "Best Low Cost Units",
+  "title": "Best Low Cost Units | War Inc: Rising Wiki",
+  "meta_description": "Browse the best low cost units in War Inc: Rising. Top heroes costing 0-2 ranked by combat power.",
+  "type": "guides",
+  "units": [
+    {
+      "name": "Woodshield Guard",
+      "slug": "woodshield-guard",
+      "rarity_name": "Common",
+      "profession_name": "Special",
+      "cost": 2,
+      "combat_power": 113
+    },
+    {
+      "name": "Swordsman",
+      "slug": "swordsman",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 2,
+      "combat_power": 109
+    },
+    {
+      "name": "Demoman",
+      "slug": "demoman",
+      "rarity_name": "Common",
+      "profession_name": "Mage",
+      "cost": 2,
+      "combat_power": 108
+    },
+    {
+      "name": "Archer",
+      "slug": "archer",
+      "rarity_name": "Common",
+      "profession_name": "Warrior",
+      "cost": 2,
+      "combat_power": 97
+    },
+    {
+      "name": "Gunner",
+      "slug": "gunner",
+      "rarity_name": "Common",
+      "profession_name": "Warrior",
+      "cost": 2,
+      "combat_power": 96
+    },
+    {
+      "name": "Snowball Thrower",
+      "slug": "snowball-thrower",
+      "rarity_name": "Common",
+      "profession_name": "Mage",
+      "cost": 2,
+      "combat_power": 91
+    },
+    {
+      "name": "Skeleton Troop",
+      "slug": "skeleton-troop",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 20
+    },
+    {
+      "name": "Tempest Core",
+      "slug": "tempest-core",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "name": "Castle Assassin",
+      "slug": "castle-assassin",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "name": "Castle Archer",
+      "slug": "castle-archer",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "name": "Castle Mage",
+      "slug": "castle-mage",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0
+    },
+    {
+      "name": "Castle Guard",
+      "slug": "castle-guard",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 0,
+      "combat_power": 0
+    }
+  ],
+  "cost_min": 0,
+  "cost_max": 2,
+  "cost_label": "Low Cost"
+}

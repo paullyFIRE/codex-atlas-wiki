@@ -1,0 +1,251 @@
+{
+  "slug": "best-heroes-for-general-lineup",
+  "name": "Best Heroes for General Lineup",
+  "title": "Best Heroes for General Lineup | War Inc: Rising Wiki",
+  "meta_description": "Top heroes for General Lineup in War Inc: Rising. Ranked by combat power.",
+  "type": "guides",
+  "mode_id": 1,
+  "mode_name": "General Lineup",
+  "units": [
+    {
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 603
+    },
+    {
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 529
+    },
+    {
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 507
+    },
+    {
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 505
+    },
+    {
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 503
+    },
+    {
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 483
+    },
+    {
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 474
+    },
+    {
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 469
+    },
+    {
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 466
+    },
+    {
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 465
+    },
+    {
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 464
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463
+    },
+    {
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463
+    },
+    {
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 452
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 449
+    },
+    {
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 445
+    },
+    {
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 442
+    },
+    {
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 433
+    },
+    {
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 433
+    },
+    {
+      "name": "Joker",
+      "slug": "joker",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 429
+    },
+    {
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 426
+    },
+    {
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 425
+    },
+    {
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 420
+    },
+    {
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 420
+    },
+    {
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 412
+    },
+    {
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 411
+    },
+    {
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 408
+    },
+    {
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407
+    }
+  ]
+}

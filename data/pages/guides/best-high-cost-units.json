@@ -1,0 +1,1108 @@
+{
+  "slug": "best-high-cost-units",
+  "name": "Best High Cost Units",
+  "title": "Best High Cost Units | War Inc: Rising Wiki",
+  "meta_description": "Browse the best high cost units in War Inc: Rising. Top heroes costing 5-100 ranked by combat power.",
+  "type": "guides",
+  "units": [
+    {
+      "name": "Hydromancer",
+      "slug": "hydromancer",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 603
+    },
+    {
+      "name": "Blaze Wanderer",
+      "slug": "blaze-wanderer",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 529
+    },
+    {
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 507
+    },
+    {
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 505
+    },
+    {
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 503
+    },
+    {
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 483
+    },
+    {
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 474
+    },
+    {
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 469
+    },
+    {
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 466
+    },
+    {
+      "name": "Windhunt Arbalist",
+      "slug": "windhunt-arbalist",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 465
+    },
+    {
+      "name": "Barbarian Tyrant",
+      "slug": "barbarian-tyrant",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 464
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463
+    },
+    {
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463
+    },
+    {
+      "name": "Dark Knight",
+      "slug": "dark-knight-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 452
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 449
+    },
+    {
+      "name": "Monkey King",
+      "slug": "monkey-king",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 445
+    },
+    {
+      "name": "Seraph",
+      "slug": "seraph-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 442
+    },
+    {
+      "name": "Jungle Hunter",
+      "slug": "jungle-hunter",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 433
+    },
+    {
+      "name": "Firepower Vanguard",
+      "slug": "firepower-vanguard",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 433
+    },
+    {
+      "name": "Joker",
+      "slug": "joker",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 429
+    },
+    {
+      "name": "Djinn of the Lamp",
+      "slug": "djinn-of-the-lamp",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 426
+    },
+    {
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 425
+    },
+    {
+      "name": "Earth Sage",
+      "slug": "earth-sage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 420
+    },
+    {
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 420
+    },
+    {
+      "name": "Lord of Hatred",
+      "slug": "lord-of-hatred",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 412
+    },
+    {
+      "name": "Molten Archer",
+      "slug": "molten-archer-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 411
+    },
+    {
+      "name": "Ripple Wizard",
+      "slug": "ripple-wizard",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 408
+    },
+    {
+      "name": "Bone Marksman",
+      "slug": "bone-marksman",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Jungle Ranger",
+      "slug": "jungle-ranger",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407
+    },
+    {
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 406
+    },
+    {
+      "name": "Fury Cannoneer",
+      "slug": "fury-cannoneer",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 405
+    },
+    {
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403
+    },
+    {
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403
+    },
+    {
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403
+    },
+    {
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403
+    },
+    {
+      "name": "Shell Guard",
+      "slug": "shell-guard",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 402
+    },
+    {
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 394
+    },
+    {
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 393
+    },
+    {
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 392
+    },
+    {
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 392
+    },
+    {
+      "name": "Darkmoon Queen",
+      "slug": "darkmoon-queen",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 391
+    },
+    {
+      "name": "Melody Weaver",
+      "slug": "melody-weaver",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 390
+    },
+    {
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 384
+    },
+    {
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 378
+    },
+    {
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 376
+    },
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 360
+    },
+    {
+      "name": "Blazing Phoenix",
+      "slug": "blazing-phoenix-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 360
+    },
+    {
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 358
+    },
+    {
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 358
+    },
+    {
+      "name": "Cactus Guardian",
+      "slug": "cactus-guardian",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 349
+    },
+    {
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity_name": "Epic",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 345
+    },
+    {
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 342
+    },
+    {
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 341
+    },
+    {
+      "name": "Ghost Meteor",
+      "slug": "ghost-meteor",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 328
+    },
+    {
+      "name": "Ironguard",
+      "slug": "ironguard",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 324
+    },
+    {
+      "name": "Sakura Ronin",
+      "slug": "sakura-ronin",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 324
+    },
+    {
+      "name": "Soul Usher",
+      "slug": "soul-usher",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 323
+    },
+    {
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 317
+    },
+    {
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 312
+    },
+    {
+      "name": "Osseous Priest",
+      "slug": "osseous-priest",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 312
+    },
+    {
+      "name": "Frostcrystal Spirit",
+      "slug": "frostcrystal-spirit",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 307
+    },
+    {
+      "name": "Wave Mage",
+      "slug": "wave-mage",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 306
+    },
+    {
+      "name": "Phantom Reaper",
+      "slug": "phantom-reaper",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 305
+    },
+    {
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 300
+    },
+    {
+      "name": "Pumpkin Guard",
+      "slug": "pumpkin-guard",
+      "rarity_name": "Epic",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 298
+    },
+    {
+      "name": "Viper Warrior",
+      "slug": "viper-warrior",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 294
+    },
+    {
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 293
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 290
+    },
+    {
+      "name": "Grace Priest",
+      "slug": "grace-priest",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 289
+    },
+    {
+      "name": "Flame Mage",
+      "slug": "flame-mage",
+      "rarity_name": "Epic",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 286
+    },
+    {
+      "name": "Elven Archer",
+      "slug": "elven-archer",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 286
+    },
+    {
+      "name": "Cowboy Gunner",
+      "slug": "cowboy-gunner",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 284
+    },
+    {
+      "name": "Poison Master",
+      "slug": "poison-master",
+      "rarity_name": "Epic",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 283
+    },
+    {
+      "name": "Drumbeast Gorilla",
+      "slug": "drumbeast-gorilla",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 280
+    },
+    {
+      "name": "Wind Apostle",
+      "slug": "wind-apostle",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 278
+    },
+    {
+      "name": "Ashen Arcanist",
+      "slug": "ashen-arcanist",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 273
+    },
+    {
+      "name": "Windlord",
+      "slug": "windlord",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 266
+    },
+    {
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 258
+    },
+    {
+      "name": "Bone Warlock",
+      "slug": "bone-warlock",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 242
+    },
+    {
+      "name": "Dwarf Berserker",
+      "slug": "dwarf-berserker",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 223
+    },
+    {
+      "name": "Minotaur Chieftain",
+      "slug": "minotaur-chieftain",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 5,
+      "combat_power": 211
+    },
+    {
+      "name": "Knight",
+      "slug": "knight",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 5,
+      "combat_power": 205
+    },
+    {
+      "name": "Wooden Wizard",
+      "slug": "wooden-wizard",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 5,
+      "combat_power": 162
+    },
+    {
+      "name": "Guard Chario",
+      "slug": "guard-chario",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 5,
+      "combat_power": 126
+    },
+    {
+      "name": "Tide Caller",
+      "slug": "tide-caller",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Shadowflame Sorcerer",
+      "slug": "shadowflame-sorcerer",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Windbearer",
+      "slug": "windbearer",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Stoneheart Empowerer",
+      "slug": "stoneheart-empowerer",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Psychic Nymph",
+      "slug": "psychic-nymph",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Frostwater Mage",
+      "slug": "frostwater-mage",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "The Pilgrim",
+      "slug": "the-pilgrim",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Heartpiercing Crossbowman",
+      "slug": "heartpiercing-crossbowman",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 0
+    },
+    {
+      "name": "Netherworld Arbiter",
+      "slug": "netherworld-arbiter",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Mech-Magic Cannon",
+      "slug": "mech-magic-cannon",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Magical Girl",
+      "slug": "magical-girl",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Steam Robot",
+      "slug": "steam-robot-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Steam Robot",
+      "slug": "steam-robot-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Flying Knife Mantis",
+      "slug": "flying-knife-mantis-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Pharmacist",
+      "slug": "pharmacist-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Pharmacist",
+      "slug": "pharmacist-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Molten Archer",
+      "slug": "molten-archer-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Blacksmith Warrior",
+      "slug": "blacksmith-warrior-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Blacksmith Warrior",
+      "slug": "blacksmith-warrior-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Frost Wizard",
+      "slug": "frost-wizard-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Weakened One",
+      "slug": "weakened-one",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Butterfly Mage",
+      "slug": "butterfly-mage-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Butterfly Mage",
+      "slug": "butterfly-mage-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Butterfly Mage",
+      "slug": "butterfly-mage-3",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Mech Artisan",
+      "slug": "mech-artisan-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Mech Artisan",
+      "slug": "mech-artisan-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Blazing Phoenix",
+      "slug": "blazing-phoenix-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Elemental Dragon",
+      "slug": "elemental-dragon-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Elemental Dragon",
+      "slug": "elemental-dragon-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Seraph",
+      "slug": "seraph-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Wandering Swordsman",
+      "slug": "wandering-swordsman-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Wandering Swordsman",
+      "slug": "wandering-swordsman-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Deadly Blade",
+      "slug": "deadly-blade-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Dark Mage",
+      "slug": "dark-mage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Energy Striker",
+      "slug": "energy-striker-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Energy Striker",
+      "slug": "energy-striker-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Crystal Cat",
+      "slug": "crystal-cat-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Weapon Sage",
+      "slug": "weapon-sage-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Weapon Sage",
+      "slug": "weapon-sage-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Weapon Sage",
+      "slug": "weapon-sage-3",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Dark Knight",
+      "slug": "dark-knight-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Stasis Guard",
+      "slug": "stasis-guard-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Gaia",
+      "slug": "gaia-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Gaia",
+      "slug": "gaia-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 0
+    },
+    {
+      "name": "Bounty Hunter",
+      "slug": "bounty-hunter-2",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 0
+    }
+  ],
+  "cost_min": 5,
+  "cost_max": null,
+  "cost_label": "High Cost"
+}
