@@ -681,6 +681,7 @@ table.wiki-table {
 .topbar-nav a {
   font-family: var(--font-heading);
   font-size: var(--text-sm);
+  font-weight: 600;
   color: var(--surface-paper);
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-md);
@@ -696,6 +697,12 @@ table.wiki-table {
   color: var(--gold-300);
   border-bottom: 2px solid var(--gold-500);
   padding-bottom: calc(var(--space-2) - 2px);
+}
+.topbar-search {
+  margin-left: auto;
+  font-size: 1.15rem;
+  line-height: 1;
+  padding: var(--space-2) var(--space-2) !important;
 }
 
 /* ---- Footer ---- */
@@ -771,7 +778,8 @@ table.wiki-table {
   margin: var(--space-4) 0;
   padding: 0;
 }
-.listing-grid li { margin: 0; }
+.listing-grid li { margin: 0; display: flex; }
+.listing-grid li > * { width: 100%; }
 
 .listing-plain {
   list-style: none;
