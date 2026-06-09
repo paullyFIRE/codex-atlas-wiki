@@ -1,0 +1,9 @@
+# Raw extracted game data (too large, reproducible from APK)
+data/raw/
+
+# Temp extraction tools
+/tmp/assetripper_extracted/
+/tmp/il2cppdumper/
+
+# OS files
+.DS_Store
