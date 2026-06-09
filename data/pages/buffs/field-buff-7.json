@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "slug": "field-buff-7",
+  "name": "Field Buff 7",
+  "title": "Field Buff 7 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 7 in War Inc: Rising. PVP乌鸦-缴械",
+  "type": "buffs",
+  "buff_id": 7,
+  "remark": "PVP乌鸦-缴械",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1007",
+      "unit_name": "Raven Graveyard",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 7",
+    "description": "Field buff 7 in War Inc: Rising."
+  }
+}

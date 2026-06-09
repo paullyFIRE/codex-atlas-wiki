@@ -1,0 +1,24 @@
+{
+  "id": 101,
+  "slug": "field-buff-101",
+  "name": "Field Buff 101",
+  "title": "Field Buff 101 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 101 in War Inc: Rising. 无限战争雪天减移速",
+  "type": "buffs",
+  "buff_id": 101,
+  "remark": "无限战争雪天减移速",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1001",
+      "unit_name": "Deep Snow",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 101",
+    "description": "Field buff 101 in War Inc: Rising."
+  }
+}

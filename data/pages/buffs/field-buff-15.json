@@ -1,0 +1,24 @@
+{
+  "id": 15,
+  "slug": "field-buff-15",
+  "name": "Field Buff 15",
+  "title": "Field Buff 15 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 15 in War Inc: Rising. PVP风抗上升",
+  "type": "buffs",
+  "buff_id": 15,
+  "remark": "PVP风抗上升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1015",
+      "unit_name": "Endless Cyclone",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 15",
+    "description": "Field buff 15 in War Inc: Rising."
+  }
+}

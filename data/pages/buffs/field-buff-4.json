@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "slug": "field-buff-4",
+  "name": "Field Buff 4",
+  "title": "Field Buff 4 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 4 in War Inc: Rising. PVP风-攻速提升",
+  "type": "buffs",
+  "buff_id": 4,
+  "remark": "PVP风-攻速提升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1004",
+      "unit_name": "Gale Canyon",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 4",
+    "description": "Field buff 4 in War Inc: Rising."
+  }
+}

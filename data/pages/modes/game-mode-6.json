@@ -1,0 +1,34 @@
+{
+  "id": 6,
+  "slug": "game-mode-6",
+  "name": "Game Mode 6",
+  "title": "Game Mode 6 - Rules, Rewards, and Strategy | War Inc: Rising Wiki",
+  "meta_description": "Game Mode 6 is a game mode in War Inc: Rising. Learn the rules, rewards, and strategies.",
+  "type": "modes",
+  "mode_id": 6,
+  "layout_id": 1003,
+  "mini_game_rule": {
+    "gamePool": [],
+    "previewWave": 5,
+    "cycle": 5,
+    "waveOffset": 5
+  },
+  "rewards": [
+    {
+      "type": null,
+      "id": null,
+      "count": null
+    },
+    {
+      "type": null,
+      "id": null,
+      "count": null
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Game Mode 6",
+    "description": "Game Mode 6 game mode in War Inc: Rising."
+  }
+}

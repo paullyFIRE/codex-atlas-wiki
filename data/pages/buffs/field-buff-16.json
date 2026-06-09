@@ -1,0 +1,24 @@
+{
+  "id": 16,
+  "slug": "field-buff-16",
+  "name": "Field Buff 16",
+  "title": "Field Buff 16 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 16 in War Inc: Rising. PVP战士加攻",
+  "type": "buffs",
+  "buff_id": 16,
+  "remark": "PVP战士加攻",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1016",
+      "unit_name": "Valhalla",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 16",
+    "description": "Field buff 16 in War Inc: Rising."
+  }
+}

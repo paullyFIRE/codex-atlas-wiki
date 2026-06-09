@@ -1,0 +1,24 @@
+{
+  "id": 109,
+  "slug": "field-buff-109",
+  "name": "Field Buff 109",
+  "title": "Field Buff 109 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 109 in War Inc: Rising. 无限战争全场护盾",
+  "type": "buffs",
+  "buff_id": 109,
+  "remark": "无限战争全场护盾",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1009",
+      "unit_name": "Sacred Field",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 109",
+    "description": "Field buff 109 in War Inc: Rising."
+  }
+}

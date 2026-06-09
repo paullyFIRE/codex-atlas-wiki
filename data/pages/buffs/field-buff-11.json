@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "slug": "field-buff-11",
+  "name": "Field Buff 11",
+  "title": "Field Buff 11 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 11 in War Inc: Rising. PVP木抗上升",
+  "type": "buffs",
+  "buff_id": 11,
+  "remark": "PVP木抗上升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1011",
+      "unit_name": "Forest Rhythm",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 11",
+    "description": "Field buff 11 in War Inc: Rising."
+  }
+}

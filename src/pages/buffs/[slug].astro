@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/buffs/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/buffs/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/buffs/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/buffs/${slug}.json`];
+if (!pageData) return Astro.redirect('/buffs/', 404);
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+
+  <nav aria-label="Breadcrumb">
+    <a href="/">Home</a> &gt; <a href="/buffs/">Field Buffs</a> &gt; <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <header>
+      <h1>{pageData.name}</h1>
+      <p>Style: {pageData.style}</p>
+    </header>
+
+    <section>
+      <h2>Effect</h2>
+      <p>{pageData.remark}</p>
+
+      {pageData.affected_units.length > 0 && (
+        <>
+          <h2>Affected Units</h2>
+          <ul>
+            {pageData.affected_units.map((u) => (
+              <li>Unit {u.unit_id} — {u.unit_name} (Level {u.unit_level})</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </section>
+  </article>
+</BaseLayout>

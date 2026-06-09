@@ -1,0 +1,79 @@
+{
+  "id": 602386245421465854,
+  "slug": "nature-tome",
+  "name": "Nature Tome",
+  "title": "Nature Tome - Equipment Stats and Tiers | War Inc: Rising Wiki",
+  "meta_description": "Nature Tome is a Camp 1 equipment in War Inc: Rising with 5 upgrade tiers.",
+  "type": "equipment",
+  "equip_id": "20209",
+  "target_camp": 1,
+  "camp_name": "Camp 1",
+  "stats_by_tier": [
+    {
+      "tier": 1,
+      "buffs": [
+        {
+          "stat": 1073,
+          "value": 0.06
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "buffs": [
+        {
+          "stat": 1073,
+          "value": 0.09
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "buffs": [
+        {
+          "stat": 1073,
+          "value": 0.13
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "buffs": [
+        {
+          "stat": 1073,
+          "value": 0.16
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "buffs": [
+        {
+          "stat": 1073,
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Nature Tome",
+    "description": "Nature Tome equipment for War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiers",
+          "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Target Camp",
+          "value": "Camp 1"
+        }
+      ]
+    }
+  }
+}

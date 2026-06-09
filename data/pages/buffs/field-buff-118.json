@@ -1,0 +1,24 @@
+{
+  "id": 118,
+  "slug": "field-buff-118",
+  "name": "Field Buff 118",
+  "title": "Field Buff 118 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 118 in War Inc: Rising. 无限战争射手加攻",
+  "type": "buffs",
+  "buff_id": 118,
+  "remark": "无限战争射手加攻",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1018",
+      "unit_name": "North Frontier",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 118",
+    "description": "Field buff 118 in War Inc: Rising."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": -1945317244845987643,
+  "slug": "equipment-13001",
+  "name": "Equipment 13001",
+  "title": "Equipment 13001 - Equipment Stats and Tiers | War Inc: Rising Wiki",
+  "meta_description": "Equipment 13001 is a Camp 1 equipment in War Inc: Rising with 5 upgrade tiers.",
+  "type": "equipment",
+  "equip_id": "13001",
+  "target_camp": 1,
+  "camp_name": "Camp 1",
+  "stats_by_tier": [
+    {
+      "tier": 1,
+      "buffs": [
+        {
+          "stat": 1173,
+          "value": 0.012
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "buffs": [
+        {
+          "stat": 1173,
+          "value": 0.017
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "buffs": [
+        {
+          "stat": 1173,
+          "value": 0.021
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "buffs": [
+        {
+          "stat": 1173,
+          "value": 0.026000000000000002
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "buffs": [
+        {
+          "stat": 1173,
+          "value": 0.03
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Equipment 13001",
+    "description": "Equipment 13001 equipment for War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiers",
+          "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Target Camp",
+          "value": "Camp 1"
+        }
+      ]
+    }
+  }
+}

@@ -1,9 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/synergies/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
 ---
 
-<BaseLayout title="Synergies - Team Bonus Effects | War Inc: Rising Wiki">
+<BaseLayout
+  title="Synergies - Team Bonus Effects | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} synergy effects in War Inc: Rising.`}
+>
   <h1>Synergies</h1>
-  <p>Browse all 9 synergy effects and find the best team compositions.</p>
-  <p><em>Page generation coming soon.</em></p>
+  <p>{items.length} team bonus effects.</p>
+
+  <ul>
+    {items.map((item) => (
+      <li><a href={`/synergies/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
 </BaseLayout>

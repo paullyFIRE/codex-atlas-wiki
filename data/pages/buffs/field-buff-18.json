@@ -1,0 +1,24 @@
+{
+  "id": 18,
+  "slug": "field-buff-18",
+  "name": "Field Buff 18",
+  "title": "Field Buff 18 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 18 in War Inc: Rising. PVP射手加攻",
+  "type": "buffs",
+  "buff_id": 18,
+  "remark": "PVP射手加攻",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1018",
+      "unit_name": "North Frontier",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 18",
+    "description": "Field buff 18 in War Inc: Rising."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 8,
+  "slug": "synergy-8",
+  "name": "Synergy 8",
+  "title": "Synergy 8 - Team Bonus Effect | War Inc: Rising Wiki",
+  "meta_description": "Synergy 8 in War Inc: Rising. coop羁绊(S40-41)",
+  "type": "synergies",
+  "synergy_id": 8,
+  "remark": "coop羁绊(S40-41)",
+  "effects": [
+    {
+      "cond_type": 1,
+      "options": [
+        708,
+        744,
+        746
+      ]
+    },
+    {
+      "cond_type": 1,
+      "options": [
+        746,
+        762,
+        704
+      ]
+    },
+    {
+      "cond_type": 1,
+      "options": [
+        749,
+        638,
+        746
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Synergy 8",
+    "description": "Synergy 8 in War Inc: Rising."
+  }
+}

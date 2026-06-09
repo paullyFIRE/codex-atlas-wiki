@@ -1,0 +1,79 @@
+{
+  "id": 7823424744837262974,
+  "slug": "titan-crash",
+  "name": "Titan Crash",
+  "title": "Titan Crash - Equipment Stats and Tiers | War Inc: Rising Wiki",
+  "meta_description": "Titan Crash is a Camp 1 equipment in War Inc: Rising with 5 upgrade tiers.",
+  "type": "equipment",
+  "equip_id": "20103",
+  "target_camp": 1,
+  "camp_name": "Camp 1",
+  "stats_by_tier": [
+    {
+      "tier": 1,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.03
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.045
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.065
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.08
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.1
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Titan Crash",
+    "description": "Titan Crash equipment for War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiers",
+          "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Target Camp",
+          "value": "Camp 1"
+        }
+      ]
+    }
+  }
+}

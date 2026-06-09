@@ -1,9 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/modes/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/modes/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
 ---
 
-<BaseLayout title="Game Modes - Rules, Rewards, and Strategy | War Inc: Rising Wiki">
+<BaseLayout
+  title="Game Modes - Rules, Rewards, and Strategy | War Inc: Rising Wiki"
+  description={`Learn about all ${items.length} game modes in War Inc: Rising.`}
+>
   <h1>Game Modes</h1>
-  <p>Learn the rules, rewards, and best strategies for all 5 game modes.</p>
-  <p><em>Page generation coming soon.</em></p>
+  <p>{items.length} modes.</p>
+
+  <ul>
+    {items.map((item) => (
+      <li><a href={`/modes/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
 </BaseLayout>

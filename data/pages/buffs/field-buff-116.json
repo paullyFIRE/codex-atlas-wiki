@@ -1,0 +1,24 @@
+{
+  "id": 116,
+  "slug": "field-buff-116",
+  "name": "Field Buff 116",
+  "title": "Field Buff 116 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 116 in War Inc: Rising. 无限战争战士加攻",
+  "type": "buffs",
+  "buff_id": 116,
+  "remark": "无限战争战士加攻",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1016",
+      "unit_name": "Valhalla",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 116",
+    "description": "Field buff 116 in War Inc: Rising."
+  }
+}

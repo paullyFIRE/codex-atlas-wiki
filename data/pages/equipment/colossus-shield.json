@@ -1,0 +1,79 @@
+{
+  "id": -2694910929540533046,
+  "slug": "colossus-shield",
+  "name": "Colossus Shield",
+  "title": "Colossus Shield - Equipment Stats and Tiers | War Inc: Rising Wiki",
+  "meta_description": "Colossus Shield is a Camp 1 equipment in War Inc: Rising with 5 upgrade tiers.",
+  "type": "equipment",
+  "equip_id": "20404",
+  "target_camp": 1,
+  "camp_name": "Camp 1",
+  "stats_by_tier": [
+    {
+      "tier": 1,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.09
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.135
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.195
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.24
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "buffs": [
+        {
+          "stat": 1053,
+          "value": 0.3
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Colossus Shield",
+    "description": "Colossus Shield equipment for War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiers",
+          "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Target Camp",
+          "value": "Camp 1"
+        }
+      ]
+    }
+  }
+}

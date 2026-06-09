@@ -1,0 +1,57 @@
+{
+  "id": 1,
+  "slug": "synergy-1",
+  "name": "Synergy 1",
+  "title": "Synergy 1 - Team Bonus Effect | War Inc: Rising Wiki",
+  "meta_description": "Synergy 1 in War Inc: Rising. pve阵容羁绊",
+  "type": "synergies",
+  "synergy_id": 1,
+  "remark": "pve阵容羁绊",
+  "effects": [
+    {
+      "cond_type": 1,
+      "options": [
+        618,
+        843,
+        729,
+        742,
+        741,
+        756
+      ]
+    },
+    {
+      "cond_type": 1,
+      "options": [
+        618,
+        843,
+        729,
+        742,
+        741,
+        756
+      ]
+    },
+    {
+      "cond_type": 1,
+      "options": [
+        618,
+        843,
+        729,
+        742,
+        741,
+        756
+      ]
+    },
+    {
+      "cond_type": 1,
+      "options": [
+        700
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Synergy 1",
+    "description": "Synergy 1 in War Inc: Rising."
+  }
+}

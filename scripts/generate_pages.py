@@ -392,5 +392,332 @@ def main():
         print(f"  {t}: {c}")
 
 
+# ─── Equipment pages ───────────────────────────────────────────────
+
+def build_equipment_pages(loc: dict) -> list:
+    equip_data = load_json(DATA_DIR / "config" / "equip_battle.json")
+    equips = equip_data.get("equips", {})
+    pages = []
+
+    for eid, equip in equips.items():
+        eid_str = str(eid)
+        name = loc.get(f"equip_name_{eid_str}", f"Equipment {eid}")
+        slug = slugify(name)
+
+        # Dedup equipment slugs
+        # (handled by caller)
+
+        levels = equip.get("levels", [])
+        stats_by_tier = []
+        for lv_data in levels:
+            buffs = []
+            for buff in lv_data.get("buffs", []):
+                buffs.append({
+                    "stat": buff.get("buffId"),
+                    "value": buff.get("buffVal"),
+                })
+            stats_by_tier.append({
+                "tier": lv_data.get("lv"),
+                "buffs": buffs,
+            })
+
+        target_camp = equip.get("targetCamp", 0)
+        camp_name = {0: "Neutral", 1: "Camp 1", 2: "Camp 2", 3: "Camp 3"}.get(target_camp, f"Camp {target_camp}")
+
+        meta_desc = f"{name} is a {camp_name} equipment in War Inc: Rising with {len(stats_by_tier)} upgrade tiers."
+        title = f"{name} - Equipment Stats and Tiers | War Inc: Rising Wiki"
+
+        # Schema
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": name,
+            "description": f"{name} equipment for War Inc: Rising.",
+            "about": {
+                "@type": "Thing",
+                "additionalProperty": [
+                    {"@type": "PropertyValue", "name": "Tiers", "value": str(len(stats_by_tier))},
+                    {"@type": "PropertyValue", "name": "Target Camp", "value": camp_name},
+                ],
+            },
+        }
+
+        pages.append({
+            "id": int(eid) if isinstance(eid, (int, float)) else hash(str(eid)),
+            "slug": slug,
+            "name": name,
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "equipment",
+            "equip_id": eid_str,
+            "target_camp": target_camp,
+            "camp_name": camp_name,
+            "stats_by_tier": stats_by_tier,
+            "schema": schema,
+        })
+
+    return pages
+
+
+# ─── Field Buff pages ──────────────────────────────────────────────
+
+BUFF_STAT_NAMES = {
+    1050: "HP", 1070: "ATK", 1080: "DEF", 1090: "Attack Spd",
+    1100: "Move Spd", 1110: "Range",
+}
+
+
+def build_buff_pages(name_map: dict) -> list:
+    fb_data = load_json(DATA_DIR / "config" / "field_buff.json")
+    libs = fb_data.get("libs", {})
+    pages = []
+
+    for bid, buff_entry in libs.items():
+        remark = buff_entry.get("remark", "")
+        # Extract English name from remark or use ID-based name
+        # The remark is Chinese; use unit names from referenced buffs for description
+        name = f"Field Buff {bid}"
+        slug = slugify(f"field-buff-{bid}")
+
+        buff_units = []
+        for b in buff_entry.get("buffs", []):
+            uid = str(b.get("unitId", ""))
+            unit_name = name_map.get(uid, f"Unit {uid}")
+            buff_units.append({
+                "unit_id": uid,
+                "unit_name": unit_name,
+                "unit_level": b.get("unitLv", 1),
+            })
+
+        meta_desc = f"Field buff {bid} in War Inc: Rising. {remark}"
+        title = f"Field Buff {bid} - Battle Modifier | War Inc: Rising Wiki"
+
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": name,
+            "description": f"Field buff {bid} in War Inc: Rising.",
+        }
+
+        pages.append({
+            "id": int(bid),
+            "slug": slug,
+            "name": name,
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "buffs",
+            "buff_id": int(bid),
+            "remark": remark,
+            "style": buff_entry.get("style"),
+            "affected_units": buff_units,
+            "schema": schema,
+        })
+
+    return pages
+
+
+# ─── Synergy pages ─────────────────────────────────────────────────
+
+def build_synergy_pages() -> list:
+    syn_data = load_json(DATA_DIR / "config" / "battle_synergy.json")
+    libs = syn_data.get("libs", {})
+    pages = []
+
+    for sid, lib in libs.items():
+        remark = lib.get("remark", "")
+        name = f"Synergy {sid}"
+        slug = slugify(f"synergy-{sid}")
+
+        # Extract layBuffs for affected units/effects
+        lay_buffs = lib.get("layBuffs", [])
+        effects = []
+        for lb in lay_buffs:
+            lv_configs = lb.get("lvConfig", [])
+            for lv_cfg in lv_configs:
+                conds = lv_cfg.get("conds", [])
+                effects.append({
+                    "cond_type": conds[0].get("condType") if conds else None,
+                    "options": conds[0].get("options", []) if conds else [],
+                })
+
+        meta_desc = f"Synergy {sid} in War Inc: Rising. {remark}"
+        title = f"Synergy {sid} - Team Bonus Effect | War Inc: Rising Wiki"
+
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": name,
+            "description": f"Synergy {sid} in War Inc: Rising.",
+        }
+
+        pages.append({
+            "id": int(sid),
+            "slug": slug,
+            "name": name,
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "synergies",
+            "synergy_id": int(sid),
+            "remark": remark,
+            "effects": effects,
+            "schema": schema,
+        })
+
+    return pages
+
+
+# ─── Game Mode pages ───────────────────────────────────────────────
+
+def build_mode_pages(loc: dict) -> list:
+    mode_data = load_json(DATA_DIR / "config" / "battle_conf_lib.json")
+    pages = []
+
+    for mid, mode in mode_data.items():
+        name = loc.get(f"game_mode_name_{mid}", f"Game Mode {mid}")
+        slug = slugify(name)
+
+        mini_rule = mode.get("miniGameRule", {})
+        loot = mode.get("lootChest", {})
+        drops = mode.get("dropRewards", [])
+
+        meta_desc = f"{name} is a game mode in War Inc: Rising. Learn the rules, rewards, and strategies."
+        title = f"{name} - Rules, Rewards, and Strategy | War Inc: Rising Wiki"
+
+        # Extract rewards summary
+        reward_summary = []
+        for drop in (drops or []):
+            reward_summary.append({
+                "type": drop.get("dropType"),
+                "id": drop.get("dropId"),
+                "count": drop.get("dropNum"),
+            })
+
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": name,
+            "description": f"{name} game mode in War Inc: Rising.",
+        }
+
+        pages.append({
+            "id": int(mid),
+            "slug": slug,
+            "name": name,
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "modes",
+            "mode_id": int(mid),
+            "layout_id": mode.get("layoutId"),
+            "mini_game_rule": mini_rule,
+            "rewards": reward_summary,
+            "schema": schema,
+        })
+
+    return pages
+
+
+def main():
+    print("Loading data sources...")
+    db = load_json(DATA_DIR / "unit_database.json")
+    name_map = load_json(DATA_DIR / "unit_name_map.json")
+    loc = load_localization(DATA_DIR / "localization" / "en.csv")
+
+    print("Parsing skill attributes...")
+    skill_attrs = parse_skill_attrs(DATA_DIR / "config" / "card_show_config.json")
+
+    print("Parsing skill descriptions...")
+    skill_descs = parse_skill_descs(DATA_DIR / "config" / "card_show_config.json")
+
+    print(f"Generating pages for {len(db)} units...")
+
+    # First pass: compute names and initial slugs for all units
+    unit_names = {}
+    unit_slugs = {}
+    for unit_id, unit in db.items():
+        name = name_map.get(str(unit_id)) or unit.get("name_en")
+        if not name:
+            continue
+        unit_names[str(unit_id)] = name
+        unit_slugs[str(unit_id)] = slugify(name)
+
+    # Deduplicate slugs
+    slug_counts = {}
+    for uid, slug in unit_slugs.items():
+        slug_counts[slug] = slug_counts.get(slug, 0) + 1
+
+    slug_counters = {}
+    slug_map = {}
+    for uid, slug in unit_slugs.items():
+        final_slug = slug
+        if slug_counts[slug] > 1:
+            slug_counters[slug] = slug_counters.get(slug, 0) + 1
+            final_slug = f"{slug}-{slug_counters[slug]}"
+        slug_map[uid] = final_slug
+
+    # Second pass: build all unit pages with resolved slug map
+    all_pages = []
+    for unit_id, unit in db.items():
+        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, db, slug_map)
+        if not page:
+            continue
+
+        page["slug"] = slug_map.get(str(unit["id"]), page["slug"])
+
+        if unit.get("unit_type") is None:
+            page["type"] = "special"
+
+        all_pages.append(page)
+
+    # Build new entity type pages
+    print("Building equipment pages...")
+    for page in build_equipment_pages(loc):
+        all_pages.append(page)
+
+    print("Building field buff pages...")
+    for page in build_buff_pages(name_map):
+        all_pages.append(page)
+
+    print("Building synergy pages...")
+    for page in build_synergy_pages():
+        all_pages.append(page)
+
+    print("Building game mode pages...")
+    for page in build_mode_pages(loc):
+        all_pages.append(page)
+
+    # Write pages
+    count = 0
+    index_data = {}
+    for page in all_pages:
+        page_type = page["type"]
+        page_dir = OUT_DIR / page_type
+        page_dir.mkdir(parents=True, exist_ok=True)
+
+        with open(page_dir / f"{page['slug']}.json", "w") as f:
+            json.dump(page, f, indent=2, ensure_ascii=False)
+        count += 1
+
+        if page_type not in index_data:
+            index_data[page_type] = []
+        index_data[page_type].append({
+            "id": page.get("id", 0),
+            "name": page["name"],
+            "slug": page["slug"],
+        })
+
+    # Write index files
+    for page_type, items in index_data.items():
+        index_dir = OUT_DIR / page_type
+        index_dir.mkdir(parents=True, exist_ok=True)
+        with open(index_dir / "_index.json", "w") as f:
+            json.dump({"type": page_type, "count": len(items), "items": items}, f, indent=2, ensure_ascii=False)
+
+    summary = {t: len(index_data[t]) for t in index_data if index_data[t]}
+    print(f"\nDone! {count} pages generated:")
+    for t, c in summary.items():
+        print(f"  {t}: {c}")
+    print(f"  Total: {count}")
+
+
 if __name__ == "__main__":
     main()

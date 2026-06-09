@@ -7,10 +7,18 @@ const siteDescription = 'Comprehensive War Inc: Rising wiki — hero stats, skil
 const heroIndexFiles = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const buildIndexFiles = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
 const specIndexFiles = import.meta.glob('/data/pages/special/_index.json', { eager: true, import: 'default' });
+const equipIndexFiles = import.meta.glob('/data/pages/equipment/_index.json', { eager: true, import: 'default' });
+const buffIndexFiles = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
+const synIndexFiles = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
+const modeIndexFiles = import.meta.glob('/data/pages/modes/_index.json', { eager: true, import: 'default' });
 
 const heroCount = heroIndexFiles['/data/pages/heroes/_index.json']?.count ?? 0;
 const buildingCount = buildIndexFiles['/data/pages/buildings/_index.json']?.count ?? 0;
 const specialCount = specIndexFiles['/data/pages/special/_index.json']?.count ?? 0;
+const equipCount = equipIndexFiles['/data/pages/equipment/_index.json']?.count ?? 0;
+const buffCount = buffIndexFiles['/data/pages/buffs/_index.json']?.count ?? 0;
+const synCount = synIndexFiles['/data/pages/synergies/_index.json']?.count ?? 0;
+const modeCount = modeIndexFiles['/data/pages/modes/_index.json']?.count ?? 0;
 ---
 
 <BaseLayout title={siteTitle} description={siteDescription}>
@@ -43,10 +51,10 @@ const specialCount = specIndexFiles['/data/pages/special/_index.json']?.count ??
       <li><a href="/buildings/">Buildings & Towers</a> — {buildingCount} defensive structures</li>
       <li><a href="/special/">Special Entities</a> — {specialCount} resource buildings, mines, barracks</li>
       <li><a href="/followers/">Followers</a> — coming soon</li>
-      <li><a href="/equipment/">Equipment</a> — coming soon</li>
-      <li><a href="/modes/">Game Modes</a> — coming soon</li>
-      <li><a href="/synergies/">Synergies</a> — coming soon</li>
-      <li><a href="/buffs/">Field Buffs</a> — coming soon</li>
+      <li><a href="/equipment/">Equipment</a> — {equipCount} items with 5 upgrade tiers</li>
+      <li><a href="/modes/">Game Modes</a> — {modeCount} mode configurations</li>
+      <li><a href="/synergies/">Synergies</a> — {synCount} team bonus effects</li>
+      <li><a href="/buffs/">Field Buffs</a> — {buffCount} battle modifiers</li>
     </ul>
   </section>
 

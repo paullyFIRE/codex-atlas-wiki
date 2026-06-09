@@ -1,0 +1,24 @@
+{
+  "id": 112,
+  "slug": "field-buff-112",
+  "name": "Field Buff 112",
+  "title": "Field Buff 112 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 112 in War Inc: Rising. 无限战争水抗上升",
+  "type": "buffs",
+  "buff_id": 112,
+  "remark": "无限战争水抗上升",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1012",
+      "unit_name": "Polar Ice",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 112",
+    "description": "Field buff 112 in War Inc: Rising."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "slug": "field-buff-6",
+  "name": "Field Buff 6",
+  "title": "Field Buff 6 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 6 in War Inc: Rising. PVP西部荒原-命中下降",
+  "type": "buffs",
+  "buff_id": 6,
+  "remark": "PVP西部荒原-命中下降",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1006",
+      "unit_name": "Western Barrens",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 6",
+    "description": "Field buff 6 in War Inc: Rising."
+  }
+}

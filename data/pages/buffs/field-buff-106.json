@@ -1,0 +1,24 @@
+{
+  "id": 106,
+  "slug": "field-buff-106",
+  "name": "Field Buff 106",
+  "title": "Field Buff 106 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 106 in War Inc: Rising. 无限战争西部荒野-命中下降",
+  "type": "buffs",
+  "buff_id": 106,
+  "remark": "无限战争西部荒野-命中下降",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1006",
+      "unit_name": "Western Barrens",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 106",
+    "description": "Field buff 106 in War Inc: Rising."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "slug": "field-buff-13",
+  "name": "Field Buff 13",
+  "title": "Field Buff 13 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 13 in War Inc: Rising. PVP火抗上升",
+  "type": "buffs",
+  "buff_id": 13,
+  "remark": "PVP火抗上升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1013",
+      "unit_name": "Molten Purgatory",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 13",
+    "description": "Field buff 13 in War Inc: Rising."
+  }
+}

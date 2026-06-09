@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "slug": "synergy-4",
+  "name": "Synergy 4",
+  "title": "Synergy 4 - Team Bonus Effect | War Inc: Rising Wiki",
+  "meta_description": "Synergy 4 in War Inc: Rising. 阶段三光明阵营buff",
+  "type": "synergies",
+  "synergy_id": 4,
+  "remark": "阶段三光明阵营buff",
+  "effects": [
+    {
+      "cond_type": 2,
+      "options": [
+        2
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Synergy 4",
+    "description": "Synergy 4 in War Inc: Rising."
+  }
+}

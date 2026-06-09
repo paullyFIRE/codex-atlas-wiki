@@ -1,9 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/buffs/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
 ---
 
-<BaseLayout title="Field Buffs - Battle Modifiers | War Inc: Rising Wiki">
+<BaseLayout
+  title="Field Buffs - Battle Modifiers | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} field buffs in War Inc: Rising.`}
+>
   <h1>Field Buffs</h1>
-  <p>Browse all 36 field buffs and their battle effects.</p>
-  <p><em>Page generation coming soon.</em></p>
+  <p>{items.length} battle modifiers.</p>
+
+  <ul>
+    {items.map((item) => (
+      <li><a href={`/buffs/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
 </BaseLayout>

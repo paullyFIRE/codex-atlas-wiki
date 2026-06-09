@@ -1,0 +1,24 @@
+{
+  "id": 17,
+  "slug": "field-buff-17",
+  "name": "Field Buff 17",
+  "title": "Field Buff 17 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 17 in War Inc: Rising. PVP法师加攻",
+  "type": "buffs",
+  "buff_id": 17,
+  "remark": "PVP法师加攻",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1017",
+      "unit_name": "Arcane Realm",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 17",
+    "description": "Field buff 17 in War Inc: Rising."
+  }
+}

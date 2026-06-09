@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "slug": "field-buff-2",
+  "name": "Field Buff 2",
+  "title": "Field Buff 2 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 2 in War Inc: Rising. PVP雨天充能速度加快",
+  "type": "buffs",
+  "buff_id": 2,
+  "remark": "PVP雨天充能速度加快",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1002",
+      "unit_name": "Polar Torrent",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 2",
+    "description": "Field buff 2 in War Inc: Rising."
+  }
+}

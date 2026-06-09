@@ -1,0 +1,79 @@
+{
+  "id": 1244078388453928362,
+  "slug": "equipment-11013",
+  "name": "Equipment 11013",
+  "title": "Equipment 11013 - Equipment Stats and Tiers | War Inc: Rising Wiki",
+  "meta_description": "Equipment 11013 is a Camp 1 equipment in War Inc: Rising with 5 upgrade tiers.",
+  "type": "equipment",
+  "equip_id": "11013",
+  "target_camp": 1,
+  "camp_name": "Camp 1",
+  "stats_by_tier": [
+    {
+      "tier": 1,
+      "buffs": [
+        {
+          "stat": 1083,
+          "value": 0.02
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "buffs": [
+        {
+          "stat": 1083,
+          "value": 0.027999999999999997
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "buffs": [
+        {
+          "stat": 1083,
+          "value": 0.035
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "buffs": [
+        {
+          "stat": 1083,
+          "value": 0.043
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "buffs": [
+        {
+          "stat": 1083,
+          "value": 0.05
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Equipment 11013",
+    "description": "Equipment 11013 equipment for War Inc: Rising.",
+    "about": {
+      "@type": "Thing",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tiers",
+          "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Target Camp",
+          "value": "Camp 1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "slug": "synergy-2",
+  "name": "Synergy 2",
+  "title": "Synergy 2 - Team Bonus Effect | War Inc: Rising Wiki",
+  "meta_description": "Synergy 2 in War Inc: Rising. 阶段一光明阵营buff",
+  "type": "synergies",
+  "synergy_id": 2,
+  "remark": "阶段一光明阵营buff",
+  "effects": [
+    {
+      "cond_type": 2,
+      "options": [
+        2
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Synergy 2",
+    "description": "Synergy 2 in War Inc: Rising."
+  }
+}

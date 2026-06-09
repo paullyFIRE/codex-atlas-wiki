@@ -1,0 +1,24 @@
+{
+  "id": 115,
+  "slug": "field-buff-115",
+  "name": "Field Buff 115",
+  "title": "Field Buff 115 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 115 in War Inc: Rising. 无限战争风抗上升",
+  "type": "buffs",
+  "buff_id": 115,
+  "remark": "无限战争风抗上升",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1015",
+      "unit_name": "Endless Cyclone",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 115",
+    "description": "Field buff 115 in War Inc: Rising."
+  }
+}

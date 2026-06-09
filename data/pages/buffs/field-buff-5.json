@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "slug": "field-buff-5",
+  "name": "Field Buff 5",
+  "title": "Field Buff 5 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 5 in War Inc: Rising. PVP花瓣-最大生命",
+  "type": "buffs",
+  "buff_id": 5,
+  "remark": "PVP花瓣-最大生命",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1005",
+      "unit_name": "Petal Ocean",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 5",
+    "description": "Field buff 5 in War Inc: Rising."
+  }
+}

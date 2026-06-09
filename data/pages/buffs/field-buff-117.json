@@ -1,0 +1,24 @@
+{
+  "id": 117,
+  "slug": "field-buff-117",
+  "name": "Field Buff 117",
+  "title": "Field Buff 117 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 117 in War Inc: Rising. 无限战争法师加攻",
+  "type": "buffs",
+  "buff_id": 117,
+  "remark": "无限战争法师加攻",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1017",
+      "unit_name": "Arcane Realm",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 117",
+    "description": "Field buff 117 in War Inc: Rising."
+  }
+}

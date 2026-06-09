@@ -1,0 +1,186 @@
+{
+  "type": "buffs",
+  "count": 36,
+  "items": [
+    {
+      "id": 1,
+      "name": "Field Buff 1",
+      "slug": "field-buff-1"
+    },
+    {
+      "id": 2,
+      "name": "Field Buff 2",
+      "slug": "field-buff-2"
+    },
+    {
+      "id": 3,
+      "name": "Field Buff 3",
+      "slug": "field-buff-3"
+    },
+    {
+      "id": 4,
+      "name": "Field Buff 4",
+      "slug": "field-buff-4"
+    },
+    {
+      "id": 5,
+      "name": "Field Buff 5",
+      "slug": "field-buff-5"
+    },
+    {
+      "id": 6,
+      "name": "Field Buff 6",
+      "slug": "field-buff-6"
+    },
+    {
+      "id": 7,
+      "name": "Field Buff 7",
+      "slug": "field-buff-7"
+    },
+    {
+      "id": 8,
+      "name": "Field Buff 8",
+      "slug": "field-buff-8"
+    },
+    {
+      "id": 9,
+      "name": "Field Buff 9",
+      "slug": "field-buff-9"
+    },
+    {
+      "id": 10,
+      "name": "Field Buff 10",
+      "slug": "field-buff-10"
+    },
+    {
+      "id": 11,
+      "name": "Field Buff 11",
+      "slug": "field-buff-11"
+    },
+    {
+      "id": 12,
+      "name": "Field Buff 12",
+      "slug": "field-buff-12"
+    },
+    {
+      "id": 13,
+      "name": "Field Buff 13",
+      "slug": "field-buff-13"
+    },
+    {
+      "id": 14,
+      "name": "Field Buff 14",
+      "slug": "field-buff-14"
+    },
+    {
+      "id": 15,
+      "name": "Field Buff 15",
+      "slug": "field-buff-15"
+    },
+    {
+      "id": 16,
+      "name": "Field Buff 16",
+      "slug": "field-buff-16"
+    },
+    {
+      "id": 17,
+      "name": "Field Buff 17",
+      "slug": "field-buff-17"
+    },
+    {
+      "id": 18,
+      "name": "Field Buff 18",
+      "slug": "field-buff-18"
+    },
+    {
+      "id": 101,
+      "name": "Field Buff 101",
+      "slug": "field-buff-101"
+    },
+    {
+      "id": 102,
+      "name": "Field Buff 102",
+      "slug": "field-buff-102"
+    },
+    {
+      "id": 103,
+      "name": "Field Buff 103",
+      "slug": "field-buff-103"
+    },
+    {
+      "id": 104,
+      "name": "Field Buff 104",
+      "slug": "field-buff-104"
+    },
+    {
+      "id": 105,
+      "name": "Field Buff 105",
+      "slug": "field-buff-105"
+    },
+    {
+      "id": 106,
+      "name": "Field Buff 106",
+      "slug": "field-buff-106"
+    },
+    {
+      "id": 107,
+      "name": "Field Buff 107",
+      "slug": "field-buff-107"
+    },
+    {
+      "id": 108,
+      "name": "Field Buff 108",
+      "slug": "field-buff-108"
+    },
+    {
+      "id": 109,
+      "name": "Field Buff 109",
+      "slug": "field-buff-109"
+    },
+    {
+      "id": 110,
+      "name": "Field Buff 110",
+      "slug": "field-buff-110"
+    },
+    {
+      "id": 111,
+      "name": "Field Buff 111",
+      "slug": "field-buff-111"
+    },
+    {
+      "id": 112,
+      "name": "Field Buff 112",
+      "slug": "field-buff-112"
+    },
+    {
+      "id": 113,
+      "name": "Field Buff 113",
+      "slug": "field-buff-113"
+    },
+    {
+      "id": 114,
+      "name": "Field Buff 114",
+      "slug": "field-buff-114"
+    },
+    {
+      "id": 115,
+      "name": "Field Buff 115",
+      "slug": "field-buff-115"
+    },
+    {
+      "id": 116,
+      "name": "Field Buff 116",
+      "slug": "field-buff-116"
+    },
+    {
+      "id": 117,
+      "name": "Field Buff 117",
+      "slug": "field-buff-117"
+    },
+    {
+      "id": 118,
+      "name": "Field Buff 118",
+      "slug": "field-buff-118"
+    }
+  ]
+}

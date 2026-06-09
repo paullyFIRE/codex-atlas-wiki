@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "slug": "field-buff-12",
+  "name": "Field Buff 12",
+  "title": "Field Buff 12 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 12 in War Inc: Rising. PVP水抗上升",
+  "type": "buffs",
+  "buff_id": 12,
+  "remark": "PVP水抗上升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1012",
+      "unit_name": "Polar Ice",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 12",
+    "description": "Field buff 12 in War Inc: Rising."
+  }
+}

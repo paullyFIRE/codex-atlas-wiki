@@ -1,0 +1,51 @@
+{
+  "type": "synergies",
+  "count": 9,
+  "items": [
+    {
+      "id": 1,
+      "name": "Synergy 1",
+      "slug": "synergy-1"
+    },
+    {
+      "id": 2,
+      "name": "Synergy 2",
+      "slug": "synergy-2"
+    },
+    {
+      "id": 3,
+      "name": "Synergy 3",
+      "slug": "synergy-3"
+    },
+    {
+      "id": 4,
+      "name": "Synergy 4",
+      "slug": "synergy-4"
+    },
+    {
+      "id": 5,
+      "name": "Synergy 5",
+      "slug": "synergy-5"
+    },
+    {
+      "id": 6,
+      "name": "Synergy 6",
+      "slug": "synergy-6"
+    },
+    {
+      "id": 7,
+      "name": "Synergy 7",
+      "slug": "synergy-7"
+    },
+    {
+      "id": 8,
+      "name": "Synergy 8",
+      "slug": "synergy-8"
+    },
+    {
+      "id": 9,
+      "name": "Synergy 9",
+      "slug": "synergy-9"
+    }
+  ]
+}

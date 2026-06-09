@@ -1,0 +1,31 @@
+{
+  "type": "modes",
+  "count": 5,
+  "items": [
+    {
+      "id": 1,
+      "name": "General Lineup",
+      "slug": "general-lineup"
+    },
+    {
+      "id": 3,
+      "name": "Game Mode 3",
+      "slug": "game-mode-3"
+    },
+    {
+      "id": 4,
+      "name": "Ace Showdown",
+      "slug": "ace-showdown"
+    },
+    {
+      "id": 5,
+      "name": "Game Mode 5",
+      "slug": "game-mode-5"
+    },
+    {
+      "id": 6,
+      "name": "Game Mode 6",
+      "slug": "game-mode-6"
+    }
+  ]
+}

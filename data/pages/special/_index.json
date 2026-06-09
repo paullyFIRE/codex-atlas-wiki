@@ -5,830 +5,347 @@
     {
       "id": 802,
       "name": "Blacksmith Warrior",
-      "slug": "blacksmith-warrior-3",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "blacksmith-warrior-3"
     },
     {
       "id": 1401,
       "name": "Healing Spell",
-      "slug": "healing-spell",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "healing-spell"
     },
     {
       "id": 1402,
       "name": "Fireball",
-      "slug": "fireball",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "fireball"
     },
     {
       "id": 101,
       "name": "Command Center",
-      "slug": "command-center-1",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 500,
-      "unit_type": 5
+      "slug": "command-center-1"
     },
     {
       "id": 201,
       "name": "Gold Mine",
-      "slug": "gold-mine-1",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "gold-mine-1"
     },
     {
       "id": 104,
       "name": "Follower Camp",
-      "slug": "follower-camp",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "follower-camp"
     },
     {
       "id": 601,
       "name": "Spell Cauldron",
-      "slug": "spell-cauldron",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "spell-cauldron"
     },
     {
       "id": 203,
       "name": "Sawmill",
-      "slug": "sawmill",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "sawmill"
     },
     {
       "id": 3010,
       "name": "Bunker",
-      "slug": "bunker",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 372,
-      "unit_type": 5
+      "slug": "bunker"
     },
     {
       "id": 3011,
       "name": "Arrow Tower",
-      "slug": "arrow-tower",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 379,
-      "unit_type": 5
+      "slug": "arrow-tower"
     },
     {
       "id": 3012,
       "name": "Turret",
-      "slug": "turret-1",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 406,
-      "unit_type": 5
+      "slug": "turret-1"
     },
     {
       "id": 3021,
       "name": "Command Center",
-      "slug": "command-center-2",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "command-center-2"
     },
     {
       "id": 3022,
       "name": "Magic Source",
-      "slug": "magic-source",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "magic-source"
     },
     {
       "id": 3023,
       "name": "Cannon",
-      "slug": "cannon",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 406,
-      "unit_type": 5
+      "slug": "cannon"
     },
     {
       "id": 3024,
       "name": "Thunder Tower",
-      "slug": "thunder-tower",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 3,
-      "profession_name": "Tank",
-      "cost": 0,
-      "combat_power": 406,
-      "unit_type": 5
+      "slug": "thunder-tower"
     },
     {
       "id": 3025,
       "name": "Hammer Tower",
-      "slug": "hammer-tower",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 8,
-      "profession_name": "Special",
-      "cost": 0,
-      "combat_power": 588,
-      "unit_type": 5
+      "slug": "hammer-tower"
     },
     {
       "id": 3026,
       "name": "Statue",
-      "slug": "statue",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "statue"
     },
     {
       "id": 3027,
       "name": "Watchtower",
-      "slug": "watchtower",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "watchtower"
     },
     {
       "id": 3028,
       "name": "Alchemy House",
-      "slug": "alchemy-house",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "alchemy-house"
     },
     {
       "id": 3029,
       "name": "Temple",
-      "slug": "temple",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "temple"
     },
     {
       "id": 3030,
       "name": "Camp",
-      "slug": "camp",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "camp"
     },
     {
       "id": 3031,
       "name": "Military Academy",
-      "slug": "military-academy",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "military-academy"
     },
     {
       "id": 3032,
       "name": "Rest Hut",
-      "slug": "rest-hut",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "rest-hut"
     },
     {
       "id": 3033,
       "name": "City Wall",
-      "slug": "city-wall",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "city-wall"
     },
     {
       "id": 3034,
       "name": "Ancient Guardian",
-      "slug": "ancient-guardian",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 4,
-      "profession_name": "Assassin",
-      "cost": 0,
-      "combat_power": 588,
-      "unit_type": 5
+      "slug": "ancient-guardian"
     },
     {
       "id": 3035,
       "name": "Mystic Spire",
-      "slug": "mystic-spire",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "mystic-spire"
     },
     {
       "id": 3036,
       "name": "Timber Extractor",
-      "slug": "timber-extractor",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "timber-extractor"
     },
     {
       "id": 3037,
       "name": "Stone Extractor",
-      "slug": "stone-extractor",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "stone-extractor"
     },
     {
       "id": 3038,
       "name": "Metal Extractor",
-      "slug": "metal-extractor",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "metal-extractor"
     },
     {
       "id": 3039,
       "name": "Redstone Mine",
-      "slug": "redstone-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "redstone-mine"
     },
     {
       "id": 3040,
       "name": "Rock Mine",
-      "slug": "rock-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "rock-mine"
     },
     {
       "id": 3041,
       "name": "Lava Rock Mine",
-      "slug": "lava-rock-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "lava-rock-mine"
     },
     {
       "id": 3042,
       "name": "Granite Mine",
-      "slug": "granite-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "granite-mine"
     },
     {
       "id": 3043,
       "name": "Marble Mine",
-      "slug": "marble-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "marble-mine"
     },
     {
       "id": 3044,
       "name": "Obsidian Mine",
-      "slug": "obsidian-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "obsidian-mine"
     },
     {
       "id": 3045,
       "name": "Pine Grove",
-      "slug": "pine-grove",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "pine-grove"
     },
     {
       "id": 3046,
       "name": "Cedar Grove",
-      "slug": "cedar-grove",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "cedar-grove"
     },
     {
       "id": 3047,
       "name": "Birch Grove",
-      "slug": "birch-grove",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "birch-grove"
     },
     {
       "id": 3048,
       "name": "Maple Grove",
-      "slug": "maple-grove",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "maple-grove"
     },
     {
       "id": 3049,
       "name": "Red Wood Grove",
-      "slug": "red-wood-grove",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "red-wood-grove"
     },
     {
       "id": 3050,
       "name": "White Iron Mine",
-      "slug": "white-iron-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "white-iron-mine"
     },
     {
       "id": 3051,
       "name": "Black Iron Mine",
-      "slug": "black-iron-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "black-iron-mine"
     },
     {
       "id": 3052,
       "name": "Copper Mine",
-      "slug": "copper-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "copper-mine"
     },
     {
       "id": 3053,
       "name": "Silver Mine",
-      "slug": "silver-mine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "silver-mine"
     },
     {
       "id": 3054,
       "name": "Gold Mine",
-      "slug": "gold-mine-2",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "gold-mine-2"
     },
     {
       "id": 3055,
       "name": "Turret",
-      "slug": "turret-2",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 186,
-      "unit_type": 5
+      "slug": "turret-2"
     },
     {
       "id": 3056,
       "name": "Saw Launcher",
-      "slug": "saw-launcher",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 297,
-      "unit_type": 5
+      "slug": "saw-launcher"
     },
     {
       "id": 3057,
       "name": "Flame Cannon",
-      "slug": "flame-cannon",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 575,
-      "unit_type": 5
+      "slug": "flame-cannon"
     },
     {
       "id": 3058,
       "name": "Frost Cannon",
-      "slug": "frost-cannon",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 575,
-      "unit_type": 5
+      "slug": "frost-cannon"
     },
     {
       "id": 3059,
       "name": "Electromagnetic Coil",
-      "slug": "electromagnetic-coil",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 408,
-      "unit_type": 5
+      "slug": "electromagnetic-coil"
     },
     {
       "id": 3060,
       "name": "Shield Generator",
-      "slug": "shield-generator",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 231,
-      "unit_type": 5
+      "slug": "shield-generator"
     },
     {
       "id": 3061,
       "name": "Wind Blast Tower",
-      "slug": "wind-blast-tower",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 186,
-      "unit_type": 5
+      "slug": "wind-blast-tower"
     },
     {
       "id": 3062,
       "name": "Portal",
-      "slug": "portal",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 186,
-      "unit_type": 5
+      "slug": "portal"
     },
     {
       "id": 3063,
       "name": "Landmine",
-      "slug": "landmine",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 186,
-      "unit_type": 5
+      "slug": "landmine"
     },
     {
       "id": 3064,
       "name": "ATM",
-      "slug": "atm",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 186,
-      "unit_type": 5
+      "slug": "atm"
     },
     {
       "id": 3065,
       "name": "Taunt Target",
-      "slug": "taunt-target",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 8,
-      "profession_name": "Special",
-      "cost": 0,
-      "combat_power": 185,
-      "unit_type": 5
+      "slug": "taunt-target"
     },
     {
       "id": 3066,
       "name": "Tree",
-      "slug": "tree",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 7,
-      "profession_name": "Ranger",
-      "cost": 0,
-      "combat_power": 0,
-      "unit_type": 5
+      "slug": "tree"
     },
     {
       "id": 3067,
       "name": "Fireworks Launcher",
-      "slug": "fireworks-launcher",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 306,
-      "unit_type": 5
+      "slug": "fireworks-launcher"
     },
     {
       "id": 3068,
       "name": "Electric Tower",
-      "slug": "electric-tower",
-      "rarity": 2,
-      "rarity_name": "Rare",
-      "profession": 2,
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 306,
-      "unit_type": 5
+      "slug": "electric-tower"
     },
     {
       "id": 2001,
       "name": "Frieda",
-      "slug": "frieda",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "frieda"
     },
     {
       "id": 2002,
       "name": "Toasty",
-      "slug": "toasty",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "toasty"
     },
     {
       "id": 2003,
       "name": "Flory",
-      "slug": "flory",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "flory"
     },
     {
       "id": 2004,
       "name": "Eglet",
-      "slug": "eglet",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "eglet"
     },
     {
       "id": 2005,
       "name": "Poopy",
-      "slug": "poopy",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "poopy"
     },
     {
       "id": 2006,
       "name": "Steaky",
-      "slug": "steaky",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "steaky"
     },
     {
       "id": 2007,
       "name": "Burgie",
-      "slug": "burgie",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "burgie"
     },
     {
       "id": 2008,
       "name": "Donnie",
-      "slug": "donnie",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "donnie"
     },
     {
       "id": 2009,
       "name": "Cacto",
-      "slug": "cacto",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "cacto"
     },
     {
       "id": 2010,
       "name": "Froggle",
-      "slug": "froggle",
-      "rarity": null,
-      "rarity_name": "Unknown",
-      "profession": null,
-      "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
-      "unit_type": null
+      "slug": "froggle"
     }
   ]
 }

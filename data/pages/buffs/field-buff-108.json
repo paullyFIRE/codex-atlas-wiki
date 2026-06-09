@@ -1,0 +1,24 @@
+{
+  "id": 108,
+  "slug": "field-buff-108",
+  "name": "Field Buff 108",
+  "title": "Field Buff 108 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 108 in War Inc: Rising. 无限战争回能",
+  "type": "buffs",
+  "buff_id": 108,
+  "remark": "无限战争回能",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1008",
+      "unit_name": "Dawn Light",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 108",
+    "description": "Field buff 108 in War Inc: Rising."
+  }
+}

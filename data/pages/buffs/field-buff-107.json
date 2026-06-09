@@ -1,0 +1,24 @@
+{
+  "id": 107,
+  "slug": "field-buff-107",
+  "name": "Field Buff 107",
+  "title": "Field Buff 107 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 107 in War Inc: Rising. 无限战争乌鸦-沉默",
+  "type": "buffs",
+  "buff_id": 107,
+  "remark": "无限战争乌鸦-沉默",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1007",
+      "unit_name": "Raven Graveyard",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 107",
+    "description": "Field buff 107 in War Inc: Rising."
+  }
+}

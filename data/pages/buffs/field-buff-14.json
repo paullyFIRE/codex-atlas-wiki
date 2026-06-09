@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "slug": "field-buff-14",
+  "name": "Field Buff 14",
+  "title": "Field Buff 14 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 14 in War Inc: Rising. PVP土抗上升",
+  "type": "buffs",
+  "buff_id": 14,
+  "remark": "PVP土抗上升",
+  "style": 1,
+  "affected_units": [
+    {
+      "unit_id": "1014",
+      "unit_name": "Crag Land",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 14",
+    "description": "Field buff 14 in War Inc: Rising."
+  }
+}

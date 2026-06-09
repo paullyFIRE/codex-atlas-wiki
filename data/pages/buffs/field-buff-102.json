@@ -1,0 +1,24 @@
+{
+  "id": 102,
+  "slug": "field-buff-102",
+  "name": "Field Buff 102",
+  "title": "Field Buff 102 - Battle Modifier | War Inc: Rising Wiki",
+  "meta_description": "Field buff 102 in War Inc: Rising. 无限战争雨天-充能速度",
+  "type": "buffs",
+  "buff_id": 102,
+  "remark": "无限战争雨天-充能速度",
+  "style": 2,
+  "affected_units": [
+    {
+      "unit_id": "1002",
+      "unit_name": "Polar Torrent",
+      "unit_level": 1
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Field Buff 102",
+    "description": "Field buff 102 in War Inc: Rising."
+  }
+}

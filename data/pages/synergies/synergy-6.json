@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "slug": "synergy-6",
+  "name": "Synergy 6",
+  "title": "Synergy 6 - Team Bonus Effect | War Inc: Rising Wiki",
+  "meta_description": "Synergy 6 in War Inc: Rising. 阶段二黑暗阵营buff",
+  "type": "synergies",
+  "synergy_id": 6,
+  "remark": "阶段二黑暗阵营buff",
+  "effects": [
+    {
+      "cond_type": 2,
+      "options": [
+        3
+      ]
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Synergy 6",
+    "description": "Synergy 6 in War Inc: Rising."
+  }
+}
