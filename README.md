@@ -1,4 +1,6 @@
-# War Inc: Rising Stats Blog
+# War Inc: Rising Wiki
+
+Live at [war-inc-rising.codex-atlas.com](https://war-inc-rising.codex-atlas.com)
 
 Programmatic SEO blog indexing all characters, cards, entities, modes, and stats for **War Inc: Rising** (com.i89trillion.strategy.rising), a tower defense/strategy game by Fastone Games / 89Trillion.
 
