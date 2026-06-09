@@ -367,5 +367,6 @@
     "Demoman deals area magic damage, effective against groups of enemies.",
     "Protect Demoman with front-line tanks to maximize their damage output.",
     "Low cost (2) makes Demoman easy to deploy early in battle."
-  ]
+  ],
+  "image": "/images/heroes/623.png"
 }

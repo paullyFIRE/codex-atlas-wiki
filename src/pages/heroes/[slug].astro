@@ -38,6 +38,7 @@ const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'Hig
 
   <article>
     <header>
+      {pageData.image && <img src={pageData.image} alt={pageData.name} width="120" height="120" style="float:right;border-radius:8px;max-width:120px;" />}
       <h1>{pageData.name}</h1>
       <p>
         <span class="rarity">{pageData.rarity_name}</span>

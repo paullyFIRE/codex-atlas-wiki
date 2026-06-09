@@ -5,477 +5,952 @@
     {
       "id": 618,
       "name": "Archer",
-      "slug": "archer"
+      "slug": "archer",
+      "rarity_name": "Common",
+      "profession_name": "Warrior",
+      "cost": 2,
+      "combat_power": 97,
+      "image": "/images/heroes/618.png"
     },
     {
       "id": 622,
       "name": "Gunner",
-      "slug": "gunner"
+      "slug": "gunner",
+      "rarity_name": "Common",
+      "profession_name": "Warrior",
+      "cost": 2,
+      "combat_power": 96,
+      "image": "/images/heroes/622.png"
     },
     {
       "id": 623,
       "name": "Demoman",
-      "slug": "demoman"
+      "slug": "demoman",
+      "rarity_name": "Common",
+      "profession_name": "Mage",
+      "cost": 2,
+      "combat_power": 108,
+      "image": "/images/heroes/623.png"
     },
     {
       "id": 630,
       "name": "Snowball Thrower",
-      "slug": "snowball-thrower"
+      "slug": "snowball-thrower",
+      "rarity_name": "Common",
+      "profession_name": "Mage",
+      "cost": 2,
+      "combat_power": 91,
+      "image": "/images/heroes/630.png"
     },
     {
       "id": 700,
       "name": "Swordsman",
-      "slug": "swordsman"
+      "slug": "swordsman",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 2,
+      "combat_power": 109,
+      "image": "/images/heroes/700.png"
     },
     {
       "id": 803,
       "name": "Woodshield Guard",
-      "slug": "woodshield-guard"
+      "slug": "woodshield-guard",
+      "rarity_name": "Common",
+      "profession_name": "Special",
+      "cost": 2,
+      "combat_power": 113,
+      "image": "/images/heroes/803.png"
     },
     {
       "id": 619,
       "name": "Berserker",
-      "slug": "berserker"
+      "slug": "berserker",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 3,
+      "combat_power": 208,
+      "image": "/images/heroes/619.png"
     },
     {
       "id": 629,
       "name": "Goblin Warrior",
-      "slug": "goblin-warrior"
+      "slug": "goblin-warrior",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 3,
+      "combat_power": 216,
+      "image": "/images/heroes/629.png"
     },
     {
       "id": 631,
       "name": "Forest Scout",
-      "slug": "forest-scout"
+      "slug": "forest-scout",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 3,
+      "combat_power": 195,
+      "image": "/images/heroes/631.png"
     },
     {
       "id": 635,
       "name": "Flail Warden",
-      "slug": "flail-warden"
+      "slug": "flail-warden",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 3,
+      "combat_power": 215,
+      "image": "/images/heroes/635.png"
     },
     {
       "id": 645,
       "name": "Apprentice Mage",
-      "slug": "apprentice-mage"
+      "slug": "apprentice-mage",
+      "rarity_name": "Rare",
+      "profession_name": "Tank",
+      "cost": 3,
+      "combat_power": 186,
+      "image": "/images/heroes/645.png"
     },
     {
       "id": 655,
       "name": "Frost Skeleton",
-      "slug": "frost-skeleton"
+      "slug": "frost-skeleton",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 3,
+      "combat_power": 249,
+      "image": "/images/heroes/655.png"
     },
     {
       "id": 831,
       "name": "Cannon Chariot",
-      "slug": "cannon-chariot"
+      "slug": "cannon-chariot",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 4,
+      "combat_power": 133,
+      "image": "/images/heroes/831.png"
     },
     {
       "id": 832,
       "name": "Bomber",
-      "slug": "bomber"
+      "slug": "bomber",
+      "rarity_name": "Rare",
+      "profession_name": "Tank",
+      "cost": 4,
+      "combat_power": 242,
+      "image": "/images/heroes/832.png"
     },
     {
       "id": 834,
       "name": "Gale Wolf",
-      "slug": "gale-wolf"
+      "slug": "gale-wolf",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 3,
+      "combat_power": 258,
+      "image": "/images/heroes/834.png"
     },
     {
       "id": 835,
       "name": "Paladin",
-      "slug": "paladin"
+      "slug": "paladin",
+      "rarity_name": "Rare",
+      "profession_name": "Special",
+      "cost": 3,
+      "combat_power": 235,
+      "image": "/images/heroes/835.png"
     },
     {
       "id": 836,
       "name": "Goblin Chef",
-      "slug": "goblin-chef"
+      "slug": "goblin-chef",
+      "rarity_name": "Rare",
+      "profession_name": "Special",
+      "cost": 4,
+      "combat_power": 109,
+      "image": "/images/heroes/836.png"
     },
     {
       "id": 838,
       "name": "Goblin Shaman",
-      "slug": "goblin-shaman"
+      "slug": "goblin-shaman",
+      "rarity_name": "Rare",
+      "profession_name": "Mage",
+      "cost": 3,
+      "combat_power": 235,
+      "image": "/images/heroes/838.png"
     },
     {
       "id": 620,
       "name": "Rock Thrower",
-      "slug": "rock-thrower"
+      "slug": "rock-thrower",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 300,
+      "image": "/images/heroes/620.png"
     },
     {
       "id": 624,
       "name": "Poison Master",
-      "slug": "poison-master"
+      "slug": "poison-master",
+      "rarity_name": "Epic",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 283,
+      "image": "/images/heroes/624.png"
     },
     {
       "id": 626,
       "name": "Snowman Warrior",
-      "slug": "snowman-warrior"
+      "slug": "snowman-warrior",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 293,
+      "image": "/images/heroes/626.png"
     },
     {
       "id": 627,
       "name": "Flame Mage",
-      "slug": "flame-mage"
+      "slug": "flame-mage",
+      "rarity_name": "Epic",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 286,
+      "image": "/images/heroes/627.png"
     },
     {
       "id": 643,
       "name": "Oracle",
-      "slug": "oracle"
+      "slug": "oracle",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 290,
+      "image": "/images/heroes/643.png"
     },
     {
       "id": 656,
       "name": "Soul Usher",
-      "slug": "soul-usher"
+      "slug": "soul-usher",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 323,
+      "image": "/images/heroes/656.png"
     },
     {
       "id": 657,
       "name": "Iron Bulwark",
-      "slug": "iron-bulwark"
+      "slug": "iron-bulwark",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 341,
+      "image": "/images/heroes/657.png"
     },
     {
       "id": 659,
       "name": "Bone Warlock",
-      "slug": "bone-warlock"
+      "slug": "bone-warlock",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 242,
+      "image": "/images/heroes/659.png"
     },
     {
       "id": 830,
       "name": "Pumpkin Guard",
-      "slug": "pumpkin-guard"
+      "slug": "pumpkin-guard",
+      "rarity_name": "Epic",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 298,
+      "image": "/images/heroes/830.png"
     },
     {
       "id": 833,
       "name": "Guard Chario",
-      "slug": "guard-chario"
+      "slug": "guard-chario",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 5,
+      "combat_power": 126,
+      "image": null
     },
     {
       "id": 839,
       "name": "Wooden Wizard",
-      "slug": "wooden-wizard"
+      "slug": "wooden-wizard",
+      "rarity_name": "Epic",
+      "profession_name": "Mage",
+      "cost": 5,
+      "combat_power": 162,
+      "image": "/images/heroes/839.png"
     },
     {
       "id": 840,
       "name": "Dwarf Berserker",
-      "slug": "dwarf-berserker"
+      "slug": "dwarf-berserker",
+      "rarity_name": "Epic",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 223,
+      "image": "/images/heroes/840.png"
     },
     {
       "id": 843,
       "name": "Royal Archer",
-      "slug": "royal-archer"
+      "slug": "royal-archer",
+      "rarity_name": "Epic",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 345,
+      "image": "/images/heroes/843.png"
     },
     {
       "id": 658,
       "name": "Bone Gunner",
-      "slug": "bone-gunner"
+      "slug": "bone-gunner",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 258,
+      "image": "/images/heroes/658.png"
     },
     {
       "id": 718,
       "name": "Grace Priest",
-      "slug": "grace-priest"
+      "slug": "grace-priest",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 289,
+      "image": "/images/heroes/718.png"
     },
     {
       "id": 719,
       "name": "Blast Dwarf",
-      "slug": "blast-dwarf"
+      "slug": "blast-dwarf",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 312,
+      "image": "/images/heroes/719.png"
     },
     {
       "id": 721,
       "name": "Ironguard",
-      "slug": "ironguard"
+      "slug": "ironguard",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 324,
+      "image": "/images/heroes/721.png"
     },
     {
       "id": 726,
       "name": "Windlord",
-      "slug": "windlord"
+      "slug": "windlord",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 266,
+      "image": "/images/heroes/726.png"
     },
     {
       "id": 729,
       "name": "Elven Archer",
-      "slug": "elven-archer"
+      "slug": "elven-archer",
+      "rarity_name": "Legendary",
+      "profession_name": "Warrior",
+      "cost": 6,
+      "combat_power": 286,
+      "image": "/images/heroes/729.png"
     },
     {
       "id": 730,
       "name": "Great Axe Warrior",
-      "slug": "great-axe-warrior"
+      "slug": "great-axe-warrior",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 358,
+      "image": "/images/heroes/730.png"
     },
     {
       "id": 621,
       "name": "Sakura Ronin",
-      "slug": "sakura-ronin"
+      "slug": "sakura-ronin",
+      "rarity_name": "Legendary",
+      "profession_name": "Special",
+      "cost": 6,
+      "combat_power": 324,
+      "image": "/images/heroes/621.png"
     },
     {
       "id": 625,
       "name": "Ghost Assassin",
-      "slug": "ghost-assassin"
+      "slug": "ghost-assassin",
+      "rarity_name": "Legendary",
+      "profession_name": "Assassin",
+      "cost": 6,
+      "combat_power": 342,
+      "image": "/images/heroes/625.png"
     },
     {
       "id": 628,
       "name": "Ursa Champion",
-      "slug": "ursa-champion"
+      "slug": "ursa-champion",
+      "rarity_name": "Legendary",
+      "profession_name": "Mage",
+      "cost": 6,
+      "combat_power": 317,
+      "image": "/images/heroes/628.png"
     },
     {
       "id": 632,
       "name": "Wind Apostle",
-      "slug": "wind-apostle"
+      "slug": "wind-apostle",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 278,
+      "image": "/images/heroes/632.png"
     },
     {
       "id": 640,
       "name": "Ashen Arcanist",
-      "slug": "ashen-arcanist"
+      "slug": "ashen-arcanist",
+      "rarity_name": "Legendary",
+      "profession_name": "Tank",
+      "cost": 6,
+      "combat_power": 273,
+      "image": "/images/heroes/640.png"
     },
     {
       "id": 637,
       "name": "Gryphon Knight",
-      "slug": "gryphon-knight"
+      "slug": "gryphon-knight",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 483,
+      "image": "/images/heroes/637.png"
     },
     {
       "id": 638,
       "name": "Geomancer",
-      "slug": "geomancer"
+      "slug": "geomancer",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 384,
+      "image": "/images/heroes/638.png"
     },
     {
       "id": 663,
       "name": "Scarlet Spark",
-      "slug": "scarlet-spark"
+      "slug": "scarlet-spark",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 505,
+      "image": "/images/heroes/663.png"
     },
     {
       "id": 703,
       "name": "Frost Queen",
-      "slug": "frost-queen"
+      "slug": "frost-queen",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 360,
+      "image": "/images/heroes/703.png"
     },
     {
       "id": 704,
       "name": "Storm Maiden",
-      "slug": "storm-maiden"
+      "slug": "storm-maiden",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 394,
+      "image": "/images/heroes/704.png"
     },
     {
       "id": 705,
       "name": "Blazewing Lord",
-      "slug": "blazewing-lord"
+      "slug": "blazewing-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403,
+      "image": "/images/heroes/705.png"
     },
     {
       "id": 706,
       "name": "Starlight Apostle",
-      "slug": "starlight-apostle"
+      "slug": "starlight-apostle",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 392,
+      "image": "/images/heroes/706.png"
     },
     {
       "id": 708,
       "name": "Darkmoon Queen",
-      "slug": "darkmoon-queen"
+      "slug": "darkmoon-queen",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 391,
+      "image": "/images/heroes/708.png"
     },
     {
       "id": 711,
       "name": "Bone Marksman",
-      "slug": "bone-marksman"
+      "slug": "bone-marksman",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407,
+      "image": "/images/heroes/711.png"
     },
     {
       "id": 712,
       "name": "The Blade of Earth",
-      "slug": "the-blade-of-earth"
+      "slug": "the-blade-of-earth",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 393,
+      "image": "/images/heroes/712.png"
     },
     {
       "id": 734,
       "name": "Nine-Tailed Fox",
-      "slug": "nine-tailed-fox"
+      "slug": "nine-tailed-fox",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403,
+      "image": "/images/heroes/734.png"
     },
     {
       "id": 735,
       "name": "Woodland Guardian",
-      "slug": "woodland-guardian"
+      "slug": "woodland-guardian",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 407,
+      "image": "/images/heroes/735.png"
     },
     {
       "id": 736,
       "name": "Melody Weaver",
-      "slug": "melody-weaver"
+      "slug": "melody-weaver",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 390,
+      "image": "/images/heroes/736.png"
     },
     {
       "id": 738,
       "name": "Ripple Wizard",
-      "slug": "ripple-wizard"
+      "slug": "ripple-wizard",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 408,
+      "image": "/images/heroes/738.png"
     },
     {
       "id": 739,
       "name": "Fury Cannoneer",
-      "slug": "fury-cannoneer"
+      "slug": "fury-cannoneer",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 405,
+      "image": "/images/heroes/739.png"
     },
     {
       "id": 740,
       "name": "Firepower Vanguard",
-      "slug": "firepower-vanguard"
+      "slug": "firepower-vanguard",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 433,
+      "image": "/images/heroes/740.png"
     },
     {
       "id": 741,
       "name": "Mist Archer",
-      "slug": "mist-archer"
+      "slug": "mist-archer",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 392,
+      "image": "/images/heroes/741.png"
     },
     {
       "id": 742,
       "name": "Jungle Ranger",
-      "slug": "jungle-ranger"
+      "slug": "jungle-ranger",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407,
+      "image": "/images/heroes/742.png"
     },
     {
       "id": 743,
       "name": "Barbarian Tyrant",
-      "slug": "barbarian-tyrant"
+      "slug": "barbarian-tyrant",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 464,
+      "image": "/images/heroes/743.png"
     },
     {
       "id": 744,
       "name": "Flame Duelist",
-      "slug": "flame-duelist"
+      "slug": "flame-duelist",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 469,
+      "image": "/images/heroes/744.png"
     },
     {
       "id": 745,
       "name": "Night Scion",
-      "slug": "night-scion"
+      "slug": "night-scion",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 425,
+      "image": "/images/heroes/745.png"
     },
     {
       "id": 746,
       "name": "Goddess of War",
-      "slug": "goddess-of-war"
+      "slug": "goddess-of-war",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 507,
+      "image": "/images/heroes/746.png"
     },
     {
       "id": 748,
       "name": "Venospore Killer",
-      "slug": "venospore-killer"
+      "slug": "venospore-killer",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 358,
+      "image": "/images/heroes/748.png"
     },
     {
       "id": 749,
       "name": "The Knight King",
-      "slug": "the-knight-king"
+      "slug": "the-knight-king",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 420,
+      "image": "/images/heroes/749.png"
     },
     {
       "id": 750,
       "name": "Steam Robot",
-      "slug": "steam-robot"
+      "slug": "steam-robot",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 754,
       "name": "Pharmacist",
-      "slug": "pharmacist"
+      "slug": "pharmacist",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 758,
       "name": "Blacksmith Warrior",
-      "slug": "blacksmith-warrior-1"
+      "slug": "blacksmith-warrior-1",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 760,
       "name": "Frost Wizard",
-      "slug": "frost-wizard"
+      "slug": "frost-wizard",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 762,
       "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
+      "slug": "radiant-warrior",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 449,
+      "image": "/images/heroes/762.png"
     },
     {
       "id": 764,
       "name": "Weakened One",
-      "slug": "weakened-one"
+      "slug": "weakened-one",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 766,
       "name": "Butterfly Mage",
-      "slug": "butterfly-mage"
+      "slug": "butterfly-mage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 769,
       "name": "Mech Artisan",
-      "slug": "mech-artisan"
+      "slug": "mech-artisan",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 773,
       "name": "Flame Prisoner",
-      "slug": "flame-prisoner"
+      "slug": "flame-prisoner",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 775,
       "name": "Elemental Dragon",
-      "slug": "elemental-dragon"
+      "slug": "elemental-dragon",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 778,
       "name": "Seraph",
-      "slug": "seraph"
+      "slug": "seraph",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 442,
+      "image": "/images/heroes/778.png"
     },
     {
       "id": 779,
       "name": "Wandering Swordsman",
-      "slug": "wandering-swordsman"
+      "slug": "wandering-swordsman",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 781,
       "name": "Deadly Blade",
-      "slug": "deadly-blade"
+      "slug": "deadly-blade",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 783,
       "name": "Necromancer",
-      "slug": "necromancer"
+      "slug": "necromancer",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 378,
+      "image": "/images/heroes/783.png"
     },
     {
       "id": 785,
       "name": "Energy Striker",
-      "slug": "energy-striker"
+      "slug": "energy-striker",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 787,
       "name": "Crystal Cat",
-      "slug": "crystal-cat"
+      "slug": "crystal-cat",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 789,
       "name": "Weapon Sage",
-      "slug": "weapon-sage"
+      "slug": "weapon-sage",
+      "rarity_name": "Mythic",
+      "profession_name": "Support",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 794,
       "name": "Dark Knight",
-      "slug": "dark-knight"
+      "slug": "dark-knight",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 796,
       "name": "Stasis Guard",
-      "slug": "stasis-guard"
+      "slug": "stasis-guard",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 798,
       "name": "Gaia",
-      "slug": "gaia"
+      "slug": "gaia",
+      "rarity_name": "Mythic",
+      "profession_name": "Mage",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 800,
       "name": "Bounty Hunter",
-      "slug": "bounty-hunter"
+      "slug": "bounty-hunter",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 845,
       "name": "Tide Lord",
-      "slug": "tide-lord"
+      "slug": "tide-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463,
+      "image": "/images/heroes/845.png"
     },
     {
       "id": 846,
       "name": "Blazeking",
-      "slug": "blazeking"
+      "slug": "blazeking",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 10,
+      "combat_power": 463,
+      "image": "/images/heroes/846.png"
     },
     {
       "id": 847,
       "name": "Red Blade",
-      "slug": "red-blade"
+      "slug": "red-blade",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 503,
+      "image": "/images/heroes/847.png"
     },
     {
       "id": 848,
       "name": "Light Seeker",
-      "slug": "light-seeker"
+      "slug": "light-seeker",
+      "rarity_name": "Mythic",
+      "profession_name": "Warrior",
+      "cost": 8,
+      "combat_power": 407,
+      "image": "/images/heroes/848.png"
     },
     {
       "id": 849,
       "name": "Solar Sage",
-      "slug": "solar-sage"
+      "slug": "solar-sage",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403,
+      "image": "/images/heroes/849.png"
     },
     {
       "id": 850,
       "name": "Shadow Witch",
-      "slug": "shadow-witch"
+      "slug": "shadow-witch",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 8,
+      "combat_power": 403,
+      "image": "/images/heroes/850.png"
     },
     {
       "id": 851,
       "name": "Rock Warlord",
-      "slug": "rock-warlord"
+      "slug": "rock-warlord",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 8,
+      "combat_power": 474,
+      "image": "/images/heroes/851.png"
     }
   ]
 }

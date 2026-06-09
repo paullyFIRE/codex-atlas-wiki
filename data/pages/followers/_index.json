@@ -5,52 +5,102 @@
     {
       "id": 2001,
       "name": "Frieda",
-      "slug": "frieda"
+      "slug": "frieda",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2002,
       "name": "Toasty",
-      "slug": "toasty"
+      "slug": "toasty",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2003,
       "name": "Flory",
-      "slug": "flory"
+      "slug": "flory",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2004,
       "name": "Eglet",
-      "slug": "eglet"
+      "slug": "eglet",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2005,
       "name": "Poopy",
-      "slug": "poopy"
+      "slug": "poopy",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2006,
       "name": "Steaky",
-      "slug": "steaky"
+      "slug": "steaky",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2007,
       "name": "Burgie",
-      "slug": "burgie"
+      "slug": "burgie",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2008,
       "name": "Donnie",
-      "slug": "donnie"
+      "slug": "donnie",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2009,
       "name": "Cacto",
-      "slug": "cacto"
+      "slug": "cacto",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2010,
       "name": "Froggle",
-      "slug": "froggle"
+      "slug": "froggle",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

@@ -431,5 +431,6 @@
     "Oracle deals area magic damage, effective against groups of enemies.",
     "Protect Oracle with front-line tanks to maximize their damage output.",
     "High cost (6) means Oracle should be deployed strategically when the timing is right."
-  ]
+  ],
+  "image": "/images/heroes/643.png"
 }

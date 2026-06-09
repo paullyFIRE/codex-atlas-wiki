@@ -5,182 +5,362 @@
     {
       "id": 101,
       "name": "Command Center",
-      "slug": "command-center-1"
+      "slug": "command-center-1",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 500,
+      "image": null
     },
     {
       "id": 201,
       "name": "Gold Mine",
-      "slug": "gold-mine-1"
+      "slug": "gold-mine-1",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 104,
       "name": "Follower Camp",
-      "slug": "follower-camp"
+      "slug": "follower-camp",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 601,
       "name": "Spell Cauldron",
-      "slug": "spell-cauldron"
+      "slug": "spell-cauldron",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 203,
       "name": "Sawmill",
-      "slug": "sawmill"
+      "slug": "sawmill",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3010,
       "name": "Bunker",
-      "slug": "bunker"
+      "slug": "bunker",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 372,
+      "image": null
     },
     {
       "id": 3011,
       "name": "Arrow Tower",
-      "slug": "arrow-tower"
+      "slug": "arrow-tower",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 379,
+      "image": null
     },
     {
       "id": 3012,
       "name": "Turret",
-      "slug": "turret-1"
+      "slug": "turret-1",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 406,
+      "image": null
     },
     {
       "id": 3021,
       "name": "Command Center",
-      "slug": "command-center-2"
+      "slug": "command-center-2",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3022,
       "name": "Magic Source",
-      "slug": "magic-source"
+      "slug": "magic-source",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3023,
       "name": "Cannon",
-      "slug": "cannon"
+      "slug": "cannon",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 406,
+      "image": null
     },
     {
       "id": 3024,
       "name": "Thunder Tower",
-      "slug": "thunder-tower"
+      "slug": "thunder-tower",
+      "rarity_name": "Rare",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 406,
+      "image": null
     },
     {
       "id": 3025,
       "name": "Hammer Tower",
-      "slug": "hammer-tower"
+      "slug": "hammer-tower",
+      "rarity_name": "Rare",
+      "profession_name": "Special",
+      "cost": 0,
+      "combat_power": 588,
+      "image": null
     },
     {
       "id": 3026,
       "name": "Statue",
-      "slug": "statue"
+      "slug": "statue",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3027,
       "name": "Watchtower",
-      "slug": "watchtower"
+      "slug": "watchtower",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3028,
       "name": "Alchemy House",
-      "slug": "alchemy-house"
+      "slug": "alchemy-house",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3029,
       "name": "Temple",
-      "slug": "temple"
+      "slug": "temple",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3030,
       "name": "Camp",
-      "slug": "camp"
+      "slug": "camp",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3031,
       "name": "Military Academy",
-      "slug": "military-academy"
+      "slug": "military-academy",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3032,
       "name": "Rest Hut",
-      "slug": "rest-hut"
+      "slug": "rest-hut",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3033,
       "name": "City Wall",
-      "slug": "city-wall"
+      "slug": "city-wall",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3034,
       "name": "Ancient Guardian",
-      "slug": "ancient-guardian"
+      "slug": "ancient-guardian",
+      "rarity_name": "Rare",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 588,
+      "image": null
     },
     {
       "id": 3035,
       "name": "Mystic Spire",
-      "slug": "mystic-spire"
+      "slug": "mystic-spire",
+      "rarity_name": "Unknown",
+      "profession_name": "Unknown",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3036,
       "name": "Timber Extractor",
-      "slug": "timber-extractor"
+      "slug": "timber-extractor",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3037,
       "name": "Stone Extractor",
-      "slug": "stone-extractor"
+      "slug": "stone-extractor",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3038,
       "name": "Metal Extractor",
-      "slug": "metal-extractor"
+      "slug": "metal-extractor",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3054,
       "name": "Gold Mine",
-      "slug": "gold-mine-2"
+      "slug": "gold-mine-2",
+      "rarity_name": "Rare",
+      "profession_name": "Ranger",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3055,
       "name": "Turret",
-      "slug": "turret-2"
+      "slug": "turret-2",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 186,
+      "image": null
     },
     {
       "id": 3056,
       "name": "Saw Launcher",
-      "slug": "saw-launcher"
+      "slug": "saw-launcher",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 297,
+      "image": null
     },
     {
       "id": 3057,
       "name": "Flame Cannon",
-      "slug": "flame-cannon"
+      "slug": "flame-cannon",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 575,
+      "image": null
     },
     {
       "id": 3058,
       "name": "Frost Cannon",
-      "slug": "frost-cannon"
+      "slug": "frost-cannon",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 575,
+      "image": null
     },
     {
       "id": 3059,
       "name": "Electromagnetic Coil",
-      "slug": "electromagnetic-coil"
+      "slug": "electromagnetic-coil",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 408,
+      "image": null
     },
     {
       "id": 3060,
       "name": "Shield Generator",
-      "slug": "shield-generator"
+      "slug": "shield-generator",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 231,
+      "image": null
     },
     {
       "id": 3061,
       "name": "Wind Blast Tower",
-      "slug": "wind-blast-tower"
+      "slug": "wind-blast-tower",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 186,
+      "image": null
     },
     {
       "id": 3062,
       "name": "Portal",
-      "slug": "portal"
+      "slug": "portal",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 186,
+      "image": null
     },
     {
       "id": 3068,
       "name": "Electric Tower",
-      "slug": "electric-tower"
+      "slug": "electric-tower",
+      "rarity_name": "Rare",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 306,
+      "image": null
     }
   ]
 }

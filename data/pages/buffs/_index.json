@@ -5,182 +5,362 @@
     {
       "id": 1,
       "name": "Field Buff 1",
-      "slug": "field-buff-1"
+      "slug": "field-buff-1",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2,
       "name": "Field Buff 2",
-      "slug": "field-buff-2"
+      "slug": "field-buff-2",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3,
       "name": "Field Buff 3",
-      "slug": "field-buff-3"
+      "slug": "field-buff-3",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 4,
       "name": "Field Buff 4",
-      "slug": "field-buff-4"
+      "slug": "field-buff-4",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 5,
       "name": "Field Buff 5",
-      "slug": "field-buff-5"
+      "slug": "field-buff-5",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 6,
       "name": "Field Buff 6",
-      "slug": "field-buff-6"
+      "slug": "field-buff-6",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 7,
       "name": "Field Buff 7",
-      "slug": "field-buff-7"
+      "slug": "field-buff-7",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 8,
       "name": "Field Buff 8",
-      "slug": "field-buff-8"
+      "slug": "field-buff-8",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 9,
       "name": "Field Buff 9",
-      "slug": "field-buff-9"
+      "slug": "field-buff-9",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 10,
       "name": "Field Buff 10",
-      "slug": "field-buff-10"
+      "slug": "field-buff-10",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 11,
       "name": "Field Buff 11",
-      "slug": "field-buff-11"
+      "slug": "field-buff-11",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 12,
       "name": "Field Buff 12",
-      "slug": "field-buff-12"
+      "slug": "field-buff-12",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 13,
       "name": "Field Buff 13",
-      "slug": "field-buff-13"
+      "slug": "field-buff-13",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 14,
       "name": "Field Buff 14",
-      "slug": "field-buff-14"
+      "slug": "field-buff-14",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 15,
       "name": "Field Buff 15",
-      "slug": "field-buff-15"
+      "slug": "field-buff-15",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 16,
       "name": "Field Buff 16",
-      "slug": "field-buff-16"
+      "slug": "field-buff-16",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 17,
       "name": "Field Buff 17",
-      "slug": "field-buff-17"
+      "slug": "field-buff-17",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 18,
       "name": "Field Buff 18",
-      "slug": "field-buff-18"
+      "slug": "field-buff-18",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 101,
       "name": "Field Buff 101",
-      "slug": "field-buff-101"
+      "slug": "field-buff-101",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 102,
       "name": "Field Buff 102",
-      "slug": "field-buff-102"
+      "slug": "field-buff-102",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 103,
       "name": "Field Buff 103",
-      "slug": "field-buff-103"
+      "slug": "field-buff-103",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 104,
       "name": "Field Buff 104",
-      "slug": "field-buff-104"
+      "slug": "field-buff-104",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 105,
       "name": "Field Buff 105",
-      "slug": "field-buff-105"
+      "slug": "field-buff-105",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 106,
       "name": "Field Buff 106",
-      "slug": "field-buff-106"
+      "slug": "field-buff-106",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 107,
       "name": "Field Buff 107",
-      "slug": "field-buff-107"
+      "slug": "field-buff-107",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 108,
       "name": "Field Buff 108",
-      "slug": "field-buff-108"
+      "slug": "field-buff-108",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 109,
       "name": "Field Buff 109",
-      "slug": "field-buff-109"
+      "slug": "field-buff-109",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 110,
       "name": "Field Buff 110",
-      "slug": "field-buff-110"
+      "slug": "field-buff-110",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 111,
       "name": "Field Buff 111",
-      "slug": "field-buff-111"
+      "slug": "field-buff-111",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 112,
       "name": "Field Buff 112",
-      "slug": "field-buff-112"
+      "slug": "field-buff-112",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 113,
       "name": "Field Buff 113",
-      "slug": "field-buff-113"
+      "slug": "field-buff-113",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 114,
       "name": "Field Buff 114",
-      "slug": "field-buff-114"
+      "slug": "field-buff-114",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 115,
       "name": "Field Buff 115",
-      "slug": "field-buff-115"
+      "slug": "field-buff-115",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 116,
       "name": "Field Buff 116",
-      "slug": "field-buff-116"
+      "slug": "field-buff-116",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 117,
       "name": "Field Buff 117",
-      "slug": "field-buff-117"
+      "slug": "field-buff-117",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 118,
       "name": "Field Buff 118",
-      "slug": "field-buff-118"
+      "slug": "field-buff-118",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

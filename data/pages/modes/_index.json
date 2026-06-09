@@ -5,27 +5,52 @@
     {
       "id": 1,
       "name": "General Lineup",
-      "slug": "general-lineup"
+      "slug": "general-lineup",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3,
       "name": "Game Mode 3",
-      "slug": "game-mode-3"
+      "slug": "game-mode-3",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 4,
       "name": "Ace Showdown",
-      "slug": "ace-showdown"
+      "slug": "ace-showdown",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 5,
       "name": "Game Mode 5",
-      "slug": "game-mode-5"
+      "slug": "game-mode-5",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 6,
       "name": "Game Mode 6",
-      "slug": "game-mode-6"
+      "slug": "game-mode-6",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

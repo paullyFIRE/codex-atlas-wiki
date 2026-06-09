@@ -126,7 +126,8 @@ BUILDING_IDS = {101, 104, 201, 203, 601, 3010, 3011, 3012, 3023, 3024, 3025,
 
 def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
                     skill_attrs: dict, skill_descs: dict, db: dict,
-                    slug_map: dict | None = None) -> dict | None:
+                    slug_map: dict | None = None,
+                    image_map: dict | None = None) -> dict | None:
     name = name_map.get(str(unit_id))
     if not name:
         name = unit.get("name_en")
@@ -352,6 +353,7 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         "schema": schema,
         "breadcrumb_schema": breadcrumb_schema,
         "strategy_tips": strategy_tips,
+        "image": None,
     }
 
     return page
@@ -972,6 +974,9 @@ def main():
         if isinstance(u, dict) and u.get("canShow") == True:
             shown_ids.add(str(u.get("id", uid)))
 
+    print("Loading image map...")
+    image_map = load_json(DATA_DIR / "unit_image_map.json")
+
     print(f"Generating pages for {len(db)} units ({len(shown_ids)} playable heroes)...")
 
     # Filter db to only shown units (type-1) + all non-type-1
@@ -1008,7 +1013,7 @@ def main():
     # Second pass: build all unit pages with resolved slug map
     all_pages = []
     for unit_id, unit in filtered_db.items():
-        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, filtered_db, slug_map)
+        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, filtered_db, slug_map, image_map)
         if not page:
             continue
 
@@ -1030,6 +1035,11 @@ def main():
         # Inject building upgrade costs if available
         if page["type"] == "buildings":
             inject_building_upgrades(page, building_upgrade_map, resource_bd_map, loc)
+
+        # Inject image URL from extracted game assets
+        img_key = f'{page["type"]}/{page["id"]}'
+        if image_map and img_key in image_map:
+            page["image"] = image_map[img_key]
 
         all_pages.append(page)
 
@@ -1089,6 +1099,11 @@ def main():
             "id": page.get("id", 0),
             "name": page["name"],
             "slug": page["slug"],
+            "rarity_name": page.get("rarity_name"),
+            "profession_name": page.get("profession_name"),
+            "cost": page.get("cost"),
+            "combat_power": page.get("combat_power"),
+            "image": page.get("image"),
         })
 
     # Write index files

@@ -5,47 +5,92 @@
     {
       "id": 1,
       "name": "Synergy 1",
-      "slug": "synergy-1"
+      "slug": "synergy-1",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 2,
       "name": "Synergy 2",
-      "slug": "synergy-2"
+      "slug": "synergy-2",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 3,
       "name": "Synergy 3",
-      "slug": "synergy-3"
+      "slug": "synergy-3",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 4,
       "name": "Synergy 4",
-      "slug": "synergy-4"
+      "slug": "synergy-4",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 5,
       "name": "Synergy 5",
-      "slug": "synergy-5"
+      "slug": "synergy-5",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 6,
       "name": "Synergy 6",
-      "slug": "synergy-6"
+      "slug": "synergy-6",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 7,
       "name": "Synergy 7",
-      "slug": "synergy-7"
+      "slug": "synergy-7",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 8,
       "name": "Synergy 8",
-      "slug": "synergy-8"
+      "slug": "synergy-8",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 9,
       "name": "Synergy 9",
-      "slug": "synergy-9"
+      "slug": "synergy-9",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

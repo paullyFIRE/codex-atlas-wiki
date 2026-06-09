@@ -5,42 +5,82 @@
     {
       "id": 0,
       "name": "Best Low Cost Units",
-      "slug": "best-low-cost-units"
+      "slug": "best-low-cost-units",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Mid Cost Units",
-      "slug": "best-mid-cost-units"
+      "slug": "best-mid-cost-units",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best High Cost Units",
-      "slug": "best-high-cost-units"
+      "slug": "best-high-cost-units",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Heroes for General Lineup",
-      "slug": "best-heroes-for-general-lineup"
+      "slug": "best-heroes-for-general-lineup",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Heroes for Mode 3",
-      "slug": "best-heroes-for-mode-3"
+      "slug": "best-heroes-for-mode-3",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Heroes for Ace Showdown",
-      "slug": "best-heroes-for-ace-showdown"
+      "slug": "best-heroes-for-ace-showdown",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Heroes for Mode 5",
-      "slug": "best-heroes-for-mode-5"
+      "slug": "best-heroes-for-mode-5",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "Best Heroes for Mode 6",
-      "slug": "best-heroes-for-mode-6"
+      "slug": "best-heroes-for-mode-6",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

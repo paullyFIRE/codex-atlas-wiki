@@ -5,102 +5,202 @@
     {
       "id": 30,
       "name": "Evil Ivy",
-      "slug": "evil-ivy"
+      "slug": "evil-ivy",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 41,
       "name": "Twin-Dragon",
-      "slug": "twin-dragon"
+      "slug": "twin-dragon",
+      "rarity_name": "Mythic",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 140,
       "name": "Storm Lord",
-      "slug": "storm-lord"
+      "slug": "storm-lord",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 141,
       "name": "Castle Colossus",
-      "slug": "castle-colossus"
+      "slug": "castle-colossus",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 143,
       "name": "Tower Colossus",
-      "slug": "tower-colossus"
+      "slug": "tower-colossus",
+      "rarity_name": "Mythic",
+      "profession_name": "Special",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 148,
       "name": "Stormbringers",
-      "slug": "stormbringers"
+      "slug": "stormbringers",
+      "rarity_name": "Mythic",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 50,
       "name": "Dragon Knight",
-      "slug": "dragon-knight"
+      "slug": "dragon-knight",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 58,
       "name": "Naga Blade Master",
-      "slug": "naga-blade-master"
+      "slug": "naga-blade-master",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 31,
       "name": "Ghostwind Wolf",
-      "slug": "ghostwind-wolf"
+      "slug": "ghostwind-wolf",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 32,
       "name": "Dune Troll",
-      "slug": "dune-troll"
+      "slug": "dune-troll",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 130,
       "name": "Ridge Drake",
-      "slug": "ridge-drake"
+      "slug": "ridge-drake",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 131,
       "name": "Venom Beetle",
-      "slug": "venom-beetle"
+      "slug": "venom-beetle",
+      "rarity_name": "Common",
+      "profession_name": "Warrior",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 132,
       "name": "Tidal Drake",
-      "slug": "tidal-drake"
+      "slug": "tidal-drake",
+      "rarity_name": "Common",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 133,
       "name": "Gale Wyvern",
-      "slug": "gale-wyvern"
+      "slug": "gale-wyvern",
+      "rarity_name": "Common",
+      "profession_name": "Tank",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 134,
       "name": "Molten Bat",
-      "slug": "molten-bat"
+      "slug": "molten-bat",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 135,
       "name": "Lava Eater",
-      "slug": "lava-eater"
+      "slug": "lava-eater",
+      "rarity_name": "Common",
+      "profession_name": "Assassin",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 136,
       "name": "Yeti Ancestor",
-      "slug": "yeti-ancestor"
+      "slug": "yeti-ancestor",
+      "rarity_name": "Common",
+      "profession_name": "Unknown",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 137,
       "name": "Spiked Beetle",
-      "slug": "spiked-beetle"
+      "slug": "spiked-beetle",
+      "rarity_name": "Common",
+      "profession_name": "Unknown",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 138,
       "name": "Sharpen Drake",
-      "slug": "sharpen-drake"
+      "slug": "sharpen-drake",
+      "rarity_name": "Common",
+      "profession_name": "Unknown",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     },
     {
       "id": 139,
       "name": "Gale Breaker",
-      "slug": "gale-breaker"
+      "slug": "gale-breaker",
+      "rarity_name": "Common",
+      "profession_name": "Unknown",
+      "cost": 0,
+      "combat_power": 0,
+      "image": null
     }
   ]
 }

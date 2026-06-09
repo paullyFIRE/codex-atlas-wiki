@@ -334,6 +334,7 @@
     "Turret is a balanced melee unit, effective in both offense and defense.",
     "Use Turret in the front line to deal consistent damage while holding position."
   ],
+  "image": null,
   "upgrade_table": [
     {
       "level": 1,

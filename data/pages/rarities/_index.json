@@ -5,27 +5,52 @@
     {
       "id": 0,
       "name": "All Common Units",
-      "slug": "common-units"
+      "slug": "common-units",
+      "rarity_name": "Common",
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Rare Units",
-      "slug": "rare-units"
+      "slug": "rare-units",
+      "rarity_name": "Rare",
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Epic Units",
-      "slug": "epic-units"
+      "slug": "epic-units",
+      "rarity_name": "Epic",
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Legendary Units",
-      "slug": "legendary-units"
+      "slug": "legendary-units",
+      "rarity_name": "Legendary",
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Mythic Units",
-      "slug": "mythic-units"
+      "slug": "mythic-units",
+      "rarity_name": "Mythic",
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

@@ -5,37 +5,72 @@
     {
       "id": 0,
       "name": "All Warriors",
-      "slug": "warrior"
+      "slug": "warrior",
+      "rarity_name": null,
+      "profession_name": "Warrior",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Tanks",
-      "slug": "tank"
+      "slug": "tank",
+      "rarity_name": null,
+      "profession_name": "Tank",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Assassins",
-      "slug": "assassin"
+      "slug": "assassin",
+      "rarity_name": null,
+      "profession_name": "Assassin",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Mages",
-      "slug": "mage"
+      "slug": "mage",
+      "rarity_name": null,
+      "profession_name": "Mage",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Supports",
-      "slug": "support"
+      "slug": "support",
+      "rarity_name": null,
+      "profession_name": "Support",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Rangers",
-      "slug": "ranger"
+      "slug": "ranger",
+      "rarity_name": null,
+      "profession_name": "Ranger",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     },
     {
       "id": 0,
       "name": "All Specials",
-      "slug": "special"
+      "slug": "special",
+      "rarity_name": null,
+      "profession_name": "Special",
+      "cost": null,
+      "combat_power": null,
+      "image": null
     }
   ]
 }

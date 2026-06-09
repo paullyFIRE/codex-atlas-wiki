@@ -328,5 +328,6 @@
   "strategy_tips": [
     "Redstone Mine attacks from range, dealing physical damage from a safe distance.",
     "Position Redstone Mine on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "image": null
 }

@@ -31,6 +31,7 @@ const production = pageData.resource_production ?? null;
 
   <article>
     <header>
+      {pageData.image && <img src={pageData.image} alt={pageData.name} width="120" height="120" style="float:right;border-radius:8px;" />}
       <h1>{pageData.name}</h1>
       <p>
         {pageData.rarity_name && <span class="rarity">{pageData.rarity_name}</span>}
