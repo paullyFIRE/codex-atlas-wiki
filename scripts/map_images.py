@@ -1,16 +1,7 @@
 """Map unit IDs to extracted game character portraits.
 
-Only uses actual character art:
-  1. {Name}_C.png — character portraits (square, 1024x1024)
-  2. Card_{id}.png — card art from the unit collection UI
-  (No raw {id}.png textures — those are model UV maps, not portraits)
-
-Routing mirrors generate_pages.py:
-  unitType=1 → heroes
-  unitType=4 → hunting-bosses
-  unitType=5 + BUILDING_IDS → buildings
-  unitType=5 → special
-  unitType=None → followers (2001-2010) / buildings (BUILDING_IDS) / special
+Only uses {Name}_C.png character portraits.
+No card art (Card_*), no raw textures ({id}.png).
 """
 
 import json, os, shutil
@@ -57,9 +48,8 @@ def build_mapping():
     with open('data/processed/config/card_growth.json') as f:
         growth = json.load(f)
 
-    # Scan for portrait files (_C) and card art (Card_*)
+    # Scan for portrait files (_C only — no card art or raw textures)
     c_norm_map = {}
-    card_map = {}
 
     for d in [IMG_SRC, IMG_AUTO]:
         if not os.path.isdir(d):
@@ -73,8 +63,6 @@ def build_mapping():
                 norm = normalize(name_part)
                 if norm not in c_norm_map or d == IMG_SRC:
                     c_norm_map[norm] = (d, fn)
-            elif base.startswith('Card_') and base[5:].isdigit():
-                card_map.setdefault(int(base[5:]), (d, fn))
 
     # Explicit overrides for named heroes with different _C filenames
     named_heroes = {
@@ -94,7 +82,7 @@ def build_mapping():
 
     # Build mapping
     mapping = {}
-    stats = {'portrait': 0, 'card': 0}
+    stats = {'portrait': 0}
 
     def assign(key, src_dir, fn, stype):
         dst_fn = f'{key}.png'
@@ -117,34 +105,18 @@ def build_mapping():
             d, fn = c_norm_map[norm]
             assign(key, d, fn, 'portrait')
 
-    # Pass 2: card art for unmapped
-    for uid_str, unit in growth['battleUnits'].items():
-        uid = int(uid_str)
-        page_type = get_page_type(uid, unit)
-        key = f'{page_type}/{uid}'
-        if key in mapping:
-            continue
-        if uid in card_map:
-            d, fn = card_map[uid]
-            assign(key, d, fn, 'card')
-
     # Handle named heroes (30001-30004) not in battleUnits
     for uid_str, c_name in named_heroes.items():
         key = f'heroes/{uid_str}'
         if key in mapping:
             continue
-        # Check for _C portrait (already in c_norm_map)
         norm = normalize(c_name)
         if norm in c_norm_map:
             d, fn = c_norm_map[norm]
             assign(key, d, fn, 'portrait')
-        elif int(uid_str) in card_map:
-            d, fn = card_map[int(uid_str)]
-            assign(key, d, fn, 'card')
 
-    print(f'Mapped {len(mapping)} unit IDs (portraits only, no raw textures):')
+    print(f'Mapped {len(mapping)} unit IDs (portraits only):')
     print(f'  {stats["portrait"]} character portraits (_C.png)')
-    print(f'  {stats["card"]} card art (Card_*.png)')
 
     return mapping
 

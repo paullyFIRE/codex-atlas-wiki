@@ -4,18 +4,50 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const indexFiles = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const index = indexFiles['/data/pages/heroes/_index.json'] ?? { items: [], count: 0 };
 const items = index.items ?? [];
+
+const PROFESSION_ORDER = ['Tank', 'Warrior', 'Assassin', 'Mage', 'Support', 'Ranger', 'Special'];
+const PROFESSION_DESC = {
+  Tank: 'High HP and DEF. Absorbs damage, protects allies.',
+  Warrior: 'Balanced melee fighters. Reliable damage and survivability.',
+  Assassin: 'High single-target burst. Eliminates key threats.',
+  Mage: 'Area magic damage. Effective against groups.',
+  Support: 'Healing, buffs, and utility. Extends team survivability.',
+  Ranger: 'Ranged physical damage. Safe distance attackers.',
+  Special: 'Unique roles with situational strengths.',
+};
+
+const groups = {};
+for (const p of PROFESSION_ORDER) {
+  const members = items.filter(i => i.profession_name === p).sort((a, b) => (b.combat_power ?? 0) - (a.combat_power ?? 0));
+  if (members.length > 0) groups[p] = members;
+}
+const RARITY_COLORS = { Common: '#9ca3af', Rare: '#34d399', Epic: '#60a5fa', Legendary: '#a78bfa', Mythic: '#fb923c' };
 ---
 
 <BaseLayout
   title="All Heroes - Stats and Analysis | War Inc: Rising Wiki"
-  description={`Browse all ${items.length} heroes in War Inc: Rising. Filter by rarity, profession, and stats to find the best units.`}
+  description={`Browse all ${items.length} heroes in War Inc: Rising grouped by class. Compare stats, rarities, and professions.`}
   currentSection="heroes"
 >
-  <h1>All Heroes</h1>
-  <p>{items.length} playable units.</p>
+  <style>
+    .hero-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-3); }
+    .hero-card { display: flex; gap: var(--space-3); padding: var(--space-3); background: var(--surface-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); box-shadow: var(--shadow-xs), var(--bevel-outset); transition: all 150ms ease; align-items: center; }
+    .hero-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md), var(--bevel-outset); border-color: var(--gold-400); }
+    .hero-card-img { width: 56px; height: 56px; border-radius: var(--radius-md); object-fit: cover; border: 1px solid var(--border-light); flex-shrink: 0; background: var(--surface-muted); }
+    .hero-card-body { flex: 1; min-width: 0; }
+    .hero-card-name { font-family: var(--font-heading); font-size: var(--text-sm); font-weight: var(--weight-bold); color: var(--gold-700); }
+    .hero-card-meta { font-size: var(--text-xs); color: #6c757d; display: flex; flex-wrap: wrap; gap: var(--space-1); margin-top: var(--space-1); }
+    .class-section { margin-bottom: var(--space-8); }
+    .class-section h2 { margin-top: 0; display: flex; align-items: center; gap: var(--space-2); }
+    .class-desc { font-size: var(--text-sm); color: #6c757d; margin: 0 0 var(--space-3); font-family: var(--font-body); }
+    .hero-count { font-family: var(--font-body); font-size: var(--text-sm); color: #6c757d; font-weight: var(--weight-normal); }
+  </style>
 
-  <nav class="section-nav">
-    <a href="/professions/">By Class</a>
+  <h1>All Heroes</h1>
+  <p>{items.length} playable units — grouped by class. <a href="/compare/">Compare heroes</a> or use the <a href="/build-team/">Team Builder</a>.</p>
+
+  <nav class="section-nav" style="margin-bottom: var(--space-6);">
+    <a href="/professions/">All Classes</a>
     <a href="/guides/best-low-cost-units/">Best Low Cost</a>
     <a href="/guides/best-mid-cost-units/">Best Mid Cost</a>
     <a href="/guides/best-high-cost-units/">Best High Cost</a>
@@ -23,22 +55,34 @@ const items = index.items ?? [];
     <a href="/compare/">Comparisons</a>
   </nav>
 
-  <ul class="listing-plain">
-    {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
-      <li style="display: flex; align-items: center; gap: var(--space-3);">
-        {item.image && (
-          <img src={item.image} alt="" width="40" height="40" style="border-radius: var(--radius-sm); object-fit: cover;" />
-        )}
-        <div>
-          <a href={`/heroes/${item.slug}/`} style="font-weight: 600;">{item.name}</a>
-          <span class="meta">
-            {item.rarity_name ? ` · ${item.rarity_name}` : ''}
-            {item.profession_name ? ` · ${item.profession_name}` : ''}
-            {item.cost ? ` · Cost ${item.cost}` : ''}
-            {item.combat_power ? ` · Power ${item.combat_power}` : ''}
-          </span>
-        </div>
-      </li>
-    ))}
-  </ul>
+  {Object.entries(groups).map(([profession, heroes]) => (
+    <section class="class-section">
+      <h2 id={profession.toLowerCase()}>
+        {profession}s
+        <span class="hero-count">({heroes.length})</span>
+      </h2>
+      <p class="class-desc">{PROFESSION_DESC[profession]}</p>
+      <div class="hero-grid">
+        {heroes.map((hero) => (
+          <a href={`/heroes/${hero.slug}/`} class="hero-card" style="text-decoration: none; color: inherit;">
+            {hero.image ? (
+              <img src={hero.image} alt="" class="hero-card-img" loading="lazy" />
+            ) : (
+              <div class="hero-card-img" style="display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#999;">?</div>
+            )}
+            <div class="hero-card-body">
+              <div class="hero-card-name">{hero.name}</div>
+              <div class="hero-card-meta">
+                <span class="badge badge-rarity" data-level={hero.rarity_name === 'Common' ? 1 : hero.rarity_name === 'Rare' ? 2 : hero.rarity_name === 'Epic' ? 3 : hero.rarity_name === 'Legendary' ? 4 : hero.rarity_name === 'Mythic' ? 5 : 1}>
+                  {hero.rarity_name}
+                </span>
+                {hero.cost ? <span class="stat-chip"><span class="stat-chip-label">Cost</span><span class="stat-chip-value">{hero.cost}</span></span> : null}
+                {hero.combat_power ? <span class="stat-chip"><span class="stat-chip-label">Pow</span><span class="stat-chip-value">{hero.combat_power}</span></span> : null}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
 </BaseLayout>
