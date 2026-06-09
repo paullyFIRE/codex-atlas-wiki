@@ -25,6 +25,9 @@ jobs:
         run: python3 scripts/generate_pages.py
 
       - name: Build site
+        env:
+          PUBLIC_GTM_ID: ${{ secrets.PUBLIC_GTM_ID }}
+          PUBLIC_GA_ID: ${{ secrets.PUBLIC_GA_ID }}
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
