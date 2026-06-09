@@ -1,11 +1,29 @@
 ---
+import { readFileSync } from 'fs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const hf = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const heroCount = hf['/data/pages/heroes/_index.json']?.count ?? 0;
-const files = import.meta.glob('/data/pages/guides/_index.json', { eager: true, import: 'default' });
-const index = files['/data/pages/guides/_index.json'] ?? { items: [], count: 0 };
+
+const index = JSON.parse(readFileSync('data/pages/guides/_index.json', 'utf-8'));
 const items = index.items ?? [];
+
+function loadGuide(slug) {
+  try {
+    return JSON.parse(readFileSync(`data/pages/guides/${slug}.json`, 'utf-8'));
+  } catch { return null; }
+}
+
+const guides = items.map(item => {
+  const guide = loadGuide(item.slug);
+  const units = guide?.units || [];
+  const top3 = units.slice(0, 3).map(u => u.name).join(', ');
+  let desc = '';
+  if (item.slug.includes('cost')) desc = `Top units costing ${guide?.cost_label || ''} — ${top3}`;
+  else if (item.slug.includes('mode')) desc = `Best heroes for ${item.name.replace('Best Heroes for ', '')} — ${top3}`;
+  else desc = `Top ${item.name.toLowerCase()} — ${top3}`;
+  return { slug: item.slug, name: item.name, desc, unitCount: units.length };
+});
 ---
 
 <BaseLayout
@@ -20,8 +38,13 @@ const items = index.items ?? [];
   <h1>Strategy Guides</h1>
   <p>Data-driven guides to help you choose the best heroes. Also check <a href="/professions/">profession rankings</a>, <a href="/compare/">hero comparisons</a>, and <a href="/tools/">tools</a>.</p>
   <ul class="listing-grid">
-    {items.map((item) => (
-      <li><a href={`/guides/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
+    {guides.map((g) => (
+      <li>
+        <a href={`/guides/${g.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
+          <strong>{g.name}</strong>
+          <span style="display:block;font-size:var(--text-sm);color:#6c757d;margin-top:var(--space-1);font-weight:var(--weight-normal);font-family:var(--font-body);">{g.desc} ({g.unitCount} units)</span>
+        </a>
+      </li>
     ))}
   </ul>
   <p style="margin-top: var(--space-4);">

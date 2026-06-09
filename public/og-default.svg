@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#2a2a4a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4a017"/>
+      <stop offset="100%" style="stop-color:#fcd34d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="240" font-family="Cinzel,Georgia,serif" font-size="64" font-weight="700" fill="url(#gold)" text-anchor="middle" letter-spacing="2">War Inc: Rising Wiki</text>
+  <text x="600" y="310" font-family="Inter,system-ui,sans-serif" font-size="24" fill="#f5f0e8" text-anchor="middle" letter-spacing="1">Hero stats, skills, and strategy guides</text>
+  <rect x="400" y="350" width="400" height="2" fill="#d4a017" rx="1"/>
+  <text x="600" y="400" font-family="Inter,system-ui,sans-serif" font-size="18" fill="#c8b89a" text-anchor="middle">war-inc-rising.codex-atlas.com</text>
+</svg>

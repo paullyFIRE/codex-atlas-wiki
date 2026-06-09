@@ -1,0 +1,123 @@
+---
+import { readFileSync } from 'fs';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+function slugify(name) {
+  return name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/[\s-]+/g, '-').slice(0, 50).replace(/^-|-$/g, '');
+}
+
+const nm = JSON.parse(readFileSync('data/processed/unit_name_map.json', 'utf-8'));
+const cg = JSON.parse(readFileSync('data/processed/config/card_growth.json', 'utf-8'));
+const buffs = JSON.parse(readFileSync('data/pages/buffs/_index.json', 'utf-8'));
+const syns = JSON.parse(readFileSync('data/pages/synergies/_index.json', 'utf-8'));
+const modes = JSON.parse(readFileSync('data/pages/modes/_index.json', 'utf-8'));
+
+const BUILDING_IDS = [101, 104, 201, 203, 601, 3010, 3011, 3012, 3023, 3024, 3025, 3028, 3029, 3030, 3037, 3038, 3039, 3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3053, 3054, 3055, 3056, 3057, 3058, 3021, 3020, 3005, 3006, 3007, 3008, 3009];
+
+const PROF_MAP = {2: 'Warrior', 3: 'Tank', 4: 'Assassin', 5: 'Mage', 6: 'Support', 7: 'Ranger'};
+const RARITY_MAP = {1: 'Common', 2: 'Rare', 3: 'Epic', 4: 'Legendary', 5: 'Mythic'};
+const TYPE_LABELS = {'heroes': 'Hero', 'buildings': 'Building', 'hunting-bosses': 'Boss', 'followers': 'Follower', 'special': 'Special', 'buffs': 'Buff', 'synergies': 'Synergy', 'modes': 'Mode'};
+
+const items = [];
+for (const [uid_str, unit] of Object.entries(cg.battleUnits || {})) {
+  const name = nm[uid_str] || '';
+  if (!name) continue;
+  const ut = unit.unitType;
+  const pageType = ut === 1 ? 'heroes' : ut === 4 ? 'hunting-bosses' : 'special';
+  items.push({ id: parseInt(uid_str), name, slug: slugify(name), type: pageType, rarity: RARITY_MAP[unit.rarity] || '', profession: PROF_MAP[unit.profession] || '', cost: unit.cost || 0 });
+}
+for (const [uid_str, name] of Object.entries(nm)) {
+  const id = parseInt(uid_str);
+  if (2001 <= id && id <= 2010) items.push({ id, name, slug: slugify(name), type: 'followers' });
+  else if (BUILDING_IDS.includes(id)) items.push({ id, name, slug: slugify(name), type: 'buildings' });
+}
+for (const b of (buffs.items || [])) items.push({ id: b.slug, name: b.name, slug: b.slug, type: 'buffs' });
+for (const s of (syns.items || [])) items.push({ id: s.slug, name: s.name, slug: s.slug, type: 'synergies' });
+for (const m of (modes.items || [])) items.push({ id: m.slug, name: m.name, slug: m.slug, type: 'modes' });
+
+const dataJson = JSON.stringify(items);
+---
+
+<BaseLayout title="Search — War Inc: Rising Wiki" description="Search all units, buildings, bosses, and entities in War Inc: Rising.">
+  <style>
+    .search-box { position: relative; margin-bottom: var(--space-4); }
+    .search-box input { width: 100%; padding: var(--space-3) var(--space-4); border: 2px solid var(--border-medium); border-radius: var(--radius-md); font-family: var(--font-body); font-size: var(--text-lg); background: var(--surface-card); box-shadow: var(--bevel-inset); }
+    .search-box input:focus { outline: none; border-color: var(--gold-400); box-shadow: 0 0 0 3px var(--gold-200); }
+    .search-box input::placeholder { color: #adb5bd; }
+    .search-results { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-3); }
+    .search-card { display: flex; gap: var(--space-3); padding: var(--space-3); background: var(--surface-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); box-shadow: var(--shadow-xs), var(--bevel-outset); transition: all 150ms ease; align-items: center; text-decoration: none; color: inherit; }
+    .search-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md), var(--bevel-outset); border-color: var(--gold-400); }
+    .search-card-body { flex: 1; min-width: 0; }
+    .search-card-name { font-family: var(--font-heading); font-size: var(--text-sm); font-weight: var(--weight-bold); color: var(--gold-700); }
+    .search-card-meta { font-size: var(--text-xs); color: #6c757d; display: flex; flex-wrap: wrap; gap: var(--space-1); margin-top: var(--space-1); }
+    .search-badge { display: inline-block; padding: 0.1rem 0.35rem; border-radius: var(--radius-sm); font-size: 0.65rem; font-weight: var(--weight-semibold); text-transform: uppercase; letter-spacing: 0.04em; background: var(--surface-muted); color: var(--gold-700); border: 1px solid var(--border-light); }
+    .search-status { text-align: center; padding: var(--space-8); color: #6c757d; }
+    .search-count { font-family: var(--font-body); font-size: var(--text-sm); color: #6c757d; margin-bottom: var(--space-3); }
+  </style>
+
+  <script id="search-data" type="application/json" set:html={dataJson}></script>
+
+  <h1>Search</h1>
+
+  <div class="search-box">
+    <input type="text" id="search-input" placeholder="Search units, buildings, bosses..." autocomplete="off" autofocus />
+  </div>
+  <div class="search-count" id="search-count"></div>
+  <div class="search-results" id="search-results">
+    <div class="search-status">Start typing to search across all content.</div>
+  </div>
+
+  <script>
+  (() => {
+    const DATA = JSON.parse(document.getElementById('search-data').textContent);
+    const input = document.getElementById('search-input');
+    const results = document.getElementById('search-results');
+    const count = document.getElementById('search-count');
+    const TYPE_LABELS = {'heroes':'Hero','buildings':'Building','hunting-bosses':'Boss','followers':'Follower','special':'Special','buffs':'Buff','synergies':'Synergy','modes':'Mode'};
+
+    function loadFuse() {
+      return new Promise((resolve) => {
+        if (window.Fuse) { resolve(window.Fuse); return; }
+        const s = document.createElement('script');
+        s.src = 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js';
+        s.onload = () => resolve(window.Fuse);
+        document.head.appendChild(s);
+      });
+    }
+
+    let fusePromise = loadFuse();
+
+    async function search(query) {
+      if (!query) { results.innerHTML = '<div class="search-status">Start typing to search across all content.</div>'; count.textContent = ''; return; }
+      const Fuse = await fusePromise;
+      const engine = new Fuse(DATA, { keys: ['name'], threshold: 0.4 });
+      const found = engine.search(query).slice(0, 50).map(r => r.item);
+      count.textContent = found.length > 0 ? `${found.length} result${found.length > 1 ? 's' : ''}` : '';
+      if (found.length === 0) { results.innerHTML = '<div class="search-status">No results found.</div>'; return; }
+      results.innerHTML = found.map(item => {
+        const typeLabel = TYPE_LABELS[item.type] || item.type;
+        const meta = [typeLabel];
+        if (item.rarity) meta.push(item.rarity);
+        if (item.profession) meta.push(item.profession);
+        if (item.cost) meta.push(`Cost ${item.cost}`);
+        return `<a href="/${item.type}/${item.slug}/" class="search-card">
+          <div class="search-card-body">
+            <div class="search-card-name">${highlight(item.name, query)}</div>
+            <div class="search-card-meta">
+              ${meta.map(m => `<span class="search-badge">${m}</span>`).join('')}
+            </div>
+          </div>
+        </a>`;
+      }).join('');
+    }
+
+    function highlight(text, query) {
+      const idx = text.toLowerCase().indexOf(query);
+      if (idx === -1) return text;
+      return text.slice(0, idx) + '<strong style="color:var(--gold-500)">' + text.slice(idx, idx + query.length) + '</strong>' + text.slice(idx + query.length);
+    }
+
+    input.addEventListener('input', () => search(input.value));
+  })();
+  </script>
+</BaseLayout>

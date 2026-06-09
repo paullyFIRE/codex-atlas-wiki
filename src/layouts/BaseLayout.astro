@@ -31,7 +31,9 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="War Inc: Rising Wiki" />
-    {image && <meta property="og:image" content={image} />}
+    <meta property="og:image" content={image || 'https://war-inc-rising.codex-atlas.com/og-default.svg'} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
@@ -80,6 +82,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
         <a href="/hunting-bosses/" aria-current={currentSection === 'bosses' ? 'page' : undefined}>Bosses</a>
         <a href="/tools/" aria-current={currentSection === 'tools' ? 'page' : undefined}>Tools</a>
         <a href="/guides/" aria-current={currentSection === 'guides' ? 'page' : undefined}>Guides</a>
+        <a href="/search/" style="margin-left:auto;">Search</a>
         <a href="/resources/" aria-current={currentSection === 'resources' ? 'page' : undefined}>Resources</a>
       </nav>
     </header>
