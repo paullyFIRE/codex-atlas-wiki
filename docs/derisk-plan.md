@@ -97,20 +97,21 @@ Site: `https://war-inc-rising-wiki.pages.dev`
 **Future** (GitHub → Cloudflare Pages auto-deploy ✅):
 1. ✅ Create GitHub repo and push: `git@github.com:paullyFIRE/codex-atlas-wiki.git`
 2. ✅ `.github/workflows/deploy.yml` with cloudflare/wrangler-action
-3. Add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as GitHub repository secrets
-4. Cloudflare auto-deploys on every push to `main`
+3. ✅ `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` added as GitHub secrets
+4. ✅ Auto-deploy verified: every push to `main` builds + deploys via GitHub Actions
 
 ---
 
 ## Phase 4 — Ongoing
 
-**Goal**: Stay up-to-date with game releases. Optimize for AI search (ChatGPT, Claude, Gemini, AI Overviews).
+**Goal**: Stay up-to-date with game releases. Optimize for AI search. Improve content depth.
 
-- [ ] Re-extraction script with APK version change detection
-- [ ] Strategy guides layered on stat data
-- [ ] Google Search Console + traffic + ad monitoring
-- [ ] Submit sitemap to Google Search Console
-- [ ] Monitor SSL certificate provisioning for custom domain
+- [ ] **Localize remaining entity types**: buffs (36 Chinese remarks), synergies (9 Chinese remarks), equipment (144 unnamed items) — translate or add English descriptions
+- [ ] **Strategy guides**: deep-dive articles layered on stat data (tier lists, team comps, counters)
+- [ ] **Compare pages**: auto-generate `/compare/{a}-vs-{b}` for hero comparisons
+- [ ] **Sitemap indexing**: monitor Google Search Console coverage for the verified property
+- [ ] **Re-extraction script**: automate version detection + re-extraction on APK update
+- [ ] **Traffic + ad monitoring**: set up analytics, track impressions, plan ad integration
 
 ### AI Search (AEO/LLMO) Actions
 
