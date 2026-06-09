@@ -1,0 +1,28 @@
+---
+export interface Props {
+  variant?: 'primary' | 'secondary' | 'danger' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  disabled?: boolean;
+  loading?: boolean;
+  class?: string;
+}
+
+const { variant = 'primary', size = 'md', href, disabled, loading, class: className } = Astro.props;
+const cls = `btn btn-${variant} btn-${size}${className ? ' ' + className : ''}`;
+const attrs = disabled ? { disabled: true } : {};
+---
+
+{
+  href ? (
+    <a href={href} class={cls} {...attrs}>
+      {loading && <span class="spinner" aria-hidden="true" />}
+      <slot />
+    </a>
+  ) : (
+    <button class={cls} {...attrs}>
+      {loading && <span class="spinner" aria-hidden="true" />}
+      <slot />
+    </button>
+  )
+}

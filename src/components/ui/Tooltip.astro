@@ -1,0 +1,13 @@
+---
+export interface Props {
+  text: string;
+  position?: 'top' | 'bottom';
+  class?: string;
+}
+
+const { text, class: className } = Astro.props;
+---
+
+<span data-tooltip={text} class={className || ''}>
+  <slot />
+</span>

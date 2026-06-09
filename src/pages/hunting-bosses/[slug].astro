@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EntityHeader from '../../components/content/EntityHeader.astro';
+import StatGrid from '../../components/content/StatGrid.astro';
+import SectionNav from '../../components/content/SectionNav.astro';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/hunting-bosses/*.json', { eager: true, import: 'default' });
@@ -12,89 +15,90 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
+const files = import.meta.glob('/data/pages/hunting-bosses/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/hunting-bosses/${slug}.json`];
+if (!pageData) return Astro.redirect('/hunting-bosses/', 404);
 
-let pageData;
-try {
-  const pages = import.meta.glob('/data/pages/hunting-bosses/*.json', { eager: true, import: 'default' });
-  pageData = pages[`/data/pages/hunting-bosses/${slug}.json`];
-} catch {}
+const lv1 = pageData.stats_table?.[0] ?? {};
+const statItems = [
+  { label: 'HP', value: lv1.hp ?? '-' },
+  { label: 'ATK', value: lv1.atk ?? '-' },
+  { label: 'DEF', value: lv1.def ?? '-' },
+  { label: 'Speed', value: lv1.attack_speed ?? '-' },
+  { label: 'Range', value: lv1.attack_range ?? '-' },
+  { label: 'Power', value: lv1.combat_power ?? pageData.combat_power ?? '-' },
+];
 
-if (!pageData) {
-  return Astro.redirect('/hunting-bosses/', 404);
-}
+const sectionLinks = [
+  { href: '#stats', label: 'Stats' },
+  ...(pageData.skills?.length > 0 ? [{ href: '#abilities', label: 'Abilities' }] : []),
+  { href: '#related', label: 'Related' },
+];
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
   <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
-  <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <a href="/hunting-bosses/">Hunting Mode Bosses</a> &gt; <span>{pageData.name}</span>
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/hunting-bosses/">Hunting Mode Bosses</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pageData.name}</span>
   </nav>
 
   <article>
-    <header>
-      {pageData.image && <img src={pageData.image} alt={pageData.name} width="120" height="120" style="float:right;border-radius:8px;" />}
-      <h1>{pageData.name}</h1>
-      <p>
-        <span class="rarity">{pageData.rarity_name}</span>
-        <span class="cost">Cost: {pageData.cost}</span>
-        <span class="power">Power: {pageData.combat_power}</span>
-      </p>
-    </header>
+    <EntityHeader
+      name={pageData.name}
+      image={pageData.image}
+      badges={pageData.rarity_name ? [{ label: pageData.rarity_name, variant: 'rarity', level: pageData.rarity }] : []}
+      cost={pageData.cost}
+      power={pageData.combat_power}
+    />
 
-    <section>
-      <h2>What are {pageData.name}'s stats by level?</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Level</th>
-            <th>HP</th>
-            <th>ATK</th>
-            <th>DEF</th>
-            <th>ATK Speed</th>
-            <th>Range</th>
-            <th>Power</th>
-          </tr>
-        </thead>
-        <tbody>
-          {pageData.stats_table.map((row) => (
-            <tr>
-              <td>{row.level}</td>
-              <td>{row.hp ?? '-'}</td>
-              <td>{row.atk ?? '-'}</td>
-              <td>{row.def ?? '-'}</td>
-              <td>{row.attack_speed ?? '-'}</td>
-              <td>{row.attack_range ?? '-'}</td>
-              <td>{row.combat_power ?? '-'}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <SectionNav links={sectionLinks} />
+
+    <section id="stats">
+      <h2>{pageData.name}'s stats by level</h2>
+      <StatGrid items={statItems} />
+      <div class="table-wrap">
+        <table class="wiki-table">
+          <thead>
+            <tr><th>Level</th><th data-align="right">HP</th><th data-align="right">ATK</th><th data-align="right">DEF</th><th data-align="right">ATK Speed</th><th data-align="right">Range</th><th data-align="right">Power</th></tr>
+          </thead>
+          <tbody>
+            {pageData.stats_table?.map((row) => (
+              <tr>
+                <td><strong>{row.level}</strong></td>
+                <td data-type="number">{row.hp ?? '-'}</td>
+                <td data-type="number">{row.atk ?? '-'}</td>
+                <td data-type="number">{row.def ?? '-'}</td>
+                <td data-type="number">{row.attack_speed ?? '-'}</td>
+                <td data-type="number">{row.attack_range ?? '-'}</td>
+                <td data-type="number">{row.combat_power ?? '-'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
 
-    {pageData.skills.length > 0 && (
-      <section>
+    {pageData.skills?.length > 0 && (
+      <section id="abilities">
         <h2>Abilities</h2>
         {pageData.skills.map((skill) => (
-          <div class="skill">
-            <h3>{skill.name}</h3>
+          <div class="card card-pad-md" style="margin-bottom: var(--space-4);">
+            <h3 style="margin-top: 0;">{skill.name}</h3>
             {skill.description && <p>{skill.description}</p>}
           </div>
         ))}
       </section>
     )}
 
-    <section>
-      <h2>How to Use {pageData.name}</h2>
-      <ul>
-        {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
-      </ul>
-    </section>
-
-    <section>
+    <section id="related">
       <h2>Related</h2>
-      <ul>
+      <ul class="quick-links">
         <li><a href="/hunting-bosses/">All Hunting Mode Bosses</a></li>
         <li><a href="/modes/">Game Modes</a></li>
         <li><a href="/heroes/">Heroes — best units for Hunting mode</a></li>

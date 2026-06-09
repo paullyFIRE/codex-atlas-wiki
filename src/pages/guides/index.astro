@@ -3,19 +3,28 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const hf = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const heroCount = hf['/data/pages/heroes/_index.json']?.count ?? 0;
-
 const files = import.meta.glob('/data/pages/guides/_index.json', { eager: true, import: 'default' });
 const index = files['/data/pages/guides/_index.json'] ?? { items: [], count: 0 };
 const items = index.items ?? [];
 ---
 
-<BaseLayout title="Strategy Guides - Best Heroes by Cost and Mode | War Inc: Rising Wiki">
+<BaseLayout
+  title="Strategy Guides - Best Heroes by Cost and Mode | War Inc: Rising Wiki"
+  currentSection="guides"
+>
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Strategy Guides</span>
+  </nav>
   <h1>Strategy Guides</h1>
   <p>Data-driven guides to help you choose the best heroes. Also check <a href="/professions/">profession rankings</a>, <a href="/compare/">hero comparisons</a>, and <a href="/tools/">tools</a>.</p>
-  <ul>
+  <ul class="listing-plain">
     {items.map((item) => (
       <li><a href={`/guides/${item.slug}/`}>{item.name}</a></li>
     ))}
   </ul>
-  <p style="margin-top:1rem;"><a href="/heroes/">Browse all {heroCount} heroes</a> · <a href="/tools/">Tools & Calculators</a></p>
+  <p style="margin-top: var(--space-4);">
+    <a href="/heroes/">Browse all {heroCount} heroes</a> · <a href="/tools/">Tools & Calculators</a>
+  </p>
 </BaseLayout>

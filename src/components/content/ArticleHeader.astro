@@ -1,0 +1,25 @@
+---
+export interface Props {
+  title: string;
+  metadata: { label: string; value: string }[];
+  description?: string;
+  class?: string;
+}
+
+const { title, metadata, description } = Astro.props;
+---
+
+<header class="article-header">
+  <h1>{title}</h1>
+  {description && <p>{description}</p>}
+  {metadata.length > 0 && (
+    <div class="article-meta">
+      {metadata.map((m) => (
+        <span class="article-meta-item">
+          <strong>{m.label}:</strong> {m.value}
+        </span>
+      ))}
+    </div>
+  )}
+  <slot />
+</header>

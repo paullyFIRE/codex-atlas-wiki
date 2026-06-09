@@ -1,0 +1,39 @@
+---
+export interface Column {
+  key: string;
+  label: string;
+  align?: 'left' | 'right';
+}
+
+export interface Props {
+  columns: Column[];
+  rows: Record<string, any>[];
+  variant?: 'compact' | 'stat';
+}
+
+const { columns, rows, variant = 'compact' } = Astro.props;
+const cls = `wiki-table${variant === 'stat' ? ' wiki-table-stat' : ''}`;
+---
+
+<div class="table-wrap">
+  <table class={cls}>
+    <thead>
+      <tr>
+        {columns.map((col) => (
+          <th data-align={col.align}>{col.label}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row, i) => (
+        <tr data-highlight={row._highlight}>
+          {columns.map((col) => (
+            <td data-type={col.align === 'right' ? 'number' : undefined}>
+              {row[col.key] ?? '-'}
+            </td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

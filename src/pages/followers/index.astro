@@ -9,11 +9,16 @@ const items = index.items ?? [];
 <BaseLayout
   title="All Followers - Stats and Abilities | War Inc: Rising Wiki"
   description={`Browse all ${items.length} follower units in War Inc: Rising.`}
+  currentSection="heroes"
 >
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Followers</span>
+  </nav>
   <h1>All Followers</h1>
   <p>{items.length} troop and pet companions.</p>
-
-  <ul>
+  <ul class="listing-plain">
     {items.map((item) => (
       <li><a href={`/followers/${item.slug}/`}>{item.name}</a></li>
     ))}

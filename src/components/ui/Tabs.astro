@@ -1,0 +1,28 @@
+---
+export interface Tab {
+  id: string;
+  label: string;
+  badge?: number;
+}
+
+export interface Props {
+  tabs: Tab[];
+  activeTab: string;
+}
+
+const { tabs, activeTab } = Astro.props;
+---
+
+<div class="tabs" role="tablist">
+  {tabs.map((tab) => (
+    <button
+      class="tab"
+      role="tab"
+      aria-selected={tab.id === activeTab ? 'true' : 'false'}
+      data-tab-id={tab.id}
+    >
+      {tab.label}
+      {tab.badge ? <span class="tab-badge">{tab.badge}</span> : null}
+    </button>
+  ))}
+</div>

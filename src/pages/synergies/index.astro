@@ -10,10 +10,14 @@ const items = index.items ?? [];
   title="Synergies - Team Bonus Effects | War Inc: Rising Wiki"
   description={`Browse all ${items.length} synergy effects in War Inc: Rising.`}
 >
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Synergies</span>
+  </nav>
   <h1>Synergies</h1>
-  <p>{items.length} team bonus effects.</p>
-
-  <ul>
+  <p>{items.length} team bonus effects that activate when specific units are deployed together.</p>
+  <ul class="listing-plain">
     {items.map((item) => (
       <li><a href={`/synergies/${item.slug}/`}>{item.name}</a></li>
     ))}

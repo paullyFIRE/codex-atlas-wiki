@@ -1,0 +1,49 @@
+---
+export interface Props {
+  name: string;
+  image?: string;
+  badges: { label: string; variant: string; level?: number }[];
+  power?: number;
+  cost?: number;
+  description?: string;
+}
+
+const { name, image, badges, power, cost, description } = Astro.props;
+---
+
+<header class="entity-header" style="margin-bottom: var(--space-4);">
+  <div style="display: flex; gap: var(--space-4); align-items: flex-start;">
+    {image && (
+      <img
+        src={image}
+        alt={name}
+        width="120"
+        height="120"
+        style="border-radius: var(--radius-lg); object-fit: cover; border: 2px solid var(--border-medium); box-shadow: var(--shadow-md); flex-shrink: 0;"
+      />
+    )}
+    <div style="flex: 1; min-width: 0;">
+      <h1 style="margin-bottom: var(--space-2);">{name}</h1>
+      <div style="display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-2);">
+        {badges.map((badge) => (
+          <span class={`badge badge-${badge.variant}`}
+            data-level={badge.level}
+          >{badge.label}</span>
+        ))}
+        {cost !== undefined && cost > 0 && (
+          <span class="stat-chip">
+            <span class="stat-chip-label">Cost</span>
+            <span class="stat-chip-value">{cost}</span>
+          </span>
+        )}
+        {power !== undefined && power > 0 && (
+          <span class="stat-chip">
+            <span class="stat-chip-label">Power</span>
+            <span class="stat-chip-value">{power}</span>
+          </span>
+        )}
+      </div>
+      {description && <p style="color: #6c757d; margin: 0;">{description}</p>}
+    </div>
+  </div>
+</header>

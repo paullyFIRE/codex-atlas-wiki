@@ -4,21 +4,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const siteTitle = 'War Inc: Rising Wiki | war-inc-rising.codex-atlas.com';
 const siteDescription = 'Comprehensive War Inc: Rising wiki — hero stats, skills, equipment, and strategy guides for all game modes.';
 
-const heroIndexFiles = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
-const buildIndexFiles = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
-const specIndexFiles = import.meta.glob('/data/pages/special/_index.json', { eager: true, import: 'default' });
-const buffIndexFiles = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
-const synIndexFiles = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
-const modeIndexFiles = import.meta.glob('/data/pages/modes/_index.json', { eager: true, import: 'default' });
-const followerIndexFiles = import.meta.glob('/data/pages/followers/_index.json', { eager: true, import: 'default' });
-
-const heroCount = heroIndexFiles['/data/pages/heroes/_index.json']?.count ?? 0;
-const buildingCount = buildIndexFiles['/data/pages/buildings/_index.json']?.count ?? 0;
-const specialCount = specIndexFiles['/data/pages/special/_index.json']?.count ?? 0;
-const buffCount = buffIndexFiles['/data/pages/buffs/_index.json']?.count ?? 0;
-const synCount = synIndexFiles['/data/pages/synergies/_index.json']?.count ?? 0;
-const modeCount = modeIndexFiles['/data/pages/modes/_index.json']?.count ?? 0;
-const followerCount = followerIndexFiles['/data/pages/followers/_index.json']?.count ?? 0;
+const heroIdx = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
+const buildIdx = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
+const buffIdx = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
+const synIdx = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
+const modeIdx = import.meta.glob('/data/pages/modes/_index.json', { eager: true, import: 'default' });
+const followIdx = import.meta.glob('/data/pages/followers/_index.json', { eager: true, import: 'default' });
+const heroCount = heroIdx['/data/pages/heroes/_index.json']?.count ?? 0;
+const buildingCount = buildIdx['/data/pages/buildings/_index.json']?.count ?? 0;
+const buffCount = buffIdx['/data/pages/buffs/_index.json']?.count ?? 0;
+const synCount = synIdx['/data/pages/synergies/_index.json']?.count ?? 0;
+const modeCount = modeIdx['/data/pages/modes/_index.json']?.count ?? 0;
+const followerCount = followIdx['/data/pages/followers/_index.json']?.count ?? 0;
 ---
 
 <BaseLayout title={siteTitle} description={siteDescription}>
@@ -40,34 +37,31 @@ const followerCount = followerIndexFiles['/data/pages/followers/_index.json']?.c
   })} />
 
   <h1>War Inc: Rising Wiki</h1>
-  <p>
-    {siteDescription}
-  </p>
+  <p>{siteDescription}</p>
 
-  <section>
-    <h2>Browse by Category</h2>
-    <ul>
-      <li><a href="/heroes/">All Heroes</a> — {heroCount} playable units</li>
-      <li><a href="/buildings/">Buildings</a> — {buildingCount} base structures, defenses, and resource buildings</li>
-      <li><a href="/hunting-bosses/">Hunting Mode Bosses</a> — 20 boss enemies</li>
-      <li><a href="/special/">Special Entities</a> — {specialCount} resource buildings, mines, barracks</li>
-      <li><a href="/followers/">Followers</a> — {followerCount} troop and pet units</li>
-      <li><a href="/modes/">Game Modes</a> — {modeCount} mode configurations</li>
-      <li><a href="/synergies/">Synergies</a> — {synCount} team bonus effects</li>
-      <li><a href="/buffs/">Field Buffs</a> — {buffCount} battle modifiers</li>
+  <div class="card card-pad-lg" style="margin-bottom: var(--space-6);">
+    <h2 style="margin-top: 0;">Browse by Category</h2>
+    <ul class="quick-links">
+      <li><a href="/heroes/"><strong>All Heroes</strong> — {heroCount} playable units</a></li>
+      <li><a href="/buildings/"><strong>Buildings</strong> — {buildingCount} structures</a></li>
+      <li><a href="/hunting-bosses/"><strong>Hunting Mode Bosses</strong> — 20 enemies</a></li>
+      <li><a href="/followers/"><strong>Followers</strong> — {followerCount} pets & troops</a></li>
+      <li><a href="/modes/"><strong>Game Modes</strong> — {modeCount} configurations</a></li>
+      <li><a href="/synergies/"><strong>Synergies</strong> — {synCount} team bonuses</a></li>
+      <li><a href="/buffs/"><strong>Field Buffs</strong> — {buffCount} modifiers</a></li>
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h2>Guides & Resources</h2>
-    <ul>
-      <li><a href="/build-team/">Team Builder</a> — Interactive formation builder with synergy detection</li>
-      <li><a href="/tools/">Tools & Calculators</a> — Boss waves, spells, evolution, mode loot</li>
-      <li><a href="/professions/">Profession Guides</a> — All units by class (Warrior, Tank, Mage, etc.)</li>
-      <li><a href="/guides/">Strategy Guides</a> — Best heroes by cost bracket and game mode</li>
-      <li><a href="/compare/">Hero Comparisons</a> — Side-by-side stat matchups</li>
-      <li><a href="/resources/">Community Resources</a> — Discord, YouTube, APK download</li>
-      <li><a href="/data/">Game Data API</a> — Machine-readable JSON datasets</li>
+  <div class="card card-pad-lg" style="margin-bottom: var(--space-6);">
+    <h2 style="margin-top: 0;">Guides & Resources</h2>
+    <ul class="quick-links">
+      <li><a href="/build-team/"><strong>Team Builder</strong> — Interactive formation builder</a></li>
+      <li><a href="/tools/"><strong>Tools & Calculators</strong> — Boss waves, spells, evolution</a></li>
+      <li><a href="/professions/"><strong>Profession Guides</strong> — All units by class</a></li>
+      <li><a href="/guides/"><strong>Strategy Guides</strong> — Best heroes by cost and mode</a></li>
+      <li><a href="/compare/"><strong>Hero Comparisons</strong> — Side-by-side stat matchups</a></li>
+      <li><a href="/resources/"><strong>Community Resources</strong> — Discord, YouTube, APK</a></li>
+      <li><a href="/data/"><strong>Game Data API</strong> — JSON datasets</a></li>
     </ul>
-  </section>
+  </div>
 </BaseLayout>

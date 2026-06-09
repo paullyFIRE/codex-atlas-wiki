@@ -1,0 +1,17 @@
+---
+export interface Props {
+  variant: 'rarity' | 'profession' | 'status' | 'tag';
+  level?: number;
+  status?: string;
+  class?: string;
+}
+
+const { variant, level, status, class: className } = Astro.props;
+const cls = `badge badge-${variant}${className ? ' ' + className : ''}`;
+---
+
+<span class={cls}
+  data-level={level}
+  data-status={status}>
+  <slot />
+</span>

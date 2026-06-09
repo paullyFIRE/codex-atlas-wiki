@@ -1,0 +1,21 @@
+---
+export interface Props {
+  open: boolean;
+  title: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { open, title, size = 'md' } = Astro.props;
+---
+
+<div class="modal-overlay modal-{size}" data-open={open ? 'true' : 'false'} role="dialog" aria-modal="true" aria-label={title}>
+  <div class="modal-panel">
+    <div class="modal-header">
+      <span class="modal-title">{title}</span>
+      <button class="modal-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <slot />
+    </div>
+  </div>
+</div>

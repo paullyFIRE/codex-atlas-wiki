@@ -7,18 +7,20 @@ const items = index.items ?? [];
 ---
 
 <BaseLayout
-  title="All Buildings — Base Defenses & Resource Structures | War Inc: Rising Wiki"
-  description={`Browse all ${items.length} player buildings in War Inc: Rising — resource generators, defenses, and base structures.`}
+  title="All Buildings - Stats and Upgrades | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} buildings in War Inc: Rising.`}
+  currentSection="buildings"
 >
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Buildings</span>
+  </nav>
   <h1>All Buildings</h1>
-  <p>{items.length} player-constructible buildings — resource generators, defensive towers, and base infrastructure.</p>
-
-  <ul>
-    {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
-      <li>
-        <a href={`/buildings/${item.slug}/`}>{item.name}</a>
-        <span class="meta">{item.rarity_name ?? ''} · Power {item.combat_power}</span>
-      </li>
+  <p>{items.length} base structures, defenses, and resource buildings.</p>
+  <ul class="listing-plain">
+    {items.map((item) => (
+      <li><a href={`/buildings/${item.slug}/`}>{item.name}</a></li>
     ))}
   </ul>
 </BaseLayout>

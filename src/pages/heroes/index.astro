@@ -9,11 +9,12 @@ const items = index.items ?? [];
 <BaseLayout
   title="All Heroes - Stats and Analysis | War Inc: Rising Wiki"
   description={`Browse all ${items.length} heroes in War Inc: Rising. Filter by rarity, profession, and stats to find the best units.`}
+  currentSection="heroes"
 >
   <h1>All Heroes</h1>
   <p>{items.length} playable units.</p>
 
-  <nav style="margin-bottom:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;font-size:0.9rem;">
+  <nav class="section-nav">
     <a href="/professions/">By Class</a>
     <a href="/guides/best-low-cost-units/">Best Low Cost</a>
     <a href="/guides/best-mid-cost-units/">Best Mid Cost</a>
@@ -22,14 +23,20 @@ const items = index.items ?? [];
     <a href="/compare/">Comparisons</a>
   </nav>
 
-  <ul style="list-style:none;padding:0;">
+  <ul class="listing-plain">
     {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
-      <li style="display:flex;align-items:center;gap:0.75rem;padding:0.5rem 0;border-bottom:1px solid #eee;">
-        {item.image && <img src={item.image} alt="" width="48" height="48" style="border-radius:4px;object-fit:cover;" />}
+      <li style="display: flex; align-items: center; gap: var(--space-3);">
+        {item.image && (
+          <img src={item.image} alt="" width="40" height="40" style="border-radius: var(--radius-sm); object-fit: cover;" />
+        )}
         <div>
-          <a href={`/heroes/${item.slug}/`} style="font-weight:600;">{item.name}</a>
-          <br />
-          <span class="meta">{item.rarity_name ?? ''} · {item.profession_name ?? ''} · Cost {item.cost ?? '?'} · Power {item.combat_power ?? '?'}</span>
+          <a href={`/heroes/${item.slug}/`} style="font-weight: 600;">{item.name}</a>
+          <span class="meta">
+            {item.rarity_name ? ` · ${item.rarity_name}` : ''}
+            {item.profession_name ? ` · ${item.profession_name}` : ''}
+            {item.cost ? ` · Cost ${item.cost}` : ''}
+            {item.combat_power ? ` · Power ${item.combat_power}` : ''}
+          </span>
         </div>
       </li>
     ))}

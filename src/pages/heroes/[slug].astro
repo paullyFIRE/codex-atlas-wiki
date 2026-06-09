@@ -1,5 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Badge from '../../components/ui/Badge.astro';
+import CalloutBox from '../../components/content/CalloutBox.astro';
+import StatGrid from '../../components/content/StatGrid.astro';
+import SectionNav from '../../components/content/SectionNav.astro';
+import EntityHeader from '../../components/content/EntityHeader.astro';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/heroes/*.json', { eager: true, import: 'default' });
@@ -26,96 +31,127 @@ if (!pageData) {
 const topRelated = pageData.related?.[0];
 const costBracket = pageData.cost <= 2 ? 'low' : pageData.cost <= 4 ? 'mid' : 'high';
 const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'High';
+
+const lv1 = pageData.stats_table?.[0] ?? {};
+const statItems = [
+  { label: 'HP', value: lv1.hp ?? '-' },
+  { label: 'ATK', value: lv1.atk ?? '-' },
+  { label: 'DEF', value: lv1.def ?? '-' },
+  { label: 'Speed', value: lv1.attack_speed ?? '-' },
+  { label: 'Range', value: lv1.attack_range ?? '-' },
+  { label: 'Power', value: lv1.combat_power ?? pageData.combat_power ?? '-' },
+  { label: 'Cost', value: pageData.cost ?? '-' },
+];
+if (lv1.move_speed) {
+  statItems.push({ label: 'Move', value: lv1.move_speed });
+}
+
+const sectionLinks = [
+  { href: '#stats', label: 'Stats' },
+  ...(pageData.skills.length > 0 ? [{ href: '#skills', label: 'Skills' }] : []),
+  { href: '#strategy', label: 'Strategy' },
+  ...(pageData.related.length > 0 ? [{ href: '#related', label: 'Related' }] : []),
+  { href: '#resources', label: 'More' },
+];
 ---
 
-<BaseLayout title={pageData.title} description={pageData.meta_description}>
+<BaseLayout
+  title={pageData.title}
+  description={pageData.meta_description}
+  currentSection="heroes"
+>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
   <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
-  <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <a href="/heroes/">Heroes</a> &gt; <span>{pageData.name}</span>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/heroes/">Heroes</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pageData.name}</span>
   </nav>
 
   <article>
-    <header>
-      {pageData.image && <img src={pageData.image} alt={pageData.name} width="120" height="120" style="float:right;border-radius:8px;max-width:120px;" />}
-      <h1>{pageData.name}</h1>
-      <p>
-        <span class="rarity">{pageData.rarity_name}</span>
-        <span class="profession">{pageData.profession_name}</span>
-        <span class="cost">Cost: {pageData.cost}</span>
-        <span class="power">Power: {pageData.combat_power}</span>
-      </p>
-    </header>
+    <EntityHeader
+      name={pageData.name}
+      image={pageData.image}
+      badges={[
+        { label: pageData.rarity_name, variant: 'rarity', level: pageData.rarity },
+        { label: pageData.profession_name, variant: 'profession' },
+      ]}
+      cost={pageData.cost}
+      power={pageData.combat_power}
+    />
 
-    <nav style="margin-bottom:1rem;font-size:0.9rem;display:flex;gap:1rem;flex-wrap:wrap;">
-      <a href="#stats">Stats</a>
-      {pageData.skills.length > 0 && <a href="#skills">Skills</a>}
-      <a href="#strategy">Strategy</a>
-      {pageData.related.length > 0 && <a href="#related">Related</a>}
-      <a href="#resources">More</a>
-    </nav>
+    <SectionNav links={sectionLinks} />
 
     <section id="stats">
       <h2>What are {pageData.name}'s stats by level?</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Level</th>
-            <th>HP</th>
-            <th>ATK</th>
-            <th>DEF</th>
-            <th>ATK Speed</th>
-            <th>Move Speed</th>
-            <th>Range</th>
-            <th>Power</th>
-          </tr>
-        </thead>
-        <tbody>
-          {pageData.stats_table.map((row) => (
+
+      <StatGrid items={statItems} />
+
+      <div class="table-wrap">
+        <table class="wiki-table">
+          <thead>
             <tr>
-              <td>{row.level}</td>
-              <td>{row.hp ?? '-'}</td>
-              <td>{row.atk ?? '-'}</td>
-              <td>{row.def ?? '-'}</td>
-              <td>{row.attack_speed ?? '-'}</td>
-              <td>{row.move_speed ?? '-'}</td>
-              <td>{row.attack_range ?? '-'}</td>
-              <td>{row.combat_power ?? '-'}</td>
+              <th>Level</th>
+              <th>HP</th>
+              <th data-align="right">ATK</th>
+              <th data-align="right">DEF</th>
+              <th data-align="right">ATK Speed</th>
+              <th data-align="right">Move Speed</th>
+              <th data-align="right">Range</th>
+              <th data-align="right">Power</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {pageData.stats_table?.map((row) => (
+              <tr>
+                <td><strong>{row.level}</strong></td>
+                <td>{row.hp ?? '-'}</td>
+                <td data-type="number">{row.atk ?? '-'}</td>
+                <td data-type="number">{row.def ?? '-'}</td>
+                <td data-type="number">{row.attack_speed ?? '-'}</td>
+                <td data-type="number">{row.move_speed ?? '-'}</td>
+                <td data-type="number">{row.attack_range ?? '-'}</td>
+                <td data-type="number">{row.combat_power ?? '-'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
 
     {pageData.skills.length > 0 && (
       <section id="skills">
         <h2>What skills does {pageData.name} have?</h2>
         {pageData.skills.map((skill) => (
-          <div class="skill">
-            <h3>{skill.name}</h3>
+          <div class="card card-pad-md" style="margin-bottom: var(--space-4);">
+            <h3 style="margin-top: 0;">{skill.name}</h3>
             {skill.description && <p>{skill.description}</p>}
             {Object.keys(skill.level_effects).length > 0 && (
-              <table>
-                <thead>
-                  <tr>
-                    <th>Level</th>
-                    {Object.keys(Object.values(skill.level_effects)[0] || {}).map((key) => (
-                      <th>{key.replace(/_/g, ' ')}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.entries(skill.level_effects).map(([lv, effects]) => (
+              <div class="table-wrap">
+                <table class="wiki-table">
+                  <thead>
                     <tr>
-                      <td>{lv}</td>
-                      {Object.values(effects).map((val) => (
-                        <td>{val}</td>
+                      <th>Level</th>
+                      {Object.keys(Object.values(skill.level_effects)[0] || {}).map((key) => (
+                        <th>{key.replace(/_/g, ' ')}</th>
                       ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {Object.entries(skill.level_effects).map(([lv, effects]) => (
+                      <tr>
+                        <td><strong>{lv}</strong></td>
+                        {Object.values(effects).map((val) => (
+                          <td data-type="number">{val}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             )}
           </div>
         ))}
@@ -124,19 +160,25 @@ const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'Hig
 
     <section id="strategy">
       <h2>How to use {pageData.name} effectively?</h2>
-      <ul>
-        {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
-      </ul>
+      <CalloutBox type="info" title="Strategy Overview">
+        <p style="margin:0;">{pageData.strategy_tips?.[0] || 'Adapt this unit to your strategy based on their stats and role.'}</p>
+      </CalloutBox>
+      {pageData.strategy_tips?.slice(1).length > 0 && (
+        <ul>
+          {pageData.strategy_tips.slice(1).map((tip) => <li>{tip}</li>)}
+        </ul>
+      )}
     </section>
 
     {pageData.related.length > 0 && (
       <section id="related">
         <h2>Related Heroes</h2>
-        <ul>
+        <ul class="listing-plain">
           {pageData.related.map((r) => (
-            <li>
+            <li style="display: flex; align-items: center; gap: var(--space-3);">
+              <span class={`entity-link-dot`} data-rarity={r.rarity || pageData.rarity}></span>
               <a href={`/heroes/${r.slug}/`}>{r.name}</a>
-              <span class="meta">{r.rarity_name} · {r.profession_name}</span>
+              <span class="meta">· {r.rarity_name} · {r.profession_name}</span>
             </li>
           ))}
         </ul>
@@ -145,12 +187,12 @@ const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'Hig
 
     <section id="resources">
       <h2>Quick Links</h2>
-      <ul style="columns:2;column-gap:2rem;">
+      <ul class="quick-links">
         <li><a href={`/professions/${pageData.profession_name?.toLowerCase()}/`}>All {pageData.profession_name}s</a></li>
         <li><a href={`/guides/best-${costBracket}-cost-units/`}>Best {costLabel} Cost Units</a></li>
         <li><a href={`/heroes/`}>Browse All Heroes</a></li>
         {topRelated && <li><a href={`/compare/${pageData.slug}-vs-${topRelated.slug}/`}>{pageData.name} vs {topRelated.name}</a></li>}
-        <li><a href={`/build-team/`}>Team Builder — add {pageData.name} to a formation</a></li>
+        <li><a href={`/build-team/`}>Team Builder — add {pageData.name}</a></li>
         <li><a href={`/guides/best-heroes-for-general-lineup/`}>Best Heroes for General Lineup</a></li>
         <li><a href={`/rarities/${pageData.rarity_name?.toLowerCase()}-units/`}>All {pageData.rarity_name} Units</a></li>
         <li><a href="/tools/">Tools & Calculators</a></li>

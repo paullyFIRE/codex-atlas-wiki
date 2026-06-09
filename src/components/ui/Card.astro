@@ -1,0 +1,23 @@
+---
+export interface Props {
+  variant?: 'content' | 'stat' | 'entity';
+  padding?: 'sm' | 'md' | 'lg';
+  hoverable?: boolean;
+  rarity?: number;
+  class?: string;
+}
+
+const { variant = 'content', padding = 'md', hoverable, rarity, class: className } = Astro.props;
+const cls = [
+  'card',
+  variant === 'stat' ? 'card-stat' : '',
+  variant === 'entity' ? 'card-entity' : '',
+  hoverable ? 'card-hoverable' : '',
+  `card-pad-${padding}`,
+  className || '',
+].filter(Boolean).join(' ');
+---
+
+<div class={cls} data-rarity={rarity}>
+  <slot />
+</div>
