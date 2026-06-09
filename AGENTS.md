@@ -116,6 +116,84 @@ rarity: 1=Common, 2=Rare, 3=Epic, 4=Legendary, 5=Mythic
 - **9 synergy pages**: Team bonus effects
 - **36 buff pages**: Field modifier effects
 
+## Content Structure
+
+### URL Patterns
+
+```
+/heroes/{slug}           — Hero detail page
+/buildings/{slug}        — Building detail
+/special/{slug}          — Special entity
+/followers/{slug}        — Follower detail
+/equipment/{slug}        — Equipment detail
+/modes/{slug}            — Game mode detail
+/synergies/{slug}        — Synergy detail
+/buffs/{slug}            — Field buff detail
+/compare/{a}-vs-{b}     — Comparison page (auto-gen)
+```
+
+### Hierarchical Heading Structure per Entity Page
+
+### Hero Page
+
+```
+H1: {Name}                              ← Unit display name
+├── H2: Stats by Level                  ← Stat table (levels 1-12)
+│   └── H3: Base Stats (Level 1)         ← Highlight row
+├── H2: Skills                          ← Skill breakdown
+│   └── H3: {Skill Name}                ← Per skill: desc, cd, charges, scaling
+├── H2: How to Use {Name}               ← Game mode assessment
+├── H2: Synergies                       ← Works well with / Counters / Countered by
+└── H2: Related {Category}              ← Same rarity / profession links
+```
+
+### Content Patterns
+
+| Pattern | Example | Value |
+|---|---|---|
+| `{Name} stats` | `Archer stats` | Stat table drives this query |
+| `is {Name} good` | `Is Archer good War Inc` | Usage guide answers this |
+| `best {profession}` | `best Warrior War Inc` | Filtered list page |
+| `{Name} skills` | `Archer skills` | Skills section |
+| `{Name} build` | `Archer build` | Equipment recommendations |
+| `{Name} vs {Name}` | `Archer vs Berserker` | Auto-generated compare pages |
+
+### Title Tag Templates (aim <60 chars)
+
+- Hero: `{Name} - Hero Stats and Skills | War Inc: Rising Wiki`
+- Building: `{Name} - Building Stats and Upgrades | War Inc: Rising Wiki`
+- Equipment: `{Name} - Equipment Stats and Tiers | War Inc: Rising Wiki`
+- List: `All {Category} - Stats and Analysis | War Inc: Rising Wiki`
+
+### Structured Data per Entity Page
+
+```jsonld
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{Name}",
+  "description": "{Summary}",
+  "about": {
+    "@type": "Thing",
+    "additionalProperty": [
+      {"@type": "PropertyValue", "name": "Rarity", "value": "{rarity}"},
+      {"@type": "PropertyValue", "name": "Profession", "value": "{profession}"}
+    ]
+  }
+}
+```
+
+### Page Potential (~500+ pages)
+
+- **179 hero pages**: Name, rarity, profession, cost, per-level HP/ATK/DEF/speed, skills, combat power growth
+- **55 building/tower pages**: Same stats but `unitType=4`
+- **59 special pages**: Resources, mines, barracks (unitType=5)
+- **10 follower pages**: Pet/troop units
+- **160 equipment pages**: 5 upgrade tiers per item
+- **5 game mode pages**: Rules, enemy pools, rewards
+- **9 synergy pages**: Team bonus effects
+- **36 buff pages**: Field modifier effects
+
 ## Developer Commands
 
 ```bash
