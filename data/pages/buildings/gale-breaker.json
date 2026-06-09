@@ -284,5 +284,31 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Buildings",
+        "item": "https://war-inc-rising.codex-atlas.com/buildings/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gale Breaker"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Gale Breaker can be effective in various battle situations depending on team composition."
+  ]
 }

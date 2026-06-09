@@ -77,8 +77,11 @@ Build a PSEO (Programmatic SEO) wiki indexing all characters, cards, entities, m
   - [x] Canonical URLs on all pages (`<link rel="canonical">`)
   - [x] Equipment stats display named values instead of raw IDs
   - [x] Related units filtered by page type (no cross-type links)
-- [ ] Submit sitemap to Google Search Console
-- [ ] Monitor SSL certificate provisioning for custom domain
+  - [x] Breadcrumb JSON-LD schema on all entity pages
+  - [x] Auto-generated strategy tips (replaces "coming soon" placeholder)
+  - [x] Minimal inline CSS for basic readability (tables, nav, typography)
+- [ ] Submit sitemap to Google Search Console (requires Search Console access)
+- [ ] Monitor SSL certificate provisioning for custom domain (still pending)
 
 **Deliverable**: Live site at `war-inc-rising.codex-atlas.com` covering all game entities.
 

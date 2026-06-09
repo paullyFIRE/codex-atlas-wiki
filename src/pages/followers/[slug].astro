@@ -20,6 +20,7 @@ if (!pageData) return Astro.redirect('/followers/', 404);
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
   <nav aria-label="Breadcrumb">
     <a href="/">Home</a> &gt; <a href="/followers/">Followers</a> &gt; <span>{pageData.name}</span>
@@ -74,5 +75,12 @@ if (!pageData) return Astro.redirect('/followers/', 404);
         ))}
       </section>
     )}
+
+    <section>
+      <h2>How to Use {pageData.name}</h2>
+      <ul>
+        {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
+      </ul>
+    </section>
   </article>
 </BaseLayout>

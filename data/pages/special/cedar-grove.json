@@ -284,5 +284,32 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Special",
+        "item": "https://war-inc-rising.codex-atlas.com/special/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cedar Grove"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Cedar Grove attacks from range, dealing physical damage from a safe distance.",
+    "Position Cedar Grove on high ground or behind walls for maximum effectiveness."
+  ]
 }

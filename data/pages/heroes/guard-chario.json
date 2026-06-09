@@ -284,5 +284,33 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Guard Chario"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Guard Chario excels at single-target burst damage, making them ideal for eliminating key threats.",
+    "Deploy Guard Chario behind tanks to protect them while they deal damage.",
+    "High cost (5) means Guard Chario should be deployed strategically when the timing is right."
+  ]
 }

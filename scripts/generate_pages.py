@@ -272,6 +272,49 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         },
     }
 
+    # Breadcrumb schema
+    bc_type = TYPE_MAP.get(unit_type, "special")
+    bc_label = {"heroes": "Heroes", "buildings": "Buildings", "special": "Special"}.get(bc_type, bc_type.capitalize())
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://war-inc-rising.codex-atlas.com/"},
+            {"@type": "ListItem", "position": 2, "name": bc_label, "item": f"https://war-inc-rising.codex-atlas.com/{bc_type}/"},
+            {"@type": "ListItem", "position": 3, "name": name},
+        ],
+    }
+
+    # Auto-generated strategy tips
+    strategy_tips = []
+    if prof_name == "Tank":
+        strategy_tips.append(f"{name} is a durable front-line unit with high HP and DEF, ideal for absorbing damage.")
+        strategy_tips.append(f"Position {name} in choke points to maximize their tanking potential.")
+    elif prof_name == "Warrior":
+        strategy_tips.append(f"{name} is a balanced melee unit, effective in both offense and defense.")
+        strategy_tips.append(f"Use {name} in the front line to deal consistent damage while holding position.")
+    elif prof_name == "Assassin":
+        strategy_tips.append(f"{name} excels at single-target burst damage, making them ideal for eliminating key threats.")
+        strategy_tips.append(f"Deploy {name} behind tanks to protect them while they deal damage.")
+    elif prof_name == "Mage":
+        strategy_tips.append(f"{name} deals area magic damage, effective against groups of enemies.")
+        strategy_tips.append(f"Protect {name} with front-line tanks to maximize their damage output.")
+    elif prof_name == "Support":
+        strategy_tips.append(f"{name} provides healing and buffs to allied units, extending their survivability.")
+        strategy_tips.append(f"Keep {name} behind the front line to ensure they survive and support the team.")
+    elif prof_name == "Ranger":
+        strategy_tips.append(f"{name} attacks from range, dealing physical damage from a safe distance.")
+        strategy_tips.append(f"Position {name} on high ground or behind walls for maximum effectiveness.")
+    elif prof_name == "Special":
+        strategy_tips.append(f"{name} has unique abilities that can turn the tide of battle when used correctly.")
+    else:
+        strategy_tips.append(f"{name} can be effective in various battle situations depending on team composition.")
+
+    if cost and cost <= 2:
+        strategy_tips.append(f"Low cost ({cost}) makes {name} easy to deploy early in battle.")
+    elif cost and cost >= 5:
+        strategy_tips.append(f"High cost ({cost}) means {name} should be deployed strategically when the timing is right.")
+
     page = {
         "id": unit["id"],
         "slug": slug,
@@ -291,6 +334,8 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         "skills": skills_list,
         "related": related,
         "schema": schema,
+        "breadcrumb_schema": breadcrumb_schema,
+        "strategy_tips": strategy_tips,
     }
 
     return page

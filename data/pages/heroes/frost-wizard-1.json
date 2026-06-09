@@ -403,5 +403,33 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Frost Wizard"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Frost Wizard deals area magic damage, effective against groups of enemies.",
+    "Protect Frost Wizard with front-line tanks to maximize their damage output.",
+    "High cost (8) means Frost Wizard should be deployed strategically when the timing is right."
+  ]
 }

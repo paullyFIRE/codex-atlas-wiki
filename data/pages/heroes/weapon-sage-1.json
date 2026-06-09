@@ -367,5 +367,33 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Weapon Sage"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Weapon Sage provides healing and buffs to allied units, extending their survivability.",
+    "Keep Weapon Sage behind the front line to ensure they survive and support the team.",
+    "High cost (8) means Weapon Sage should be deployed strategically when the timing is right."
+  ]
 }

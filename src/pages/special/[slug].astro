@@ -26,6 +26,7 @@ if (!pageData) {
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
   <nav aria-label="Breadcrumb">
     <a href="/">Home</a> &gt; <a href="/special/">Special</a> &gt; <span>{pageData.name}</span>
@@ -78,5 +79,12 @@ if (!pageData) {
         ))}
       </section>
     )}
+
+    <section>
+      <h2>How to Use {pageData.name}</h2>
+      <ul>
+        {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
+      </ul>
+    </section>
   </article>
 </BaseLayout>

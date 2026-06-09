@@ -284,5 +284,32 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Special",
+        "item": "https://war-inc-rising.codex-atlas.com/special/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Landmine"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Landmine is a balanced melee unit, effective in both offense and defense.",
+    "Use Landmine in the front line to deal consistent damage while holding position."
+  ]
 }

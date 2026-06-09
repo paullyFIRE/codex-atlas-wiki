@@ -317,5 +317,33 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gryphon Knight"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Gryphon Knight excels at single-target burst damage, making them ideal for eliminating key threats.",
+    "Deploy Gryphon Knight behind tanks to protect them while they deal damage.",
+    "High cost (8) means Gryphon Knight should be deployed strategically when the timing is right."
+  ]
 }

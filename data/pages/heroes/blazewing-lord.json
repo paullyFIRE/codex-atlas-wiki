@@ -562,5 +562,33 @@
         }
       ]
     }
-  }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Blazewing Lord"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Blazewing Lord is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
+    "Position Blazewing Lord in choke points to maximize their tanking potential.",
+    "High cost (8) means Blazewing Lord should be deployed strategically when the timing is right."
+  ]
 }
