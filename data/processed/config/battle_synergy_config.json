@@ -1,0 +1,454 @@
+{
+  "periods": [
+    {
+      "id": 1,
+      "startTs": 1757924107,
+      "endTs": 1757925033,
+      "modeLibs": {
+        "86": 1
+      }
+    }
+  ],
+  "libs": {
+    "1": {
+      "id": 1,
+      "remark": "pve\u9635\u5bb9\u7f81\u7eca",
+      "layBuffs": [
+        {
+          "remark": "\u5f13\u7bad\u624b\u7f81\u7eca",
+          "lvConfig": [
+            {
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    618,
+                    843,
+                    729,
+                    742,
+                    741,
+                    756
+                  ],
+                  "requiredCount": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 1
+                }
+              ]
+            },
+            {
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    618,
+                    843,
+                    729,
+                    742,
+                    741,
+                    756
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    618,
+                    843,
+                    729,
+                    742,
+                    741,
+                    756
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "remark": "\u767d\u84dd\u5361\u7f81\u7eca",
+          "lvConfig": [
+            {
+              "buffId": 1073,
+              "buffVal": 10,
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    700
+                  ],
+                  "requiredCount": [
+                    5
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "remark": "\u9636\u6bb5\u4e00\u5149\u660e\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u5149\u660e\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.01
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 2,
+                  "options": [
+                    2
+                  ],
+                  "requiredCount": [
+                    1
+                  ]
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "remark": "\u9636\u6bb5\u4e8c\u5149\u660e\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u5149\u660e\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.03
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 2,
+                  "options": [
+                    2
+                  ],
+                  "requiredCount": [
+                    1
+                  ]
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "remark": "\u9636\u6bb5\u4e09\u5149\u660e\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u5149\u660e\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.05
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 2,
+                  "options": [
+                    2
+                  ],
+                  "requiredCount": [
+                    1
+                  ]
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "remark": "\u9636\u6bb5\u4e00\u9ed1\u6697\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u9ed1\u6697\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.01
+                }
+              ],
+              "conds": [
+                {
+                  "options": [
+                    3
+                  ],
+                  "requiredCount": [
+                    1
+                  ],
+                  "condType": 2
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "remark": "\u9636\u6bb5\u4e8c\u9ed1\u6697\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u9ed1\u6697\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.03
+                }
+              ],
+              "conds": [
+                {
+                  "options": [
+                    3
+                  ],
+                  "requiredCount": [
+                    1
+                  ],
+                  "condType": 2
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "remark": "\u9636\u6bb5\u4e09\u9ed1\u6697\u9635\u8425buff",
+      "layBuffs": [
+        {
+          "remark": "\u9ed1\u6697\u9635\u8425buff",
+          "lvConfig": [
+            {
+              "buffs": [
+                {
+                  "buffId": 1073,
+                  "buffVal": 0.05
+                }
+              ],
+              "conds": [
+                {
+                  "options": [
+                    3
+                  ],
+                  "requiredCount": [
+                    1
+                  ],
+                  "condType": 2
+                }
+              ],
+              "skills": []
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "remark": "coop\u7f81\u7eca(S40-41)",
+      "layBuffs": [
+        {
+          "remark": "\u6697\u5f71\u519b\u56e2",
+          "lvConfig": [
+            {
+              "buffs": [],
+              "skills": [
+                {
+                  "skillId": 1603,
+                  "styleId": 4
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    708,
+                    744,
+                    746
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "remark": "\u5149\u660e\u519b\u56e2",
+          "lvConfig": [
+            {
+              "buffs": [],
+              "skills": [
+                {
+                  "skillId": 1604,
+                  "styleId": 4
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    746,
+                    762,
+                    704
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "remark": "\u4eba\u7c7b\u519b\u56e2",
+          "lvConfig": [
+            {
+              "buffs": [],
+              "skills": [
+                {
+                  "skillId": 1608,
+                  "styleId": 5
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    749,
+                    638,
+                    746
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "remark": "coop\u7f81\u7eca(S34-35)",
+      "layBuffs": [
+        {
+          "remark": "\u66b4\u96ea\u4e4b\u529b",
+          "lvConfig": [
+            {
+              "buffs": [],
+              "skills": [
+                {
+                  "skillId": 1601,
+                  "styleId": 1
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    703,
+                    738,
+                    704
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "remark": "\u5e7b\u5f71\u5251\u5203",
+          "lvConfig": [
+            {
+              "buffs": [],
+              "skills": [
+                {
+                  "skillId": 1607,
+                  "styleId": 3
+                }
+              ],
+              "conds": [
+                {
+                  "condType": 1,
+                  "options": [
+                    748,
+                    744,
+                    736
+                  ],
+                  "requiredCount": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

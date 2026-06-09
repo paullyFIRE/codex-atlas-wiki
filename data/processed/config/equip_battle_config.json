@@ -1,0 +1,9042 @@
+{
+  "equips": {
+    "20101": {
+      "id": 20101,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.045
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.065
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    "20102": {
+      "id": 20102,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.054000000000000006
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.081
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.11699999999999999
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.14400000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.18
+            }
+          ]
+        }
+      ]
+    },
+    "20103": {
+      "id": 20103,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.045
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.065
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    "20104": {
+      "id": 20104,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.045
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.065
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    "20201": {
+      "id": 20201,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.26
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.32
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "20202": {
+      "id": 20202,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.09
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.13
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.16
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.2
+            }
+          ]
+        }
+      ]
+    },
+    "20203": {
+      "id": 20203,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10004,
+              "buffVal": -0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10004,
+              "buffVal": -0.09
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10004,
+              "buffVal": -0.13
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10004,
+              "buffVal": -0.16
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10004,
+              "buffVal": -0.2
+            }
+          ]
+        }
+      ]
+    },
+    "20209": {
+      "id": 20209,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.13
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    "20302": {
+      "id": 20302,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.07200000000000001
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.10800000000000001
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.156
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.192
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.24
+            }
+          ]
+        }
+      ]
+    },
+    "20303": {
+      "id": 20303,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.135
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.195
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "20304": {
+      "id": 20304,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.09
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.135
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.195
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.3
+            }
+          ]
+        }
+      ]
+    },
+    "20309": {
+      "id": 20309,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.26
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.32
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "20403": {
+      "id": 20403,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.135
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.195
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "20404": {
+      "id": 20404,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.135
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.195
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "20405": {
+      "id": 20405,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.135
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.195
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    "20408": {
+      "id": 20408,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.26
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.32
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "11001": {
+      "id": 11001,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11002": {
+      "id": 11002,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11003": {
+      "id": 11003,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11004": {
+      "id": 11004,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11005": {
+      "id": 11005,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11006": {
+      "id": 11006,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11007": {
+      "id": 11007,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11008": {
+      "id": 11008,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12001": {
+      "id": 12001,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11009": {
+      "id": 11009,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11010": {
+      "id": 11010,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11011": {
+      "id": 11011,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11012": {
+      "id": 11012,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11013": {
+      "id": 11013,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11014": {
+      "id": 11014,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11015": {
+      "id": 11015,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12002": {
+      "id": 12002,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12003": {
+      "id": 12003,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11016": {
+      "id": 11016,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11017": {
+      "id": 11017,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11018": {
+      "id": 11018,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11019": {
+      "id": 11019,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11020": {
+      "id": 11020,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11021": {
+      "id": 11021,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11022": {
+      "id": 11022,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12004": {
+      "id": 12004,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13001": {
+      "id": 13001,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11023": {
+      "id": 11023,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11024": {
+      "id": 11024,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11025": {
+      "id": 11025,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11026": {
+      "id": 11026,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11027": {
+      "id": 11027,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12005": {
+      "id": 12005,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12006": {
+      "id": 12006,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12007": {
+      "id": 12007,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13002": {
+      "id": 13002,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11028": {
+      "id": 11028,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11029": {
+      "id": 11029,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11030": {
+      "id": 11030,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12008": {
+      "id": 12008,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12009": {
+      "id": 12009,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12010": {
+      "id": 12010,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12011": {
+      "id": 12011,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13003": {
+      "id": 13003,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14001": {
+      "id": 14001,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11031": {
+      "id": 11031,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "11032": {
+      "id": 11032,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12012": {
+      "id": 12012,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12013": {
+      "id": 12013,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12014": {
+      "id": 12014,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12015": {
+      "id": 12015,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13004": {
+      "id": 13004,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "14002": {
+      "id": 14002,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10003,
+              "buffVal": -0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15001": {
+      "id": 15001,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "11033": {
+      "id": 11033,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12016": {
+      "id": 12016,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12017": {
+      "id": 12017,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12018": {
+      "id": 12018,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13005": {
+      "id": 13005,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13006": {
+      "id": 13006,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14003": {
+      "id": 14003,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15002": {
+      "id": 15002,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15003": {
+      "id": 15003,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12019": {
+      "id": 12019,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            1
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12020": {
+      "id": 12020,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12021": {
+      "id": 12021,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12022": {
+      "id": 12022,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13007": {
+      "id": 13007,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13008": {
+      "id": 13008,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1753,
+              "buffVal": -0.05
+            }
+          ]
+        }
+      ]
+    },
+    "14004": {
+      "id": 14004,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15004": {
+      "id": 15004,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15005": {
+      "id": 15005,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12023": {
+      "id": 12023,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12024": {
+      "id": 12024,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12025": {
+      "id": 12025,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13009": {
+      "id": 13009,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13010": {
+      "id": 13010,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14005": {
+      "id": 14005,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15006": {
+      "id": 15006,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1103,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15007": {
+      "id": 15007,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15008": {
+      "id": 15008,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12026": {
+      "id": 12026,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "12027": {
+      "id": 12027,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13011": {
+      "id": 13011,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13012": {
+      "id": 13012,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 4033,
+              "buffVal": -0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 4033,
+              "buffVal": -0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 4033,
+              "buffVal": -0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 4033,
+              "buffVal": -0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 4033,
+              "buffVal": -0.05
+            }
+          ]
+        }
+      ]
+    },
+    "14006": {
+      "id": 14006,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14007": {
+      "id": 14007,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15009": {
+      "id": 15009,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15010": {
+      "id": 15010,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15011": {
+      "id": 15011,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "12028": {
+      "id": 12028,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13013": {
+      "id": 13013,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 3033,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 3033,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 3033,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 3033,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 3033,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13014": {
+      "id": 13014,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 3043,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 3043,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 3043,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 3043,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 3043,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13015": {
+      "id": 13015,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 3013,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 3013,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 3013,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 3013,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 3013,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "14008": {
+      "id": 14008,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15012": {
+      "id": 15012,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1053,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15013": {
+      "id": 15013,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1083,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15014": {
+      "id": 15014,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15015": {
+      "id": 15015,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1763,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13016": {
+      "id": 13016,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 4043,
+              "buffVal": -0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 4043,
+              "buffVal": -0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 4043,
+              "buffVal": -0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 4043,
+              "buffVal": -0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 4043,
+              "buffVal": -0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13017": {
+      "id": 13017,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13018": {
+      "id": 13018,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            1
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14009": {
+      "id": 14009,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14010": {
+      "id": 14010,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15016": {
+      "id": 15016,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15017": {
+      "id": 15017,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15018": {
+      "id": 15018,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15019": {
+      "id": 15019,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13019": {
+      "id": 13019,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13020": {
+      "id": 13020,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13021": {
+      "id": 13021,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14011": {
+      "id": 14011,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14012": {
+      "id": 14012,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15020": {
+      "id": 15020,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15021": {
+      "id": 15021,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15022": {
+      "id": 15022,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15023": {
+      "id": 15023,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1713,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13022": {
+      "id": 13022,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "13023": {
+      "id": 13023,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "14013": {
+      "id": 14013,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1153,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14014": {
+      "id": 14014,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1413,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15024": {
+      "id": 15024,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15025": {
+      "id": 15025,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15026": {
+      "id": 15026,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15027": {
+      "id": 15027,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15028": {
+      "id": 15028,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "13024": {
+      "id": 13024,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            0
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1183,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14015": {
+      "id": 14015,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1263,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14016": {
+      "id": 14016,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1123,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14017": {
+      "id": 14017,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1433,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15029": {
+      "id": 15029,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            1
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15030": {
+      "id": 15030,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15031": {
+      "id": 15031,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15032": {
+      "id": 15032,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15033": {
+      "id": 15033,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 3,
+          "options": [
+            5
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1523,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14018": {
+      "id": 14018,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            4
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14019": {
+      "id": 14019,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14020": {
+      "id": 14020,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            3
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "14021": {
+      "id": 14021,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            8
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15034": {
+      "id": 15034,
+      "targetCamp": 1,
+      "conds": [
+        {
+          "condType": 2,
+          "options": [
+            2
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15035": {
+      "id": 15035,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.012
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.017
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.021
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.026000000000000002
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1173,
+              "buffVal": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    "15036": {
+      "id": 15036,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1093,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15037": {
+      "id": 15037,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 10001,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    "15038": {
+      "id": 15038,
+      "targetCamp": 1,
+      "conds": [],
+      "levels": [
+        {
+          "lv": 1,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.027999999999999997
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.035
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.043
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "buffs": [
+            {
+              "buffId": 1073,
+              "buffVal": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "enableModes": [
+    31,
+    25
+  ]
+}
