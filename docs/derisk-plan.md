@@ -94,12 +94,11 @@ npx wrangler pages deploy dist/ --project-name=war-inc-rising-wiki
 ```
 Site: `https://war-inc-rising-wiki.pages.dev`
 
-**Future** (GitHub → Cloudflare Pages auto-deploy):
-1. Create GitHub repo and push
-2. In Cloudflare Dashboard → Pages → war-inc-rising-wiki → Settings → Build configuration
-3. Connect to GitHub repo, set build command: `npm run build`, output dir: `dist`
-4. Add custom domain `war-inc-rising.codex-atlas.com` in the dashboard
-5. Cloudflare auto-deploys on every push to `main`
+**Future** (GitHub → Cloudflare Pages auto-deploy ✅):
+1. ✅ Create GitHub repo and push: `git@github.com:paullyFIRE/codex-atlas-wiki.git`
+2. ✅ `.github/workflows/deploy.yml` with cloudflare/wrangler-action
+3. Add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as GitHub repository secrets
+4. Cloudflare auto-deploys on every push to `main`
 
 ---
 
