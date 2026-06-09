@@ -7,20 +7,22 @@ const items = index.items ?? [];
 ---
 
 <BaseLayout
-  title="Hero Comparisons - Stats Side-by-Side | War Inc: Rising Wiki"
-  description={`Compare ${items.length} hero matchups in War Inc: Rising. Side-by-side stats for every hero pair.`}
+  title="Unit Comparisons - Stats Side-by-Side | War Inc: Rising Wiki"
+  description={`Compare ${items.length} unit matchups in War Inc: Rising. Side-by-side stats for any two units.`}
   currentSection="heroes"
 >
   <nav class="breadcrumb">
     <a href="/">Home</a>
     <span class="breadcrumb-sep">›</span>
-    <a href="/heroes/">Heroes</a>
+    <a href="/heroes/">Units</a>
     <span class="breadcrumb-sep">›</span>
     <span>Comparisons</span>
   </nav>
 
-  <h1>Hero Comparisons</h1>
-  <p>Side-by-side stat comparisons for all heroes. Find which hero is better for your strategy.</p>
+  <h1>Unit Comparisons</h1>
+  <p>Side-by-side stat comparisons. Select any two units to compare their stats, cost, and combat power.</p>
+
+  <p><a href="/compare/" class="btn btn-primary">Compare Two Units</a></p>
 
   <ul class="listing-plain">
     {items.slice(0, 100).map((item) => (

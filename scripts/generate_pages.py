@@ -621,8 +621,8 @@ def build_compare_pages(db: dict, name_map: dict, slug_map: dict) -> list:
 
             slug = f"{a['slug']}-vs-{b['slug']}"
             name = f"{a['name']} vs {b['name']}"
-            title = f"{a['name']} vs {b['name']} - Which Hero is Better? | War Inc: Rising Wiki"
-            meta_desc = f"Compare {a['name']} vs {b['name']} in War Inc: Rising. Side-by-side stats, skills, and combat power analysis."
+            title = f"{a['name']} vs {b['name']} - Which Unit is Better? | War Inc: Rising Wiki"
+            meta_desc = f"Compare {a['name']} vs {b['name']} in War Inc: Rising. Side-by-side unit stats, skills, and combat power analysis."
 
             lv1_a = a["stats"].get("1", {})
             lv12_a = a["stats"].get("12", {})

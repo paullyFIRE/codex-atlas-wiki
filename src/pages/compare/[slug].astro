@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync } from 'fs';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/compare/*.json', { eager: true, import: 'default' });
@@ -12,59 +13,301 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
-
 const files = import.meta.glob('/data/pages/compare/*.json', { eager: true, import: 'default' });
 const pageData = files[`/data/pages/compare/${slug}.json`];
 if (!pageData) return Astro.redirect('/compare/', 404);
+
+// Build full searchable unit list
+const db = JSON.parse(readFileSync('data/processed/unit_database.json', 'utf-8'));
+const nm = JSON.parse(readFileSync('data/processed/unit_name_map.json', 'utf-8'));
+const PROFESSION_MAP = {2: "Warrior", 3: "Tank", 4: "Assassin", 5: "Mage", 6: "Support", 7: "Ranger", 8: "Special"};
+const RARITY_MAP = {1: "Common", 2: "Rare", 3: "Epic", 4: "Legendary", 5: "Mythic"};
+
+const allUnits = Object.entries(db)
+  .filter(([_, u]) => u.unit_type === 1)
+  .map(([uid, u]) => {
+    const name = nm[uid] || u.name_en || `Unit ${uid}`;
+    const s1 = (u.stats || {})["1"] || {};
+    return {
+      id: u.id,
+      name,
+      slug: name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-'),
+      rarity: u.rarity ?? 0,
+      profession: u.profession ?? 0,
+      cost: u.cost ?? 0,
+      power: u.combat_power ?? 0,
+      hp: s1["1050"] ?? null,
+      atk: s1["1070"] ?? null,
+      def: s1["1080"] ?? null,
+      speed: s1["1090"] ?? null,
+      range: s1["1110"] ?? null,
+      move: s1["1100"] ?? null,
+      rarity_name: RARITY_MAP[u.rarity] || '',
+      prof_name: PROFESSION_MAP[u.profession] || '',
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const dataJson = JSON.stringify(allUnits);
+const initialA = JSON.stringify(pageData.hero_a);
+const initialB = JSON.stringify(pageData.hero_b);
+const initialSlug = JSON.stringify(slug);
 ---
 
-<BaseLayout title={pageData.title} description={pageData.meta_description}>
-  <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <a href="/compare/">Comparisons</a> &gt; <span>{pageData.name}</span>
+<BaseLayout
+  title={pageData.title}
+  description={pageData.meta_description}
+  currentSection="heroes"
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageData.title,
+    "description": pageData.meta_description,
+  })} />
+
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/compare/">Comparisons</a>
+    <span class="breadcrumb-sep">›</span>
+    <span id="bc-current">{pageData.name}</span>
   </nav>
 
-  <article>
-    <h1>{pageData.name}</h1>
+  <style>
+    .cmp-wrap { display: flex; flex-direction: column; gap: var(--space-6); }
+    .cmp-pickers { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--space-3); align-items: start; }
+    .cmp-picker { position: relative; }
+    .cmp-picker label { font-family: var(--font-display); font-size: var(--text-sm); font-weight: var(--weight-semibold); color: var(--gold-600); text-transform: uppercase; letter-spacing: 0.04em; display: block; margin-bottom: var(--space-1); }
+    .cmp-picker input { width: 100%; padding: var(--space-2) var(--space-3); border: 1px solid var(--border-light); border-radius: var(--radius-md); font-family: var(--font-body); font-size: var(--text-base); background: var(--surface-card); box-shadow: var(--bevel-inset); }
+    .cmp-picker input:focus { outline: none; border-color: var(--gold-400); box-shadow: 0 0 0 2px var(--gold-200); }
+    .cmp-picker input::placeholder { color: #adb5bd; }
+    .cmp-dropdown { position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-card); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 var(--radius-md) var(--radius-md); max-height: 300px; overflow-y: auto; z-index: 10; box-shadow: var(--shadow-md); display: none; }
+    .cmp-dropdown.open { display: block; }
+    .cmp-dropdown-item { padding: var(--space-2) var(--space-3); cursor: pointer; font-size: var(--text-sm); display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--border-light); transition: background 100ms; }
+    .cmp-dropdown-item:last-child { border-bottom: none; }
+    .cmp-dropdown-item:hover, .cmp-dropdown-item.highlighted { background: var(--gold-50); }
+    .cmp-dropdown-item .info { color: #6c757d; font-size: var(--text-xs); margin-left: auto; }
+    .cmp-vs { display: flex; align-items: center; justify-content: center; padding-top: var(--space-6); font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--weight-bold); color: var(--gold-500); }
 
-    <table>
-      <thead>
-        <tr>
+    .cmp-table-wrap { overflow-x: auto; }
+    .cmp-table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+    .cmp-table thead th { background: linear-gradient(135deg, var(--surface-raised), var(--surface-base)); color: var(--surface-paper); font-family: var(--font-display); font-size: var(--text-xs); font-weight: var(--weight-semibold); letter-spacing: 0.04em; text-transform: uppercase; padding: var(--space-3); text-align: center; border-bottom: 2px solid var(--gold-500); }
+    .cmp-table thead th:first-child { text-align: left; }
+    .cmp-table thead th .sub { font-family: var(--font-body); font-size: var(--text-xs); font-weight: var(--weight-normal); color: var(--gold-300); text-transform: none; letter-spacing: normal; display: block; margin-top: 2px; }
+    .cmp-table td { padding: var(--space-2) var(--space-3); text-align: center; border-bottom: 1px solid var(--border-light); }
+    .cmp-table td:first-child { font-weight: var(--weight-semibold); text-align: left; color: var(--surface-base); }
+    .cmp-table tbody tr { transition: background 100ms; }
+    .cmp-table tbody tr:nth-child(even) { background: var(--surface-muted); }
+    .cmp-table tbody tr:hover { background: var(--gold-50); }
+    .cmp-val { font-family: var(--font-stat); font-size: var(--text-base); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; }
+    .cmp-bar-wrap { display: flex; align-items: center; gap: var(--space-2); }
+    .cmp-bar-a, .cmp-bar-b { height: 6px; border-radius: 3px; transition: width 300ms ease; }
+    .cmp-bar-a { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+    .cmp-bar-b { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+    .cmp-winner { background: rgba(52, 211, 153, 0.08) !important; }
+    .cmp-winner .cmp-val { color: #059669; }
+    .cmp-loser .cmp-val { color: #6c757d; }
+    .cmp-name-cell { display: flex; align-items: center; gap: var(--space-2); justify-content: center; }
+    .cmp-rarity-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .cmp-props { display: flex; gap: var(--space-1); justify-content: center; flex-wrap: wrap; margin-top: var(--space-1); }
+    .cmp-empty { text-align: center; padding: var(--space-8); color: #6c757d; font-style: italic; }
+
+    @media (max-width: 767px) {
+      .cmp-pickers { grid-template-columns: 1fr; }
+      .cmp-vs { padding-top: 0; }
+      .cmp-table td, .cmp-table th { padding: var(--space-2); font-size: var(--text-xs); }
+    }
+  </style>
+
+  <script id="cmp-data" type="application/json" set:html={dataJson}></script>
+  <script id="cmp-init-a" type="application/json" set:html={initialA}></script>
+  <script id="cmp-init-b" type="application/json" set:html={initialB}></script>
+  <script id="cmp-init-slug" type="application/json" set:html={initialSlug}></script>
+
+  <h1>Unit Comparison</h1>
+  <p>Select two units to compare their stats side by side.</p>
+
+  <div class="cmp-wrap">
+    <div class="cmp-pickers">
+      <div class="cmp-picker">
+        <label for="cmp-a">Unit A</label>
+        <input type="text" id="cmp-a" placeholder="Search units..." autocomplete="off" />
+        <div class="cmp-dropdown" id="drop-a"></div>
+      </div>
+      <div class="cmp-vs">VS</div>
+      <div class="cmp-picker">
+        <label for="cmp-b">Unit B</label>
+        <input type="text" id="cmp-b" placeholder="Search units..." autocomplete="off" />
+        <div class="cmp-dropdown" id="drop-b"></div>
+      </div>
+    </div>
+
+    <div id="cmp-result">
+      <div class="cmp-empty">Select two units to compare.</div>
+    </div>
+  </div>
+
+  <script>
+  (() => {
+    const UNITS = JSON.parse(document.getElementById('cmp-data').textContent);
+    const RARITY_COLORS = { 1: '#9ca3af', 2: '#34d399', 3: '#60a5fa', 4: '#a78bfa', 5: '#fb923c' };
+    const PROF_NAMES = { 2: 'Warrior', 3: 'Tank', 4: 'Assassin', 5: 'Mage', 6: 'Support', 7: 'Ranger', 8: 'Special' };
+    const RARITY_NAMES = { 1: 'Common', 2: 'Rare', 3: 'Epic', 4: 'Legendary', 5: 'Mythic' };
+
+    let selA = null, selB = null;
+    let hlA = -1, hlB = -1;
+
+    function findUnit(nameOrId) {
+      return UNITS.find(u => u.id === nameOrId || u.name === nameOrId) || null;
+    }
+
+    function filterUnits(query) {
+      const q = query.toLowerCase();
+      return UNITS.filter(u => u.name.toLowerCase().includes(q)).slice(0, 20);
+    }
+
+    function renderDropdown(input, dropId, side) {
+      const drop = document.getElementById(dropId);
+      const q = input.value;
+      const results = q.length === 0 ? [] : filterUnits(q);
+
+      if (results.length === 0) { drop.classList.remove('open'); return; }
+
+      const selected = side === 'a' ? selA : selB;
+      drop.innerHTML = results.map((u, i) => {
+        const isSelected = selected && u.id === selected.id;
+        const isHighlighted = (side === 'a' ? hlA : hlB) === i;
+        return `<div class="cmp-dropdown-item${isHighlighted ? ' highlighted' : ''}" data-idx="${i}" data-id="${u.id}"
+          onclick="selectUnit(${u.id}, '${side}')"
+          onmouseenter="setHighlight(${i}, '${side}')">
+          <span class="cmp-rarity-dot" style="background:${RARITY_COLORS[u.rarity] || '#999'}"></span>
+          <strong>${u.name}</strong>
+          <span class="info">${PROF_NAMES[u.profession] || ''} · Cost ${u.cost} · ⚡${u.power}</span>
+          ${isSelected ? '<span style="color:var(--gold-500)">✓</span>' : ''}
+        </div>`;
+      }).join('');
+      drop.classList.add('open');
+    }
+
+    window.selectUnit = function(id, side) {
+      const u = findUnit(id);
+      if (!u) return;
+      if (side === 'a') { selA = u; document.getElementById('cmp-a').value = u.name; }
+      else { selB = u; document.getElementById('cmp-b').value = u.name; }
+      document.getElementById('drop-a').classList.remove('open');
+      document.getElementById('drop-b').classList.remove('open');
+      renderComparison();
+    };
+
+    window.setHighlight = function(idx, side) {
+      if (side === 'a') hlA = idx; else hlB = idx;
+    };
+
+    function setupInput(inputId, dropId, side) {
+      const input = document.getElementById(inputId);
+      input.addEventListener('input', () => {
+        hlA = -1; hlB = -1;
+        renderDropdown(input, dropId, side);
+      });
+      input.addEventListener('focus', () => renderDropdown(input, dropId, side));
+      input.addEventListener('blur', () => {
+        setTimeout(() => document.getElementById(dropId).classList.remove('open'), 150);
+      });
+      input.addEventListener('keydown', (e) => {
+        const drop = document.getElementById(dropId);
+        const items = drop.querySelectorAll('.cmp-dropdown-item');
+        let hl = side === 'a' ? hlA : hlB;
+        if (e.key === 'ArrowDown') { e.preventDefault(); hl = Math.min(hl + 1, items.length - 1); }
+        else if (e.key === 'ArrowUp') { e.preventDefault(); hl = Math.max(hl - 1, 0); }
+        else if (e.key === 'Enter' && hl >= 0 && items[hl]) {
+          e.preventDefault();
+          const id = parseInt(items[hl].dataset.id);
+          selectUnit(id, side);
+          return;
+        } else return;
+        if (side === 'a') hlA = hl; else hlB = hl;
+        items.forEach((el, i) => el.classList.toggle('highlighted', i === hl));
+      });
+    }
+
+    function renderComparison() {
+      const el = document.getElementById('cmp-result');
+      if (!selA || !selB) { el.innerHTML = '<div class="cmp-empty">Select two units to compare.</div>'; return; }
+      if (selA.id === selB.id) { el.innerHTML = '<div class="cmp-empty">Select two different units.</div>'; return; }
+
+      const rows = [
+        { label: 'HP (Lv1)', key: 'hp', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'ATK (Lv1)', key: 'atk', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'DEF (Lv1)', key: 'def', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'Attack Speed', key: 'speed', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'Move Speed', key: 'move', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'Attack Range', key: 'range', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'Cost', key: 'cost', fmt: v => v != null ? v.toLocaleString() : '-' },
+        { label: 'Combat Power', key: 'power', fmt: v => v != null ? v.toLocaleString() : '-' },
+      ];
+
+      let html = `<div class="cmp-table-wrap"><table class="cmp-table">
+        <thead><tr>
           <th>Stat</th>
-          <th>{pageData.comparison.a.name}</th>
-          <th>{pageData.comparison.b.name}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>HP (Lv1)</td><td>{pageData.comparison.a.hp ?? '-'}</td><td>{pageData.comparison.b.hp ?? '-'}</td></tr>
-        <tr><td>ATK (Lv1)</td><td>{pageData.comparison.a.atk ?? '-'}</td><td>{pageData.comparison.b.atk ?? '-'}</td></tr>
-        <tr><td>DEF (Lv1)</td><td>{pageData.comparison.a.def ?? '-'}</td><td>{pageData.comparison.b.def ?? '-'}</td></tr>
-        <tr><td>Cost</td><td>{pageData.comparison.a.cost}</td><td>{pageData.comparison.b.cost}</td></tr>
-        <tr><td>Combat Power</td><td>{pageData.comparison.a.power}</td><td>{pageData.comparison.b.power}</td></tr>
-      </tbody>
-    </table>
+          <th>${selA.name}<span class="sub">${RARITY_NAMES[selA.rarity]} · ${PROF_NAMES[selA.profession]}</span></th>
+          <th>${selB.name}<span class="sub">${RARITY_NAMES[selB.rarity]} · ${PROF_NAMES[selB.profession]}</span></th>
+        </tr></thead><tbody>`;
 
-    <section>
-      <h2>Analysis</h2>
-      {(() => {
-        const a = pageData.comparison.a;
-        const b = pageData.comparison.b;
-        const tips = [];
-        if (a.hp > b.hp) tips.push(`${a.name} has ${Math.round((a.hp - b.hp) / b.hp * 100)}% more HP than ${b.name}, making it more durable.`);
-        else if (b.hp > a.hp) tips.push(`${b.name} has ${Math.round((b.hp - a.hp) / a.hp * 100)}% more HP than ${a.name}, making it more durable.`);
-        if (a.atk > b.atk) tips.push(`${a.name} deals ${Math.round((a.atk - b.atk) / b.atk * 100)}% more attack damage than ${b.name}.`);
-        else if (b.atk > a.atk) tips.push(`${b.name} deals ${Math.round((b.atk - a.atk) / a.atk * 100)}% more attack damage than ${a.name}.`);
-        if (a.cost < b.cost) tips.push(`${a.name} costs ${b.cost - a.cost} less to deploy, making it better for early game.`);
-        else if (b.cost < a.cost) tips.push(`${b.name} costs ${a.cost - b.cost} less to deploy, making it better for early game.`);
-        if (a.power > b.power) tips.push(`${a.name} has higher combat power (${a.power} vs ${b.power}), suggesting stronger late-game potential.`);
-        else if (b.power > a.power) tips.push(`${b.name} has higher combat power (${b.power} vs ${a.power}), suggesting stronger late-game potential.`);
-        return tips.map(t => <p>{t}</p>);
-      })()}
-    </section>
+      for (const r of rows) {
+        const vA = selA[r.key];
+        const vB = selB[r.key];
+        if (vA == null && vB == null) continue;
+        const maxVal = Math.max(vA || 0, vB || 0);
+        const pctA = maxVal > 0 ? ((vA || 0) / maxVal * 100) : 0;
+        const pctB = maxVal > 0 ? ((vB || 0) / maxVal * 100) : 0;
+        let clsA = '', clsB = '';
+        if (vA != null && vB != null && vA !== vB) {
+          const rKey = r.key === 'cost' ? 'lower' : 'higher';  // lower cost is better
+          if (rKey === 'higher') { clsA = vA > vB ? 'cmp-winner' : 'cmp-loser'; clsB = vB > vA ? 'cmp-winner' : 'cmp-loser'; }
+          else { clsA = vA < vB ? 'cmp-winner' : 'cmp-loser'; clsB = vB < vA ? 'cmp-winner' : 'cmp-loser'; }
+        }
 
-    <p>
-      <a href={`/heroes/${pageData.comparison.a.slug}/`}>{pageData.comparison.a.name} full stats</a>
-      &nbsp;·&nbsp;
-      <a href={`/heroes/${pageData.comparison.b.slug}/`}>{pageData.comparison.b.name} full stats</a>
-    </p>
-  </article>
+        html += `<tr class="${clsA}">
+          <td>${r.label}</td>
+          <td class="${clsA}"><div class="cmp-val">${r.fmt(vA)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-a" style="width:${pctA}%;max-width:120px;margin-left:auto;"></div></div></td>
+          <td class="${clsB}"><div class="cmp-val">${r.fmt(vB)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-b" style="width:${pctB}%;max-width:120px;margin-right:auto;"></div></div></td>
+        </tr>`;
+      }
+
+      html += '</tbody></table></div>';
+      el.innerHTML = html;
+      document.getElementById('bc-current').textContent = `${selA.name} vs ${selB.name}`;
+    }
+
+    setupInput('cmp-a', 'drop-a', 'a');
+    setupInput('cmp-b', 'drop-b', 'b');
+
+    // Initialize from pre-rendered data if available
+    const initA = JSON.parse(document.getElementById('cmp-init-a').textContent);
+    const initB = JSON.parse(document.getElementById('cmp-init-b').textContent);
+    const initSlug = JSON.parse(document.getElementById('cmp-init-slug').textContent);
+    if (initA && initA.name) { selA = findUnit(initA.name) || initA; document.getElementById('cmp-a').value = initA.name; }
+    if (initB && initB.name) { selB = findUnit(initB.name) || initB; document.getElementById('cmp-b').value = initB.name; }
+    renderComparison();
+
+    // Update URL when selection changes
+    function updateUrl() {
+      if (!selA || !selB) return;
+      const aSlug = selA.slug || selA.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-');
+      const bSlug = selB.slug || selB.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-');
+      const newSlug = `${aSlug}-vs-${bSlug}`;
+      if (newSlug !== initSlug) {
+        history.replaceState(null, '', `/compare/${newSlug}/`);
+      }
+    }
+
+    // Monkey-patch selectUnit to also update URL
+    const origSelect = window.selectUnit;
+    window.selectUnit = function(id, side) {
+      origSelect(id, side);
+      setTimeout(updateUrl, 50);
+    };
+  })();
+  </script>
 </BaseLayout>
