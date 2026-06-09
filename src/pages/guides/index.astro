@@ -19,9 +19,9 @@ const items = index.items ?? [];
   </nav>
   <h1>Strategy Guides</h1>
   <p>Data-driven guides to help you choose the best heroes. Also check <a href="/professions/">profession rankings</a>, <a href="/compare/">hero comparisons</a>, and <a href="/tools/">tools</a>.</p>
-  <ul class="listing-plain">
+  <ul class="listing-grid">
     {items.map((item) => (
-      <li><a href={`/guides/${item.slug}/`}>{item.name}</a></li>
+      <li><a href={`/guides/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
     ))}
   </ul>
   <p style="margin-top: var(--space-4);">

@@ -39,9 +39,9 @@ const guideCount = guideIdx['/data/pages/guides/_index.json']?.count ?? 0;
   })} />
 
   <style>
-    .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-bottom: var(--space-8); }
+    .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); margin-bottom: var(--space-12); }
     .home-card { height: 100%; display: flex; flex-direction: column; }
-    .home-card ul { flex: 1; display: flex; flex-direction: column; gap: var(--space-1); }
+    .home-card ul { flex: 1; display: flex; flex-direction: column; gap: var(--space-2); }
     .home-card li { margin: 0; }
     .home-card li a { display: block; padding: var(--space-2) var(--space-3); background: var(--surface-muted); border: 1px solid var(--border-light); border-radius: var(--radius-md); font-size: var(--text-sm); transition: all 150ms ease; line-height: 1.4; }
     .home-card li a:hover { background: var(--gold-50); border-color: var(--gold-400); text-decoration: none; transform: translateY(-1px); }

@@ -18,9 +18,9 @@ const items = index.items ?? [];
   </nav>
   <h1>Game Modes</h1>
   <p>{items.length} modes with different rules, enemy pools, and rewards.</p>
-  <ul class="listing-plain">
+  <ul class="listing-grid">
     {items.map((item) => (
-      <li><a href={`/modes/${item.slug}/`}>{item.name}</a></li>
+      <li><a href={`/modes/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
     ))}
   </ul>
 </BaseLayout>

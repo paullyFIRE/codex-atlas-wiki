@@ -173,12 +173,13 @@ const sectionLinks = [
     {pageData.related.length > 0 && (
       <section id="related">
         <h2>Related Heroes</h2>
-        <ul class="listing-plain">
+      <ul class="listing-grid" style="list-style:none;padding:0;">
           {pageData.related.map((r) => (
-            <li style="display: flex; align-items: center; gap: var(--space-3);">
-              <span class={`entity-link-dot`} data-rarity={r.rarity || pageData.rarity}></span>
-              <a href={`/heroes/${r.slug}/`}>{r.name}</a>
-              <span class="meta">· {r.rarity_name} · {r.profession_name}</span>
+            <li>
+              <a href={`/heroes/${r.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
+                <strong>{r.name}</strong>
+                <span class="meta" style="display:block;margin-top:var(--space-1);">{r.rarity_name} · {r.profession_name}</span>
+              </a>
             </li>
           ))}
         </ul>

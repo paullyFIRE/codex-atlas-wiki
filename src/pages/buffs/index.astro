@@ -11,18 +11,16 @@ const items = index.items ?? [];
   description={`Browse all ${items.length} field buffs in War Inc: Rising.`}
   currentSection="tools"
 >
-  <h1>Field Buffs</h1>
-  <p>{items.length} battle modifiers that affect gameplay.</p>
-
   <nav class="breadcrumb">
     <a href="/">Home</a>
     <span class="breadcrumb-sep">›</span>
     <span>Field Buffs</span>
   </nav>
-
-  <ul class="listing-plain">
+  <h1>Field Buffs</h1>
+  <p>{items.length} battle modifiers that affect gameplay.</p>
+  <ul class="listing-grid">
     {items.map((item) => (
-      <li><a href={`/buffs/${item.slug}/`}>{item.name}</a></li>
+      <li><a href={`/buffs/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
     ))}
   </ul>
 </BaseLayout>

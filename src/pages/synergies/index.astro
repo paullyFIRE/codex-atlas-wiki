@@ -17,9 +17,9 @@ const items = index.items ?? [];
   </nav>
   <h1>Synergies</h1>
   <p>{items.length} team bonus effects that activate when specific units are deployed together.</p>
-  <ul class="listing-plain">
+  <ul class="listing-grid">
     {items.map((item) => (
-      <li><a href={`/synergies/${item.slug}/`}>{item.name}</a></li>
+      <li><a href={`/synergies/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
     ))}
   </ul>
 </BaseLayout>

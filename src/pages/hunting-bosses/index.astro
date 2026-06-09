@@ -17,12 +17,9 @@ const items = index.items ?? [];
   </nav>
   <h1>All Hunting Mode Bosses</h1>
   <p>{items.length} boss enemies encountered in Hunting mode.</p>
-  <ul class="listing-plain">
+  <ul class="listing-grid">
     {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (
-      <li>
-        <a href={`/hunting-bosses/${item.slug}/`}>{item.name}</a>
-        <span class="meta"> · {item.rarity_name ?? ''} · Cost {item.cost ?? '?'} · Power {item.combat_power ?? '?'}</span>
-      </li>
+      <li><a href={`/hunting-bosses/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
     ))}
   </ul>
 </BaseLayout>
