@@ -1,4 +1,2 @@
 name = "war-inc-rising-wiki"
-routes = [{ pattern = "war-inc-rising.codex-atlas.com", custom_domain = true }]
-compatibility_date = "2026-06-09"
 pages_build_output_dir = "dist"

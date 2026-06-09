@@ -70,13 +70,29 @@ Build a PSEO (Programmatic SEO) wiki indexing all characters, cards, entities, m
 
 - [x] Generate all entity pages (250 pages from unit_database.json)
 - [x] Category landing pages per entity type (heroes, buildings, special)
-- [ ] Deploy to Cloudflare Pages (`wrangler pages deploy dist/`)
+- [x] Deploy to Cloudflare Pages (`wrangler pages deploy dist/`)
+- [ ] Add custom domain `war-inc-rising.codex-atlas.com` via Cloudflare dashboard
 - [ ] Add remaining entity types (equipment, modes, synergies, buffs, followers)
 - [ ] SEO audit (validators, Core Web Vitals, indexability)
-- [ ] Set up custom domain + Cloudflare SSL
 - [ ] Add sitemap.xml + robots.txt
 
 **Deliverable**: Live site at `war-inc-rising.codex-atlas.com` covering all game entities.
+
+### Deploy Approach
+
+**Current** (quick deploy via CLI):
+```bash
+npm run build
+npx wrangler pages deploy dist/ --project-name=war-inc-rising-wiki
+```
+Site: `https://war-inc-rising-wiki.pages.dev`
+
+**Future** (GitHub → Cloudflare Pages auto-deploy):
+1. Create GitHub repo and push
+2. In Cloudflare Dashboard → Pages → war-inc-rising-wiki → Settings → Build configuration
+3. Connect to GitHub repo, set build command: `npm run build`, output dir: `dist`
+4. Add custom domain `war-inc-rising.codex-atlas.com` in the dashboard
+5. Cloudflare auto-deploys on every push to `main`
 
 ---
 
