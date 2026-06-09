@@ -3,33 +3,16 @@ import { readFileSync } from 'fs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const cg = JSON.parse(readFileSync('data/processed/config/card_growth.json', 'utf-8'));
-const nm = JSON.parse(readFileSync('data/processed/unit_name_map.json', 'utf-8'));
 
 // Merge costs by rarity + level
 const merge = (cg.merge || []).filter(m => m.cost && m.cost.length > 0);
 
-// BattleGrowth: unit evolution paths
-const bg = cg.battleGrowth || {};
+// Item name lookup for known IDs
+const ITEM_NAMES = {
+  124: 'Sliver Coin',
+  440: 'Forge Stone',
+};
 
-// Parse evolution paths
-const evolutions = Object.entries(bg).map(([unitId, stages]) => {
-  const name = nm[unitId] || `Unit ${unitId}`;
-  return {
-    unitId,
-    name,
-    stages: stages.map(s => ({
-      growthLv: s.growthLv,
-      opType: s.opType, // 2=upgrade, 3=evolve
-      cost: (s.cost || []).map(c => ({ itemId: c.itemId, count: c.itemCnt })),
-      nextUnitId: s.nextUnitId,
-      preUnitId: s.preUnitId,
-      growthProb: s.growthProb,
-      failProb: s.growthFailProb,
-    })),
-  };
-}).filter(e => e.stages.length > 0);
-
-// Merge costs table
 const rarityNames = { 1: "Common", 2: "Rare", 3: "Epic", 4: "Legendary", 5: "Mythic" };
 const mergeByRarity = {};
 for (const m of merge) {
@@ -38,47 +21,37 @@ for (const m of merge) {
 }
 ---
 
-<BaseLayout title="Unit Evolution & Merge Costs — War Inc: Rising Wiki"
-  description="Unit evolution paths, upgrade costs, and merge requirements for all rarities.">
-  <style>
-    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
-    th, td { border: 1px solid #dee2e6; padding: 0.4rem 0.6rem; text-align: left; }
-    th { background: #e9ecef; font-weight: 600; }
-    tr:nth-child(even) { background: #f8f9fa; }
-    .evo-card { border: 1px solid #dee2e6; border-radius: 6px; padding: 0.8rem; margin: 0 0 0.5rem 0; background: #fff; }
-  </style>
+<BaseLayout title="Upgrade & Merge Costs — War Inc: Rising Wiki"
+  description="Merge requirements and upgrade costs for all rarities.">
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/tools/">Tools</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Upgrade & Merge Costs</span>
+  </nav>
 
-  <h1>Unit Evolution & Merge Costs</h1>
+  <h1>Upgrade & Merge Costs</h1>
+  <p>Cost to merge units of each rarity at each level. Items: <strong>Forge Stone</strong> (item 440) and <strong>Sliver Coin</strong> (item 124).</p>
 
-  <h2>Merge Costs by Rarity & Level</h2>
-  <p>Cost to merge units of each rarity at each level.</p>
+  <div style="display: flex; gap: var(--space-2); margin-bottom: var(--space-6);">
+    <span class="stat-chip"><span class="stat-chip-label">Forge Stone</span><span class="stat-chip-value">440</span></span>
+    <span class="stat-chip"><span class="stat-chip-label">Sliver Coin</span><span class="stat-chip-value">124</span></span>
+  </div>
+
   {Object.entries(mergeByRarity).map(([rarity, items]) => (
-    <div>
-      <h3>{rarityNames[rarity] || `Rarity ${rarity}`}</h3>
-      <table>
-        <thead><tr><th>Level</th><th>Item ID</th><th>Count</th></tr></thead>
-        <tbody>
-        {items.map(m => (
-          <tr><td>{m.lv}</td><td>{m.cost.map(c => `${c.itemId} ×${c.itemCnt}`).join(', ')}</td></tr>
-        ))}
-        </tbody>
-      </table>
-    </div>
-  ))}
-
-  <h2>Unit Evolution Paths</h2>
-  <p>Units with upgrade/evolution stages ({evolutions.length} units).</p>
-  {evolutions.slice(0, 30).map(evo => (
-    <div class="evo-card">
-      <strong>{evo.name}</strong> ({evo.stages.length} stages)
-      <table>
-        <thead><tr><th>Stage</th><th>Type</th><th>Cost</th><th>Success %</th></tr></thead>
-        <tbody>
-        {evo.stages.map(s => (
-          <tr><td>+{s.growthLv}</td><td>{s.opType === 2 ? 'Upgrade' : 'Evolve'}</td><td>{s.cost.map(c => `Item ${c.itemId} ×${c.count}`).join(', ') || 'None'}</td><td>{(s.growthProb * 100).toFixed(0)}%</td></tr>
-        ))}
-        </tbody>
-      </table>
+    <div style="margin-bottom: var(--space-6);">
+      <h2>{rarityNames[rarity] || `Rarity ${rarity}`}</h2>
+      <div class="table-wrap">
+        <table class="wiki-table">
+          <thead><tr><th>Level</th><th>Cost</th></tr></thead>
+          <tbody>
+          {items.map(m => (
+            <tr><td><strong>+{m.lv}</strong></td><td>{m.cost.map(c => `${ITEM_NAMES[c.itemId] || `Item ${c.itemId}`} ×${c.itemCnt}`).join(', ')}</td></tr>
+          ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   ))}
 </BaseLayout>

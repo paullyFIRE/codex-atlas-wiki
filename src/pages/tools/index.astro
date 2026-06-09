@@ -1,42 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-
-const hf = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
-const heroCount = hf['/data/pages/heroes/_index.json']?.count ?? 0;
 ---
 
 <BaseLayout
   title="Tools & Calculators — War Inc: Rising Wiki"
-  description="Interactive tools and calculators for War Inc: Rising — team builder, boss tracker, spell calculator, mode loot explorer."
+  description="Interactive tools and calculators for War Inc: Rising — spell calculator, upgrade costs."
   currentSection="tools"
 >
   <nav class="breadcrumb">
     <a href="/">Home</a>
     <span class="breadcrumb-sep">›</span>
-    <span>Tools & Calculators</span>
+    <span>Tools</span>
   </nav>
 
-  <h1>Tools & Calculators</h1>
-  <p>Interactive tools to help you theorycraft and optimize your War Inc: Rising gameplay.</p>
+  <h1>Tools</h1>
 
   <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/build-team/" style="text-decoration: none;">Team Builder</a></h2>
-    <p style="margin: 0;">Interactive formation builder — browse all {heroCount} heroes, build teams up to 8 units, see total power and active synergies. <a href="/heroes/">Browse heroes</a>.</p>
-  </div>
-  <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/mode-loot/" style="text-decoration: none;">Mode Loot & Boss Explorer</a></h2>
-    <p style="margin: 0;">Discover which bosses and rewards each game mode offers at every build level. <a href="/modes/">View all game modes</a>.</p>
-  </div>
-  <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/boss-waves/" style="text-decoration: none;">Boss Wave Calculator</a></h2>
-    <p style="margin: 0;">Track boss combat power scaling across all 12 levels. <a href="/hunting-bosses/">View all Hunting mode bosses</a>.</p>
-  </div>
-  <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
     <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/spell-calc/" style="text-decoration: none;">Spell Calculator</a></h2>
-    <p style="margin: 0;">Spell training times, cooldowns, capacity, and speed-up costs from the <a href="/buildings/spell-cauldron/">Spell Cauldron</a>.</p>
+    <p style="margin: 0;">Spell training times, cooldowns, capacity, and speed-up costs from the Spell Cauldron.</p>
   </div>
   <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/evolution/" style="text-decoration: none;">Unit Evolution & Merge Costs</a></h2>
-    <p style="margin: 0;">Unit evolution paths, upgrade costs, and merge requirements for all rarities. <a href="/guides/best-high-cost-units/">See top-tier heroes</a>.</p>
+    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/evolution/" style="text-decoration: none;">Upgrade & Merge Costs</a></h2>
+    <p style="margin: 0;">Merge requirements and upgrade costs for all rarities.</p>
   </div>
 </BaseLayout>

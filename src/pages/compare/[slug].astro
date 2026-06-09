@@ -79,38 +79,38 @@ const initialSlug = JSON.stringify(slug);
     .cmp-pickers { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--space-3); align-items: start; }
     .cmp-picker { position: relative; }
     .cmp-picker label { font-family: var(--font-display); font-size: var(--text-sm); font-weight: var(--weight-semibold); color: var(--gold-600); text-transform: uppercase; letter-spacing: 0.04em; display: block; margin-bottom: var(--space-1); }
-    .cmp-picker input { width: 100%; padding: var(--space-2) var(--space-3); border: 1px solid var(--border-light); border-radius: var(--radius-md); font-family: var(--font-body); font-size: var(--text-base); background: var(--surface-card); box-shadow: var(--bevel-inset); }
+    .cmp-picker input { width: 100%; padding: var(--space-3) var(--space-4); border: 1px solid var(--border-light); border-radius: var(--radius-md); font-family: var(--font-body); font-size: var(--text-base); background: var(--surface-card); box-shadow: var(--bevel-inset); }
     .cmp-picker input:focus { outline: none; border-color: var(--gold-400); box-shadow: 0 0 0 2px var(--gold-200); }
     .cmp-picker input::placeholder { color: #adb5bd; }
-    .cmp-dropdown { position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-card); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 var(--radius-md) var(--radius-md); max-height: 300px; overflow-y: auto; z-index: 10; box-shadow: var(--shadow-md); display: none; }
+    .cmp-dropdown { position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-card); border: 1px solid var(--border-light); border-top: none; border-radius: 0 0 var(--radius-md) var(--radius-md); max-height: 320px; overflow-y: auto; z-index: 10; box-shadow: var(--shadow-md); display: none; }
     .cmp-dropdown.open { display: block; }
-    .cmp-dropdown-item { padding: var(--space-2) var(--space-3); cursor: pointer; font-size: var(--text-sm); display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--border-light); transition: background 100ms; }
+    .cmp-dropdown-item { padding: var(--space-3) var(--space-4); cursor: pointer; font-size: var(--text-sm); display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--border-light); transition: background 100ms; }
     .cmp-dropdown-item:last-child { border-bottom: none; }
     .cmp-dropdown-item:hover, .cmp-dropdown-item.highlighted { background: var(--gold-50); }
-    .cmp-dropdown-item .info { color: #6c757d; font-size: var(--text-xs); margin-left: auto; }
+    .cmp-dropdown-item .info { color: #6c757d; font-size: var(--text-xs); margin-left: auto; flex-shrink: 0; }
     .cmp-vs { display: flex; align-items: center; justify-content: center; padding-top: var(--space-6); font-family: var(--font-display); font-size: var(--text-xl); font-weight: var(--weight-bold); color: var(--gold-500); }
 
-    .cmp-table-wrap { overflow-x: auto; }
+    /* Table matches wiki-table / boss page pattern */
+    .cmp-table-wrap { overflow-x: auto; margin: var(--space-4) 0; border: 1px solid var(--border-light); border-radius: var(--radius-md); box-shadow: var(--shadow-xs); }
     .cmp-table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
-    .cmp-table thead th { background: linear-gradient(135deg, var(--surface-raised), var(--surface-base)); color: var(--surface-paper); font-family: var(--font-display); font-size: var(--text-xs); font-weight: var(--weight-semibold); letter-spacing: 0.04em; text-transform: uppercase; padding: var(--space-3); text-align: center; border-bottom: 2px solid var(--gold-500); }
+    .cmp-table thead { background: linear-gradient(135deg, var(--surface-raised), var(--surface-base)); }
+    .cmp-table thead th { color: var(--surface-paper); font-family: var(--font-display); font-size: var(--text-xs); font-weight: var(--weight-semibold); letter-spacing: 0.04em; text-transform: uppercase; padding: var(--space-3) var(--space-4); text-align: center; border-bottom: 2px solid var(--gold-500); }
     .cmp-table thead th:first-child { text-align: left; }
     .cmp-table thead th .sub { font-family: var(--font-body); font-size: var(--text-xs); font-weight: var(--weight-normal); color: var(--gold-300); text-transform: none; letter-spacing: normal; display: block; margin-top: 2px; }
-    .cmp-table td { padding: var(--space-2) var(--space-3); text-align: center; border-bottom: 1px solid var(--border-light); }
-    .cmp-table td:first-child { font-weight: var(--weight-semibold); text-align: left; color: var(--surface-base); }
-    .cmp-table tbody tr { transition: background 100ms; }
+    .cmp-table td { padding: var(--space-3) var(--space-4); text-align: center; border-bottom: 1px solid var(--border-light); vertical-align: middle; }
+    .cmp-table td:first-child { font-weight: var(--weight-semibold); text-align: left; color: var(--surface-base); white-space: nowrap; }
+    .cmp-table tbody tr { background: var(--surface-card); transition: background 100ms; }
     .cmp-table tbody tr:nth-child(even) { background: var(--surface-muted); }
     .cmp-table tbody tr:hover { background: var(--gold-50); }
-    .cmp-val { font-family: var(--font-stat); font-size: var(--text-base); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; }
-    .cmp-bar-wrap { display: flex; align-items: center; gap: var(--space-2); }
-    .cmp-bar-a, .cmp-bar-b { height: 6px; border-radius: 3px; transition: width 300ms ease; }
+    .cmp-val { font-family: var(--font-stat); font-size: var(--text-lg); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; }
+    .cmp-bar-wrap { display: flex; align-items: center; justify-content: center; gap: var(--space-2); margin-top: var(--space-1); }
+    .cmp-bar-a, .cmp-bar-b { height: 6px; border-radius: 3px; transition: width 300ms ease; max-width: 160px; }
     .cmp-bar-a { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
     .cmp-bar-b { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
     .cmp-winner { background: rgba(52, 211, 153, 0.08) !important; }
     .cmp-winner .cmp-val { color: #059669; }
     .cmp-loser .cmp-val { color: #6c757d; }
-    .cmp-name-cell { display: flex; align-items: center; gap: var(--space-2); justify-content: center; }
     .cmp-rarity-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
-    .cmp-props { display: flex; gap: var(--space-1); justify-content: center; flex-wrap: wrap; margin-top: var(--space-1); }
     .cmp-empty { text-align: center; padding: var(--space-8); color: #6c757d; font-style: italic; }
 
     @media (max-width: 767px) {
@@ -270,8 +270,8 @@ const initialSlug = JSON.stringify(slug);
 
         html += `<tr class="${clsA}">
           <td>${r.label}</td>
-          <td class="${clsA}"><div class="cmp-val">${r.fmt(vA)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-a" style="width:${pctA}%;max-width:120px;margin-left:auto;"></div></div></td>
-          <td class="${clsB}"><div class="cmp-val">${r.fmt(vB)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-b" style="width:${pctB}%;max-width:120px;margin-right:auto;"></div></div></td>
+          <td class="${clsA}"><div class="cmp-val">${r.fmt(vA)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-a" style="width:${pctA}%;"></div></div></td>
+          <td class="${clsB}"><div class="cmp-val">${r.fmt(vB)}</div><div class="cmp-bar-wrap"><div class="cmp-bar-b" style="width:${pctB}%;"></div></div></td>
         </tr>`;
       }
 

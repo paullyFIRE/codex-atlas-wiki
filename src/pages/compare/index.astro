@@ -1,33 +1,19 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-
 const files = import.meta.glob('/data/pages/compare/_index.json', { eager: true, import: 'default' });
 const index = files['/data/pages/compare/_index.json'] ?? { items: [], count: 0 };
-const items = index.items ?? [];
+const first = index?.items?.[0];
+const url = first ? `/compare/${first.slug}/` : '/heroes/';
+const refresh = `0; url=${url}`;
 ---
 
-<BaseLayout
-  title="Unit Comparisons - Stats Side-by-Side | War Inc: Rising Wiki"
-  description={`Compare ${items.length} unit matchups in War Inc: Rising. Side-by-side stats for any two units.`}
-  currentSection="heroes"
->
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/heroes/">Units</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Comparisons</span>
-  </nav>
-
-  <h1>Unit Comparisons</h1>
-  <p>Side-by-side stat comparisons. Select any two units to compare their stats, cost, and combat power.</p>
-
-  <p><a href="/compare/" class="btn btn-primary">Compare Two Units</a></p>
-
-  <ul class="listing-plain">
-    {items.slice(0, 100).map((item) => (
-      <li><a href={`/compare/${item.slug}/`}>{item.name}</a></li>
-    ))}
-  </ul>
-  {items.length > 100 && <p><em>Showing 100 of {items.length} comparisons.</em></p>}
-</BaseLayout>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content={refresh}>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting to <a href={url}>{url}</a></p>
+</body>
+</html>
