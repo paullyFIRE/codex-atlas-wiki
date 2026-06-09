@@ -12,6 +12,10 @@ interface Props {
 
 const { title, description, image, currentSection } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+// Analytics — set these in your environment or replace directly
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
 ---
 
 <!doctype html>
@@ -53,8 +57,21 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    {GTM_ID && (
+      <script async src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`}></script>
+    )}
+    {GA_ID && (
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+    )}
+    {GA_ID && <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}></script>}
   </head>
   <body>
+    {GTM_ID && (
+      <noscript>
+        <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+    )}
     <header class="topbar">
       <a href="/" class="topbar-logo">War Inc: Rising Wiki</a>
       <nav class="topbar-nav">
