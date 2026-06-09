@@ -62,17 +62,16 @@ Build a PSEO (Programmatic SEO) wiki indexing all characters, cards, entities, m
 
 ---
 
-## Phase 3 — Scale
-
-## Phase 3 — Scale (in progress)
+## Phase 3 — Scale ✅
 
 **Goal**: Full site with all entities indexed. Domain live on Cloudflare Pages.
 
-- [x] Generate all entity pages (250 pages from unit_database.json)
-- [x] Category landing pages per entity type (heroes, buildings, special)
+- [x] Generate all entity pages (469 pages from unit_database + config files)
+- [x] Category landing pages per entity type (heroes, buildings, special, equipment, buffs, synergies, modes)
 - [x] Deploy to Cloudflare Pages (`wrangler pages deploy dist/`)
-- [ ] Add custom domain `war-inc-rising.codex-atlas.com` via Cloudflare dashboard
-- [ ] Add remaining entity types (equipment, modes, synergies, buffs, followers)
+- [x] Custom domain `war-inc-rising.codex-atlas.com` added via Cloudflare Pages API
+- [x] Add remaining entity types: equipment (160), field buffs (36), synergies (9), game modes (5)
+- [ ] Move followers (10 units) from /special/ to /followers/
 - [ ] SEO audit (validators, Core Web Vitals, indexability)
 - [ ] Add sitemap.xml + robots.txt
 
