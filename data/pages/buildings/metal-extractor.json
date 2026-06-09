@@ -328,5 +328,180 @@
   "strategy_tips": [
     "Metal Extractor attacks from range, dealing physical damage from a safe distance.",
     "Position Metal Extractor on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "5h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Metal I",
+          "count": 16000
+        }
+      ],
+      "time": "10h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 300000
+        },
+        {
+          "item": "Metal I",
+          "count": 32000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 600000
+        },
+        {
+          "item": "Metal II",
+          "count": 70000
+        }
+      ],
+      "time": "4d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 700000
+        },
+        {
+          "item": "Metal II",
+          "count": 80000
+        }
+      ],
+      "time": "8d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 800000
+        },
+        {
+          "item": "Metal III",
+          "count": 100000
+        }
+      ],
+      "time": "10d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": {
+    "levels": [
+      {
+        "level": 1,
+        "production": 10,
+        "capacity": 100,
+        "speed": 5,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 2,
+        "production": 20,
+        "capacity": 200,
+        "speed": 4,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 3,
+        "production": 30,
+        "capacity": 300,
+        "speed": 4,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 4,
+        "production": 40,
+        "capacity": 400,
+        "speed": 3,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 5,
+        "production": 50,
+        "capacity": 500,
+        "speed": 3,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 6,
+        "production": 60,
+        "capacity": 600,
+        "speed": 3,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      },
+      {
+        "level": 7,
+        "production": 70,
+        "capacity": 700,
+        "speed": 3,
+        "item_id": 1205,
+        "item_name": "Metal I"
+      }
+    ]
+  }
 }

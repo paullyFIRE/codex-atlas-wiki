@@ -328,5 +328,125 @@
   "strategy_tips": [
     "Gold Mine attacks from range, dealing physical damage from a safe distance.",
     "Position Gold Mine on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        },
+        {
+          "item": "Metal I",
+          "count": 3000
+        }
+      ],
+      "time": "5h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Metal I",
+          "count": 16000
+        }
+      ],
+      "time": "10h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 300000
+        },
+        {
+          "item": "Metal I",
+          "count": 32000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 600000
+        },
+        {
+          "item": "Metal II",
+          "count": 70000
+        }
+      ],
+      "time": "3d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 700000
+        },
+        {
+          "item": "Metal II",
+          "count": 80000
+        }
+      ],
+      "time": "5d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 800000
+        },
+        {
+          "item": "Metal III",
+          "count": 100000
+        }
+      ],
+      "time": "7d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

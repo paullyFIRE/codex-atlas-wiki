@@ -333,5 +333,199 @@
   "strategy_tips": [
     "Turret is a balanced melee unit, effective in both offense and defense.",
     "Use Turret in the front line to deal consistent damage while holding position."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 3000
+        }
+      ],
+      "time": "1h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 5000
+        }
+      ],
+      "time": "3h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 10000
+        }
+      ],
+      "time": "6h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "12h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 40000
+        },
+        {
+          "item": "Rock I",
+          "count": 12000
+        }
+      ],
+      "time": "18h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 50000
+        },
+        {
+          "item": "Rock I",
+          "count": 15000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 8,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 60000
+        },
+        {
+          "item": "Rock I",
+          "count": 18000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 9,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 80000
+        },
+        {
+          "item": "Rock I",
+          "count": 20000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 10,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Rock II",
+          "count": 28000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 11,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 120000
+        },
+        {
+          "item": "Rock II",
+          "count": 32000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 12,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 150000
+        },
+        {
+          "item": "Rock II",
+          "count": 36000
+        }
+      ],
+      "time": "3d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

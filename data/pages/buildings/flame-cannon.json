@@ -333,5 +333,127 @@
   "strategy_tips": [
     "Flame Cannon is a balanced melee unit, effective in both offense and defense.",
     "Use Flame Cannon in the front line to deal consistent damage while holding position."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 3000
+        }
+      ],
+      "time": "1h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 5000
+        }
+      ],
+      "time": "2h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 10000
+        }
+      ],
+      "time": "6h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 30000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 80000
+        },
+        {
+          "item": "Rock I",
+          "count": 18000
+        }
+      ],
+      "time": "3d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Rock II",
+          "count": 24000
+        }
+      ],
+      "time": "4d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 8,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 122000
+        },
+        {
+          "item": "Rock II",
+          "count": 36000
+        }
+      ],
+      "time": "5d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

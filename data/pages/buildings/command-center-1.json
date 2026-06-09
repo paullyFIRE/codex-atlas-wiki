@@ -328,5 +328,191 @@
   "strategy_tips": [
     "Command Center attacks from range, dealing physical damage from a safe distance.",
     "Position Command Center on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [],
+      "unlocks": [
+        "Build Slot +1",
+        "Coins Cap: 1.00M",
+        "Wood Cap: 150.0K"
+      ]
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 10000
+        }
+      ],
+      "time": "1h",
+      "pre_reqs": [],
+      "unlocks": [
+        "Coins Cap: 1.40M",
+        "Wood Cap: 200.0K"
+      ]
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 50000
+        }
+      ],
+      "time": "3h",
+      "pre_reqs": [
+        "Gold Mine Lv2",
+        "Sawmill Lv2"
+      ],
+      "unlocks": [
+        "Coins Cap: 1.80M",
+        "Wood Cap: 300.0K"
+      ]
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        }
+      ],
+      "time": "6h",
+      "pre_reqs": [
+        "Gold Mine Lv3",
+        "Sawmill Lv3"
+      ],
+      "unlocks": [
+        "Coins Cap: 2.40M",
+        "Wood Cap: 500.0K"
+      ]
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 300000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv4",
+        "Sawmill Lv4"
+      ],
+      "unlocks": [
+        "Coins Cap: 3.00M",
+        "Wood Cap: 600.0K"
+      ]
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 480000
+        },
+        {
+          "item": "Timber II",
+          "count": 90000
+        }
+      ],
+      "time": "5d",
+      "pre_reqs": [
+        "Gold Mine Lv4",
+        "Sawmill Lv4"
+      ],
+      "unlocks": [
+        "Coins Cap: 3.50M",
+        "Wood Cap: 700.0K"
+      ]
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Rock II",
+          "count": 60000
+        },
+        {
+          "item": "Metal II",
+          "count": 30000
+        }
+      ],
+      "time": "7d",
+      "pre_reqs": [
+        "Gold Mine Lv4",
+        "Sawmill Lv4"
+      ],
+      "unlocks": [
+        "Coins Cap: 4.00M",
+        "Wood Cap: 800.0K"
+      ]
+    }
+  ],
+  "resource_production": {
+    "levels": [
+      {
+        "level": 1,
+        "production": 5,
+        "capacity": 60,
+        "speed": 5,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 2,
+        "production": 6,
+        "capacity": 70,
+        "speed": 4,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 3,
+        "production": 7,
+        "capacity": 80,
+        "speed": 4,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 4,
+        "production": 8,
+        "capacity": 90,
+        "speed": 3,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 5,
+        "production": 10,
+        "capacity": 100,
+        "speed": 3,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 6,
+        "production": 12,
+        "capacity": 120,
+        "speed": 3,
+        "item_id": 102,
+        "item_name": "Gems"
+      },
+      {
+        "level": 7,
+        "production": 14,
+        "capacity": 140,
+        "speed": 3,
+        "item_id": 102,
+        "item_name": "Gems"
+      }
+    ]
+  }
 }

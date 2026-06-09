@@ -328,5 +328,180 @@
   "strategy_tips": [
     "Timber Extractor attacks from range, dealing physical damage from a safe distance.",
     "Position Timber Extractor on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "5h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Timber I",
+          "count": 48000
+        }
+      ],
+      "time": "10h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 300000
+        },
+        {
+          "item": "Timber I",
+          "count": 96000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 600000
+        },
+        {
+          "item": "Timber II",
+          "count": 210000
+        }
+      ],
+      "time": "4d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 700000
+        },
+        {
+          "item": "Timber II",
+          "count": 240000
+        }
+      ],
+      "time": "8d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 800000
+        },
+        {
+          "item": "Timber III",
+          "count": 300000
+        }
+      ],
+      "time": "10d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": {
+    "levels": [
+      {
+        "level": 1,
+        "production": 30,
+        "capacity": 180,
+        "speed": 5,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 2,
+        "production": 60,
+        "capacity": 420,
+        "speed": 4,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 3,
+        "production": 90,
+        "capacity": 720,
+        "speed": 4,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 4,
+        "production": 120,
+        "capacity": 1080,
+        "speed": 3,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 5,
+        "production": 150,
+        "capacity": 1500,
+        "speed": 3,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 6,
+        "production": 180,
+        "capacity": 1800,
+        "speed": 3,
+        "item_id": 205,
+        "item_name": "Timber I"
+      },
+      {
+        "level": 7,
+        "production": 210,
+        "capacity": 2100,
+        "speed": 3,
+        "item_id": 205,
+        "item_name": "Timber I"
+      }
+    ]
+  }
 }

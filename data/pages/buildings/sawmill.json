@@ -288,5 +288,173 @@
   "strategy_tips": [
     "Sawmill attacks from range, dealing physical damage from a safe distance.",
     "Position Sawmill on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 1000
+        }
+      ],
+      "time": "2m",
+      "pre_reqs": [
+        "Command Center Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 3000
+        }
+      ],
+      "time": "10m",
+      "pre_reqs": [
+        "Command Center Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 5000
+        }
+      ],
+      "time": "30m",
+      "pre_reqs": [
+        "Command Center Lv2"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 10000
+        }
+      ],
+      "time": "1h",
+      "pre_reqs": [
+        "Command Center Lv2"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "2h",
+      "pre_reqs": [
+        "Command Center Lv3"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 80000
+        },
+        {
+          "item": "Timber I",
+          "count": 36000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Command Center Lv3"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 122000
+        },
+        {
+          "item": "Timber II",
+          "count": 72000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Command Center Lv3"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": {
+    "levels": [
+      {
+        "level": 1,
+        "production": 100,
+        "capacity": 600,
+        "speed": 5,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 2,
+        "production": 120,
+        "capacity": 800,
+        "speed": 4,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 3,
+        "production": 150,
+        "capacity": 1200,
+        "speed": 4,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 4,
+        "production": 180,
+        "capacity": 1500,
+        "speed": 3,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 5,
+        "production": 210,
+        "capacity": 2000,
+        "speed": 3,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 6,
+        "production": 240,
+        "capacity": 2400,
+        "speed": 3,
+        "item_id": 121,
+        "item_name": "Wood"
+      },
+      {
+        "level": 7,
+        "production": 280,
+        "capacity": 2800,
+        "speed": 3,
+        "item_id": 121,
+        "item_name": "Wood"
+      }
+    ]
+  }
 }

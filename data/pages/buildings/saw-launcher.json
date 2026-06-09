@@ -333,5 +333,85 @@
   "strategy_tips": [
     "Saw Launcher is a balanced melee unit, effective in both offense and defense.",
     "Use Saw Launcher in the front line to deal consistent damage while holding position."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 60000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 120000
+        },
+        {
+          "item": "Timber I",
+          "count": 24000
+        }
+      ],
+      "time": "3d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 150000
+        },
+        {
+          "item": "Timber II",
+          "count": 48000
+        }
+      ],
+      "time": "5d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 180000
+        },
+        {
+          "item": "Timber III",
+          "count": 96000
+        }
+      ],
+      "time": "7d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

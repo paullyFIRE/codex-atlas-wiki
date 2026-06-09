@@ -288,5 +288,78 @@
   "strategy_tips": [
     "Follower Camp attacks from range, dealing physical damage from a safe distance.",
     "Position Follower Camp on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 2000
+        }
+      ],
+      "time": "10s",
+      "pre_reqs": [
+        "Command Center Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 5000
+        }
+      ],
+      "time": "1h",
+      "pre_reqs": [
+        "Command Center Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 10000
+        }
+      ],
+      "time": "3h",
+      "pre_reqs": [
+        "Command Center Lv2"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "6h",
+      "pre_reqs": [
+        "Command Center Lv3"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 50000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Command Center Lv4"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

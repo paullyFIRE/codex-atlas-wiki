@@ -328,5 +328,103 @@
   "strategy_tips": [
     "Shield Generator is a balanced melee unit, effective in both offense and defense.",
     "Use Shield Generator in the front line to deal consistent damage while holding position."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 32000
+        }
+      ],
+      "time": "18h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 48000
+        },
+        {
+          "item": "Metal I",
+          "count": 4000
+        }
+      ],
+      "time": "1d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 84000
+        },
+        {
+          "item": "Metal I",
+          "count": 8000
+        }
+      ],
+      "time": "3d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 148000
+        },
+        {
+          "item": "Metal II",
+          "count": 16000
+        }
+      ],
+      "time": "5d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 184000
+        },
+        {
+          "item": "Metal III",
+          "count": 32000
+        }
+      ],
+      "time": "7d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": null
 }

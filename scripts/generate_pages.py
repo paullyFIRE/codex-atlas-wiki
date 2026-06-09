@@ -839,6 +839,115 @@ def build_rarity_pages(db: dict, name_map: dict, slug_map: dict) -> list:
     return pages
 
 
+# ─── Building upgrade data ─────────────────────────────────────────
+
+ITEM_NAMES = {102: "Gems", 103: "Coins", 121: "Wood", 205: "Timber I", 305: "Timber II", 405: "Timber III",
+              705: "Rock I", 805: "Rock II", 905: "Rock III",
+              1205: "Metal I", 1305: "Metal II", 1405: "Metal III"}
+
+
+def load_building_upgrades() -> tuple:
+    """Load buildings.json and resourceBd, return lookup maps keyed by building type ID."""
+    try:
+        bd = load_json(DATA_DIR / "config" / "buildings.json")
+    except FileNotFoundError:
+        return {}, {}
+
+    bd_map = {}
+    for b in bd.get("buildings", []):
+        bd_map[b["type"]] = b
+
+    rb_map = {}
+    for rb in bd.get("resourceBd", []):
+        rb_map[rb["type"]] = rb
+
+    return bd_map, rb_map
+
+
+def format_time(secs: int) -> str:
+    if secs < 60: return f"{secs}s"
+    if secs < 3600: return f"{secs // 60}m"
+    if secs < 86400: return f"{secs // 3600}h"
+    return f"{secs // 86400}d"
+
+
+def inject_building_upgrades(page: dict, bd_map: dict, rb_map: dict, loc: dict):
+    """Enrich building page with upgrade costs, production, and requirements."""
+    uid = page.get("id")
+    if not uid:
+        return
+
+    bd = bd_map.get(uid)
+    if not bd:
+        return
+
+    levels = bd.get("levels", [])
+    upgrade_table = []
+    for lv in levels:
+        costs = []
+        for c in lv.get("costs", []):
+            item_id = c.get("itemId", 0)
+            name = ITEM_NAMES.get(item_id, loc.get(f"res_name_{item_id}", f"Item {item_id}"))
+            costs.append({"item": name, "count": c.get("itemCnt", 0)})
+
+        pre_reqs = []
+        for pc in lv.get("preCond", []):
+            btype = pc.get("type", 0)
+            bname = loc.get(f"building_name_{btype}", f"Building {btype}")
+            pre_reqs.append(f"{bname} Lv{pc.get('val', 0)}")
+
+        unlocks = []
+        for u in lv.get("unlock", []):
+            utype = u.get("type", 0)
+            if utype == 6:
+                builds = {9: "Build Slot +1", 13: "Research Slot +1"}.get(u.get("val"))
+                if builds: unlocks.append(builds)
+            elif utype == 9:
+                subtype = u.get("subtype", 0)
+                sname = ITEM_NAMES.get(subtype, loc.get(f"res_name_{subtype}", f"Item {subtype}"))
+                val = u.get("val", 0)
+                if val >= 1000000:
+                    unlocks.append(f"{sname} Cap: {val / 1000000:.2f}M")
+                elif val >= 1000:
+                    unlocks.append(f"{sname} Cap: {val / 1000:.1f}K")
+                else:
+                    unlocks.append(f"{sname} Cap: {val}")
+            elif utype == 15:
+                unlocks.append("New Building Available")
+
+        upgrade_table.append({
+            "level": lv.get("level", 0),
+            "costs": costs,
+            "time": format_time(lv.get("costTime", 0)),
+            "pre_reqs": pre_reqs,
+            "unlocks": unlocks,
+        })
+
+    # Resource production data
+    resource_info = None
+    rb = rb_map.get(uid)
+    if rb:
+        prod_levels = []
+        for lc in rb.get("levelConfig", []):
+            configs = lc.get("config", [])
+            for cfg in configs:
+                item_id = cfg.get("itemId", 0)
+                prod_levels.append({
+                    "level": lc.get("level", 0),
+                    "production": cfg.get("productivity", 0),
+                    "capacity": cfg.get("capacity", 0),
+                    "speed": cfg.get("speedInterval", 0),
+                    "item_id": item_id,
+                    "item_name": ITEM_NAMES.get(item_id, ""),
+                })
+        resource_info = {
+            "levels": prod_levels,
+        }
+
+    page["upgrade_table"] = upgrade_table
+    page["resource_production"] = resource_info
+
+
 def main():
     print("Loading data sources...")
     db = load_json(DATA_DIR / "unit_database.json")
@@ -850,6 +959,9 @@ def main():
 
     print("Parsing skill descriptions...")
     skill_descs = parse_skill_descs(DATA_DIR / "config" / "card_show_config.json")
+
+    print("Loading building upgrade data...")
+    building_upgrade_map, resource_bd_map = load_building_upgrades()
 
     # Load card_growth to filter playable units
     cg = load_json(DATA_DIR / "config" / "card_growth.json")
@@ -914,6 +1026,10 @@ def main():
         # Also catch type=5 buildings
         if unit.get("unit_type") == 5 and unit.get("id") in BUILDING_IDS:
             page["type"] = "buildings"
+
+        # Inject building upgrade costs if available
+        if page["type"] == "buildings":
+            inject_building_upgrades(page, building_upgrade_map, resource_bd_map, loc)
 
         all_pages.append(page)
 

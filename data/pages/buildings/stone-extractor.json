@@ -328,5 +328,180 @@
   "strategy_tips": [
     "Stone Extractor attacks from range, dealing physical damage from a safe distance.",
     "Position Stone Extractor on high ground or behind walls for maximum effectiveness."
-  ]
+  ],
+  "upgrade_table": [
+    {
+      "level": 1,
+      "costs": [],
+      "time": "0s",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 2,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 20000
+        }
+      ],
+      "time": "5h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 3,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 100000
+        },
+        {
+          "item": "Rock I",
+          "count": 24000
+        }
+      ],
+      "time": "10h",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 4,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 300000
+        },
+        {
+          "item": "Rock I",
+          "count": 48000
+        }
+      ],
+      "time": "2d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 5,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 600000
+        },
+        {
+          "item": "Rock II",
+          "count": 105000
+        }
+      ],
+      "time": "4d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 6,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 700000
+        },
+        {
+          "item": "Rock II",
+          "count": 120000
+        }
+      ],
+      "time": "8d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    },
+    {
+      "level": 7,
+      "costs": [
+        {
+          "item": "Wood",
+          "count": 800000
+        },
+        {
+          "item": "Rock III",
+          "count": 150000
+        }
+      ],
+      "time": "10d",
+      "pre_reqs": [
+        "Gold Mine Lv1"
+      ],
+      "unlocks": []
+    }
+  ],
+  "resource_production": {
+    "levels": [
+      {
+        "level": 1,
+        "production": 15,
+        "capacity": 150,
+        "speed": 5,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 2,
+        "production": 30,
+        "capacity": 300,
+        "speed": 4,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 3,
+        "production": 45,
+        "capacity": 450,
+        "speed": 4,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 4,
+        "production": 60,
+        "capacity": 600,
+        "speed": 3,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 5,
+        "production": 75,
+        "capacity": 750,
+        "speed": 3,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 6,
+        "production": 90,
+        "capacity": 900,
+        "speed": 3,
+        "item_id": 705,
+        "item_name": "Rock I"
+      },
+      {
+        "level": 7,
+        "production": 105,
+        "capacity": 1050,
+        "speed": 3,
+        "item_id": 705,
+        "item_name": "Rock I"
+      }
+    ]
+  }
 }

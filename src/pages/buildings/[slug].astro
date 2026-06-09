@@ -16,6 +16,9 @@ const { slug } = Astro.params;
 const files = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
 const pageData = files[`/data/pages/buildings/${slug}.json`];
 if (!pageData) return Astro.redirect('/buildings/', 404);
+
+const upgrades = pageData.upgrade_table ?? [];
+const production = pageData.resource_production ?? null;
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
@@ -36,6 +39,51 @@ if (!pageData) return Astro.redirect('/buildings/', 404);
         <span> · Power {pageData.combat_power}</span>
       </p>
     </header>
+
+    {upgrades.length > 0 && (
+      <section>
+        <h2>Upgrade Costs & Requirements</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>Cost</th>
+              <th>Time</th>
+              <th>Prerequisites</th>
+              <th>Unlocks</th>
+            </tr>
+          </thead>
+          <tbody>
+            {upgrades.map((row) => (
+              <tr>
+                <td>{row.level}</td>
+                <td>{row.costs.map(c => `${c.count} ${c.item}`).join(', ') || 'Free'}</td>
+                <td>{row.time}</td>
+                <td>{row.pre_reqs.join(', ') || 'None'}</td>
+                <td>{row.unlocks.join(', ') || '-'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
+
+    {production && (
+      <section>
+        <h2>Resource Production</h2>
+        <p>Produces: {production.item_name}</p>
+        <table>
+          <thead>
+            <tr><th>Level</th><th>Production</th><th>Capacity</th></tr>
+          </thead>
+          <tbody>
+            {production.levels.map((l) => (
+              <tr><td>{l.level}</td><td>{l.production}/hr</td><td>{l.capacity}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
 
     <section>
       <h2>What are {pageData.name}'s stats by level?</h2>
@@ -62,14 +110,5 @@ if (!pageData) return Astro.redirect('/buildings/', 404);
         </tbody>
       </table>
     </section>
-
-    {pageData.strategy_tips?.length > 0 && (
-      <section>
-        <h2>How to use {pageData.name} effectively?</h2>
-        <ul>
-          {pageData.strategy_tips.map((tip) => <li>{tip}</li>)}
-        </ul>
-      </section>
-    )}
   </article>
 </BaseLayout>
