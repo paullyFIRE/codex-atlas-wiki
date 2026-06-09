@@ -129,5 +129,16 @@ if (!pageData) {
         </ul>
       </section>
     )}
+
+    <section>
+      <h2>More Resources</h2>
+      <p>
+        <a href={`/professions/${pageData.profession_name?.toLowerCase()}/`}>All {pageData.profession_name}s</a>
+        {' · '}
+        <a href={`/guides/best-${pageData.cost <= 2 ? 'low' : pageData.cost <= 4 ? 'mid' : 'high'}-cost-units/`}>Best {pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'High'} Cost Units</a>
+        {' · '}
+        <a href={`/heroes/`}>All Heroes</a>
+      </p>
+    </section>
   </article>
 </BaseLayout>

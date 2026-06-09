@@ -43,6 +43,24 @@ if (!pageData) return Astro.redirect('/compare/', 404);
       </tbody>
     </table>
 
+    <section>
+      <h2>Analysis</h2>
+      {(() => {
+        const a = pageData.comparison.a;
+        const b = pageData.comparison.b;
+        const tips = [];
+        if (a.hp > b.hp) tips.push(`${a.name} has ${Math.round((a.hp - b.hp) / b.hp * 100)}% more HP than ${b.name}, making it more durable.`);
+        else if (b.hp > a.hp) tips.push(`${b.name} has ${Math.round((b.hp - a.hp) / a.hp * 100)}% more HP than ${a.name}, making it more durable.`);
+        if (a.atk > b.atk) tips.push(`${a.name} deals ${Math.round((a.atk - b.atk) / b.atk * 100)}% more attack damage than ${b.name}.`);
+        else if (b.atk > a.atk) tips.push(`${b.name} deals ${Math.round((b.atk - a.atk) / a.atk * 100)}% more attack damage than ${a.name}.`);
+        if (a.cost < b.cost) tips.push(`${a.name} costs ${b.cost - a.cost} less to deploy, making it better for early game.`);
+        else if (b.cost < a.cost) tips.push(`${b.name} costs ${a.cost - b.cost} less to deploy, making it better for early game.`);
+        if (a.power > b.power) tips.push(`${a.name} has higher combat power (${a.power} vs ${b.power}), suggesting stronger late-game potential.`);
+        else if (b.power > a.power) tips.push(`${b.name} has higher combat power (${b.power} vs ${a.power}), suggesting stronger late-game potential.`);
+        return tips.map(t => <p>{t}</p>);
+      })()}
+    </section>
+
     <p>
       <a href={`/heroes/${pageData.comparison.a.slug}/`}>{pageData.comparison.a.name} full stats</a>
       &nbsp;·&nbsp;

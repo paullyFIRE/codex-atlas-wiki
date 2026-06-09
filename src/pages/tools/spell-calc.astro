@@ -1,2 +1,41 @@
+---
 import { readFileSync } from 'fs';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cg = JSON.parse(readFileSync('data/processed/config/card_growth.json', 'utf-8'));
+const sf = cg.spellFactory || {};
+const spells = (sf.spellItems || []).map(s => ({
+  id: s.id,
+  nameCn: s.name,
+  trainSec: s.trainSec,
+  capacity: s.capacity,
+  cooldown: s.cd,
+  target: s.target,
+  range: s.range,
+}));
+---
+
+<BaseLayout title="Spell Calculator — Training & Cooldown | War Inc: Rising Wiki"
+  description="Calculate spell training times, cooldowns, and capacity for the Spell Cauldron.">
+  <style>
+    .sc { border: 1px solid #dee2e6; border-radius: 6px; padding: 1rem; margin: 0 0 1rem 0; background: #fff; display: inline-block; width: calc(50% - 0.5rem); vertical-align: top; }
+    .sc:nth-child(odd) { margin-right: 1rem; }
+    .v { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; }
+    .l { font-size: 0.75rem; color: #6c757d; text-transform: uppercase; }
+    .sr { display: flex; justify-content: space-between; padding: 0.3rem 0; border-bottom: 1px solid #f0f0f0; }
+  </style>
+  <h1>Spell Calculator</h1>
+  <p>Spell training times, cooldowns, and capacity from the Spell Cauldron.</p>
+  <div>
+  {spells.map(s => (
+    <div class="sc">
+      <h2>{s.nameCn}</h2>
+      <div class="sr"><span class="l">Training</span><span class="v">{Math.floor(s.trainSec / 60)}m {s.trainSec % 60}s</span></div>
+      <div class="sr"><span class="l">Capacity</span><span class="v">{s.capacity}</span></div>
+      <div class="sr"><span class="l">Cooldown</span><span class="v">{s.cooldown}s</span></div>
+      <div class="sr"><span class="l">Range</span><span class="v">{s.range}</span></div>
+      <div class="sr"><span class="l">Target</span><span class="v">{s.target === 1 ? 'Enemies' : 'Allies'}</span></div>
+    </div>
+  ))}
+  </div>
+</BaseLayout>
