@@ -255,26 +255,6 @@
       "relevance": 2
     },
     {
-      "id": 702,
-      "name": "Earth Sage",
-      "slug": "earth-sage",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 420,
-      "relevance": 2
-    },
-    {
-      "id": 707,
-      "name": "Lord of Hatred",
-      "slug": "lord-of-hatred",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 412,
-      "relevance": 2
-    },
-    {
       "id": 705,
       "name": "Blazewing Lord",
       "slug": "blazewing-lord",
@@ -335,16 +315,6 @@
       "relevance": 2
     },
     {
-      "id": 774,
-      "name": "Flame Prisoner",
-      "slug": "flame-prisoner-2",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 376,
-      "relevance": 2
-    },
-    {
       "id": 703,
       "name": "Frost Queen",
       "slug": "frost-queen",
@@ -352,6 +322,36 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 360,
+      "relevance": 2
+    },
+    {
+      "id": 754,
+      "name": "Pharmacist",
+      "slug": "pharmacist",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 766,
+      "name": "Butterfly Mage",
+      "slug": "butterfly-mage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 773,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
       "relevance": 2
     }
   ],

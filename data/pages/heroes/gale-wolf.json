@@ -178,16 +178,6 @@
       "relevance": 2
     },
     {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
-    },
-    {
       "id": 746,
       "name": "Goddess of War",
       "slug": "goddess-of-war",
@@ -238,23 +228,33 @@
       "relevance": 1
     },
     {
-      "id": 782,
-      "name": "Deadly Blade",
-      "slug": "deadly-blade-2",
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 466,
+      "combat_power": 442,
       "relevance": 1
     },
     {
-      "id": 747,
-      "name": "Monkey King",
-      "slug": "monkey-king",
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 445,
+      "combat_power": 425,
+      "relevance": 1
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
       "relevance": 1
     }
   ],

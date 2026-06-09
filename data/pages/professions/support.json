@@ -2,7 +2,7 @@
   "slug": "support",
   "name": "All Supports",
   "title": "All Supports - Stats and Analysis | War Inc: Rising Wiki",
-  "meta_description": "Browse all 5 Support units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "meta_description": "Browse all 2 Support units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
   "type": "professions",
   "profession_id": 6,
   "profession_name": "Support",
@@ -10,15 +10,7 @@
     {
       "id": 750,
       "name": "Steam Robot",
-      "slug": "steam-robot-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 751,
-      "name": "Steam Robot",
-      "slug": "steam-robot-2",
+      "slug": "steam-robot",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -26,23 +18,7 @@
     {
       "id": 789,
       "name": "Weapon Sage",
-      "slug": "weapon-sage-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 790,
-      "name": "Weapon Sage",
-      "slug": "weapon-sage-2",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 791,
-      "name": "Weapon Sage",
-      "slug": "weapon-sage-3",
+      "slug": "weapon-sage",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0

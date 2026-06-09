@@ -2,19 +2,11 @@
   "slug": "tank",
   "name": "All Tanks",
   "title": "All Tanks - Stats and Analysis | War Inc: Rising Wiki",
-  "meta_description": "Browse all 47 Tank units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "meta_description": "Browse all 27 Tank units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
   "type": "professions",
   "profession_id": 3,
   "profession_name": "Tank",
   "units": [
-    {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 603
-    },
     {
       "id": 845,
       "name": "Tide Lord",
@@ -30,22 +22,6 @@
       "rarity": 5,
       "cost": 10,
       "combat_power": 463
-    },
-    {
-      "id": 702,
-      "name": "Earth Sage",
-      "slug": "earth-sage",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 420
-    },
-    {
-      "id": 707,
-      "name": "Lord of Hatred",
-      "slug": "lord-of-hatred",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 412
     },
     {
       "id": 3024,
@@ -112,52 +88,12 @@
       "combat_power": 378
     },
     {
-      "id": 774,
-      "name": "Flame Prisoner",
-      "slug": "flame-prisoner-2",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 376
-    },
-    {
       "id": 703,
       "name": "Frost Queen",
       "slug": "frost-queen",
       "rarity": 5,
       "cost": 8,
       "combat_power": 360
-    },
-    {
-      "id": 772,
-      "name": "Blazing Phoenix",
-      "slug": "blazing-phoenix-2",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 360
-    },
-    {
-      "id": 723,
-      "name": "Ghost Meteor",
-      "slug": "ghost-meteor",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 328
-    },
-    {
-      "id": 792,
-      "name": "Frostcrystal Spirit",
-      "slug": "frostcrystal-spirit",
-      "rarity": 4,
-      "cost": 8,
-      "combat_power": 307
-    },
-    {
-      "id": 731,
-      "name": "Wave Mage",
-      "slug": "wave-mage",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 306
     },
     {
       "id": 627,
@@ -224,22 +160,6 @@
       "combat_power": 0
     },
     {
-      "id": 142,
-      "name": "Tempest Core",
-      "slug": "tempest-core",
-      "rarity": 4,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 146,
-      "name": "Castle Mage",
-      "slug": "castle-mage",
-      "rarity": 4,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
       "id": 148,
       "name": "Stormbringers",
       "slug": "stormbringers",
@@ -264,41 +184,9 @@
       "combat_power": 0
     },
     {
-      "id": 713,
-      "name": "Tide Caller",
-      "slug": "tide-caller",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 714,
-      "name": "Shadowflame Sorcerer",
-      "slug": "shadowflame-sorcerer",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 733,
-      "name": "Magical Girl",
-      "slug": "magical-girl",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
       "id": 754,
       "name": "Pharmacist",
-      "slug": "pharmacist-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 755,
-      "name": "Pharmacist",
-      "slug": "pharmacist-2",
+      "slug": "pharmacist",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -306,31 +194,7 @@
     {
       "id": 766,
       "name": "Butterfly Mage",
-      "slug": "butterfly-mage-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 767,
-      "name": "Butterfly Mage",
-      "slug": "butterfly-mage-2",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 768,
-      "name": "Butterfly Mage",
-      "slug": "butterfly-mage-3",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 771,
-      "name": "Blazing Phoenix",
-      "slug": "blazing-phoenix-1",
+      "slug": "butterfly-mage",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -338,7 +202,7 @@
     {
       "id": 773,
       "name": "Flame Prisoner",
-      "slug": "flame-prisoner-1",
+      "slug": "flame-prisoner",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -346,23 +210,7 @@
     {
       "id": 775,
       "name": "Elemental Dragon",
-      "slug": "elemental-dragon-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 776,
-      "name": "Elemental Dragon",
-      "slug": "elemental-dragon-2",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 784,
-      "name": "Dark Mage",
-      "slug": "dark-mage",
+      "slug": "elemental-dragon",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -370,15 +218,7 @@
     {
       "id": 785,
       "name": "Energy Striker",
-      "slug": "energy-striker-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 786,
-      "name": "Energy Striker",
-      "slug": "energy-striker-2",
+      "slug": "energy-striker",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0

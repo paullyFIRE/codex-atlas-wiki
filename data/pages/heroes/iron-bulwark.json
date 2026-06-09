@@ -138,26 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 650,
-      "name": "Shell Guard",
-      "slug": "shell-guard",
-      "rarity": 4,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 402,
-      "relevance": 2
-    },
-    {
-      "id": 844,
-      "name": "Cactus Guardian",
-      "slug": "cactus-guardian",
-      "rarity": 4,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 349,
-      "relevance": 2
-    },
-    {
       "id": 721,
       "name": "Ironguard",
       "slug": "ironguard",
@@ -178,26 +158,6 @@
       "relevance": 2
     },
     {
-      "id": 147,
-      "name": "Castle Guard",
-      "slug": "castle-guard",
-      "rarity": 4,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 603,
-      "relevance": 1
-    },
-    {
       "id": 744,
       "name": "Flame Duelist",
       "slug": "flame-duelist",
@@ -205,16 +165,6 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 469,
-      "relevance": 1
-    },
-    {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 465,
       "relevance": 1
     },
     {
@@ -228,19 +178,9 @@
       "relevance": 1
     },
     {
-      "id": 795,
-      "name": "Dark Knight",
-      "slug": "dark-knight-2",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 452,
-      "relevance": 1
-    },
-    {
       "id": 762,
       "name": "Radiant Warrior",
-      "slug": "radiant-warrior-1",
+      "slug": "radiant-warrior",
       "rarity": 5,
       "profession": 8,
       "unit_type": 1,
@@ -248,13 +188,73 @@
       "relevance": 1
     },
     {
-      "id": 651,
-      "name": "Jungle Hunter",
-      "slug": "jungle-hunter",
+      "id": 749,
+      "name": "The Knight King",
+      "slug": "the-knight-king",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 420,
+      "relevance": 1
+    },
+    {
+      "id": 735,
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 712,
+      "name": "The Blade of Earth",
+      "slug": "the-blade-of-earth",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 393,
+      "relevance": 1
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
       "rarity": 4,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 433,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 625,
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 342,
+      "relevance": 1
+    },
+    {
+      "id": 628,
+      "name": "Ursa Champion",
+      "slug": "ursa-champion",
+      "rarity": 4,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 317,
+      "relevance": 1
+    },
+    {
+      "id": 719,
+      "name": "Blast Dwarf",
+      "slug": "blast-dwarf",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 312,
       "relevance": 1
     }
   ],

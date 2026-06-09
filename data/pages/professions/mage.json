@@ -2,19 +2,11 @@
   "slug": "mage",
   "name": "All Mages",
   "title": "All Mages - Stats and Analysis | War Inc: Rising Wiki",
-  "meta_description": "Browse all 31 Mage units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
+  "meta_description": "Browse all 18 Mage units in War Inc: Rising. Compare stats, costs, and combat power rankings.",
   "type": "professions",
   "profession_id": 5,
   "profession_name": "Mage",
   "units": [
-    {
-      "id": 737,
-      "name": "Djinn of the Lamp",
-      "slug": "djinn-of-the-lamp",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 426
-    },
     {
       "id": 738,
       "name": "Ripple Wizard",
@@ -64,14 +56,6 @@
       "combat_power": 317
     },
     {
-      "id": 654,
-      "name": "Osseous Priest",
-      "slug": "osseous-priest",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 312
-    },
-    {
       "id": 626,
       "name": "Snowman Warrior",
       "slug": "snowman-warrior",
@@ -94,14 +78,6 @@
       "rarity": 4,
       "cost": 6,
       "combat_power": 289
-    },
-    {
-      "id": 717,
-      "name": "Drumbeast Gorilla",
-      "slug": "drumbeast-gorilla",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 280
     },
     {
       "id": 659,
@@ -144,65 +120,9 @@
       "combat_power": 91
     },
     {
-      "id": 716,
-      "name": "Windbearer",
-      "slug": "windbearer",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 724,
-      "name": "Stoneheart Empowerer",
-      "slug": "stoneheart-empowerer",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 725,
-      "name": "Psychic Nymph",
-      "slug": "psychic-nymph",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 727,
-      "name": "Frostwater Mage",
-      "slug": "frostwater-mage",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 728,
-      "name": "The Pilgrim",
-      "slug": "the-pilgrim",
-      "rarity": 4,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 709,
-      "name": "Netherworld Arbiter",
-      "slug": "netherworld-arbiter",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
       "id": 760,
       "name": "Frost Wizard",
-      "slug": "frost-wizard-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 761,
-      "name": "Frost Wizard",
-      "slug": "frost-wizard-2",
+      "slug": "frost-wizard",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -210,15 +130,7 @@
     {
       "id": 787,
       "name": "Crystal Cat",
-      "slug": "crystal-cat-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 788,
-      "name": "Crystal Cat",
-      "slug": "crystal-cat-2",
+      "slug": "crystal-cat",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -226,15 +138,7 @@
     {
       "id": 796,
       "name": "Stasis Guard",
-      "slug": "stasis-guard-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 797,
-      "name": "Stasis Guard",
-      "slug": "stasis-guard-2",
+      "slug": "stasis-guard",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0
@@ -242,15 +146,7 @@
     {
       "id": 798,
       "name": "Gaia",
-      "slug": "gaia-1",
-      "rarity": 5,
-      "cost": 8,
-      "combat_power": 0
-    },
-    {
-      "id": 799,
-      "name": "Gaia",
-      "slug": "gaia-2",
+      "slug": "gaia",
       "rarity": 5,
       "cost": 8,
       "combat_power": 0

@@ -235,16 +235,6 @@
   "skills": [],
   "related": [
     {
-      "id": 651,
-      "name": "Jungle Hunter",
-      "slug": "jungle-hunter",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 433,
-      "relevance": 2
-    },
-    {
       "id": 730,
       "name": "Great Axe Warrior",
       "slug": "great-axe-warrior",
@@ -253,56 +243,6 @@
       "unit_type": 1,
       "combat_power": 358,
       "relevance": 2
-    },
-    {
-      "id": 715,
-      "name": "Phantom Reaper",
-      "slug": "phantom-reaper",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 305,
-      "relevance": 2
-    },
-    {
-      "id": 722,
-      "name": "Viper Warrior",
-      "slug": "viper-warrior",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 294,
-      "relevance": 2
-    },
-    {
-      "id": 144,
-      "name": "Castle Assassin",
-      "slug": "castle-assassin",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 603,
-      "relevance": 1
-    },
-    {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
     },
     {
       "id": 746,
@@ -352,6 +292,66 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 474,
+      "relevance": 1
+    },
+    {
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 442,
+      "relevance": 1
+    },
+    {
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 425,
+      "relevance": 1
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 657,
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 341,
+      "relevance": 1
+    },
+    {
+      "id": 721,
+      "name": "Ironguard",
+      "slug": "ironguard",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
+      "relevance": 1
+    },
+    {
+      "id": 621,
+      "name": "Sakura Ronin",
+      "slug": "sakura-ronin",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
       "relevance": 1
     }
   ],

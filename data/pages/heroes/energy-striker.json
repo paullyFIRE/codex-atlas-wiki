@@ -1,0 +1,452 @@
+{
+  "id": 785,
+  "slug": "energy-striker",
+  "name": "Energy Striker",
+  "title": "Energy Striker - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Energy Striker in War Inc: Rising. Mythic Tank unit costing 8. HP 760000, ATK 51200, DEF - per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 8,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 760000,
+      "atk": 51200,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 836000,
+      "atk": 56320,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 919600,
+      "atk": 61952,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 1011560,
+      "atk": 68147,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 1112720,
+      "atk": 74962,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 1223990,
+      "atk": 82458,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 1346390,
+      "atk": 90704,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 1481030,
+      "atk": 99774,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 1629130,
+      "atk": 109751,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 1792040,
+      "atk": 120726,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 1971240,
+      "atk": 132799,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 2168360,
+      "atk": 146079,
+      "def": null,
+      "attack_speed": 2,
+      "move_speed": 1,
+      "attack_range": 3,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 78502,
+      "skill_number": 1,
+      "name": "Energy Impact",
+      "description": "Attacks have a {0} probability to trigger energy strikes, dealing wind attribute damage equal to {1}% of attack power to enemies in the target area. This permanently increases personal damage by {2}% of attack power, stacking up to {3}.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 78503,
+      "skill_number": 2,
+      "name": "Wave Shock",
+      "description": "When a skill is activated, the damage area increases by {0}.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 78603,
+      "skill_number": 3,
+      "name": "Drip Through Stone",
+      "description": "When damage stacking reaches the maximum, using a skill reduces water resistance of enemies in the target area by {0} for {1} seconds.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 2
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 2
+    },
+    {
+      "id": 754,
+      "name": "Pharmacist",
+      "slug": "pharmacist",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 766,
+      "name": "Butterfly Mage",
+      "slug": "butterfly-mage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Energy Striker",
+    "description": "Energy Striker is a Mythic Tank in War Inc: Rising.",
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Tank"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "8"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "760000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "51200"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
+    }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Energy Striker"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Energy Striker is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
+    "Position Energy Striker in choke points to maximize their tanking potential.",
+    "High cost (8) means Energy Striker should be deployed strategically when the timing is right."
+  ]
+}

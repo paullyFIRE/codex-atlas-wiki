@@ -235,16 +235,6 @@
   "skills": [],
   "related": [
     {
-      "id": 737,
-      "name": "Djinn of the Lamp",
-      "slug": "djinn-of-the-lamp",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 426,
-      "relevance": 2
-    },
-    {
       "id": 738,
       "name": "Ripple Wizard",
       "slug": "ripple-wizard",
@@ -275,29 +265,9 @@
       "relevance": 2
     },
     {
-      "id": 709,
-      "name": "Netherworld Arbiter",
-      "slug": "netherworld-arbiter",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
       "id": 760,
       "name": "Frost Wizard",
-      "slug": "frost-wizard-1",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 761,
-      "name": "Frost Wizard",
-      "slug": "frost-wizard-2",
+      "slug": "frost-wizard",
       "rarity": 5,
       "profession": 5,
       "unit_type": 1,
@@ -307,17 +277,7 @@
     {
       "id": 787,
       "name": "Crystal Cat",
-      "slug": "crystal-cat-1",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 788,
-      "name": "Crystal Cat",
-      "slug": "crystal-cat-2",
+      "slug": "crystal-cat",
       "rarity": 5,
       "profession": 5,
       "unit_type": 1,
@@ -327,17 +287,7 @@
     {
       "id": 796,
       "name": "Stasis Guard",
-      "slug": "stasis-guard-1",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 797,
-      "name": "Stasis Guard",
-      "slug": "stasis-guard-2",
+      "slug": "stasis-guard",
       "rarity": 5,
       "profession": 5,
       "unit_type": 1,
@@ -347,12 +297,62 @@
     {
       "id": 798,
       "name": "Gaia",
-      "slug": "gaia-1",
+      "slug": "gaia",
       "rarity": 5,
       "profession": 5,
       "unit_type": 1,
       "combat_power": 0,
       "relevance": 2
+    },
+    {
+      "id": 746,
+      "name": "Goddess of War",
+      "slug": "goddess-of-war",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 1
     }
   ],
   "schema": {

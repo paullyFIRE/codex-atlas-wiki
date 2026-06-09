@@ -350,112 +350,6 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
     return page
 
 
-def main():
-    print("Loading data sources...")
-    db = load_json(DATA_DIR / "unit_database.json")
-    name_map = load_json(DATA_DIR / "unit_name_map.json")
-    loc = load_localization(DATA_DIR / "localization" / "en.csv")
-
-    print("Parsing skill attributes...")
-    skill_attrs = parse_skill_attrs(DATA_DIR / "config" / "card_show_config.json")
-
-    print("Parsing skill descriptions...")
-    skill_descs = parse_skill_descs(DATA_DIR / "config" / "card_show_config.json")
-
-    # Track pages per type for index data
-    index_data = {t: [] for t in ["heroes", "buildings", "special", "followers"]}
-    # Track followers separately (unit_type null with profession null or special handling)
-    follower_ids = set()
-
-    print(f"Generating pages for {len(db)} units...")
-
-    # First pass: compute names and initial slugs for all units
-    unit_names = {}
-    unit_slugs = {}
-    for unit_id, unit in db.items():
-        name = name_map.get(str(unit_id)) or unit.get("name_en")
-        if not name:
-            continue
-        unit_names[str(unit_id)] = name
-        unit_slugs[str(unit_id)] = slugify(name)
-
-    # Deduplicate slugs
-    slug_counts = {}
-    for uid, slug in unit_slugs.items():
-        slug_counts[slug] = slug_counts.get(slug, 0) + 1
-
-    slug_counters = {}
-    slug_map = {}
-    for uid, slug in unit_slugs.items():
-        final_slug = slug
-        if slug_counts[slug] > 1:
-            slug_counters[slug] = slug_counters.get(slug, 0) + 1
-            final_slug = f"{slug}-{slug_counters[slug]}"
-        slug_map[uid] = final_slug
-
-    # Second pass: build all pages with resolved slug map
-    all_pages = []
-    for unit_id, unit in db.items():
-        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, db, slug_map)
-        if not page:
-            continue
-
-        # Override slug with deduplicated version
-        page["slug"] = slug_map.get(str(unit["id"]), page["slug"])
-
-        # Normalize type for null unit_type
-        if unit.get("unit_type") is None:
-            uid_int = unit.get("id") or (int(unit_id) if str(unit_id).isdigit() else 0)
-            if 2001 <= uid_int <= 2010:
-                page["type"] = "followers"
-            else:
-                page["type"] = "special"
-
-        all_pages.append(page)
-
-    # Write pages
-    count = 0
-    index_data = {}
-    for page in all_pages:
-        page_type = page["type"]
-        page_dir = OUT_DIR / page_type
-        page_dir.mkdir(parents=True, exist_ok=True)
-
-        with open(page_dir / f"{page['slug']}.json", "w") as f:
-            json.dump(page, f, indent=2, ensure_ascii=False)
-        count += 1
-
-        if page_type not in index_data:
-            index_data[page_type] = []
-        index_data[page_type].append({
-            "id": page["id"],
-            "name": page["name"],
-            "slug": page["slug"],
-            "rarity": page["rarity"],
-            "rarity_name": page["rarity_name"],
-            "profession": page["profession"],
-            "profession_name": page["profession_name"],
-            "cost": page["cost"],
-            "combat_power": page["combat_power"],
-            "unit_type": page["unit_type"],
-        })
-
-    # Write index files
-    for page_type, items in index_data.items():
-        index_dir = OUT_DIR / page_type
-        index_dir.mkdir(parents=True, exist_ok=True)
-        with open(index_dir / "_index.json", "w") as f:
-            json.dump({"type": page_type, "count": len(items), "items": items}, f, indent=2, ensure_ascii=False)
-
-    # Build the count summary
-    summary = {t: len(index_data[t]) for t in index_data if index_data[t]}
-    print(f"\nDone! {count} pages generated:")
-    for t, c in summary.items():
-        print(f"  {t}: {c}")
-
-
-# ─── Equipment pages ───────────────────────────────────────────────
-
 def build_equipment_pages(loc: dict) -> list:
     equip_data = load_json(DATA_DIR / "config" / "equip_battle.json")
     equips = equip_data.get("equips", {})
@@ -950,12 +844,28 @@ def main():
     print("Parsing skill descriptions...")
     skill_descs = parse_skill_descs(DATA_DIR / "config" / "card_show_config.json")
 
-    print(f"Generating pages for {len(db)} units...")
+    # Load card_growth to filter playable units
+    cg = load_json(DATA_DIR / "config" / "card_growth.json")
+    battle_units = cg.get("battleUnits", {})
+    # Build set of unit IDs that are actually shown in game (canShow=True)
+    shown_ids = set()
+    for uid, u in battle_units.items():
+        if isinstance(u, dict) and u.get("canShow") == True:
+            shown_ids.add(str(u.get("id", uid)))
+
+    print(f"Generating pages for {len(db)} units ({len(shown_ids)} playable heroes)...")
+
+    # Filter db to only shown units (type-1) + all non-type-1
+    filtered_db = {
+        uid: u for uid, u in db.items()
+        if u.get("unit_type") != 1 or str(uid) in shown_ids
+    }
+    print(f"  After filtering: {len(filtered_db)} units")
 
     # First pass: compute names and initial slugs for all units
     unit_names = {}
     unit_slugs = {}
-    for unit_id, unit in db.items():
+    for unit_id, unit in filtered_db.items():
         name = name_map.get(str(unit_id)) or unit.get("name_en")
         if not name:
             continue
@@ -978,8 +888,8 @@ def main():
 
     # Second pass: build all unit pages with resolved slug map
     all_pages = []
-    for unit_id, unit in db.items():
-        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, db, slug_map)
+    for unit_id, unit in filtered_db.items():
+        page = build_page_data(unit_id, unit, name_map, loc, skill_attrs, skill_descs, filtered_db, slug_map)
         if not page:
             continue
 
@@ -1013,23 +923,23 @@ def main():
         all_pages.append(page)
 
     print("Building compare pages...")
-    for page in build_compare_pages(db, name_map, slug_map):
+    for page in build_compare_pages(filtered_db, name_map, slug_map):
         all_pages.append(page)
 
     print("Building profession guide pages...")
-    for page in build_profession_pages(db, name_map, slug_map):
+    for page in build_profession_pages(filtered_db, name_map, slug_map):
         all_pages.append(page)
 
     print("Building rarity tier list pages...")
-    for page in build_rarity_pages(db, name_map, slug_map):
+    for page in build_rarity_pages(filtered_db, name_map, slug_map):
         all_pages.append(page)
 
     print("Building cost bracket guides...")
-    for page in build_cost_guides(db, name_map, slug_map):
+    for page in build_cost_guides(filtered_db, name_map, slug_map):
         all_pages.append(page)
 
     print("Building mode hero guides...")
-    for page in build_mode_guides(db, name_map, slug_map, loc):
+    for page in build_mode_guides(filtered_db, name_map, slug_map, loc):
         all_pages.append(page)
 
     # Write pages

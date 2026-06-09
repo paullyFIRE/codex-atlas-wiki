@@ -148,16 +148,6 @@
       "relevance": 2
     },
     {
-      "id": 756,
-      "name": "Molten Archer",
-      "slug": "molten-archer-1",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 411,
-      "relevance": 2
-    },
-    {
       "id": 711,
       "name": "Bone Marksman",
       "slug": "bone-marksman",
@@ -198,54 +188,14 @@
       "relevance": 2
     },
     {
-      "id": 710,
-      "name": "Mech-Magic Cannon",
-      "slug": "mech-magic-cannon",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 757,
-      "name": "Molten Archer",
-      "slug": "molten-archer-2",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
       "id": 800,
       "name": "Bounty Hunter",
-      "slug": "bounty-hunter-1",
+      "slug": "bounty-hunter",
       "rarity": 5,
       "profession": 2,
       "unit_type": 1,
       "combat_power": 0,
       "relevance": 2
-    },
-    {
-      "id": 801,
-      "name": "Bounty Hunter",
-      "slug": "bounty-hunter-2",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
     },
     {
       "id": 746,
@@ -255,6 +205,56 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 507,
+      "relevance": 1
+    },
+    {
+      "id": 663,
+      "name": "Scarlet Spark",
+      "slug": "scarlet-spark",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 505,
+      "relevance": 1
+    },
+    {
+      "id": 847,
+      "name": "Red Blade",
+      "slug": "red-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 1
+    },
+    {
+      "id": 744,
+      "name": "Flame Duelist",
+      "slug": "flame-duelist",
+      "rarity": 5,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 469,
       "relevance": 1
     }
   ],

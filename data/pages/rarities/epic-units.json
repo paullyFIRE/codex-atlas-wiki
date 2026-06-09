@@ -2,7 +2,7 @@
   "slug": "epic-units",
   "name": "All Epic Units",
   "title": "All Epic Units - Stats and Tier List | War Inc: Rising Wiki",
-  "meta_description": "Browse all 14 Epic units in War Inc: Rising. Ranked by combat power.",
+  "meta_description": "Browse all 12 Epic units in War Inc: Rising. Ranked by combat power.",
   "type": "rarities",
   "rarity_id": 3,
   "rarity_name": "Epic",
@@ -86,22 +86,6 @@
       "profession": 4,
       "cost": 6,
       "combat_power": 223
-    },
-    {
-      "id": 842,
-      "name": "Minotaur Chieftain",
-      "slug": "minotaur-chieftain",
-      "profession": 4,
-      "cost": 5,
-      "combat_power": 211
-    },
-    {
-      "id": 841,
-      "name": "Knight",
-      "slug": "knight",
-      "profession": 4,
-      "cost": 5,
-      "combat_power": 205
     },
     {
       "id": 839,

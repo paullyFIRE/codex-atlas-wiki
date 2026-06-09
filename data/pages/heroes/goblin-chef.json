@@ -168,19 +168,9 @@
       "relevance": 1
     },
     {
-      "id": 795,
-      "name": "Dark Knight",
-      "slug": "dark-knight-2",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 452,
-      "relevance": 1
-    },
-    {
       "id": 762,
       "name": "Radiant Warrior",
-      "slug": "radiant-warrior-1",
+      "slug": "radiant-warrior",
       "rarity": 5,
       "profession": 8,
       "unit_type": 1,
@@ -208,16 +198,6 @@
       "relevance": 1
     },
     {
-      "id": 650,
-      "name": "Shell Guard",
-      "slug": "shell-guard",
-      "rarity": 4,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 402,
-      "relevance": 1
-    },
-    {
       "id": 712,
       "name": "The Blade of Earth",
       "slug": "the-blade-of-earth",
@@ -225,16 +205,6 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 393,
-      "relevance": 1
-    },
-    {
-      "id": 844,
-      "name": "Cactus Guardian",
-      "slug": "cactus-guardian",
-      "rarity": 4,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 349,
       "relevance": 1
     },
     {
@@ -255,6 +225,36 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 324,
+      "relevance": 1
+    },
+    {
+      "id": 621,
+      "name": "Sakura Ronin",
+      "slug": "sakura-ronin",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 324,
+      "relevance": 1
+    },
+    {
+      "id": 830,
+      "name": "Pumpkin Guard",
+      "slug": "pumpkin-guard",
+      "rarity": 3,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 298,
+      "relevance": 1
+    },
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 258,
       "relevance": 1
     }
   ],

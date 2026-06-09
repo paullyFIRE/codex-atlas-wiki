@@ -245,16 +245,6 @@
       "relevance": 2
     },
     {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 465,
-      "relevance": 1
-    },
-    {
       "id": 740,
       "name": "Firepower Vanguard",
       "slug": "firepower-vanguard",
@@ -262,16 +252,6 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 433,
-      "relevance": 1
-    },
-    {
-      "id": 756,
-      "name": "Molten Archer",
-      "slug": "molten-archer-1",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 411,
       "relevance": 1
     },
     {
@@ -352,6 +332,26 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 286,
+      "relevance": 1
+    },
+    {
+      "id": 658,
+      "name": "Bone Gunner",
+      "slug": "bone-gunner",
+      "rarity": 4,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 258,
+      "relevance": 1
+    },
+    {
+      "id": 631,
+      "name": "Forest Scout",
+      "slug": "forest-scout",
+      "rarity": 2,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 195,
       "relevance": 1
     }
   ],

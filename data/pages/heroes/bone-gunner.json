@@ -138,16 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 465,
-      "relevance": 2
-    },
-    {
       "id": 719,
       "name": "Blast Dwarf",
       "slug": "blast-dwarf",
@@ -168,56 +158,6 @@
       "relevance": 2
     },
     {
-      "id": 720,
-      "name": "Cowboy Gunner",
-      "slug": "cowboy-gunner",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 284,
-      "relevance": 2
-    },
-    {
-      "id": 145,
-      "name": "Castle Archer",
-      "slug": "castle-archer",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 732,
-      "name": "Heartpiercing Crossbowman",
-      "slug": "heartpiercing-crossbowman",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 603,
-      "relevance": 1
-    },
-    {
-      "id": 651,
-      "name": "Jungle Hunter",
-      "slug": "jungle-hunter",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 433,
-      "relevance": 1
-    },
-    {
       "id": 740,
       "name": "Firepower Vanguard",
       "slug": "firepower-vanguard",
@@ -225,16 +165,6 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 433,
-      "relevance": 1
-    },
-    {
-      "id": 756,
-      "name": "Molten Archer",
-      "slug": "molten-archer-1",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 411,
       "relevance": 1
     },
     {
@@ -255,6 +185,76 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 848,
+      "name": "Light Seeker",
+      "slug": "light-seeker",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 407,
+      "relevance": 1
+    },
+    {
+      "id": 739,
+      "name": "Fury Cannoneer",
+      "slug": "fury-cannoneer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 405,
+      "relevance": 1
+    },
+    {
+      "id": 741,
+      "name": "Mist Archer",
+      "slug": "mist-archer",
+      "rarity": 5,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 392,
+      "relevance": 1
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
+      "relevance": 1
+    },
+    {
+      "id": 625,
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 342,
+      "relevance": 1
+    },
+    {
+      "id": 657,
+      "name": "Iron Bulwark",
+      "slug": "iron-bulwark",
+      "rarity": 4,
+      "profession": 8,
+      "unit_type": 1,
+      "combat_power": 341,
       "relevance": 1
     }
   ],

@@ -347,46 +347,6 @@
   ],
   "related": [
     {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 603,
-      "relevance": 2
-    },
-    {
-      "id": 723,
-      "name": "Ghost Meteor",
-      "slug": "ghost-meteor",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 328,
-      "relevance": 2
-    },
-    {
-      "id": 792,
-      "name": "Frostcrystal Spirit",
-      "slug": "frostcrystal-spirit",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 307,
-      "relevance": 2
-    },
-    {
-      "id": 731,
-      "name": "Wave Mage",
-      "slug": "wave-mage",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 306,
-      "relevance": 2
-    },
-    {
       "id": 632,
       "name": "Wind Apostle",
       "slug": "wind-apostle",
@@ -407,56 +367,6 @@
       "relevance": 2
     },
     {
-      "id": 142,
-      "name": "Tempest Core",
-      "slug": "tempest-core",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 146,
-      "name": "Castle Mage",
-      "slug": "castle-mage",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 713,
-      "name": "Tide Caller",
-      "slug": "tide-caller",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 714,
-      "name": "Shadowflame Sorcerer",
-      "slug": "shadowflame-sorcerer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 465,
-      "relevance": 1
-    },
-    {
       "id": 845,
       "name": "Tide Lord",
       "slug": "tide-lord",
@@ -464,6 +374,96 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 1
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 1
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 1
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 1
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 1
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
       "relevance": 1
     }
   ],

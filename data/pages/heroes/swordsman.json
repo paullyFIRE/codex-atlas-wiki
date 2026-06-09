@@ -171,26 +171,6 @@
   "skills": [],
   "related": [
     {
-      "id": 43,
-      "name": "Skeleton Troop",
-      "slug": "skeleton-troop",
-      "rarity": 1,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 20,
-      "relevance": 2
-    },
-    {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
-    },
-    {
       "id": 746,
       "name": "Goddess of War",
       "slug": "goddess-of-war",
@@ -241,29 +221,9 @@
       "relevance": 1
     },
     {
-      "id": 782,
-      "name": "Deadly Blade",
-      "slug": "deadly-blade-2",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 466,
-      "relevance": 1
-    },
-    {
-      "id": 747,
-      "name": "Monkey King",
-      "slug": "monkey-king",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 445,
-      "relevance": 1
-    },
-    {
       "id": 778,
       "name": "Seraph",
-      "slug": "seraph-2",
+      "slug": "seraph",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
@@ -271,23 +231,63 @@
       "relevance": 1
     },
     {
-      "id": 651,
-      "name": "Jungle Hunter",
-      "slug": "jungle-hunter",
-      "rarity": 4,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 433,
-      "relevance": 1
-    },
-    {
-      "id": 765,
-      "name": "Joker",
-      "slug": "joker",
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 429,
+      "combat_power": 425,
+      "relevance": 1
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 625,
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 342,
+      "relevance": 1
+    },
+    {
+      "id": 620,
+      "name": "Rock Thrower",
+      "slug": "rock-thrower",
+      "rarity": 3,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 300,
+      "relevance": 1
+    },
+    {
+      "id": 834,
+      "name": "Gale Wolf",
+      "slug": "gale-wolf",
+      "rarity": 2,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 258,
       "relevance": 1
     }
   ],

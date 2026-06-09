@@ -1,0 +1,452 @@
+{
+  "id": 766,
+  "slug": "butterfly-mage",
+  "name": "Butterfly Mage",
+  "title": "Butterfly Mage - Hero Stats and Skills | War Inc: Rising Wiki",
+  "meta_description": "Learn about Butterfly Mage in War Inc: Rising. Mythic Tank unit costing 8. HP 1520000, ATK 51200, DEF - per level, skills, and best game modes.",
+  "type": "heroes",
+  "unit_type": 1,
+  "rarity": 5,
+  "rarity_name": "Mythic",
+  "profession": 3,
+  "profession_name": "Tank",
+  "cost": 8,
+  "combat_power": 0,
+  "atk_range": [
+    {
+      "x": -2,
+      "z": 2
+    },
+    {
+      "x": -1,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": -2,
+      "z": 1
+    },
+    {
+      "x": -1,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 2,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "z": 0
+    },
+    {
+      "x": -2,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "z": -1
+    },
+    {
+      "x": 1,
+      "z": -1
+    },
+    {
+      "x": 2,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "z": -2
+    },
+    {
+      "x": -1,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": 1,
+      "z": -2
+    },
+    {
+      "x": 2,
+      "z": -2
+    }
+  ],
+  "stats_table": [
+    {
+      "level": 1,
+      "hp": 1520000,
+      "atk": 51200,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 2,
+      "hp": 1672000,
+      "atk": 56320,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 3,
+      "hp": 1839200,
+      "atk": 61952,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 4,
+      "hp": 2023120,
+      "atk": 68147,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 5,
+      "hp": 2225430,
+      "atk": 74962,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 6,
+      "hp": 2447970,
+      "atk": 82458,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 7,
+      "hp": 2692770,
+      "atk": 90704,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 8,
+      "hp": 2962050,
+      "atk": 99774,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 9,
+      "hp": 3258260,
+      "atk": 109751,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 10,
+      "hp": 3584090,
+      "atk": 120726,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 11,
+      "hp": 3942500,
+      "atk": 132799,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    },
+    {
+      "level": 12,
+      "hp": 4336750,
+      "atk": 146079,
+      "def": null,
+      "attack_speed": 3,
+      "move_speed": 2,
+      "attack_range": 2,
+      "combat_power": 0
+    }
+  ],
+  "skills": [
+    {
+      "skill_id": 76602,
+      "skill_number": 1,
+      "name": "Butterfly Transformation",
+      "description": "Spend {0} lucky coins to transform into a cocoon for {1} seconds, with a {2} probability of emerging as a butterfly. When energy reaches {3}, normal attacks create whirlwinds that deal area damage.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 76803,
+      "skill_number": 2,
+      "name": "Cyclone",
+      "description": "After transformation, whirlwinds have a {0} probability to cause {1} slow, lasting {2} seconds.",
+      "level_effects": {}
+    },
+    {
+      "skill_id": 76603,
+      "skill_number": 3,
+      "name": "Windfury",
+      "description": "Upon deployment, increase attack power by {0}.",
+      "level_effects": {}
+    }
+  ],
+  "related": [
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 846,
+      "name": "Blazeking",
+      "slug": "blazeking",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
+      "relevance": 2
+    },
+    {
+      "id": 705,
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 734,
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 849,
+      "name": "Solar Sage",
+      "slug": "solar-sage",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 850,
+      "name": "Shadow Witch",
+      "slug": "shadow-witch",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 403,
+      "relevance": 2
+    },
+    {
+      "id": 704,
+      "name": "Storm Maiden",
+      "slug": "storm-maiden",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 394,
+      "relevance": 2
+    },
+    {
+      "id": 638,
+      "name": "Geomancer",
+      "slug": "geomancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 384,
+      "relevance": 2
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 2
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 2
+    },
+    {
+      "id": 754,
+      "name": "Pharmacist",
+      "slug": "pharmacist",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 773,
+      "name": "Flame Prisoner",
+      "slug": "flame-prisoner",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Butterfly Mage",
+    "description": "Butterfly Mage is a Mythic Tank in War Inc: Rising.",
+    "characterAttribute": [
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Mythic"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Profession",
+        "value": "Tank"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost",
+        "value": "8"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Combat Power",
+        "value": "0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "HP (Lv1)",
+        "value": "1520000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "ATK (Lv1)",
+        "value": "51200"
+      }
+    ],
+    "applicationCategory": "Game",
+    "operatingSystem": "Android",
+    "author": {
+      "@type": "Organization",
+      "name": "Fastone Games"
+    }
+  },
+  "breadcrumb_schema": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://war-inc-rising.codex-atlas.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroes",
+        "item": "https://war-inc-rising.codex-atlas.com/heroes/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Butterfly Mage"
+      }
+    ]
+  },
+  "strategy_tips": [
+    "Butterfly Mage is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
+    "Position Butterfly Mage in choke points to maximize their tanking potential.",
+    "High cost (8) means Butterfly Mage should be deployed strategically when the timing is right."
+  ]
+}

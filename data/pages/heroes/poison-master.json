@@ -245,16 +245,6 @@
       "relevance": 2
     },
     {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "rarity": 4,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 603,
-      "relevance": 1
-    },
-    {
       "id": 845,
       "name": "Tide Lord",
       "slug": "tide-lord",
@@ -272,26 +262,6 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 463,
-      "relevance": 1
-    },
-    {
-      "id": 702,
-      "name": "Earth Sage",
-      "slug": "earth-sage",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 420,
-      "relevance": 1
-    },
-    {
-      "id": 707,
-      "name": "Lord of Hatred",
-      "slug": "lord-of-hatred",
-      "rarity": 5,
-      "profession": 3,
-      "unit_type": 1,
-      "combat_power": 412,
       "relevance": 1
     },
     {
@@ -352,6 +322,36 @@
       "profession": 3,
       "unit_type": 1,
       "combat_power": 384,
+      "relevance": 1
+    },
+    {
+      "id": 783,
+      "name": "Necromancer",
+      "slug": "necromancer",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 378,
+      "relevance": 1
+    },
+    {
+      "id": 703,
+      "name": "Frost Queen",
+      "slug": "frost-queen",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 360,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
       "relevance": 1
     }
   ],

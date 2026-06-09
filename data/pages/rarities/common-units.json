@@ -2,7 +2,7 @@
   "slug": "common-units",
   "name": "All Common Units",
   "title": "All Common Units - Stats and Tier List | War Inc: Rising Wiki",
-  "meta_description": "Browse all 21 Common units in War Inc: Rising. Ranked by combat power.",
+  "meta_description": "Browse all 20 Common units in War Inc: Rising. Ranked by combat power.",
   "type": "rarities",
   "rarity_id": 1,
   "rarity_name": "Common",
@@ -54,14 +54,6 @@
       "profession": 5,
       "cost": 2,
       "combat_power": 91
-    },
-    {
-      "id": 43,
-      "name": "Skeleton Troop",
-      "slug": "skeleton-troop",
-      "profession": 4,
-      "cost": 0,
-      "combat_power": 20
     },
     {
       "id": 50,

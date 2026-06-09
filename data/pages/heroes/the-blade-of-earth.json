@@ -348,19 +348,9 @@
       "relevance": 2
     },
     {
-      "id": 795,
-      "name": "Dark Knight",
-      "slug": "dark-knight-2",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 452,
-      "relevance": 2
-    },
-    {
       "id": 762,
       "name": "Radiant Warrior",
-      "slug": "radiant-warrior-1",
+      "slug": "radiant-warrior",
       "rarity": 5,
       "profession": 8,
       "unit_type": 1,
@@ -388,34 +378,14 @@
       "relevance": 2
     },
     {
-      "id": 763,
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior-2",
-      "rarity": 5,
-      "profession": 8,
-      "unit_type": 1,
-      "combat_power": 0,
-      "relevance": 2
-    },
-    {
       "id": 794,
       "name": "Dark Knight",
-      "slug": "dark-knight-1",
+      "slug": "dark-knight",
       "rarity": 5,
       "profession": 8,
       "unit_type": 1,
       "combat_power": 0,
       "relevance": 2
-    },
-    {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
     },
     {
       "id": 746,
@@ -445,6 +415,36 @@
       "profession": 4,
       "unit_type": 1,
       "combat_power": 503,
+      "relevance": 1
+    },
+    {
+      "id": 637,
+      "name": "Gryphon Knight",
+      "slug": "gryphon-knight",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 483,
+      "relevance": 1
+    },
+    {
+      "id": 851,
+      "name": "Rock Warlord",
+      "slug": "rock-warlord",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 474,
+      "relevance": 1
+    },
+    {
+      "id": 845,
+      "name": "Tide Lord",
+      "slug": "tide-lord",
+      "rarity": 5,
+      "profession": 3,
+      "unit_type": 1,
+      "combat_power": 463,
       "relevance": 1
     }
   ],

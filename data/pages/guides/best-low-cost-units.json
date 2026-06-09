@@ -52,54 +52,6 @@
       "profession_name": "Mage",
       "cost": 2,
       "combat_power": 91
-    },
-    {
-      "name": "Skeleton Troop",
-      "slug": "skeleton-troop",
-      "rarity_name": "Common",
-      "profession_name": "Assassin",
-      "cost": 0,
-      "combat_power": 20
-    },
-    {
-      "name": "Tempest Core",
-      "slug": "tempest-core",
-      "rarity_name": "Legendary",
-      "profession_name": "Tank",
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "name": "Castle Assassin",
-      "slug": "castle-assassin",
-      "rarity_name": "Legendary",
-      "profession_name": "Assassin",
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "name": "Castle Archer",
-      "slug": "castle-archer",
-      "rarity_name": "Legendary",
-      "profession_name": "Warrior",
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "name": "Castle Mage",
-      "slug": "castle-mage",
-      "rarity_name": "Legendary",
-      "profession_name": "Tank",
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "name": "Castle Guard",
-      "slug": "castle-guard",
-      "rarity_name": "Legendary",
-      "profession_name": "Special",
-      "cost": 0,
-      "combat_power": 0
     }
   ],
   "cost_min": 0,

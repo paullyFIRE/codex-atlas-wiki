@@ -138,16 +138,6 @@
   "skills": [],
   "related": [
     {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "rarity": 4,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 465,
-      "relevance": 1
-    },
-    {
       "id": 740,
       "name": "Firepower Vanguard",
       "slug": "firepower-vanguard",
@@ -155,16 +145,6 @@
       "profession": 2,
       "unit_type": 1,
       "combat_power": 433,
-      "relevance": 1
-    },
-    {
-      "id": 756,
-      "name": "Molten Archer",
-      "slug": "molten-archer-1",
-      "rarity": 5,
-      "profession": 2,
-      "unit_type": 1,
-      "combat_power": 411,
       "relevance": 1
     },
     {
@@ -255,6 +235,26 @@
       "profession": 8,
       "unit_type": 1,
       "combat_power": 298,
+      "relevance": 1
+    },
+    {
+      "id": 626,
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 293,
+      "relevance": 1
+    },
+    {
+      "id": 643,
+      "name": "Oracle",
+      "slug": "oracle",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 290,
       "relevance": 1
     }
   ],

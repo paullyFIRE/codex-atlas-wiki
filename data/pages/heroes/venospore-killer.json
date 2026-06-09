@@ -235,16 +235,6 @@
   "skills": [],
   "related": [
     {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 2
-    },
-    {
       "id": 746,
       "name": "Goddess of War",
       "slug": "goddess-of-war",
@@ -295,43 +285,13 @@
       "relevance": 2
     },
     {
-      "id": 782,
-      "name": "Deadly Blade",
-      "slug": "deadly-blade-2",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 466,
-      "relevance": 2
-    },
-    {
-      "id": 747,
-      "name": "Monkey King",
-      "slug": "monkey-king",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 445,
-      "relevance": 2
-    },
-    {
       "id": 778,
       "name": "Seraph",
-      "slug": "seraph-2",
+      "slug": "seraph",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
       "combat_power": 442,
-      "relevance": 2
-    },
-    {
-      "id": 765,
-      "name": "Joker",
-      "slug": "joker",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 429,
       "relevance": 2
     },
     {
@@ -345,13 +305,53 @@
       "relevance": 2
     },
     {
-      "id": 752,
-      "name": "Flying Knife Mantis",
-      "slug": "flying-knife-mantis-1",
+      "id": 758,
+      "name": "Blacksmith Warrior",
+      "slug": "blacksmith-warrior-1",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 406,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 764,
+      "name": "Weakened One",
+      "slug": "weakened-one",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 769,
+      "name": "Mech Artisan",
+      "slug": "mech-artisan",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 779,
+      "name": "Wandering Swordsman",
+      "slug": "wandering-swordsman",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 0,
+      "relevance": 2
+    },
+    {
+      "id": 781,
+      "name": "Deadly Blade",
+      "slug": "deadly-blade",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 0,
       "relevance": 2
     }
   ],

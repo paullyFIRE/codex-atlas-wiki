@@ -2,43 +2,11 @@
   "slug": "legendary-units",
   "name": "All Legendary Units",
   "title": "All Legendary Units - Stats and Tier List | War Inc: Rising Wiki",
-  "meta_description": "Browse all 39 Legendary units in War Inc: Rising. Ranked by combat power.",
+  "meta_description": "Browse all 13 Legendary units in War Inc: Rising. Ranked by combat power.",
   "type": "rarities",
   "rarity_id": 4,
   "rarity_name": "Legendary",
   "units": [
-    {
-      "id": 653,
-      "name": "Hydromancer",
-      "slug": "hydromancer",
-      "profession": 3,
-      "cost": 6,
-      "combat_power": 603
-    },
-    {
-      "id": 652,
-      "name": "Windhunt Arbalist",
-      "slug": "windhunt-arbalist",
-      "profession": 2,
-      "cost": 6,
-      "combat_power": 465
-    },
-    {
-      "id": 651,
-      "name": "Jungle Hunter",
-      "slug": "jungle-hunter",
-      "profession": 4,
-      "cost": 6,
-      "combat_power": 433
-    },
-    {
-      "id": 650,
-      "name": "Shell Guard",
-      "slug": "shell-guard",
-      "profession": 8,
-      "cost": 6,
-      "combat_power": 402
-    },
     {
       "id": 730,
       "name": "Great Axe Warrior",
@@ -46,14 +14,6 @@
       "profession": 4,
       "cost": 6,
       "combat_power": 358
-    },
-    {
-      "id": 844,
-      "name": "Cactus Guardian",
-      "slug": "cactus-guardian",
-      "profession": 8,
-      "cost": 6,
-      "combat_power": 349
     },
     {
       "id": 625,
@@ -70,14 +30,6 @@
       "profession": 8,
       "cost": 6,
       "combat_power": 341
-    },
-    {
-      "id": 723,
-      "name": "Ghost Meteor",
-      "slug": "ghost-meteor",
-      "profession": 3,
-      "cost": 6,
-      "combat_power": 328
     },
     {
       "id": 721,
@@ -112,46 +64,6 @@
       "combat_power": 312
     },
     {
-      "id": 654,
-      "name": "Osseous Priest",
-      "slug": "osseous-priest",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 312
-    },
-    {
-      "id": 792,
-      "name": "Frostcrystal Spirit",
-      "slug": "frostcrystal-spirit",
-      "profession": 3,
-      "cost": 8,
-      "combat_power": 307
-    },
-    {
-      "id": 731,
-      "name": "Wave Mage",
-      "slug": "wave-mage",
-      "profession": 3,
-      "cost": 6,
-      "combat_power": 306
-    },
-    {
-      "id": 715,
-      "name": "Phantom Reaper",
-      "slug": "phantom-reaper",
-      "profession": 4,
-      "cost": 6,
-      "combat_power": 305
-    },
-    {
-      "id": 722,
-      "name": "Viper Warrior",
-      "slug": "viper-warrior",
-      "profession": 4,
-      "cost": 6,
-      "combat_power": 294
-    },
-    {
       "id": 718,
       "name": "Grace Priest",
       "slug": "grace-priest",
@@ -166,22 +78,6 @@
       "profession": 2,
       "cost": 6,
       "combat_power": 286
-    },
-    {
-      "id": 720,
-      "name": "Cowboy Gunner",
-      "slug": "cowboy-gunner",
-      "profession": 2,
-      "cost": 6,
-      "combat_power": 284
-    },
-    {
-      "id": 717,
-      "name": "Drumbeast Gorilla",
-      "slug": "drumbeast-gorilla",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 280
     },
     {
       "id": 632,
@@ -214,110 +110,6 @@
       "profession": 2,
       "cost": 6,
       "combat_power": 258
-    },
-    {
-      "id": 142,
-      "name": "Tempest Core",
-      "slug": "tempest-core",
-      "profession": 3,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 144,
-      "name": "Castle Assassin",
-      "slug": "castle-assassin",
-      "profession": 4,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 145,
-      "name": "Castle Archer",
-      "slug": "castle-archer",
-      "profession": 2,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 146,
-      "name": "Castle Mage",
-      "slug": "castle-mage",
-      "profession": 3,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 147,
-      "name": "Castle Guard",
-      "slug": "castle-guard",
-      "profession": 8,
-      "cost": 0,
-      "combat_power": 0
-    },
-    {
-      "id": 713,
-      "name": "Tide Caller",
-      "slug": "tide-caller",
-      "profession": 3,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 714,
-      "name": "Shadowflame Sorcerer",
-      "slug": "shadowflame-sorcerer",
-      "profession": 3,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 716,
-      "name": "Windbearer",
-      "slug": "windbearer",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 724,
-      "name": "Stoneheart Empowerer",
-      "slug": "stoneheart-empowerer",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 725,
-      "name": "Psychic Nymph",
-      "slug": "psychic-nymph",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 727,
-      "name": "Frostwater Mage",
-      "slug": "frostwater-mage",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 728,
-      "name": "The Pilgrim",
-      "slug": "the-pilgrim",
-      "profession": 5,
-      "cost": 6,
-      "combat_power": 0
-    },
-    {
-      "id": 732,
-      "name": "Heartpiercing Crossbowman",
-      "slug": "heartpiercing-crossbowman",
-      "profession": 2,
-      "cost": 6,
-      "combat_power": 0
     }
   ]
 }

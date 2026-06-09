@@ -245,16 +245,6 @@
       "relevance": 2
     },
     {
-      "id": 737,
-      "name": "Djinn of the Lamp",
-      "slug": "djinn-of-the-lamp",
-      "rarity": 5,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 426,
-      "relevance": 1
-    },
-    {
       "id": 738,
       "name": "Ripple Wizard",
       "slug": "ripple-wizard",
@@ -315,16 +305,6 @@
       "relevance": 1
     },
     {
-      "id": 654,
-      "name": "Osseous Priest",
-      "slug": "osseous-priest",
-      "rarity": 4,
-      "profession": 5,
-      "unit_type": 1,
-      "combat_power": 312,
-      "relevance": 1
-    },
-    {
       "id": 626,
       "name": "Snowman Warrior",
       "slug": "snowman-warrior",
@@ -352,6 +332,26 @@
       "profession": 5,
       "unit_type": 1,
       "combat_power": 289,
+      "relevance": 1
+    },
+    {
+      "id": 659,
+      "name": "Bone Warlock",
+      "slug": "bone-warlock",
+      "rarity": 3,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 242,
+      "relevance": 1
+    },
+    {
+      "id": 838,
+      "name": "Goblin Shaman",
+      "slug": "goblin-shaman",
+      "rarity": 2,
+      "profession": 5,
+      "unit_type": 1,
+      "combat_power": 235,
       "relevance": 1
     }
   ],

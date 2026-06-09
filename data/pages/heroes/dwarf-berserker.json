@@ -148,26 +148,6 @@
       "relevance": 2
     },
     {
-      "id": 842,
-      "name": "Minotaur Chieftain",
-      "slug": "minotaur-chieftain",
-      "rarity": 3,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 211,
-      "relevance": 2
-    },
-    {
-      "id": 841,
-      "name": "Knight",
-      "slug": "knight",
-      "rarity": 3,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 205,
-      "relevance": 2
-    },
-    {
       "id": 833,
       "name": "Guard Chario",
       "slug": "guard-chario",
@@ -176,16 +156,6 @@
       "unit_type": 1,
       "combat_power": 126,
       "relevance": 2
-    },
-    {
-      "id": 664,
-      "name": "Blaze Wanderer",
-      "slug": "blaze-wanderer",
-      "rarity": 5,
-      "profession": 4,
-      "unit_type": 1,
-      "combat_power": 529,
-      "relevance": 1
     },
     {
       "id": 746,
@@ -238,23 +208,53 @@
       "relevance": 1
     },
     {
-      "id": 782,
-      "name": "Deadly Blade",
-      "slug": "deadly-blade-2",
+      "id": 778,
+      "name": "Seraph",
+      "slug": "seraph",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 466,
+      "combat_power": 442,
       "relevance": 1
     },
     {
-      "id": 747,
-      "name": "Monkey King",
-      "slug": "monkey-king",
+      "id": 745,
+      "name": "Night Scion",
+      "slug": "night-scion",
       "rarity": 5,
       "profession": 4,
       "unit_type": 1,
-      "combat_power": 445,
+      "combat_power": 425,
+      "relevance": 1
+    },
+    {
+      "id": 730,
+      "name": "Great Axe Warrior",
+      "slug": "great-axe-warrior",
+      "rarity": 4,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 748,
+      "name": "Venospore Killer",
+      "slug": "venospore-killer",
+      "rarity": 5,
+      "profession": 4,
+      "unit_type": 1,
+      "combat_power": 358,
+      "relevance": 1
+    },
+    {
+      "id": 843,
+      "name": "Royal Archer",
+      "slug": "royal-archer",
+      "rarity": 3,
+      "profession": 2,
+      "unit_type": 1,
+      "combat_power": 345,
       "relevance": 1
     }
   ],
