@@ -1,9 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const files = import.meta.glob('/data/pages/followers/_index.json', { eager: true, import: 'default' });
+const index = files['/data/pages/followers/_index.json'] ?? { items: [], count: 0 };
+const items = index.items ?? [];
 ---
 
-<BaseLayout title="All Followers - Stats and Abilities | War Inc: Rising Wiki">
+<BaseLayout
+  title="All Followers - Stats and Abilities | War Inc: Rising Wiki"
+  description={`Browse all ${items.length} follower units in War Inc: Rising.`}
+>
   <h1>All Followers</h1>
-  <p>Browse all 10 follower units — troop and pet companions.</p>
-  <p><em>Page generation coming soon.</em></p>
+  <p>{items.length} troop and pet companions.</p>
+
+  <ul>
+    {items.map((item) => (
+      <li><a href={`/followers/${item.slug}/`}>{item.name}</a></li>
+    ))}
+  </ul>
 </BaseLayout>

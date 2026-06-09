@@ -347,7 +347,11 @@ def main():
 
         # Normalize type for null unit_type
         if unit.get("unit_type") is None:
-            page["type"] = "special"
+            uid_int = unit.get("id") or (int(unit_id) if str(unit_id).isdigit() else 0)
+            if 2001 <= uid_int <= 2010:
+                page["type"] = "followers"
+            else:
+                page["type"] = "special"
 
         all_pages.append(page)
 
@@ -664,7 +668,11 @@ def main():
         page["slug"] = slug_map.get(str(unit["id"]), page["slug"])
 
         if unit.get("unit_type") is None:
-            page["type"] = "special"
+            uid_int = unit.get("id") or (int(unit_id) if str(unit_id).isdigit() else 0)
+            if 2001 <= uid_int <= 2010:
+                page["type"] = "followers"
+            else:
+                page["type"] = "special"
 
         all_pages.append(page)
 

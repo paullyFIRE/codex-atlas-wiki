@@ -1,0 +1,56 @@
+{
+  "type": "followers",
+  "count": 10,
+  "items": [
+    {
+      "id": 2001,
+      "name": "Frieda",
+      "slug": "frieda"
+    },
+    {
+      "id": 2002,
+      "name": "Toasty",
+      "slug": "toasty"
+    },
+    {
+      "id": 2003,
+      "name": "Flory",
+      "slug": "flory"
+    },
+    {
+      "id": 2004,
+      "name": "Eglet",
+      "slug": "eglet"
+    },
+    {
+      "id": 2005,
+      "name": "Poopy",
+      "slug": "poopy"
+    },
+    {
+      "id": 2006,
+      "name": "Steaky",
+      "slug": "steaky"
+    },
+    {
+      "id": 2007,
+      "name": "Burgie",
+      "slug": "burgie"
+    },
+    {
+      "id": 2008,
+      "name": "Donnie",
+      "slug": "donnie"
+    },
+    {
+      "id": 2009,
+      "name": "Cacto",
+      "slug": "cacto"
+    },
+    {
+      "id": 2010,
+      "name": "Froggle",
+      "slug": "froggle"
+    }
+  ]
+}

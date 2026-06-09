@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://war-inc-rising.codex-atlas.com/sitemap-index.xml
