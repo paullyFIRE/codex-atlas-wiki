@@ -995,9 +995,10 @@ def main():
         all_pages.append(page)
 
     # Build new entity type pages
-    print("Building equipment pages...")
-    for page in build_equipment_pages(loc):
-        all_pages.append(page)
+    print("Building equipment pages... (disabled — equipment not usable in game)")
+    # Equipment page generation disabled per user request
+    # for page in build_equipment_pages(loc):
+    #     all_pages.append(page)
 
     print("Building field buff pages...")
     for page in build_buff_pages(name_map):
