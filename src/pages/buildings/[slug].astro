@@ -34,7 +34,6 @@ const production = pageData.resource_production ?? null;
       <h1>{pageData.name}</h1>
       <p>
         {pageData.rarity_name && <span class="rarity">{pageData.rarity_name}</span>}
-        {pageData.profession_name && <span> · {pageData.profession_name}</span>}
         {pageData.cost > 0 && <span> · Cost {pageData.cost}</span>}
         <span> · Power {pageData.combat_power}</span>
       </p>
@@ -71,14 +70,13 @@ const production = pageData.resource_production ?? null;
     {production && (
       <section>
         <h2>Resource Production</h2>
-        <p>Produces: {production.item_name}</p>
         <table>
           <thead>
             <tr><th>Level</th><th>Production</th><th>Capacity</th></tr>
           </thead>
           <tbody>
             {production.levels.map((l) => (
-              <tr><td>{l.level}</td><td>{l.production}/hr</td><td>{l.capacity}</td></tr>
+              <tr><td>{l.level}</td><td>{l.production}/tick</td><td>{l.capacity}</td></tr>
             ))}
           </tbody>
         </table>
@@ -109,6 +107,17 @@ const production = pageData.resource_production ?? null;
           ))}
         </tbody>
       </table>
+    </section>
+
+    <section>
+      <h2>Related</h2>
+      <ul style="columns:2;column-gap:2rem;">
+        <li><a href="/buildings/">Browse All Buildings</a></li>
+        <li><a href="/tools/evolution/">Upgrade Costs & Evolution</a></li>
+        <li><a href="/heroes/">Browse Heroes</a></li>
+        <li><a href="/special/">Special Entities</a></li>
+        {production?.levels?.[0]?.item_name && <li>Produces: {production.levels[0].item_name}</li>}
+      </ul>
     </section>
   </article>
 </BaseLayout>

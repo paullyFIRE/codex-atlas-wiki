@@ -11,7 +11,16 @@ const items = index.items ?? [];
   description={`Browse all ${items.length} heroes in War Inc: Rising. Filter by rarity, profession, and stats to find the best units.`}
 >
   <h1>All Heroes</h1>
-  <p>{items.length} playable units — sorted by combat power.</p>
+  <p>{items.length} playable units.</p>
+
+  <nav style="margin-bottom:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;font-size:0.9rem;">
+    <a href="/professions/">By Class</a>
+    <a href="/guides/best-low-cost-units/">Best Low Cost</a>
+    <a href="/guides/best-mid-cost-units/">Best Mid Cost</a>
+    <a href="/guides/best-high-cost-units/">Best High Cost</a>
+    <a href="/build-team/">Team Builder</a>
+    <a href="/compare/">Comparisons</a>
+  </nav>
 
   <ul>
     {items.sort((a, b) => b.combat_power - a.combat_power).map((item) => (

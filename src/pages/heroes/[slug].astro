@@ -22,6 +22,10 @@ try {
 if (!pageData) {
   return Astro.redirect('/heroes/', 404);
 }
+
+const topRelated = pageData.related?.[0];
+const costBracket = pageData.cost <= 2 ? 'low' : pageData.cost <= 4 ? 'mid' : 'high';
+const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'High';
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
@@ -43,7 +47,15 @@ if (!pageData) {
       </p>
     </header>
 
-    <section>
+    <nav style="margin-bottom:1rem;font-size:0.9rem;display:flex;gap:1rem;flex-wrap:wrap;">
+      <a href="#stats">Stats</a>
+      {pageData.skills.length > 0 && <a href="#skills">Skills</a>}
+      <a href="#strategy">Strategy</a>
+      {pageData.related.length > 0 && <a href="#related">Related</a>}
+      <a href="#resources">More</a>
+    </nav>
+
+    <section id="stats">
       <h2>What are {pageData.name}'s stats by level?</h2>
       <table>
         <thead>
@@ -76,7 +88,7 @@ if (!pageData) {
     </section>
 
     {pageData.skills.length > 0 && (
-      <section>
+      <section id="skills">
         <h2>What skills does {pageData.name} have?</h2>
         {pageData.skills.map((skill) => (
           <div class="skill">
@@ -109,7 +121,7 @@ if (!pageData) {
       </section>
     )}
 
-    <section>
+    <section id="strategy">
       <h2>How to use {pageData.name} effectively?</h2>
       <ul>
         {pageData.strategy_tips?.map((tip) => <li>{tip}</li>)}
@@ -117,7 +129,7 @@ if (!pageData) {
     </section>
 
     {pageData.related.length > 0 && (
-      <section>
+      <section id="related">
         <h2>Related Heroes</h2>
         <ul>
           {pageData.related.map((r) => (
@@ -130,15 +142,18 @@ if (!pageData) {
       </section>
     )}
 
-    <section>
-      <h2>More Resources</h2>
-      <p>
-        <a href={`/professions/${pageData.profession_name?.toLowerCase()}/`}>All {pageData.profession_name}s</a>
-        {' · '}
-        <a href={`/guides/best-${pageData.cost <= 2 ? 'low' : pageData.cost <= 4 ? 'mid' : 'high'}-cost-units/`}>Best {pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'High'} Cost Units</a>
-        {' · '}
-        <a href={`/heroes/`}>All Heroes</a>
-      </p>
+    <section id="resources">
+      <h2>Quick Links</h2>
+      <ul style="columns:2;column-gap:2rem;">
+        <li><a href={`/professions/${pageData.profession_name?.toLowerCase()}/`}>All {pageData.profession_name}s</a></li>
+        <li><a href={`/guides/best-${costBracket}-cost-units/`}>Best {costLabel} Cost Units</a></li>
+        <li><a href={`/heroes/`}>Browse All Heroes</a></li>
+        {topRelated && <li><a href={`/compare/${pageData.slug}-vs-${topRelated.slug}/`}>{pageData.name} vs {topRelated.name}</a></li>}
+        <li><a href={`/build-team/`}>Team Builder — add {pageData.name} to a formation</a></li>
+        <li><a href={`/guides/best-heroes-for-general-lineup/`}>Best Heroes for General Lineup</a></li>
+        <li><a href={`/rarities/${pageData.rarity_name?.toLowerCase()}-units/`}>All {pageData.rarity_name} Units</a></li>
+        <li><a href="/tools/">Tools & Calculators</a></li>
+      </ul>
     </section>
   </article>
 </BaseLayout>
