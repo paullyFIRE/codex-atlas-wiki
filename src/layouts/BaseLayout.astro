@@ -8,9 +8,10 @@ interface Props {
   description?: string;
   image?: string;
   currentSection?: string;
+  noindex?: boolean;
 }
 
-const { title, description, image, currentSection } = Astro.props;
+const { title, description, image, currentSection, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
 // Analytics — set these in your environment or replace directly
@@ -24,6 +25,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <meta name="generator" content={Astro.generator} />
 
     <meta property="og:type" content="website" />
