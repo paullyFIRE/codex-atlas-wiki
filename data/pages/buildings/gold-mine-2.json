@@ -302,6 +302,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Gold Mine a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gold Mine is a Rare Ranger unit with a cost of 0 and combat power of 231. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Gold Mine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gold Mine is a Ranger unit best suited for ranged physical damage from the back line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Gold Mine in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gold Mine costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

@@ -1,0 +1,70 @@
+{
+  "slug": "war-inc-rising-how-to-get-mythic-heroes",
+  "name": "How to Get Mythic Heroes in War Inc: Rising — Complete Summoning Guide",
+  "title": "How to Get Mythic Heroes in War Inc: Rising — Summoning and Gem Guide",
+  "meta_description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
+  "type": "blog",
+  "date": "2026-03-01",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "What Are Mythic Heroes?",
+      "content": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currently 34 Mythic heroes in the game, including Light Seeker, Frost Queen, Radiant Warrior, and Tide Lord. Building a roster of Mythic heroes is the key to competing at the highest levels."
+    },
+    {
+      "heading": "Summoning Methods",
+      "content": "Permanent Summon gives consistent Mythic chances over time with no expiration. Limited Summon events feature specific Mythic heroes at boosted rates. Event Summons appear during seasonal content and often include exclusive Mythic units. Save your gems for Limited Summon events featuring top-tier Mythics like those in the Light vs Dark season banners."
+    },
+    {
+      "heading": "Gem Spending Strategy for Mythics",
+      "content": "The most efficient way to acquire Mythic heroes is to save 30,000-50,000 gems for Limited Summon events. Never spend gems on random permanent summons if you're targeting a specific Mythic. Daily and weekly missions, Arena rewards, and event milestones are your main sources of free gems. Consider the $5 monthly gem pass for the best value-to-cost ratio if you spend money."
+    },
+    {
+      "heading": "Events and Special Banners",
+      "content": "The Light vs Dark season introduced new Mythics like Light Seeker, Necromancer, Shadow Witch, and Solar Sage. Seasonal events often include Mythic shards as milestone rewards. Clan Wars and Co-Op mode rewards occasionally include Mythic summon scrolls. Save your event currency for Mythic-specific rewards rather than spending on lower-rarity items."
+    }
+  ],
+  "preview": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currentl...",
+  "related_heroes": [
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
+    },
+    {
+      "name": "Necromancer",
+      "slug": "necromancer"
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord"
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker"
+    },
+    {
+      "name": "Solar Sage",
+      "slug": "solar-sage"
+    },
+    {
+      "name": "Shadow Witch",
+      "slug": "shadow-witch"
+    }
+  ],
+  "word_count": 227,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Get Mythic Heroes in War Inc: Rising — Complete Summoning Guide",
+    "description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
+    "datePublished": "2026-03-01",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

@@ -307,6 +307,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Bone Gunner a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bone Gunner is a Legendary Warrior unit with a cost of 6 and combat power of 258. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Bone Gunner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bone Gunner is a Warrior unit best suited for dealing melee damage and holding the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Bone Gunner in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bone Gunner costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Bone Gunner in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bone Gunner is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

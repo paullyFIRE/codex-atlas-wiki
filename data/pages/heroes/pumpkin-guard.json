@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Pumpkin Guard a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pumpkin Guard is a Epic Special unit with a cost of 6 and combat power of 298. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Pumpkin Guard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pumpkin Guard is a Special unit best suited for providing unique utility to the team."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Pumpkin Guard in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pumpkin Guard costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

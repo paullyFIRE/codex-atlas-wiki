@@ -1,0 +1,41 @@
+{
+  "slug": "war-inc-rising-merge-evolution-guide",
+  "name": "War Inc: Rising Merge and Evolution Guide — Forge Stones Strategy",
+  "title": "War Inc: Rising Merge and Evolution Guide — Level Up Your Heroes",
+  "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
+  "type": "blog",
+  "date": "2026-05-01",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Merge Levels Explained",
+      "content": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant power spike. Merge Level 12 is the maximum and grants the strongest version of every skill. Focus on getting your core team to Merge 6 before spreading resources to backup heroes."
+    },
+    {
+      "heading": "Forge Stones — The Bottleneck Resource",
+      "content": "Forge Stones are required from Merge Level 6 onwards and are the most scarce resource in the game. You can obtain them from Hunting mode rewards, Infinite War, daily chests, and event shops. Never spend Forge Stones on heroes you don't use regularly — they're too valuable. A common mistake is spreading Forge Stones across 10+ heroes instead of focusing on 3-5 core units."
+    },
+    {
+      "heading": "Evolution Paths and Costs",
+      "content": "Hero evolution uses Forge Stones and Silver Coins. The cost increases with each merge level. Save your Silver Coins for evolution rather than spending on random upgrades. Higher-rarity heroes have higher evolution costs but also higher stat gains per level. Use our evolution calculator tool to plan which hero to upgrade next based on your available resources."
+    },
+    {
+      "heading": "When to Merge vs When to Wait",
+      "content": "Merging temporarily reduces your roster because you consume copies of the hero. Plan merges between game sessions when you won't need full strength for 12-24 hours. Never merge your last deployable copy of a hero you actively use. Save major merges for after you've completed daily missions and Arena placements."
+    }
+  ],
+  "preview": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant ...",
+  "related_heroes": [],
+  "word_count": 236,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Merge and Evolution Guide — Forge Stones Strategy",
+    "description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
+    "datePublished": "2026-05-01",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

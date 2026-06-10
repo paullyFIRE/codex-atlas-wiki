@@ -1,0 +1,54 @@
+{
+  "slug": "war-inc-rising-formation-guide",
+  "name": "War Inc: Rising Formation Guide — Dash, Backstab, Outflank and Split",
+  "title": "War Inc: Rising Formation Guide — Master All 4 Battle Formations",
+  "meta_description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
+  "type": "blog",
+  "date": "2026-03-10",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Why Formation Matters",
+      "content": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's effectiveness regardless of hero quality. Understanding formations is the single biggest skill gap between intermediate and advanced players."
+    },
+    {
+      "heading": "Dash Formation — The Standard",
+      "content": "Dash is the default formation — your leftmost units engage the enemy's front line directly. Your A1 attacks F1, A2 attacks F2, and so on. This formation maximizes the effectiveness of aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. Strong against: nothing in particular. Weak against: Backstab formations that bypass your frontline to hit damage dealers."
+    },
+    {
+      "heading": "Backstab Formation — The Aggressor",
+      "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation. Use it with Bomber units that self-destruct for massive AoE damage. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum coverage. Strong against Dash formations. Weak against Split formations that split your forces."
+    },
+    {
+      "heading": "Outflank Formation — The Tactician's Choice",
+      "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks, drawing aggro while your main force advances through the center. This formation is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Strong against Frost Queen-centric teams. Weak against Split formations that split your flanking forces."
+    },
+    {
+      "heading": "Split Formation — The Defensive Master",
+      "content": "Split shifts left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup. It counters Backstab formations by splitting the enemy's backstab into two ineffective groups. Strong against Backstab. Weak against Dash, which engages each half of your split force individually."
+    }
+  ],
+  "preview": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's eff...",
+  "related_heroes": [
+    {
+      "name": "Bomber",
+      "slug": "bomber"
+    },
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    }
+  ],
+  "word_count": 280,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Formation Guide — Dash, Backstab, Outflank and Split",
+    "description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
+    "datePublished": "2026-03-10",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

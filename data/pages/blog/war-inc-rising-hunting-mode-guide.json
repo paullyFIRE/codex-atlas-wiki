@@ -1,0 +1,62 @@
+{
+  "slug": "war-inc-rising-hunting-mode-guide",
+  "name": "War Inc: Rising Hunting Mode Guide — Bosses, Tips and Rewards",
+  "title": "War Inc: Rising Hunting Mode Guide — Best Heroes and Boss Strategy",
+  "meta_description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
+  "type": "blog",
+  "date": "2026-04-10",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Hunting Mode Overview",
+      "content": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the best sources of Forge Stones and Legendary hero shards — both essential for progression."
+    },
+    {
+      "heading": "Best Heroes for Hunting",
+      "content": "Hunting mode favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here — Ghost Assassin, Bone Marksman, and Mist Archer are top picks. Frontline Tanks are essential to keep the boss occupied while your damage dealers work. Support heroes with healing like Grace Priest extend your team's survivability."
+    },
+    {
+      "heading": "Hunting Rewards Explained",
+      "content": "Higher difficulty levels in Hunting mode yield better rewards. Forge Stones are a common drop and essential for pushing hero merge levels past 6. Gold and hero shards are also available. Building a dedicated Hunting team that can consistently clear the highest difficulty is one of the best long-term investments in the game."
+    },
+    {
+      "heading": "Daily Hunting Strategy",
+      "content": "Always complete your daily Hunting runs — even if you can't clear the highest difficulty, the lower-tier rewards still provide value. Study each boss's attack patterns before the fight. Time your hero deployment to avoid the boss's AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage."
+    }
+  ],
+  "preview": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the b...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Grace Priest",
+      "slug": "grace-priest"
+    },
+    {
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin"
+    },
+    {
+      "name": "Bone Marksman",
+      "slug": "bone-marksman"
+    },
+    {
+      "name": "Mist Archer",
+      "slug": "mist-archer"
+    }
+  ],
+  "word_count": 201,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Hunting Mode Guide — Bosses, Tips and Rewards",
+    "description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
+    "datePublished": "2026-04-10",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

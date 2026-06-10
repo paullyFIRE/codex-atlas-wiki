@@ -1,0 +1,41 @@
+{
+  "slug": "war-inc-rising-best-team-compositions",
+  "name": "War Inc: Rising Best Team Compositions — Synergies and Formations",
+  "title": "War Inc: Rising Best Team Compositions — Ultimate Synergy Guide",
+  "meta_description": "Build the ultimate team in War Inc: Rising. Learn the best hero synergies, team compositions for each game mode, and how to balance cost, rarity, and professions.",
+  "type": "blog",
+  "date": "2026-02-20",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "The Fundamentals of Team Building",
+      "content": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Pay attention to Elixir cost — a balanced cost curve ensures you can deploy units throughout the match."
+    },
+    {
+      "heading": "Cost-Bracket Strategies",
+      "content": "Low-cost teams (0-2 Elixir) rely on numbers and quick deployment. They excel at overwhelming opponents with swarms but lack the punch to take down high-HP targets. Mid-cost teams (3-4 Elixir) offer the best balance of value and power — most competitive teams fall here. High-cost teams (5+ Elixir) are powerful but slow to deploy; use them when you can protect them long enough to reach the battlefield."
+    },
+    {
+      "heading": "Profession Synergies",
+      "content": "Tank + Mage combinations create a classic wall-and-spray formation. Warrior + Support pairs provide sustained frontline pressure. Assassin + Ranger combinations offer focused backline elimination. The key is ensuring your damage dealers match the enemy's vulnerabilities while your frontline holds position."
+    },
+    {
+      "heading": "Mode-Specific Team Building",
+      "content": "For General Lineup, balance is key — aim for one hero from each profession. For Ace Showdown, prioritize high-burst heroes and Assassins. For Co-Op, focus on sustainability and AoE damage. For Hunting mode, single-target damage dealers shine. Always check the mode rules before building your team."
+    }
+  ],
+  "preview": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least ...",
+  "related_heroes": [],
+  "word_count": 217,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Best Team Compositions — Synergies and Formations",
+    "description": "Build the ultimate team in War Inc: Rising. Learn the best hero synergies, team compositions for each game mode, and how to balance cost, rarity, and professions.",
+    "datePublished": "2026-02-20",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

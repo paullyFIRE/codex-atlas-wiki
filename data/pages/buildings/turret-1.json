@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Turret a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Turret is a Rare Warrior unit with a cost of 0 and combat power of 406. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Turret?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Turret is a Warrior unit best suited for dealing melee damage and holding the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Turret in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Turret costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

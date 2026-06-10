@@ -3,15 +3,15 @@
   "slug": "temple",
   "name": "Temple",
   "title": "Temple - Stats | War Inc: Rising Wiki",
-  "meta_description": "Learn about Temple in War Inc: Rising. Unknown Unknown unit costing None. HP 4860, ATK -, DEF 3 per level, skills, and best game modes.",
+  "meta_description": "Learn about Temple in War Inc: Rising. Unknown Unknown unit costing 0. HP 4860, ATK -, DEF 3 per level, skills, and best game modes.",
   "type": "buildings",
   "unit_type": null,
-  "rarity": null,
+  "rarity": 0,
   "rarity_name": "Unknown",
   "profession": null,
   "profession_name": "Unknown",
-  "cost": null,
-  "combat_power": null,
+  "cost": 0,
+  "combat_power": 0,
   "atk_range": null,
   "stats_table": [
     {
@@ -156,12 +156,12 @@
       {
         "@type": "PropertyValue",
         "name": "Cost",
-        "value": "None"
+        "value": "0"
       },
       {
         "@type": "PropertyValue",
         "name": "Combat Power",
-        "value": "None"
+        "value": "0"
       },
       {
         "@type": "PropertyValue",
@@ -180,6 +180,36 @@
       "@type": "Organization",
       "name": "Fastone Games"
     }
+  },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Temple a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Temple is a Unknown Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Temple?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Temple is a Unknown unit best suited for providing unique utility to the team."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Temple in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Temple costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
   },
   "breadcrumb_schema": {
     "@context": "https://schema.org",

@@ -1,0 +1,182 @@
+{
+  "slug": "special-tier-list",
+  "name": "Special Tier List",
+  "title": "War Inc: Rising Best Special Heroes — Special Tier List 2026",
+  "meta_description": "Ranking of all 14 Special heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Special for your team.",
+  "type": "tier-lists",
+  "tier_name": "Special Heroes",
+  "profession_id": 8,
+  "profession_name": "Special",
+  "class_name": "Special",
+  "tiers": {
+    "A": [
+      {
+        "id": 744,
+        "name": "Flame Duelist",
+        "slug": "flame-duelist",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 469
+      },
+      {
+        "id": 743,
+        "name": "Barbarian Tyrant",
+        "slug": "barbarian-tyrant",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 464
+      },
+      {
+        "id": 762,
+        "name": "Radiant Warrior",
+        "slug": "radiant-warrior",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 449
+      },
+      {
+        "id": 749,
+        "name": "The Knight King",
+        "slug": "the-knight-king",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 420
+      },
+      {
+        "id": 735,
+        "name": "Woodland Guardian",
+        "slug": "woodland-guardian",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 407
+      }
+    ],
+    "B": [
+      {
+        "id": 712,
+        "name": "The Blade of Earth",
+        "slug": "the-blade-of-earth",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 393
+      },
+      {
+        "id": 657,
+        "name": "Iron Bulwark",
+        "slug": "iron-bulwark",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 6,
+        "combat_power": 341
+      },
+      {
+        "id": 721,
+        "name": "Ironguard",
+        "slug": "ironguard",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 6,
+        "combat_power": 324
+      },
+      {
+        "id": 621,
+        "name": "Sakura Ronin",
+        "slug": "sakura-ronin",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 6,
+        "combat_power": 324
+      },
+      {
+        "id": 830,
+        "name": "Pumpkin Guard",
+        "slug": "pumpkin-guard",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 6,
+        "combat_power": 298
+      }
+    ],
+    "C": [
+      {
+        "id": 835,
+        "name": "Paladin",
+        "slug": "paladin",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 3,
+        "combat_power": 235
+      },
+      {
+        "id": 803,
+        "name": "Woodshield Guard",
+        "slug": "woodshield-guard",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 2,
+        "combat_power": 113
+      },
+      {
+        "id": 836,
+        "name": "Goblin Chef",
+        "slug": "goblin-chef",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 4,
+        "combat_power": 109
+      }
+    ],
+    "F": [
+      {
+        "id": 794,
+        "name": "Dark Knight",
+        "slug": "dark-knight",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 8,
+        "profession_name": "Special",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 14,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Special Heroes — Special Tier List 2026",
+    "description": "Ranking of all 14 Special heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Special for your team."
+  }
+}

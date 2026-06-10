@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CalloutBox from '../../components/content/CalloutBox.astro';
+
+const RARITY_LABELS = {1: "Common", 2: "Rare", 3: "Epic", 4: "Legendary", 5: "Mythic"};
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/tier-lists/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/tier-lists/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/tier-lists/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/tier-lists/${slug}.json`];
+if (!pageData) return Astro.redirect('/tier-lists/', 404);
+
+const tierDisplay = {
+  S: { label: "S-Tier", color: "#ff4444", desc: "Best heroes — must-have in this category" },
+  A: { label: "A-Tier", color: "#ff8800", desc: "Excellent choices for most situations" },
+  B: { label: "B-Tier", color: "#ffcc00", desc: "Good, situational picks" },
+  C: { label: "C-Tier", color: "#88cc44", desc: "Average performance" },
+  D: { label: "D-Tier", color: "#4488cc", desc: "Below average — niche use only" },
+  F: { label: "F-Tier", color: "#8844aa", desc: "Not recommended for this category" },
+};
+
+const tierOrder = ["S", "A", "B", "C", "D", "F"];
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description} currentSection="guides">
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/tier-lists/">Tier Lists</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <h1>{pageData.name}</h1>
+    <p>{pageData.meta_description}</p>
+
+    <div class="card card-pad-sm" style="background: var(--color-bg-elevated); margin-bottom: var(--space-4); font-size: var(--text-sm);">
+      <strong>How to read this tier list:</strong>
+      <ul style="margin: var(--space-1) 0 0 0;">
+        <li>Rankings based on combat power from extracted game data</li>
+        <li>S-Tier = highest combat power, F-Tier = lowest</li>
+        <li>Click any hero name for detailed stats and skills</li>
+      </ul>
+    </div>
+
+    {tierOrder.filter(t => pageData.tiers[t]?.length > 0).map((tier) => (
+      <section style="margin-bottom: var(--space-5);">
+        <h2 style="color: {tierDisplay[tier].color}; border-bottom: 3px solid {tierDisplay[tier].color}; padding-bottom: var(--space-1);">
+          {tierDisplay[tier].label}
+          <span style="font-size: var(--text-sm); font-weight: var(--weight-normal); color: var(--color-text-muted); margin-left: var(--space-2);">
+            ({pageData.tiers[tier].length} heroes)
+          </span>
+        </h2>
+        <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-1);">{tierDisplay[tier].desc}</p>
+
+        <div class="table-wrap">
+          <table class="wiki-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Hero</th>
+                {pageData.class_name && <th>Class</th>}
+                <th>Rarity</th>
+                <th>Cost</th>
+                <th>Combat Power</th>
+              </tr>
+            </thead>
+            <tbody>
+              {pageData.tiers[tier].map((u, i) => (
+                <tr>
+                  <td data-type="number">{i + 1}</td>
+                  <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
+                  {pageData.class_name && <td>{u.profession_name}</td>}
+                  <td>{RARITY_LABELS[u.rarity] || u.rarity_name}</td>
+                  <td data-type="number">{u.cost}</td>
+                  <td data-type="number">{u.combat_power}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+
+    <p style="margin-top: var(--space-4);">
+      <a href="/tier-lists/">All Tier Lists</a> · <a href="/guides/">Strategy Guides</a> · <a href="/heroes/">Browse Heroes</a>
+    </p>
+  </article>
+</BaseLayout>

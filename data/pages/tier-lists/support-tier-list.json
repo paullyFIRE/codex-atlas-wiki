@@ -1,0 +1,44 @@
+{
+  "slug": "support-tier-list",
+  "name": "Support Tier List",
+  "title": "War Inc: Rising Best Support Heroes — Support Tier List 2026",
+  "meta_description": "Ranking of all 2 Support heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Support for your team.",
+  "type": "tier-lists",
+  "tier_name": "Support Heroes",
+  "profession_id": 6,
+  "profession_name": "Support",
+  "class_name": "Support",
+  "tiers": {
+    "F": [
+      {
+        "id": 750,
+        "name": "Steam Robot",
+        "slug": "steam-robot",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 6,
+        "profession_name": "Support",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 789,
+        "name": "Weapon Sage",
+        "slug": "weapon-sage",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 6,
+        "profession_name": "Support",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 2,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Support Heroes — Support Tier List 2026",
+    "description": "Ranking of all 2 Support heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Support for your team."
+  }
+}

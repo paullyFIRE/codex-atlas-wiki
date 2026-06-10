@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Ancient Guardian a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ancient Guardian is a Rare Assassin unit with a cost of 0 and combat power of 588. It is an excellent unit for most game modes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Ancient Guardian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ancient Guardian is a Assassin unit best suited for bursting down high-priority targets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Ancient Guardian in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ancient Guardian costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

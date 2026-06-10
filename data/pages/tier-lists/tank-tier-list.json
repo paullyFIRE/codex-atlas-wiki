@@ -1,0 +1,270 @@
+{
+  "slug": "tank-tier-list",
+  "name": "Tank Tier List",
+  "title": "War Inc: Rising Best Tank Heroes — Tank Tier List 2026",
+  "meta_description": "Ranking of all 22 Tank heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Tank for your team.",
+  "type": "tier-lists",
+  "tier_name": "Tank Heroes",
+  "profession_id": 3,
+  "profession_name": "Tank",
+  "class_name": "Tank",
+  "tiers": {
+    "A": [
+      {
+        "id": 845,
+        "name": "Tide Lord",
+        "slug": "tide-lord",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 10,
+        "combat_power": 463
+      },
+      {
+        "id": 846,
+        "name": "Blazeking",
+        "slug": "blazeking",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 10,
+        "combat_power": 463
+      },
+      {
+        "id": 705,
+        "name": "Blazewing Lord",
+        "slug": "blazewing-lord",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 403
+      },
+      {
+        "id": 734,
+        "name": "Nine-Tailed Fox",
+        "slug": "nine-tailed-fox",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 403
+      },
+      {
+        "id": 849,
+        "name": "Solar Sage",
+        "slug": "solar-sage",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 403
+      },
+      {
+        "id": 850,
+        "name": "Shadow Witch",
+        "slug": "shadow-witch",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 403
+      }
+    ],
+    "B": [
+      {
+        "id": 704,
+        "name": "Storm Maiden",
+        "slug": "storm-maiden",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 394
+      },
+      {
+        "id": 638,
+        "name": "Geomancer",
+        "slug": "geomancer",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 384
+      },
+      {
+        "id": 783,
+        "name": "Necromancer",
+        "slug": "necromancer",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 378
+      },
+      {
+        "id": 703,
+        "name": "Frost Queen",
+        "slug": "frost-queen",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 360
+      },
+      {
+        "id": 627,
+        "name": "Flame Mage",
+        "slug": "flame-mage",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 6,
+        "combat_power": 286
+      },
+      {
+        "id": 624,
+        "name": "Poison Master",
+        "slug": "poison-master",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 6,
+        "combat_power": 283
+      },
+      {
+        "id": 632,
+        "name": "Wind Apostle",
+        "slug": "wind-apostle",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 6,
+        "combat_power": 278
+      },
+      {
+        "id": 640,
+        "name": "Ashen Arcanist",
+        "slug": "ashen-arcanist",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 6,
+        "combat_power": 273
+      },
+      {
+        "id": 726,
+        "name": "Windlord",
+        "slug": "windlord",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 6,
+        "combat_power": 266
+      }
+    ],
+    "C": [
+      {
+        "id": 832,
+        "name": "Bomber",
+        "slug": "bomber",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 4,
+        "combat_power": 242
+      },
+      {
+        "id": 645,
+        "name": "Apprentice Mage",
+        "slug": "apprentice-mage",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 3,
+        "combat_power": 186
+      }
+    ],
+    "F": [
+      {
+        "id": 754,
+        "name": "Pharmacist",
+        "slug": "pharmacist",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 766,
+        "name": "Butterfly Mage",
+        "slug": "butterfly-mage",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 773,
+        "name": "Flame Prisoner",
+        "slug": "flame-prisoner",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 775,
+        "name": "Elemental Dragon",
+        "slug": "elemental-dragon",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 785,
+        "name": "Energy Striker",
+        "slug": "energy-striker",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 3,
+        "profession_name": "Tank",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 22,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Tank Heroes — Tank Tier List 2026",
+    "description": "Ranking of all 22 Tank heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Tank for your team."
+  }
+}

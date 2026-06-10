@@ -441,6 +441,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Grace Priest a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grace Priest is a Legendary Mage unit with a cost of 6 and combat power of 289. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Grace Priest?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grace Priest is a Mage unit best suited for dealing area magic damage from a safe position."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Grace Priest in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grace Priest costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Grace Priest in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grace Priest is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

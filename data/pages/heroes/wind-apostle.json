@@ -404,6 +404,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Wind Apostle a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wind Apostle is a Legendary Tank unit with a cost of 6 and combat power of 278. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Wind Apostle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wind Apostle is a Tank unit best suited for tanking and absorbing damage on the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Wind Apostle in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wind Apostle costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Wind Apostle in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wind Apostle is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

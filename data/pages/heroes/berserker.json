@@ -340,6 +340,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Berserker a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Berserker is a Rare Assassin unit with a cost of 3 and combat power of 208. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Berserker?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Berserker is a Assassin unit best suited for bursting down high-priority targets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Berserker in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Berserker costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

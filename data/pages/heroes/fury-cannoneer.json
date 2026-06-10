@@ -404,6 +404,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Fury Cannoneer a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fury Cannoneer is a Mythic Warrior unit with a cost of 8 and combat power of 405. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Fury Cannoneer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fury Cannoneer is a Warrior unit best suited for dealing melee damage and holding the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Fury Cannoneer in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fury Cannoneer costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Fury Cannoneer in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fury Cannoneer is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

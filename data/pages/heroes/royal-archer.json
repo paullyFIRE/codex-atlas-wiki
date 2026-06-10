@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Royal Archer a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Royal Archer is a Epic Warrior unit with a cost of 6 and combat power of 345. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Royal Archer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Royal Archer is a Warrior unit best suited for dealing melee damage and holding the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Royal Archer in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Royal Archer costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

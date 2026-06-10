@@ -340,6 +340,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Barbarian Tyrant a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Barbarian Tyrant is a Mythic Special unit with a cost of 8 and combat power of 464. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Barbarian Tyrant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Barbarian Tyrant is a Special unit best suited for providing unique utility to the team."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Barbarian Tyrant in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Barbarian Tyrant costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Barbarian Tyrant in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Barbarian Tyrant is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

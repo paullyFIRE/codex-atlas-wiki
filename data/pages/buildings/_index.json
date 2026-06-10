@@ -88,8 +88,8 @@
       "slug": "command-center-2",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -98,8 +98,8 @@
       "slug": "magic-source",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -138,8 +138,8 @@
       "slug": "statue",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -148,8 +148,8 @@
       "slug": "watchtower",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -158,8 +158,8 @@
       "slug": "alchemy-house",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -168,8 +168,8 @@
       "slug": "temple",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -178,8 +178,8 @@
       "slug": "camp",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -188,8 +188,8 @@
       "slug": "military-academy",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -198,8 +198,8 @@
       "slug": "rest-hut",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -208,8 +208,8 @@
       "slug": "city-wall",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -228,8 +228,8 @@
       "slug": "mystic-spire",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {

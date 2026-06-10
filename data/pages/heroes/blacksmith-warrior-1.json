@@ -357,6 +357,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Blacksmith Warrior a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blacksmith Warrior is a Mythic Assassin unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Blacksmith Warrior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blacksmith Warrior is a Assassin unit best suited for bursting down high-priority targets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Blacksmith Warrior in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blacksmith Warrior costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Blacksmith Warrior in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blacksmith Warrior is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

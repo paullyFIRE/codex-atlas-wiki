@@ -421,6 +421,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Bounty Hunter a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bounty Hunter is a Mythic Warrior unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Bounty Hunter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bounty Hunter is a Warrior unit best suited for dealing melee damage and holding the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Bounty Hunter in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bounty Hunter costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Bounty Hunter in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bounty Hunter is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

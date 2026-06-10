@@ -489,6 +489,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Great Axe Warrior a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Great Axe Warrior is a Legendary Assassin unit with a cost of 6 and combat power of 358. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Great Axe Warrior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Great Axe Warrior is a Assassin unit best suited for bursting down high-priority targets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Great Axe Warrior in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Great Axe Warrior costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Great Axe Warrior in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Great Axe Warrior is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

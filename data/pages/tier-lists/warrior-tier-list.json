@@ -1,0 +1,195 @@
+{
+  "slug": "warrior-tier-list",
+  "name": "Warrior Tier List",
+  "title": "War Inc: Rising Best Warrior Heroes — Warrior Tier List 2026",
+  "meta_description": "Ranking of all 15 Warrior heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Warrior for your team.",
+  "type": "tier-lists",
+  "tier_name": "Warrior Heroes",
+  "profession_id": 2,
+  "profession_name": "Warrior",
+  "class_name": "Warrior",
+  "tiers": {
+    "A": [
+      {
+        "id": 740,
+        "name": "Firepower Vanguard",
+        "slug": "firepower-vanguard",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 433
+      },
+      {
+        "id": 711,
+        "name": "Bone Marksman",
+        "slug": "bone-marksman",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 407
+      },
+      {
+        "id": 742,
+        "name": "Jungle Ranger",
+        "slug": "jungle-ranger",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 407
+      },
+      {
+        "id": 848,
+        "name": "Light Seeker",
+        "slug": "light-seeker",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 407
+      },
+      {
+        "id": 739,
+        "name": "Fury Cannoneer",
+        "slug": "fury-cannoneer",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 405
+      }
+    ],
+    "B": [
+      {
+        "id": 741,
+        "name": "Mist Archer",
+        "slug": "mist-archer",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 392
+      },
+      {
+        "id": 843,
+        "name": "Royal Archer",
+        "slug": "royal-archer",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 6,
+        "combat_power": 345
+      },
+      {
+        "id": 719,
+        "name": "Blast Dwarf",
+        "slug": "blast-dwarf",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 6,
+        "combat_power": 312
+      },
+      {
+        "id": 729,
+        "name": "Elven Archer",
+        "slug": "elven-archer",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 6,
+        "combat_power": 286
+      },
+      {
+        "id": 658,
+        "name": "Bone Gunner",
+        "slug": "bone-gunner",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 6,
+        "combat_power": 258
+      }
+    ],
+    "C": [
+      {
+        "id": 631,
+        "name": "Forest Scout",
+        "slug": "forest-scout",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 3,
+        "combat_power": 195
+      },
+      {
+        "id": 831,
+        "name": "Cannon Chariot",
+        "slug": "cannon-chariot",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 4,
+        "combat_power": 133
+      }
+    ],
+    "D": [
+      {
+        "id": 618,
+        "name": "Archer",
+        "slug": "archer",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 2,
+        "combat_power": 97
+      },
+      {
+        "id": 622,
+        "name": "Gunner",
+        "slug": "gunner",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 2,
+        "combat_power": 96
+      }
+    ],
+    "F": [
+      {
+        "id": 800,
+        "name": "Bounty Hunter",
+        "slug": "bounty-hunter",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 2,
+        "profession_name": "Warrior",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 15,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Warrior Heroes — Warrior Tier List 2026",
+    "description": "Ranking of all 15 Warrior heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Warrior for your team."
+  }
+}

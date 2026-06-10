@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Lava Eater a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lava Eater is a Common Assassin unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Lava Eater?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lava Eater is a Assassin unit best suited for bursting down high-priority targets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Lava Eater in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lava Eater costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

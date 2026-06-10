@@ -1,0 +1,228 @@
+{
+  "slug": "mage-tier-list",
+  "name": "Mage Tier List",
+  "title": "War Inc: Rising Best Mage Heroes — Mage Tier List 2026",
+  "meta_description": "Ranking of all 18 Mage heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Mage for your team.",
+  "type": "tier-lists",
+  "tier_name": "Mage Heroes",
+  "profession_id": 5,
+  "profession_name": "Mage",
+  "class_name": "Mage",
+  "tiers": {
+    "A": [
+      {
+        "id": 738,
+        "name": "Ripple Wizard",
+        "slug": "ripple-wizard",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 408
+      }
+    ],
+    "B": [
+      {
+        "id": 706,
+        "name": "Starlight Apostle",
+        "slug": "starlight-apostle",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 392
+      },
+      {
+        "id": 708,
+        "name": "Darkmoon Queen",
+        "slug": "darkmoon-queen",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 391
+      },
+      {
+        "id": 736,
+        "name": "Melody Weaver",
+        "slug": "melody-weaver",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 390
+      },
+      {
+        "id": 656,
+        "name": "Soul Usher",
+        "slug": "soul-usher",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 323
+      },
+      {
+        "id": 628,
+        "name": "Ursa Champion",
+        "slug": "ursa-champion",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 317
+      },
+      {
+        "id": 626,
+        "name": "Snowman Warrior",
+        "slug": "snowman-warrior",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 293
+      },
+      {
+        "id": 643,
+        "name": "Oracle",
+        "slug": "oracle",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 290
+      },
+      {
+        "id": 718,
+        "name": "Grace Priest",
+        "slug": "grace-priest",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 289
+      }
+    ],
+    "C": [
+      {
+        "id": 659,
+        "name": "Bone Warlock",
+        "slug": "bone-warlock",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 6,
+        "combat_power": 242
+      },
+      {
+        "id": 838,
+        "name": "Goblin Shaman",
+        "slug": "goblin-shaman",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 3,
+        "combat_power": 235
+      },
+      {
+        "id": 839,
+        "name": "Wooden Wizard",
+        "slug": "wooden-wizard",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 5,
+        "combat_power": 162
+      },
+      {
+        "id": 623,
+        "name": "Demoman",
+        "slug": "demoman",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 2,
+        "combat_power": 108
+      }
+    ],
+    "D": [
+      {
+        "id": 630,
+        "name": "Snowball Thrower",
+        "slug": "snowball-thrower",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 2,
+        "combat_power": 91
+      }
+    ],
+    "F": [
+      {
+        "id": 760,
+        "name": "Frost Wizard",
+        "slug": "frost-wizard",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 787,
+        "name": "Crystal Cat",
+        "slug": "crystal-cat",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 796,
+        "name": "Stasis Guard",
+        "slug": "stasis-guard",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 798,
+        "name": "Gaia",
+        "slug": "gaia",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 5,
+        "profession_name": "Mage",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 18,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Mage Heroes — Mage Tier List 2026",
+    "description": "Ranking of all 18 Mage heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Mage for your team."
+  }
+}

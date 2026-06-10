@@ -340,6 +340,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Demoman a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Demoman is a Common Mage unit with a cost of 2 and combat power of 108. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Demoman?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Demoman is a Mage unit best suited for dealing area magic damage from a safe position."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Demoman in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Demoman costs 2 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

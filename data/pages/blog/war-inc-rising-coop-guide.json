@@ -1,0 +1,70 @@
+{
+  "slug": "war-inc-rising-coop-guide",
+  "name": "War Inc: Rising Co-Op Guide — Best Heroes and Strategies for Level 80+",
+  "title": "War Inc: Rising Co-Op Guide — Best Heroes, Strategy and Rewards",
+  "meta_description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
+  "type": "blog",
+  "date": "2026-02-10",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Co-Op Mode Overview",
+      "content": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and rare hero shards. Reaching higher levels requires both players to understand the optimal strategy."
+    },
+    {
+      "heading": "Best Heroes for Co-Op",
+      "content": "Top-tier Co-Op heroes excel at sustained damage and survival. Mist Archer provides consistent ranged DPS with stealth mechanics. Venospore Killer applies powerful damage-over-time. Flame Duelist delivers combo attacks. Nine-Tailed Fox offers burst damage. Melody Weaver provides crucial buffs to your partner's team as well. Oracle's aura buffs at level 7 cover extensive battlefield area."
+    },
+    {
+      "heading": "The Mine Upgrade Strategy",
+      "content": "To reach level 80+ in Co-Op, focus your Silver Coins on Mine upgrades over Recruit Chance early on. Mine upgrades provide compounding returns as the game progresses. Use Gold to roll the Dice consistently — dice map upgrades can give +100 Silver Coins, +60 Gold, and even Legendary minions. Balance between damage-dealing and buff-providing Mythics for optimal performance."
+    },
+    {
+      "heading": "Team Coordination Tips",
+      "content": "Communicate with your partner before the match starts. Agree on who will focus on mine upgrades and who will recruit. Share resource generation — one player builds economy while the other builds military strength. Both players should have at least one high-level Mythic hero for the later waves. Don't panic if early waves feel easy — the difficulty ramps significantly after wave 50."
+    }
+  ],
+  "preview": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and r...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle"
+    },
+    {
+      "name": "Nine-Tailed Fox",
+      "slug": "nine-tailed-fox"
+    },
+    {
+      "name": "Melody Weaver",
+      "slug": "melody-weaver"
+    },
+    {
+      "name": "Mist Archer",
+      "slug": "mist-archer"
+    },
+    {
+      "name": "Flame Duelist",
+      "slug": "flame-duelist"
+    },
+    {
+      "name": "Venospore Killer",
+      "slug": "venospore-killer"
+    }
+  ],
+  "word_count": 221,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Co-Op Guide — Best Heroes and Strategies for Level 80+",
+    "description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
+    "datePublished": "2026-02-10",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

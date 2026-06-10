@@ -1,0 +1,74 @@
+{
+  "slug": "war-inc-rising-best-mages",
+  "name": "War Inc: Rising Best Mage Heroes — Mage Tier List and Guide",
+  "title": "War Inc: Rising Best Mage Heroes — Complete Mage Tier List 2026",
+  "meta_description": "Complete guide to Mage heroes in War Inc: Rising. Rankings for all Mage heroes, best Mages for each game mode, and how to maximize magic damage output.",
+  "type": "blog",
+  "date": "2026-05-10",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "The Mage Role",
+      "content": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontline protection. Their damage scales exceptionally well with merge levels. Most Mages have elemental attributes (Fire, Water, Wood, Earth) that interact with the game's damage system."
+    },
+    {
+      "heading": "Top Mage Heroes Ranked",
+      "content": "Frost Queen is the premier Mage — her massive AoE ice damage makes her a top-tier pick in Arena and campaign. Storm Maiden and Starlight Apostle provide excellent area control. Blazewing Lord offers aerial mage damage. For lower rarities, Flame Mage and Apprentice Mage provide solid magic DPS. Wind Apostle and Geomancer offer unique utility that complements mage-heavy compositions."
+    },
+    {
+      "heading": "Mage Synergies and Positioning",
+      "content": "Mages need Tanks in front to survive. Position them in the back row (positions G1-G7) for maximum safety. Pair Mages with Support heroes that can heal or shield. Some Mages have self-peel abilities — prioritize these in aggressive formations. In Co-Op mode, Mages with AoE damage can handle wave clearing while your teammate focuses on single-target DPS."
+    },
+    {
+      "heading": "Mage vs Mage: Countering Enemy Magic",
+      "content": "Elemental advantages matter in mage duels. Water beats Fire, Wood beats Water, Fire beats Wood. Check the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy mage advantages through buffs and healing."
+    }
+  ],
+  "preview": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontl...",
+  "related_heroes": [
+    {
+      "name": "Apprentice Mage",
+      "slug": "apprentice-mage"
+    },
+    {
+      "name": "Flame Mage",
+      "slug": "flame-mage"
+    },
+    {
+      "name": "Wind Apostle",
+      "slug": "wind-apostle"
+    },
+    {
+      "name": "Geomancer",
+      "slug": "geomancer"
+    },
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    },
+    {
+      "name": "Storm Maiden",
+      "slug": "storm-maiden"
+    },
+    {
+      "name": "Blazewing Lord",
+      "slug": "blazewing-lord"
+    },
+    {
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle"
+    }
+  ],
+  "word_count": 213,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Best Mage Heroes — Mage Tier List and Guide",
+    "description": "Complete guide to Mage heroes in War Inc: Rising. Rankings for all Mage heroes, best Mages for each game mode, and how to maximize magic damage output.",
+    "datePublished": "2026-05-10",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

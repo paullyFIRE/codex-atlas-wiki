@@ -340,6 +340,44 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Sakura Ronin a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sakura Ronin is a Legendary Special unit with a cost of 6 and combat power of 324. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Sakura Ronin?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sakura Ronin is a Special unit best suited for providing unique utility to the team."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Sakura Ronin in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sakura Ronin costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to get Sakura Ronin in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sakura Ronin is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

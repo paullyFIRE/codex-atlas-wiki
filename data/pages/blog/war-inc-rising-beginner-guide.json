@@ -1,0 +1,62 @@
+{
+  "slug": "war-inc-rising-beginner-guide",
+  "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
+  "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression | War Inc: Rising Wiki",
+  "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
+  "type": "blog",
+  "date": "2026-01-15",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Early Priorities (Levels 1–60)",
+      "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates."
+    },
+    {
+      "heading": "Summoning Strategy",
+      "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season."
+    },
+    {
+      "heading": "Resource Management: Gems, Gold and Forge Stones",
+      "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes."
+    },
+    {
+      "heading": "Building Your First Team",
+      "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations."
+    },
+    {
+      "heading": "Understanding Hero Stats",
+      "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot."
+    }
+  ],
+  "preview": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banner...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Swordsman",
+      "slug": "swordsman"
+    },
+    {
+      "name": "Command Center",
+      "slug": "command-center-1"
+    },
+    {
+      "name": "Camp",
+      "slug": "camp"
+    }
+  ],
+  "word_count": 363,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
+    "description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
+    "datePublished": "2026-01-15",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

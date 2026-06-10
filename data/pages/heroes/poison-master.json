@@ -404,6 +404,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Poison Master a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Poison Master is a Epic Tank unit with a cost of 6 and combat power of 283. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Poison Master?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Poison Master is a Tank unit best suited for tanking and absorbing damage on the front line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Poison Master in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Poison Master costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

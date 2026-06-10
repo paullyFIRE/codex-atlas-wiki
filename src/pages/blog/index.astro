@@ -1,0 +1,55 @@
+---
+import { readFileSync } from 'fs';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const index = JSON.parse(readFileSync('data/pages/blog/_index.json', 'utf-8'));
+const items = index.items ?? [];
+
+function loadPost(slug) {
+  try {
+    return JSON.parse(readFileSync(`data/pages/blog/${slug}.json`, 'utf-8'));
+  } catch { return null; }
+}
+
+const posts = items.map(item => {
+  const data = loadPost(item.slug);
+  const preview = data?.preview || '';
+  const wordCount = data?.word_count || 0;
+  const date = data?.date || '';
+  return { slug: item.slug, name: item.name, preview, wordCount, date, sections: data?.sections || [] };
+}).sort((a, b) => b.date.localeCompare(a.date));
+---
+
+<BaseLayout
+  title="Strategy Guides and Blog — War Inc: Rising Wiki"
+  currentSection="guides"
+>
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Guides & Blog</span>
+  </nav>
+  <h1>War Inc: Rising Strategy Guides</h1>
+  <p>Data-driven guides, tier lists, and strategy articles. Also check <a href="/guides/">hero recommendations</a> and <a href="/tier-lists/">tier lists</a>.</p>
+
+  <div class="listing-grid">
+    {posts.map((p) => (
+      <article class="card card-pad-md card-hoverable">
+        <a href={`/blog/${p.slug}/`} style="text-decoration:none;color:inherit;">
+          <time style="display:block;font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-1);">{p.date}</time>
+          <h2 style="margin:0 0 var(--space-1) 0;font-size:var(--text-lg);">{p.name}</h2>
+          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;line-height:1.5;">
+            {p.preview}
+          </p>
+          <span style="display:block;margin-top:var(--space-2);font-size:var(--text-xs);color:var(--color-accent);">
+            {p.wordCount} words · {p.sections.length} sections
+          </span>
+        </a>
+      </article>
+    ))}
+  </div>
+
+  <p style="margin-top: var(--space-4);">
+    <a href="/guides/">Hero recommendations by cost and mode</a> · <a href="/tier-lists/">Tier lists</a> · <a href="/tools/">Tools</a>
+  </p>
+</BaseLayout>

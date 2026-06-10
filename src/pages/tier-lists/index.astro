@@ -1,0 +1,53 @@
+---
+import { readFileSync } from 'fs';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const index = JSON.parse(readFileSync('data/pages/tier-lists/_index.json', 'utf-8'));
+const items = index.items ?? [];
+
+function loadTier(slug) {
+  try {
+    return JSON.parse(readFileSync(`data/pages/tier-lists/${slug}.json`, 'utf-8'));
+  } catch { return null; }
+}
+
+const tierLists = items.map(item => {
+  const data = loadTier(item.slug);
+  const tiers = data?.tiers || {};
+  const sCount = tiers['S']?.length || 0;
+  const total = data?.count || 0;
+  let desc = '';
+  if (item.slug === 'overall') desc = `All ${total} heroes ranked from S-Tier (${sCount} heroes) to F-Tier.`;
+  else if (item.slug.includes('tier-list')) desc = `${total} ${item.name.replace(' Tier List', '')} heroes ranked by combat power.`;
+  else desc = `${total} heroes ranked.`;
+  return { slug: item.slug, name: item.name, desc, total };
+});
+---
+
+<BaseLayout
+  title="Hero Tier Lists — All Game Modes and Professions | War Inc: Rising Wiki"
+  currentSection="guides"
+>
+  <nav class="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Tier Lists</span>
+  </nav>
+  <h1>War Inc: Rising Tier Lists</h1>
+  <p>S-Tier to F-Tier rankings for every hero, by game mode and profession. Built from extracted game data.</p>
+
+  <ul class="listing-grid">
+    {tierLists.map((t) => (
+      <li>
+        <a href={`/tier-lists/${t.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
+          <strong>{t.name}</strong>
+          <span style="display:block;font-size:var(--text-sm);color:#6c757d;margin-top:var(--space-1);font-weight:var(--weight-normal);font-family:var(--font-body);">{t.desc} ({t.total} heroes)</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <p style="margin-top: var(--space-4);">
+    <a href="/heroes/">Browse all heroes</a> · <a href="/guides/">Strategy Guides</a> · <a href="/compare/">Compare Heroes</a>
+  </p>
+</BaseLayout>

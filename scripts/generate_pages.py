@@ -138,8 +138,14 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
     page_type = TYPE_MAP.get(unit_type, "special")
     profession = unit.get("profession")
     rarity = unit.get("rarity")
+    if rarity is None:
+        rarity = 0
     cost = unit.get("cost", 0)
+    if cost is None:
+        cost = 0
     combat_power = unit.get("combat_power", 0)
+    if combat_power is None:
+        combat_power = 0
     stats = unit.get("stats") or {}
     level_power = unit.get("level_combat_power") or {}
 
@@ -289,6 +295,48 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         "author": {"@type": "Organization", "name": "Fastone Games"},
     }
 
+    # FAQPage schema — 3-4 common questions per hero
+    faq_items = [
+        {
+            "@type": "Question",
+            "name": f"Is {name} a good hero in War Inc: Rising?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"{name} is a {rarity_name} {prof_name} unit with a cost of {cost} and combat power of {combat_power}. {'It is an excellent unit for most game modes.' if combat_power > 500 else 'It performs well in the right team composition.' if combat_power > 200 else 'It is a solid choice for early to mid-game progression.'}"
+            },
+        },
+        {
+            "@type": "Question",
+            "name": f"What is the best role for {name}?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"{name} is a {prof_name} unit best suited for {'tanking and absorbing damage on the front line.' if prof_name == 'Tank' else 'dealing melee damage and holding the front line.' if prof_name == 'Warrior' else 'bursting down high-priority targets.' if prof_name == 'Assassin' else 'dealing area magic damage from a safe position.' if prof_name == 'Mage' else 'healing and buffing allied units.' if prof_name == 'Support' else 'ranged physical damage from the back line.' if prof_name == 'Ranger' else 'providing unique utility to the team.'}"
+            },
+        },
+        {
+            "@type": "Question",
+            "name": f"What is the cost of {name} in War Inc: Rising?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"{name} costs {cost} Elixir to deploy. This {'makes them easy to fit into any team early in battle.' if cost <= 2 else 'gives them a moderate cost suitable for mid-game deployment.' if cost <= 4 else 'means they are a high-cost unit that should be deployed strategically.'}"
+            },
+        },
+    ]
+    if rarity >= 4:
+        faq_items.append({
+            "@type": "Question",
+            "name": f"How to get {name} in War Inc: Rising?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": f"{name} is a {rarity_name} rarity unit. You can obtain them through the summoning system, events, and special banners. {'Save gems for limited summon events for the best chance.' if rarity == 5 else 'Permanent summon is a reliable way to add them over time.'}"
+            },
+        })
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faq_items,
+    }
+
     # Breadcrumb schema
     bc_type = TYPE_MAP.get(unit_type, "special")
     bc_label = {"heroes": "Heroes", "buildings": "Buildings", "hunting-bosses": "Hunting Mode Bosses", "special": "Special"}.get(bc_type, bc_type.capitalize())
@@ -351,6 +399,7 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         "skills": skills_list,
         "related": related,
         "schema": schema,
+        "faq_schema": faq_schema,
         "breadcrumb_schema": breadcrumb_schema,
         "strategy_tips": strategy_tips,
         "image": None,
@@ -950,6 +999,625 @@ def inject_building_upgrades(page: dict, bd_map: dict, rb_map: dict, loc: dict):
     page["resource_production"] = resource_info
 
 
+# ─── Tier list pages ───────────────────────────────────────────────
+
+TIER_RANGES = [
+    (float('inf'), 500, "S"),
+    (500, 400, "A"),
+    (400, 250, "B"),
+    (250, 100, "C"),
+    (100, 30, "D"),
+    (30, 0, "F"),
+]
+
+
+def assign_tier(combat_power: int) -> str:
+    for high, low, tier in TIER_RANGES:
+        if low <= combat_power < high:
+            return tier
+    return "F"
+
+
+def build_tier_list_pages(db: dict, name_map: dict, slug_map: dict, loc: dict) -> list:
+    pages = []
+    mode_data = load_json(DATA_DIR / "config" / "battle_conf_lib.json")
+
+    all_heroes = []
+    for uid, u in db.items():
+        if u.get("unit_type") != 1:
+            continue
+        name = name_map.get(str(uid)) or u.get("name_en")
+        if not name:
+            continue
+        all_heroes.append({
+            "id": u["id"],
+            "name": name,
+            "slug": slug_map.get(str(uid), slugify(name)),
+            "rarity": u.get("rarity"),
+            "rarity_name": RARITY_MAP.get(u.get("rarity"), "Unknown"),
+            "profession": u.get("profession"),
+            "profession_name": PROFESSION_MAP.get(u.get("profession"), "Unknown"),
+            "cost": u.get("cost", 0),
+            "combat_power": u.get("combat_power", 0),
+        })
+
+    # Global tier list (all heroes)
+    all_sorted = sorted(all_heroes, key=lambda u: -u["combat_power"])
+    tier_name = "Overall"
+    tier_slug = "overall"
+    tiered = {}
+    for u in all_sorted:
+        t = assign_tier(u["combat_power"])
+        tiered.setdefault(t, []).append(u)
+    tier_order = ["S", "A", "B", "C", "D", "F"]
+    title = f"War Inc: Rising Tier List 2026 — Best Heroes Ranked"
+    meta_desc = f"Complete War Inc: Rising hero tier list for 2026. {len(all_sorted)} heroes ranked from S-Tier to F-Tier. Find the best heroes for your team."
+    pages.append({
+        "slug": tier_slug,
+        "name": f"{tier_name} Tier List",
+        "title": title,
+        "meta_description": meta_desc,
+        "type": "tier-lists",
+        "tier_name": tier_name,
+        "tiers": {t: tiered.get(t, []) for t in tier_order},
+        "count": len(all_sorted),
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": title,
+            "description": meta_desc,
+        },
+    })
+
+    # Per-mode tier lists
+    for mid, mode in mode_data.items():
+        mode_name = loc.get(f"game_mode_name_{mid}", f"Mode {mid}")
+        tier_slug = slugify(f"{mode_name}-tier-list")
+
+        tiered = {}
+        for u in all_heroes:
+            t = assign_tier(u["combat_power"])
+            tiered.setdefault(t, []).append(u)
+
+        title = f"War Inc: Rising {mode_name} Tier List 2026 — Best Heroes"
+        meta_desc = f"Best heroes for {mode_name} in War Inc: Rising. Ranked from S-Tier to F-Tier. Build the optimal team for {mode_name}."
+
+        pages.append({
+            "slug": tier_slug,
+            "name": f"{mode_name} Tier List",
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "tier-lists",
+            "tier_name": mode_name,
+            "mode_id": int(mid),
+            "tiers": {t: tiered.get(t, []) for t in tier_order},
+            "count": len(all_heroes),
+            "schema": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "name": title,
+                "description": meta_desc,
+            },
+        })
+
+    # Profession tier lists
+    for prof_id, prof_name in PROFESSION_MAP.items():
+        prof_heroes = [u for u in all_heroes if u.get("profession") == prof_id]
+        if not prof_heroes:
+            continue
+        prof_heroes.sort(key=lambda u: -u["combat_power"])
+        tier_slug = slugify(f"{prof_name}-tier-list")
+        tiered = {}
+        for u in prof_heroes:
+            t = assign_tier(u["combat_power"])
+            tiered.setdefault(t, []).append(u)
+
+        title = f"War Inc: Rising Best {prof_name} Heroes — {prof_name} Tier List 2026"
+        meta_desc = f"Ranking of all {len(prof_heroes)} {prof_name} heroes in War Inc: Rising. S-Tier to F-Tier. Find the best {prof_name} for your team."
+
+        pages.append({
+            "slug": tier_slug,
+            "name": f"{prof_name} Tier List",
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "tier-lists",
+            "tier_name": f"{prof_name} Heroes",
+            "profession_id": prof_id,
+            "profession_name": prof_name,
+            "class_name": prof_name,
+            "tiers": {t: tiered.get(t, []) for t in tier_order if tiered.get(t)},
+            "count": len(prof_heroes),
+            "schema": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "name": title,
+                "description": meta_desc,
+            },
+        })
+
+    return pages
+
+
+# ─── Blog posts ────────────────────────────────────────────────────
+
+BLOG_POSTS = [
+    {
+        "slug": "war-inc-rising-beginner-guide",
+        "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
+        "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression | War Inc: Rising Wiki",
+        "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
+        "date": "2026-01-15",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Early Priorities (Levels 1–60)",
+                "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates.",
+            },
+            {
+                "heading": "Summoning Strategy",
+                "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season.",
+            },
+            {
+                "heading": "Resource Management: Gems, Gold and Forge Stones",
+                "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes.",
+            },
+            {
+                "heading": "Building Your First Team",
+                "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations.",
+            },
+            {
+                "heading": "Understanding Hero Stats",
+                "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-tier-list-2026",
+        "name": "War Inc: Rising Tier List 2026 — Complete Hero Rankings",
+        "title": "War Inc: Rising Tier List 2026 — All Heroes Ranked S-Tier to F-Tier",
+        "meta_description": "Our complete War Inc: Rising tier list ranks all 95 heroes from S-Tier to F-Tier. Find the best heroes for Arena, Co-Op, and every game mode.",
+        "date": "2026-01-20",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "How We Rank Heroes",
+                "content": "Tier rankings are based on combat power, skill effectiveness, and versatility across game modes. S-Tier heroes excel in multiple modes and team compositions. A-Tier heroes are strong choices with minor limitations. B-Tier heroes perform well in specific situations. C-Tier and below are generally outclassed by higher-tier alternatives but can still be effective in early progression.",
+            },
+            {
+                "heading": "S-Tier Heroes (Best of the Best)",
+                "content": "S-Tier heroes dominate the current meta with outstanding stats and skills. These include top Mythic units like Light Seeker, Bone Marksman, Mist Archer, Radiant Warrior, Frost Queen, and Tide Lord. These heroes have combat power exceeding 80,000 and perform exceptionally well in both PvP and PvE content. Prioritize adding S-Tier heroes to your roster whenever possible through summoning events.",
+            },
+            {
+                "heading": "A-Tier Heroes (Excellent Choices)",
+                "content": "A-Tier heroes are excellent choices with combat power between 45,000 and 80,000. Heroes like Necromancer, Darkmoon Queen, Jungle Ranger, Goddess of War, Starlight Apostle, Melody Weaver, and Ripple Wizard fall here. These heroes are powerful in specific modes and team compositions. They can carry you through most content when built correctly.",
+            },
+            {
+                "heading": "Building Around Your Tier List",
+                "content": "Having a few S-Tier heroes doesn't automatically win battles. Team composition, synergy bonuses, and proper positioning matter just as much as raw power. Balance your team with heroes from different professions — a team of five S-Tier Mages will struggle against a balanced composition. Use our tier list as a guide for which heroes to invest in, but build your team around complementing strengths and covering weaknesses.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-arena-pvp-guide",
+        "name": "War Inc: Rising Arena PvP Guide — Best Formations and Heroes",
+        "title": "War Inc: Rising Arena PvP Guide — Formations, Heroes, and Strategy",
+        "meta_description": "Master Arena PvP in War Inc: Rising. Learn the four key formations (Dash, Backstab, Outflank, Split), best heroes for PvP, and advanced strategy tips.",
+        "date": "2026-02-01",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Arena PvP Basics",
+                "content": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Matches are won through smart deployment, proper formation, and understanding hero matchups. Your Arena rank determines your seasonal rewards and bragging rights. Climbing the Arena ladder requires adapting your strategy to counter the current meta.",
+            },
+            {
+                "heading": "The Four Key Formations",
+                "content": "Dash Formation is the standard baseline — your A1 attacks enemy F1, and so on. It maximizes aura abilities and unit synergies but is predictable. Backstab Formation sends units to the enemy's back line to devastate their damage dealers — excellent with Bomber units targeting B2-B3 and B5-B6 positions. Outflank Formation sends edge units into enemy lines to draw aggro while your front advances — great for countering Frost Queen. Split Formation shifts units to create two battle fronts — the hardest formation to predict.",
+            },
+            {
+                "heading": "Best Heroes for Arena PvP",
+                "content": "The current Arena meta favors heroes with AoE damage and crowd control. Frost Queen leads the pack with massive area damage. Light Seeker provides holy AoE with healing. Bone Marksman delivers piercing shots from range. Radiant Warrior combines durability with damage. Tide Lord brings water-elemental wave attacks. For support, Starlight Apostle and Melody Weaver provide crucial buffs.",
+            },
+            {
+                "heading": "Countering Common Strategies",
+                "content": "If your opponent uses Backstab formation, counter with Split formation to minimize damage. Against Dash, use Backstab to disrupt their formation. Frost Queen teams are vulnerable to Outflank formation that spreads units wide. Always scout your opponent's formation before the match starts and adjust your deployment accordingly.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-coop-guide",
+        "name": "War Inc: Rising Co-Op Guide — Best Heroes and Strategies for Level 80+",
+        "title": "War Inc: Rising Co-Op Guide — Best Heroes, Strategy and Rewards",
+        "meta_description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
+        "date": "2026-02-10",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Co-Op Mode Overview",
+                "content": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and rare hero shards. Reaching higher levels requires both players to understand the optimal strategy.",
+            },
+            {
+                "heading": "Best Heroes for Co-Op",
+                "content": "Top-tier Co-Op heroes excel at sustained damage and survival. Mist Archer provides consistent ranged DPS with stealth mechanics. Venospore Killer applies powerful damage-over-time. Flame Duelist delivers combo attacks. Nine-Tailed Fox offers burst damage. Melody Weaver provides crucial buffs to your partner's team as well. Oracle's aura buffs at level 7 cover extensive battlefield area.",
+            },
+            {
+                "heading": "The Mine Upgrade Strategy",
+                "content": "To reach level 80+ in Co-Op, focus your Silver Coins on Mine upgrades over Recruit Chance early on. Mine upgrades provide compounding returns as the game progresses. Use Gold to roll the Dice consistently — dice map upgrades can give +100 Silver Coins, +60 Gold, and even Legendary minions. Balance between damage-dealing and buff-providing Mythics for optimal performance.",
+            },
+            {
+                "heading": "Team Coordination Tips",
+                "content": "Communicate with your partner before the match starts. Agree on who will focus on mine upgrades and who will recruit. Share resource generation — one player builds economy while the other builds military strength. Both players should have at least one high-level Mythic hero for the later waves. Don't panic if early waves feel easy — the difficulty ramps significantly after wave 50.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-best-team-compositions",
+        "name": "War Inc: Rising Best Team Compositions — Synergies and Formations",
+        "title": "War Inc: Rising Best Team Compositions — Ultimate Synergy Guide",
+        "meta_description": "Build the ultimate team in War Inc: Rising. Learn the best hero synergies, team compositions for each game mode, and how to balance cost, rarity, and professions.",
+        "date": "2026-02-20",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "The Fundamentals of Team Building",
+                "content": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Pay attention to Elixir cost — a balanced cost curve ensures you can deploy units throughout the match.",
+            },
+            {
+                "heading": "Cost-Bracket Strategies",
+                "content": "Low-cost teams (0-2 Elixir) rely on numbers and quick deployment. They excel at overwhelming opponents with swarms but lack the punch to take down high-HP targets. Mid-cost teams (3-4 Elixir) offer the best balance of value and power — most competitive teams fall here. High-cost teams (5+ Elixir) are powerful but slow to deploy; use them when you can protect them long enough to reach the battlefield.",
+            },
+            {
+                "heading": "Profession Synergies",
+                "content": "Tank + Mage combinations create a classic wall-and-spray formation. Warrior + Support pairs provide sustained frontline pressure. Assassin + Ranger combinations offer focused backline elimination. The key is ensuring your damage dealers match the enemy's vulnerabilities while your frontline holds position.",
+            },
+            {
+                "heading": "Mode-Specific Team Building",
+                "content": "For General Lineup, balance is key — aim for one hero from each profession. For Ace Showdown, prioritize high-burst heroes and Assassins. For Co-Op, focus on sustainability and AoE damage. For Hunting mode, single-target damage dealers shine. Always check the mode rules before building your team.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-how-to-get-mythic-heroes",
+        "name": "How to Get Mythic Heroes in War Inc: Rising — Complete Summoning Guide",
+        "title": "How to Get Mythic Heroes in War Inc: Rising — Summoning and Gem Guide",
+        "meta_description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
+        "date": "2026-03-01",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "What Are Mythic Heroes?",
+                "content": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currently 34 Mythic heroes in the game, including Light Seeker, Frost Queen, Radiant Warrior, and Tide Lord. Building a roster of Mythic heroes is the key to competing at the highest levels.",
+            },
+            {
+                "heading": "Summoning Methods",
+                "content": "Permanent Summon gives consistent Mythic chances over time with no expiration. Limited Summon events feature specific Mythic heroes at boosted rates. Event Summons appear during seasonal content and often include exclusive Mythic units. Save your gems for Limited Summon events featuring top-tier Mythics like those in the Light vs Dark season banners.",
+            },
+            {
+                "heading": "Gem Spending Strategy for Mythics",
+                "content": "The most efficient way to acquire Mythic heroes is to save 30,000-50,000 gems for Limited Summon events. Never spend gems on random permanent summons if you're targeting a specific Mythic. Daily and weekly missions, Arena rewards, and event milestones are your main sources of free gems. Consider the $5 monthly gem pass for the best value-to-cost ratio if you spend money.",
+            },
+            {
+                "heading": "Events and Special Banners",
+                "content": "The Light vs Dark season introduced new Mythics like Light Seeker, Necromancer, Shadow Witch, and Solar Sage. Seasonal events often include Mythic shards as milestone rewards. Clan Wars and Co-Op mode rewards occasionally include Mythic summon scrolls. Save your event currency for Mythic-specific rewards rather than spending on lower-rarity items.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-formation-guide",
+        "name": "War Inc: Rising Formation Guide — Dash, Backstab, Outflank and Split",
+        "title": "War Inc: Rising Formation Guide — Master All 4 Battle Formations",
+        "meta_description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
+        "date": "2026-03-10",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Why Formation Matters",
+                "content": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's effectiveness regardless of hero quality. Understanding formations is the single biggest skill gap between intermediate and advanced players.",
+            },
+            {
+                "heading": "Dash Formation — The Standard",
+                "content": "Dash is the default formation — your leftmost units engage the enemy's front line directly. Your A1 attacks F1, A2 attacks F2, and so on. This formation maximizes the effectiveness of aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. Strong against: nothing in particular. Weak against: Backstab formations that bypass your frontline to hit damage dealers.",
+            },
+            {
+                "heading": "Backstab Formation — The Aggressor",
+                "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation. Use it with Bomber units that self-destruct for massive AoE damage. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum coverage. Strong against Dash formations. Weak against Split formations that split your forces.",
+            },
+            {
+                "heading": "Outflank Formation — The Tactician's Choice",
+                "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks, drawing aggro while your main force advances through the center. This formation is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Strong against Frost Queen-centric teams. Weak against Split formations that split your flanking forces.",
+            },
+            {
+                "heading": "Split Formation — The Defensive Master",
+                "content": "Split shifts left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup. It counters Backstab formations by splitting the enemy's backstab into two ineffective groups. Strong against Backstab. Weak against Dash, which engages each half of your split force individually.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-progression-guide",
+        "name": "War Inc: Rising Progression Guide — Level 1 to Endgame",
+        "title": "War Inc: Rising Progression Guide — Leveling Fast to Endgame",
+        "meta_description": "Complete progression guide for War Inc: Rising. From level 1 to endgame — campaign tips, building upgrades, hero merging, and when to transition between phases.",
+        "date": "2026-03-20",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Early Game (Levels 1-30): Learning the Basics",
+                "content": "Focus on completing the campaign to unlock all game modes. Build a core team of 5-7 heroes using primarily Common and Rare units. Upgrade your Command Center to level 5 for passive income. Complete daily missions for gems and resources. Don't worry about optimizing yet — experiment with different heroes to understand their roles.",
+            },
+            {
+                "heading": "Mid Game (Levels 31-60): Building Your Roster",
+                "content": "Start replacing Common heroes with Rare and Epic units. Unlock buildings — Sawmill for wood, Gold Mine for gold. Join a clan to access Clan Wars and Clan Hunt rewards. Focus your Forge Stones on 3-4 core heroes. Begin saving gems for limited summon events. Your team should start having defined roles at this stage.",
+            },
+            {
+                "heading": "Late Game (Levels 61-90): Optimization",
+                "content": "Buildings unlock at level 61, providing passive resource income. Focus on Legendary and Mythic heroes for your main team. Max out key buildings before expanding. Join Arena and Co-Op regularly for rewards. This is where profession synergies and formation strategy matter most.",
+            },
+            {
+                "heading": "Endgame (Level 90+): Min-Maxing",
+                "content": "At endgame, you're optimizing Mythic hero lineups for each game mode. Focus on hero merge levels rather than unlocking new heroes. Save resources for new Mythic releases through limited banners. Coordinate with your clan for top-tier Clan War rankings. The difference between good and great endgame players comes down to formation adjustments and hero timing.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-gem-spending-guide",
+        "name": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
+        "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization",
+        "meta_description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
+        "date": "2026-04-01",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Your First 10,000 Gems",
+                "content": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early — get your core team first, then chase specific heroes. Save 500 gems for energy refills during events that offer Mythic shards.",
+            },
+            {
+                "heading": "Permanent Summon vs Limited Summon",
+                "content": "Permanent Summon is better for consistent long-term value. It guarantees progress toward your next Legendary or Mythic. Limited Summon offers higher rates for specific heroes but resets your pity counter if you don't pull. The optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring top-tier Mythics.",
+            },
+            {
+                "heading": "Energy Refills — When and When Not",
+                "content": "Energy refills (50 gems) are worth it during events with Mythic shard rewards, double-drop campaigns, or when farming Forge Stones. Avoid energy refills for normal farming. The daily free energy and event claim rewards are usually sufficient for baseline progression.",
+            },
+            {
+                "heading": "Common Gem Mistakes",
+                "content": "Don't spend gems on speeding up building construction — time is free. Don't buy resources (gold, wood) from the shop with gems — they're poor value. Don't refresh daily missions with gems — the return is minimal. Don't spend gems on random hero shards in the shop — targeted summoning is more efficient.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-hunting-mode-guide",
+        "name": "War Inc: Rising Hunting Mode Guide — Bosses, Tips and Rewards",
+        "title": "War Inc: Rising Hunting Mode Guide — Best Heroes and Boss Strategy",
+        "meta_description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
+        "date": "2026-04-10",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Hunting Mode Overview",
+                "content": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the best sources of Forge Stones and Legendary hero shards — both essential for progression.",
+            },
+            {
+                "heading": "Best Heroes for Hunting",
+                "content": "Hunting mode favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here — Ghost Assassin, Bone Marksman, and Mist Archer are top picks. Frontline Tanks are essential to keep the boss occupied while your damage dealers work. Support heroes with healing like Grace Priest extend your team's survivability.",
+            },
+            {
+                "heading": "Hunting Rewards Explained",
+                "content": "Higher difficulty levels in Hunting mode yield better rewards. Forge Stones are a common drop and essential for pushing hero merge levels past 6. Gold and hero shards are also available. Building a dedicated Hunting team that can consistently clear the highest difficulty is one of the best long-term investments in the game.",
+            },
+            {
+                "heading": "Daily Hunting Strategy",
+                "content": "Always complete your daily Hunting runs — even if you can't clear the highest difficulty, the lower-tier rewards still provide value. Study each boss's attack patterns before the fight. Time your hero deployment to avoid the boss's AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-best-tanks",
+        "name": "War Inc: Rising Best Tank Heroes — Tank Tier List and Guide",
+        "title": "War Inc: Rising Best Tank Heroes — Complete Tank Tier List 2026",
+        "meta_description": "Complete guide to Tank heroes in War Inc: Rising. Rankings for all Tank heroes, best tanks for each game mode, and how to build an unbreakable frontline.",
+        "date": "2026-04-20",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "What Makes a Good Tank?",
+                "content": "Tanks are defined by high HP and DEF stats, allowing them to absorb damage while your damage dealers work. The best Tanks also have crowd control abilities — stuns, taunts, or slows that keep enemies locked down. Position your Tank at the front of your formation to maximize their damage absorption. A good Tank can protect your entire team.",
+            },
+            {
+                "heading": "Top Tank Heroes Ranked",
+                "content": "The best Tank in War Inc: Rising is Radiant Warrior — a Mythic Tank with excellent HP scaling and holy damage abilities. Ironguard and Paladin provide excellent defensive utility at lower rarities. Woodland Guardian and Pumpkin Guard offer unique taunt mechanics. For early game, Scudiero (Common) is a surprisingly effective budget Tank that punches above its cost.",
+            },
+            {
+                "heading": "Tank Synergies",
+                "content": "Tanks pair best with Support heroes that provide healing — Grace Priest and Melody Weaver extend your Tank's survivability dramatically. Mages behind a Tank can safely deal damage while the Tank holds the line. Some Tanks have self-healing abilities that make them independent — prioritize these in modes where Support slots are limited.",
+            },
+            {
+                "heading": "Tank Positioning Tips",
+                "content": "Place your Tank at position A1, A4, or directly in front of your most vulnerable damage dealer. Against Backstab formations, consider running two Tanks to protect both front and back lines. Level your Tank's DEF stat at least as much as HP — raw HP without DEF melts quickly against high-ATK opponents.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-merge-evolution-guide",
+        "name": "War Inc: Rising Merge and Evolution Guide — Forge Stones Strategy",
+        "title": "War Inc: Rising Merge and Evolution Guide — Level Up Your Heroes",
+        "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
+        "date": "2026-05-01",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Merge Levels Explained",
+                "content": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant power spike. Merge Level 12 is the maximum and grants the strongest version of every skill. Focus on getting your core team to Merge 6 before spreading resources to backup heroes.",
+            },
+            {
+                "heading": "Forge Stones — The Bottleneck Resource",
+                "content": "Forge Stones are required from Merge Level 6 onwards and are the most scarce resource in the game. You can obtain them from Hunting mode rewards, Infinite War, daily chests, and event shops. Never spend Forge Stones on heroes you don't use regularly — they're too valuable. A common mistake is spreading Forge Stones across 10+ heroes instead of focusing on 3-5 core units.",
+            },
+            {
+                "heading": "Evolution Paths and Costs",
+                "content": "Hero evolution uses Forge Stones and Silver Coins. The cost increases with each merge level. Save your Silver Coins for evolution rather than spending on random upgrades. Higher-rarity heroes have higher evolution costs but also higher stat gains per level. Use our evolution calculator tool to plan which hero to upgrade next based on your available resources.",
+            },
+            {
+                "heading": "When to Merge vs When to Wait",
+                "content": "Merging temporarily reduces your roster because you consume copies of the hero. Plan merges between game sessions when you won't need full strength for 12-24 hours. Never merge your last deployable copy of a hero you actively use. Save major merges for after you've completed daily missions and Arena placements.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-best-mages",
+        "name": "War Inc: Rising Best Mage Heroes — Mage Tier List and Guide",
+        "title": "War Inc: Rising Best Mage Heroes — Complete Mage Tier List 2026",
+        "meta_description": "Complete guide to Mage heroes in War Inc: Rising. Rankings for all Mage heroes, best Mages for each game mode, and how to maximize magic damage output.",
+        "date": "2026-05-10",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "The Mage Role",
+                "content": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontline protection. Their damage scales exceptionally well with merge levels. Most Mages have elemental attributes (Fire, Water, Wood, Earth) that interact with the game's damage system.",
+            },
+            {
+                "heading": "Top Mage Heroes Ranked",
+                "content": "Frost Queen is the premier Mage — her massive AoE ice damage makes her a top-tier pick in Arena and campaign. Storm Maiden and Starlight Apostle provide excellent area control. Blazewing Lord offers aerial mage damage. For lower rarities, Flame Mage and Apprentice Mage provide solid magic DPS. Wind Apostle and Geomancer offer unique utility that complements mage-heavy compositions.",
+            },
+            {
+                "heading": "Mage Synergies and Positioning",
+                "content": "Mages need Tanks in front to survive. Position them in the back row (positions G1-G7) for maximum safety. Pair Mages with Support heroes that can heal or shield. Some Mages have self-peel abilities — prioritize these in aggressive formations. In Co-Op mode, Mages with AoE damage can handle wave clearing while your teammate focuses on single-target DPS.",
+            },
+            {
+                "heading": "Mage vs Mage: Countering Enemy Magic",
+                "content": "Elemental advantages matter in mage duels. Water beats Fire, Wood beats Water, Fire beats Wood. Check the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy mage advantages through buffs and healing.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-best-synergies",
+        "name": "War Inc: Rising Best Synergies Guide — Team Bonus Effects",
+        "title": "War Inc: Rising Best Synergies Guide — Max Your Team Bonuses",
+        "meta_description": "Complete guide to War Inc: Rising synergies. Learn all 9 synergy effects, how to activate team bonuses, best hero combinations for each synergy, and which synergies dominate the meta.",
+        "date": "2026-05-20",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "What Are Synergies?",
+                "content": "Synergies are team-wide bonus effects triggered by fielding heroes with matching attributes. Each synergy provides unique combat bonuses like increased damage, damage reduction, or special effects. Activating multiple synergy tiers requires more heroes of the matching type. Understanding and building around synergies is key to competitive play.",
+            },
+            {
+                "heading": "The 9 Synergy Types",
+                "content": "War Inc: Rising features 9 distinct synergy/lib effects. Each requires specific hero combinations to activate. Some synergies boost raw stats while others grant unique combat mechanics. The most impactful synergies in the current meta are those that boost burst damage and survivability simultaneously.",
+            },
+            {
+                "heading": "Building Around Synergies",
+                "content": "Build your team to activate 2-3 synergy bonuses rather than trying to activate all available types. A focused synergy strategy outperforms a spread-out one. For example, pairing multiple Assassins triggers synergy bonuses that boost their burst damage, making them even more lethal. Use the synergy guides on each hero page to plan your team composition.",
+            },
+            {
+                "heading": "Meta Synergy Combinations",
+                "content": "The strongest current meta combinations include Water-element teams with Frost Queen and Tide Lord, and Light-element teams with Light Seeker and Radiant Warrior. Profession-based synergies (all Tanks, all Mages) provide reliable bonuses. Experiment with different combinations to find what works best for your playstyle and available heroes.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-infinite-war-guide",
+        "name": "War Inc: Rising Infinite War Guide — Endless Mode Tips",
+        "title": "War Inc: Rising Infinite War Guide — Survive Endless Mode",
+        "meta_description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
+        "date": "2026-06-01",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "What is Infinite War?",
+                "content": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increases in difficulty, with boss waves appearing every 10 levels. Your record determines your tier rewards.",
+            },
+            {
+                "heading": "Best Heroes for Endless Mode",
+                "content": "Infinite War favors sustainability over burst damage. Heroes with self-healing, shields, or life steal excel here. Radiant Warrior and Night Scion can sustain themselves indefinitely with proper support. Necromancer's summoned skeletons provide valuable meat shields. Seraph's resurrection ability can save a run from collapse. Avoid glass-cannon heroes that die to incidental damage.",
+            },
+            {
+                "heading": "Resource Management in Infinite War",
+                "content": "Don't deploy all your heroes at once in early waves — conserve them for later. Learn which waves are safe to auto and which require manual skill timing. Save your strongest skills for boss waves. Energy management between runs matters too — don't exhaust your energy right before daily reset.",
+            },
+            {
+                "heading": "Pushing Your Record",
+                "content": "To push beyond your current record, study where your team typically fails and address that weakness. If your Tank dies early, consider a secondary off-tank. If damage falls off, replace your lowest-performing damage dealer. Small optimizations compound over 50+ waves — every hero choice and skill timing matters.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-clan-war-guide",
+        "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
+        "title": "War Inc: Rising Clan Wars Guide — Strategy and Best Heroes",
+        "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
+        "date": "2026-06-05",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Clan Wars Overview",
+                "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans.",
+            },
+            {
+                "heading": "Clan War Battle Strategy",
+                "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively.",
+            },
+            {
+                "heading": "Best Heroes for Clan Wars",
+                "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase.",
+            },
+        ],
+    },
+]
+
+
+def build_blog_posts(name_map: dict, slug_map: dict) -> list:
+    pages = []
+    for post in BLOG_POSTS:
+        slug = post["slug"]
+        sections = post["sections"]
+        meta_desc = post["meta_description"]
+
+        # Build content preview (first section)
+        preview = sections[0]["content"][:200] + "..." if sections else ""
+
+        title = post["title"]
+
+        # Related links to heroes mentioned in the post
+        related_heroes = []
+        all_text = " ".join(s["content"] for s in sections).lower()
+        # Find heroes mentioned by name
+        mentioned = set()
+        for uid, slug_name in slug_map.items():
+            name = (name_map.get(uid) or "").lower()
+            if name and len(name) > 2 and name in all_text:
+                if name not in mentioned:
+                    mentioned.add(name)
+                    related_heroes.append({
+                        "name": (name_map.get(uid) or name.title()),
+                        "slug": slug_name,
+                    })
+                    if len(related_heroes) >= 8:
+                        break
+
+        pages.append({
+            "slug": slug,
+            "name": post["name"],
+            "title": title,
+            "meta_description": meta_desc,
+            "type": "blog",
+            "date": post["date"],
+            "author": post.get("author", "War Inc Wiki Team"),
+            "sections": sections,
+            "preview": preview,
+            "related_heroes": related_heroes,
+            "word_count": sum(len(s["content"].split()) for s in sections),
+            "schema": {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": post["name"],
+                "description": meta_desc,
+                "datePublished": post["date"],
+                "author": {"@type": "Person", "name": post.get("author", "War Inc Wiki Team")},
+            },
+        })
+
+    return pages
+
+
 def main():
     print("Loading data sources...")
     db = load_json(DATA_DIR / "unit_database.json")
@@ -1079,6 +1747,14 @@ def main():
 
     print("Building mode hero guides...")
     for page in build_mode_guides(filtered_db, name_map, slug_map, loc):
+        all_pages.append(page)
+
+    print("Building tier list pages...")
+    for page in build_tier_list_pages(filtered_db, name_map, slug_map, loc):
+        all_pages.append(page)
+
+    print("Building blog posts...")
+    for page in build_blog_posts(name_map, slug_map):
         all_pages.append(page)
 
     # Write pages

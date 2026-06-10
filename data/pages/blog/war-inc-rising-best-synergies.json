@@ -1,0 +1,58 @@
+{
+  "slug": "war-inc-rising-best-synergies",
+  "name": "War Inc: Rising Best Synergies Guide — Team Bonus Effects",
+  "title": "War Inc: Rising Best Synergies Guide — Max Your Team Bonuses",
+  "meta_description": "Complete guide to War Inc: Rising synergies. Learn all 9 synergy effects, how to activate team bonuses, best hero combinations for each synergy, and which synergies dominate the meta.",
+  "type": "blog",
+  "date": "2026-05-20",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "What Are Synergies?",
+      "content": "Synergies are team-wide bonus effects triggered by fielding heroes with matching attributes. Each synergy provides unique combat bonuses like increased damage, damage reduction, or special effects. Activating multiple synergy tiers requires more heroes of the matching type. Understanding and building around synergies is key to competitive play."
+    },
+    {
+      "heading": "The 9 Synergy Types",
+      "content": "War Inc: Rising features 9 distinct synergy/lib effects. Each requires specific hero combinations to activate. Some synergies boost raw stats while others grant unique combat mechanics. The most impactful synergies in the current meta are those that boost burst damage and survivability simultaneously."
+    },
+    {
+      "heading": "Building Around Synergies",
+      "content": "Build your team to activate 2-3 synergy bonuses rather than trying to activate all available types. A focused synergy strategy outperforms a spread-out one. For example, pairing multiple Assassins triggers synergy bonuses that boost their burst damage, making them even more lethal. Use the synergy guides on each hero page to plan your team composition."
+    },
+    {
+      "heading": "Meta Synergy Combinations",
+      "content": "The strongest current meta combinations include Water-element teams with Frost Queen and Tide Lord, and Light-element teams with Light Seeker and Radiant Warrior. Profession-based synergies (all Tanks, all Mages) provide reliable bonuses. Experiment with different combinations to find what works best for your playstyle and available heroes."
+    }
+  ],
+  "preview": "Synergies are team-wide bonus effects triggered by fielding heroes with matching attributes. Each synergy provides unique combat bonuses like increased damage, damage reduction, or special effects. Ac...",
+  "related_heroes": [
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord"
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker"
+    }
+  ],
+  "word_count": 192,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Best Synergies Guide — Team Bonus Effects",
+    "description": "Complete guide to War Inc: Rising synergies. Learn all 9 synergy effects, how to activate team bonuses, best hero combinations for each synergy, and which synergies dominate the meta.",
+    "datePublished": "2026-05-20",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

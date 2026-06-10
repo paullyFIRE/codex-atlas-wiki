@@ -8,8 +8,8 @@
       "slug": "blacksmith-warrior-2",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -18,8 +18,8 @@
       "slug": "healing-spell",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {
@@ -28,8 +28,8 @@
       "slug": "fireball",
       "rarity_name": "Unknown",
       "profession_name": "Unknown",
-      "cost": null,
-      "combat_power": null,
+      "cost": 0,
+      "combat_power": 0,
       "image": null
     },
     {

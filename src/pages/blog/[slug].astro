@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CalloutBox from '../../components/content/CalloutBox.astro';
+
+export async function getStaticPaths() {
+  const pages = import.meta.glob('/data/pages/blog/*.json', { eager: true, import: 'default' });
+  const index = pages['/data/pages/blog/_index.json'];
+  const items = index?.items ?? [];
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { slug: item.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const files = import.meta.glob('/data/pages/blog/*.json', { eager: true, import: 'default' });
+const pageData = files[`/data/pages/blog/${slug}.json`];
+if (!pageData) return Astro.redirect('/blog/', 404);
+---
+
+<BaseLayout title={pageData.title} description={pageData.meta_description}>
+  <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="/blog/">Guides & Blog</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>{pageData.name}</span>
+  </nav>
+
+  <article>
+    <header style="margin-bottom: var(--space-4);">
+      <h1>{pageData.name}</h1>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted);">
+        Published <time>{pageData.date}</time> · By {pageData.author} · {pageData.word_count} words
+      </p>
+    </header>
+
+    {pageData.sections.map((section, i) => (
+      <section style="margin-bottom: var(--space-5);">
+        <h2>{section.heading}</h2>
+        <p style="line-height: 1.7;">{section.content}</p>
+      </section>
+    ))}
+
+    {pageData.related_heroes?.length > 0 && (
+      <section>
+        <h2>Heroes Mentioned in This Guide</h2>
+        <ul class="listing-grid">
+          {pageData.related_heroes.map((h) => (
+            <li>
+              <a href={`/heroes/${h.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
+                <strong>{h.name}</strong>
+                <span style="display:block;font-size:var(--text-sm);color:var(--color-text-muted);">View stats and skills</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p style="margin-top: var(--space-4);">
+      <a href="/blog/">← Back to all guides</a> · <a href="/guides/">Hero recommendations</a> · <a href="/tier-lists/">Tier lists</a>
+    </p>
+  </article>
+</BaseLayout>

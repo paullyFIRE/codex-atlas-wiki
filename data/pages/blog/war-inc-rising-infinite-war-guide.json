@@ -1,0 +1,62 @@
+{
+  "slug": "war-inc-rising-infinite-war-guide",
+  "name": "War Inc: Rising Infinite War Guide — Endless Mode Tips",
+  "title": "War Inc: Rising Infinite War Guide — Survive Endless Mode",
+  "meta_description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
+  "type": "blog",
+  "date": "2026-06-01",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "What is Infinite War?",
+      "content": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increases in difficulty, with boss waves appearing every 10 levels. Your record determines your tier rewards."
+    },
+    {
+      "heading": "Best Heroes for Endless Mode",
+      "content": "Infinite War favors sustainability over burst damage. Heroes with self-healing, shields, or life steal excel here. Radiant Warrior and Night Scion can sustain themselves indefinitely with proper support. Necromancer's summoned skeletons provide valuable meat shields. Seraph's resurrection ability can save a run from collapse. Avoid glass-cannon heroes that die to incidental damage."
+    },
+    {
+      "heading": "Resource Management in Infinite War",
+      "content": "Don't deploy all your heroes at once in early waves — conserve them for later. Learn which waves are safe to auto and which require manual skill timing. Save your strongest skills for boss waves. Energy management between runs matters too — don't exhaust your energy right before daily reset."
+    },
+    {
+      "heading": "Pushing Your Record",
+      "content": "To push beyond your current record, study where your team typically fails and address that weakness. If your Tank dies early, consider a secondary off-tank. If damage falls off, replace your lowest-performing damage dealer. Small optimizations compound over 50+ waves — every hero choice and skill timing matters."
+    }
+  ],
+  "preview": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increa...",
+  "related_heroes": [
+    {
+      "name": "Night Scion",
+      "slug": "night-scion"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
+    },
+    {
+      "name": "Seraph",
+      "slug": "seraph"
+    },
+    {
+      "name": "Necromancer",
+      "slug": "necromancer"
+    },
+    {
+      "name": "Cannon",
+      "slug": "cannon"
+    }
+  ],
+  "word_count": 200,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Infinite War Guide — Endless Mode Tips",
+    "description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
+    "datePublished": "2026-06-01",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

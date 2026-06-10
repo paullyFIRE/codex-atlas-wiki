@@ -307,6 +307,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Goblin Shaman a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Goblin Shaman is a Rare Mage unit with a cost of 3 and combat power of 235. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Goblin Shaman?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Goblin Shaman is a Mage unit best suited for dealing area magic damage from a safe position."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Goblin Shaman in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Goblin Shaman costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

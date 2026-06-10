@@ -1,0 +1,294 @@
+{
+  "slug": "assassin-tier-list",
+  "name": "Assassin Tier List",
+  "title": "War Inc: Rising Best Assassin Heroes — Assassin Tier List 2026",
+  "meta_description": "Ranking of all 24 Assassin heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Assassin for your team.",
+  "type": "tier-lists",
+  "tier_name": "Assassin Heroes",
+  "profession_id": 4,
+  "profession_name": "Assassin",
+  "class_name": "Assassin",
+  "tiers": {
+    "S": [
+      {
+        "id": 746,
+        "name": "Goddess of War",
+        "slug": "goddess-of-war",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 507
+      },
+      {
+        "id": 663,
+        "name": "Scarlet Spark",
+        "slug": "scarlet-spark",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 505
+      },
+      {
+        "id": 847,
+        "name": "Red Blade",
+        "slug": "red-blade",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 503
+      }
+    ],
+    "A": [
+      {
+        "id": 637,
+        "name": "Gryphon Knight",
+        "slug": "gryphon-knight",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 483
+      },
+      {
+        "id": 851,
+        "name": "Rock Warlord",
+        "slug": "rock-warlord",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 474
+      },
+      {
+        "id": 778,
+        "name": "Seraph",
+        "slug": "seraph",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 442
+      },
+      {
+        "id": 745,
+        "name": "Night Scion",
+        "slug": "night-scion",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 425
+      }
+    ],
+    "B": [
+      {
+        "id": 730,
+        "name": "Great Axe Warrior",
+        "slug": "great-axe-warrior",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 6,
+        "combat_power": 358
+      },
+      {
+        "id": 748,
+        "name": "Venospore Killer",
+        "slug": "venospore-killer",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 358
+      },
+      {
+        "id": 625,
+        "name": "Ghost Assassin",
+        "slug": "ghost-assassin",
+        "rarity": 4,
+        "rarity_name": "Legendary",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 6,
+        "combat_power": 342
+      },
+      {
+        "id": 620,
+        "name": "Rock Thrower",
+        "slug": "rock-thrower",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 6,
+        "combat_power": 300
+      },
+      {
+        "id": 834,
+        "name": "Gale Wolf",
+        "slug": "gale-wolf",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 3,
+        "combat_power": 258
+      }
+    ],
+    "C": [
+      {
+        "id": 655,
+        "name": "Frost Skeleton",
+        "slug": "frost-skeleton",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 3,
+        "combat_power": 249
+      },
+      {
+        "id": 840,
+        "name": "Dwarf Berserker",
+        "slug": "dwarf-berserker",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 6,
+        "combat_power": 223
+      },
+      {
+        "id": 629,
+        "name": "Goblin Warrior",
+        "slug": "goblin-warrior",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 3,
+        "combat_power": 216
+      },
+      {
+        "id": 635,
+        "name": "Flail Warden",
+        "slug": "flail-warden",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 3,
+        "combat_power": 215
+      },
+      {
+        "id": 619,
+        "name": "Berserker",
+        "slug": "berserker",
+        "rarity": 2,
+        "rarity_name": "Rare",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 3,
+        "combat_power": 208
+      },
+      {
+        "id": 833,
+        "name": "Guard Chario",
+        "slug": "guard-chario",
+        "rarity": 3,
+        "rarity_name": "Epic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 5,
+        "combat_power": 126
+      },
+      {
+        "id": 700,
+        "name": "Swordsman",
+        "slug": "swordsman",
+        "rarity": 1,
+        "rarity_name": "Common",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 2,
+        "combat_power": 109
+      }
+    ],
+    "F": [
+      {
+        "id": 758,
+        "name": "Blacksmith Warrior",
+        "slug": "blacksmith-warrior-1",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 764,
+        "name": "Weakened One",
+        "slug": "weakened-one",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 769,
+        "name": "Mech Artisan",
+        "slug": "mech-artisan",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 779,
+        "name": "Wandering Swordsman",
+        "slug": "wandering-swordsman",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 0
+      },
+      {
+        "id": 781,
+        "name": "Deadly Blade",
+        "slug": "deadly-blade",
+        "rarity": 5,
+        "rarity_name": "Mythic",
+        "profession": 4,
+        "profession_name": "Assassin",
+        "cost": 8,
+        "combat_power": 0
+      }
+    ]
+  },
+  "count": 24,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "War Inc: Rising Best Assassin Heroes — Assassin Tier List 2026",
+    "description": "Ranking of all 24 Assassin heroes in War Inc: Rising. S-Tier to F-Tier. Find the best Assassin for your team."
+  }
+}

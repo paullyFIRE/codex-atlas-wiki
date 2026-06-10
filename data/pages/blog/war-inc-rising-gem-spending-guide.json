@@ -1,0 +1,46 @@
+{
+  "slug": "war-inc-rising-gem-spending-guide",
+  "name": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
+  "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization",
+  "meta_description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
+  "type": "blog",
+  "date": "2026-04-01",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Your First 10,000 Gems",
+      "content": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early — get your core team first, then chase specific heroes. Save 500 gems for energy refills during events that offer Mythic shards."
+    },
+    {
+      "heading": "Permanent Summon vs Limited Summon",
+      "content": "Permanent Summon is better for consistent long-term value. It guarantees progress toward your next Legendary or Mythic. Limited Summon offers higher rates for specific heroes but resets your pity counter if you don't pull. The optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring top-tier Mythics."
+    },
+    {
+      "heading": "Energy Refills — When and When Not",
+      "content": "Energy refills (50 gems) are worth it during events with Mythic shard rewards, double-drop campaigns, or when farming Forge Stones. Avoid energy refills for normal farming. The daily free energy and event claim rewards are usually sufficient for baseline progression."
+    },
+    {
+      "heading": "Common Gem Mistakes",
+      "content": "Don't spend gems on speeding up building construction — time is free. Don't buy resources (gold, wood) from the shop with gems — they're poor value. Don't refresh daily missions with gems — the return is minimal. Don't spend gems on random hero shards in the shop — targeted summoning is more efficient."
+    }
+  ],
+  "preview": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early ...",
+  "related_heroes": [
+    {
+      "name": "Camp",
+      "slug": "camp"
+    }
+  ],
+  "word_count": 201,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
+    "description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
+    "datePublished": "2026-04-01",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

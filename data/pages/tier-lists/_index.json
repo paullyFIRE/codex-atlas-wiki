@@ -1,0 +1,126 @@
+{
+  "type": "tier-lists",
+  "count": 12,
+  "items": [
+    {
+      "id": 0,
+      "name": "Overall Tier List",
+      "slug": "overall",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "General Lineup Tier List",
+      "slug": "general-lineup-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Mode 3 Tier List",
+      "slug": "mode-3-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Ace Showdown Tier List",
+      "slug": "ace-showdown-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Mode 5 Tier List",
+      "slug": "mode-5-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Mode 6 Tier List",
+      "slug": "mode-6-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Warrior Tier List",
+      "slug": "warrior-tier-list",
+      "rarity_name": null,
+      "profession_name": "Warrior",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Tank Tier List",
+      "slug": "tank-tier-list",
+      "rarity_name": null,
+      "profession_name": "Tank",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Assassin Tier List",
+      "slug": "assassin-tier-list",
+      "rarity_name": null,
+      "profession_name": "Assassin",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Mage Tier List",
+      "slug": "mage-tier-list",
+      "rarity_name": null,
+      "profession_name": "Mage",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Support Tier List",
+      "slug": "support-tier-list",
+      "rarity_name": null,
+      "profession_name": "Support",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "Special Tier List",
+      "slug": "special-tier-list",
+      "rarity_name": null,
+      "profession_name": "Special",
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    }
+  ]
+}

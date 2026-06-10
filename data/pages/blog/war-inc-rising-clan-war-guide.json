@@ -1,0 +1,58 @@
+{
+  "slug": "war-inc-rising-clan-war-guide",
+  "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
+  "title": "War Inc: Rising Clan Wars Guide — Strategy and Best Heroes",
+  "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
+  "type": "blog",
+  "date": "2026-06-05",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Clan Wars Overview",
+      "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans."
+    },
+    {
+      "heading": "Clan War Battle Strategy",
+      "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively."
+    },
+    {
+      "heading": "Best Heroes for Clan Wars",
+      "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase."
+    }
+  ],
+  "preview": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you wit...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    },
+    {
+      "name": "Mist Archer",
+      "slug": "mist-archer"
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord"
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker"
+    }
+  ],
+  "word_count": 146,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
+    "description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
+    "datePublished": "2026-06-05",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

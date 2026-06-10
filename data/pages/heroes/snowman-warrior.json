@@ -404,6 +404,36 @@
       "name": "Fastone Games"
     }
   },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Snowman Warrior a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Snowman Warrior is a Epic Mage unit with a cost of 6 and combat power of 293. It performs well in the right team composition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Snowman Warrior?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Snowman Warrior is a Mage unit best suited for dealing area magic damage from a safe position."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Snowman Warrior in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Snowman Warrior costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+        }
+      }
+    ]
+  },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

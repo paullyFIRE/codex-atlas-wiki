@@ -3,15 +3,15 @@
   "slug": "healing-spell",
   "name": "Healing Spell",
   "title": "Healing Spell - Stats | War Inc: Rising Wiki",
-  "meta_description": "Learn about Healing Spell in War Inc: Rising. Unknown Unknown unit costing None. HP -, ATK -, DEF - per level, skills, and best game modes.",
+  "meta_description": "Learn about Healing Spell in War Inc: Rising. Unknown Unknown unit costing 0. HP -, ATK -, DEF - per level, skills, and best game modes.",
   "type": "special",
   "unit_type": null,
-  "rarity": null,
+  "rarity": 0,
   "rarity_name": "Unknown",
   "profession": null,
   "profession_name": "Unknown",
-  "cost": null,
-  "combat_power": null,
+  "cost": 0,
+  "combat_power": 0,
   "atk_range": null,
   "stats_table": [
     {
@@ -46,12 +46,12 @@
       {
         "@type": "PropertyValue",
         "name": "Cost",
-        "value": "None"
+        "value": "0"
       },
       {
         "@type": "PropertyValue",
         "name": "Combat Power",
-        "value": "None"
+        "value": "0"
       }
     ],
     "applicationCategory": "Game",
@@ -60,6 +60,36 @@
       "@type": "Organization",
       "name": "Fastone Games"
     }
+  },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is Healing Spell a good hero in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Healing Spell is a Unknown Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best role for Healing Spell?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Healing Spell is a Unknown unit best suited for providing unique utility to the team."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of Healing Spell in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Healing Spell costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+        }
+      }
+    ]
   },
   "breadcrumb_schema": {
     "@context": "https://schema.org",
