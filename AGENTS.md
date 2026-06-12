@@ -204,6 +204,27 @@ pnpm run <script>   # Run script (check package.json)
 python3 scripts/extract_all.py   # Same as above but skips APK/Il2Cpp steps
 ```
 
+## Brand Strategy
+
+### Positioning
+- **Site**: `War Inc: Rising Wiki` — explicitly labelled as a fan wiki to avoid impersonation risk
+- **Domain**: `war-inc-rising.codex-atlas.com` — subdomain under Codex Atlas master domain
+- **Publisher**: `Codex Atlas` — the network/parent brand, shown only in footer + URL, not competing with page titles
+- **Footer**: `War Inc: Rising Wiki — part of Codex Atlas. Unofficial fan site.`
+
+### Rationale
+- Page titles use "Wiki" qualifier so Google clearly understands this is a fan resource, not the official game
+- Codex Atlas is the **publisher/network**, not the content subject — users know immediately they're on a fan wiki
+- Subdomain pattern (`game-name.codex-atlas.com`) is designed to scale: future sites (other games, other wikis) get their own subdomain with the same footer pattern
+- Master brand builds passively through footer + domain without diluting per-site SEO
+
+### Implementation
+- `og:site_name`: `War Inc: Rising Wiki`
+- JSON-LD WebSite name: `War Inc: Rising Wiki`
+- Page titles suffix: `| War Inc: Rising Wiki`
+- Topbar logo: `War Inc: Rising Wiki`
+- See `src/layouts/BaseLayout.astro` and `src/pages/index.astro`
+
 ## Quirks & Conventions
 
 - No testing framework configured yet. Add one before writing tests.
