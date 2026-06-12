@@ -225,6 +225,29 @@ python3 scripts/extract_all.py   # Same as above but skips APK/Il2Cpp steps
 - Topbar logo: `War Inc: Rising Wiki`
 - See `src/layouts/BaseLayout.astro` and `src/pages/index.astro`
 
+## Portrait Pipeline
+
+### Current Status
+- **21 mythic portraits** scraped from `warincrising.com` — the ONLY verified character portraits
+- APK-extracted textures are NOT used (they're Spine atlas sheets, not portraits)
+- Remaining 74 heroes have no portrait — no image is better than a wrong one
+
+### Tools Available
+| Tool | Purpose | Status |
+|---|---|---|
+| `scripts/download_portraits.py` | Download from official site, scrape for new ones, generate placeholders | ✅ Ready |
+| `scripts/mitm_capture.py` | MITM proxy capture + analysis for API discovery | ✅ Ready |
+| `scripts/map_images.py` | Map unit IDs to portraits (currently only official site) | ✅ Clean |
+| Android emulator | CLI-installed at `~/Android/` with API 34 Google Play image | ✅ Available for future use |
+| mitmproxy | `brew install mitmproxy` — intercepts emulator traffic at `:8080` | ✅ Installed |
+
+### Future Ideas
+- **Populate `scripts/screenshot_capture.py`** — ADB + OpenCV to screenshot hero detail pages from emulator
+- **Frida SSL pinning bypass** — if game uses SSL pinning, patch with objection
+- **Spine extraction** — find `.skel` files in APK bundles, render idle frames to PNG
+- **Automated APK update check** — `python3 scripts/download_portraits.py --check-version` for latest APK version
+- **Placeholder portraits** — `python3 scripts/download_portraits.py --placeholder` generates silhouette initials
+
 ## Quirks & Conventions
 
 - No testing framework configured yet. Add one before writing tests.
