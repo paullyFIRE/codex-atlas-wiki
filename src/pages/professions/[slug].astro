@@ -27,21 +27,23 @@ if (!pageData) return Astro.redirect('/professions/', 404);
     <h1>{pageData.name}</h1>
     <p>{pageData.units.length} units ranked by combat power.</p>
 
-    <table>
-      <thead>
-        <tr><th>#</th><th>Unit</th><th>Rarity</th><th>Cost</th><th>Power</th></tr>
-      </thead>
-      <tbody>
-        {pageData.units.map((u, i) => (
-          <tr>
-            <td>{i + 1}</td>
-            <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
-            <td>{u.rarity ?? '-'}</td>
-            <td>{u.cost}</td>
-            <td>{u.combat_power}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <div class="table-wrap">
+      <table class="wiki-table">
+        <thead>
+          <tr><th>#</th><th>Unit</th><th>Rarity</th><th data-align="right">Cost</th><th data-align="right">Power</th></tr>
+        </thead>
+        <tbody>
+          {pageData.units.map((u, i) => (
+            <tr>
+              <td>{i + 1}</td>
+              <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
+              <td>{u.rarity ?? '-'}</td>
+              <td data-type="number">{u.cost}</td>
+              <td data-type="number">{u.combat_power}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </article>
 </BaseLayout>

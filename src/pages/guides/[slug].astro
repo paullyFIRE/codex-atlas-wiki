@@ -28,22 +28,24 @@ if (!pageData) return Astro.redirect('/guides/', 404);
     {pageData.mode_name && <p>Recommended units for <strong>{pageData.mode_name}</strong>.</p>}
     {pageData.cost_label && <p>Heroes costing {pageData.cost_min}{pageData.cost_max != null ? '-' + pageData.cost_max : '+'}.</p>}
 
-    <table>
-      <thead>
-        <tr><th>#</th><th>Unit</th><th>Rarity</th><th>Class</th><th>Cost</th><th>Power</th></tr>
-      </thead>
-      <tbody>
-        {pageData.units.map((u, i) => (
-          <tr>
-            <td>{i + 1}</td>
-            <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
-            <td>{u.rarity_name}</td>
-            <td>{u.profession_name}</td>
-            <td>{u.cost}</td>
-            <td>{u.combat_power}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <div class="table-wrap">
+      <table class="wiki-table">
+        <thead>
+          <tr><th>#</th><th>Unit</th><th>Rarity</th><th>Class</th><th data-align="right">Cost</th><th data-align="right">Power</th></tr>
+        </thead>
+        <tbody>
+          {pageData.units.map((u, i) => (
+            <tr>
+              <td>{i + 1}</td>
+              <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
+              <td>{u.rarity_name}</td>
+              <td>{u.profession_name}</td>
+              <td data-type="number">{u.cost}</td>
+              <td data-type="number">{u.combat_power}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </article>
 </BaseLayout>
