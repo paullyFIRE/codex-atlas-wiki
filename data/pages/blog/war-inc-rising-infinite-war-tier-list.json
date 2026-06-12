@@ -1,0 +1,52 @@
+{
+  "slug": "war-inc-rising-infinite-war-tier-list",
+  "name": "War Inc: Rising Infinite War Tier List — Best Troops for Endless PvE",
+  "title": "War Inc: Rising Infinite War Tier List — Best Heroes for Endless PvE Mode",
+  "meta_description": "Complete Infinite War tier list for War Inc: Rising. S to B rankings with specific strategy advice, including Poison Master carry compositions and Oracle stacking for 72% attack buffs.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "S Tier — Dominant in Infinite War",
+      "content": "Rock Throwers are the undisputed S-tier frontliners for Infinite War. With 8 troops per deployment, they demand 8 enemy targets, spreading incoming damage across multiple units and dramatically reducing burst pressure on your backline. Pair them with Goddess of War, whose shields keep Rock Throwers alive through sustained waves. Poison Master carries early-to-mid game progression — 8-10 level 6 Poison Masters can solo-carry through most Infinite War content. Their stacking poison damage scales exceptionally well against endless waves where sustainability matters more than burst. Poison Masters are also cheap to acquire through uncommon/rare fusion (costs only gold)."
+    },
+    {
+      "heading": "A Tier — Strong Performers",
+      "content": "Flame Mages provide excellent single-target damage against high-HP priority targets, especially at level 8 where their damage spikes. Royal Archers offer consistent ranged DPS and are available in the Exchange Shop for 4,000 Caravan Coins — making them accessible even to free-to-play players. Forest Scouts at level 9 (forge stone discount) provide cost-effective area control with a 2.5 tile attack radius — place them in the back row for survival. Oracles are the backbone of your damage scaling: each Oracle grants a 4% attack buff to nearby allies, stacking up to 20 layers. With 9 Oracles on the field, that's a 36% team-wide boost. Push to 18 Oracles for a 72% attack buff that turns your entire army into a scaling damage engine."
+    },
+    {
+      "heading": "B Tier — Situational Filler",
+      "content": "Warlocks and Marksmans provide decent filler damage when your core S/A tier units aren't leveled. High-level Mists offer survival utility but lack the direct impact of Rock Throwers. Storm Maidens benefit from Ripple Wizard's energy generation (Aqua Revival every 2.5 seconds) but are outclassed by Flame Mages for raw damage output. Jungle Rangers serve as a secondary buffer alongside your Oracles — they pair well with Ripple Wizard if you're running an energy battery setup, but they don't provide the same stacking scaling as Oracles."
+    },
+    {
+      "heading": "Infinite War Strategy Guide",
+      "content": "Build your formation with 2 full rows of tanks upfront to absorb wave damage. Place 2-3 healers behind the tanks. Rock Throwers should occupy the front line to maximize their target-spreading advantage. Goddess of War sits directly behind the Rock Throwers to shield them through wave after wave. Your Poison Masters (8-10 at level 6) handle all the damage through mid-game — they're cheap to fuse and replace. As you progress, transition to an Oracle-stacked formation: position Oracles behind your tank line so the 4% attack buffs overlap across your maximum number of damage dealers. Stack Flame Mages and Royal Archers behind the Oracles for targeted elimination of high-value threats. The key to Infinite War is scaling — endless waves demand compositions that get stronger over time, not burst compositions."
+    }
+  ],
+  "preview": "Complete Infinite War tier list for War Inc: Rising. S to B rankings with detailed strategy — Poison Masters carry early, Rock Throwers spread enemy targeting, and Oracle stacking delivers up to 72% attack buffs.",
+  "related_heroes": [
+    { "name": "Rock Thrower", "slug": "rock-thrower" },
+    { "name": "Goddess of War", "slug": "goddess-of-war" },
+    { "name": "Poison Master", "slug": "poison-master" },
+    { "name": "Flame Mage", "slug": "flame-mage" },
+    { "name": "Royal Archer", "slug": "royal-archer" },
+    { "name": "Forest Scout", "slug": "forest-scout" },
+    { "name": "Oracles", "slug": "oracle" },
+    { "name": "Jungle Ranger", "slug": "jungle-ranger" },
+    { "name": "Ripple Wizard", "slug": "ripple-wizard" }
+  ],
+  "word_count": 430,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Infinite War Tier List — Best Heroes for Endless PvE Mode",
+    "description": "Complete Infinite War tier list for War Inc: Rising. S to B rankings with specific strategy advice, including Poison Master carry compositions and Oracle stacking for 72% attack buffs.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

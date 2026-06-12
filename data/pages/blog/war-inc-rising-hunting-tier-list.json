@@ -1,0 +1,51 @@
+{
+  "slug": "war-inc-rising-hunting-tier-list",
+  "name": "War Inc: Rising Hunting Tier List — Best Troops for Boss Fights",
+  "title": "War Inc: Rising Hunting Tier List — Best Heroes for Boss Fights",
+  "meta_description": "Dominant Hunting mode tier list for War Inc: Rising. Single-target damage dealers like Flame Mages, Royal Archers, and Bone Marksman (250% Bone Shot) top the rankings. Tank-stacking and bum-rush strategies explained.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "S Tier — Boss Killers",
+      "content": "Flame Mages are the undisputed kings of Hunting mode. Their single-target burn damage melts boss HP bars, especially at level 8 where damage output spikes significantly. Royal Archers are equally essential — these single-target specialists are available in the Exchange Shop (4,000 Caravan Coins for 10), making them one of the best value investments in the game for boss content. Bone Marksman deserves special mention: at level 4, Bone Shot deals 250% damage every 8 seconds for backline deletion. With 32K HP and 2K ATK baseline at level 4, it's a pseudo level-6 unit that punches well above its investment cost."
+    },
+    {
+      "heading": "A Tier — Strong Options",
+      "content": "Forest Scouts at level 9 offer a 2.5 tile attack radius and benefit from forge stone discounts, making them cost-effective damage dealers against bosses. Bombs (Bombers) dominate the 2,500-5,000 trophy range — they deal 3x base ATK on death and are cheap to acquire through uncommon/rare fusion (costs only gold). Position Bombs to suicide into the boss for maximum burst. Oracles provide their stacking 4% attack buff per unit — even 4-5 Oracles boosting your Flame Mages can make the difference between a clear and a wipe on higher difficulty bosses. Necromancer is viable in Hunting: his skeletons deal massive AoE damage to the boss, though the ~176 morale loss per dragon hit (compared to ~121 normal) makes him costly without Goddess of War support."
+    },
+    {
+      "heading": "B Tier — Support and Sustain",
+      "content": "Buffers like Jungle Ranger and Starlight Apostle can boost your damage dealers but lack the raw output of S-tier options on their own. Tanks are essential for aggro management — stack all tanks on the right side to shift boss aggro away from your DPS line. Goddess of War shields your squishier backliners and is mandatory if you're running Necromancer (keeps skeletons alive long enough to deal damage). Goddess also protects Oracles and ranged DPS from boss AoE attacks. Woodland Guardian can serve as a self-sustaining off-tank with his 30% HP + 3,000 fixed heal every 12 seconds."
+    },
+    {
+      "heading": "Hunting Strategy — Tank Stacking vs Bum-Rush",
+      "content": "Two main strategies dominate the current Hunting meta. Tank stacking (old meta): place all your tanks on the right side of the formation to concentrate boss aggro, letting your Flame Mages and Royal Archers DPS freely from the left. This is safer but slower on kill times. Bum-rush (new meta): flood the field with high-damage troops and Bombs, overwhelming the boss before it can kill your key units. Bombs are particularly effective — suicide them into the boss for 3x base ATK burst damage, then replace. The 2,500-5,000 trophy range is where Bombs dominate. Whichever strategy you use, place damage dealers behind the tank line and keep Forest Scouts in the back row — their 2.5 tile radius covers the boss area without exposing them to aggro."
+    }
+  ],
+  "preview": "Dominant Hunting mode tier list for War Inc: Rising. S to B rankings for boss fights. Learn the tank-stacking vs bum-rush meta, which single-target dealers excel, and how Bombs dominate the 2,500-5k trophy range.",
+  "related_heroes": [
+    { "name": "Flame Mage", "slug": "flame-mage" },
+    { "name": "Royal Archer", "slug": "royal-archer" },
+    { "name": "Bone Marksman", "slug": "bone-marksman" },
+    { "name": "Forest Scout", "slug": "forest-scout" },
+    { "name": "Bomber", "slug": "bomber" },
+    { "name": "Oracles", "slug": "oracle" },
+    { "name": "Necromancer", "slug": "necromancer" },
+    { "name": "Goddess of War", "slug": "goddess-of-war" }
+  ],
+  "word_count": 420,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Hunting Tier List — Best Heroes for Boss Fights",
+    "description": "Dominant Hunting mode tier list for War Inc: Rising. Single-target damage dealers like Flame Mages, Royal Archers, and Bone Marksman (250% Bone Shot) top the rankings.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

@@ -1,46 +1,119 @@
 {
   "slug": "war-inc-rising-gem-spending-guide",
-  "name": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
-  "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization",
-  "meta_description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
+  "name": "War Inc: Rising Ultimate Gem Guide — Wheel, Card Master & What to Spend On",
+  "title": "War Inc: Rising Ultimate Gem Guide — Wheel, Card Master, and Best Value",
+  "meta_description": "Complete guide to spending gems in War Inc: Rising. Wheel vs Card Master costs, fusion analysis, forge stones, gem passes, and what to never waste gems on.",
   "type": "blog",
-  "date": "2026-04-01",
+  "date": "2026-06-12",
   "author": "War Inc Wiki Team",
   "sections": [
     {
-      "heading": "Your First 10,000 Gems",
-      "content": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early — get your core team first, then chase specific heroes. Save 500 gems for energy refills during events that offer Mythic shards."
+      "heading": "The Golden Rule of Gems",
+      "content": "There are exactly two things worth spending gems on in War Inc: Rising — the Wheel and Card Master. Everything else (fusion, extra battles, summons, speed-ups) is 99% worthless. This is the unanimous consensus from top players and content creators. If you save your gems for only these two systems, you will progress faster than someone who spreads gems across everything."
     },
     {
-      "heading": "Permanent Summon vs Limited Summon",
-      "content": "Permanent Summon is better for consistent long-term value. It guarantees progress toward your next Legendary or Mythic. Limited Summon offers higher rates for specific heroes but resets your pity counter if you don't pull. The optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring top-tier Mythics."
+      "heading": "The Wheel — Your Primary Gem Sink",
+      "content": "The Wheel is the most consistent way to acquire mythic troops. Each spin costs ~100 gems with a 4% mythic rate (roughly 1 in 25 spins). It also has a 15% legendary rate, making it valuable for building depth. The Wheel has milestone chests at 10, 30, 50, and 100 pulls — these contain valuable resources and additional mythic chances. The optimal strategy is to stop at milestone chests rather than chasing a specific pull. To get a level 4 mythic from the Wheel, budget approximately 11,000 gems on average (13,000 to be safe). For a level 6 mythic (32 copies needed), expect around 800 spins or roughly 80,000 gems."
     },
     {
-      "heading": "Energy Refills — When and When Not",
-      "content": "Energy refills (50 gems) are worth it during events with Mythic shard rewards, double-drop campaigns, or when farming Forge Stones. Avoid energy refills for normal farming. The daily free energy and event claim rewards are usually sufficient for baseline progression."
+      "heading": "Card Master — The Alternative Path",
+      "content": "Card Master presents 12 face-down cards with one guaranteed featured mythic. Each draw costs 250 gems and removes the card from the pool. On average, you'll find the mythic in 6.5 picks, making it slightly cheaper than the Wheel for targeted mythic acquisition. A level 4 mythic from Card Master costs ~9,000 gems average (12,000 safe). Card Master also offers chest rewards at 10, 30, and 60 pulls. For 32 copies to reach level 6, expect roughly 208 pulls or about 52,000 gems. Card Master is better than the Wheel when you want a specific featured mythic; the Wheel is better for overall value when you're happy with multiple possible outcomes."
     },
     {
-      "heading": "Common Gem Mistakes",
-      "content": "Don't spend gems on speeding up building construction — time is free. Don't buy resources (gold, wood) from the shop with gems — they're poor value. Don't refresh daily missions with gems — the return is minimal. Don't spend gems on random hero shards in the shop — targeted summoning is more efficient."
+      "heading": "Wheel vs Card Master — Which Is Better?",
+      "content": "Both systems are comparable, but each has strengths. Wheel: 4% mythic rate, milestone chests at 10/30/50/100, better long-term value per gem, good for building general mythic depth. Card Master: Better for targeting a specific mythic, slightly cheaper per mythic on average (~9K vs ~11K for level 4), but you might get unlucky and draw all 12 cards. Recommendation: Use the Wheel for general mythic acquisition. Use Card Master only when a specific top-tier mythic (Radiant Warrior, Frost Queen, Necromancer, Light Seeker) is featured. Never pull on the Wheel if the featured mythic is low-tier (check our tier list first)."
+    },
+    {
+      "heading": "Fusion — Do NOT Use Gems",
+      "content": "Fusion (merging 3 same-rarity troops into 1 random next-rarity troop) can be done with gold for Common→Uncommon and Uncommon→Rare upgrades. Never use gems for Rare→Epic or higher fusions. The updated consensus from top players is clear: fusion with gems is a trap. The only fusion worth doing is using gold to fuse level 6 Uncommons into level 6 Rare Bombs — this is the cheapest way to get Bombs, which dominate the 2,500-5,000 trophy range in PvP."
+    },
+    {
+      "heading": "Forge Stones — How to Spend Wisely",
+      "content": "Forge stones are a separate currency from gems, but how you spend them affects your gem efficiency. The game has implemented permanent cost reductions: Common level 7 went from 320 to 32 stones (90% off), Rare upgrades are ~90% off, and Epic level 7 went from 960 to 700 stones. Only invest forge stones in: Ursa (level 7), Elven Archer (level 7), Oracles (level 7+), Bone Gunner, Flame Mages, Poison Masters, and select rares (Forest Scout, Flayer Warden, Goblin Shredder, Paladin, Bomber, Frost Skeleton). Upgrade one of each Common to level 7 for the 100-gem Power Stance achievement, then stop."
+    },
+    {
+      "heading": "Gem Passes & Battle Pass — Real Money Value",
+      "content": "If you spend real money, the best value is the 30-Day Premium Pass at $15/month (2,000 immediate gems + 320/day = ~$0.50/day). The Basic Pass at $5/month (600 immediate + 100/day) is acceptable for light spenders. The Battle Pass at ~$10 per 2 weeks is good value for the rewards alone. Growth Packs ($1-$2 per level) are worth buying as you progress. These passes are the only recommended real-money purchases — direct gem buys from the shop are poor value."
+    },
+    {
+      "heading": "What About Summon Events?",
+      "content": "Summon events (spending scrolls for grouping rewards) are worth participating in, but use scrolls, not gems. Spend roughly 30 scrolls per event grouping: the first 10 give a chest reward, and the next 20 give forge stones. Best targets during summon events are Starlight Apostle, Night King, and Geomancer. Never buy scrolls with gems specifically for summon events — the value is worse than Wheel or Card Master."
+    },
+    {
+      "heading": "What to NEVER Spend Gems On",
+      "content": "The following gem expenditures are universally considered traps by the community: (1) Extra Infinite War battles — the 3 free daily battles are sufficient. (2) Extra Hunting battles — same logic. (3) Fusion with gems at any tier. (4) Recruit/Summon purchases with gems (use only scrolls). (5) Speeding up building construction. (6) Buying resources (gold, wood) from the shop. (7) Non-mythic Wheels — never spin if the featured mythic is a low-tier unit. (8) Refreshing daily missions. (9) Random hero shards in the shop. Avoid all of these and your gem efficiency will skyrocket."
+    },
+    {
+      "heading": "Beginner Gem Plan — First 30 Days",
+      "content": "Week 1-2: Save every gem. Don't spend anything. Complete all dailies. Focus on castle upgrades (use all wood on castle — each level gives +50 troop energy, worth '10 dragons of power'). Week 3-4: Start spending on the Wheel when a good mythic is featured (Radiant Warrior, Frost Queen, Bone Marksman). Budget for milestone chests at 50 or 100 pulls. Meanwhile, fuse uncommons with gold to build Bombs for PvP progression. Month 2+: Target specific mythics. Participate in summon events using only scrolls. Keep 2 copies of top-tier mythics — never merge your last 2 copies of Radiant Warrior, Frost Queen, Necromancer, or Bone Marksman."
     }
   ],
-  "preview": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early ...",
+  "preview": "There are exactly two things worth spending gems on in War Inc: Rising — the Wheel and Card Master. Everything else is 99% worthless. This guide covers exact costs, optimal strategies, and what to avoid.",
   "related_heroes": [
-    {
-      "name": "Camp",
-      "slug": "camp"
-    }
+    { "name": "Radiant Warrior", "slug": "radiant-warrior" },
+    { "name": "Frost Queen", "slug": "frost-queen" },
+    { "name": "Bone Marksman", "slug": "bone-marksman" },
+    { "name": "Necromancer", "slug": "necromancer" },
+    { "name": "Light Seeker", "slug": "light-seeker" },
+    { "name": "Oracles", "slug": "oracles" }
   ],
-  "word_count": 201,
+  "word_count": 850,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
-    "description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
-    "datePublished": "2026-04-01",
+    "headline": "War Inc: Rising Ultimate Gem Guide — Wheel, Card Master & What to Spend On",
+    "description": "Complete guide to spending gems in War Inc: Rising. Wheel vs Card Master costs, fusion analysis, forge stones, gem passes, and what to never waste gems on.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"
     }
+  },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What should I spend gems on in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only two things: the Wheel and Card Master. Everything else (fusion, extra battles, summons, speed-ups) is 99% worthless."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a mythic cost on the Wheel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each spin costs ~100 gems with a 4% mythic rate. Budget approximately 11,000 gems for a level 4 mythic from the Wheel, or 80,000 for a level 6 mythic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Card Master better than the Wheel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Card Master is slightly cheaper per mythic (~9,000 gems for level 4) and better for targeting a specific mythic. The Wheel is better for general mythic depth and long-term value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I use gems on fusion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Fusion with gems is a trap. The only fusion worth doing is using gold to fuse level 6 Uncommons into Rare Bombs — this costs gold only, no gems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best real-money purchase?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The 30-Day Premium Pass at $15/month ($0.50/day) is the best value. The Basic Pass at $5/month and Battle Pass at ~$10 per 2 weeks are also good. Direct gem buys are poor value."
+        }
+      }
+    ]
   }
 }

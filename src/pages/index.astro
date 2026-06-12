@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const siteTitle = 'War Inc: Rising Wiki | war-inc-rising.codex-atlas.com';
+const siteTitle = 'War Inc: Rising | war-inc-rising.codex-atlas.com';
 const siteDescription = 'Comprehensive War Inc: Rising wiki with hero stats, skill data, per-level attributes, strategy guides, tier lists, and game mode analysis for all 95 playable heroes. Data extracted from the game APK.';
 
 const heroIdx = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
@@ -50,7 +50,7 @@ const guideCount = guideIdx['/data/pages/guides/_index.json']?.count ?? 0;
     @media (max-width: 767px) { .home-grid { grid-template-columns: 1fr; } }
   </style>
 
-  <h1>War Inc: Rising Wiki</h1>
+  <h1>War Inc: Rising</h1>
   <p>{siteDescription}</p>
 
   <div class="home-grid">

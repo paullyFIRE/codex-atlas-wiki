@@ -38,7 +38,7 @@ All extracted data lives in `data/processed/`. These are the canonical files for
 | File | Contents | Key Fields |
 |---|---|---|
 | `config/card_growth.json` | 316 battle units + 10 followers + growth curves | `battleUnits`, `followers`, `battleGrowth`, `merge`, `skillUpgradeCost`, `unitSkillUnlock`, `combatPowerGrowth` |
-| `config/equip_battle.json` | 160 equipment items, 5 tiers each | `equips` { `id`, `targetCamp`, `levels[]` } |
+| ~~`config/equip_battle.json`~~ | ~~160 equipment items, 5 tiers each~~ | ~~IGNORE — not a real game feature, leftover Unity assets~~ |
 | `config/battle_conf_lib.json` | 5 game mode configs | Layout, enemy pools, card pools, rewards, synergies |
 | `config/battle_config.json` | Core battle settings | `battle_config`, `formation` |
 | `config/battle_synergy.json` | 9 synergy/lib definitions | `periods`, `libs` |
@@ -105,13 +105,12 @@ profession: 2=Warrior, 3=Tank, 4=Assassin, 5=Mage, 6=Support, 7=Ranger
 rarity: 1=Common, 2=Rare, 3=Epic, 4=Legendary, 5=Mythic
 ```
 
-### Page Potential (~500+ pages)
+### Page Potential (~340+ pages)
 
 - **179 hero pages**: Name, rarity, profession, cost, per-level HP/ATK/DEF/speed, skills, combat power growth
 - **55 building/tower pages**: Same stats but `unitType=4`
 - **59 special pages**: Resources, mines, barracks (unitType=5)
 - **10 follower pages**: Pet/troop units
-- **160 equipment pages**: 5 upgrade tiers per item
 - **5 game mode pages**: Rules, enemy pools, rewards
 - **9 synergy pages**: Team bonus effects
 - **36 buff pages**: Field modifier effects
@@ -125,7 +124,6 @@ rarity: 1=Common, 2=Rare, 3=Epic, 4=Legendary, 5=Mythic
 /buildings/{slug}        — Building detail
 /special/{slug}          — Special entity
 /followers/{slug}        — Follower detail
-/equipment/{slug}        — Equipment detail
 /modes/{slug}            — Game mode detail
 /synergies/{slug}        — Synergy detail
 /buffs/{slug}            — Field buff detail
@@ -183,13 +181,13 @@ H1: {Name}                              ← Unit display name
 }
 ```
 
-### Page Potential (~500+ pages)
+### Page Potential (~340+ pages)
 
 - **179 hero pages**: Name, rarity, profession, cost, per-level HP/ATK/DEF/speed, skills, combat power growth
 - **55 building/tower pages**: Same stats but `unitType=4`
 - **59 special pages**: Resources, mines, barracks (unitType=5)
 - **10 follower pages**: Pet/troop units
-- **160 equipment pages**: 5 upgrade tiers per item
+
 - **5 game mode pages**: Rules, enemy pools, rewards
 - **9 synergy pages**: Team bonus effects
 - **36 buff pages**: Field modifier effects

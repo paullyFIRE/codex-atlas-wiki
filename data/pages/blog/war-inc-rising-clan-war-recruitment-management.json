@@ -1,0 +1,43 @@
+{
+  "slug": "war-inc-rising-clan-war-recruitment-management",
+  "name": "War Inc: Rising Clan Recruitment and Tracker Guide",
+  "title": "War Inc: Rising Clan Management Guide — Mergers, Recruitment and Tracker",
+  "meta_description": "Manage your War Inc: Rising clan effectively. Learn from real clan mergers (Heretic Sanctuary, Eternal Crusaders), use the Clan Tracker feature, and set expectations for members.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "The State of Clans in War Inc: Rising",
+      "content": "The game has seen significant player turnover. Long-standing big-time players are stepping down from leadership, taking breaks, or quitting. Teams like Kpop and RLK have lost key members. Mergers have become the survival strategy for maintaining competitive rosters. The biggest example in recent history is the combination of Heretic Sanctuary, Eternal Crusaders, and the former Mortal Crowns family into the Eternal Sanctuary alliance — a four-team structure designed to cover every competitive tier."
+    },
+    {
+      "heading": "The Eternal Sanctuary Model — Four Tiers of Competition",
+      "content": "Heretic Sanctuary (one of the original Mortal Crowns splinter teams) merged with Eternal Crusaders and two additional teams to form four clans under one banner: Eternal Sanctuary Heretics (Pinnacle tier, top 16 teams worldwide), Eternal Sanctuary Crusaders (Masters tier, strong active players), Eternal Sanctuary Eagles (Elite tier), and Eternal Sanctuary Forge (Challenger tier). This four-tier structure means no player is left behind. New or casual players join Eagles or Forge, get coaching and support, and can move up to Crusaders or Heretics when they are strong enough. Veterans who need a break can drop down a tier without leaving the family. The merged Discord serves around 250–260 members with channels for formation help, guides, and general chat. For smaller clans looking to survive in the current climate, this tiered merger model is the most proven path forward."
+    },
+    {
+      "heading": "Recruitment Expectations for Competitive Clans",
+      "content": "Top-tier clans (Pinnacle, top 10–15 global) have clear expectations for members. You must be active daily — missing dragon windows or ignoring calls to defend towers hurts the entire team. You need to be on Discord and responsive to pings, especially during Crimson Moon and dragon windows. You need to be willing to switch formations based on what the team needs (tower busting, PvP, dragon hitting at designated times). You need to attend dragon windows when possible — dragon hits are the single biggest contributor to team score. Low activity on the Clan Tracker (low monster defeats) is the primary indicator leaders use to identify inactive members. If your monster defeat count is low, you are not moving around the map and contributing."
+    },
+    {
+      "heading": "Clan Tracker Feature — Activity Visibility",
+      "content": "The Clan Tracker, accessible to clan leaders, provides three views for monitoring member activity. The Seasons tab shows the current season (season 21 as of this writing) and allows viewing the past 3 seasons for comparison. The Player Defeats tab shows PvP wins — players who actively hunt enemy teams during Crimson Moon and throughout the war. The Monster Defeats tab aggregates tower captures, spider attacks, and dragon hits into one combined count. Monster defeats are the truest measure of overall activity: high numbers mean the player is constantly moving around the map and hitting objectives. The tracker has reshaped how leaders manage rosters. For the first time, they can see exactly who is contributing and who is coasting. The suggested improvement from the community is to split monster defeats into three sub-tabs: towers, spiders, and dragons separately for more granular tracking."
+    },
+    {
+      "heading": "Diplomacy Between Teams",
+      "content": "War Inc: Rising is as much a social network as it is a strategy game. Teams that talk to each other win more. The diplomacy tab lets leaders mark allies (towers turn blue after a 6-hour countdown acceptance) and enemies (towers turn red). But real diplomacy happens on Discord. Teams negotiate borders — agreeing that certain lanes are shared and not contested. Teams coordinate dragon sharing schedules. Teams form temporary alliances to push a common enemy off a spider. The key lesson from top-tier clans: treat other teams with respect, communicate clearly, and honor your agreements. Wars change. Alliances shift. But a reputation for reliability and fair dealing pays off across seasons."
+    }
+  ],
+  "preview": "Comprehensive clan management guide for War Inc: Rising. Real merger case studies (Eternal Sanctuary), four-tier competition model, recruitment expectations, Clan Tracker feature, and diplomacy best practices.",
+  "related_heroes": [],
+  "word_count": 650,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Clan Management Guide — Mergers, Recruitment and Tracker",
+    "description": "Manage your War Inc: Rising clan effectively. Real merger examples, Clan Tracker feature, member expectations, and diplomacy tips from top-tier clans.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": { "@type": "Person", "name": "War Inc Wiki Team" }
+  }
+}

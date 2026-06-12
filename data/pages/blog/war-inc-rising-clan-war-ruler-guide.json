@@ -1,0 +1,43 @@
+{
+  "slug": "war-inc-rising-clan-war-ruler-guide",
+  "name": "War Inc: Rising Clan War Ruler System Guide",
+  "title": "War Inc: Rising Ruler Guide — Core Stones, Weapons and Upgrade Odds",
+  "meta_description": "Complete Ruler system guide for War Inc: Rising Clan Wars. Learn core stone levels, weapon fragment odds, upgrade success rates, and how to equip rulers to formations.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "What Is the Ruler System?",
+      "content": "The Ruler system is a commander unit in Clan War that gives stat boosts to your formations. You equip a ruler to each of your formations through the Barracks interface using the dedicated Ruler button. Rulers persist across the entire month — the same ruler you upgrade is used for clan hunt and the next clan war, so investing in your ruler is a month-long commitment."
+    },
+    {
+      "heading": "Equipping Rulers to Formations",
+      "content": "In the Barracks screen, two new buttons appear: Ruler and Core Stones. The Ruler button shows your available rulers with multiple slots, hinting that future updates will allow multiple rulers at once. To equip, select an empty slot, pick your ruler, hit Use, then Save. You need to do this separately for every formation — your tower/PvP build, your dragon build, and your spider build all need a ruler equipped. There is no global equip. Multiple ruler slots suggest future flexibility to run different commanders for different objectives."
+    },
+    {
+      "heading": "Core Stones — How Fragment Rolling Works",
+      "content": "Core stones are the heart of the ruler system. You roll core stones to get weapon fragment pieces for your ruler. This works identically to troop recruitment in co-op mode. A level 1 core stone has a high percentage of giving 1-star pieces — common fragments. As you level up the core stone, the odds shift toward better fragments. At level 6, your odds are roughly: 27% for 1-star pieces, 24% for 2-star, 20% for 3-star, 18% for 4-star, and the remaining percentage for 5-star and rare fragments. Level 6 to 7 is the sweet spot where you get consistent 2-star and 3-star pieces without excessive cost. Level 8 and above increases the odds of rare fragments but costs significantly more ruler points per roll. You need to collect 9 pieces total to activate a weapon (3 weapons with 3 pieces each per the game's UI). Fragment pieces can also come from the single chest rewards in the ruler screen."
+    },
+    {
+      "heading": "Upgrade Risk — The 50% Success Rate",
+      "content": "Upgrading your core stone level carries risk. Each upgrade attempt has roughly a 50% chance of success. If the upgrade fails, your core stone goes down a level. This means you can waste significant ruler points bouncing between levels. The recommended strategy from top players is to push your core stone to level 6 or 7, then stop. At those levels, the fragment odds are good enough to generate useful pieces, and the risk of losing progress on higher-level upgrades is not worth the marginal improvement. High-level whale players may push to level 8 or 10 for better rare fragment odds, but for most players, level 6 or 7 is the cost-effective sweet spot."
+    },
+    {
+      "heading": "Ruler Points and Resource Management",
+      "content": "Ruler points are earned through clan war activities — every battle, tower capture, and dragon hit gives ruler points along with gold and clan points. You can spend them on core stone rolls and upgrade attempts. The key is consistency: the ruler is active for the entire month across both clan hunt and clan war, so regular participation across both modes ensures steady progress. Prioritize core stone rolls over risky upgrade attempts. Open the single chest rewards in the ruler screen whenever available — they give free weapon fragment pieces that fill out your collections faster."
+    }
+  ],
+  "preview": "Complete Ruler system guide for War Inc: Rising Clan Wars. Core stone levels, weapon fragment odds at each level, the 50% upgrade failure risk, equipping rulers per formation, and resource management tips.",
+  "related_heroes": [],
+  "word_count": 520,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Ruler Guide — Core Stones, Weapons and Upgrade Odds",
+    "description": "Complete Ruler system guide for War Inc: Rising Clan Wars. Learn core stone levels, weapon fragment odds, upgrade success rates, and how to equip rulers.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": { "@type": "Person", "name": "War Inc Wiki Team" }
+  }
+}

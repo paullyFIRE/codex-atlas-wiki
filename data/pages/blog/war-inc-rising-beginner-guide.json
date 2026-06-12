@@ -1,62 +1,131 @@
 {
   "slug": "war-inc-rising-beginner-guide",
-  "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
-  "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression",
-  "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
+  "name": "War Inc: Rising Beginner Guide 2026 — First 30 Days Strategy",
+  "title": "War Inc: Rising Beginner Guide 2026 — Complete First 30 Days Strategy",
+  "meta_description": "New to War Inc: Rising? This beginner guide covers everything for your first 30 days: what to build, what troops to use, what to spend gems on, what to avoid, and the 16 most common beginner mistakes.",
   "type": "blog",
-  "date": "2026-01-15",
+  "date": "2026-06-12",
   "author": "War Inc Wiki Team",
   "sections": [
     {
-      "heading": "Early Priorities (Levels 1–60)",
-      "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates."
+      "heading": "The Golden Rule: Never Merge Your Last Two Copies",
+      "content": "This is the single most important tip in War Inc: Rising. Never merge your last two copies of a strong troop — two level 3s are better than one level 4 because you can field them in separate formations. The only exception is when you have a third copy waiting. This applies especially to Radiant Warrior, Frost Queen, Necromancer, and Bone Marksman. Top players keep two copies of these at all times."
     },
     {
-      "heading": "Summoning Strategy",
-      "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season."
+      "heading": "Week 1-2: Foundation Phase",
+      "content": "Your first two weeks are about building a foundation. Castle upgrade is your ABSOLUTE #1 priority — spend ALL wood on it. Each castle level gives +50 troop energy, which a top content creator calls '10 dragons worth of power.' Complete all daily quests (5 quests, 3 resets per day). Don't spend any gems yet — save them. Use Swordsman (common melee, multi-unit splash) and Archer (common range, highest ATK) as your core troops early. They're genuinely good even at common rarity. NEVER use Wood Shield Guard, Snowball Thrower, or Gunner — they're traps. Fuse uncommon troops with gold to try for Bombs (costs gold only, no gems). Join an active clan — Heretic Sanctuary is recommended by the community."
     },
     {
-      "heading": "Resource Management: Gems, Gold and Forge Stones",
-      "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes."
+      "heading": "Week 3-4: Gem Spending Phase",
+      "content": "Start spending your saved gems on the Wheel when a good mythic is featured (Radiant Warrior, Frost Queen, Bone Marksman, Necromancer, Light Seeker). The optimal strategy is to spin until you hit milestone chests at 50 or 100 pulls — never chase specific pulls. Budget ~11,000 gems per level 4 mythic from the Wheel, ~9,000 from Card Master. Meanwhile, keep fusing uncommons with gold to build Bombs — they dominate the 2,500-5,000 trophy range in PvP. Build up 8-10 level 6 Poison Masters to carry your Infinite War progression. Start co-op grinding with a clanmate (gold mine every 15s, pick different devil cards than your partner)."
     },
     {
-      "heading": "Building Your First Team",
-      "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations."
+      "heading": "Building Priority Order",
+      "content": "Building upgrades follow a strict priority: Castle (Command Center) is #1 without question — each level gives +50 troop energy. Spell Cauldron unlocks at a certain castle level and is the next priority. Gold Mine increases your gold income. Sawmill increases wood income. Follower Camp should be left at level 1 — it 'isn't much use' according to top players. Daily routine: Log in, tap the building icon, collect all resources, start next castle upgrade, then queue other buildings."
     },
     {
-      "heading": "Understanding Hero Stats",
-      "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot."
+      "heading": "Month 2: Targeting Mythics",
+      "content": "By month two you should have saved 10,000-15,000 gems. Target specific mythics based on priority: Radiant Warrior first (get minimum 2-3 copies), then Bone Marksman (get to level 4 for skill unlock), then Necromancer or Light Seeker depending on your focus (PvE vs PvP). Reach 2,500-5,000 trophies in PvP where Bombs are strongest. Participate in clan war and learn the basics. Join Dragon Clash events and pick a side IMMEDIATELY upon event start. Participate in summon events using scrolls only (never gems) — spend ~30 scrolls per event grouping. Start co-op Lucky Dice events with a mine-first strategy."
+    },
+    {
+      "heading": "Month 3+: Endgame Transition",
+      "content": "Start investing forge stones into key troops: Ursa (level 7), Elven Archer (level 7), Oracles (level 7+ for skill range), Bone Gunner, Flame Mages, Poison Masters. Level up your Ruler in clan war — equip via Barracks → Ruler button. Core stones have a sweet spot at level 6-7 (good 2-3 star odds). Have multiple S-tier mythics at level 4+. Target top 1,000 in arena. Get involved in clan leadership and diplomacy."
+    },
+    {
+      "heading": "Gem Spending: Only Two Things Worth It",
+      "content": "There are exactly two things worth spending gems on: the Wheel and Card Master. Everything else is a trap. Wheel: ~100 gems per spin, 4% mythic rate, milestone chests at 10/30/50/100. Budget ~11K gems for a level 4 mythic. Card Master: 250 gems per draw, 12 cards with 1 featured mythic, average 6.5 picks to find it. Budget ~9K for a level 4 mythic. NEVER spend gems on: extra Infinite War battles, extra Hunting battles, fusion at any tier, recruit/summon purchases (use scrolls only), building speed-ups, resources from the shop, non-mythic Wheels, refreshing daily missions, or random hero shards."
+    },
+    {
+      "heading": "Forge Stone Strategy for Beginners",
+      "content": "Forge stones are the bottleneck for level 7+ upgrades. The game has implemented permanent cost reductions: Common level 7 costs only 32 stones (was 320), level 9 costs 240 (was 1,200). Rare upgrades are ~90% off. Epic level 7 costs 700 (was 960). Only invest forge stones in: Ursa, Elven Archer, Oracles, Bone Gunner, Flame Mages, Poison Masters, and select rares (Forest Scout, Flayer Warden, Goblin Shredder, Paladin, Bomber, Frost Skeleton). Upgrade one of each Common to level 7 for the 100-gem Power Stance achievement, then stop."
+    },
+    {
+      "heading": "16 Beginner Mistakes to Avoid",
+      "content": "Here are the most common mistakes compiled from top players and content creators. (1) Merging your last two copies of strong troops. (2) Spending forge stones on wrong troops. (3) Not picking a Dragon Clash side immediately when the event starts. (4) Merging troops too early without enough copies. (5) Spending gems on extra battles or fusion. (6) Forgetting to use the in-game name color trick (<#RGB> format). (7) Ignoring the clan war trial feature (free formation testing). (8) Not coordinating dragon times with clanmates. (9) Not using the Rope-a-Dope trick in Crimson Moon clan war. (10) Spending all gold at once — stay near your gold cap (Castle 3 = 2M, Castle 4 = 2.5M, Castle 5 = 3M). (11) Using uncommons in your main formation — they fall off quickly. (12) Wasting all recruitment on level 3 recruiting only. (13) Not checking Discord for event and troop schedules. (14) Not understanding multi-unit vs single-unit stats (multi-units show stats per individual, not total). (15) Wasting forge stones on level 7 commons beyond one each. (16) Using Wood Shield Guard, Snowball Thrower, or Gunner."
+    },
+    {
+      "heading": "What Troops to Use at Each Rarity",
+      "content": "Commons: Swordsman (melee splash) and Archer (best range). Upgrade one each to level 7 for achievement, then stop. Never use Wood Shield Guard, Snowball Thrower, or Gunner. Rares: Forest Scout (best range), Flayer Warden (best melee), Goblin Shredder (2s stun), Paladin (shield), Bomber (suicide + stun at 7), Frost Skeleton (speed reduction). Skip Apprentice Mage, Goblin Shaman, Berserker, Werewolf. Epics: Oracles (best epic, stack as many as possible), Poison Masters (8-10 for Infinite War), Flame Mages (hunting). Legendaries: Ursa (level 7), Elven Archer (level 7), Bone Gunner. Mythics: Radiant Warrior (priority #1), Frost Queen (keep 2), Bone Marksman (get to level 4 ASAP), Necromancer (PvE king), Light Seeker (PvP destroyer)."
     }
   ],
-  "preview": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banner...",
+  "preview": "Complete War Inc: Rising beginner guide for 2026. Covering your first 30 days with building priorities, gem strategy, troop recommendations, and 16 common mistakes to avoid.",
   "related_heroes": [
-    {
-      "name": "Archer",
-      "slug": "archer"
-    },
-    {
-      "name": "Swordsman",
-      "slug": "swordsman"
-    },
-    {
-      "name": "Command Center",
-      "slug": "command-center-1"
-    },
-    {
-      "name": "Camp",
-      "slug": "camp"
-    }
+    { "name": "Radiant Warrior", "slug": "radiant-warrior" },
+    { "name": "Frost Queen", "slug": "frost-queen" },
+    { "name": "Bone Marksman", "slug": "bone-marksman" },
+    { "name": "Necromancer", "slug": "necromancer" },
+    { "name": "Light Seeker", "slug": "light-seeker" },
+    { "name": "Oracles", "slug": "oracles" },
+    { "name": "Swordsman", "slug": "swordsman" },
+    { "name": "Archer", "slug": "archer" },
+    { "name": "Poison Master", "slug": "poison-master" },
+    { "name": "Goddess of War", "slug": "goddess-of-war" }
   ],
-  "word_count": 363,
+  "word_count": 1150,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
-    "description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
-    "datePublished": "2026-01-15",
+    "headline": "War Inc: Rising Beginner Guide 2026 — Complete First 30 Days Strategy",
+    "description": "Complete War Inc: Rising beginner guide covering your first 30 days with building priorities, gem strategy, troop recommendations, and 16 common mistakes to avoid.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"
     }
+  },
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the golden rule in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never merge your last two copies of a strong troop. Two level 3s are better than one level 4 because you can field them in separate formations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I spend gems on in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only two things: the Wheel (~100 gems per spin, 4% mythic rate) and Card Master (250 gems per draw, guaranteed featured mythic). Never spend gems on fusion, extra battles, or summons."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What buildings should I upgrade first?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Castle (Command Center) is #1 priority — each level gives +50 troop energy. Then Spell Cauldron, Gold Mine, and Sawmill. Leave Follower Camp at level 1."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What troops should I use as a beginner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use Swordsman and Archer as core early troops. Never use Wood Shield Guard, Snowball Thrower, or Gunner — they're traps. Fuse uncommons with gold to try for Bombs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do forge stones work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Forge stones are needed for level 7+ upgrades. Costs were permanently reduced: Common Lv7 costs 32 stones (was 320), Rare ~90% off. Only invest in Ursa, Elven Archer, Oracles, Bone Gunner, Flame Mages, and Poison Masters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are common beginner mistakes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Merging last two copies of strong troops, spending forge stones on wrong troops, not picking a Dragon Clash side immediately, spending gems on extra battles, and using Wood Shield Guard, Snowball Thrower, or Gunner."
+        }
+      }
+    ]
   }
 }

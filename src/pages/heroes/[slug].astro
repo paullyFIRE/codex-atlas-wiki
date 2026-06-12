@@ -28,6 +28,12 @@ if (!pageData) {
   return Astro.redirect('/heroes/', 404);
 }
 
+let communityRank;
+try {
+  const rankingFile = (await import.meta.glob('/data/pages/community_rankings.json', { eager: true, import: 'default' }))['/data/pages/community_rankings.json'];
+  communityRank = rankingFile?.heroes?.[slug] ?? null;
+} catch {}
+
 const topRelated = pageData.related?.[0];
 const costBracket = pageData.cost <= 2 ? 'low' : pageData.cost <= 4 ? 'mid' : 'high';
 const costLabel = pageData.cost <= 2 ? 'Low' : pageData.cost <= 4 ? 'Mid' : 'High';
@@ -49,6 +55,7 @@ if (lv1.move_speed) {
 const sectionLinks = [
   { href: '#stats', label: 'Stats' },
   ...(pageData.skills.length > 0 ? [{ href: '#skills', label: 'Skills' }] : []),
+  ...(communityRank ? [{ href: '#community-rank', label: 'Community Rank' }] : []),
   { href: '#strategy', label: 'Strategy' },
   ...(pageData.related.length > 0 ? [{ href: '#related', label: 'Related' }] : []),
   { href: '#resources', label: 'More' },
@@ -83,6 +90,22 @@ const sectionLinks = [
       cost={pageData.cost}
       power={pageData.combat_power}
     />
+    {communityRank && (() => {
+      const tierClass = communityRank.tier === 'S+' ? 's-plus' : communityRank.tier.toLowerCase();
+      return (
+      <div class={`rank-badge rank-${tierClass}`}>
+        <span class="rank-label">Community Rank</span>
+        <span class="rank-tier">{communityRank.tier} Tier</span>
+        {communityRank.tags.length > 0 && (
+          <div class="rank-tags">
+            {communityRank.tags.map((tag) => (
+              <span class={`tag tag-${tag}`}>{tag.replace(/-/g, ' ')}</span>
+            ))}
+          </div>
+        )}
+      </div>
+      );
+    })()}
 
     <SectionNav links={sectionLinks} />
 
@@ -156,6 +179,29 @@ const sectionLinks = [
             )}
           </div>
         ))}
+      </section>
+    )}
+
+    {communityRank && (
+      <section id="community-rank">
+        <h2>Is {pageData.name} good? — Community Verdict</h2>
+        <CalloutBox type={communityRank.tier === 'S+' || communityRank.tier === 'S' ? 'success' : communityRank.tier === 'F' || communityRank.tier === 'D' ? 'warning' : 'info'} title={`${communityRank.tier} Tier — ${communityRank.tier === 'S+' ? 'Game-Breaking' : communityRank.tier === 'S' ? 'Excellent' : communityRank.tier === 'A' ? 'Strong' : communityRank.tier === 'B' ? 'Situational' : communityRank.tier === 'C' ? 'Below Average' : 'Avoid'}`}>
+          <p style="margin:0;">{communityRank.good_for}</p>
+        </CalloutBox>
+        {communityRank.min_level > 0 && (
+          <p><strong>Recommended minimum level:</strong> {communityRank.min_level} for new players, {communityRank.min_level_mid}+ for mid-game.</p>
+        )}
+        {communityRank.strategy && (
+          <div class="card card-pad-md" style="margin-bottom: var(--space-4);">
+            <h3>How to use {pageData.name}</h3>
+            <p>{communityRank.strategy}</p>
+          </div>
+        )}
+        {communityRank.must_read && (
+          <p style="margin-top: var(--space-3);">
+            <strong>Learn more:</strong> <a href={`/blog/${communityRank.must_read_slug}/`}>{communityRank.must_read}</a>
+          </p>
+        )}
       </section>
     )}
 

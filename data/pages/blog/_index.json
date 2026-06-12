@@ -1,10 +1,10 @@
 {
   "type": "blog",
-  "count": 16,
+  "count": 23,
   "items": [
     {
       "id": 0,
-      "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
+      "name": "War Inc: Rising Beginner Guide 2026 — First 30 Days Strategy",
       "slug": "war-inc-rising-beginner-guide",
       "rarity_name": null,
       "profession_name": null,
@@ -14,7 +14,7 @@
     },
     {
       "id": 0,
-      "name": "War Inc: Rising Tier List 2026 — Complete Hero Rankings",
+      "name": "War Inc: Rising Tier List 2026 — Community Rankings from Top Players",
       "slug": "war-inc-rising-tier-list-2026",
       "rarity_name": null,
       "profession_name": null,
@@ -84,7 +84,7 @@
     },
     {
       "id": 0,
-      "name": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
+      "name": "War Inc: Rising Ultimate Gem Guide — Wheel, Card Master & What to Spend On",
       "slug": "war-inc-rising-gem-spending-guide",
       "rarity_name": null,
       "profession_name": null,
@@ -154,8 +154,78 @@
     },
     {
       "id": 0,
-      "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
+      "name": "War Inc: Rising Clan Wars Guide — Full Map Strategy and Objectives",
       "slug": "war-inc-rising-clan-war-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Dragon Strategy and Diplomacy Guide",
+      "slug": "war-inc-rising-clan-war-dragon-strategy",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Clan War Ruler System Guide",
+      "slug": "war-inc-rising-clan-war-ruler-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Rope-a-Dope Technique and Trials Guide",
+      "slug": "war-inc-rising-clan-war-ropedope-formation-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Clan Recruitment and Tracker Guide",
+      "slug": "war-inc-rising-clan-war-recruitment-management",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Infinite War Tier List — Best Troops for Endless PvE",
+      "slug": "war-inc-rising-infinite-war-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Hunting Tier List — Best Troops for Boss Fights",
+      "slug": "war-inc-rising-hunting-tier-list",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising PvP Tier List — Best Troops for Arena",
+      "slug": "war-inc-rising-pvp-tier-list",
       "rarity_name": null,
       "profession_name": null,
       "cost": null,

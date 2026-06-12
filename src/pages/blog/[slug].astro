@@ -21,6 +21,7 @@ if (!pageData) return Astro.redirect('/blog/', 404);
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+  {pageData.faq_schema && <script type="application/ld+json" set:html={JSON.stringify(pageData.faq_schema)} />}
 
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>

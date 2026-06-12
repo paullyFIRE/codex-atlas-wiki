@@ -1,0 +1,415 @@
+{
+  "description": "Community rankings from Klown Kollege YouTube channel and top player consensus. Updated 2026-06-12.",
+  "tiers": {
+    "S+": "Game-breaking, must-have. Prioritize these above all else.",
+    "S": "Excellent, top priority for acquisition and investment.",
+    "A": "Strong, worth investing in specific situations.",
+    "B": "Situational, niche use cases only.",
+    "C": "Below average, outclassed by alternatives.",
+    "D": "Weak, avoid unless you have nothing better.",
+    "F": "Trash, never use."
+  },
+  "heroes": {
+    "radiant-warrior": {
+      "tier": "S+",
+      "rank": 1,
+      "tags": ["pvp", "clan-war", "infinite-war", "hunting", "co-op"],
+      "min_level": 3,
+      "min_level_mid": 4,
+      "good_for": "Every single game mode. Stack 2-4 in every formation. Level 6 gives +20% elemental resistance to all allies.",
+      "strategy": "Never merge your last 2 copies. Two level 3s are better than one level 4. Pair with Paladin for shield overlap (Radiant shield at 0s, Paladin at 10s = 2s overlap).",
+      "must_read": "War Inc: Rising Gem Guide — Wheel, Card Master & What to Spend On",
+      "must_read_slug": "war-inc-rising-gem-spending-guide"
+    },
+    "frost-queen": {
+      "tier": "S+",
+      "rank": 2,
+      "tags": ["pvp", "infinite-war"],
+      "min_level": 3,
+      "min_level_mid": 4,
+      "good_for": "PvP control mage. Excellent in Infinite War.",
+      "strategy": "Keep two copies at all times. Never merge your last pair. One of the best control units in the game.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "bone-marksman": {
+      "tier": "S+",
+      "rank": 3,
+      "tags": ["pvp", "hunting", "clan-war"],
+      "min_level": 2,
+      "min_level_mid": 4,
+      "good_for": "PvP marksman deletion. Hunting boss damage. Clan War dragon damage.",
+      "strategy": "Pseudo level-6 at level 4 — skill unlocks at level 4 instead of 6, making it the best early-investment mythic. Bone Shot deals 250% damage (~5K at level 4) every 8s, prioritizes enemy marksmen and mages. Place in 'money spot' (right side) of split formations. At level 4: 32K HP, 2K ATK (equivalent to level 6 Ronin). Prioritize getting to level 4 ASAP.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "necromancer": {
+      "tier": "S+",
+      "rank": 4,
+      "tags": ["pve", "clan-war", "hunting", "infinite-war"],
+      "min_level": 3,
+      "min_level_mid": 4,
+      "good_for": "PvE king. Clan War dragon damage (up to 3.6M per hit). Hunting boss damage.",
+      "strategy": "Skeletons deal massive AoE damage but are fragile. Must pair with Goddess of War shielding to survive dragon AoE. ~45% more morale per dragon hit than normal units. Level 4: ~32K HP.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "light-seeker": {
+      "tier": "S+",
+      "rank": 5,
+      "tags": ["pvp"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "PvP destroyer. Stronger than Necromancer in PvP.",
+      "strategy": "Holy Wash (innate): continuous AoE damage + heals to 100% when below 50% HP (~16K heal on ~32K HP). Light Volley (level 4): multi-shot + 50% attack buff (~1,000 damage boost). Pass on this hero if you can't get to level 4 — the skill unlock is essential.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "goddess-of-war": {
+      "tier": "S+",
+      "rank": 6,
+      "tags": ["pvp", "clan-war", "infinite-war", "hunting"],
+      "min_level": 1,
+      "min_level_mid": 3,
+      "good_for": "Essential support in every game mode. Shields nearby troops.",
+      "strategy": "Required to protect Necromancer skeletons and backline Oracles from AoE. Combo with Red Blade + Barbarian (all three jump). Foundational support unit.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "mistral-archer": {
+      "tier": "S+",
+      "rank": 7,
+      "tags": ["pvp", "clan-war", "hunting"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Best backline damage dealer. Strong in PvP and PvE.",
+      "strategy": "Keep multiple copies. Top-tier ranged damage. Invest forge stones when available.",
+      "must_read": "War Inc: Rising Tier List 2026",
+      "must_read_slug": "war-inc-rising-tier-list-2026"
+    },
+    "oracle": {
+      "tier": "S",
+      "rank": 8,
+      "tags": ["pvp", "clan-war", "infinite-war"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Pound-for-pound best epic. Attack buffer in any formation.",
+      "strategy": "Each Oracle gives 4% attack buff stacking up to 20 layers. 9 Oracles = 36% buff. 18 Oracles = 72% buff. Level 7 gives large skill range which is critical. Stack as many as you can. Best epic investment in the game."
+    },
+    "ursa-champion": {
+      "tier": "S",
+      "rank": 9,
+      "tags": ["pvp", "clan-war"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Best legendary to invest forge stones in. Level 7 is transformative.",
+      "strategy": "0.5s stun. Invest forge stones to level 7. High priority forge stone target."
+    },
+    "elven-archer": {
+      "tier": "S",
+      "rank": 10,
+      "tags": ["pvp", "hunting"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Best legendary range damage. Excellent forge stone target.",
+      "strategy": "Invest forge stones to level 7. High priority ranged damage dealer."
+    },
+    "darkmoon-queen": {
+      "tier": "S",
+      "rank": 11,
+      "tags": ["pvp", "infinite-war"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Strong mythic, one tier below Frost Queen.",
+      "strategy": "Mid-level priority. Good if you have extra resources but not a primary target."
+    },
+    "ripple-wizard": {
+      "tier": "S",
+      "rank": 12,
+      "tags": ["pvp", "clan-war", "co-op"],
+      "min_level": 6,
+      "min_level_mid": 6,
+      "good_for": "Best energy battery in the game. Aqua Revival grants energy every 2.5s.",
+      "strategy": "Aqua Revival grants energy to nearby allies every 2.5 seconds. Level 6 gives bonus energy on skill triggers. Excellent support mage."
+    },
+    "flame-mage": {
+      "tier": "S",
+      "rank": 13,
+      "tags": ["hunting", "infinite-war"],
+      "min_level": 6,
+      "min_level_mid": 7,
+      "good_for": "Top single-target damage for Hunting and Infinite War.",
+      "strategy": "Invest forge stones. Essential for Hunting boss damage. Strong in Infinite War."
+    },
+    "poison-master": {
+      "tier": "S",
+      "rank": 14,
+      "tags": ["infinite-war"],
+      "min_level": 6,
+      "min_level_mid": 6,
+      "good_for": "Carries early-mid Infinite War. 8-10 at level 6 is transformative.",
+      "strategy": "Build 8-10 level 6 Poison Masters to carry Infinite War progression. One of the best early investments."
+    },
+    "bomber": {
+      "tier": "A",
+      "rank": 15,
+      "tags": ["pvp"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Suicide unit. Dominates 2,500-5,000 trophy range. Cheapest way to get via uncommon fusion with gold.",
+      "strategy": "Suicide unit dealing 3x base ATK damage. At level 7: stuns on death. Best in backstab/outflank strategies. Fuse level 6 uncommons with gold to get Bombs — cheapest method."
+    },
+    "royal-archer": {
+      "tier": "A",
+      "rank": 16,
+      "tags": ["hunting", "infinite-war"],
+      "min_level": 6,
+      "min_level_mid": 7,
+      "good_for": "Strong in Hunting and Infinite War. Buy from Exchange Shop.",
+      "strategy": "Buy from Exchange Shop for 4,000 coins. Strong single-target damage for boss fights."
+    },
+    "jungle-ranger": {
+      "tier": "A",
+      "rank": 17,
+      "tags": ["pvp", "infinite-war"],
+      "min_level": 6,
+      "min_level_mid": 6,
+      "good_for": "Solid ranged damage in multiple modes.",
+      "strategy": "Versatile ranged unit. Good in PvP and Infinite War."
+    },
+    "starlight-apostle": {
+      "tier": "A",
+      "rank": 18,
+      "tags": ["pvp", "summon-event"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Strong mythic, good target for summon events.",
+      "strategy": "Good target during summon events. Solid mythic for PvP."
+    },
+    "red-blade": {
+      "tier": "A",
+      "rank": 19,
+      "tags": ["pvp"],
+      "min_level": 2,
+      "min_level_mid": 4,
+      "good_for": "Jump combo with Barbarian and Goddess of War.",
+      "strategy": "Jumps onto same target as Barbarian. Combo with Goddess of War who jumps to shield them. Requires the trio to work effectively."
+    },
+    "barbarian-tyrant": {
+      "tier": "A",
+      "rank": 20,
+      "tags": ["pvp"],
+      "min_level": 2,
+      "min_level_mid": 4,
+      "good_for": "Jump combo with Red Blade and Goddess of War.",
+      "strategy": "Jumps onto same target as Red Blade. Combo with Goddess of War. Part of the Red-Blade-Barbarian-Goddess trio."
+    },
+    "forest-scout": {
+      "tier": "A",
+      "rank": 21,
+      "tags": ["infinite-war", "hunting"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Best rare range investment. 2.5 tile radius at level 7.",
+      "strategy": "Best rare troop to invest forge stones in. Level 7 gives excellent range. Worth taking to level 9."
+    },
+    "flail-warden": {
+      "tier": "A",
+      "rank": 22,
+      "tags": ["pvp"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Best rare melee option.",
+      "strategy": "Worth forge stone investment. Solid melee damage dealer for rare slot."
+    },
+    "goblin-chef": {
+      "tier": "A",
+      "rank": 23,
+      "tags": ["pvp"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Single unit with splash + 2s stun. Best stun duration in game.",
+      "strategy": "2s stun is longer than Griffin Rider (1s) and Ursa (0.5s). 23K HP / 1,200 ATK. Worth forge stone investment."
+    },
+    "paladin": {
+      "tier": "A",
+      "rank": 24,
+      "tags": ["pvp"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "Shield every 10s. Combos with Radiant Warrior.",
+      "strategy": "Multi-unit with shields. Radiant shield activates at 0s (battle start), Paladin shield at 10s — 2s overlap. Worth forge stone investment."
+    },
+    "frost-skeleton": {
+      "tier": "B",
+      "rank": 25,
+      "tags": ["pvp"],
+      "min_level": 7,
+      "min_level_mid": 7,
+      "good_for": "On-death area damage + speed reduction. Synergizes with Bone Marksman, Gunner, Warden.",
+      "strategy": "Synergizes with Bone Marksman, Bone Gunner, Bone Warden, Iron Bulwark. Worth forge stone investment for the speed reduction debuff."
+    },
+    "rock-thrower": {
+      "tier": "S",
+      "rank": 26,
+      "tags": ["infinite-war"],
+      "min_level": 6,
+      "min_level_mid": 6,
+      "good_for": "S tier in Infinite War. 8 troops = 8 targets.",
+      "strategy": "Excels specifically in Infinite War where multi-target is king. Less useful in other modes."
+    },
+    "woodland-guardian": {
+      "tier": "B",
+      "rank": 27,
+      "tags": ["clan-war"],
+      "min_level": 3,
+      "min_level_mid": 4,
+      "good_for": "Self-healing tank. Clan War niche use.",
+      "strategy": "Self-heals every 12s (30% HP + 3,000 fixed). Healing radius ~1.2 squares. Low HP/ATK for a tank offset by healing. Mythic priority #4 for mid-game."
+    },
+    "iron-bulwark": {
+      "tier": "B",
+      "rank": 28,
+      "tags": ["pvp"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "New unit. On-death single-target damage prioritizing supports.",
+      "strategy": "On death deals single-target damage prioritizing enemy supports. Reduces their attack speed. Bonus AoE if target's attack speed is low."
+    },
+    "venospore-killer": {
+      "tier": "B",
+      "rank": 29,
+      "tags": ["pvp"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Niche PvP use.",
+      "strategy": "Situational use. Not a priority investment."
+    },
+    "melody-weaver": {
+      "tier": "B",
+      "rank": 30,
+      "tags": ["pvp"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Situational support.",
+      "strategy": "Niche support unit. Not a priority."
+    },
+    "the-knight-king": {
+      "tier": "B",
+      "rank": 31,
+      "tags": ["pvp"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Occasional use.",
+      "strategy": "Niche. Not a priority investment."
+    },
+    "mist-archer": {
+      "tier": "S+",
+      "rank": 32,
+      "tags": ["pvp", "clan-war", "hunting"],
+      "min_level": 4,
+      "min_level_mid": 4,
+      "good_for": "Excellent backline damage.",
+      "strategy": "Mythic priority #7. Keep multiple copies."
+    },
+    "apprentice-mage": {
+      "tier": "C",
+      "rank": 33,
+      "tags": [],
+      "min_level": 1,
+      "min_level_mid": 1,
+      "good_for": "Filler if you have nothing better.",
+      "strategy": "Use only if missing better rares. Not worth forge stones."
+    },
+    "goblin-shaman": {
+      "tier": "C",
+      "rank": 34,
+      "tags": [],
+      "min_level": 1,
+      "min_level_mid": 1,
+      "good_for": "Skip unless desperate.",
+      "strategy": "Not worth investing in."
+    },
+    "berserker": {
+      "tier": "C",
+      "rank": 35,
+      "tags": [],
+      "min_level": 1,
+      "min_level_mid": 1,
+      "good_for": "8 individuals but falls off late-game.",
+      "strategy": "Multi-unit: each individual has ~4,600 HP (level 6), total squad ~36K HP, ~800 ATK. Falls off hard after early game."
+    },
+    "woodshield-guard": {
+      "tier": "F",
+      "rank": 36,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Nothing. Never use.",
+      "strategy": "Single-unit common. Completely useless. One of the most common beginner mistakes is using this unit."
+    },
+    "fury-cannoneer": {
+      "tier": "F",
+      "rank": 37,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Nothing. Do not touch.",
+      "strategy": "Unanimous F tier from the community. Level 6 Fury is still better than Blast Dwarf. Neither should be used."
+    },
+    "blast-dwarf": {
+      "tier": "F",
+      "rank": 38,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Nothing. Worse than Fury Cannoneer.",
+      "strategy": "Below F tier. Never use."
+    },
+    "swordsman": {
+      "tier": "C",
+      "rank": 39,
+      "tags": ["beginner"],
+      "min_level": 1,
+      "min_level_mid": 1,
+      "good_for": "Best common melee. Good for early game.",
+      "strategy": "Multi-unit with splash damage. Best melee common. Upgrade one to level 7 for 100-gem achievement then stop."
+    },
+    "archer": {
+      "tier": "C",
+      "rank": 40,
+      "tags": ["beginner"],
+      "min_level": 1,
+      "min_level_mid": 1,
+      "good_for": "Best common range. Good for early game.",
+      "strategy": "Highest ATK among common range units. Multi-target. Upgrade one to level 7 for 100-gem achievement then stop."
+    },
+    "gunner": {
+      "tier": "D",
+      "rank": 41,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Outclassed by Archer. Avoid.",
+      "strategy": "Archer is strictly better. Never use if you have Archer."
+    },
+    "snowball-thrower": {
+      "tier": "D",
+      "rank": 42,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Outclassed by Archer and Gunner.",
+      "strategy": "Worse than Archer and Gunner. Never use."
+    },
+    "demoman": {
+      "tier": "D",
+      "rank": 43,
+      "tags": [],
+      "min_level": 0,
+      "min_level_mid": 0,
+      "good_for": "Skip.",
+      "strategy": "Not worth using. Outclassed by better options."
+    }
+  }
+}

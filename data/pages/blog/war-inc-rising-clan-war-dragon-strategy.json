@@ -1,0 +1,52 @@
+{
+  "slug": "war-inc-rising-clan-war-dragon-strategy",
+  "name": "War Inc: Rising Dragon Strategy and Diplomacy Guide",
+  "title": "War Inc: Rising Dragon Strategy Guide — Coordination and Lineups",
+  "meta_description": "Master dragon attacks in War Inc: Rising Clan Wars. Learn the 2-hour dragon window, gate control, coordinating 30-min team slots, diplomacy, and the best formations for max damage.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Dragon Basics — Why It Matters",
+      "content": "The dragon is the single most important objective in Clan War. It determines clan rankings, personal scores, and team unlock progression. Dragon hits dominate the clan leaderboard because they reward more personal points than towers, towns, or even spiders. A player who hits every dragon cycle will always rank higher than one who primarily fights towers and PvP. The dragon is bubbled for the first 2 to 3 days of war. Once it opens, it follows a consistent schedule: open for 2 hours, then closed for roughly 12 hours, then open again."
+    },
+    {
+      "heading": "Gate Control — The Only Way In",
+      "content": "Only the team holding the gate can hit the dragon. There are exactly two gates to the dragon on the standard map, which means four teams per gate have access. Teams must fight for gate control, capture it from its current holder, then hold it during their attack window. Gates are level 4 to 5 strength, comparable to the hardest towers on the map. They have a health bar visible on the detail screen — accumulated damage persists across attacks. Your clan chips away at the health across multiple hits until it reaches zero and your team takes control. A level 5 gate on fire makes defending even harder since the defender takes 30% more damage."
+    },
+    {
+      "heading": "Coordinating 30-Minute Windows",
+      "content": "The dragon is open for 2 hours per cycle. With 8 teams on the map and 2 gates, the standard diplomatic arrangement on top servers is 30-minute windows per team. Four teams share the left gate, four share the right gate. At the top of the hour, one team takes the gate, hits dragon for 30 minutes, then rotates. Example from a recorded war: VNF had the first 30 minutes, Easy Clan took the next window, then dark blue team Heretic Sanctuary took their turn. This requires teams to attack the gate holder, take control, then immediately shift to dragon attacks. Some teams honor these schedules; others play aggressively and attack during another team's window. It varies by server. Coordination happens via Discord and the in-game war zone chat."
+    },
+    {
+      "heading": "Diplomacy Tab — Enemy, Neutral, Ally",
+      "content": "The diplomacy feature lets clan leaders mark other teams as Enemy, Neutral, or Ally. Setting a team to Enemy turns their tower numbers red on your map and sends them a notification message. This is a unilateral declaration — the other team does not have to agree. Setting a team to Ally sends an alliance request that starts a 6-hour countdown timer. The other team must accept within those 6 hours for the alliance to go through. Allied tower numbers turn blue for both sides. The only gameplay effect is visual — you can see which towers to avoid or target. There is no shared tower access, shared points, or shared garrisoning. Future updates may add tower sharing and joint movement options."
+    },
+    {
+      "heading": "Best Dragon Formations",
+      "content": "Backstab formation is the standard recommendation for dragon attacks at most power levels. Your four best tanks with shields (Radiant Warriors, Goddess of War) jump to the front and distract the dragon while your damage dealers hit from behind. Shields are critical because they do not count as health damage, meaning shield damage does not cost you morale. Key damage dealers for dragon include Flame Mages, Level 9+ Four Scouts, Royal Archers, and Bone Marksman. Buffers like Starlight, Weaver, and Blue Dragon should be positioned to boost your backline. Necromancer deals massive burst damage (up to 3.6 million per hit in testing), but the morale cost is significantly higher — approximately 176 morale per dragon hit compared to roughly 121 for a standard formation. Avoid healers entirely — troops that go down and get healed repeatedly cause heavy morale loss. Ripple Wizard and Goddess of War are essential support pieces. Use the Trial feature to test your dragon formation for free before committing real morale."
+    },
+    {
+      "heading": "Scheduling and Server Culture",
+      "content": "Most top-tier servers have moved to cooperative dragon sharing. The approach varies: some teams split dragon time into equal 30-minute blocks with every team on their side of the gate getting a turn. Others run a free-for-all where whoever holds the gate hits the dragon. Some servers have a single team that dominates dragon control entirely. The key to getting your share is talking to your neighbors. Use Discord, message clan leaders, and agree on a schedule before dragon opens. A typical arrangement from recorded wars: four teams agree that each gets 30 minutes, then they rotate throughout the 2-hour window. Fight before dragon, fight after dragon, but share the dragon. When teams do not honor the agreement, expect larger fights at the gate and potential retaliation during their windows."
+    }
+  ],
+  "preview": "Master dragon attacks in War Inc: Rising Clan Wars. Gate control mechanics, 30-minute team coordination windows, diplomacy tab, best formations (backstab with Radiant Warriors and Goddess of War), Necromancer damage numbers, and scheduling tips.",
+  "related_heroes": [
+    { "name": "Radiant Warrior", "slug": "radiant-warrior" },
+    { "name": "Goddess of War", "slug": "goddess-of-war" },
+    { "name": "Ripple Wizard", "slug": "ripple-wizard" },
+    { "name": "Necromancer", "slug": "necromancer" }
+  ],
+  "word_count": 780,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Dragon Strategy Guide — Coordination and Lineups",
+    "description": "Master dragon attacks in War Inc: Rising Clan Wars. Gate control, 30-min coordination windows, diplomacy, and best formations for max damage.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": { "@type": "Person", "name": "War Inc Wiki Team" }
+  }
+}

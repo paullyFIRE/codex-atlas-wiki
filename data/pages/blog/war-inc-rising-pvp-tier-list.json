@@ -1,0 +1,54 @@
+{
+  "slug": "war-inc-rising-pvp-tier-list",
+  "name": "War Inc: Rising PvP Tier List — Best Troops for Arena",
+  "title": "War Inc: Rising PvP Tier List — Best Heroes for Arena Combat",
+  "meta_description": "Complete PvP tier list for War Inc: Rising Arena. S+ to A rankings including Light Seeker, Radiant Warrior, and Frost Queen. Rope-a-Dope strategy in Crimson Moon and Bomber domination at 2,500-5k trophies.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "S+ Tier — Meta Defining",
+      "content": "Light Seeker (Pretty Boy) is the single strongest PvP troop in the game. Holy Wash heals him to 100% HP when below 50% and deals AoE damage to surrounding enemies. At level 4, Light Volley adds multi-shot capability plus a 50% attack buff. Multiple Light Seekers stack and shred enemy formations faster than any other troop — two or three on the field is devastating. Radiant Warrior is mandatory in every Arena formation. His level 6 ability grants all nearby allies +20% resistance to all elements, making your entire team significantly tankier against both physical and magic damage. Run 2-4 Radiant Warriors in every setup. Frost Queen provides unmatched control — her freeze effects lock down enemy damage dealers and flip engagements. Keep two Frost Queens on the field (never merge your last pair) for maximum crowd control coverage."
+    },
+    {
+      "heading": "S Tier — Premium Picks",
+      "content": "Bone Marksman deletes backline units with 250% damage Bone Shot every 8 seconds. At level 4, he's a pseudo level-6 unit that functions well before endgame — excellent value in PvP where backline sniping wins fights. Goddess of War is essential for protecting your key pieces — her shields keep Light Seekers, Radiant Warriors, and damage dealers alive through enemy burst. Mistral Archer provides consistent backline pressure, out-ranging many common threats and wearing down enemy healers and buffers over time."
+    },
+    {
+      "heading": "A Tier — Strong and Combo-Ready",
+      "content": "Red Blade and Barbarian form a devastating three-unit combo: Red Blade jumps onto the same target as Barbarian, while Goddess of War jumps to shield them both. This isolates and eliminates high-value enemy targets. Darkmoon Queen is a strong mythic alongside Frost Queen but falls one tier below in raw impact. Ripple Wizard provides energy every 2.5 seconds via Aqua Revival, acting as a battery for your ability-reliant damage dealers like Frost Queen and Light Seeker. Bomber (Bombs) dominates the 2,500-5,000 trophy range — suicide units dealing 3x base ATK on death, cheap to acquire through uncommon/rare fusion (gold only), forcing opponents to waste attacks on exploding targets."
+    },
+    {
+      "heading": "PvP Strategy — Crimson Moon and Mid-Trophy Play",
+      "content": "The Rope-a-Dope technique defines Crimson Moon PvP strategy — pull enemy troops into unfavorable positioning with strategic retreats, then counter-attack when their formation breaks and key units are exposed. Stack 2-4 Radiant Warriors in every formation for the +20% elemental resistance buff, which dramatically reduces incoming magic and physical damage across your team. In the 2,500-5,000 trophy range, Bombs are your best friends: their cheap fusion cost lets you field a suicide squad that forces the enemy to waste attacks on exploding units. Position Light Seekers centrally so Holy Wash AoE hits maximum targets. Separate your two Frost Queens so their freeze zones overlap as little as possible, maximizing crowd control coverage across the battlefield. For the Red Blade + Barbarian combo, ensure Goddess of War is positioned to shield their target — this three-unit interaction is the highest-skill-ceiling coordinated play in the current PvP meta."
+    }
+  ],
+  "preview": "Complete PvP tier list for War Inc: Rising Arena. S+ to A rankings covering all competitive modes. Light Seeker, Radiant Warrior, and Frost Queen dominate S+ tier. Rope-a-Dope and Bomber strategies included.",
+  "related_heroes": [
+    { "name": "Light Seeker", "slug": "light-seeker" },
+    { "name": "Radiant Warrior", "slug": "radiant-warrior" },
+    { "name": "Frost Queen", "slug": "frost-queen" },
+    { "name": "Bone Marksman", "slug": "bone-marksman" },
+    { "name": "Goddess of War", "slug": "goddess-of-war" },
+    { "name": "Mistral Archer", "slug": "mistral-archer" },
+    { "name": "Red Blade", "slug": "red-blade" },
+    { "name": "Barbarian Tyrant", "slug": "barbarian-tyrant" },
+    { "name": "Darkmoon Queen", "slug": "darkmoon-queen" },
+    { "name": "Ripple Wizard", "slug": "ripple-wizard" },
+    { "name": "Bomber", "slug": "bomber" }
+  ],
+  "word_count": 450,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising PvP Tier List — Best Heroes for Arena Combat",
+    "description": "Complete PvP tier list for War Inc: Rising Arena. S+ to A rankings for all competitive modes including Crimson Moon, with specific strategy advice from top-ranking players.",
+    "datePublished": "2026-06-12",
+    "dateModified": "2026-06-12",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

@@ -2,6 +2,67 @@
    Component Styles — Codex Atlas Design System
    ============================================ */
 
+/* ---- Community Rank Badge ---- */
+
+.rank-badge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-4);
+  border: 1px solid var(--border-medium);
+}
+.rank-label {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  width: 100%;
+}
+.rank-tier {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+}
+.rank-tags {
+  display: flex;
+  gap: var(--space-1);
+  margin-left: auto;
+}
+.rank-badge.rank-s-plus { background: linear-gradient(135deg, #ffd70022, #ff8c0022); border-color: #ffd700; }
+.rank-badge.rank-s-plus .rank-tier { color: #ffd700; }
+.rank-badge.rank-s { background: linear-gradient(135deg, #a855f722, #7c3aed22); border-color: #a855f7; }
+.rank-badge.rank-s .rank-tier { color: #a855f7; }
+.rank-badge.rank-a { background: linear-gradient(135deg, #3b82f622, #2563eb22); border-color: #3b82f6; }
+.rank-badge.rank-a .rank-tier { color: #3b82f6; }
+.rank-badge.rank-b { background: linear-gradient(135deg, #22c55e22, #16a34a22); border-color: #22c55e; }
+.rank-badge.rank-b .rank-tier { color: #22c55e; }
+.rank-badge.rank-c { background: linear-gradient(135deg, #eab30822, #ca8a0422); border-color: #eab308; }
+.rank-badge.rank-c .rank-tier { color: #eab308; }
+.rank-badge.rank-d { background: linear-gradient(135deg, #f9731622, #ea580c22); border-color: #f97316; }
+.rank-badge.rank-d .rank-tier { color: #f97316; }
+.rank-badge.rank-f { background: linear-gradient(135deg, #ef444422, #dc262622); border-color: #ef4444; }
+.rank-badge.rank-f .rank-tier { color: #ef4444; }
+
+.tag {
+  font-size: var(--text-xs);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-muted);
+  color: var(--text-muted);
+  text-transform: capitalize;
+}
+.tag-pvp { background: #ef444422; color: #ef4444; }
+.tag-clan-war { background: #a855f722; color: #a855f7; }
+.tag-infinite-war { background: #3b82f622; color: #3b82f6; }
+.tag-hunting { background: #22c55e22; color: #22c55e; }
+.tag-co-op { background: #eab30822; color: #eab308; }
+.tag-beginner { background: #14b8a622; color: #14b8a6; }
+.tag-pve { background: #f9731622; color: #f97316; }
+.tag-summon-event { background: #ec489922; color: #ec4899; }
+
 /* ---- Button ---- */
 
 .btn {

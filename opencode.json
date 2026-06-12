@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "gsc": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-server-gsc"],
+      "enabled": true,
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/paulp/personal-projects/war-rising-stats-blog/gsc-credentials.json"
+      }
+    }
+  }
+}
