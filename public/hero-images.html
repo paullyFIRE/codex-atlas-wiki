@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hero Image Review — War Inc: Rising Wiki</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Inter, system-ui, sans-serif; background: #0d0d0d; color: #e0d5c1; padding: 2rem; }
+h1 { font-family: Cinzel, serif; color: #d4a848; margin-bottom: .25rem; }
+p { color: #8a7e6b; margin-bottom: 1.5rem; }
+.tabs { display: flex; gap: .5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.tab { padding: .5rem 1rem; border-radius: 6px; border: 1px solid #333; background: #1a1a1a; color: #e0d5c1; cursor: pointer; font-size: .85rem; }
+.tab:hover { border-color: #d4a848; }
+.tab.active { background: #d4a848; color: #0d0d0d; border-color: #d4a848; font-weight: 600; }
+.tab .count { opacity: .7; margin-left: 4px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+.card { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; overflow: hidden; display: none; }
+.card.visible { display: block; }
+.card img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; background: #111; }
+.card-body { padding: .5rem .75rem; }
+.card-body h3 { font-size: .8rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-body .meta { font-size: .7rem; color: #8a7e6b; display: flex; justify-content: space-between; margin-top: 2px; }
+.badge { font-size: .6rem; padding: 1px 6px; border-radius: 3px; font-weight: 600; text-transform: uppercase; }
+.badge-high { background: #1a4a1a; color: #8fda8f; }
+.badge-medium { background: #4a4a1a; color: #dada8f; }
+.badge-low { background: #4a1a1a; color: #da8f8f; }
+.section-title { font-size: .85rem; color: #8a7e6b; margin-bottom: 1rem; padding-bottom: .5rem; border-bottom: 1px solid #222; grid-column: 1 / -1; }
+.official-star { color: #d4a848; margin-left: 2px; }
+</style>
+</head>
+<body>
+
+<h1>Hero Image Review</h1>
+<p>90 heroes with images. Review by confidence level to verify correctness.</p>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" data-filter="all">All <span class="count" id="count-all"></span></button>
+  <button class="tab" data-filter="high">✅ High <span class="count" id="count-high"></span></button>
+  <button class="tab" data-filter="medium">⚠️ Medium <span class="count" id="count-medium"></span></button>
+  <button class="tab" data-filter="low">❌ Low <span class="count" id="count-low"></span></button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+fetch('/hero-images.json')
+  .then(r => r.json())
+  .then(data => {
+    const { heroes, counts } = data;
+    document.getElementById('count-all').textContent = counts.total;
+    document.getElementById('count-high').textContent = counts.high;
+    document.getElementById('count-medium').textContent = counts.medium;
+    document.getElementById('count-low').textContent = counts.low;
+
+    const grid = document.getElementById('grid');
+    let currentFilter = 'all';
+
+    function render(filter) {
+      currentFilter = filter;
+      const filtered = filter === 'all' ? heroes : heroes.filter(h => h.conf === filter);
+      
+      // Group by confidence for "all" view
+      let html = '';
+      if (filter === 'all') {
+        for (const [label, conf] of [['✅ High Confidence', 'high'], ['⚠️ Medium Confidence', 'medium'], ['❌ Low Confidence', 'low']]) {
+          const group = heroes.filter(h => h.conf === conf);
+          if (group.length === 0) continue;
+          html += `<div class="section-title">${label} (${group.length})</div>`;
+          html += group.map(h => card(h)).join('');
+        }
+      } else {
+        html = filtered.map(h => card(h)).join('');
+      }
+      grid.innerHTML = html;
+      
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector(`[data-filter="${filter}"]`).classList.add('active');
+    }
+
+    function card(h) {
+      const confLabel = {high: 'High', medium: 'Medium', low: 'Low'}[h.conf];
+      const confBadge = {high: 'badge-high', medium: 'badge-medium', low: 'badge-low'}[h.conf];
+      const slugLink = h.slug ? `/heroes/${h.slug}/` : '#';
+      const officialStar = h.conf === 'high' && h.source === 'official' ? '<span class="official-star">★</span>' : '';
+      return `
+        <div class="card visible">
+          <a href="${slugLink}" target="_blank">
+            <img src="${h.path}" alt="${h.name}" loading="lazy">
+          </a>
+          <div class="card-body">
+            <h3 title="${h.name}">${h.name} ${officialStar}</h3>
+            <div class="meta">
+              <span>${h.w}×${h.h} · ${h.size}KB</span>
+              <span class="badge ${confBadge}">${confLabel}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    document.getElementById('tabs').addEventListener('click', e => {
+      const tab = e.target.closest('.tab');
+      if (tab) render(tab.dataset.filter);
+    });
+
+    render('all');
+  });
+</script>
+</body>
+</html>

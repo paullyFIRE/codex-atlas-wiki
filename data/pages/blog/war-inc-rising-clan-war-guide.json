@@ -1,102 +1,58 @@
 {
   "slug": "war-inc-rising-clan-war-guide",
   "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
-  "title": "War Inc: Rising Clan Wars Guide — Full Map Strategy",
-  "meta_description": "Complete Clan Wars guide for War Inc: Rising. Learn map layout, towers, dragon strategy, spider priority, morale system, scoring, and diplomacy to dominate your clan battles.",
+  "title": "War Inc: Rising Clan Wars Guide — Strategy and Best Heroes",
+  "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
   "type": "blog",
-  "date": "2026-06-12",
+  "date": "2026-06-05",
   "author": "War Inc Wiki Team",
   "sections": [
     {
-      "heading": "Clan Wars Overview — The Battlefield",
-      "content": "Clan Wars in War Inc: Rising is the flagship game mode — the reason players spend gems, build troops, and coordinate with their teams. Every war starts at reset (Saturday in the US, Sunday in other time zones) with 8 teams on a single map, each starting from their own castle. Eight castles ring the map, one per team. From the very first second, it is a mad dash for towers."
+      "heading": "Clan Wars Overview",
+      "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans."
     },
     {
-      "heading": "Map Layout and Tower Control",
-      "content": "When the war begins, the entire map is gray — no team controls any territory. As teams capture towers by moving troops onto them, towers turn that team's color. The path outline button on the map lets you see the full layout of lanes and connections. Every tower gives passive points over time. Towers come in levels 1 through 5. Level 1 and 2 towers are easy to clear. Level 3 towers are a significant jump in difficulty because they have an area-of-effect attack around 12–20 seconds into the fight that damages your backline. Level 4 and 5 towers require multiple hits from even strong players. Towers on fire cause the defender to take 30% more damage. You can stack unlimited teammates on a single tower for defense. When you capture a tower, you can garrison it immediately."
+      "heading": "Clan War Battle Strategy",
+      "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively."
     },
     {
-      "heading": "Energy and Morale Systems",
-      "content": "Two resources govern everything in Clan Wars. Upper left is morale — the health of your troops. Every time your army takes damage in a fight, you lose morale. Upper right is energy — used for movement. Every move costs exactly 3 energy regardless of distance, whether you cross the entire map or move one tile. Energy regenerates slowly over time. Morale regenerates at 3 per minute when outside your base and 6 per minute when inside your castle, a tower, or a town you control. If your morale hits zero from fighting towers, PvP, or objectives, you are automatically boosted back to your castle for a free ride home. When you lose a PvP fight on a tower, you take roughly 100–200 morale damage as your army is wiped, then you bounce back to your nearest attached tower."
-    },
-    {
-      "heading": "Crimson Moon — Attack Windows",
-      "content": "Crimson Moon occurs roughly every 6 to 8 hours and lasts for one full hour. During Crimson Moon, attackers have a significant advantage — they take roughly 30% less morale reduction on all actions: PvP, towers, gates, towns, and objectives. The map takes on a purple glow during the event, and the countdown is visible in the bottom-left corner. The entire server goes aggressive during Crimson Moon. Towers are often abandoned as players switch to attack formations. Plan your biggest pushes, dragon hits, and spider assaults to coincide with Crimson Moon."
-    },
-    {
-      "heading": "Spider — Highest Early Priority",
-      "content": "Spiders are the most important objective in the early and mid phases of Clan War. First place on spider rewards 20,000 clan points. Second place rewards 10,000, and third place rewards 5,000. To put that in perspective, a town gives 1,000 to 1,500 points per hour. First place on a spider is worth 15 to 20 hours of holding a town. Spiders are often gated by one or more gates (sometimes 2 or 3) that must be opened first. In some map layouts, spiders are open immediately. In others, they are bubbled for the first day. Coordinate with your clan: empty your morale on spider during its open window, then take the free ride back to castle. Some teams work out diplomatic split arrangements with neighbors — 50/50 sharing or alternating first place."
-    },
-    {
-      "heading": "Towns and Cities",
-      "content": "Towns are secondary objectives that act as mini-castles. They provide 1,000 to 1,500 points per hour to the controlling clan and serve as morale regeneration hubs (double regen rate). You can garrison teammates in a town to defend it, just like towers. Players inside a town are visible on the town detail screen. The four cities on the full map (north, west, south, east) reward significantly more points and are usually held by the strongest teams on the server. Cities surround the central dragon and act as the main staging grounds for late-game fights."
-    },
-    {
-      "heading": "Gates and the Dragon",
-      "content": "Gates are the roadblocks protecting the central dragon. They are level 4 to 5 strength and require multiple hits from the clan to bring down. Gates have health pools visible on the gate detail screen — each hit chunks the health, and accumulated damage persists across multiple attacks. Once a gate is taken to zero health, your team controls it, giving you access to the dragon. The dragon is bubbled for the first 2 to 3 days of war. Once it opens, it stays open in cycles — 2 hours open, roughly 12 hours closed. Only the team that holds the gate can attack the dragon. There are only two gates to the dragon on most maps, meaning four teams per gate. Top servers often coordinate 30-minute shared time slots so each team gets a fair window to accumulate points. Dragon hits are the single biggest contributor to both personal and clan rank."
-    },
-    {
-      "heading": "Scoring and Season Tracking",
-      "content": "Clan points (metals) determine your rank on the server and your placement in Pinnacle, Masters, Elite, and Challenger tiers. Personal points contribute to individual rewards. The Clan Tracker feature lets leaders see three views: metals (sorted by total clan points), player defeats (PvP wins), and monster defeats (combined tower, spider, and dragon hits). As of the current season, the game is on season 21, and the tracker allows viewing the past 3 seasons for comparison. Monster defeats are the best indicator of overall activity — low numbers mean a player is not moving around the map. Dragon hits currently dominate scoring, with players who can hit every dragon cycle ranking highest."
-    },
-    {
-      "heading": "Leadership Tools and Map Pings",
-      "content": "Clan leaders and officers can ping specific towers, gates, or objectives on the map with commands. Hold Fire marks a node green with a shield icon, ordering teammates to defend. Focus Attack marks a node red with crossed swords, ordering teammates to attack. These pings are visible to the entire team on the map. Leaders can also use the war zone chat for cross-team communication, but be careful — it is easy to accidentally type team coordination into the global war zone chat when everyone can see it. Discord is strongly recommended for all serious team coordination."
+      "heading": "Best Heroes for Clan Wars",
+      "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase."
     }
   ],
-  "preview": "Complete Clan Wars guide covering the 8-team battlefield, tower control, energy and morale systems, Crimson Moon advantage windows, spider strategy, dragon coordination, scoring mechanics, and leadership tools. Every mechanic explained with specific numbers from the game.",
+  "preview": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you wit...",
   "related_heroes": [
-    { "name": "Frost Queen", "slug": "frost-queen" },
-    { "name": "Light Seeker", "slug": "light-seeker" },
-    { "name": "Mist Archer", "slug": "mist-archer" },
-    { "name": "Tide Lord", "slug": "tide-lord" }
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Frost Queen",
+      "slug": "frost-queen"
+    },
+    {
+      "name": "Mist Archer",
+      "slug": "mist-archer"
+    },
+    {
+      "name": "Tide Lord",
+      "slug": "tide-lord"
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker"
+    }
   ],
-  "word_count": 1050,
+  "word_count": 146,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "War Inc: Rising Clan Wars Guide — Full Map Strategy",
-    "description": "Complete Clan Wars guide for War Inc: Rising. Learn map layout, towers, dragon strategy, spider priority, morale system, scoring, and diplomacy.",
-    "datePublished": "2026-06-12",
-    "dateModified": "2026-06-12",
-    "author": { "@type": "Person", "name": "War Inc Wiki Team" }
-  },
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How do clan wars work in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Clan wars are 3-day events on a global map with towers, a dragon, and spiders. Each attack costs 20 energy. Points come from tower damage, dragon damage, spider captures, and holding territories."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the best dragon strategy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Hit the dragon at 12:00 (noon) every day when a 50% damage buff is active. Coordinate with clanmates to attack in the same window. Track the dragon's level after each attempt."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why is the spider important in clan wars?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The spider gives the Ruler (leader) additional buffs when captured. It spawns every 6 hours on one of three map spots. Priority should be spider over towers."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does the morale system work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Every tower and territory attack affects clan morale. Higher morale increases attack power. Low morale from repeated losses reduces effectiveness. Coordinate attacks to maintain high morale."
-        }
-      }
-    ]
+    "headline": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
+    "description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
+    "datePublished": "2026-06-05",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
   }
 }

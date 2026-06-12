@@ -319,7 +319,7 @@
     "Spell Cauldron attacks from range, dealing physical damage from a safe distance.",
     "Position Spell Cauldron on high ground or behind walls for maximum effectiveness."
   ],
-  "image": "/images/buildings/601.png",
+  "image": null,
   "upgrade_table": [
     {
       "level": 1,

@@ -20,7 +20,7 @@
       "profession_name": "Ranger",
       "cost": 0,
       "combat_power": 231,
-      "image": "/images/buildings/201.png"
+      "image": null
     },
     {
       "id": 104,
@@ -30,7 +30,7 @@
       "profession_name": "Ranger",
       "cost": 0,
       "combat_power": 231,
-      "image": "/images/buildings/104.png"
+      "image": null
     },
     {
       "id": 601,
@@ -40,7 +40,7 @@
       "profession_name": "Ranger",
       "cost": 0,
       "combat_power": 231,
-      "image": "/images/buildings/601.png"
+      "image": null
     },
     {
       "id": 203,
@@ -50,7 +50,7 @@
       "profession_name": "Ranger",
       "cost": 0,
       "combat_power": 231,
-      "image": "/images/buildings/203.png"
+      "image": null
     },
     {
       "id": 3010,
@@ -110,7 +110,7 @@
       "profession_name": "Warrior",
       "cost": 0,
       "combat_power": 406,
-      "image": "/images/buildings/3023.png"
+      "image": null
     },
     {
       "id": 3024,

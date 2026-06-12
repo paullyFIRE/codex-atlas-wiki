@@ -319,7 +319,7 @@
     "Follower Camp attacks from range, dealing physical damage from a safe distance.",
     "Position Follower Camp on high ground or behind walls for maximum effectiveness."
   ],
-  "image": "/images/buildings/104.png",
+  "image": null,
   "upgrade_table": [
     {
       "level": 1,
