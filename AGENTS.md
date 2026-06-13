@@ -225,28 +225,221 @@ python3 scripts/extract_all.py   # Same as above but skips APK/Il2Cpp steps
 - Topbar logo: `War Inc: Rising Wiki`
 - See `src/layouts/BaseLayout.astro` and `src/pages/index.astro`
 
-## Portrait Pipeline
+## Asset Extraction Pipeline
 
-### Current Status
-- **21 mythic portraits** scraped from `warincrising.com` — the ONLY verified character portraits
-- APK-extracted textures are NOT used (they're Spine atlas sheets, not portraits)
-- Remaining 74 heroes have no portrait — no image is better than a wrong one
+### Current Portrait Status
+- **21 mythic portraits** scraped from `warincrising.com` — confirmed correct (21/95 heroes)
+- **85 battleunit FBX renders** found in `artofwar-ii_art/fbx/battleunit/battleunit_{id}/` — these are 512×512 actual 3D model renders from the game's FBX assets. They're the character card art shown in the game's hero collection UI. They have opaque dark green backgrounds (not transparent) but are genuine character renders.
+- Currently only the 21 official site images are used. The battleunit renders could provide portraits for 85 heroes but need verification first via `public/hero-images.html`.
+- **19 heroes have no texture asset at all** in the current APK: Blacksmith Warrior, Bounty Hunter, Butterfly Mage, Crystal Cat, Dark Knight, Deadly Blade, Elemental Dragon, Energy Striker, Flame Prisoner, Frost Wizard, Gaia, Guard Chario, Mech Artisan, Pharmacist, Stasis Guard, Steam Robot, Wandering Swordsman, Weakened One, Weapon Sage.
 
-### Tools Available
-| Tool | Purpose | Status |
+### Installed Tools & Locations
+
+| Tool | Location | Purpose | Status |
+|---|---|---|---|
+| mitmproxy | `brew install mitmproxy` | HTTP/HTTPS traffic interception for API/CDN discovery | ✅ Installed |
+| ADB | `~/Android/platform-tools/adb` (+ Homebrew) | Android Debug Bridge for emulator/device communication | ✅ Installed |
+| scrcpy | `brew install scrcpy` | Screen mirroring for Android devices | ✅ Installed |
+| OpenCV | `pip3 install opencv-python` (4.13.0) | Image processing for screenshot automation | ✅ Installed |
+| Frida | `pip3 install frida-tools` (17.12.0) | Dynamic instrumentation for SSL bypass, API hooking | ✅ Installed |
+| objection | `pip3 install objection` (1.12.5) | APK patching for SSL pinning bypass | ✅ Installed |
+| UnityPy | `pip3 install UnityPy` (1.25.0) | Python Unity asset extraction | ✅ Installed |
+| Pillow | `pip3 install Pillow` (12.2.0) | Image processing | ✅ Installed |
+| Android SDK | `~/Android/` | SDK manager, emulator, build tools for aapt | ✅ Installed |
+| Android emulator | `~/Android/emulator/emulator` | API 34 Google Play arm64 image (`warinc_test` AVD) | ✅ Available |
+| BlueStacks | `/Applications/BlueStacks.app` | Android emulator with native Google Play, runs on Mac | ✅ Installed |
+| apktool | `brew install apktool` | APK decompilation and repackaging | ✅ Installed |
+| apkeep | N/A (downloaded by extract.sh) | APK download from APKPure | ✅ Installed |
+| tcpdump | `/usr/sbin/tcpdump` | Host-side packet capture | ✅ Installed |
+
+### Game Server Infrastructure
+
+Discovered via `/proc/net/tcp` analysis from the running game on the emulator:
+
+| Service | Domain / IP | Purpose |
 |---|---|---|
-| `scripts/download_portraits.py` | Download from official site, scrape for new ones, generate placeholders | ✅ Ready |
-| `scripts/mitm_capture.py` | MITM proxy capture + analysis for API discovery | ✅ Ready |
-| `scripts/map_images.py` | Map unit IDs to portraits (currently only official site) | ✅ Clean |
-| Android emulator | CLI-installed at `~/Android/` with API 34 Google Play image | ✅ Available for future use |
-| mitmproxy | `brew install mitmproxy` — intercepts emulator traffic at `:8080` | ✅ Installed |
+| Game API | `rising.89trillion.com` → `ingress.89tgame.com` → EC2 (us-west-2) | Game backend API. Returns HTTP 200 but requires auth tokens. |
+| CDN | `server-*.cloudfront.net` IP range `52.85.25.x` | AWS CloudFront distribution serving game assets (portraits, configs, etc.) |
+| Analytics | `1e100.net` (Google) | Firebase Analytics, Crashlytics |
+| Google Services | `*.googleapis.com` | Firebase/Play Services |
 
-### Future Ideas
-- **Populate `scripts/screenshot_capture.py`** — ADB + OpenCV to screenshot hero detail pages from emulator
-- **Frida SSL pinning bypass** — if game uses SSL pinning, patch with objection
-- **Spine extraction** — find `.skel` files in APK bundles, render idle frames to PNG
-- **Automated APK update check** — `python3 scripts/download_portraits.py --check-version` for latest APK version
-- **Placeholder portraits** — `python3 scripts/download_portraits.py --placeholder` generates silhouette initials
+API locked down — direct requests return nothing. Would need in-game session token to access.
+
+### MITM + Frida Investigation Results
+
+Each approach was tested and failed for fundamental reasons:
+
+| Approach | Tested On | Result | Root Cause |
+|---|---|---|---|
+| System proxy + mitmproxy | Android Emulator | ❌ No traffic | Game ignores system proxy (Unity native networking stack) |
+| System proxy + mitmproxy | BlueStacks | ❌ No traffic | Same — Unity bypasses system proxy |
+| Frida attach (`frida -R PID`) | Android Emulator | ❌ `unable to access process` | Non-rooted emulator blocks ptrace |
+| Frida attach (`frida -R PID`) | BlueStacks | ❌ `unable to access process` | Game process protected / anti-tamper |
+| Frida spawn (`frida -R -f com...`) | BlueStacks | ❌ `InvocationTargetException` | Unity IL2CPP + anti-tamper crashes on inject |
+| objection patchapk | Stock APK | ❌ Split APK signature mismatch | Game uses split APKs (config.arm64_v8a + UnityDataAssetPack) |
+| CA cert push + `adb root` | Android Emulator | ❌ `not running in production builds` | Production build — no root |
+| CA cert push via `su` | BlueStacks | ❌ `su: inaccessible` | BlueStacks also lacks root shell |
+| tcpdump on emulator | Android Emulator | ❌ No tcpdump binary | Not available on device |
+| `adb exec-out` raw capture | Both | ❌ Protocol fault | ADB version mismatch |
+
+**Key insight**: Unity IL2CPP games compile C# networking code to native code. Java-level Frida hooks for SSL won't work because the game doesn't use Java SSL — it uses C# `UnityWebRequest` or `System.Net.Http.HttpClient` compiled to native ARM64 via IL2CPP. Frida would need to hook native functions (e.g., `SSL_read`/`SSL_write` in `libssl.so` or `libunity.so`), which was attempted via the `dns_hook.js` script but Frida couldn't attach to the process.
+
+### Game CDN Investigation
+
+The game connects to AWS CloudFront (IP range `52.85.25.x`, reverse DNS `server-*.cpt51.r.cloudfront.net`). The actual distribution hostname couldn't be determined because:
+- DNS queries for game domains returned CloudFront edge IPs, not the canonical distribution name
+- The full CDN URL paths for assets are unknown without API access
+
+**To discover CDN URLs in the future**: The APK's Unity AssetBundles in `data/raw/_apk_decompiled_assets/assets/Bundles/` contain JSON configuration files (`battle_v1_*.json`, `builtin_v6_*.json`, `season_v5_*.json`, `versions.json`) that may list CDN URLs for asset downloading. This was not fully investigated.
+
+### Scripts Reference
+
+| Script | Purpose | Usage |
+|---|---|---|
+| `scripts/map_images.py` | Map unit IDs to portrait images. Currently only uses 21 official site scraped portraits. | `python3 scripts/map_images.py` |
+| `scripts/generate_pages.py` | Generate page-ready JSON blobs from processed game data. Reads image map. | `python3 scripts/generate_pages.py` |
+| `scripts/download_portraits.py` | Download from official site, scrape characters page for new images, check APK version, generate placeholders. | `--check-version`, `--scrape`, `--placeholder`, `--out public/images/heroes` |
+| `scripts/mitm_capture.py` | MITM proxy capture + traffic analysis. Captures flows from mitmweb API, extracts domains, image URLs, API endpoints. | `python3 scripts/mitm_capture.py --duration 300` |
+| `scripts/extract.sh` | Full APK extraction pipeline (download → Il2Cpp → configs → localization). | `./scripts/extract.sh [version]` |
+| `scripts/extract_all.py` | Python-only extraction (configs, localization, UnityPy asset extraction). | `python3 scripts/extract_all.py` |
+
+### Image Sources Summary
+
+| Source | Format | Resolution | Heroes Covered | Quality |
+|---|---|---|---|---|
+| Official site (`warincrising.com`) | PNG with transparent bg | 1024×1536 | 21 (mythics only) | ⭐⭐⭐⭐⭐ |
+| Battleunit FBX renders (`artofwar-ii_art/fbx/battleunit/`) | PNG with dark green opaque bg | 512×512 | 85 | ⭐⭐⭐ |
+| Texture2D `_C.png` named portraits | PNG (often sprite atlas) | varies | 49 matched by name | ⭐⭐ |
+| Texture2D `Card_{id}.png` | PNG (card art) | varies | 8 | ⭐⭐ |
+| Texture2D `{id}.png` raw texture | PNG (sprite sheets) | varies | 50 | ⭐ (often wrong) |
+
+### Battleunit Portrait Directory Structure
+
+The most promising source for hero portraits is the FBX battleunit directory:
+
+```
+data/raw/unity/AssetRipper_export_20260609_105936/ExportedProject/Assets/
+  artofwar-ii_art/fbx/
+    battleunit/           ← In-game 3D model renders (512×512, opaque bg)
+      battleunit_{id}/        ← Directory named by unit ID
+        {Name}_C.png          ← Character portrait
+        1/                    ← Variants (e.g., different skins)
+          {Name}_C.png
+    battleunit_ui/        ← UI card art (higher quality, 1024+)
+      battleunit_{id}/
+        {Name}_C.png
+```
+
+**To use battleunit portraits**: Modify `map_images.py` to scan these directories and prefer them over Texture2D _C.png files. Add a size-based quality check (battleunit images have 0% transparency with opaque bg, while sprite atlases have sparse pixel distributions).
+
+### Future Work
+
+#### 1. Screenshot Automation (MOST PRACTICAL NEXT STEP)
+Build `scripts/screenshot_capture.py` to automate BlueStacks:
+- Use ADB to navigate the game UI to each hero's detail page
+- Screenshot the character portrait area using OpenCV template matching
+- Save as `{unit_id}.png`
+- Also capture: skill icons, stat table screenshots, equipment screens
+- **Requires**: ADB + OpenCV + BlueStacks running the game
+- **Estimated time**: 2-3 hours to build, ~8 minutes per scrape run
+
+#### 2. APK Asset Bundle URL Extraction
+The APK's Unity AssetBundle JSON files may contain CDN URLs:
+```
+data/raw/_apk_decompiled_assets/assets/Bundles/
+  versions.json              ← Lists available asset versions
+  battle_v1_*.json           ← Battle asset URLs
+  builtin_v6_*.json          ← Built-in asset URLs
+  season_v5_*.json           ← Seasonal asset URLs
+```
+Investigate these JSON files for CDN endpoints. If URLs are found, they can be used to download assets directly without the game running.
+
+#### 3. API Token Extraction (Requires Rooted Device)
+To access the game API at `rising.89trillion.com`:
+- Need a rooted Android device or emulator
+- Extract auth tokens from the game's local storage or shared preferences
+- Use tokens to make authenticated API calls
+- API likely returns hero stats, event data, shop items, player data
+
+#### 4. Skill Icon Extraction
+Skill icons are likely in the `_auto_extracted/Sprite/` directory. Look for:
+- `Skill_Icon_*.png` — skill icons
+- `Attr_Icon_*.png` — attribute icons
+- Files matching `Icon_` prefix
+These can be mapped to skill IDs from `skill_data.json`.
+
+#### 5. Spine Extraction (Advanced)
+The game uses Spine skeletal animations. To extract portrait frames:
+- Find `.skel` files in APK bundles (character skeleton data)
+- Find corresponding atlas textures (`_C.png` files)
+- Use `spine-decrypt` or `SpineExtractor` tool to render selected frames
+- Spine runtime Python library could automate this
+- Currently only UI effect skeletons were found; character skeletons may be in different bundle locations
+
+#### 6. Frida Native Hooking (Advanced)
+For SSL bypass on Unity IL2CPP games:
+- Instead of Java-level hooks, hook native SSL functions in `libssl.so`:
+  - `SSL_read` / `SSL_write` to dump plaintext traffic
+  - `SSL_connect` / `SSL_new` to log hostnames
+- Or hook Unity's `CurlHandler` / `UnityWebRequest` native functions in `libunity.so`
+- This requires Frida to successfully attach (blocked by anti-tamper)
+- May need to use a patched APK (objection `patchapk`) rather than runtime attach
+
+#### 7. Emulator with Root
+Either compile a custom AOSP system image or use an Android x86 emulator with root:
+- Android x86 (android-x86.org) provides root by default
+- Genymotion provides rooted emulators
+- Would allow Frida attach + CA cert install + tcpdump
+- About 2 hours to set up
+
+### Tools for Quick Reference
+
+```bash
+# Start BlueStacks
+open -a BlueStacks
+
+# Connect ADB to BlueStacks
+adb connect 127.0.0.1:5555
+
+# Start frida-server on device
+adb -s 127.0.0.1:5555 shell /data/local/tmp/frida-server -D &
+
+# Forward frida port
+adb -s 127.0.0.1:5555 forward tcp:27042 tcp:27042
+
+# Check Frida processes
+frida-ps -R
+
+# Start mitmproxy web interface
+mitmweb --listen-host 0.0.0.0 --listen-port 8080 --web-port 8081
+
+# Set/clear proxy on BlueStacks
+adb -s 127.0.0.1:5555 shell settings put global http_proxy "IP:8080"
+adb -s 127.0.0.1:5555 shell settings put global http_proxy ":0"
+
+# Install game APK with splits
+adb install-multiple base.apk config.arm64_v8a.apk UnityDataAssetPack.apk
+
+# Check game network connections
+adb shell cat /proc/net/tcp | grep $(adb shell ps | grep strategy | awk '{print $2}')
+
+# Find emulator IP from hex (little endian)
+# 0F02000A → 10.0.2.15
+# 40195534 → 52.85.25.64
+python3 -c "ip='.'.join(str(int(h[i:i+2],16)) for i in range(6,-1,-2)); print(ip)"
+
+# Check CloudFront reverse DNS
+dig +short -x 52.85.25.64
+
+# Check game API
+curl -s https://rising.89trillion.com/
+
+# Run UnityPy extraction
+python3 scripts/extract_all.py
+
+# Regenerate all pages after data changes
+python3 scripts/map_images.py && python3 scripts/generate_pages.py && npm run build
+```
 
 ## Quirks & Conventions
 
@@ -256,3 +449,4 @@ python3 scripts/extract_all.py   # Same as above but skips APK/Il2Cpp steps
 - Keep the extraction pipeline scripted and reproducible (so updates are just re-running extraction).
 - Unit stats come from `card_show_config.json` `attrConfig.showAttrsLib` as TSV embedded in JSON.
 - Skill data from `skillAttrCsv` and `skillDescCsv` in the same file.
+- Equipment (`equip_battle.json`) is **not** a real game feature — leftover Unity assets, ignore.
