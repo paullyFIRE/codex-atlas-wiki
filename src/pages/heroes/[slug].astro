@@ -1,10 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Badge from '../../components/ui/Badge.astro';
-import CalloutBox from '../../components/content/CalloutBox.astro';
-import StatGrid from '../../components/content/StatGrid.astro';
-import SectionNav from '../../components/content/SectionNav.astro';
-import EntityHeader from '../../components/content/EntityHeader.astro';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/heroes/*.json', { eager: true, import: 'default' });
@@ -52,13 +47,12 @@ if (lv1.move_speed) {
   statItems.push({ label: 'Move', value: lv1.move_speed });
 }
 
-const sectionLinks = [
-  { href: '#stats', label: 'Stats' },
-  ...(pageData.skills.length > 0 ? [{ href: '#skills', label: 'Skills' }] : []),
-  ...(communityRank ? [{ href: '#community-rank', label: 'Community Rank' }] : []),
-  { href: '#strategy', label: 'Strategy' },
-  ...(pageData.related.length > 0 ? [{ href: '#related', label: 'Related' }] : []),
-  { href: '#resources', label: 'More' },
+const sectionIds = [
+  { id: 'stats', label: 'Stats' },
+  ...(pageData.skills.length > 0 ? [{ id: 'skills', label: 'Skills' }] : []),
+  ...(communityRank ? [{ id: 'community-rank', label: 'Community Rank' }] : []),
+  { id: 'strategy', label: 'Strategy' },
+  ...(pageData.related.length > 0 ? [{ id: 'related', label: 'Related' }] : []),
 ];
 ---
 
@@ -71,179 +65,273 @@ const sectionLinks = [
   <script type="application/ld+json" set:html={JSON.stringify(pageData.faq_schema)} />
   <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/heroes/">Heroes</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pageData.name}</span>
+  <!-- Breadcrumb -->
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/heroes/" class="hover:text-primary no-underline">Heroes</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.name}</span>
   </nav>
 
-  <article>
-    <EntityHeader
-      name={pageData.name}
-      image={pageData.image}
-      badges={[
-        { label: pageData.rarity_name, variant: 'rarity', level: pageData.rarity },
-        { label: pageData.profession_name, variant: 'profession' },
-      ]}
-      cost={pageData.cost}
-      power={pageData.combat_power}
-    />
-    {communityRank && (() => {
-      const tierClass = communityRank.tier === 'S+' ? 's-plus' : communityRank.tier.toLowerCase();
-      return (
-      <div class={`rank-badge rank-${tierClass}`}>
-        <span class="rank-label">Community Rank</span>
-        <span class="rank-tier">{communityRank.tier} Tier</span>
-        {communityRank.tags.length > 0 && (
-          <div class="rank-tags">
-            {communityRank.tags.map((tag) => (
-              <span class={`tag tag-${tag}`}>{tag.replace(/-/g, ' ')}</span>
-            ))}
+  <div class="flex flex-col xl:flex-row gap-12">
+    <!-- Content Body -->
+    <article class="flex-1 space-y-12">
+      <!-- Hero Header -->
+      <section class="border-b-4 border-surface-container pb-10 mb-12">
+        <div class="flex items-start gap-6">
+          {pageData.image && (
+            <img src={pageData.image} alt={pageData.name} class="w-28 h-28 rounded-xl border-4 border-surface-container shadow-lg flex-shrink-0 object-cover" />
+          )}
+          <div class="flex-1 min-w-0">
+            <h1 class="font-display text-headline-lg text-on-surface mb-3 leading-none">{pageData.name}</h1>
+            <div class="flex flex-wrap items-center gap-3 mb-3">
+              <span class="bg-primary-container/20 text-on-primary-container border-2 border-primary-container/50 px-3 py-1 rounded-full text-label-md font-bold uppercase tracking-wider text-sm">{pageData.rarity_name}</span>
+              <span class="bg-secondary-container/20 text-secondary border-2 border-secondary-container/50 px-3 py-1 rounded-full text-label-md font-bold uppercase tracking-wider text-sm">{pageData.profession_name}</span>
+              {pageData.cost > 0 && (
+                <span class="bg-surface-container text-on-surface-variant border-2 border-outline-variant px-3 py-1 rounded-full text-label-md font-bold text-sm">Cost: {pageData.cost}</span>
+              )}
+              {pageData.combat_power > 0 && (
+                <span class="bg-tertiary-container/20 text-on-tertiary-container border-2 border-tertiary-container/50 px-3 py-1 rounded-full text-label-md font-bold text-sm">Power: {pageData.combat_power}</span>
+              )}
+            </div>
+            {pageData.description && <p class="text-body-md text-on-surface-variant">{pageData.description}</p>}
           </div>
-        )}
-      </div>
-      );
-    })()}
-
-    <SectionNav links={sectionLinks} />
-
-    <section id="stats">
-      <h2>What are {pageData.name}'s stats by level?</h2>
-
-      <StatGrid items={statItems} />
-
-      <div class="table-wrap">
-        <table class="wiki-table">
-          <thead>
-            <tr>
-              <th>Level</th>
-              <th>HP</th>
-              <th data-align="right">ATK</th>
-              <th data-align="right">DEF</th>
-              <th data-align="right">ATK Speed</th>
-              <th data-align="right">Move Speed</th>
-              <th data-align="right">Range</th>
-              <th data-align="right">Power</th>
-            </tr>
-          </thead>
-          <tbody>
-            {pageData.stats_table?.map((row) => (
-              <tr>
-                <td><strong>{row.level}</strong></td>
-                <td>{row.hp ?? '-'}</td>
-                <td data-type="number">{row.atk ?? '-'}</td>
-                <td data-type="number">{row.def ?? '-'}</td>
-                <td data-type="number">{row.attack_speed ?? '-'}</td>
-                <td data-type="number">{row.move_speed ?? '-'}</td>
-                <td data-type="number">{row.attack_range ?? '-'}</td>
-                <td data-type="number">{row.combat_power ?? '-'}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    {pageData.skills.length > 0 && (
-      <section id="skills">
-        <h2>What skills does {pageData.name} have?</h2>
-        {pageData.skills.map((skill) => (
-          <div class="card card-pad-md" style="margin-bottom: var(--space-4);">
-            <h3 style="margin-top: 0;">{skill.name}</h3>
-            {skill.description && <p>{skill.description}</p>}
-            {Object.keys(skill.level_effects).length > 0 && (
-              <div class="table-wrap">
-                <table class="wiki-table">
-                  <thead>
-                    <tr>
-                      <th>Level</th>
-                      {Object.keys(Object.values(skill.level_effects)[0] || {}).map((key) => (
-                        <th>{key.replace(/_/g, ' ')}</th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {Object.entries(skill.level_effects).map(([lv, effects]) => (
-                      <tr>
-                        <td><strong>{lv}</strong></td>
-                        {Object.values(effects).map((val) => (
-                          <td data-type="number">{val}</td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            )}
-          </div>
-        ))}
+        </div>
       </section>
-    )}
 
-    {communityRank && (
-      <section id="community-rank">
-        <h2>Is {pageData.name} good? — Community Verdict</h2>
-        <CalloutBox type={communityRank.tier === 'S+' || communityRank.tier === 'S' ? 'success' : communityRank.tier === 'F' || communityRank.tier === 'D' ? 'warning' : 'info'} title={`${communityRank.tier} Tier — ${communityRank.tier === 'S+' ? 'Game-Breaking' : communityRank.tier === 'S' ? 'Excellent' : communityRank.tier === 'A' ? 'Strong' : communityRank.tier === 'B' ? 'Situational' : communityRank.tier === 'C' ? 'Below Average' : 'Avoid'}`}>
-          <p style="margin:0;">{communityRank.good_for}</p>
-        </CalloutBox>
-        {communityRank.min_level > 0 && (
-          <p><strong>Recommended minimum level:</strong> {communityRank.min_level} for new players, {communityRank.min_level_mid}+ for mid-game.</p>
-        )}
-        {communityRank.strategy && (
-          <div class="card card-pad-md" style="margin-bottom: var(--space-4);">
-            <h3>How to use {pageData.name}</h3>
-            <p>{communityRank.strategy}</p>
-          </div>
-        )}
-        {communityRank.must_read && (
-          <p style="margin-top: var(--space-3);">
-            <strong>Learn more:</strong> <a href={`/blog/${communityRank.must_read_slug}/`}>{communityRank.must_read}</a>
-          </p>
-        )}
-      </section>
-    )}
+      <!-- Stats Section -->
+      <section class="scroll-mt-24" id="stats">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+          <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">monitoring</span></span>
+          {pageData.name}'s Stats by Level
+        </h2>
 
-    <section id="strategy">
-      <h2>How to use {pageData.name} effectively?</h2>
-      <CalloutBox type="info" title="Strategy Overview">
-        <p style="margin:0;">{pageData.strategy_tips?.[0] || 'Adapt this unit to your strategy based on their stats and role.'}</p>
-      </CalloutBox>
-      {pageData.strategy_tips?.slice(1).length > 0 && (
-        <ul>
-          {pageData.strategy_tips.slice(1).map((tip) => <li>{tip}</li>)}
-        </ul>
-      )}
-    </section>
-
-    {pageData.related.length > 0 && (
-      <section id="related">
-        <h2>Related Heroes</h2>
-      <ul class="listing-grid" style="list-style:none;padding:0;">
-          {pageData.related.map((r) => (
-            <li>
-              <a href={`/heroes/${r.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
-                <strong>{r.name}</strong>
-                <span class="meta" style="display:block;margin-top:var(--space-1);">{r.rarity_name} · {r.profession_name}</span>
-              </a>
-            </li>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+          {statItems.map(s => (
+            <div class="bg-white border-4 border-surface-container rounded-xl p-5 text-center clash-card">
+              <p class="text-label-md font-bold text-on-surface-variant uppercase tracking-wider text-[11px] mb-1">{s.label}</p>
+              <p class="text-title-md font-display text-on-surface">{s.value}</p>
+            </div>
           ))}
-        </ul>
-      </section>
-    )}
+        </div>
 
-    <section id="resources">
-      <h2>Quick Links</h2>
-      <ul class="quick-links">
-        <li><a href={`/professions/${pageData.profession_name?.toLowerCase()}/`}>All {pageData.profession_name}s</a></li>
-        <li><a href={`/guides/best-${costBracket}-cost-units/`}>Best {costLabel} Cost Units</a></li>
-        <li><a href={`/heroes/`}>Browse All Heroes</a></li>
-        {topRelated && <li><a href={`/compare/${pageData.slug}-vs-${topRelated.slug}/`}>{pageData.name} vs {topRelated.name}</a></li>}
-        <li><a href={`/guides/best-heroes-for-general-lineup/`}>Best Heroes for General Lineup</a></li>
-        <li><a href={`/rarities/${pageData.rarity_name?.toLowerCase()}-units/`}>All {pageData.rarity_name} Units</a></li>
-        <li><a href="/tools/">Tools & Calculators</a></li>
-      </ul>
-    </section>
-  </article>
+        <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+          <table class="w-full text-left border-collapse">
+            <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
+              <tr>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Level</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">HP</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">ATK</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">DEF</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Speed</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Move</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Range</th>
+                <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Power</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y-2 divide-surface-container bg-white">
+              {pageData.stats_table?.map((row) => (
+                <tr class="hover:bg-surface-container-low transition-colors">
+                  <td class="px-6 py-4 font-bold text-on-surface">{row.level}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.hp ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.atk ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.def ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.attack_speed ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.move_speed ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.attack_range ?? '-'}</td>
+                  <td class="px-6 py-4 font-bold text-primary">{row.combat_power ?? '-'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      {pageData.skills.length > 0 && (
+        <section class="scroll-mt-24" id="skills">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">bolt</span></span>
+            {pageData.name}'s Skills
+          </h2>
+          <div class="space-y-6">
+            {pageData.skills.map((skill) => (
+              <div class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card">
+                <h3 class="text-title-md font-display text-on-surface mb-4">{skill.name}</h3>
+                {skill.description && <p class="text-body-md text-on-surface-variant mb-6">{skill.description}</p>}
+                {Object.keys(skill.level_effects).length > 0 && (
+                  <div class="overflow-hidden border-2 border-surface-container rounded-xl">
+                    <table class="w-full text-left border-collapse">
+                      <thead class="bg-surface-container-low">
+                        <tr>
+                          <th class="px-5 py-3 text-label-md font-bold text-on-surface uppercase">Level</th>
+                          {Object.keys(Object.values(skill.level_effects)[0] || {}).map((key) => (
+                            <th class="px-5 py-3 text-label-md font-bold text-on-surface uppercase">{key.replace(/_/g, ' ')}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody class="divide-y divide-surface-container bg-white">
+                        {Object.entries(skill.level_effects).map(([lv, effects]) => (
+                          <tr class="hover:bg-surface-container-low transition-colors">
+                            <td class="px-5 py-3 font-bold text-on-surface">{lv}</td>
+                            {Object.values(effects).map((val) => (
+                              <td class="px-5 py-3 text-on-surface-variant">{val}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Community Rank -->
+      {communityRank && (
+        <section class="scroll-mt-24" id="community-rank">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-secondary-container text-on-secondary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">military_tech</span></span>
+            Is {pageData.name} Good? — Community Verdict
+          </h2>
+          {(() => {
+            const tierColors = {
+              'S+': 'bg-secondary-container/20 border-secondary-container text-secondary',
+              'S': 'bg-primary-container/20 border-primary-container text-on-primary-container',
+              'A': 'bg-tertiary-container/20 border-tertiary-container text-on-tertiary-container',
+              'B': 'bg-surface-container border-outline-variant text-on-surface-variant',
+              'C': 'bg-error-container/20 border-error-container text-error',
+              'D': 'bg-error-container/20 border-error-container text-error',
+              'F': 'bg-error text-on-error border-error/50 text-on-error',
+            };
+            const tierClass = tierColors[communityRank.tier] || 'bg-surface-container border-outline-variant text-on-surface-variant';
+            const tierTitle = communityRank.tier === 'S+' ? 'Game-Breaking' : communityRank.tier === 'S' ? 'Excellent' : communityRank.tier === 'A' ? 'Strong' : communityRank.tier === 'B' ? 'Situational' : communityRank.tier === 'C' ? 'Below Average' : communityRank.tier === 'D' ? 'Weak' : 'Avoid';
+            return (
+              <div class={`${tierClass} border-4 rounded-xl p-8`}>
+                <div class="flex items-center gap-4 mb-4">
+                  <span class="text-display-lg font-display">{communityRank.tier}</span>
+                  <div>
+                    <p class="text-label-md font-bold uppercase tracking-wider">{communityRank.tier} Tier — {tierTitle}</p>
+                    <p class="text-body-md">{communityRank.good_for}</p>
+                  </div>
+                </div>
+                {communityRank.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-2">
+                    {communityRank.tags.map((tag) => (
+                      <span class="bg-surface-container-highest text-on-surface-variant border-2 border-outline-variant px-3 py-1 rounded-full text-label-md font-bold text-sm">{tag.replace(/-/g, ' ')}</span>
+                    ))}
+                  </div>
+                )}
+                {communityRank.min_level > 0 && (
+                  <p class="text-body-md text-on-surface-variant mt-4"><strong>Min level:</strong> {communityRank.min_level} (new), {communityRank.min_level_mid}+ (mid-game)</p>
+                )}
+                {communityRank.strategy && (
+                  <div class="mt-6 bg-white border-2 border-surface-container rounded-xl p-6">
+                    <h3 class="text-title-md font-display text-on-surface mb-3">How to use {pageData.name}</h3>
+                    <p class="text-body-md text-on-surface-variant">{communityRank.strategy}</p>
+                  </div>
+                )}
+                {communityRank.must_read && (
+                  <p class="mt-4 text-body-md">
+                    <strong>Learn more:</strong> <a href={`/blog/${communityRank.must_read_slug}/`} class="text-secondary hover:underline">{communityRank.must_read}</a>
+                  </p>
+                )}
+              </div>
+            );
+          })()}
+        </section>
+      )}
+
+      <!-- Strategy -->
+      <section class="scroll-mt-24" id="strategy">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+          <span class="flex-shrink-0 w-12 h-12 bg-tertiary-container text-on-tertiary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">security</span></span>
+          How to Use {pageData.name} Effectively
+        </h2>
+        <div class="bg-tertiary-container/20 border-4 border-tertiary-container rounded-xl p-8 relative overflow-hidden">
+          <div class="flex items-start gap-6">
+            <div class="bg-tertiary-container p-4 rounded-full shadow-lg flex-shrink-0">
+              <span class="material-symbols-outlined text-on-tertiary-container text-3xl" style="font-variation-settings: 'FILL' 1;">strategy</span>
+            </div>
+            <div>
+              <h4 class="text-label-md font-bold text-tertiary uppercase tracking-widest mb-2">Strategy Overview</h4>
+              <p class="text-body-lg text-on-surface leading-snug font-medium italic">{pageData.strategy_tips?.[0] || 'Adapt this unit to your strategy based on their stats and role.'}</p>
+            </div>
+          </div>
+        </div>
+        {pageData.strategy_tips?.slice(1).length > 0 && (
+          <ul class="space-y-3 mt-6 ml-6">
+            {pageData.strategy_tips.slice(1).map((tip) => (
+              <li class="text-body-md text-on-surface-variant flex items-start gap-3">
+                <span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+                <span>{tip}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
+      <!-- Related -->
+      {pageData.related.length > 0 && (
+        <section class="scroll-mt-24" id="related">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">link</span></span>
+            Related Heroes
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {pageData.related.map((r) => (
+              <a href={`/heroes/${r.slug}/`} class="group bg-white border-4 border-surface-container hover:border-primary rounded-xl transition-all overflow-hidden clash-card no-underline hover:-translate-y-1">
+                <div class="p-6 flex items-center gap-4">
+                  {r.image && <img src={r.image} alt={r.name} class="w-14 h-14 rounded-lg border-2 border-surface-container object-cover flex-shrink-0" />}
+                  <div>
+                    <h4 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">{r.name}</h4>
+                    <p class="text-label-md text-on-surface-variant text-sm">{r.rarity_name} · {r.profession_name}</p>
+                  </div>
+                  <span class="material-symbols-outlined ml-auto text-on-surface-variant opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Quick Links -->
+      <section class="border-t-8 border-surface-container pt-12">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6">Quick Links</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href={`/professions/${pageData.profession_name?.toLowerCase()}/`} class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">All {pageData.profession_name}s</a>
+          <a href={`/guides/best-${costBracket}-cost-units/`} class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Best {costLabel} Cost Units</a>
+          <a href="/heroes/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Browse All Heroes</a>
+          {topRelated && <a href={`/compare/${pageData.slug}-vs-${topRelated.slug}/`} class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">{pageData.name} vs {topRelated.name}</a>}
+          <a href="/tools/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Tools & Calculators</a>
+        </div>
+      </section>
+    </article>
+
+    <!-- Table of Contents Sidebar -->
+    <aside class="w-full xl:w-72 space-y-6">
+      <div class="sticky top-28 space-y-6">
+        <div class="bg-white border-4 border-surface-container p-6 rounded-xl shadow-xl">
+          <h3 class="text-label-md font-bold text-on-surface border-b-4 border-surface-container-low pb-4 mb-6 uppercase tracking-widest">Page Sections</h3>
+          <ul class="space-y-5">
+            {sectionIds.map(s => (
+              <li>
+                <a href={`#${s.id}`} class="flex items-center gap-4 group no-underline">
+                  <span class="w-3 h-3 bg-primary-container rounded-full scale-0 group-hover:scale-100 transition-transform"></span>
+                  <span class="text-label-md font-bold text-on-surface-variant group-hover:text-primary transition-colors no-underline">{s.label}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
 </BaseLayout>
+
+<style is:global>
+  html { scroll-behavior: smooth; }
+</style>

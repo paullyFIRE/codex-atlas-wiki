@@ -31,24 +31,27 @@ const guides = items.map(item => {
   description="Find the best heroes for your War Inc: Rising strategy. Cost-based and mode-based hero recommendations ranked by combat power from extracted game data."
   currentSection="guides"
 >
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Strategy Guides</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Strategy Guides</span>
   </nav>
-  <h1>Strategy Guides</h1>
-  <p>Data-driven guides to help you choose the best heroes. Also check <a href="/professions/">profession rankings</a>, <a href="/compare/">hero comparisons</a>, and <a href="/tools/">tools</a>.</p>
-  <ul class="listing-grid">
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">Strategy Guides</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Data-driven guides to help you choose the best heroes. Also check <a href="/professions/" class="text-secondary hover:underline">profession rankings</a>, <a href="/compare/" class="text-secondary hover:underline">hero comparisons</a>, and <a href="/tools/" class="text-secondary hover:underline">tools</a>.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     {guides.map((g) => (
-      <li>
-        <a href={`/guides/${g.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
-          <strong>{g.name}</strong>
-          <span style="display:block;font-size:var(--text-sm);color:#6c757d;margin-top:var(--space-1);font-weight:var(--weight-normal);font-family:var(--font-body);">{g.desc} ({g.unitCount} units)</span>
-        </a>
-      </li>
+      <a href={`/guides/${g.slug}/`} class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block">
+        <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">{g.name}</h2>
+        <p class="text-body-md text-on-surface-variant mt-3">{g.desc} ({g.unitCount} units)</p>
+        <span class="flex items-center gap-2 text-label-md font-bold text-primary mt-4">
+          View Guide <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+        </span>
+      </a>
     ))}
-  </ul>
-  <p style="margin-top: var(--space-4);">
-    <a href="/heroes/">Browse all {heroCount} heroes</a> · <a href="/tools/">Tools & Calculators</a>
+  </div>
+
+  <p class="text-body-md text-on-surface-variant mt-10">
+    <a href="/heroes/" class="text-secondary hover:underline">Browse all {heroCount} heroes</a> · <a href="/tools/" class="text-secondary hover:underline">Tools & Calculators</a>
   </p>
 </BaseLayout>

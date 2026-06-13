@@ -23,34 +23,30 @@ const posts = items.map(item => {
 <BaseLayout
   title="War Inc: Rising Strategy Guides and Tips"
   description="Data-driven War Inc: Rising strategy guides. Learn the best heroes, team compositions, game mode tactics, and progression tips. Updated for 2026."
-  currentSection="guides"
+  currentSection="blog"
 >
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Guides & Blog</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Guides & Blog</span>
   </nav>
-  <h1>War Inc: Rising Strategy Guides</h1>
-  <p>Data-driven guides, tier lists, and strategy articles. Also check <a href="/guides/">hero recommendations</a> and <a href="/tier-lists/">tier lists</a>.</p>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">War Inc: Rising Strategy Guides</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Data-driven guides, tier lists, and strategy articles. Also check <a href="/guides/" class="text-secondary hover:underline">hero recommendations</a> and <a href="/tier-lists/" class="text-secondary hover:underline">tier lists</a>.</p>
 
-  <div class="listing-grid">
+  <div class="space-y-6">
     {posts.map((p) => (
-      <article class="card card-pad-md card-hoverable">
-        <a href={`/blog/${p.slug}/`} style="text-decoration:none;color:inherit;">
-          <time style="display:block;font-size:var(--text-xs);color:var(--color-text-muted);margin-bottom:var(--space-1);">{p.date}</time>
-          <h2 style="margin:0 0 var(--space-1) 0;font-size:var(--text-lg);">{p.name}</h2>
-          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;line-height:1.5;">
-            {p.preview}
-          </p>
-          <span style="display:block;margin-top:var(--space-2);font-size:var(--text-xs);color:var(--color-accent);">
-            {p.wordCount} words · {p.sections.length} sections
-          </span>
-        </a>
-      </article>
+      <a href={`/blog/${p.slug}/`} class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block">
+        <time class="text-label-md text-on-surface-variant text-sm mb-3 block">{p.date}</time>
+        <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors mb-3">{p.name}</h2>
+        <p class="text-body-md text-on-surface-variant leading-relaxed">{p.preview}</p>
+        <span class="flex items-center gap-2 text-label-md font-bold text-primary mt-4">
+          {p.wordCount} words · {p.sections.length} sections <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1 ml-auto">arrow_forward</span>
+        </span>
+      </a>
     ))}
   </div>
 
-  <p style="margin-top: var(--space-4);">
-    <a href="/guides/">Hero recommendations by cost and mode</a> · <a href="/tier-lists/">Tier lists</a> · <a href="/tools/">Tools</a>
+  <p class="text-body-md text-on-surface-variant mt-10">
+    <a href="/guides/" class="text-secondary hover:underline">Hero recommendations by cost and mode</a> · <a href="/tier-lists/" class="text-secondary hover:underline">Tier lists</a> · <a href="/tools/" class="text-secondary hover:underline">Tools</a>
   </p>
 </BaseLayout>

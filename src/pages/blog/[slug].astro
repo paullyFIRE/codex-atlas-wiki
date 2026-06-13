@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import CalloutBox from '../../components/content/CalloutBox.astro';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/blog/*.json', { eager: true, import: 'default' });
@@ -19,51 +18,82 @@ const pageData = files[`/data/pages/blog/${slug}.json`];
 if (!pageData) return Astro.redirect('/blog/', 404);
 ---
 
-<BaseLayout title={pageData.title} description={pageData.meta_description}>
+<BaseLayout title={pageData.title} description={pageData.meta_description} currentSection="blog">
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
   {pageData.faq_schema && <script type="application/ld+json" set:html={JSON.stringify(pageData.faq_schema)} />}
 
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/blog/">Guides & Blog</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pageData.name}</span>
+  <!-- Breadcrumb -->
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/blog/" class="hover:text-primary no-underline">Guides & Blog</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.name}</span>
   </nav>
 
   <article>
-    <header style="margin-bottom: var(--space-4);">
-      <h1>{pageData.name}</h1>
-      <p style="font-size: var(--text-sm); color: var(--color-text-muted);">
-        Published <time>{pageData.date}</time> · By {pageData.author} · {pageData.word_count} words
-      </p>
+    <!-- Article Header -->
+    <header class="border-b-4 border-surface-container pb-10 mb-12">
+      <h1 class="font-display text-headline-lg text-on-surface mb-6 leading-none">{pageData.name}</h1>
+      <div class="flex flex-col md:flex-row md:items-center gap-6">
+        <p class="text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          {pageData.excerpt || 'A comprehensive guide for War Inc: Rising.'}
+        </p>
+        <div class="flex-shrink-0 flex items-center gap-4 bg-white p-4 rounded-full border-4 border-surface-container shadow-md">
+          <div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center">
+            <span class="material-symbols-outlined text-white">person</span>
+          </div>
+          <div>
+            <p class="text-label-md font-bold text-on-surface">{pageData.author || 'Wiki Staff'}</p>
+            <p class="text-[10px] text-on-surface-variant uppercase font-bold tracking-tighter">{pageData.date} · {pageData.word_count} words</p>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <!-- Content Sections -->
     {pageData.sections.map((section, i) => (
-      <section style="margin-bottom: var(--space-5);">
-        <h2>{section.heading}</h2>
-        <p style="line-height: 1.7;">{section.content}</p>
+      <section class="mb-12 scroll-mt-24">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+          <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md">{(i + 1).toString().padStart(2, '0')}</span>
+          {section.heading}
+        </h2>
+        <div class="space-y-6 text-body-md text-on-surface-variant leading-relaxed">
+          {section.content.split('\n').filter(p => p.trim()).map(p => (
+            <p>{p.trim()}</p>
+          ))}
+        </div>
       </section>
     ))}
 
+    <!-- Related Heroes -->
     {pageData.related_heroes?.length > 0 && (
-      <section>
-        <h2>Heroes Mentioned in This Guide</h2>
-        <ul class="listing-grid">
+      <section class="mt-16 pt-12 border-t-8 border-surface-container">
+        <h2 class="font-display text-headline-lg text-on-surface mb-8">Heroes Mentioned in This Guide</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {pageData.related_heroes.map((h) => (
-            <li>
-              <a href={`/heroes/${h.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;">
-                <strong>{h.name}</strong>
-                <span style="display:block;font-size:var(--text-sm);color:var(--color-text-muted);">View stats and skills</span>
-              </a>
-            </li>
+            <a href={`/heroes/${h.slug}/`} class="group bg-white border-4 border-surface-container hover:border-primary rounded-xl transition-all overflow-hidden clash-card no-underline hover:-translate-y-1">
+              <div class="p-6">
+                <h4 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">{h.name}</h4>
+                <p class="text-label-md text-on-surface-variant text-sm mt-2">View stats and skills</p>
+              </div>
+            </a>
           ))}
-        </ul>
+        </div>
       </section>
     )}
 
-    <p style="margin-top: var(--space-4);">
-      <a href="/blog/">← Back to all guides</a> · <a href="/guides/">Hero recommendations</a> · <a href="/tier-lists/">Tier lists</a>
-    </p>
+    <!-- Navigation -->
+    <nav class="mt-12 pt-8 border-t-4 border-surface-container flex flex-wrap gap-4">
+      <a href="/blog/" class="text-label-md font-bold text-primary hover:underline no-underline flex items-center gap-2">
+        <span class="material-symbols-outlined text-sm">arrow_back</span> All Guides
+      </a>
+      <a href="/guides/" class="text-label-md font-bold text-on-surface-variant hover:text-primary transition-colors no-underline">Hero Recommendations</a>
+      <a href="/tier-lists/" class="text-label-md font-bold text-on-surface-variant hover:text-primary transition-colors no-underline">Tier Lists</a>
+    </nav>
   </article>
 </BaseLayout>
+
+<style is:global>
+  html { scroll-behavior: smooth; }
+</style>

@@ -3,20 +3,35 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout title="All Professions - Unit Classes | War Inc: Rising Wiki" currentSection="guides">
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Professions</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Professions</span>
   </nav>
-  <h1>All Professions</h1>
-  <p>Browse units by profession — Warriors, Tanks, Assassins, Mages, Supports, Rangers.</p>
-  <ul class="listing-grid">
-    <li><a href="/professions/warrior/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Warriors</strong></a></li>
-    <li><a href="/professions/tank/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Tanks</strong></a></li>
-    <li><a href="/professions/assassin/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Assassins</strong></a></li>
-    <li><a href="/professions/mage/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Mages</strong></a></li>
-    <li><a href="/professions/support/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Supports</strong></a></li>
-    <li><a href="/professions/ranger/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Rangers</strong></a></li>
-    <li><a href="/professions/special/" class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>Special</strong></a></li>
-  </ul>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">All Professions</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Browse units by profession — Warriors, Tanks, Assassins, Mages, Supports, Rangers.</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <a href="/professions/warrior/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Warriors</h2>
+    </a>
+    <a href="/professions/tank/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Tanks</h2>
+    </a>
+    <a href="/professions/assassin/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Assassins</h2>
+    </a>
+    <a href="/professions/mage/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Mages</h2>
+    </a>
+    <a href="/professions/support/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Supports</h2>
+    </a>
+    <a href="/professions/ranger/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Rangers</h2>
+    </a>
+    <a href="/professions/special/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block text-center">
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Special</h2>
+    </a>
+  </div>
 </BaseLayout>

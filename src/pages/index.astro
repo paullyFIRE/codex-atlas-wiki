@@ -1,82 +1,471 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-
-const siteTitle = 'War Inc: Rising Wiki | war-inc-rising.codex-atlas.com';
-const siteDescription = 'Comprehensive War Inc: Rising wiki with hero stats, skill data, per-level attributes, strategy guides, tier lists, and game mode analysis for all 95 playable heroes. Data extracted from the game APK.';
+const siteTitle = 'War Inc: Rising Wiki | Hero Stats, Guides & Tier Lists';
+const siteDescription = 'Comprehensive fan wiki for War Inc: Rising with hero stats, skill data, per-level attributes, strategy guides, tier lists, and game mode analysis for all 95 playable heroes.';
 
 const heroIdx = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const buildIdx = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
-const buffIdx = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
-const synIdx = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
 const modeIdx = import.meta.glob('/data/pages/modes/_index.json', { eager: true, import: 'default' });
+const synIdx = import.meta.glob('/data/pages/synergies/_index.json', { eager: true, import: 'default' });
+const buffIdx = import.meta.glob('/data/pages/buffs/_index.json', { eager: true, import: 'default' });
 const followIdx = import.meta.glob('/data/pages/followers/_index.json', { eager: true, import: 'default' });
+const blogIdx = import.meta.glob('/data/pages/blog/_index.json', { eager: true, import: 'default' });
 const guideIdx = import.meta.glob('/data/pages/guides/_index.json', { eager: true, import: 'default' });
-const heroCount = heroIdx['/data/pages/heroes/_index.json']?.count ?? 0;
-const buildingCount = buildIdx['/data/pages/buildings/_index.json']?.count ?? 0;
-const buffCount = buffIdx['/data/pages/buffs/_index.json']?.count ?? 0;
-const synCount = synIdx['/data/pages/synergies/_index.json']?.count ?? 0;
-const modeCount = modeIdx['/data/pages/modes/_index.json']?.count ?? 0;
-const followerCount = followIdx['/data/pages/followers/_index.json']?.count ?? 0;
+const tierIdx = import.meta.glob('/data/pages/tier-lists/_index.json', { eager: true, import: 'default' });
+
+const heroes = heroIdx['/data/pages/heroes/_index.json']?.items ?? [];
+const builds = buildIdx['/data/pages/buildings/_index.json']?.count ?? 0;
+const modes = modeIdx['/data/pages/modes/_index.json']?.count ?? 0;
+const synergies = synIdx['/data/pages/synergies/_index.json']?.count ?? 0;
+const buffs = buffIdx['/data/pages/buffs/_index.json']?.count ?? 0;
+const followers = followIdx['/data/pages/followers/_index.json']?.count ?? 0;
+const blogArticles = blogIdx['/data/pages/blog/_index.json']?.items ?? [];
 const guideCount = guideIdx['/data/pages/guides/_index.json']?.count ?? 0;
+const tierCount = tierIdx['/data/pages/tier-lists/_index.json']?.count ?? 0;
+const totalPages = 1159;
+
+const recentPosts = blogArticles.slice(0, 6);
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+const heroesByRarity = [
+  { label: 'Common', count: heroes.filter(h => h.rarity_name === 'Common').length, color: 'bg-zinc-400' },
+  { label: 'Rare', count: heroes.filter(h => h.rarity_name === 'Rare').length, color: 'bg-sky-500' },
+  { label: 'Epic', count: heroes.filter(h => h.rarity_name === 'Epic').length, color: 'bg-violet-500' },
+  { label: 'Legendary', count: heroes.filter(h => h.rarity_name === 'Legendary').length, color: 'bg-amber-500' },
+  { label: 'Mythic', count: heroes.filter(h => h.rarity_name === 'Mythic').length, color: 'bg-red-500' },
+];
+
+const featuredHero = heroes.find(h => h.name === 'Goddess of War');
+const featuredHeroes = ['Goddess of War', 'The Knight King', 'Blazeking', 'Tide Lord', 'Radiant Warrior', 'Nine-Tailed Fox'];
 ---
 
-<BaseLayout title={siteTitle} description={siteDescription}>
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "VideoGame",
-    "name": "War Inc: Rising",
-    "applicationCategory": "Game",
-    "operatingSystem": "Android",
-    "author": { "@type": "Organization", "name": "Fastone Games" },
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  })} />
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "war-inc-rising.codex-atlas.com",
-    "url": "https://war-inc-rising.codex-atlas.com",
-    "description": "War Inc: Rising wiki with hero stats, skills, and strategy guides.",
-  })} />
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{siteTitle}</title>
+<meta name="description" content={siteDescription} />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={siteTitle} />
+<meta property="og:description" content={siteDescription} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content="War Inc: Rising Wiki" />
+<meta property="og:image" content="https://war-inc-rising.codex-atlas.com/og-default.svg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={siteTitle} />
+<link rel="canonical" href={canonical} />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script is:inline src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script is:inline>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "surface-tint": "#7c5800",
+          "on-primary": "#ffffff",
+          "primary-container": "#ffb800",
+          "primary": "#ffb800",
+          "on-primary-container": "#6b4c00",
+          "secondary": "#8700e2",
+          "on-secondary": "#ffffff",
+          "secondary-container": "#a336ff",
+          "on-secondary-container": "#fffbff",
+          "tertiary": "#2b6c00",
+          "on-tertiary": "#ffffff",
+          "tertiary-container": "#78dc41",
+          "on-tertiary-container": "#255d00",
+          "error": "#ba1a1a",
+          "error-container": "#ffdad6",
+          "surface": "#fff8f6",
+          "surface-dim": "#fad2be",
+          "surface-bright": "#fff8f6",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-low": "#fff1eb",
+          "surface-container": "#ffeae0",
+          "surface-container-high": "#ffe2d5",
+          "surface-container-highest": "#ffdbc9",
+          "on-surface": "#2b160a",
+          "on-surface-variant": "#514532",
+          "outline": "#837560",
+          "outline-variant": "#d5c4ab",
+          "background": "#fff8f6",
+          "on-background": "#2b160a",
+        },
+        borderRadius: {
+          DEFAULT: "1rem",
+          lg: "2rem",
+          xl: "3rem",
+          full: "9999px"
+        },
+        fontFamily: {
+          display: ["Bricolage Grotesque"],
+          body: ["Be Vietnam Pro"],
+        },
+        fontSize: {
+          "display-lg": ["48px", { lineHeight: "52px", letterSpacing: "-0.02em", fontWeight: "800" }],
+          "headline-lg": ["32px", { lineHeight: "36px", fontWeight: "800" }],
+          "title-md": ["20px", { lineHeight: "24px", fontWeight: "700" }],
+          "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }],
+          "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+          "label-md": ["14px", { lineHeight: "16px", fontWeight: "700" }],
+        }
+      },
+    },
+  }
+</script>
+<style is:global>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  .chunky-shadow { box-shadow: 0 4px 0 0 rgba(0,0,0,0.1); }
+  .active-glow { box-shadow: 0 0 20px rgba(255, 184, 0, 0.3); }
+  .pill-btn { border-bottom: 4px solid rgba(0,0,0,0.15); transition: all 0.1s ease; }
+  .pill-btn:active { border-bottom-width: 0; transform: translateY(4px); }
+  .clash-card { border-bottom: 6px solid rgba(0,0,0,0.1); }
+  .diagonal-stripes { background-image: repeating-linear-gradient(45deg, rgba(124, 88, 0, 0.05) 0, rgba(124, 88, 0, 0.05) 1px, transparent 0, transparent 50%); background-size: 12px 12px; }
+</style>
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "War Inc: Rising",
+  "applicationCategory": "Game",
+  "operatingSystem": "Android",
+  "author": { "@type": "Organization", "name": "Fastone Games" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+})} />
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "War Inc: Rising Wiki",
+  "url": "https://war-inc-rising.codex-atlas.com",
+  "description": siteDescription,
+})} />
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 lg:px-16 py-4 bg-white/80 backdrop-blur-md border-b-4 border-surface-container">
+  <div class="flex items-center gap-10">
+    <a href="/" class="text-title-md text-primary tracking-tight font-display no-underline">WAR INC: RISING WIKI</a>
+    <nav class="hidden md:flex gap-8">
+      <a href="/heroes/" class="text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors no-underline">Heroes</a>
+      <a href="/guides/" class="text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors no-underline">Guides</a>
+      <a href="/blog/" class="text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors no-underline">News</a>
+      <a href="/tools/" class="text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors no-underline">Tools</a>
+    </nav>
+  </div>
+  <div class="flex items-center gap-4">
+    <a href="/search/" class="hidden md:flex items-center bg-surface-container-low border-2 border-outline-variant px-4 py-2 rounded-full text-on-surface-variant hover:text-primary transition-colors no-underline gap-2">
+      <span class="material-symbols-outlined text-sm">search</span>
+      <span class="text-body-md text-on-surface-variant">Search...</span>
+    </a>
+  </div>
+</header>
 
-  <style>
-    .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); margin-bottom: var(--space-12); }
-    .home-card { height: 100%; display: flex; flex-direction: column; }
-    .home-card ul { flex: 1; display: flex; flex-direction: column; gap: var(--space-2); }
-    .home-card li { margin: 0; }
-    .home-card li a { display: block; padding: var(--space-2) var(--space-3); background: var(--surface-muted); border: 1px solid var(--border-light); border-radius: var(--radius-md); font-size: var(--text-sm); transition: all 150ms ease; line-height: 1.4; }
-    .home-card li a:hover { background: var(--gold-50); border-color: var(--gold-400); text-decoration: none; transform: translateY(-1px); }
-    .home-card li a strong { display: block; font-family: var(--font-heading); color: var(--gold-700); }
-    .home-card li a small { display: block; color: #6c757d; font-weight: var(--weight-normal); margin-top: 2px; }
-    @media (max-width: 767px) { .home-grid { grid-template-columns: 1fr; } }
-  </style>
-
-  <h1>War Inc: Rising Wiki</h1>
-  <p>{siteDescription}</p>
-
-  <div class="home-grid">
-    <div class="card card-pad-lg home-card">
-      <h2 style="margin-top: 0;">Browse by Category</h2>
-      <ul class="quick-links">
-        <li><a href="/heroes/"><strong>All Heroes</strong><small>{heroCount} playable units with stats, skills, and strategy guides</small></a></li>
-        <li><a href="/buildings/"><strong>Buildings</strong><small>{buildingCount} base structures, defenses, and resource buildings</small></a></li>
-        <li><a href="/hunting-bosses/"><strong>Hunting Mode Bosses</strong><small>20 boss enemies with stats and abilities</small></a></li>
-        <li><a href="/followers/"><strong>Followers</strong><small>{followerCount} troop and pet companion units</small></a></li>
-        <li><a href="/modes/"><strong>Game Modes</strong><small>{modeCount} mode configurations with rules and rewards</small></a></li>
-        <li><a href="/synergies/"><strong>Synergies</strong><small>{synCount} team bonus effects</small></a></li>
-        <li><a href="/buffs/"><strong>Field Buffs</strong><small>{buffCount} battle modifiers</small></a></li>
-      </ul>
+<main class="pt-28 pb-12 px-6 lg:px-12 max-w-[1440px] mx-auto">
+  <!-- Section 1: Hero Section -->
+  <section class="mb-16">
+    <div class="relative overflow-hidden rounded-lg bg-surface-container-lowest border-4 border-surface-container p-8 lg:p-12 flex flex-col lg:flex-row items-center gap-12 diagonal-stripes">
+      <div class="flex-1 space-y-8 relative z-10">
+        <div class="inline-flex items-center gap-2 bg-primary-container/20 text-on-primary-container border-2 border-primary-container/50 px-4 py-1.5 rounded-full text-label-md font-bold uppercase tracking-widest">
+          <span class="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+          Tactical Intel Database
+        </div>
+        <h1 class="text-display-lg font-display text-on-surface leading-tight">War Inc: Rising Wiki</h1>
+        <p class="text-body-lg text-on-surface-variant max-w-xl">
+          Comprehensive database with hero stats, skill data, per-level attributes, strategy guides, tier lists, and game mode analysis for all <span class="text-primary font-black">{heroes.length} playable heroes</span>.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="/heroes/" class="bg-primary-container text-on-primary-container font-title-md px-10 py-5 rounded-full pill-btn font-extrabold hover:brightness-110 transition-all uppercase tracking-widest flex items-center gap-3 no-underline">
+            <span class="material-symbols-outlined font-bold">menu_book</span> Explore Heroes
+          </a>
+          <a href="/guides/" class="border-4 border-surface-container hover:border-primary/50 text-on-surface font-title-md px-10 py-5 rounded-full transition-all uppercase tracking-widest flex items-center gap-3 bg-white/50 backdrop-blur-sm no-underline">
+            <span class="material-symbols-outlined font-bold">groups</span> Strategy Guides
+          </a>
+        </div>
+      </div>
+      <div class="w-full lg:w-[420px] shrink-0">
+        <a href={`/heroes/${featuredHeroes[0].toLowerCase().replace(/\s+/g, '-')}/`} class="block bg-surface-container-lowest rounded-lg overflow-hidden border-4 border-surface-container clash-card group cursor-pointer hover:-translate-y-2 transition-transform duration-300 active-glow relative no-underline">
+          <div class="flex items-center gap-3 p-6 pb-0">
+            <span class="bg-primary-container/20 text-on-primary-container border-2 border-primary-container/50 px-3 py-1 rounded-full text-label-md font-bold uppercase tracking-widest text-sm">Featured</span>
+            <span class="bg-secondary text-on-secondary font-label-md px-3 py-1 rounded-full text-xs font-black uppercase tracking-tighter ml-auto">MYTHIC</span>
+          </div>
+          <div class="p-6 space-y-5">
+            <div>
+              <h2 class="text-headline-lg font-display text-on-surface leading-none mb-1">Featured Heroes</h2>
+              <p class="text-label-md font-bold text-primary uppercase">Mythic Spotlight</p>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              {featuredHeroes.map(h => (
+                <span class="bg-surface-container px-3 py-1.5 rounded-full text-label-md text-xs font-bold text-on-surface-variant border border-outline-variant">{h}</span>
+              ))}
+            </div>
+            <div class="grid grid-cols-3 gap-4 py-4 border-y-2 border-surface-container">
+              <div class="text-center">
+                <p class="text-label-md text-on-surface-variant font-bold text-[10px] uppercase">Heroes</p>
+                <p class="text-title-md font-display text-on-surface">{heroes.length}</p>
+              </div>
+              <div class="text-center">
+                <p class="text-label-md text-on-surface-variant font-bold text-[10px] uppercase">Guides</p>
+                <p class="text-title-md font-display text-on-surface">{guideCount + tierCount}</p>
+              </div>
+              <div class="text-center">
+                <p class="text-label-md text-on-surface-variant font-bold text-[10px] uppercase">Buildings</p>
+                <p class="text-title-md font-display text-on-surface">{builds}</p>
+              </div>
+            </div>
+            <p class="text-body-md text-on-surface-variant italic">"Knowledge is the ultimate weapon."</p>
+            <span class="block text-center text-secondary font-title-md hover:underline transition-all">Browse All Heroes →</span>
+          </div>
+        </a>
+      </div>
     </div>
+  </section>
 
-    <div class="card card-pad-lg home-card">
-      <h2 style="margin-top: 0;">Guides & Resources</h2>
-      <ul class="quick-links">
-        <li><a href="/guides/"><strong>Strategy Guides</strong><small>{guideCount} data-driven guides by cost bracket and game mode</small></a></li>
-        <li><a href="/professions/"><strong>Profession Guides</strong><small>Class rankings — Warrior, Tank, Mage, Assassin, Support, Ranger</small></a></li>
-        <li><a href="/compare/archer-vs-forest-scout/"><strong>Unit Comparisons</strong><small>Side-by-side stat comparison tool — pick any two units</small></a></li>
-        <li><a href="/tools/spell-calc/"><strong>Spell Calculator</strong><small>Spell training times, cooldowns, and capacity</small></a></li>
-        <li><a href="/tools/evolution/"><strong>Upgrade & Merge Costs</strong><small>Merge requirements and upgrade costs for all rarities</small></a></li>
-        <li><a href="/resources/"><strong>Community Resources</strong><small>Discord, YouTube, and official game links</small></a></li>
-      </ul>
+  <!-- Section 2: Browse by Category -->
+  <section class="mb-16">
+    <div class="flex items-center gap-4 mb-10">
+      <span class="h-10 w-3 bg-primary rounded-full"></span>
+      <h2 class="text-headline-lg font-display uppercase tracking-tight">Browse Database</h2>
+    </div>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-10">
+      <div class="space-y-6">
+        <h3 class="text-label-md font-black text-on-surface-variant opacity-60 ml-2 uppercase tracking-[0.2em]">ENTITY REGISTRY</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="/heroes/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-primary-container/30 flex items-center justify-center text-primary-container group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">person_search</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">All Heroes ({heroes.length})</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Full stat sheets</p>
+            </div>
+          </a>
+          <a href="/buildings/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-tertiary-container/30 flex items-center justify-center text-tertiary-container group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">apartment</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">Buildings ({builds})</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Defense towers</p>
+            </div>
+          </a>
+          <a href="/hunting-bosses/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-error-container/30 flex items-center justify-center text-error group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">skull</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">Hunting Bosses</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Attack patterns</p>
+            </div>
+          </a>
+          <a href="/modes/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">stadia_controller</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">Game Modes ({modes})</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Rules & rewards</p>
+            </div>
+          </a>
+          <a href="/synergies/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">group_work</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">Synergies ({synergies})</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Team comps</p>
+            </div>
+          </a>
+          <a href="/buffs/" class="bg-surface-container-low border-2 border-surface-container p-6 rounded-lg flex items-center gap-5 hover:bg-surface-container transition-all cursor-pointer group clash-card no-underline">
+            <div class="w-14 h-14 rounded-full bg-tertiary-container/30 flex items-center justify-center text-tertiary-container group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl font-bold">bolt</span>
+            </div>
+            <div>
+              <h4 class="text-title-md font-display text-on-surface">Field Buffs ({buffs})</h4>
+              <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">Battle modifiers</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-label-md font-black text-on-surface-variant opacity-60 ml-2 uppercase tracking-[0.2em]">STRATEGIC COMMAND</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="/guides/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">book</span>
+              <h4 class="text-title-md font-display text-on-surface">Strategy Guides</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+          <a href="/tier-lists/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">format_list_numbered</span>
+              <h4 class="text-title-md font-display text-on-surface">Tier Lists</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+          <a href="/compare/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">compare_arrows</span>
+              <h4 class="text-title-md font-display text-on-surface">Unit Comparisons</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+          <a href="/resources/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">forum</span>
+              <h4 class="text-title-md font-display text-on-surface">Community</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+          <a href="/professions/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">badge</span>
+              <h4 class="text-title-md font-display text-on-surface">Professions</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+          <a href="/blog/" class="bg-surface-container-lowest border-4 border-surface-container p-6 rounded-lg flex items-center justify-between hover:border-primary transition-all cursor-pointer group clash-card no-underline">
+            <div class="flex items-center gap-4">
+              <span class="material-symbols-outlined text-primary text-2xl">newspaper</span>
+              <h4 class="text-title-md font-display text-on-surface">Latest News</h4>
+            </div>
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rarity Breakdown -->
+  <section class="mb-16">
+    <div class="flex items-center gap-4 mb-10">
+      <span class="h-10 w-3 bg-primary rounded-full"></span>
+      <h2 class="text-headline-lg font-display uppercase tracking-tight">Hero Rarity Distribution</h2>
+    </div>
+    <div class="grid grid-cols-5 gap-4 text-center">
+      {heroesByRarity.map(({ label, count, color }) => (
+        <div class="bg-surface-container-lowest border-2 border-surface-container rounded-lg p-6 clash-card">
+          <div class={`w-8 h-8 ${color} rounded-full mx-auto mb-3`}></div>
+          <p class="text-title-md font-display text-on-surface">{count}</p>
+          <p class="text-label-md text-[11px] text-on-surface-variant uppercase font-bold">{label}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Section 3: Recent Content -->
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-10">
+      <div class="flex items-center gap-4">
+        <span class="h-10 w-3 bg-primary rounded-full"></span>
+        <h2 class="text-headline-lg font-display uppercase tracking-tight">Latest Guides & News</h2>
+      </div>
+      <a href="/blog/" class="text-primary-container bg-on-primary-container px-6 py-2 rounded-full text-label-md font-black hover:brightness-110 transition-all no-underline">View All Articles</a>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {recentPosts.map(post => {
+        const slug = `/blog/${post.slug}/`;
+        return (
+          <a href={slug} class="bg-surface-container-lowest border-4 border-surface-container rounded-lg overflow-hidden group cursor-pointer hover:border-primary transition-all clash-card no-underline block">
+            <div class="h-52 relative overflow-hidden bg-gradient-to-br from-primary-container/20 to-surface-container flex items-center justify-center">
+              <span class="material-symbols-outlined text-6xl text-on-surface-variant/30 group-hover:scale-110 transition-all duration-700">description</span>
+              <span class="absolute top-4 left-4 bg-primary text-on-primary text-[10px] px-3 py-1 rounded-full font-black tracking-widest uppercase">GUIDE</span>
+            </div>
+            <div class="p-8 space-y-4">
+              <h3 class="text-title-md font-display text-on-surface">{post.name}</h3>
+              <div class="flex items-center justify-between mt-6">
+                <p class="text-[10px] font-black text-on-surface-variant uppercase tracking-widest">New</p>
+                <p class="text-[10px] font-black text-primary uppercase">Read More</p>
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Section 4: Stats Bar -->
+  <section class="mb-16">
+    <div class="bg-primary-container text-on-primary-container rounded-lg p-10 relative overflow-hidden chunky-shadow border-4 border-on-primary-container/20">
+      <div class="absolute inset-0 diagonal-stripes opacity-10"></div>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-8 relative z-10">
+        <div class="text-center md:border-r-4 border-on-primary-container/10 last:border-0">
+          <p class="text-display-lg font-display leading-none">{heroes.length}</p>
+          <p class="text-label-md font-black uppercase tracking-tighter mt-2 opacity-80">Active Heroes</p>
+        </div>
+        <div class="text-center md:border-r-4 border-on-primary-container/10 last:border-0">
+          <p class="text-display-lg font-display leading-none">{builds}</p>
+          <p class="text-label-md font-black uppercase tracking-tighter mt-2 opacity-80">Buildings</p>
+        </div>
+        <div class="text-center md:border-r-4 border-on-primary-container/10 last:border-0">
+          <p class="text-display-lg font-display leading-none">{guideCount + tierCount}</p>
+          <p class="text-label-md font-black uppercase tracking-tighter mt-2 opacity-80">Guides & Tier Lists</p>
+        </div>
+        <div class="text-center md:border-r-4 border-on-primary-container/10 last:border-0">
+          <p class="text-display-lg font-display leading-none">{blogArticles.length}</p>
+          <p class="text-label-md font-black uppercase tracking-tighter mt-2 opacity-80">News Articles</p>
+        </div>
+        <div class="text-center">
+          <p class="text-display-lg font-display leading-none">{totalPages}</p>
+          <p class="text-label-md font-black uppercase tracking-tighter mt-2 opacity-80">Total Pages</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: SEO Content -->
+  <section class="mb-16 max-w-4xl bg-surface-container-low p-10 rounded-lg border-4 border-surface-container">
+    <h2 class="text-headline-lg font-display mb-6 text-on-surface uppercase tracking-tight">About War Inc: Rising</h2>
+    <p class="text-body-lg text-on-surface-variant leading-relaxed mb-8">
+      War Inc: Rising is a competitive co-op tower defense and PvP strategy game by Fastone Games. This fan wiki provides data-driven stats, community rankings, and strategy guides to help you progress faster. Whether you're coordinating real-time defenses or climbing the global PvP leaderboards, our tactical intel repository ensures you always have the right information at your fingertips.
+    </p>
+    <div class="flex flex-wrap gap-3">
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Tower Defense</span>
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">RTS</span>
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Hero Collector</span>
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Co-op</span>
+    </div>
+  </section>
+</main>
+
+<footer class="w-full py-16 px-6 lg:px-16 flex flex-col md:flex-row justify-between items-start gap-12 bg-surface-container border-t-4 border-outline-variant">
+  <div class="flex flex-col gap-6">
+    <span class="text-headline-lg font-display text-on-surface font-black tracking-tighter">WAR INC: RISING WIKI</span>
+    <p class="text-body-md text-on-surface-variant max-w-xs font-medium">Part of Codex Atlas. Unofficial fan site.</p>
+  </div>
+  <div class="grid grid-cols-2 lg:grid-cols-3 gap-12">
+    <div class="flex flex-col gap-4">
+      <span class="text-label-md font-black text-primary uppercase tracking-[0.2em] mb-2">Wiki</span>
+      <a href="/heroes/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Heroes</a>
+      <a href="/buildings/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Buildings</a>
+      <a href="/modes/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Game Modes</a>
+    </div>
+    <div class="flex flex-col gap-4">
+      <span class="text-label-md font-black text-primary uppercase tracking-[0.2em] mb-2">Guides</span>
+      <a href="/guides/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Strategy</a>
+      <a href="/tier-lists/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Tier Lists</a>
+      <a href="/blog/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">News</a>
+    </div>
+    <div class="flex flex-col gap-4">
+      <span class="text-label-md font-black text-primary uppercase tracking-[0.2em] mb-2">More</span>
+      <a href="/resources/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Resources</a>
+      <a href="/compare/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Compare</a>
+      <a href="/privacy/" class="text-body-md text-on-surface-variant hover:text-on-surface transition-colors font-bold no-underline">Privacy</a>
     </div>
   </div>
-</BaseLayout>
+  <div class="md:text-right flex flex-col justify-end">
+    <p class="text-label-md font-black text-on-surface uppercase tracking-widest">© 2026 War Inc Wiki.</p>
+    <p class="text-[10px] text-on-surface-variant font-bold uppercase opacity-60">Unofficial fan site.</p>
+  </div>
+</footer>
+
+<script is:inline>
+  document.querySelectorAll('button, a').forEach(el => {
+    el.addEventListener('mousedown', () => el.classList.add('scale-95'));
+    el.addEventListener('mouseup', () => el.classList.remove('scale-95'));
+    el.addEventListener('mouseleave', () => el.classList.remove('scale-95'));
+  });
+</script>
+</body>
+</html>

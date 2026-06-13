@@ -21,8 +21,12 @@ if (!pageData) return Astro.redirect('/buffs/', 404);
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
 
-  <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <a href="/buffs/">Field Buffs</a> &gt; <span>{pageData.name}</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/buffs/" class="hover:text-primary no-underline">Field Buffs</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.name}</span>
   </nav>
 
   <article>

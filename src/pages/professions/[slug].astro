@@ -19,27 +19,37 @@ if (!pageData) return Astro.redirect('/professions/', 404);
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description}>
-  <nav aria-label="Breadcrumb">
-    <a href="/">Home</a> &gt; <span>{pageData.profession_name}s</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/professions/" class="hover:text-primary no-underline">Professions</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.profession_name}s</span>
   </nav>
 
   <article>
-    <h1>{pageData.name}</h1>
-    <p>{pageData.units.length} units ranked by combat power.</p>
+    <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">{pageData.name}</h1>
+    <p class="text-body-md text-on-surface-variant mb-8">{pageData.units.length} units ranked by combat power.</p>
 
-    <div class="table-wrap">
-      <table class="wiki-table">
-        <thead>
-          <tr><th>#</th><th>Unit</th><th>Rarity</th><th data-align="right">Cost</th><th data-align="right">Power</th></tr>
+    <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+      <table class="w-full text-left border-collapse">
+        <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
+          <tr>
+            <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">#</th>
+            <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Unit</th>
+            <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Rarity</th>
+            <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Cost</th>
+            <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Power</th>
+          </tr>
         </thead>
-        <tbody>
+        <tbody class="divide-y-2 divide-surface-container bg-white">
           {pageData.units.map((u, i) => (
-            <tr>
-              <td>{i + 1}</td>
-              <td><a href={`/heroes/${u.slug}/`}>{u.name}</a></td>
-              <td>{u.rarity ?? '-'}</td>
-              <td data-type="number">{u.cost}</td>
-              <td data-type="number">{u.combat_power}</td>
+            <tr class="hover:bg-surface-container-low transition-colors">
+              <td class="px-6 py-4 font-bold text-on-surface">{i + 1}</td>
+              <td class="px-6 py-4"><a href={`/heroes/${u.slug}/`} class="text-secondary hover:underline font-bold">{u.name}</a></td>
+              <td class="px-6 py-4 text-on-surface-variant">{u.rarity_name}</td>
+              <td class="px-6 py-4 font-bold text-on-surface">{u.cost}</td>
+              <td class="px-6 py-4 text-primary font-bold">{u.combat_power}</td>
             </tr>
           ))}
         </tbody>

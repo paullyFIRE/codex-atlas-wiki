@@ -26,17 +26,17 @@ function profName(id) {
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description} currentSection="heroes">
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/heroes/">Heroes</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pageData.rarity_name} Units</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/heroes/" class="hover:text-primary no-underline">Heroes</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.rarity_name} Units</span>
   </nav>
 
   <article>
-    <h1>{pageData.name}</h1>
-    <p>All {pageData.units.length} {pageData.rarity_name} rarity units in War Inc: Rising, ranked by combat power.</p>
+    <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">{pageData.name}</h1>
+    <p class="text-body-md text-on-surface-variant mb-8">All {pageData.units.length} {pageData.rarity_name} rarity units in War Inc: Rising, ranked by combat power.</p>
 
     <div class="table-wrap">
       <table class="wiki-table">

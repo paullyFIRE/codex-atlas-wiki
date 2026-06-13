@@ -6,32 +6,94 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="War Inc: Rising Resources — Community, Videos, Guides | codex-atlas.com"
   description="Curated list of War Inc: Rising community resources — official Discord, YouTube channel, APK download, and strategy guides."
 >
-  <h1>War Inc: Rising Resources</h1>
-  <p>Official game links, community hubs, and external resources for War Inc: Rising players.</p>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Resources</span>
+  </nav>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">War Inc: Rising Resources</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Official game links, community hubs, and external resources for War Inc: Rising players.</p>
 
-  <section>
-    <h2>Official Links</h2>
-    <ul>
-      <li><a href="https://apkpure.com/war-inc-rising/com.i89trillion.strategy.rising" target="_blank" rel="noopener">Download War Inc: Rising on APKPure</a> — Latest APK (v1.0.7)</li>
-      <li><a href="https://www.facebook.com/War.Inc.Rising/" target="_blank" rel="noopener">Facebook: @War.Inc.Rising</a> — Official game page</li>
-      <li><a href="https://www.89trillion.com/privacy.html" target="_blank" rel="noopener">Privacy Policy</a> — Fastone Games</li>
-    </ul>
+  <section class="mb-12">
+    <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+      <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">link</span></span>
+      Official Links
+    </h2>
+    <div class="space-y-4">
+      <a href="https://apkpure.com/war-inc-rising/com.i89trillion.strategy.rising" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-primary text-2xl">android</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Download War Inc: Rising on APKPure</h3>
+          <p class="text-body-md text-on-surface-variant">Latest APK (v1.0.7)</p>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/War.Inc.Rising/" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-primary text-2xl">facebook</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Facebook: @War.Inc.Rising</h3>
+          <p class="text-body-md text-on-surface-variant">Official game page</p>
+        </div>
+      </a>
+      <a href="https://www.89trillion.com/privacy.html" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-primary text-2xl">privacy_tip</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Privacy Policy</h3>
+          <p class="text-body-md text-on-surface-variant">Fastone Games</p>
+        </div>
+      </a>
+    </div>
   </section>
 
-  <section>
-    <h2>Community</h2>
-    <ul>
-      <li><a href="https://discord.com/invite/9qQQJsHY9E" target="_blank" rel="noopener">Discord Server</a> — Official community chat, team recruitment, patch discussion</li>
-      <li><a href="https://www.youtube.com/@WarInc-89T" target="_blank" rel="noopener">YouTube: @WarInc-89T</a> — Official gameplay trailers and updates</li>
-    </ul>
+  <section class="mb-12">
+    <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+      <span class="flex-shrink-0 w-12 h-12 bg-secondary-container text-on-secondary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">forum</span></span>
+      Community
+    </h2>
+    <div class="space-y-4">
+      <a href="https://discord.com/invite/9qQQJsHY9E" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-secondary text-2xl">discord</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Discord Server</h3>
+          <p class="text-body-md text-on-surface-variant">Official community chat, team recruitment, patch discussion</p>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@WarInc-89T" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-secondary text-2xl">play_circle</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">YouTube: @WarInc-89T</h3>
+          <p class="text-body-md text-on-surface-variant">Official gameplay trailers and updates</p>
+        </div>
+      </a>
+    </div>
   </section>
 
-  <section>
-    <h2>Strategy & Guides</h2>
-    <ul>
-      <li><a href="/heroes/">Hero Database</a> — Stats and skills for all 161 units</li>
-      <li><a href="https://www.youtube.com/@KlownKollege/videos" target="_blank" rel="noopener">Klown Kollege YouTube</a> — Community guides, tier lists, and gameplay tips</li>
-      <li><a href="/modes/">Game Modes</a> — Rules and rewards for all modes</li>
-    </ul>
+  <section class="mb-12">
+    <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+      <span class="flex-shrink-0 w-12 h-12 bg-tertiary-container text-on-tertiary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">menu_book</span></span>
+      Strategy & Guides
+    </h2>
+    <div class="space-y-4">
+      <a href="/heroes/" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-tertiary text-2xl">person_search</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Hero Database</h3>
+          <p class="text-body-md text-on-surface-variant">Stats and skills for all heroes</p>
+        </div>
+      </a>
+      <a href="https://www.youtube.com/@KlownKollege/videos" target="_blank" rel="noopener" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-tertiary text-2xl">smart_display</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Klown Kollege YouTube</h3>
+          <p class="text-body-md text-on-surface-variant">Community guides, tier lists, and gameplay tips</p>
+        </div>
+      </a>
+      <a href="/modes/" class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline flex items-center gap-4 hover:-translate-y-1">
+        <span class="material-symbols-outlined text-tertiary text-2xl">stadia_controller</span>
+        <div>
+          <h3 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Game Modes</h3>
+          <p class="text-body-md text-on-surface-variant">Rules and rewards for all modes</p>
+        </div>
+      </a>
+    </div>
   </section>
 </BaseLayout>

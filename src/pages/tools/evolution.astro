@@ -3,11 +3,8 @@ import { readFileSync } from 'fs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const cg = JSON.parse(readFileSync('data/processed/config/card_growth.json', 'utf-8'));
-
-// Merge costs by rarity + level
 const merge = (cg.merge || []).filter(m => m.cost && m.cost.length > 0);
 
-// Item name lookup for known IDs
 const ITEM_NAMES = {
   124: 'Sliver Coin',
   440: 'Forge Stone',
@@ -23,32 +20,39 @@ for (const m of merge) {
 
 <BaseLayout title="Upgrade & Merge Costs — War Inc: Rising Wiki"
   description="Merge requirements and upgrade costs for all rarities.">
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/tools/">Tools</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Upgrade & Merge Costs</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/tools/" class="hover:text-primary no-underline">Tools</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Upgrade & Merge Costs</span>
   </nav>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">Upgrade & Merge Costs</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Cost to merge units of each rarity at each level. Uses <strong>Forge Stone</strong> and <strong>Sliver Coin</strong>.</p>
 
-  <h1>Upgrade & Merge Costs</h1>
-  <p>Cost to merge units of each rarity at each level. Items: <strong>Forge Stone</strong> (item 440) and <strong>Sliver Coin</strong> (item 124).</p>
-
-  <div style="display: flex; gap: var(--space-2); margin-bottom: var(--space-6);">
-    <span class="stat-chip"><span class="stat-chip-label">Forge Stone</span><span class="stat-chip-value">440</span></span>
-    <span class="stat-chip"><span class="stat-chip-label">Sliver Coin</span><span class="stat-chip-value">124</span></span>
+  <div class="flex flex-wrap gap-3 mb-8">
+    <span class="bg-surface-container text-on-surface-variant border-2 border-outline-variant px-4 py-2 rounded-full text-label-md font-bold text-sm">Forge Stone (440)</span>
+    <span class="bg-surface-container text-on-surface-variant border-2 border-outline-variant px-4 py-2 rounded-full text-label-md font-bold text-sm">Sliver Coin (124)</span>
   </div>
 
   {Object.entries(mergeByRarity).map(([rarity, items]) => (
-    <div style="margin-bottom: var(--space-6);">
-      <h2>{rarityNames[rarity] || `Rarity ${rarity}`}</h2>
-      <div class="table-wrap">
-        <table class="wiki-table">
-          <thead><tr><th>Level</th><th>Cost</th></tr></thead>
-          <tbody>
-          {items.map(m => (
-            <tr><td><strong>+{m.lv}</strong></td><td>{m.cost.map(c => `${ITEM_NAMES[c.itemId] || `Item ${c.itemId}`} ×${c.itemCnt}`).join(', ')}</td></tr>
-          ))}
+    <div class="mb-8">
+      <h2 class="font-display text-title-md text-on-surface mb-4">{rarityNames[rarity] || `Rarity ${rarity}`}</h2>
+      <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+        <table class="w-full text-left border-collapse">
+          <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
+            <tr>
+              <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Level</th>
+              <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Cost</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y-2 divide-surface-container bg-white">
+            {items.map(m => (
+              <tr class="hover:bg-surface-container-low transition-colors">
+                <td class="px-6 py-4 font-bold text-on-surface">+{m.lv}</td>
+                <td class="px-6 py-4 text-on-surface-variant">{m.cost.map(c => `${ITEM_NAMES[c.itemId] || `Item ${c.itemId}`} ×${c.itemCnt}`).join(', ')}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>

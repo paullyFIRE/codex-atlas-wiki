@@ -18,36 +18,43 @@ const spells = (sf.spellItems || []).map(s => ({
 
 <BaseLayout title="Spell Calculator — Training & Cooldown | War Inc: Rising Wiki"
   description="Calculate spell training times, cooldowns, and capacity for the Spell Cauldron.">
-  <style>
-    .spell-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-4); }
-    .spell-card { border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: var(--space-4); background: var(--surface-card); box-shadow: var(--shadow-xs), var(--bevel-outset); }
-    .spell-row { display: flex; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--border-light); }
-    .spell-row:last-child { border-bottom: none; }
-    .spell-row .l { font-size: var(--text-xs); color: #6c757d; text-transform: uppercase; letter-spacing: 0.03em; }
-    .spell-row .v { font-family: var(--font-stat); font-size: var(--text-lg); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; }
-  </style>
-
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/tools/">Tools</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Spell Calculator</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/tools/" class="hover:text-primary no-underline">Tools</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Spell Calculator</span>
   </nav>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">Spell Calculator</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Spell training times, cooldowns, and capacity from the Spell Cauldron.</p>
 
-  <h1>Spell Calculator</h1>
-  <p>Spell training times, cooldowns, and capacity from the <a href="/buildings/spell-cauldron/">Spell Cauldron</a>.</p>
-
-  <div class="spell-grid">
-  {spells.map(s => (
-    <div class="spell-card">
-      <h3 style="margin-top: 0;">{s.name}</h3>
-      <div class="spell-row"><span class="l">Training</span><span class="v">{Math.floor(s.trainSec / 60)}m {s.trainSec % 60}s</span></div>
-      <div class="spell-row"><span class="l">Capacity</span><span class="v">{s.capacity}</span></div>
-      <div class="spell-row"><span class="l">Cooldown</span><span class="v">{s.cooldown}s</span></div>
-      <div class="spell-row"><span class="l">Range</span><span class="v">{s.range}</span></div>
-      <div class="spell-row"><span class="l">Target</span><span class="v">{s.target === 1 ? 'Enemies' : 'Allies'}</span></div>
-    </div>
-  ))}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {spells.map(s => (
+      <div class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card">
+        <h3 class="text-title-md font-display text-on-surface mb-6 pb-4 border-b-4 border-surface-container-low">{s.name}</h3>
+        <div class="space-y-4">
+          <div class="flex justify-between items-center">
+            <span class="text-label-md text-on-surface-variant uppercase tracking-wider text-sm">Training</span>
+            <span class="text-title-md font-display text-on-surface">{Math.floor(s.trainSec / 60)}m {s.trainSec % 60}s</span>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-surface-container pt-3">
+            <span class="text-label-md text-on-surface-variant uppercase tracking-wider text-sm">Capacity</span>
+            <span class="text-title-md font-display text-on-surface">{s.capacity}</span>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-surface-container pt-3">
+            <span class="text-label-md text-on-surface-variant uppercase tracking-wider text-sm">Cooldown</span>
+            <span class="text-title-md font-display text-on-surface">{s.cooldown}s</span>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-surface-container pt-3">
+            <span class="text-label-md text-on-surface-variant uppercase tracking-wider text-sm">Range</span>
+            <span class="text-title-md font-display text-on-surface">{s.range}</span>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-surface-container pt-3">
+            <span class="text-label-md text-on-surface-variant uppercase tracking-wider text-sm">Target</span>
+            <span class="text-title-md font-display text-on-surface">{s.target === 1 ? 'Enemies' : 'Allies'}</span>
+          </div>
+        </div>
+      </div>
+    ))}
   </div>
 </BaseLayout>

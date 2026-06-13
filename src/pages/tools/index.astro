@@ -7,20 +7,30 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   description="Interactive tools and calculators for War Inc: Rising — spell calculator, upgrade costs."
   currentSection="tools"
 >
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Tools</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Tools</span>
   </nav>
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">Tools</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">Interactive tools and calculators for War Inc: Rising.</p>
 
-  <h1>Tools</h1>
-
-  <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/spell-calc/" style="text-decoration: none;">Spell Calculator</a></h2>
-    <p style="margin: 0;">Spell training times, cooldowns, capacity, and speed-up costs from the Spell Cauldron.</p>
-  </div>
-  <div class="card card-pad-md card-hoverable" style="margin-bottom: var(--space-4);">
-    <h2 style="margin: 0 0 var(--space-2);"><a href="/tools/evolution/" style="text-decoration: none;">Upgrade & Merge Costs</a></h2>
-    <p style="margin: 0;">Merge requirements and upgrade costs for all rarities.</p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <a href="/tools/spell-calc/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block">
+      <span class="material-symbols-outlined text-primary text-3xl mb-4 block">auto_awesome</span>
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Spell Calculator</h2>
+      <p class="text-body-md text-on-surface-variant mt-3">Spell training times, cooldowns, capacity, and speed-up costs from the Spell Cauldron.</p>
+      <span class="flex items-center gap-2 text-label-md font-bold text-primary mt-4">
+        Open Tool <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+      </span>
+    </a>
+    <a href="/tools/evolution/" class="bg-white border-4 border-surface-container rounded-xl p-8 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block">
+      <span class="material-symbols-outlined text-primary text-3xl mb-4 block">trending_up</span>
+      <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">Upgrade & Merge Costs</h2>
+      <p class="text-body-md text-on-surface-variant mt-3">Merge requirements and upgrade costs for all rarities.</p>
+      <span class="flex items-center gap-2 text-label-md font-bold text-primary mt-4">
+        Open Tool <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1">arrow_forward</span>
+      </span>
+    </a>
   </div>
 </BaseLayout>

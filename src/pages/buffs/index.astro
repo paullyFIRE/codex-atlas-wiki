@@ -11,16 +11,18 @@ const items = index.items ?? [];
   description={`Browse all ${items.length} field buffs in War Inc: Rising.`}
   currentSection="tools"
 >
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>Field Buffs</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">Field Buffs</span>
   </nav>
-  <h1>Field Buffs</h1>
-  <p>{items.length} battle modifiers that affect gameplay.</p>
-  <ul class="listing-grid">
+  <h1 class="font-display text-headline-lg text-on-surface mb-4 leading-none">Field Buffs</h1>
+  <p class="text-body-md text-on-surface-variant mb-8">{items.length} battle modifiers that affect gameplay.</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
     {items.map((item) => (
-      <li><a href={`/buffs/${item.slug}/`} class="card card-pad-md card-hoverable" style="display:block;text-decoration:none;color:inherit;"><strong>{item.name}</strong></a></li>
+      <a href={`/buffs/${item.slug}/`} class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card hover:border-primary transition-all group no-underline hover:-translate-y-1 block">
+        <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors">{item.name}</h2>
+      </a>
     ))}
-  </ul>
+  </div>
 </BaseLayout>

@@ -14,87 +14,237 @@ interface Props {
 const { title, description, image, currentSection, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
-// Analytics — set these in your environment or replace directly
 const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
 const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content={description} />
-    {noindex && <meta name="robots" content="noindex, follow" />}
-    <meta name="generator" content={Astro.generator} />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+<meta name="generator" content={Astro.generator} />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
-    <meta property="og:site_name" content="War Inc: Rising Wiki" />
-    <meta property="og:image" content={image || 'https://war-inc-rising.codex-atlas.com/og-default.svg'} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content="War Inc: Rising Wiki" />
+<meta property="og:image" content={image || 'https://war-inc-rising.codex-atlas.com/og-default.svg'} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
 
-    <link rel="canonical" href={canonical} />
-    <title>{title}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="canonical" href={canonical} />
+<title>{title}</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": title,
-      "description": description,
-      "url": canonical,
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "War Inc: Rising Wiki",
-        "url": "https://war-inc-rising.codex-atlas.com",
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": canonical,
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "War Inc: Rising Wiki",
+    "url": "https://war-inc-rising.codex-atlas.com",
+  },
+})} />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700;800&family=Be+Vietnam+Pro:wght@400;500;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+<script is:inline src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script is:inline>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "surface-tint": "#7c5800",
+          "on-primary": "#ffffff",
+          "primary-container": "#ffb800",
+          "tertiary-fixed": "#95fb5c",
+          "on-secondary-fixed": "#2d0050",
+          "on-tertiary-fixed": "#082100",
+          "on-primary-container": "#6b4c00",
+          "secondary-fixed-dim": "#deb7ff",
+          "secondary": "#8700e2",
+          "surface-container-high": "#ffe2d5",
+          "on-tertiary-container": "#255d00",
+          "inverse-on-surface": "#ffede5",
+          "on-error-container": "#93000a",
+          "inverse-primary": "#ffba20",
+          "on-background": "#2b160a",
+          "outline-variant": "#d5c4ab",
+          "on-tertiary": "#ffffff",
+          "tertiary": "#2b6c00",
+          "surface-container-low": "#fff1eb",
+          "tertiary-fixed-dim": "#7ade42",
+          "on-tertiary-fixed-variant": "#1f5100",
+          "surface": "#fff8f6",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#f1dbff",
+          "on-secondary-container": "#fffbff",
+          "secondary-container": "#a336ff",
+          "surface-dim": "#fad2be",
+          "primary": "#7c5800",
+          "on-surface-variant": "#514532",
+          "on-primary-fixed-variant": "#5e4200",
+          "background": "#fff8f6",
+          "outline": "#837560",
+          "surface-bright": "#fff8f6",
+          "surface-variant": "#ffdbc9",
+          "surface-container-highest": "#ffdbc9",
+          "on-surface": "#2b160a",
+          "tertiary-container": "#78dc41",
+          "error-container": "#ffdad6",
+          "inverse-surface": "#432b1d",
+          "on-primary-fixed": "#271900",
+          "on-secondary-fixed-variant": "#6a00b2",
+          "surface-container-lowest": "#ffffff",
+          "surface-container": "#ffeae0",
+          "error": "#ba1a1a",
+          "primary-fixed-dim": "#ffba20",
+          "on-secondary": "#ffffff",
+          "primary-fixed": "#ffdea8"
+        },
+        borderRadius: {
+          DEFAULT: "1rem",
+          lg: "2rem",
+          xl: "3rem",
+          full: "9999px"
+        },
+        spacing: {
+          base: "8px",
+          "stack-md": "24px",
+          "margin-desktop": "32px",
+          "margin-mobile": "16px",
+          gutter: "16px",
+          "stack-sm": "12px"
+        },
+        fontFamily: {
+          display: ["Bricolage Grotesque"],
+          body: ["Be Vietnam Pro"],
+        },
+        fontSize: {
+          "title-md": ["20px", { lineHeight: "24px", fontWeight: "700" }],
+          "display-lg": ["48px", { lineHeight: "52px", letterSpacing: "-0.02em", fontWeight: "800" }],
+          "label-md": ["14px", { lineHeight: "16px", fontWeight: "700" }],
+          "headline-lg": ["32px", { lineHeight: "36px", fontWeight: "800" }],
+          "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+          "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }]
+        }
       },
-    })}></script>
+    },
+  }
+</script>
+<style is:global>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+  }
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: #fff1eb; }
+  ::-webkit-scrollbar-thumb { background: #ffb800; border-radius: 9999px; border: 2px solid #fff1eb; }
+  ::-webkit-scrollbar-thumb:hover { background: #7c5800; }
+  .epic-grid {
+    background-image: radial-gradient(circle, #ffe2d5 1.5px, transparent 1.5px);
+    background-size: 40px 40px;
+  }
+  .pill-btn {
+    border-bottom: 4px solid rgba(0,0,0,0.15);
+    transition: all 0.1s ease;
+  }
+  .pill-btn:active {
+    border-bottom-width: 0;
+    transform: translateY(4px);
+  }
+  .clash-card {
+    border-bottom: 6px solid rgba(0,0,0,0.1);
+  }
+</style>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+{GTM_ID && (
+  <script async src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`}></script>
+)}
+{GA_ID && (
+  <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+)}
+{GA_ID && <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}></script>}
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+{GTM_ID && (
+  <noscript>
+    <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+)}
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 lg:px-16 py-4 bg-white/80 backdrop-blur-md border-b-4 border-surface-container">
+  <div class="flex items-center gap-10">
+    <a href="/" class="text-title-md text-primary tracking-tight font-display no-underline">WAR INC: RISING WIKI</a>
+    <nav class="hidden md:flex gap-8">
+      <a href="/heroes/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'heroes' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Heroes</a>
+      <a href="/guides/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'guides' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Guides</a>
+      <a href="/blog/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'blog' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>News</a>
+      <a href="/tools/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'tools' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Tools</a>
+    </nav>
+  </div>
+  <div class="flex items-center gap-4">
+    <a href="/search/" class="hidden md:flex items-center bg-surface-container-low border-2 border-outline-variant px-4 py-2 rounded-full text-on-surface-variant hover:text-primary transition-colors no-underline gap-2">
+      <span class="material-symbols-outlined text-sm">search</span>
+      <span class="text-body-md text-on-surface-variant">Search...</span>
+    </a>
+  </div>
+</header>
 
-    {GTM_ID && (
-      <script async src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`}></script>
-    )}
-    {GA_ID && (
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
-    )}
-    {GA_ID && <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}></script>}
-  </head>
-  <body>
-    {GTM_ID && (
-      <noscript>
-        <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style="display:none;visibility:hidden"></iframe>
-      </noscript>
-    )}
-    <header class="topbar">
-      <a href="/" class="topbar-logo">War Inc: Rising Wiki</a>
-      <nav class="topbar-nav">
-        <a href="/heroes/" aria-current={currentSection === 'heroes' ? 'page' : undefined}>Heroes</a>
-        <a href="/buildings/" aria-current={currentSection === 'buildings' ? 'page' : undefined}>Buildings</a>
-        <a href="/hunting-bosses/" aria-current={currentSection === 'bosses' ? 'page' : undefined}>Bosses</a>
-        <a href="/tools/" aria-current={currentSection === 'tools' ? 'page' : undefined}>Tools</a>
-        <a href="/guides/" aria-current={currentSection === 'guides' ? 'page' : undefined}>Guides</a>
-        <a href="/resources/" aria-current={currentSection === 'resources' ? 'page' : undefined}>Resources</a>
-        <a href="/search/" class="topbar-search" aria-label="Search">&#x1F50D;</a>
-      </nav>
-    </header>
+<main class="min-h-screen epic-grid pt-[88px]">
+  <div class="max-w-[1000px] mx-auto px-6 md:px-12 py-12">
+    <slot />
+  </div>
+</main>
 
-    <main style="max-width: var(--content-wide); margin: 0 auto; padding: var(--space-6) var(--space-4);">
-      <slot />
-    </main>
+<footer class="mt-12 py-12 px-6 lg:px-16 bg-white border-t-8 border-surface-container">
+  <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+    <div class="flex flex-col gap-4">
+      <span class="font-display text-headline-lg text-primary leading-none">WAR INC: RISING WIKI</span>
+      <p class="text-body-md text-on-surface-variant max-w-sm">
+        Part of Codex Atlas. Unofficial fan site for the War Inc: Rising community.
+      </p>
+      <p class="text-[10px] font-bold text-outline uppercase tracking-widest mt-4">© 2026 War Inc: Rising Wiki.</p>
+    </div>
+    <div class="flex gap-16">
+      <div class="flex flex-col gap-4">
+        <p class="text-label-md font-bold text-on-surface uppercase tracking-widest mb-2">Wiki</p>
+        <a href="/heroes/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Heroes</a>
+        <a href="/buildings/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Buildings</a>
+        <a href="/modes/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Game Modes</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <p class="text-label-md font-bold text-on-surface uppercase tracking-widest mb-2">Guides</p>
+        <a href="/guides/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Strategy</a>
+        <a href="/tier-lists/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Tier Lists</a>
+        <a href="/blog/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">News</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <p class="text-label-md font-bold text-on-surface uppercase tracking-widest mb-2">More</p>
+        <a href="/tools/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Tools</a>
+        <a href="/resources/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Resources</a>
+        <a href="/compare/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Compare</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
-    <footer class="site-footer">
-      <p>War Inc: Rising Wiki — part of Codex Atlas. Unofficial fan site.</p>
-    </footer>
-  </body>
+<script is:inline>
+  document.querySelectorAll('button, a').forEach(el => {
+    el.addEventListener('mousedown', () => el.classList.add('scale-[0.98]'));
+    el.addEventListener('mouseup', () => el.classList.remove('scale-[0.98]'));
+  });
+</script>
+</body>
 </html>

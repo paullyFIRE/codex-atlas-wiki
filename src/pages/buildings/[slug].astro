@@ -1,8 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EntityHeader from '../../components/content/EntityHeader.astro';
-import StatGrid from '../../components/content/StatGrid.astro';
-import SectionNav from '../../components/content/SectionNav.astro';
 
 export async function getStaticPaths() {
   const pages = import.meta.glob('/data/pages/buildings/*.json', { eager: true, import: 'default' });
@@ -31,10 +28,11 @@ const statItems = [
   { label: 'Power', value: lv1.combat_power ?? pageData.combat_power ?? '-' },
 ];
 
-const sectionLinks = [
-  ...(upgrades.length > 0 ? [{ href: '#upgrades', label: 'Upgrades' }] : []),
-  { href: '#stats', label: 'Stats' },
-  { href: '#related', label: 'Related' },
+const sectionIds = [
+  ...(upgrades.length > 0 ? [{ id: 'upgrades', label: 'Upgrades' }] : []),
+  ...(production ? [{ id: 'production', label: 'Production' }] : []),
+  { id: 'stats', label: 'Stats' },
+  { id: 'related', label: 'Related' },
 ];
 ---
 
@@ -42,95 +40,163 @@ const sectionLinks = [
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
   <script type="application/ld+json" set:html={JSON.stringify(pageData.breadcrumb_schema)} />
 
-  <nav class="breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb-sep">›</span>
-    <a href="/buildings/">Buildings</a>
-    <span class="breadcrumb-sep">›</span>
-    <span>{pageData.name}</span>
+  <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
+    <a href="/" class="hover:text-primary no-underline">Home</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <a href="/buildings/" class="hover:text-primary no-underline">Buildings</a>
+    <span class="material-symbols-outlined text-xs">chevron_right</span>
+    <span class="text-primary bg-primary-container/20 px-3 py-1 rounded-full">{pageData.name}</span>
   </nav>
 
-  <article>
-    <EntityHeader
-      name={pageData.name}
-      image={pageData.image}
-      badges={pageData.rarity_name ? [{ label: pageData.rarity_name, variant: 'rarity', level: pageData.rarity }] : []}
-      cost={pageData.cost}
-      power={pageData.combat_power}
-    />
+  <div class="flex flex-col xl:flex-row gap-12">
+    <article class="flex-1 space-y-12">
+      <!-- Header -->
+      <section class="border-b-4 border-surface-container pb-10">
+        <div class="flex items-start gap-6">
+          {pageData.image && (
+            <img src={pageData.image} alt={pageData.name} class="w-28 h-28 rounded-xl border-4 border-surface-container shadow-lg flex-shrink-0 object-cover" />
+          )}
+          <div class="flex-1 min-w-0">
+            <h1 class="font-display text-headline-lg text-on-surface mb-3 leading-none">{pageData.name}</h1>
+            <div class="flex flex-wrap items-center gap-3 mb-3">
+              {pageData.rarity_name && <span class="bg-primary-container/20 text-on-primary-container border-2 border-primary-container/50 px-3 py-1 rounded-full text-label-md font-bold uppercase tracking-wider text-sm">{pageData.rarity_name}</span>}
+              {pageData.cost > 0 && <span class="bg-surface-container text-on-surface-variant border-2 border-outline-variant px-3 py-1 rounded-full text-label-md font-bold text-sm">Cost: {pageData.cost}</span>}
+              {pageData.combat_power > 0 && <span class="bg-tertiary-container/20 text-on-tertiary-container border-2 border-tertiary-container/50 px-3 py-1 rounded-full text-label-md font-bold text-sm">Power: {pageData.combat_power}</span>}
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <SectionNav links={sectionLinks} />
+      <!-- Stat Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        {statItems.map(s => (
+          <div class="bg-white border-4 border-surface-container rounded-xl p-5 text-center clash-card">
+            <p class="text-label-md font-bold text-on-surface-variant uppercase tracking-wider text-[11px] mb-1">{s.label}</p>
+            <p class="text-title-md font-display text-on-surface">{s.value}</p>
+          </div>
+        ))}
+      </div>
 
-    {upgrades.length > 0 && (
-      <section id="upgrades">
-        <h2>Upgrade Costs & Requirements</h2>
-        <div class="table-wrap">
-          <table class="wiki-table">
-            <thead>
-              <tr><th>Level</th><th>Cost</th><th>Time</th><th>Prerequisites</th><th>Unlocks</th></tr>
-            </thead>
-            <tbody>
-              {upgrades.map((row) => (
+      <!-- Upgrades -->
+      {upgrades.length > 0 && (
+        <section class="scroll-mt-24" id="upgrades">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">upgrade</span></span>
+            Upgrade Costs & Requirements
+          </h2>
+          <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+            <table class="w-full text-left border-collapse">
+              <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
                 <tr>
-                  <td><strong>{row.level}</strong></td>
-                  <td>{row.costs.map(c => `${c.count} ${c.item}`).join(', ') || 'Free'}</td>
-                  <td>{row.time}</td>
-                  <td>{row.pre_reqs.join(', ') || 'None'}</td>
-                  <td>{row.unlocks.join(', ') || '-'}</td>
+                  <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Level</th>
+                  <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Cost</th>
+                  <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Time</th>
+                  <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Prerequisites</th>
+                  <th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Unlocks</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y-2 divide-surface-container bg-white">
+                {upgrades.map((row) => (
+                  <tr class="hover:bg-surface-container-low transition-colors">
+                    <td class="px-6 py-4 font-bold text-on-surface">{row.level}</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{row.costs.map(c => `${c.count} ${c.item}`).join(', ') || 'Free'}</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{row.time}</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{row.pre_reqs.join(', ') || 'None'}</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{row.unlocks.join(', ') || '-'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <!-- Production -->
+      {production && (
+        <section class="scroll-mt-24" id="production">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-tertiary-container text-on-tertiary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">inventory</span></span>
+            Resource Production
+          </h2>
+          <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+            <table class="w-full text-left border-collapse">
+              <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
+                <tr><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Level</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Production</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Capacity</th></tr>
+              </thead>
+              <tbody class="divide-y-2 divide-surface-container bg-white">
+                {production.levels.map((l) => (
+                  <tr class="hover:bg-surface-container-low transition-colors">
+                    <td class="px-6 py-4 font-bold text-on-surface">{l.level}</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{l.production}/tick</td>
+                    <td class="px-6 py-4 text-on-surface-variant">{l.capacity}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <!-- Stats Table -->
+      <section class="scroll-mt-24" id="stats">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+          <span class="flex-shrink-0 w-12 h-12 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">monitoring</span></span>
+          {pageData.name}'s stats by level
+        </h2>
+        <div class="overflow-hidden border-4 border-surface-container rounded-xl shadow-xl">
+          <table class="w-full text-left border-collapse">
+            <thead class="bg-primary-container border-b-4 border-on-primary-container/10">
+              <tr><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Level</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">HP</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">ATK</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">DEF</th><th class="px-6 py-4 text-label-md font-bold text-on-primary-container uppercase">Power</th></tr>
+            </thead>
+            <tbody class="divide-y-2 divide-surface-container bg-white">
+              {pageData.stats_table?.map((row) => (
+                <tr class="hover:bg-surface-container-low transition-colors">
+                  <td class="px-6 py-4 font-bold text-on-surface">{row.level}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.hp ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.atk ?? '-'}</td>
+                  <td class="px-6 py-4 text-on-surface-variant">{row.def ?? '-'}</td>
+                  <td class="px-6 py-4 font-bold text-primary">{row.combat_power ?? '-'}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       </section>
-    )}
 
-    {production && (
-      <section>
-        <h2>Resource Production</h2>
-        <div class="table-wrap">
-          <table class="wiki-table">
-            <thead><tr><th>Level</th><th>Production</th><th>Capacity</th></tr></thead>
-            <tbody>
-              {production.levels.map((l) => (
-                <tr><td>{l.level}</td><td>{l.production}/tick</td><td>{l.capacity}</td></tr>
-              ))}
-            </tbody>
-          </table>
+      <!-- Related -->
+      <section class="border-t-8 border-surface-container pt-12" id="related">
+        <h2 class="font-display text-headline-lg text-on-surface mb-6">Related</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="/buildings/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Browse All Buildings</a>
+          <a href="/tools/evolution/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Upgrade Costs & Evolution</a>
+          <a href="/heroes/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Browse Heroes</a>
+          <a href="/special/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low transition-colors no-underline">Special Entities</a>
+          {production?.levels?.[0]?.item_name && <span class="bg-surface-container px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface border-2 border-outline-variant">Produces: {production.levels[0].item_name}</span>}
         </div>
       </section>
-    )}
+    </article>
 
-    <section id="stats">
-      <h2>{pageData.name}'s stats by level</h2>
-      <StatGrid items={statItems} />
-      <div class="table-wrap">
-        <table class="wiki-table">
-          <thead><tr><th>Level</th><th data-align="right">HP</th><th data-align="right">ATK</th><th data-align="right">DEF</th><th data-align="right">Power</th></tr></thead>
-          <tbody>
-            {pageData.stats_table?.map((row) => (
-              <tr>
-                <td><strong>{row.level}</strong></td>
-                <td data-type="number">{row.hp ?? '-'}</td>
-                <td data-type="number">{row.atk ?? '-'}</td>
-                <td data-type="number">{row.def ?? '-'}</td>
-                <td data-type="number">{row.combat_power ?? '-'}</td>
-              </tr>
+    <!-- ToC Sidebar -->
+    <aside class="w-full xl:w-72 space-y-6">
+      <div class="sticky top-28 space-y-6">
+        <div class="bg-white border-4 border-surface-container p-6 rounded-xl shadow-xl">
+          <h3 class="text-label-md font-bold text-on-surface border-b-4 border-surface-container-low pb-4 mb-6 uppercase tracking-widest">Page Sections</h3>
+          <ul class="space-y-5">
+            {sectionIds.map(s => (
+              <li>
+                <a href={`#${s.id}`} class="flex items-center gap-4 group no-underline">
+                  <span class="w-3 h-3 bg-primary-container rounded-full scale-0 group-hover:scale-100 transition-transform"></span>
+                  <span class="text-label-md font-bold text-on-surface-variant group-hover:text-primary transition-colors no-underline">{s.label}</span>
+                </a>
+              </li>
             ))}
-          </tbody>
-        </table>
+          </ul>
+        </div>
       </div>
-    </section>
-
-    <section id="related">
-      <h2>Related</h2>
-      <ul class="quick-links">
-        <li><a href="/buildings/">Browse All Buildings</a></li>
-        <li><a href="/tools/evolution/">Upgrade Costs & Evolution</a></li>
-        <li><a href="/heroes/">Browse Heroes</a></li>
-        <li><a href="/special/">Special Entities</a></li>
-        {production?.levels?.[0]?.item_name && <li>Produces: {production.levels[0].item_name}</li>}
-      </ul>
-    </section>
-  </article>
+    </aside>
+  </div>
 </BaseLayout>
+
+<style is:global>
+  html { scroll-behavior: smooth; }
+</style>
