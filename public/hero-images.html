@@ -31,14 +31,13 @@ p { color: #8a7e6b; margin-bottom: 1.5rem; }
 </head>
 <body>
 
-<h1>Hero Image Review</h1>
-<p>90 heroes with images. Review by confidence level to verify correctness.</p>
+<h1>Hero Portraits</h1>
+<p><span class="official-star">★</span> = official site (1024×1536). No star = battleunit FBX render (512×512, dark green bg). Missing = no texture asset in extracted APK.</p>
 
 <div class="tabs" id="tabs">
   <button class="tab active" data-filter="all">All <span class="count" id="count-all"></span></button>
-  <button class="tab" data-filter="high">✅ High <span class="count" id="count-high"></span></button>
-  <button class="tab" data-filter="medium">⚠️ Medium <span class="count" id="count-medium"></span></button>
-  <button class="tab" data-filter="low">❌ Low <span class="count" id="count-low"></span></button>
+  <button class="tab" data-filter="high">★ Official <span class="count" id="count-high"></span></button>
+  <button class="tab" data-filter="missing">❌ Missing <span class="count" id="count-missing"></span></button>
 </div>
 
 <div class="grid" id="grid"></div>
@@ -47,30 +46,38 @@ p { color: #8a7e6b; margin-bottom: 1.5rem; }
 fetch('/hero-images.json')
   .then(r => r.json())
   .then(data => {
-    const { heroes, counts } = data;
+    const { heroes, counts, missing } = data;
     document.getElementById('count-all').textContent = counts.total;
     document.getElementById('count-high').textContent = counts.high;
     document.getElementById('count-medium').textContent = counts.medium;
-    document.getElementById('count-low').textContent = counts.low;
+    document.getElementById('count-missing').textContent = missing ? missing.length : (95 - counts.total);
 
     const grid = document.getElementById('grid');
     let currentFilter = 'all';
 
     function render(filter) {
       currentFilter = filter;
-      const filtered = filter === 'all' ? heroes : heroes.filter(h => h.conf === filter);
-      
-      // Group by confidence for "all" view
       let html = '';
+      
       if (filter === 'all') {
-        for (const [label, conf] of [['✅ High Confidence', 'high'], ['⚠️ Medium Confidence', 'medium'], ['❌ Low Confidence', 'low']]) {
-          const group = heroes.filter(h => h.conf === conf);
-          if (group.length === 0) continue;
-          html += `<div class="section-title">${label} (${group.length})</div>`;
-          html += group.map(h => card(h)).join('');
+        html += `<div class="section-title">★ Official Site Portrait (${heroes.length})</div>`;
+        html += heroes.map(h => card(h)).join('');
+      } else if (filter === 'missing') {
+        html += `<div class="section-title">No Portrait Available (${missing.length})</div>`;
+        html += `<p style="color:#8a7e6b;grid-column:1/-1;padding:1rem;">These heroes have no usable texture in the extracted APK. The game stores character art as Spine skeletal animations, not standalone portraits. Options: screenshot via BlueStacks automation, Spine frame extraction, or wait for a newer APK.</p>`;
+        if (missing && missing.length) {
+          html += missing.map(n => `
+            <div class="card visible" style="opacity:0.5;">
+              <div style="width:100%;aspect-ratio:1;background:#111;display:flex;align-items:center;justify-content:center;color:#555;font-size:3rem;">?</div>
+              <div class="card-body">
+                <h3>${n}</h3>
+                <div class="meta"><span class="badge badge-low">missing</span></div>
+              </div>
+            </div>
+          `).join('');
         }
       } else {
-        html = filtered.map(h => card(h)).join('');
+        html = heroes.filter(h => h.conf === filter).map(h => card(h)).join('');
       }
       grid.innerHTML = html;
       
@@ -79,20 +86,17 @@ fetch('/hero-images.json')
     }
 
     function card(h) {
-      const confLabel = {high: 'High', medium: 'Medium', low: 'Low'}[h.conf];
-      const confBadge = {high: 'badge-high', medium: 'badge-medium', low: 'badge-low'}[h.conf];
       const slugLink = h.slug ? `/heroes/${h.slug}/` : '#';
-      const officialStar = h.conf === 'high' && h.source === 'official' ? '<span class="official-star">★</span>' : '';
       return `
         <div class="card visible">
           <a href="${slugLink}" target="_blank">
             <img src="${h.path}" alt="${h.name}" loading="lazy">
           </a>
           <div class="card-body">
-            <h3 title="${h.name}">${h.name} ${officialStar}</h3>
+            <h3 title="${h.name}">${h.name} <span class="official-star">★</span></h3>
             <div class="meta">
               <span>${h.w}×${h.h} · ${h.size}KB</span>
-              <span class="badge ${confBadge}">${confLabel}</span>
+              <span class="badge badge-high">Official</span>
             </div>
           </div>
         </div>
