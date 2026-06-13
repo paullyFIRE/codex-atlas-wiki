@@ -286,11 +286,28 @@ Each approach was tested and failed for fundamental reasons:
 
 ### Game CDN Investigation
 
-The game connects to AWS CloudFront (IP range `52.85.25.x`, reverse DNS `server-*.cpt51.r.cloudfront.net`). The actual distribution hostname couldn't be determined because:
-- DNS queries for game domains returned CloudFront edge IPs, not the canonical distribution name
-- The full CDN URL paths for assets are unknown without API access
+The game connects to AWS CloudFront (IP range `52.85.25.x`, reverse DNS `server-*.cpt51.r.cloudfront.net`).
 
-**To discover CDN URLs in the future**: The APK's Unity AssetBundles in `data/raw/_apk_decompiled_assets/assets/Bundles/` contain JSON configuration files (`battle_v1_*.json`, `builtin_v6_*.json`, `season_v5_*.json`, `versions.json`) that may list CDN URLs for asset downloading. This was not fully investigated.
+**CDN base URL discovered** (from `versions.json` on device):
+```
+https://file.89tgame.com/assets/298/Bundles/
+```
+
+Bundle manifests contain 860+ asset bundle names that are downloaded from this CDN:
+- `builtin_v6_*.json` — 860 builtin asset bundles (audio, UI, art)
+- `battle_v1_*.json` — 2041 battle asset bundles
+- `season_v5_*.json` — 21 seasonal bundles
+- `dlc_v3_*.json` — 155 DLC bundles
+
+The CDN returns 403 without authentication. The game likely sends auth headers or uses signed URLs.
+
+**Auth token discovered** (from app data):
+```
+/sdcard/Android/data/com.i89trillion.strategy.rising/files/UserInfo/UserInfo_Guest
+```
+JWT token: `{"alg":"HS256","typ":"JWT"}` with payload `{"uid":7841390,"iss":"gin-blog"}`
+
+The game's API is at `ingress.89tgame.com` (the CNAME target of `rising.89trillion.com`), but returns 404 for all probed paths. The real API may use a different protocol (gRPC, WebSockets) or path.
 
 ### Scripts Reference
 
@@ -332,65 +349,106 @@ data/raw/unity/AssetRipper_export_20260609_105936/ExportedProject/Assets/
 
 **To use battleunit portraits**: Modify `map_images.py` to scan these directories and prefer them over Texture2D _C.png files. Add a size-based quality check (battleunit images have 0% transparency with opaque bg, while sprite atlases have sparse pixel distributions).
 
-### Future Work
+## Asset Extraction Roadmap
 
-#### 1. Screenshot Automation (MOST PRACTICAL NEXT STEP)
-Build `scripts/screenshot_capture.py` to automate BlueStacks:
-- Use ADB to navigate the game UI to each hero's detail page
-- Screenshot the character portrait area using OpenCV template matching
-- Save as `{unit_id}.png`
-- Also capture: skill icons, stat table screenshots, equipment screens
-- **Requires**: ADB + OpenCV + BlueStacks running the game
-- **Estimated time**: 2-3 hours to build, ~8 minutes per scrape run
+### Completed Discovery
+- **CDN base URL**: `https://file.89tgame.com/assets/298/Bundles/` (returns 403 without auth)
+- **Auth token** (JWT): Found at `UserInfo/UserInfo_Guest` in game's app data
+- **Bundle manifests**: 860+ builtin, 2041+ battle, 21 seasonal, 155 DLC bundle names
+- **Battleunit portraits**: 85 hero renders in `artofwar-ii_art/fbx/battleunit/`
+- **Official portraits**: 21 mythic from `warincrising.com`
 
-#### 2. APK Asset Bundle URL Extraction
-The APK's Unity AssetBundle JSON files may contain CDN URLs:
-```
-data/raw/_apk_decompiled_assets/assets/Bundles/
-  versions.json              ← Lists available asset versions
-  battle_v1_*.json           ← Battle asset URLs
-  builtin_v6_*.json          ← Built-in asset URLs
-  season_v5_*.json           ← Seasonal asset URLs
-```
-Investigate these JSON files for CDN endpoints. If URLs are found, they can be used to download assets directly without the game running.
+### Phase 1: Native SSL Hooking + CDN Access
+**Goal**: Capture the exact HTTP request headers the game sends when downloading assets from the CDN, then reuse them to download all assets directly.
 
-#### 3. API Token Extraction (Requires Rooted Device)
-To access the game API at `rising.89trillion.com`:
-- Need a rooted Android device or emulator
-- Extract auth tokens from the game's local storage or shared preferences
-- Use tokens to make authenticated API calls
-- API likely returns hero stats, event data, shop items, player data
+**Approach**:
+1. **Create a rooted BlueStacks instance** — BlueStacks 5 Nougat 64-bit with root (or BlueStacks Air if root available)
+2. **Install game on rooted instance** — Install via ADB from our APK
+3. **Push + run frida-server** — Frida can now attach because root bypasses anti-tamper
+4. **Hook `SSL_read`/`SSL_write`** in `libssl.so` — native hook, catches ALL SSL traffic including Unity's native networking
+5. **Log CDN request headers** — Capture the exact Authorization/Cookie/URL pattern
+6. **Replicate headers in curl** — Download all assets from CDN directly
 
-#### 4. Skill Icon Extraction
-Skill icons are likely in the `_auto_extracted/Sprite/` directory. Look for:
-- `Skill_Icon_*.png` — skill icons
-- `Attr_Icon_*.png` — attribute icons
-- Files matching `Icon_` prefix
-These can be mapped to skill IDs from `skill_data.json`.
+**Why native hooks work**: Unity IL2CPP compiles C# to native ARM64. Unity's `UnityWebRequest` uses `libcurl` which calls `libssl.so`'s `SSL_write`/`SSL_read`. Hooking at the SSL layer captures ALL traffic regardless of the game's scripting backend.
 
-#### 5. Spine Extraction (Advanced)
-The game uses Spine skeletal animations. To extract portrait frames:
-- Find `.skel` files in APK bundles (character skeleton data)
-- Find corresponding atlas textures (`_C.png` files)
-- Use `spine-decrypt` or `SpineExtractor` tool to render selected frames
-- Spine runtime Python library could automate this
-- Currently only UI effect skeletons were found; character skeletons may be in different bundle locations
+**Expected deliverables**:
+- Complete asset bundle list from CDN (audio, UI, art)
+- Hero portrait textures (high-res from atlas)
+- Skill icons
+- UI textures
+- Game config updates (balance patches)
 
-#### 6. Frida Native Hooking (Advanced)
-For SSL bypass on Unity IL2CPP games:
-- Instead of Java-level hooks, hook native SSL functions in `libssl.so`:
-  - `SSL_read` / `SSL_write` to dump plaintext traffic
-  - `SSL_connect` / `SSL_new` to log hostnames
-- Or hook Unity's `CurlHandler` / `UnityWebRequest` native functions in `libunity.so`
-- This requires Frida to successfully attach (blocked by anti-tamper)
-- May need to use a patched APK (objection `patchapk`) rather than runtime attach
+**Estimated time**: 1-2 hours
 
-#### 7. Emulator with Root
-Either compile a custom AOSP system image or use an Android x86 emulator with root:
-- Android x86 (android-x86.org) provides root by default
-- Genymotion provides rooted emulators
-- Would allow Frida attach + CA cert install + tcpdump
-- About 2 hours to set up
+### Phase 2: API Discovery
+**Goal**: Find and access the game's backend API to get live game data.
+
+**Approach**:
+1. Same rooted instance + Frida native hooks
+2. Hook `connect()` in `libc.so` to log all connection attempts
+3. Hook `getaddrinfo` to log all DNS lookups
+4. Use captured API endpoints + JWT token to query live game data
+5. Extract: hero stats, event schedules, shop items, leaderboards
+
+**Why current API probing failed**: `rising.89trillion.com` returns an SPA (Vue.js). The real API is likely at a different path or uses a different protocol (gRPC, WebSockets, custom TCP). Frida native hooks will reveal the actual endpoints.
+
+**Estimated time**: 1-2 hours
+
+### Phase 3: Full Asset Extraction Pipeline
+**Goal**: Automate the entire extraction pipeline from APK download → asset extraction.
+
+**Approach**:
+1. Script the CDN downloader using captured auth headers
+2. Extract individual sprites from Unity atlases (UnityPy)
+3. Map sprite names to unit IDs
+4. Generate all hero portraits, skill icons, UI elements
+5. Automate APK version detection + re-extraction on updates
+
+**Estimated time**: 2-3 hours
+
+### Phase 4: Screenshot Automation (Fallback)
+**Goal**: If CDN/API access fails, capture portraits via screen scraping.
+
+**Approach**:
+1. Build `scripts/screenshot_capture.py` using ADB + OpenCV
+2. Navigate to each hero's detail page programmatically
+3. Capture portrait area using template matching
+4. Save as `{unit_id}.png`
+5. ~8 minutes per full scrape
+
+**Estimated time**: 2-3 hours
+
+### Phase 5: Skill Icon Extraction (Independent)
+**Goal**: Extract skill icons from APK assets.
+
+**Approach**:
+1. Search `_auto_extracted/Sprite/` for `Skill_Icon_*.png`
+2. Match filenames to skill IDs from `skill_data.json`
+3. Map to hero skill pages on the wiki
+
+Alternatively, the `HttpPicCache` on the device (at `/sdcard/.../HttpPicCache/`) has cached 172×172 PNGs that could be skill icons — need to match MD5 hashes to skill IDs.
+
+**Estimated time**: 1 hour
+
+### Phase 6: Spine Extraction (Optional)
+**Goal**: Extract individual character frames from Spine skeletal animations.
+
+**Approach**:
+1. Find actual character `.skel` files (currently only UI effect skeletons found)
+2. May be stored in different APK bundle locations
+3. Use Spine runtime Python library to render specific poses
+4. Extract ideal portrait frame from idle animation
+
+**Estimated time**: 3-4 hours
+
+### Phase 7: Emulator Alternatives (If needed)
+If BlueStacks root doesn't work, these alternatives provide root out of the box:
+
+| Solution | Cost | Setup Time | Notes |
+|---|---|---|---|
+| Genymotion | Free tier available | 30 min | Root by default, great for development |
+| Android x86 | Free | 1 hr | Install in VM, root by default |
+| Custom AOSP build | Free | 2-3 hrs | Full control, Android 14+ with root |
 
 ### Tools for Quick Reference
 
