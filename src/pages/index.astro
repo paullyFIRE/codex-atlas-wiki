@@ -1,6 +1,6 @@
 ---
-const siteTitle = 'War Inc: Rising Wiki | Hero Stats, Guides & Tier Lists';
-const siteDescription = 'Comprehensive fan wiki for War Inc: Rising with hero stats, skill data, per-level attributes, strategy guides, tier lists, and game mode analysis for all 95 playable heroes.';
+const siteTitle = 'War Inc: Rising Wiki — Hero Stats, Guides, Tier Lists & Database';
+const siteDescription = 'Comprehensive War Inc: Rising fan wiki covering all 95 heroes with per-level stats, skill data, strategy guides, tier lists, building costs, boss patterns, and game mode analysis. Data extracted directly from the game APK.';
 
 const heroIdx = import.meta.glob('/data/pages/heroes/_index.json', { eager: true, import: 'default' });
 const buildIdx = import.meta.glob('/data/pages/buildings/_index.json', { eager: true, import: 'default' });
@@ -140,6 +140,14 @@ const featuredHeroes = ['Goddess of War', 'The Knight King', 'Blazeking', 'Tide 
   "name": "War Inc: Rising Wiki",
   "url": "https://war-inc-rising.codex-atlas.com",
   "description": siteDescription,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://war-inc-rising.codex-atlas.com/search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
 })} />
 </head>
 <body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
@@ -414,17 +422,47 @@ const featuredHeroes = ['Goddess of War', 'The Knight King', 'Blazeking', 'Tide 
     </div>
   </section>
 
-  <!-- Section 5: SEO Content -->
+  <!-- Section 5: Popular Searches -->
+  <section class="mb-16">
+    <div class="flex items-center gap-4 mb-8">
+      <span class="h-10 w-3 bg-primary rounded-full"></span>
+      <h2 class="text-headline-lg font-display uppercase tracking-tight">Popular Wiki Pages</h2>
+    </div>
+    <div class="flex flex-wrap gap-3">
+      <a href="/heroes/archer/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Archer Stats</a>
+      <a href="/blog/war-inc-rising-gem-guide/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Gem Spending Guide</a>
+      <a href="/blog/war-inc-rising-tier-list-2026/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">2026 Tier List</a>
+      <a href="/blog/war-inc-rising-how-to-get-mythic-heroes/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">How to Get Mythic Heroes</a>
+      <a href="/blog/war-inc-rising-best-team-compositions/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Best Team Compositions</a>
+      <a href="/blog/war-inc-rising-beginner-guide/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Beginner Guide 2026</a>
+      <a href="/heroes/goddess-of-war/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Goddess of War Stats</a>
+      <a href="/heroes/radiant-warrior/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Radiant Warrior Stats</a>
+      <a href="/heroes/blazeking/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Blazeking Stats</a>
+      <a href="/buildings/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Building Database</a>
+      <a href="/tier-lists/overall/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Overall Hero Tier List</a>
+      <a href="/tools/spell-calc/" class="bg-white border-2 border-outline-variant px-5 py-2.5 rounded-full text-label-md text-xs font-black uppercase tracking-widest text-on-surface hover:bg-surface-container-low hover:border-primary transition-colors no-underline">Spell Calculator</a>
+    </div>
+  </section>
+
+  <!-- Section 6: SEO Content -->
   <section class="mb-16 max-w-4xl bg-surface-container-low p-10 rounded-lg border-4 border-surface-container">
-    <h2 class="text-headline-lg font-display mb-6 text-on-surface uppercase tracking-tight">About War Inc: Rising</h2>
+    <h2 class="text-headline-lg font-display mb-6 text-on-surface uppercase tracking-tight">About War Inc: Rising Wiki</h2>
+    <p class="text-body-lg text-on-surface-variant leading-relaxed mb-6">
+      <strong>War Inc: Rising</strong> is a competitive co-op tower defense and PvP strategy game by Fastone Games, available on Android. This fan wiki is the most comprehensive database for the game, featuring extracted data for all <a href="/heroes/" class="text-secondary hover:underline">95 playable heroes</a> with per-level stats, skill scaling, and combat power calculations. Every hero stat is sourced directly from the game APK, ensuring accuracy.
+    </p>
+    <p class="text-body-lg text-on-surface-variant leading-relaxed mb-6">
+      Browse detailed pages for <a href="/heroes/" class="text-secondary hover:underline">hero stats and skills</a>, <a href="/buildings/" class="text-secondary hover:underline">building upgrade costs</a>, <a href="/hunting-bosses/" class="text-secondary hover:underline">hunting boss attack patterns</a>, <a href="/modes/" class="text-secondary hover:underline">game mode rules and rewards</a>, <a href="/synergies/" class="text-secondary hover:underline">team synergy effects</a>, and <a href="/buffs/" class="text-secondary hover:underline">field buff modifiers</a>. Our <a href="/guides/" class="text-secondary hover:underline">strategy guides</a> and <a href="/tier-lists/" class="text-secondary hover:underline">tier lists</a> help you build the best team compositions for every situation.
+    </p>
     <p class="text-body-lg text-on-surface-variant leading-relaxed mb-8">
-      War Inc: Rising is a competitive co-op tower defense and PvP strategy game by Fastone Games. This fan wiki provides data-driven stats, community rankings, and strategy guides to help you progress faster. Whether you're coordinating real-time defenses or climbing the global PvP leaderboards, our tactical intel repository ensures you always have the right information at your fingertips.
+      Whether you are looking for the best PvP formation, optimal co-op strategies, or just want to compare <a href="/compare/" class="text-secondary hover:underline">two heroes side by side</a>, the War Inc: Rising Wiki has the data you need. Use the <a href="/tools/" class="text-secondary hover:underline">spell calculator</a> and <a href="/tools/evolution/" class="text-secondary hover:underline">upgrade cost tool</a> to plan your progression efficiently.
     </p>
     <div class="flex flex-wrap gap-3">
       <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Tower Defense</span>
       <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">RTS</span>
       <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Hero Collector</span>
       <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Co-op</span>
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">PvP</span>
+      <span class="bg-surface-container-highest px-5 py-2.5 rounded-full border-2 border-surface-container text-label-md text-xs font-black uppercase tracking-widest text-on-surface">Base Building</span>
     </div>
   </section>
 </main>

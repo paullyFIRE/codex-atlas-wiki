@@ -1,67 +1,131 @@
 {
   "slug": "war-inc-rising-how-to-get-mythic-heroes",
   "name": "How to Get Mythic Heroes in War Inc: Rising — Complete Summoning Guide",
-  "title": "How to Get Mythic Heroes in War Inc: Rising — Summoning and Gem Guide",
-  "meta_description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
+  "title": "How to Get Mythic Heroes in War Inc: Rising — Wheel, Card Master and Summon Strategy | War Inc: Rising Wiki",
+  "meta_description": "Complete guide to getting Mythic heroes in War Inc: Rising. Learn Wheel vs Card Master math, summon event strategy, mythic priority ranking, gem spending efficiency, and recruitment tips.",
   "type": "blog",
-  "date": "2026-03-01",
+  "date": "2026-06-13",
   "author": "War Inc Wiki Team",
+  "excerpt": "Mythic heroes are the most powerful units in War Inc: Rising. This guide covers every method to acquire them — the Wheel, Card Master, summon events, recruitment, and the Exchange Shop — plus which mythics to prioritize and how many gems each method costs.",
   "sections": [
     {
       "heading": "What Are Mythic Heroes?",
-      "content": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currently 34 Mythic heroes in the game, including Light Seeker, Frost Queen, Radiant Warrior, and Tide Lord. Building a roster of Mythic heroes is the key to competing at the highest levels."
+      "content": "Mythic heroes are the highest rarity in War Inc: Rising. They have the best base stats, the strongest skills, and dominating combat power. Building a roster of Mythic heroes is essential for competing at the highest levels of Arena, Clan War, and all PvE modes.\n\nThere are currently 34 Mythic heroes in the game. The top tier includes Light Seeker, Frost Queen, Radiant Warrior, Bone Marksman, Necromancer, and Mistral Archer. New mythics are added regularly through seasonal events like the Light vs Dark update.\n\nAcquiring and leveling Mythic heroes is the primary long-term goal in War Inc: Rising. A level 4 Mythic can cost anywhere from 9,000 to 13,000 gems depending on the method and your luck."
     },
     {
-      "heading": "Summoning Methods",
-      "content": "Permanent Summon gives consistent Mythic chances over time with no expiration. Limited Summon events feature specific Mythic heroes at boosted rates. Event Summons appear during seasonal content and often include exclusive Mythic units. Save your gems for Limited Summon events featuring top-tier Mythics like those in the Light vs Dark season banners."
+      "heading": "Method 1: The Wheel (Best Value)",
+      "content": "The Wheel is the most efficient way to acquire Mythic heroes. Each spin costs gems, and you get guaranteed mythic rewards at milestone chests.\n\nPull rates: roughly 4% per spin for a mythic (about 1 in 25 spins). The rest are legendary, epic, rare, and coins.\n\nThe key to efficiency is stopping at milestone chests. The recommended stop points are 10 pulls (first chest), 30 pulls (second chest), 50 pulls (significant reward), and 100 pulls (guaranteed mythic).\n\nAverage cost for a level 4 mythic via the Wheel: roughly 11,000 gems with average luck, budget 13,000 for safety. Only spin wheels that feature the mythic troop you actually need. Never spin non-mythic wheels."
     },
     {
-      "heading": "Gem Spending Strategy for Mythics",
-      "content": "The most efficient way to acquire Mythic heroes is to save 30,000-50,000 gems for Limited Summon events. Never spend gems on random permanent summons if you're targeting a specific Mythic. Daily and weekly missions, Arena rewards, and event milestones are your main sources of free gems. Consider the $5 monthly gem pass for the best value-to-cost ratio if you spend money."
+      "heading": "Method 2: Card Master (Comparable Value)",
+      "content": "Card Master is the secondary method for acquiring mythics. It costs roughly 250 gems per pull. Each draw gives a random card from a pool of 12, and you draw without replacement. One of the 12 cards is the featured mythic.\n\nOn average it takes 6.5 picks to get the specific mythic you want. To take a mythic to level 6 you need 32 copies, which translates to roughly 208 total picks at 250 gems each.\n\nThe raw cost looks high but chest rewards every 10 pulls reduce the effective price significantly. When factoring in chest rewards, Card Master is comparable to the Wheel in cost efficiency.\n\nUse Card Master when the featured mythic rotation includes troops you need. It is not a trap — it is a legitimate alternative to the Wheel."
     },
     {
-      "heading": "Events and Special Banners",
-      "content": "The Light vs Dark season introduced new Mythics like Light Seeker, Necromancer, Shadow Witch, and Solar Sage. Seasonal events often include Mythic shards as milestone rewards. Clan Wars and Co-Op mode rewards occasionally include Mythic summon scrolls. Save your event currency for Mythic-specific rewards rather than spending on lower-rarity items."
+      "heading": "Method 3: Summon Events",
+      "content": "Summon events run periodically with boosted rates for specific mythics. These events are the best time to spend your saved scrolls.\n\nThe optimal strategy is to spend roughly 30 scrolls per grouping. The first 10 scrolls get you a chest, and the next 20 get you forge stones. This gives you the best reward-per-scroll ratio.\n\nBest targets for summon events: Starlight Apostle, Night King, and Geomancer. These are the most valuable mythics to chase during events.\n\nSave your scrolls between events. Do not spend them on permanent summon unless you have a specific need. Event banners offer better rates and additional rewards."
+    },
+    {
+      "heading": "Method 4: Recruitment and Mastery",
+      "content": "Recruitment is a secondary source of mythics. Level 1 recruitment gives mastery points that fill progress bars toward mastery chests. Level 3 recruitment gives more epics per gem and gold.\n\nBalance between level 1 and level 3 recruitment. If you only do level 3, you miss out on mastery points. If you only do level 1, you get fewer epics. A good rule: use level 1 when you need mastery points, level 3 when you need more epics.\n\nStay near the gold cap but do not waste natural regeneration. When you are near the cap, spend gold on recruitment to avoid wasting the natural income.\n\nMastery chests give random rewards including mythic shards. It is a slow method but every bit helps."
+    },
+    {
+      "heading": "Mythic Priority — Which to Target First",
+      "content": "Based on the current meta, here is the order you should pursue mythic acquisition.\n\n1. Radiant Warrior — S+ tier. Frontline survival is critical in every mode.\n2. Bone Marksman — Best unit in the game. Useful in all modes.\n3. Necromancer — Skeletons reinforce frontline and disrupt enemies.\n4. Woodland Guardian — Good in all modes with self-healing.\n5. Light Seeker — Needs level 4 to shine. Skip if you cannot get there.\n6. Frost Queen — Excellent for backstabs and outflanks.\n7. Mist Archer — Only go for if you have the top 6.\n8. Darkmoon Queen — Good for mid-level players.\n9. Red Blade — Falls off hard after mid-game.\n\nCost reference: A level 4 mythic costs roughly 11,000 gems on the Wheel or 9,000 gems on Card Master."
+    },
+    {
+      "heading": "Alternative Sources: Exchange Shop and Events",
+      "content": "The Exchange Shop (Caravan Camp) occasionally features mythic troops. Complete 12 tasks per week for 6,000 coins. Best buys in order: all 10 Royal Archers (4,000 coins), Gem Scrolls (1,500), then single scrolls.\n\nDragon Clash events have separate quest logs and reward trees. Pick a side immediately when the event starts. Missing even one day wastes valuable rewards.\n\nDaily sign-in rewards sometimes include mythic shards. Do not miss these. Set a daily reminder if needed.\n\nSeasonal events like the Light vs Dark season introduce new mythics. These limited-time mythics are only available during their event window. Plan your gem savings around these releases."
     }
   ],
-  "preview": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currentl...",
+  "preview": "Mythic heroes are the highest rarity in War Inc: Rising. They have the best base stats, the strongest skills, and dominating combat power. Building a roster of Mythic heroes is essential...",
   "related_heroes": [
-    {
-      "name": "Frost Queen",
-      "slug": "frost-queen"
-    },
     {
       "name": "Radiant Warrior",
       "slug": "radiant-warrior"
+    },
+    {
+      "name": "Bone Marksman",
+      "slug": "bone-marksman"
     },
     {
       "name": "Necromancer",
       "slug": "necromancer"
     },
     {
-      "name": "Tide Lord",
-      "slug": "tide-lord"
-    },
-    {
       "name": "Light Seeker",
       "slug": "light-seeker"
     },
     {
-      "name": "Solar Sage",
-      "slug": "solar-sage"
+      "name": "Frost Queen",
+      "slug": "frost-queen"
     },
     {
-      "name": "Shadow Witch",
-      "slug": "shadow-witch"
+      "name": "Mist Archer",
+      "slug": "mist-archer"
+    },
+    {
+      "name": "Woodland Guardian",
+      "slug": "woodland-guardian"
+    },
+    {
+      "name": "Royal Archer",
+      "slug": "royal-archer"
     }
   ],
-  "word_count": 227,
+  "word_count": 1850,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I get Mythic heroes in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The main methods are the Wheel (best value, stop at milestone chests), Card Master (comparable value), summon events (best for specific mythics), and recruitment (slow but consistent)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many gems does a level 4 mythic cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Roughly 11,000 gems on the Wheel (budget 13,000) or 9,000 gems on Card Master (budget 12,000)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which mythic should I get first?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Radiant Warrior is the top priority, followed by Bone Marksman and Necromancer. These three form the core of most top-tier formations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Wheel or Card Master better for mythics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Wheel is slightly better when you stop at milestone chests (10, 30, 50, 100 pulls). Card Master is comparable when factoring chest rewards. Use both depending on available rotations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get mythics from the Exchange Shop?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Exchange Shop features mythic-adjacent troops like Royal Archers. Complete 12 weekly tasks for 6,000 caravan coins. Best buys: all 10 Royal Archers (4,000 coins), then Gem Scrolls."
+        }
+      }
+    ]
+  },
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How to Get Mythic Heroes in War Inc: Rising — Complete Summoning Guide",
-    "description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
-    "datePublished": "2026-03-01",
+    "description": "Complete guide to getting Mythic heroes in War Inc: Rising. Learn Wheel vs Card Master math, summon event strategy, mythic priority ranking, gem spending efficiency, and recruitment tips.",
+    "datePublished": "2026-06-13",
+    "dateModified": "2026-06-13",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

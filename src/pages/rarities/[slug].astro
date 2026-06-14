@@ -26,6 +26,15 @@ function profName(id) {
 ---
 
 <BaseLayout title={pageData.title} description={pageData.meta_description} currentSection="heroes">
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://war-inc-rising.codex-atlas.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Heroes", "item": "https://war-inc-rising.codex-atlas.com/heroes/" },
+      { "@type": "ListItem", "position": 3, "name": pageData.rarity_name + ' Units' }
+    ]
+  })} />
   <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
     <a href="/" class="hover:text-primary no-underline">Home</a>
     <span class="material-symbols-outlined text-xs">chevron_right</span>

@@ -2,15 +2,24 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Page Not Found — War Inc: Rising Wiki">
-  <div style="text-align: center; padding: 4rem 1rem;">
-    <h1 style="font-size: 3rem; margin-bottom: 0.5rem;">404</h1>
-    <p style="font-size: 1.1rem; color: #6c757d; margin-bottom: 1.5rem;">Page not found. The war continues elsewhere.</p>
-    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-      <a href="/" class="btn btn-primary">Home</a>
-      <a href="/heroes/" class="btn btn-secondary">Heroes</a>
-      <a href="/buildings/" class="btn btn-secondary">Buildings</a>
-      <a href="/tools/" class="btn btn-secondary">Tools</a>
+<BaseLayout title="Page Not Found — War Inc: Rising Wiki" noindex>
+  <div class="text-center py-20">
+    <span class="material-symbols-outlined text-8xl text-primary-container/50 mb-6 block" style="font-size: 6rem;">map</span>
+    <h1 class="font-display text-display-lg text-on-surface mb-4">404</h1>
+    <p class="text-body-lg text-on-surface-variant max-w-md mx-auto mb-8">This page has been lost to the battlefield. The war continues elsewhere, Commander.</p>
+    <div class="flex flex-wrap gap-4 justify-center">
+      <a href="/" class="bg-primary-container text-on-primary-container px-8 py-4 rounded-full pill-btn font-extrabold hover:brightness-110 transition-all uppercase tracking-widest flex items-center gap-3 no-underline">
+        <span class="material-symbols-outlined font-bold">home</span> Home
+      </a>
+      <a href="/heroes/" class="border-4 border-surface-container hover:border-primary/50 text-on-surface px-8 py-4 rounded-full transition-all uppercase tracking-widest flex items-center gap-3 bg-white/50 backdrop-blur-sm no-underline">
+        <span class="material-symbols-outlined font-bold">military_tech</span> Heroes
+      </a>
+      <a href="/guides/" class="border-4 border-surface-container hover:border-primary/50 text-on-surface px-8 py-4 rounded-full transition-all uppercase tracking-widest flex items-center gap-3 bg-white/50 backdrop-blur-sm no-underline">
+        <span class="material-symbols-outlined font-bold">book</span> Guides
+      </a>
+      <a href="/search/" class="border-4 border-surface-container hover:border-primary/50 text-on-surface px-8 py-4 rounded-full transition-all uppercase tracking-widest flex items-center gap-3 bg-white/50 backdrop-blur-sm no-underline">
+        <span class="material-symbols-outlined font-bold">search</span> Search
+      </a>
     </div>
   </div>
 </BaseLayout>

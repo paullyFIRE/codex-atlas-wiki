@@ -1,59 +1,115 @@
 {
   "slug": "war-inc-rising-infinite-war-guide",
   "name": "War Inc: Rising Infinite War Guide — Endless Mode Tips",
-  "title": "War Inc: Rising Infinite War Guide — Survive Endless Mode",
-  "meta_description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
+  "title": "War Inc: Rising Infinite War Guide — Best Heroes, Formation and Strategy | War Inc: Rising Wiki",
+  "meta_description": "Master Infinite War in War Inc: Rising. Learn the optimal formation with 2 rows of tanks, Rock Throwers to spread targeting, Goddess of War shields, and best heroes for endless wave survival.",
   "type": "blog",
-  "date": "2026-06-01",
+  "date": "2026-06-13",
   "author": "War Inc Wiki Team",
+  "excerpt": "Infinite War is the ultimate test of your army's endurance. This guide covers the optimal formation (2 rows of tanks, Rock Throwers, Goddess of War shields), the best heroes for endless waves, and how to push your record further.",
   "sections": [
     {
-      "heading": "What is Infinite War?",
-      "content": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increases in difficulty, with boss waves appearing every 10 levels. Your record determines your tier rewards."
+      "heading": "What Is Infinite War?",
+      "content": "Infinite War is an endless wave survival mode. You field a formation against increasingly difficult waves of enemies. Each wave gets harder, and boss waves appear every 10 levels. Your record determines your tier rewards.\n\nYou get 3 free battles per day. Extra battles cost gems and are not worth it unless you are competing for top leaderboard positions. Make your 3 runs count by using the optimal formation and hero composition.\n\nInfinite War is one of the best sources of Forge Stones and gold in the game. A good Infinite War run can provide significant resources that accelerate your progression."
     },
     {
-      "heading": "Best Heroes for Endless Mode",
-      "content": "Infinite War favors sustainability over burst damage. Heroes with self-healing, shields, or life steal excel here. Radiant Warrior and Night Scion can sustain themselves indefinitely with proper support. Necromancer's summoned skeletons provide valuable meat shields. Seraph's resurrection ability can save a run from collapse. Avoid glass-cannon heroes that die to incidental damage."
+      "heading": "The Optimal Infinite War Formation",
+      "content": "The community has refined the optimal Infinite War formation through extensive testing. Here it is.\n\nFrontline: 2 full rows of tanks. These absorb incoming damage from all the enemies. Tanks should be your highest HP units. Radiant Warrior is the best choice for this role.\n\nMiddle: 2-3 healers and support units. These keep your tanks alive through the endless waves. Melody Weaver and Wooden Wizard are good options.\n\nBackline: Rock Throwers and Goddess of War. Rock Throwers demand 8 individual targets from the enemy — each of the 8 Rock Thrower units needs its own target. This spreads the enemy's damage across all your Rock Thrower units instead of concentrating it. Goddess of War shields the Rock Throwers, keeping them alive even longer.\n\nDamage: Poison Masters carry early and mid-game. As you progress, replace them with higher-impact troops, but 8-10 level 6 Poison Masters can carry you surprisingly far.\n\nOracles: Place them where they can buff the maximum number of damage dealers. Their 4% stacking attack buff is essential for late-wave damage output."
     },
     {
-      "heading": "Resource Management in Infinite War",
-      "content": "Don't deploy all your heroes at once in early waves — conserve them for later. Learn which waves are safe to auto and which require manual skill timing. Save your strongest skills for boss waves. Energy management between runs matters too — don't exhaust your energy right before daily reset."
+      "heading": "Best Heroes for Infinite War",
+      "content": "S Tier: Rock Throwers (8 troops = 8 targets, spreading enemy damage), Goddess of War (shields the Rock Throwers), Poison Master (carries early and mid-game runs).\n\nA Tier: Flame Mages (consistent damage), Royal Archers (single-target damage), Forest Scouts (range damage at level 9), Oracles (attack buff stacking).\n\nB Tier: Warlocks, Marksmans, high-level Mists, Storm Maidens, Jungle Rangers.\n\nThe key insight is that Infinite War favors troops that spread enemy attention, provide shields, or deal consistent sustained damage. Burst damage is less valuable because fights last for many waves."
     },
     {
-      "heading": "Pushing Your Record",
-      "content": "To push beyond your current record, study where your team typically fails and address that weakness. If your Tank dies early, consider a secondary off-tank. If damage falls off, replace your lowest-performing damage dealer. Small optimizations compound over 50+ waves — every hero choice and skill timing matters."
+      "heading": "Infinite War Strategy by Wave Range",
+      "content": "Waves 1-20: Your formation should handle these easily if built correctly. Use this time to verify your positioning and make small adjustments. Your economy should be stable.\n\nWaves 21-50: This is where the difficulty starts ramping. Your tank line will start taking real damage. Make sure your healers and Goddess of War shields are keeping up. Boss waves at 30, 40, and 50 require attention.\n\nWaves 51-80+: This is where the formation really gets tested. Enemy damage output increases significantly. Your Rock Throwers are the key to survival — if they die, the formation collapses. Keep Goddess of War alive at all costs.\n\nWave 80+: At this point, unit levels and hero quality matter more than formation. Having high-level mythics with forge stone upgrades is essential to push past 80."
+    },
+    {
+      "heading": "Infinite War Tier List (Mode-Specific)",
+      "content": "S Tier: Rock Throwers, Goddess of War, Poison Master.\nA Tier: Flame Mages, Royal Archers, Forest Scouts, Oracles.\nB Tier: Warlocks, Marksmans, high-level Mists, Storm Maidens, Jungle Rangers.\n\nThis tier list is very different from PvP or general rankings. Some of the best PvP units (Light Seeker, Frost Queen) are less effective in Infinite War because they lack the sustained survivability needed for endless waves.\n\nRock Throwers are uniquely valuable in Infinite War because of their multi-target mechanic. No other troop does what they do for wave survival. If you are serious about Infinite War, invest in Rock Throwers."
+    },
+    {
+      "heading": "Maximizing Your Daily Runs",
+      "content": "Always complete your 3 free daily runs. The Forge Stone and gold rewards are too valuable to skip.\n\nDo not auto-pilot. Infinite War requires active attention as waves get harder. Save your hero skills for boss waves and critical moments.\n\nIf your team dies early, identify the failure point. Is your tank line collapsing? Are your healers keeping up? Is a specific enemy type countering your formation? Each failure is data that helps you optimize.\n\nOnce your formation is solid, you can auto through the early waves and take over manually around wave 30-40 when the difficulty picks up.\n\nExtra battles cost gems and are not recommended. The 3 free runs generate enough rewards for most players."
     }
   ],
-  "preview": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increa...",
+  "preview": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold...",
   "related_heroes": [
     {
-      "name": "Night Scion",
-      "slug": "night-scion"
+      "name": "Rock Throwers",
+      "slug": "rock-thrower"
+    },
+    {
+      "name": "Goddess of War",
+      "slug": "goddess-of-war"
+    },
+    {
+      "name": "Poison Master",
+      "slug": "poison-master"
     },
     {
       "name": "Radiant Warrior",
       "slug": "radiant-warrior"
     },
     {
-      "name": "Seraph",
-      "slug": "seraph"
+      "name": "Oracles",
+      "slug": "oracle"
     },
     {
-      "name": "Necromancer",
-      "slug": "necromancer"
+      "name": "Flame Mage",
+      "slug": "flame-mage"
     },
     {
-      "name": "Cannon",
-      "slug": "cannon"
+      "name": "Royal Archer",
+      "slug": "royal-archer"
     }
   ],
-  "word_count": 200,
+  "word_count": 1650,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best formation for Infinite War?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Place 2 full rows of tanks upfront, 2-3 healers, Rock Throwers to spread enemy targeting, and Goddess of War to shield the Rock Throwers. Poison Masters carry early."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best heroes for Infinite War?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rock Throwers, Goddess of War, and Poison Master are S-tier. Flame Mages, Royal Archers, Forest Scouts, and Oracles are A-tier."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why are Rock Throwers good in Infinite War?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rock Throwers have 8 individual units that each demand a separate enemy target. This spreads incoming damage across all 8 units instead of concentrating it on one."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many Infinite War battles should I do daily?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always complete your 3 free daily runs. Extra runs cost gems and are not recommended."
+        }
+      }
+    ]
+  },
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Infinite War Guide — Endless Mode Tips",
-    "description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
-    "datePublished": "2026-06-01",
+    "description": "Master Infinite War in War Inc: Rising. Learn the optimal formation with 2 rows of tanks, Rock Throwers to spread targeting, Goddess of War shields, and best heroes for endless wave survival.",
+    "datePublished": "2026-06-13",
+    "dateModified": "2026-06-13",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

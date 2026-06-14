@@ -1,34 +1,71 @@
 {
   "slug": "war-inc-rising-clan-war-guide",
   "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
-  "title": "War Inc: Rising Clan Wars Guide — Strategy and Best Heroes",
-  "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
+  "title": "War Inc: Rising Clan Wars Guide — Strategy, Dragon Tactics and Best Heroes | War Inc: Rising Wiki",
+  "meta_description": "Master Clan Wars in War Inc: Rising. Complete guide covering schedule, dragon diplomacy, ruler system, rope-a-dope technique, best heroes, formation trials, and clan coordination strategies.",
   "type": "blog",
-  "date": "2026-06-05",
+  "date": "2026-06-13",
   "author": "War Inc Wiki Team",
+  "excerpt": "Clan Wars are the flagship mode of War Inc: Rising. This complete guide covers everything from the weekly schedule and tower capture strategy to dragon diplomacy, the Ruler system, the rope-a-dope technique, and how to coordinate with allied clans.",
   "sections": [
     {
-      "heading": "Clan Wars Overview",
-      "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans."
+      "heading": "Clan War 101 — Schedule and Basics",
+      "content": "Clan Wars start at reset on Saturday (USA time) or Sunday (rest of world). Eight teams enter a map with eight castles. Everyone starts at their castle on their color. The map starts colorless and your team claims territory as you capture.\n\nAt reset, it is a free-for-all dash for towers. Towers start gray and are captured by attacking them. Paths between towers are clearly outlined on the map. Your team claims the color of whatever position you are assigned.\n\nThe main objectives are towers (level 1-5), gates (block access to areas), the dragon (opens every 12 hours), the spider (bonus PvE objective on some maps), and your castle (your home base to defend).\n\nPoints are tracked in metals. Metals come from tower captures and holding territory. Dragon hits are heavily weighted in the scoring system and are the best source of clan points. Leaders can view activity per season through the Clan Tracker feature."
     },
     {
-      "heading": "Clan War Battle Strategy",
-      "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively."
+      "heading": "Morale — Your Attack Resource",
+      "content": "Morale is the resource you spend when attacking in Clan War. Managing morale is critical.\n\nEvery attack costs morale. Attacking with a PvP formation on a tower costs more than attacking with a dedicated tower-busting build. Dragon hits also cost morale — roughly 120 per normal hit, and around 176 if you use Necromancer.\n\nDuring Crimson Moon events, defenders lose roughly 30% more morale. This gives attackers a significant advantage and is the foundation for the rope-a-dope technique.\n\nAlways use the free Trial feature before committing real morale. You can test any tower, gate, dragon, or spider for free with zero morale cost. Click the target, open the hamburger menu, and select Trial."
     },
     {
-      "heading": "Best Heroes for Clan Wars",
-      "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase."
+      "heading": "Dragon Strategy and Diplomacy",
+      "content": "The dragon is the most valuable target in Clan War. It opens every 12 hours for a 2-hour window. Only the team holding the gate can hit the dragon, which makes gate control critical.\n\nDragon diplomacy is the key to maximizing your points. Here is how it works: work with 3-4 neighboring teams on the map. Agree on time slots — for example, 30 minutes per team. When it is your turn, take the gate and pummel the dragon for your window. When your time is up, let the next team take over.\n\nThis system avoids constant fighting over the gate and ensures everyone gets points. Not every team will cooperate — strong teams may take what they want — but most successful clans use diplomacy to share the dragon.\n\nNecromancer is the top dragon damage dealer, capable of hitting 3.6 million damage per attack. However, Necromancer costs roughly 176 morale compared to 121 for a normal hit. Pair Necromancer with Goddess of War to keep his skeletons alive longer for maximum damage output."
+    },
+    {
+      "heading": "Ruler System — Commander Unit Guide",
+      "content": "The Ruler system adds a commander unit to your Clan War formations. This is a significant power boost once you understand how it works.\n\nTo equip your Ruler, go to the Barracks, click the Ruler button at the bottom right of your formation, click Use to equip the ruler, then save the formation. You must do this for EACH formation separately.\n\nCore stones are how you get weapon fragments for your Ruler. Think of core stones like co-op troop recruitment — you spend them to get fragments. Core stone level determines fragment quality: level 1-5 mostly gives 1-star pieces, level 6-7 is the sweet spot with good odds of 2-3 star pieces, and level 8+ gives higher chances of rare fragments.\n\nUpgrading core stones has a 50% success rate. Failure may decrease your level. The recommended strategy is to get your core stone to level 6-7 before spending fragments, as this is the efficiency sweet spot.\n\nYou collect 9 pieces per weapon. Once all pieces are collected, click Activate to equip the weapon. Different star levels (1-star, 2-star, 3-star) give different power levels."
+    },
+    {
+      "heading": "Rope-a-Dope Technique — Outsmarting Opponents",
+      "content": "The rope-a-dope is an advanced PvP trick that exploits the Crimson Moon attacker advantage. Here is exactly how to do it.\n\nStep 1: An enemy approaches your tower. Step 2: Move your formation OUT of the tower. Step 3: The enemy hits the tower with their PvP formation. Step 4: Move your formation BACK into the tower. Step 5: Now YOU are the attacker, which means you have the Crimson Moon advantage. Step 6: Switch to your tower-busting build. Step 7: Attack them while they are sitting on your tower.\n\nWhy this works: Attackers have a significant advantage during Crimson Moon because defenders lose roughly 30% more morale. When the enemy hits your tower with a PvP formation (instead of a tower buster), they waste extra morale. Then you hit them back with your tower-busting build while they are stuck on defense. You effectively get a hit and a half on them for the cost of one attack."
+    },
+    {
+      "heading": "Trials — Free Formation Testing",
+      "content": "The Trial feature is one of the most underused tools in Clan War. It lets you test formations for free with zero morale cost.\n\nTo use it, click any tower, gate, dragon, or spider on the map. Click the hamburger menu (three dots), and select Trial. Your formation will attack as normal but nothing is consumed.\n\nWhat to test: How fast can you take down level 1 towers versus level 5 towers? What formation hits the dragon hardest? What composition works best against the spider? Can you tweak your formation to improve performance by 5-10%?\n\nTop players use Trials extensively to optimize their formations for each specific target. Always trial before committing real morale on attacks. The data is free and invaluable."
+    },
+    {
+      "heading": "Clan War Diplomacy and Alliances",
+      "content": "The diplomacy tab gives your clan leader tools to manage relationships on the map. Teams can be labeled as Enemy, Neutral, or Ally. Labeling an enemy turns their towers red on the map. Enemies get a notification with a silly AI-generated message. No agreement is needed from the other team — it is entirely one-sided.\n\nClan leaders can grant diplomacy permissions to other officers, allowing multiple people to manage relationships during active war.\n\nIn practice, most successful clans form informal alliances with 2-4 neighboring teams. These alliances share dragon access and avoid attacking each other unnecessarily. Four-versus-four map dynamics emerge when teams form alliances, creating strategic depth beyond simple free-for-alls."
+    },
+    {
+      "heading": "Clan Mergers and Recruitment",
+      "content": "The War Inc: Rising clan scene is dynamic, with teams regularly merging and reforming. Heretic Sanctuary, currently ranked 7 in arena and top 10 overall, formed from a merger between Heretic Sanctuary and Eternal Crusaders after Mortal Crowns dissolved.\n\nSeveral large teams have dissolved or combined recently, including Kpop and RLK. Some long-standing players are stepping down or quitting entirely. This creates opportunities for active players to join top teams.\n\nHeretic Sanctuary is always looking for active players of any size. They maintain an organized Discord with war hall, announcements, and a diplomacy board. Their philosophy is \"life first, family first\" — they expect activity and responsiveness during war but respect real-life commitments.\n\nWhen looking for a clan, prioritize activity level and communication over raw power. A coordinated team of moderate players will outperform a silent team of whales every time."
+    },
+    {
+      "heading": "Best Heroes for Clan War",
+      "content": "Clan War requires versatile heroes that perform well in multiple scenarios — tower busting, dragon killing, and PvP defense.\n\nNecromancer is the top dragon damage dealer. His skeleton swarms deal massive damage, especially when paired with Goddess of War shields. However, he costs more morale per dragon hit.\n\nRadiant Warrior is essential for holding towers. His shield and massive HP make him the best defensive unit in the game. Keep two copies at the same level.\n\nFrost Queen dominates both offense and defense with her AoE damage. She clears enemy formations on towers and defends against pushes.\n\nLight Seeker is the top PvP unit. His Holy Wash ability heals him and damages enemies when his HP drops below 50%, making him incredibly difficult to dislodge from towers.\n\nGoddess of War fits into almost every Clan War formation. Her shield protects key units and keeps Necromancer skeletons alive on dragon hits."
     }
   ],
-  "preview": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you wit...",
+  "preview": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power...",
   "related_heroes": [
     {
-      "name": "Archer",
-      "slug": "archer"
+      "name": "Necromancer",
+      "slug": "necromancer"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
     },
     {
       "name": "Frost Queen",
       "slug": "frost-queen"
+    },
+    {
+      "name": "Light Seeker",
+      "slug": "light-seeker"
+    },
+    {
+      "name": "Goddess of War",
+      "slug": "goddess-of-war"
     },
     {
       "name": "Mist Archer",
@@ -37,19 +74,62 @@
     {
       "name": "Tide Lord",
       "slug": "tide-lord"
-    },
-    {
-      "name": "Light Seeker",
-      "slug": "light-seeker"
     }
   ],
-  "word_count": 146,
+  "word_count": 2150,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When do Clan Wars start in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clan Wars start at reset on Saturday (USA time) or Sunday (rest of world). Eight teams compete on a map with eight castles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Rope-a-Dope technique in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Move your formation out of your tower when an enemy approaches. Let them hit the tower with their PvP formation (wasting morale). Move back in and attack them as the attacker, giving you the Crimson Moon advantage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the Ruler system work in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Ruler is a commander unit for Clan War formations. Equip via Barracks. Use core stones to get weapon fragments. Level 6-7 core stones are the sweet spot for efficiency. Collect 9 pieces to activate a weapon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best hero for dragon damage in Clan War?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Necromancer deals the highest dragon damage (up to 3.6 million per hit), but costs more morale. Pair with Goddess of War for maximum effectiveness."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I test formations without spending morale in Clan War?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Use the Trial feature by clicking any tower, gate, dragon, or spider, opening the hamburger menu, and selecting Trial. Hits are completely free with no morale cost."
+        }
+      }
+    ]
+  },
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
-    "description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
-    "datePublished": "2026-06-05",
+    "description": "Master Clan Wars in War Inc: Rising. Complete guide covering schedule, dragon diplomacy, ruler system, rope-a-dope technique, best heroes, formation trials, and clan coordination strategies.",
+    "datePublished": "2026-06-13",
+    "dateModified": "2026-06-13",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

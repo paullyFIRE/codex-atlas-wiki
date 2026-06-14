@@ -1,43 +1,135 @@
 {
   "slug": "war-inc-rising-gem-spending-guide",
   "name": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
-  "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization",
-  "meta_description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
+  "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization | War Inc: Rising Wiki",
+  "meta_description": "Complete War Inc: Rising gem spending guide. Learn Wheel vs Card Master math, forge stone priority, best real-money purchases, and what to never waste gems on. Updated for the current meta.",
   "type": "blog",
-  "date": "2026-04-01",
+  "date": "2026-06-13",
   "author": "War Inc Wiki Team",
+  "excerpt": "Your gems are the most valuable resource in War Inc: Rising. This guide covers exactly what to spend them on, what to skip, the Wheel vs Card Master math, forge stone priority, and how to get bombs without spending a single gem.",
   "sections": [
     {
-      "heading": "Your First 10,000 Gems",
-      "content": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early — get your core team first, then chase specific heroes. Save 500 gems for energy refills during events that offer Mythic shards."
+      "heading": "Best Value Real-Money Purchases",
+      "content": "If you are spending real money on War Inc: Rising, these are the purchases that give you the best gem-per-dollar value.\n\nThe 30-Day Premium Pass at $15/month is the best value in the game. You get 2,000 gems immediately plus 320 gems per day. That is roughly $0.50 per day for a steady gem income. The Basic 30-Day Pass at $5/month gives 600 upfront plus 100 per day.\n\nThe Season Pass / Battle Pass at roughly $10 every 2 weeks is essential for active players. You get gems plus exclusive rewards like mythic shards, forge stones, and scrolls.\n\nGrowth Packs at $1 to $2 per level give a mythic troop each time. These are excellent value for building your mythic roster early.\n\nThe recommended baseline for light spenders is the $15/month 30-Day Premium Pass plus the Battle Pass when active."
     },
     {
-      "heading": "Permanent Summon vs Limited Summon",
-      "content": "Permanent Summon is better for consistent long-term value. It guarantees progress toward your next Legendary or Mythic. Limited Summon offers higher rates for specific heroes but resets your pity counter if you don't pull. The optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring top-tier Mythics."
+      "heading": "The Wheel — Your Best Gem Sink",
+      "content": "The Wheel is the most efficient way to spend gems in War Inc: Rising. Each spin costs gems, and you get guaranteed mythic rewards at milestone chests.\n\nWheel pull rates are roughly 4% per spin for a mythic (about 1 in 25 spins), 15% for legendary, and the rest are epic, rare, and coins.\n\nThe key to efficient wheel spending is stopping at milestone chests. The recommended stop points are:\n- 10 pulls: first milestone chest\n- 30 pulls: second chest with better rewards\n- 50 pulls: significant reward tier with forge stones\n- 100 pulls: guaranteed mythic plus extra rewards\n\nStopping at these milestones keeps your cost per mythic lower because you are getting guaranteed pieces rather than relying entirely on RNG. Never spin past a milestone unless you plan to go to the next one."
     },
     {
-      "heading": "Energy Refills — When and When Not",
-      "content": "Energy refills (50 gems) are worth it during events with Mythic shard rewards, double-drop campaigns, or when farming Forge Stones. Avoid energy refills for normal farming. The daily free energy and event claim rewards are usually sufficient for baseline progression."
+      "heading": "Card Master — Secondary Option",
+      "content": "Card Master is a solid alternative to the Wheel, especially when the featured mythic rotation includes troops you need.\n\nHere is the detailed cost breakdown. Card Master costs roughly 250 gems per pull. Each draw gives a random card from a pool of 12, and you draw without replacement. That means 1 in 12 cards is the featured mythic. On average it takes 6.5 picks to get the specific mythic you want.\n\nTo take a mythic to level 6 you need 32 copies. At 6.5 picks per mythic, that is roughly 208 total picks. At 250 gems per pick, the raw cost is around 52,000 gems. However, chest rewards every 10 pulls reduce this significantly.\n\nOriginal community consensus was that Card Master is \"absolute garbage\" compared to the Wheel. But detailed analysis using probability models showed it is actually comparable when you factor in chest rewards. Card Master is not significantly more expensive than the Wheel."
     },
     {
-      "heading": "Common Gem Mistakes",
-      "content": "Don't spend gems on speeding up building construction — time is free. Don't buy resources (gold, wood) from the shop with gems — they're poor value. Don't refresh daily missions with gems — the return is minimal. Don't spend gems on random hero shards in the shop — targeted summoning is more efficient."
+      "heading": "Wheel vs Card Master — Which Is Better?",
+      "content": "Here is the head-to-head comparison based on detailed number crunching from the community.\n\nWheel math: You get roughly 1 mythic per 25 spins on average. For 32 mythics to reach level 6, that is about 800 spins. Milestone chests at 10, 30, 50, and 100 give guaranteed mythics plus forge stones along the way. Stopping at chest milestones lowers your effective cost per mythic.\n\nCard Master math: Average 6.5 picks per featured mythic. 32 mythics for level 6 means roughly 208 picks. At 250 gems per pick that is 52,000 raw gems, but chest rewards every 10 pulls cut this cost.\n\nBottom line: Both are viable. The Wheel at milestone chests is slightly more efficient. Card Master is fine when there are good troops in the rotation. Use both depending on what is available. The Wheel should be your primary sink, but do not ignore Card Master when a top-tier mythic like Radiant Warrior or Frost Queen is featured."
+    },
+    {
+      "heading": "Fusion Guide — What Changed and Why",
+      "content": "Fusion advice has changed significantly. The old guide recommended spending gems on fusion. The updated community consensus reverses this completely.\n\nOld recommendation: Fusion is a good way to spend gems for progression.\nNew recommendation: DO NOT spend gems on fusion. Only use gold.\n\nWhy the change? New mythics at level 4 are huge power spikes worth saving for. The Wheel and Card Master give you good epics and legendaries anyway. The Battle Pass, daily rewards, and Infinite War give enough epics naturally. Fusion is only worth a small gem investment if you need specific castle level requirements that demand owning certain level 5+ legendaries.\n\nFuse uncommons and commons regularly using gold. The fusion ladder goes Common → Uncommon → Rare → Epic → Legendary → Mythic. Fusing at the common-uncommon-rare levels costs only gold and is absolutely worth doing."
+    },
+    {
+      "heading": "How to Get Bombs Without Spending Gems",
+      "content": "Bombs are dominant in the 2,500-5,000 trophy range. They are suicide units that deal massive AoE damage on death. Here is how to get them for zero gems.\n\nFusion of uncommons is the cheapest method. Fuse 3 level 6 uncommon troops together and you get a random level 6 rare. This rare can be a Bomb. The cost is only gold. Repeat this process with your gold reserves to build up multiple Bombs.\n\nThe math: fusion uncommons at level 6, costs only gold, gives you a chance at Bombs plus other useful rares. This is the most efficient way to acquire Bombs in the game.\n\nBombs sometimes appear on the Wheel but not every wheel rotation. Do not specifically chase them on the Wheel unless they are the featured mythic."
+    },
+    {
+      "heading": "Forge Stone Priority — Where to Spend Them",
+      "content": "Forge stones are the biggest bottleneck in the game. Spend them wisely on these troops in priority order.\n\n1. Ursa (legendary) — Make 2 to 4 level 7 Ursas. They are the best forge stone investment in the game.\n\n2. Elven Archer (legendary) — Same priority as Ursa. Level 7 Elven Archers pump out massive damage.\n\n3. Bone Gunner — Pumps serious damage at level 6 and above.\n\n4. Epics you use everywhere — Oracles (pound-for-pound best epic in the game), Flame Mages (essential for clan war and hunting), and Poison Masters.\n\nCost to get a level 8 epic from rares requires roughly 576 forge stones total. You need to get two rares to level 8 (288 stones each) and fuse them into a random level 8 epic. The result is random but all epics are usable.\n\nCost to get a level 9 rare from level 6 is roughly 1,056 forge stones total. The best level 9 rares are Forest Scouts, Shove Boy, and Bombs."
+    },
+    {
+      "heading": "Forge Stone Discount Events",
+      "content": "The game periodically runs forge stone discount events. Watch for these to maximize your investment.\n\nDiscount events give 15% off on level 7 and above upgrades. They usually run for 7-day windows. Recent examples include the Valentine's event and special weekend promotions.\n\nAlways check the official Discord for announcements about upcoming discount events. The game tends to run these on a regular schedule. Time your big forge stone upgrades to coincide with these events to save significant resources.\n\nAlso note that the game has permanently reduced forge stone costs. Commons at level 7 went from 320 stones down to 32 stones — a 90% reduction. Rares also got roughly 90% cost reductions across the board. Epics at level 7 went from 960 to 700 stones. These permanent reductions make forge stone investment much more accessible than it was at launch."
+    },
+    {
+      "heading": "What NOT to Spend Gems On",
+      "content": "Avoiding bad gem purchases is critical. Here is the complete do-not-spend list.\n\nExtra Infinite War battles are 99% worthless unless you are competing for the very top of the leaderboard. The 3 free daily battles are enough.\n\nExtra Hunting battles have the same problem. Three free per day is sufficient.\n\nRecruitment and summoning with gems is poor value. Use gold and scrolls instead.\n\nFusion with gems is now considered outdated advice. Only use gold for fusion.\n\nSpeed-ups for building construction are a trap. Time is free.\n\nShop resources like gold and wood bought with gems are terrible value.\n\nRefreshing daily missions with gems gives minimal returns.\n\nRandom hero shards in the shop are not worth it. Targeted summoning through the Wheel and Card Master is more efficient.\n\nNon-mythic wheels should be completely ignored. Only spin wheels that feature the mythic troops you actually need."
+    },
+    {
+      "heading": "Your Complete Gem Spending Strategy",
+      "content": "Here is the bottom line on how to manage your gems from day one through endgame.\n\nDaily gem income comes from castle collection, daily quests, events, and the 30-day pass if you buy it. Spend your gems primarily on the Wheel, stopping at milestone chests. Use Card Master when the featured mythic rotation is strong.\n\nForge stones are your secondary priority — save them for Ursa, Elven Archer, and your core epics. Never use gems for fusion, extra battles, or speed-ups.\n\nA good monthly budget looks like this: 60-70% of gems on the Wheel, 20-30% on Card Master for specific mythics, and 10% reserve for special events or Dragon Clash. This gives you steady mythic acquisition while maintaining flexibility for limited-time opportunities.\n\nThe most important rule: save your gems for the things that matter. Wheel and Card Master are the only reliable paths to mythic troops. Everything else is a distraction."
     }
   ],
-  "preview": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early ...",
+  "preview": "The Wheel is the best gem sink. Each spin costs gems, with guaranteed mythic rewards at milestone chests...",
   "related_heroes": [
     {
-      "name": "Camp",
-      "slug": "camp"
+      "name": "Ursa",
+      "slug": "ursa"
+    },
+    {
+      "name": "Elven Archer",
+      "slug": "elven-archer"
+    },
+    {
+      "name": "Oracles",
+      "slug": "oracle"
+    },
+    {
+      "name": "Flame Mage",
+      "slug": "flame-mage"
+    },
+    {
+      "name": "Bomber",
+      "slug": "bomber"
+    },
+    {
+      "name": "Bone Gunner",
+      "slug": "bone-gunner"
     }
   ],
-  "word_count": 201,
+  "word_count": 2120,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Should I spend gems on the Wheel or Card Master in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Wheel is slightly better, especially when you stop at milestone chests (10, 30, 50, 100 pulls). Card Master is comparable when factoring chest rewards. Use both depending on available mythic rotations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is fusion worth it in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only with gold, never with gems. Fuse uncommons and commons using gold for a chance at Bombs. Using gems on fusion is outdated advice from an older game version."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best troop to spend forge stones on?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ursa and Elven Archer are the top priorities for forge stones. Make 2-4 level 7 Ursas and Elven Archers first, then invest in Oracles, Flame Mages, and Poison Masters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get Bombs in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cheapest way is fusing 3 level 6 uncommon troops together using gold. This gives a random level 6 rare that can be a Bomb. It costs zero gems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I never spend gems on in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never spend gems on extra battles (Infinite War, Hunting), fusion, speed-ups, shop resources, recruitment, or non-mythic wheels. Save gems exclusively for the Wheel and Card Master."
+        }
+      }
+    ]
+  },
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Gem Spending Guide — Best Value for Your Gems",
-    "description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
-    "datePublished": "2026-04-01",
+    "description": "Complete War Inc: Rising gem spending guide. Learn Wheel vs Card Master math, forge stone priority, best real-money purchases, and what to never waste gems on.",
+    "datePublished": "2026-06-13",
+    "dateModified": "2026-06-13",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

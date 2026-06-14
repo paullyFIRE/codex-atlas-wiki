@@ -34,6 +34,15 @@ const tierOrder = ["S", "A", "B", "C", "D", "F"];
 
 <BaseLayout title={pageData.title} description={pageData.meta_description} currentSection="guides">
   <script type="application/ld+json" set:html={JSON.stringify(pageData.schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://war-inc-rising.codex-atlas.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Tier Lists", "item": "https://war-inc-rising.codex-atlas.com/tier-lists/" },
+      { "@type": "ListItem", "position": 3, "name": pageData.name }
+    ]
+  })} />
 
   <nav class="flex items-center gap-2 text-label-md font-bold text-on-surface-variant mb-8 uppercase tracking-wider">
     <a href="/" class="hover:text-primary no-underline">Home</a>

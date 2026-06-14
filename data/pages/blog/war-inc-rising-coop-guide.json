@@ -1,35 +1,40 @@
 {
   "slug": "war-inc-rising-coop-guide",
   "name": "War Inc: Rising Co-Op Guide — Best Heroes and Strategies for Level 80+",
-  "title": "War Inc: Rising Co-Op Guide — Best Heroes, Strategy and Rewards",
-  "meta_description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
+  "title": "War Inc: Rising Co-Op Guide — Best Heroes, Mine Strategy and Dice Rolling | War Inc: Rising Wiki",
+  "meta_description": "Master Co-Op mode in War Inc: Rising. Learn the mine-first strategy, dice rolling tactics, best hero picks, card coordination with your partner, and how to reach level 80+ consistently.",
   "type": "blog",
-  "date": "2026-02-10",
+  "date": "2026-06-13",
   "author": "War Inc Wiki Team",
+  "excerpt": "Co-Op mode rewards smart resource management over raw power. This guide covers the mine-first strategy, dice rolling tactics, optimal gold mine level, card coordination, and the best heroes for reaching level 80+.",
   "sections": [
     {
       "heading": "Co-Op Mode Overview",
-      "content": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and rare hero shards. Reaching higher levels requires both players to understand the optimal strategy."
+      "content": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Unlike PvP modes, Co-Op rewards smart resource management and team coordination over raw combat power.\n\nThe mode uses its own economy system. You earn Silver Coins (spent on mine upgrades and recruitment) and Gold (spent on dice rolls). Both players share the same battlefield and work together to survive as many waves as possible. Reaching higher levels requires both players to understand the optimal resource strategy.\n\nDifficulty ramps significantly after wave 50. To consistently reach level 80 and beyond, you need a coordinated approach to mine upgrades, recruitment, and dice rolling."
+    },
+    {
+      "heading": "The Mine-First Strategy",
+      "content": "The most important strategic decision in Co-Op is how you spend your Silver Coins. The community consensus is clear: prioritize Mine upgrades over Recruit Chance in the early game.\n\nWhy mine-first works: Mine upgrades provide compounding returns as the game progresses. Every point in the mine generates more Silver Coins over time, which lets you recruit more troops later. Going recruit-first gives you a short-term power spike but runs out of steam by wave 40-50.\n\nKeep your Gold Mine at level 5 as a baseline. Level 5 is the commonly recommended sweet spot that balances cost against return. Once the mine is established, you can start investing in recruitment.\n\nYour early game economy loop: mine generates silver coins, silver coins go back into more mine upgrades, and when the mine is high enough, you start flooding recruitment to build your army."
+    },
+    {
+      "heading": "Dice Rolling Strategy",
+      "content": "Use your Gold exclusively for rolling the Dice. The dice map upgrades can give significant rewards including +100 Silver Coins, +60 Gold, and even Legendary minions.\n\nRoll the dice consistently every time you have gold. Do not hoard gold waiting for a perfect roll. The rewards from dice map upgrades scale as you progress, making early and consistent rolling the optimal strategy.\n\nDice rewards compound with your mine upgrades. Higher mine level means more silver coins per wave, which funds more recruitment, which builds a stronger army for the late waves. The two systems feed each other."
     },
     {
       "heading": "Best Heroes for Co-Op",
-      "content": "Top-tier Co-Op heroes excel at sustained damage and survival. Mist Archer provides consistent ranged DPS with stealth mechanics. Venospore Killer applies powerful damage-over-time. Flame Duelist delivers combo attacks. Nine-Tailed Fox offers burst damage. Melody Weaver provides crucial buffs to your partner's team as well. Oracle's aura buffs at level 7 cover extensive battlefield area."
+      "content": "Top-tier Co-Op heroes excel at sustained damage and survival rather than burst damage.\n\nMist Archer provides consistent ranged DPS with stealth mechanics that keep her alive. Venospore Killer applies powerful damage-over-time that racks up over long waves. Flame Duelist delivers reliable combo attacks. Nine-Tailed Fox offers burst damage for clearing dangerous waves. Melody Weaver provides crucial buffs that affect both your troops and your partner's.\n\nOracles are essential. Their attack buff at level 7 covers extensive battlefield area. Stack as many Oracles as possible for the stacking 4% attack buff per unit.\n\nFor reaching max level, you need high-level Mythic heroes. Balance between damage-dealing Mythics and buff-providing Mythics. Both players should have at least one strong Mythic for the later waves."
     },
     {
-      "heading": "The Mine Upgrade Strategy",
-      "content": "To reach level 80+ in Co-Op, focus your Silver Coins on Mine upgrades over Recruit Chance early on. Mine upgrades provide compounding returns as the game progresses. Use Gold to roll the Dice consistently — dice map upgrades can give +100 Silver Coins, +60 Gold, and even Legendary minions. Balance between damage-dealing and buff-providing Mythics for optimal performance."
+      "heading": "Card Coordination with Your Partner",
+      "content": "One of the most important but overlooked aspects of Co-Op is card selection. Both players see the same cards, and you should pick DIFFERENT cards from your partner.\n\nIf you both pick the same card, you are halving your potential unit diversity. Coordinate who picks what. One player takes the tank options, the other takes the damage options. This gives your combined army a much wider roster.\n\nPlaying with a clanmate is strongly recommended. Voice chat or Discord coordination makes card selection, resource management, and wave strategy much smoother. With a random partner, you may end up with overlapping rosters and poor synergy."
     },
     {
-      "heading": "Team Coordination Tips",
-      "content": "Communicate with your partner before the match starts. Agree on who will focus on mine upgrades and who will recruit. Share resource generation — one player builds economy while the other builds military strength. Both players should have at least one high-level Mythic hero for the later waves. Don't panic if early waves feel easy — the difficulty ramps significantly after wave 50."
+      "heading": "Progression Path and Wave Strategy",
+      "content": "Early waves (1-30): Focus entirely on economy. Prioritize mine upgrades, roll dice whenever possible, and recruit only essential troops. Do not worry about your army composition yet.\n\nMid waves (30-60): Your economy should be established. Start building your army in earnest. Coordinate with your partner to ensure you have tanks, damage dealers, and support. The difficulty starts ramping.\n\nLate waves (60-80+): Your full army should be online. Focus on positioning and formation. Keep your best damage dealers protected behind tank lines. Use any remaining resources to fill gaps in your roster.\n\nIf early waves feel easy, do not be fooled. The difficulty ramps significantly after wave 50. Everything that worked in the first 40 waves stops working around wave 60. Plan your army for the late game, not the early game."
     }
   ],
-  "preview": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and r...",
+  "preview": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and rare hero shards...",
   "related_heroes": [
-    {
-      "name": "Archer",
-      "slug": "archer"
-    },
     {
       "name": "Oracle",
       "slug": "oracle"
@@ -53,15 +58,58 @@
     {
       "name": "Venospore Killer",
       "slug": "venospore-killer"
+    },
+    {
+      "name": "Poison Master",
+      "slug": "poison-master"
     }
   ],
-  "word_count": 221,
+  "word_count": 1650,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Should I upgrade the mine or recruit first in Co-Op mode?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prioritize Mine upgrades over Recruit Chance early on. Mine upgrades provide compounding returns that let you recruit more later. A level 5 gold mine is the recommended baseline."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I reach level 80 in Co-Op mode?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Focus on mine upgrades early, roll dice consistently with gold, coordinate card picks with your partner, and balance damage-dealing Mythics with buff-providing Mythics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best heroes for Co-Op in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mist Archer, Venospore Killer, Flame Duelist, Nine-Tailed Fox, and Melody Weaver are top picks. Oracles are essential for their stacking attack buff."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I play Co-Op with a clanmate or random?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Playing with a clanmate is strongly recommended for voice chat coordination on card picks and resource management."
+        }
+      }
+    ]
+  },
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Co-Op Guide — Best Heroes and Strategies for Level 80+",
-    "description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
-    "datePublished": "2026-02-10",
+    "description": "Master Co-Op mode in War Inc: Rising. Learn the mine-first strategy, dice rolling tactics, best hero picks, card coordination with your partner, and how to reach level 80+ consistently.",
+    "datePublished": "2026-06-13",
+    "dateModified": "2026-06-13",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"
