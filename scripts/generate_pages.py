@@ -160,12 +160,37 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
     defense = lv1.get("1080", "-")
     speed = lv1.get("1100", "-")
 
-    # Meta description
+    # Meta description - compelling hook to drive CTR
+    hooks = {
+        1: "stats per level, skills analysis and strategy guide for",
+        4: "building stats, upgrade costs and strategy guide for",
+        5: "special entity stats, mechanics and strategy guide for",
+    }
+    hook = hooks.get(unit_type, "guide for")
+    power_str = f" Combat power {combat_power}." if isinstance(combat_power, (int, float)) and combat_power > 0 else ""
     meta_desc = (
-        f"Learn about {name} in War Inc: Rising. "
-        f"{rarity_name} {prof_name} unit costing {cost}. "
-        f"HP {hp}, ATK {atk}, DEF {defense} per level, skills, and best game modes."
+        f"{name} is a {rarity_name.lower()} {prof_name.lower()} in War Inc: Rising. "
+        f"Complete {hook} {name} — HP {hp}, ATK {atk}, DEF {defense}, {power_str}"
+        f" skills, best formations and game mode performance."
     )
+    if unit_type == 1 and rarity_name == "Common":
+        meta_desc = (
+            f"Is {name} worth using in War Inc: Rising? Complete guide for this "
+            f"{rarity_name.lower()} {prof_name.lower()} — HP {hp}, ATK {atk}, DEF {defense},"
+            f" skills and whether to invest resources."
+        )
+    if unit_type == 1 and rarity_name == "Rare":
+        meta_desc = (
+            f"{name} rare troop guide for War Inc: Rising. "
+            f"HP {hp}, ATK {atk}, DEF {defense}, skills per level, best game modes "
+            f"and forge stone investment analysis."
+        )
+    if unit_type == 1 and rarity_name in ("Epic", "Legendary", "Mythic"):
+        meta_desc = (
+            f"{name} — {rarity_name} {prof_name} guide for War Inc: Rising. "
+            f"Complete stats, skills breakdown, best formations and "
+            f"{'forge stone priority' if rarity_name in ('Epic', 'Legendary') else 'team synergies'}."
+        )
 
     # Title
     title_suffix = {
