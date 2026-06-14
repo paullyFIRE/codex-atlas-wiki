@@ -2,12 +2,16 @@
   "slug": "war-inc-rising-beginner-guide",
   "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
   "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression | War Inc: Rising Wiki",
-  "meta_description": "New to War Inc: Rising? This complete beginner guide covers daily routine, building priority, gem spending, 16 mistakes to avoid, and a week-by-week progression path to level up fast.",
+  "meta_description": "New to War Inc: Rising? This complete beginner guide covers account setup, auto-display team building, castle grid expansion, fusion basics, daily routine, gem strategy, and a week-by-week progression path.",
   "type": "blog",
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "author": "War Inc Wiki Team",
-  "excerpt": "Everything you need to know as a new player — from daily routine and building priority to gem spending, common mistakes, and a full progression roadmap covering your first week through month 3+.",
+  "excerpt": "Everything you need to know as a new player — from account setup and auto-display team building to castle grid expansion, fusion basics, gem strategy, and a full progression roadmap covering your first week through month 3+.",
   "sections": [
+    {
+      "heading": "Account Setup — Do This Before Anything Else",
+      "content": "Before you play a single battle, take 30 seconds to secure your account.\n\nLink your account to 89 Trillion (the parent company), Facebook, or Google Play. Go to Settings and connect one of these. If you ever lose your phone, uninstall the game, or switch devices, this is the only way to recover your account. The developers cannot restore unlinked accounts.\n\nSet your nickname. Unlike many games, War Inc: Rising lets you change your name for free an unlimited number of times. Pick something temporary and change it later if you want.\n\nEnter an invite code. Go to the invite section and enter another player's code. This gives you 100 free gems immediately. You can find codes in the official Discord or from guild recruitment posts. This works even if you created your account weeks ago.\n\nThese three steps take two minutes and save months of progress if something goes wrong."
+    },
     {
       "heading": "Your Daily Routine in War Inc: Rising",
       "content": "Building good daily habits is the fastest way to progress. The game resets every day at 5PM Mountain / 7PM Eastern / Midnight GMT. Here is exactly what to do each day.\n\nStep 1: Collect your buildings. Open the building icon (bottom left) and collect from your Gold Mine (gold), Sawmill (wood), extra wood building, and Castle (gems). Start your next upgrade immediately — always prioritize the Castle.\n\nStep 2: Complete daily quests. You get 5 quests per day with 24 hours to complete them. You also get 3 resets per day if a quest requires troops you don't have. Don't forget weekly and seasonal quests (2-4 week duration) for bigger rewards.\n\nStep 3: Use your free battles. You get 3 free Hunting battles and 3 free Infinite War battles per day. Using gems for extra battles is almost never worth it unless you are competing for top leaderboard positions.\n\nStep 4: Collect free stuff. Claim free items from the shop, check the events tab for limited-time rewards, and sign in daily for event rewards like scrolls, chests, and even Frost Queen shards."
@@ -17,12 +21,24 @@
       "content": "Your buildings determine your passive income and troop power. Upgrade them in this exact order for maximum efficiency.\n\n1. Castle (Command Center) — Your absolute top priority. Spend ALL your wood on upgrading the castle. Each level gives +50 troop energy, which is massive. One castle level is worth roughly 10 dragons' worth of power.\n\n2. Spell Cauldron — Unlocks at certain castle levels. Provides spell capacity for battle.\n\n3. Gold Mine — Passive gold income. Gold is essential for recruitment and dice rolling in co-op. Keep it at a reasonable level.\n\n4. Sawmill — Produces wood for castle upgrades. Only upgrade enough to keep castle construction going.\n\n5. Follower Camp — Lowest priority. Leave it at level 1 until you have everything else maxed.\n\nDaily building routine: Collect everything, start your next castle upgrade, then queue other buildings. Castle first, always."
     },
     {
+      "heading": "How to Build a Team — The Auto-Display Feature",
+      "content": "New players often struggle with team building because they do not know which troops work well together. War Inc: Rising has a built-in solution called Auto-Display.\n\nAuto-Display is located on the team setup screen. It automatically arranges your best troops into a formation based on a preset strategy. There are three modes to choose from.\n\nBalanced Power distributes your troops evenly between defense, attack, and support. This is the best all-purpose mode for campaign, co-op, and general PvE.\n\nPower First puts minimal resources into defense and everything else into damage. This mode wins faster but also loses faster. Good for quick battles where you outrank the enemy.\n\nSolid Fortress builds a strong defensive line first, then fills the remaining slots with damage. This is the safest mode for PvP and arena where you need to survive the first wave.\n\nAuto-Display also has community-made templates. These are player-created formations that the community has upvoted. You can browse templates ranked by level and see which ones fit the troops you own. The game highlights which troops will be placed and which are missing.\n\nAuto-Display is not optimal for high-level play, but for your first few weeks it is perfectly adequate. Focus on learning the game mechanics and building your roster. Worry about custom formations once you understand why Auto-Display makes the choices it does."
+    },
+    {
+      "heading": "Understanding the Castle (Command Center)",
+      "content": "The Castle is the building in the center of your base. It unlocks at player level 61 and starts at level 1. It is the single most important upgrade in the entire game.\n\nThe castle determines your battle grid size. At level 1 you have a tiny 3×3 grid (9 troop slots). Level 2 expands to 4×4. Level 3 keeps 4×4. Level 4 expands to 5×4. At level 5 you reach 7×6 — a full 42 troop slots. More slots means more troops deployed, more synergies activated, and more combat power.\n\nThe castle also determines your energy cap. Every troop costs energy to deploy. A stronger troop costs more energy. Higher castle level = higher energy cap = room for stronger troops.\n\nYour castle generates passive gems. At level 5 it stores up to 100 gems and fills in roughly 10 hours. Collect three times per day (morning, afternoon, before bed) for 240 free gems daily. This is completely passive income — no battles required.\n\nEvery piece of wood you earn should go toward castle upgrades until it reaches level 5. Do not spend wood on other buildings unless the castle upgrade specifically requires them."
+    },
+    {
+      "heading": "Wood Management — The Scarcest Resource",
+      "content": "Wood is the bottleneck of early progression. You need massive amounts of wood for castle upgrades, but the early game gives you very little.\n\nStory mode (campaign levels) gives 30 to 50 wood per battle. You also need 3 stars on the level to earn the wood. This is painfully slow.\n\nCo-op mode gives 300 to 600 wood per match. This is 10x more efficient than story mode. Playing co-op daily should be your primary wood source from day one.\n\nThe rule for wood: only spend it on castle upgrades. If the castle requires a sawmill upgrade, upgrade the sawmill. If it requires a mine upgrade, upgrade the mine. If nothing is blocking the castle, save the wood for the next castle level. Do not upgrade other buildings for fun — every piece of wood spent on non-castle buildings delays your grid expansion.\n\nWith consistent co-op grinding, you can reach castle level 5 in less than a month."
+    },
+    {
       "heading": "Gem Spending Guide — What to Spend Your Gems On",
       "content": "Gems are the most valuable currency in War Inc: Rising. Spending them wisely makes or breaks your account progression.\n\nThe Wheel is your best gem value. Stop at milestone chests (10, 30, 50, 100 pulls) to keep your cost per mythic low. Card Master is also good — roughly 250 gems per pull with a 1 in 12 chance for the featured mythic. On average it takes 6.5 picks to get the specific mythic you want.\n\nIf you spend real money, the 30-Day Premium Pass ($15/month) is the best value at 2,000 gems upfront plus 320 gems per day. The Battle Pass ($10 every 2 weeks) is also solid. Growth Packs ($1 to $2) each give a mythic troop and are excellent value for light spenders.\n\nSave your gems for good mythic rotations on the Wheel and Card Master. Do not spend gems on extra battles, fusion, or regular recruitment."
     },
     {
       "heading": "Gem Spending — What NOT to Waste Gems On",
-      "content": "Avoiding bad gem purchases is just as important as making good ones. Here is what to never spend gems on.\n\nExtra Infinite War and Hunting battles are a trap. The 3 free daily battles are enough. Extra battles cost gems and give minimal returns unless you are a top-tier player.\n\nFusion with gems is outdated advice. The old guide recommended gem fusion but the updated community consensus is clear: only use gold for fusion. Never spend gems on it.\n\nDo not use gems for regular recruitment or summoning. Use gold and scrolls for this instead.\n\nAvoid non-mythic wheels entirely. Only spin wheels that feature the mythic troops you need.\n\nSpeed-ups and building resources bought with gems are terrible value. Time is free — let buildings complete naturally."
+      "content": "Avoiding bad gem purchases is just as important as making good ones. Here is what to never spend gems on.\n\nExtra Infinite War and Hunting battles are a trap. The 3 free daily battles are enough. Extra battles cost gems and give minimal returns unless you are a top-tier player.\n\nFusion with gems is a nuanced topic. For low-tier fusion (common to epic) you should only use gold — never gems. However, the legendary-to-mystic fusion at 450 gems is actually the most gem-efficient way to get mystic heroes in the game. At 450 gems per guaranteed mystic, it costs half of what the Wheel averages. The key is that the 7 fusion mystics are not the same as the top-tier Wheel mystics — they are solid but not S-tier. Use gem fusion to build your initial roster, then switch to the Wheel for top-tier heroes once you have a foundation.\n\nDo not use gems for regular recruitment or summoning. Use gold and scrolls for this instead.\n\nAvoid non-mythic wheels entirely. Only spin wheels that feature the mythic troops you need.\n\nSpeed-ups and building resources bought with gems are terrible value. Time is free — let buildings complete naturally."
     },
     {
       "heading": "Early Game Priorities — Your First Month",
@@ -43,6 +59,10 @@
     {
       "heading": "Progression Path — Week by Week",
       "content": "Week 1-2: Focus entirely on castle upgrades. Complete all daily quests. Save your gems — do not spend them yet. Start collecting Oracles and Poison Masters as your core team.\n\nWeek 3-4: Start using gems on the Wheel when good mythic rotations appear. Build up Bombs through uncommon fusion with gold. Join an active clan — look for clans on the official Discord. Begin co-op grinding with a partner.\n\nMonth 2: Target specific mythics like Radiant Warrior and Frost Queen. Push to 2,500-5,000 trophies where Bombs dominate. Participate in clan war to learn the basics. Join Dragon Clash events when they run.\n\nMonth 3+: Level 7 your best epics and legendaries with forge stones. Enter the Ruler system for clan war. Build multiple S-tier mythics to level 4+. Aim for top 1,000 in arena. Get active in clan leadership and diplomacy."
+    },
+    {
+      "heading": "Understanding RNG — Why Results Vary",
+      "content": "War Inc: Rising is heavily driven by RNG (random number generation). Most hero skills have a percentage chance to activate, not a guarantee. Understanding this explains why the same team can win one match and lose the next.\n\nExample: The Artillery Gunner (a mystic hero) has a skill with 12% chance to activate per attack. When it procs, it deals 180% AoE damage and increases attack and attack speed by 30%. This buff stacks up to 3 times. But 12% means it only procs roughly once every 8 attacks on average. In some battles it procs 3 times in a row. In others it never procs once.\n\nThis randomness applies to stuns, slows, dodges, critical hits, and most special effects in the game. A team that counters another team on paper can still lose because the RNG did not line up.\n\nThe practical implication: do not chase a single perfect team. Build multiple viable formations. If your team loses three battles in a row against the same opponent, try again — the RNG might flip the result. When testing teams, run at least 5 battles before judging performance.\n\nAuto-Display accounts for this by optimizing for average outcomes rather than peak performance, which is why it works well for beginners."
     },
     {
       "heading": "Understanding Troop Stats — Multi-Unit vs Single-Unit",
@@ -104,7 +124,7 @@
       "slug": "bomber"
     }
   ],
-  "word_count": 2630,
+  "word_count": 3380,
   "faq_schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -148,6 +168,38 @@
           "@type": "Answer",
           "text": "Forge stones come from Infinite War rewards, Hunting rewards, daily chests, summon events, and the shop. Save them for impactful upgrades on Ursa, Elven Archer, Oracles, and Flame Mages."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I set up my account in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Link your account to 89 Trillion, Facebook, or Google Play in Settings. Set your nickname (free unlimited changes). Enter an invite code for 100 free gems. These three steps take two minutes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the castle and why is it important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The castle (command center) determines your battle grid size and energy cap. It expands from 3×3 at level 1 to 7×6 at level 5 (42 troop slots). It also generates passive gems. Prioritize castle upgrades above all else."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I build a team as a beginner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use the Auto-Display feature on the team setup screen. It arranges your troops automatically. Choose from Balanced Power (all-purpose), Power First (aggressive), or Solid Fortress (defensive). Browse community templates for pre-built formations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does my team sometimes lose to weaker opponents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "War Inc: Rising has heavy RNG — most skills have a percentage chance to activate. A 12% proc chance means it activates roughly 1 in 8 attacks. Results vary between battles. Test teams at least 5 times before judging performance."
+        }
       }
     ]
   },
@@ -155,9 +207,9 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
-    "description": "New to War Inc: Rising? This complete beginner guide covers daily routine, building priority, gem spending, 16 mistakes to avoid, and a week-by-week progression path to level up fast.",
-    "datePublished": "2026-06-13",
-    "dateModified": "2026-06-13",
+    "description": "New to War Inc: Rising? This complete beginner guide covers account setup, auto-display team building, castle grid expansion, fusion basics, daily routine, gem strategy, and a week-by-week progression path.",
+    "datePublished": "2026-06-14",
+    "dateModified": "2026-06-14",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

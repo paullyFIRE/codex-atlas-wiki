@@ -1,0 +1,130 @@
+{
+  "slug": "war-inc-rising-fusion-system-guide",
+  "name": "War Inc: Rising Fusion System Guide — Get Mystic Heroes for 450 Gems Each",
+  "title": "War Inc: Rising Fusion System Guide — Mystic Heroes at 450 Gems | War Inc: Rising Wiki",
+  "meta_description": "Master the fusion system in War Inc: Rising. Learn exact gem costs per tier, the 7 fusion mystic heroes ranked, level-up math, and why fusion gives you 22 mystics per 10,000 gems vs 8 from the Wheel.",
+  "type": "blog",
+  "date": "2026-06-14",
+  "author": "War Inc Wiki Team",
+  "excerpt": "The fusion system lets you combine 3 cards of the same tier to create 1 card of the next tier. This guide covers every cost, every hero you can get, and the math that makes fusion the most gem-efficient way to build a mystic roster.",
+  "sections": [
+    {
+      "heading": "What Is the Fusion System?",
+      "content": "Fusion is a game mechanic that lets you convert 3 cards of the same rarity and level into 1 card of the next higher rarity at the same level. You can find it on the main screen under the card collection tab — the button labeled Fusion at the top of the screen.\n\nFor example, 3 legendary cards at level 1 will produce 1 mystic card at level 1. The 3 input cards are consumed. The result is guaranteed — there is no randomness or failure chance. This makes fusion fundamentally different from the Wheel or Card Master, which rely on probability.\n\nThe fusion ladder has five tiers: Common → Uncommon → Epic → Legendary → Mystic. You can only fuse upward, never downward. Each step costs either gold or gems depending on the tier."
+    },
+    {
+      "heading": "Exact Gem Costs by Tier",
+      "content": "The cost to fuse depends on which tier you are jumping. Lower tiers cost only gold. Higher tiers cost gems.\n\nCommon to Uncommon: gold only. This is always worth doing. Common cards are plentiful and fusing them costs nothing but gold.\n\nUncommon to Epic: 30 gems per fusion. Three uncommon cards at any level produce one epic card at the same level. This is still very cheap.\n\nEpic to Legendary: 75 gems per fusion. Three epic cards at any level produce one legendary card at the same level. The cost is beginning to add up but remains very efficient.\n\nLegendary to Mystic: 450 gems per fusion. Three legendary cards at any level produce one mystic card at the same level. This is the big one. 450 gems for a guaranteed mystic is the cheapest mystic acquisition method in the game.\n\nThese costs are flat regardless of the level of the cards you are fusing. Fusing 3 level 1 legendaries costs the same 450 gems as fusing 3 level 6 legendaries. The difference is what level the resulting mystic will be."
+    },
+    {
+      "heading": "Card Level Math — How Many Copies You Need",
+      "content": "Each hero level requires double the number of level 1 copies. The progression follows a simple 2^n pattern.\n\nLevel 1: 1 card\nLevel 2: 2 cards\nLevel 3: 4 cards\nLevel 4: 8 cards\nLevel 5: 16 cards\nLevel 6: 32 cards\nLevel 7: 64 cards\nLevel 8: 128 cards\nLevel 9: 256 cards\n\nTo take any hero from level 1 to level 6, you need 32 total copies of that hero. This is true for all rarities. The maximum hero level in the game is 9, but most players consider level 6 the primary milestone because it unlocks the second skill tier and provides a massive power spike.\n\nThe practical implication for fusion: to get a level 6 mystic hero through fusion, you need to perform 32 legendary-to-mystic fusions. Each fusion costs 450 gems. Total: 32 × 450 = 14,400 gems. This is the single cheapest way to get a level 6 mystic hero in War Inc: Rising."
+    },
+    {
+      "heading": "The 7 Fusion Mystic Heroes — Full Breakdown",
+      "content": "Fusion draws from a fixed pool of 7 mystic heroes. When you fuse 3 legendaries, you get one of these 7 at random. All 7 are viable — none are bad enough to be considered a waste.\n\nFlame Duelist (Duelista de Llamas) — Recommended: 2-3 copies at level 6. This is the highest priority fusion mystic. Excellent damage output with strong AoE potential. Good in both PvP and PvE.\n\nKing Knight (Rey Caballero) — Recommended: 2-3 copies at level 6. A durable frontline tank with good disruption. Pairs well with Flame Duelist for a strong core.\n\nApostle (Apóstol) — Recommended: 2 copies at level 6. A dedicated healer. Two copies at level 6 is sufficient for most content. You rarely need more than this.\n\nStorm Maiden (Doncella de la Tormenta) — Recommended: 1-2 copies at level 6. Strong offensive support with good damage and utility.\n\nGeomancer (Geomante) — Recommended: 1-2 copies at level 6, situational. Good in specific team compositions and game modes. Not a priority but worth having.\n\nGriffin Knight (Caballero del Grifo) — Recommended: 2 copies at level 6. A tank with a stun ability that becomes very good at level 6. The stun makes him valuable despite being on the lower end of the fusion pool.\n\nArtillery Gunner (Artillero Furioso) — Recommended: 1 copy at level 6. The weakest of the 7. His skill has a 12% proc chance per hit and stacks up to 3 times. Still usable but the lowest priority."
+    },
+    {
+      "heading": "Fusion Strategy — Bulk Fusion vs Individual Fusion",
+      "content": "There are two approaches to fusion: fusing 3 level 6 legendaries at once (bulk fusion) or fusing individual level 1 legendaries (individual fusion). The math heavily favors bulk fusion.\n\nIndividual fusion: You fuse 3 legendary level 1 cards one at a time. Each fusion gives a random mystic from the pool of 7. To get 32 copies of the same mystic (needed for level 6), you expect roughly 224 fusions on average (7 pool × 32 copies). At 450 gems each, that is 100,800 gems — wildly expensive.\n\nBulk fusion: You take 3 legendary cards you already have at level 6 and fuse them together. This directly produces a random mystic at level 6 in a single fusion for 450 gems. If you get the mystic you wanted, you are done. If you get a different one, you still have a level 6 mystic from a pool where all 7 heroes are usable.\n\nThe bulk approach costs 14,400 gems in legendaries-to-mystic fusions to build the 3 level 6 legendaries, then 450 gems for the final fusion. Total: 14,850 gems for a guaranteed level 6 mystic. Compare this to 100,800 gems for individual fusion chasing a specific hero. There is no contest.\n\nThe exception is if you have excess gems and want to target a specific hero like a second Flame Duelist. In that case, individual fusion becomes a gamble you can take, but you should always build your initial roster through bulk fusion."
+    },
+    {
+      "heading": "Key Non-Mystic Cards to Farm Through Fusion",
+      "content": "Fusion is not just for mystic heroes. The lower tiers of fusion can produce some of the best non-mystic cards in the game at minimal cost.\n\nBomb — Available through uncommon-to-epic fusion. The Bomb is a suicide unit that deals massive AoE damage on death and has a stun effect. It is meta-defining in PvP and appears in top-tier lineups even at high levels. Fuse level 6 uncommon cards together to try for Bombs. The cost is only gold. This is the most efficient way to acquire them.\n\nGoblin (Duende) — Also from uncommon-to-epic fusion. A solid early-game tank that remains useful for a long time. Good filler while you build your mystic roster.\n\nHealer — From uncommon-to-epic fusion. You do not need many copies — 2-3 at level 6 is enough for most content. The Apostle (mystic) eventually replaces the Healer, but the Healer carries you through the early and mid game.\n\nRoyal Archer — Available through epic-to-legendary fusion. The Royal Archer is widely considered the best card in the entire game, including mystics. The fusion pool for epic-to-legendary has 8 possible outcomes, including the Royal Archer. At 960 gems per attempt (fusing 3 level 6 epics), you expect roughly 1 Royal Archer per 8 attempts. Expected cost: roughly 7,680 gems for one level 6 Royal Archer. This is a fantastic investment for any player who can afford it."
+    },
+    {
+      "heading": "When to Use Fusion vs When to Use the Wheel",
+      "content": "Fusion and the Wheel serve different purposes. Fusion builds depth — it gives you a wide roster of usable mystics at a fixed, predictable cost. The Wheel builds height — it gives you a chance at the best mystics in the game but at a higher cost and with randomness.\n\nUse fusion when: you are building your first mystic roster, you are F2P or light spender, you need guaranteed results, or you are filling out specific roles (tank, healer, DPS) in your lineup.\n\nUse the Wheel when: you already have 6+ fusion mystics at level 6, you are targeting specific top-tier mystics not in the fusion pool, you have surplus gems after building your fusion roster, or you are a heavy spender who can afford the randomness.\n\nThe optimal progression path is: fusion first for your core team, then the Wheel for upgrades and specialist heroes. Trying to build your first team through the Wheel alone will cost 2-3x more gems than fusion."
+    }
+  ],
+  "preview": "The fusion system lets you combine 3 cards to create 1 card of the next tier. This guide covers every cost, every hero you can get, and the math that makes fusion the most gem-efficient way to build a mystic roster.",
+  "related_heroes": [
+    {
+      "name": "Flame Duelist",
+      "slug": "flame-duelist"
+    },
+    {
+      "name": "King Knight",
+      "slug": "king-knight"
+    },
+    {
+      "name": "Apostle",
+      "slug": "apostle"
+    },
+    {
+      "name": "Storm Maiden",
+      "slug": "storm-maiden"
+    },
+    {
+      "name": "Griffin Knight",
+      "slug": "griffin-knight"
+    },
+    {
+      "name": "Royal Archer",
+      "slug": "royal-archer"
+    },
+    {
+      "name": "Bomber",
+      "slug": "bomber"
+    }
+  ],
+  "word_count": 1950,
+  "faq_schema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does fusion work in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fusion combines 3 cards of the same rarity and level into 1 card of the next rarity at the same level. Common to Uncommon costs gold. Uncommon to Epic costs 30 gems. Epic to Legendary costs 75 gems. Legendary to Mystic costs 450 gems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which mystic heroes can you get from fusion in War Inc: Rising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There are 7 fusion mystic heroes: Flame Duelist (best DPS, priority 1), King Knight (best tank, priority 1), Apostle (healer), Storm Maiden, Geomancer, Griffin Knight (tank with stun), and Artillery Gunner (lowest priority)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many gems does a level 6 mystic cost through fusion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Exactly 14,400 gems. You need 32 copies of a mystic hero to reach level 6. Each fusion costs 450 gems. 32 x 450 = 14,400 gems. This is the cheapest way to get a level 6 mystic in the game."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is fusion or the Wheel better for getting mystic heroes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fusion is dramatically better for building your initial roster. 10,000 gems spent on fusion yields 22 mystic cards versus 8 mystic cards from the Wheel. Use fusion first for a solid team, then the Wheel for specialist upgrades."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you get a Royal Archer through fusion?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The epic-to-legendary fusion pool includes the Royal Archer (1 in 8 chance). At 960 gems per attempt with level 6 epics, expect to spend roughly 7,680 gems for one level 6 Royal Archer."
+        }
+      }
+    ]
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "War Inc: Rising Fusion System Guide — Get Mystic Heroes for 450 Gems Each",
+    "description": "Master the fusion system in War Inc: Rising. Learn exact gem costs per tier, the 7 fusion mystic heroes ranked, level-up math, and why fusion gives you 22 mystics per 10,000 gems.",
+    "datePublished": "2026-06-14",
+    "dateModified": "2026-06-14",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

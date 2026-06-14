@@ -1,6 +1,6 @@
 {
   "type": "blog",
-  "count": 16,
+  "count": 19,
   "items": [
     {
       "id": 0,
@@ -156,6 +156,36 @@
       "id": 0,
       "name": "War Inc: Rising Clan Wars Guide — Dominate Clan Battles",
       "slug": "war-inc-rising-clan-war-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Gem Farming Guide — How to Earn 50,000 Gems Per Month",
+      "slug": "war-inc-rising-gem-farming-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Fusion System Guide — Get Mystic Heroes for 450 Gems Each",
+      "slug": "war-inc-rising-fusion-system-guide",
+      "rarity_name": null,
+      "profession_name": null,
+      "cost": null,
+      "combat_power": null,
+      "image": null
+    },
+    {
+      "id": 0,
+      "name": "War Inc: Rising Roulette vs Fusion — Which Is Better for Your Gems?",
+      "slug": "war-inc-rising-roulette-vs-fusion-guide",
       "rarity_name": null,
       "profession_name": null,
       "cost": null,
