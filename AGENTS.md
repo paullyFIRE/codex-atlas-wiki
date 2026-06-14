@@ -133,6 +133,16 @@ H1: {Name}                              ← Unit display name
 - Topbar logo: `War Inc: Rising Wiki`
 - See `src/layouts/BaseLayout.astro` and `src/pages/index.astro`
 
+## Changelog Convention
+
+Whenever making content changes (expanding posts, rewriting meta, adding pages), record the change in `docs/changelog.md` with:
+- Date and commit hash
+- What changed (which pages, what was modified)
+- Why (e.g., "GSC showed 0 clicks on hero pages at position 2-3")
+- Expected impact (e.g., "improve CTR from meta description rewrites")
+
+This lets us correlate GSC performance shifts with specific changes during analysis.
+
 ## Quirks & Conventions
 
 - No testing framework configured yet. Add one before writing tests.
