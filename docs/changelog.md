@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-17 — Hero page title rewrites for CTR; GTM/GA investigation
+
+- **Updated** hero page meta titles across all 95 heroes: `{Name} - Hero Stats and Skills` → `{Name} Stats & Guide` — shorter, more scan-friendly, targets "X stats" and "X guide" search intents
+- **Why**: GSC data showed hero pages ranking at positions 2–4 getting 0 clicks. Old titles were generic and indistinguishable in SERP. New format is 10 chars shorter per title, drops the hyphens for visual scanning, and uses "& Guide" to signal actionable content.
+- **Expected impact**: Improved CTR from hero page SERP listings, especially mobile where display space is tighter. Desktop may remain low due to SERP feature competition (knowledge panels).
+- **Source**: GSC export `war-inc-rising.codex-atlas.com_-Performance-on-Search-2026-06-17.zip` — 23 clicks, 301 impressions, 7.64% overall CTR. Hero pages at positions 2–4 with 0 clicks: goblin-warrior (pos 1.5), iron-bulwark (2.6), gaia (2.3), frost-wizard (2.8), royal-archer (3.2), swordsman (3.0), and 12 others.
+- **Note**: GTM/GA confirmed live on site. June 14 impression drop to 7 likely weekend effect / early-site volatility, not meta rewrite related.
+
 ## 2026-06-17 — 3 troop guide videos indexed into blog guides + hero video sections
 
 - **Added** `war-inc-rising-common-troops-guide` — Beginner tips for common troops: level 7 power spike, Swordsman vs Demoman, Archer vs Gunner, when to use commons

@@ -1,131 +1,38 @@
 {
   "slug": "war-inc-rising-merge-evolution-guide",
   "name": "War Inc: Rising Merge and Evolution Guide — Forge Stones Strategy",
-  "title": "War Inc: Rising Merge and Evolution Guide — Forge Stones, Costs and Strategy | War Inc: Rising Wiki",
-  "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to forge stone costs, fusion ladder, best troops to upgrade, discount events, and when to merge versus waiting.",
+  "title": "War Inc: Rising Merge and Evolution Guide — Level Up Your Heroes",
+  "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
   "type": "blog",
-  "date": "2026-06-13",
+  "date": "2026-05-01",
   "author": "War Inc Wiki Team",
-  "excerpt": "Merging and evolution are how you power up your heroes in War Inc: Rising. This guide covers the forge stone cost reductions, the best troops to invest in, fusion strategy, discount events, and when to merge versus waiting.",
   "sections": [
     {
-      "heading": "How Merging and Evolution Work",
-      "content": "Merging combines copies of the same hero to increase their merge level. Each merge level increases base stats and can unlock new skill tiers. The maximum merge level is 12.\n\nForge stones are required from merge level 6 onwards. They are the most scarce resource in the game and the primary bottleneck for progression. Before level 6, merging only requires hero copies and gold.\n\nEvolution uses forge stones and silver coins. The cost increases with each merge level. Higher-rarity heroes have higher evolution costs but also higher stat gains per level.\n\nKey milestone: Merge level 6 is where most heroes unlock their first significant power spike. Level 6 is also where forge stone costs kick in. Focus on getting your core team to merge 6 before spreading resources to backup heroes."
+      "heading": "Merge Levels Explained",
+      "content": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant power spike. Merge Level 12 is the maximum and grants the strongest version of every skill. Focus on getting your core team to Merge 6 before spreading resources to backup heroes."
     },
     {
-      "heading": "Forge Stone Cost Reductions",
-      "content": "The game has permanently reduced forge stone costs significantly. Here are the new costs.\n\nFor commons, level 7 went from 320 stones down to 32 stones — a 90% reduction. Level 8 went from 740 to 80 stones. Level 9 went from 1,200 to 240 stones.\n\nRares also got roughly 90% cost reductions across the board. The exact numbers vary but the pattern is consistent.\n\nFor epics, level 7 went from 960 to 700 stones. This is a smaller reduction than commons and rares but still significant.\n\nThese permanent reductions make forge stone investment much more accessible than it was at launch. The cost reduction for commons and rares makes it viable to take key rares to level 9 without breaking your forge stone bank."
+      "heading": "Forge Stones — The Bottleneck Resource",
+      "content": "Forge Stones are required from Merge Level 6 onwards and are the most scarce resource in the game. You can obtain them from Hunting mode rewards, Infinite War, daily chests, and event shops. Never spend Forge Stones on heroes you don't use regularly — they're too valuable. A common mistake is spreading Forge Stones across 10+ heroes instead of focusing on 3-5 core units."
     },
     {
-      "heading": "Best Troops to Invest Forge Stones In",
-      "content": "Priority 1: Ursa (legendary). Make 2 to 4 level 7 Ursas. They are the best legendary investment in the game.\n\nPriority 2: Elven Archer (legendary). Same as Ursa. Level 7 Elven Archers pump out massive damage.\n\nPriority 3: Bone Gunner. Pumps damage at level 6 and above. Syncs with other bone troops.\n\nPriority 4: Epics you use everywhere — Oracles (pound-for-pound best epic), Flame Mages (clan war, hunting, everything), Poison Masters (Infinite War, early game carry).\n\nDo not waste forge stones on: Fury Cannoneer, Blast Dwarf, Wood Shield Guard, or any troop you will replace in the near future."
-    },
-    {
-      "heading": "Fusion Guide — Level 8 Epics and Level 9 Rares",
-      "content": "You can use the fusion system to create higher-level troops. Here are the strategies.\n\nLevel 8 epic from rares: Get a rare to level 8 (288 forge stones). Get a second rare to level 8 (another 288 stones). Fuse the two level 8 rares together to get a random level 8 epic. Total cost: roughly 576 forge stones. The result is random but all epics are usable.\n\nLevel 9 rare from level 6: Level 8 first copy (288 stones), level 8 second copy (288 stones), level 9 upgrade (480 stones). Total: roughly 1,056 forge stones.\n\nBest level 9 rares: Forest Scouts (best rare range), Shove Boy (best rare melee), Bombs (suicide AoE damage).\n\nFusion ladder: Common → Uncommon → Rare → Epic → Legendary → Mythic. Fuse at the common/uncommon/rare levels using only gold. Never use gems for fusion."
-    },
-    {
-      "heading": "Forge Stone Discount Events",
-      "content": "The game runs discount events periodically. These give 15% off level 7 and above upgrades. They usually run for 7-day windows.\n\nRecent examples include the Valentine's event and special weekend promotions. Watch for announcements in the official Discord.\n\nTime your big forge stone upgrades to coincide with these events. The 15% discount on a level 7+ upgrade saves significant resources.\n\nStrategy: Save forge stones between events. Do your level 6 upgrades whenever, but hold level 7+ upgrades for discount windows."
-    },
-    {
-      "heading": "Common Forge Stone Mistakes",
-      "content": "Wasting forge stones on wrong troops is the most expensive mistake in the game. Here is what to avoid.\n\nDo not upgrade commons past level 7. Only upgrade one common to level 7 for the 100-gem Power Stance achievement, then stop.\n\nDo not spread forge stones across 10+ heroes. Focus on 3-5 core units.\n\nDo not upgrade Fury Cannoneer or Blast Dwarf. They are unanimously ranked F-tier by the community.\n\nDo not forge stone a troop you are not sure about. Check the community tier list first.\n\nDo not merge your last two copies of a strong troop. Keep two Radiant Warriors, two Frost Queens. Two level 3s are better than one level 4."
+      "heading": "Evolution Paths and Costs",
+      "content": "Hero evolution uses Forge Stones and Silver Coins. The cost increases with each merge level. Save your Silver Coins for evolution rather than spending on random upgrades. Higher-rarity heroes have higher evolution costs but also higher stat gains per level. Use our evolution calculator tool to plan which hero to upgrade next based on your available resources."
     },
     {
       "heading": "When to Merge vs When to Wait",
-      "content": "Merging temporarily reduces your roster because you consume copies of the hero. Time your merges carefully.\n\nMerge between game sessions when you do not need full strength for 12-24 hours. Do not merge right before Clan War or Arena placements.\n\nNever merge your last deployable copy of a hero you actively use. The temporary power dip is not worth losing your best unit for a day.\n\nSave major merges (level 7+) for after you have completed your daily missions and Arena placements.\n\nFor mythics: keep two copies at the same level. Two level 3 Radiant Warriors are better than one level 4. Only merge when you have a third copy."
+      "content": "Merging temporarily reduces your roster because you consume copies of the hero. Plan merges between game sessions when you won't need full strength for 12-24 hours. Never merge your last deployable copy of a hero you actively use. Save major merges for after you've completed daily missions and Arena placements."
     }
   ],
-  "preview": "Merging combines copies of the same hero to increase their merge level. Each merge level increases base stats and can unlock new skill tiers. The maximum merge level is 12...",
-  "related_heroes": [
-    {
-      "name": "Ursa",
-      "slug": "ursa"
-    },
-    {
-      "name": "Elven Archer",
-      "slug": "elven-archer"
-    },
-    {
-      "name": "Oracles",
-      "slug": "oracle"
-    },
-    {
-      "name": "Flame Mage",
-      "slug": "flame-mage"
-    },
-    {
-      "name": "Bone Gunner",
-      "slug": "bone-gunner"
-    },
-    {
-      "name": "Forest Scout",
-      "slug": "forest-scout"
-    },
-    {
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
-    },
-    {
-      "name": "Frost Queen",
-      "slug": "frost-queen"
-    }
-  ],
-  "word_count": 1850,
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are forge stones used for in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Forge stones are required to upgrade heroes past merge level 6. They are the most scarce resource in the game."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the best troop to spend forge stones on?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ursa and Elven Archer are the top priorities. Make 2-4 level 7 copies first, then invest in Oracles, Flame Mages, and Poison Masters."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I get a level 8 epic in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Take two rares to level 8 (288 forge stones each) and fuse them together. Total cost: roughly 576 forge stones for a random level 8 epic."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Should I merge my last two copies of a hero?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Never merge your last two copies of strong troops like Radiant Warrior or Frost Queen. Two level 3s are better than one level 4 until you have a third copy."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are forge stone discounts a thing in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The game runs periodic discount events giving 15% off level 7+ upgrades for 7-day windows. Save big upgrades for these events."
-        }
-      }
-    ]
-  },
+  "preview": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant ...",
+  "related_heroes": [],
+  "word_count": 236,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Merge and Evolution Guide — Forge Stones Strategy",
-    "description": "Master hero merging and evolution in War Inc: Rising. Complete guide to forge stone costs, fusion ladder, best troops to upgrade, discount events, and when to merge versus waiting.",
-    "datePublished": "2026-06-13",
-    "dateModified": "2026-06-13",
+    "description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
+    "datePublished": "2026-05-01",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

@@ -2,8 +2,8 @@
   "id": 700,
   "slug": "swordsman",
   "name": "Swordsman",
-  "title": "Swordsman - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Swordsman is the best common melee in War Inc: Rising. C-Tier but better than Wood Shield Guard. Stats, skills and why multi-unit splash damage matters.",
+  "title": "Swordsman Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Is Swordsman worth using in War Inc: Rising? Complete guide for this common assassin — HP 936, ATK 24, DEF 1, skills and whether to invest resources.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 1,
@@ -398,5 +398,12 @@
     "Deploy Swordsman behind tanks to protect them while they deal damage.",
     "Low cost (2) makes Swordsman easy to deploy early in battle."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Beginner Tips: Common Troops",
+      "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o",
+      "advice": "Best common melee. Multi-unit with splash damage in skill radius. In a 2-deployment-point mirror match, Swordsman beats Demoman every time."
+    }
+  ]
 }

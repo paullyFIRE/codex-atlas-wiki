@@ -1,215 +1,59 @@
 {
   "slug": "war-inc-rising-beginner-guide",
   "name": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
-  "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression | War Inc: Rising Wiki",
-  "meta_description": "New to War Inc: Rising? This complete beginner guide covers account setup, auto-display team building, castle grid expansion, fusion basics, daily routine, gem strategy, and a week-by-week progression path.",
+  "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression",
+  "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
   "type": "blog",
-  "date": "2026-06-14",
+  "date": "2026-01-15",
   "author": "War Inc Wiki Team",
-  "excerpt": "Everything you need to know as a new player — from account setup and auto-display team building to castle grid expansion, fusion basics, gem strategy, and a full progression roadmap covering your first week through month 3+.",
   "sections": [
     {
-      "heading": "Account Setup — Do This Before Anything Else",
-      "content": "Before you play a single battle, take 30 seconds to secure your account.\n\nLink your account to 89 Trillion (the parent company), Facebook, or Google Play. Go to Settings and connect one of these. If you ever lose your phone, uninstall the game, or switch devices, this is the only way to recover your account. The developers cannot restore unlinked accounts.\n\nSet your nickname. Unlike many games, War Inc: Rising lets you change your name for free an unlimited number of times. Pick something temporary and change it later if you want.\n\nEnter an invite code. Go to the invite section and enter another player's code. This gives you 100 free gems immediately. You can find codes in the official Discord or from guild recruitment posts. This works even if you created your account weeks ago.\n\nThese three steps take two minutes and save months of progress if something goes wrong."
+      "heading": "Early Priorities (Levels 1–60)",
+      "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates."
     },
     {
-      "heading": "Your Daily Routine in War Inc: Rising",
-      "content": "Building good daily habits is the fastest way to progress. The game resets every day at 5PM Mountain / 7PM Eastern / Midnight GMT. Here is exactly what to do each day.\n\nStep 1: Collect your buildings. Open the building icon (bottom left) and collect from your Gold Mine (gold), Sawmill (wood), extra wood building, and Castle (gems). Start your next upgrade immediately — always prioritize the Castle.\n\nStep 2: Complete daily quests. You get 5 quests per day with 24 hours to complete them. You also get 3 resets per day if a quest requires troops you don't have. Don't forget weekly and seasonal quests (2-4 week duration) for bigger rewards.\n\nStep 3: Use your free battles. You get 3 free Hunting battles and 3 free Infinite War battles per day. Using gems for extra battles is almost never worth it unless you are competing for top leaderboard positions.\n\nStep 4: Collect free stuff. Claim free items from the shop, check the events tab for limited-time rewards, and sign in daily for event rewards like scrolls, chests, and even Frost Queen shards."
+      "heading": "Summoning Strategy",
+      "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season."
     },
     {
-      "heading": "Building Priority — What to Upgrade First",
-      "content": "Your buildings determine your passive income and troop power. Upgrade them in this exact order for maximum efficiency.\n\n1. Castle (Command Center) — Your absolute top priority. Spend ALL your wood on upgrading the castle. Each level gives +50 troop energy, which is massive. One castle level is worth roughly 10 dragons' worth of power.\n\n2. Spell Cauldron — Unlocks at certain castle levels. Provides spell capacity for battle.\n\n3. Gold Mine — Passive gold income. Gold is essential for recruitment and dice rolling in co-op. Keep it at a reasonable level.\n\n4. Sawmill — Produces wood for castle upgrades. Only upgrade enough to keep castle construction going.\n\n5. Follower Camp — Lowest priority. Leave it at level 1 until you have everything else maxed.\n\nDaily building routine: Collect everything, start your next castle upgrade, then queue other buildings. Castle first, always."
+      "heading": "Resource Management: Gems, Gold and Forge Stones",
+      "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes."
     },
     {
-      "heading": "How to Build a Team — The Auto-Display Feature",
-      "content": "New players often struggle with team building because they do not know which troops work well together. War Inc: Rising has a built-in solution called Auto-Display.\n\nAuto-Display is located on the team setup screen. It automatically arranges your best troops into a formation based on a preset strategy. There are three modes to choose from.\n\nBalanced Power distributes your troops evenly between defense, attack, and support. This is the best all-purpose mode for campaign, co-op, and general PvE.\n\nPower First puts minimal resources into defense and everything else into damage. This mode wins faster but also loses faster. Good for quick battles where you outrank the enemy.\n\nSolid Fortress builds a strong defensive line first, then fills the remaining slots with damage. This is the safest mode for PvP and arena where you need to survive the first wave.\n\nAuto-Display also has community-made templates. These are player-created formations that the community has upvoted. You can browse templates ranked by level and see which ones fit the troops you own. The game highlights which troops will be placed and which are missing.\n\nAuto-Display is not optimal for high-level play, but for your first few weeks it is perfectly adequate. Focus on learning the game mechanics and building your roster. Worry about custom formations once you understand why Auto-Display makes the choices it does."
+      "heading": "Building Your First Team",
+      "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations."
     },
     {
-      "heading": "Understanding the Castle (Command Center)",
-      "content": "The Castle is the building in the center of your base. It unlocks at player level 61 and starts at level 1. It is the single most important upgrade in the entire game.\n\nThe castle determines your battle grid size. At level 1 you have a tiny 3×3 grid (9 troop slots). Level 2 expands to 4×4. Level 3 keeps 4×4. Level 4 expands to 5×4. At level 5 you reach 7×6 — a full 42 troop slots. More slots means more troops deployed, more synergies activated, and more combat power.\n\nThe castle also determines your energy cap. Every troop costs energy to deploy. A stronger troop costs more energy. Higher castle level = higher energy cap = room for stronger troops.\n\nYour castle generates passive gems. At level 5 it stores up to 100 gems and fills in roughly 10 hours. Collect three times per day (morning, afternoon, before bed) for 240 free gems daily. This is completely passive income — no battles required.\n\nEvery piece of wood you earn should go toward castle upgrades until it reaches level 5. Do not spend wood on other buildings unless the castle upgrade specifically requires them."
-    },
-    {
-      "heading": "Wood Management — The Scarcest Resource",
-      "content": "Wood is the bottleneck of early progression. You need massive amounts of wood for castle upgrades, but the early game gives you very little.\n\nStory mode (campaign levels) gives 30 to 50 wood per battle. You also need 3 stars on the level to earn the wood. This is painfully slow.\n\nCo-op mode gives 300 to 600 wood per match. This is 10x more efficient than story mode. Playing co-op daily should be your primary wood source from day one.\n\nThe rule for wood: only spend it on castle upgrades. If the castle requires a sawmill upgrade, upgrade the sawmill. If it requires a mine upgrade, upgrade the mine. If nothing is blocking the castle, save the wood for the next castle level. Do not upgrade other buildings for fun — every piece of wood spent on non-castle buildings delays your grid expansion.\n\nWith consistent co-op grinding, you can reach castle level 5 in less than a month."
-    },
-    {
-      "heading": "Gem Spending Guide — What to Spend Your Gems On",
-      "content": "Gems are the most valuable currency in War Inc: Rising. Spending them wisely makes or breaks your account progression.\n\nThe Wheel is your best gem value. Stop at milestone chests (10, 30, 50, 100 pulls) to keep your cost per mythic low. Card Master is also good — roughly 250 gems per pull with a 1 in 12 chance for the featured mythic. On average it takes 6.5 picks to get the specific mythic you want.\n\nIf you spend real money, the 30-Day Premium Pass ($15/month) is the best value at 2,000 gems upfront plus 320 gems per day. The Battle Pass ($10 every 2 weeks) is also solid. Growth Packs ($1 to $2) each give a mythic troop and are excellent value for light spenders.\n\nSave your gems for good mythic rotations on the Wheel and Card Master. Do not spend gems on extra battles, fusion, or regular recruitment."
-    },
-    {
-      "heading": "Gem Spending — What NOT to Waste Gems On",
-      "content": "Avoiding bad gem purchases is just as important as making good ones. Here is what to never spend gems on.\n\nExtra Infinite War and Hunting battles are a trap. The 3 free daily battles are enough. Extra battles cost gems and give minimal returns unless you are a top-tier player.\n\nFusion with gems is a nuanced topic. For low-tier fusion (common to epic) you should only use gold — never gems. However, the legendary-to-mystic fusion at 450 gems is actually the most gem-efficient way to get mystic heroes in the game. At 450 gems per guaranteed mystic, it costs half of what the Wheel averages. The key is that the 7 fusion mystics are not the same as the top-tier Wheel mystics — they are solid but not S-tier. Use gem fusion to build your initial roster, then switch to the Wheel for top-tier heroes once you have a foundation.\n\nDo not use gems for regular recruitment or summoning. Use gold and scrolls for this instead.\n\nAvoid non-mythic wheels entirely. Only spin wheels that feature the mythic troops you need.\n\nSpeed-ups and building resources bought with gems are terrible value. Time is free — let buildings complete naturally."
-    },
-    {
-      "heading": "Early Game Priorities — Your First Month",
-      "content": "Your first 30 days set the foundation for everything. Focus on these five things.\n\n1. Castle upgrades. Every piece of wood goes into the castle. Each level is a massive power spike for your whole army.\n\n2. Get Oracles. They are pound-for-pound the best epic in the game. Each Oracle gives a 4% attack buff to nearby allies, and the buff stacks up to 20 layers. Get as many Oracles as you can.\n\n3. Build 8-10 level 6 Poison Masters. They will carry you through mid-game Infinite War and most PvE content.\n\n4. Fuse Bombs using gold. Fuse 3 level 6 uncommon troops together for a chance at a Bomb. Bombs are dominant in the 2,500-5,000 trophy range.\n\n5. Get Goddess of War. She is essential support that fits into every formation. Her shield protects your key damage dealers."
-    },
-    {
-      "heading": "Mid Game Priorities — Month 1 to 3",
-      "content": "Once you have your early game foundation, shift focus to building a roster of S-tier mythics.\n\nRadiant Warrior is your top priority. Get two copies and keep them at the same level. Never merge your last two copies. His shield and massive HP make him the best tank in the game.\n\nFrost Queen is equally important. Same rule applies — keep two copies at the same level. Her AoE damage dominates PvP.\n\nBone Marksman should reach level 4 as a minimum. His skill unlocks at level 4, making him a pseudo-level 6 at only level 4. His stat scaling doubles from 1 to 2 to 3 to 4, then drops off.\n\nLight Seeker is your PvP destroyer. His Holy Wash ability heals him and damages enemies when his HP drops below 50%. At level 4, Light Volley gives multi-shot with a +50% attack buff.\n\nNecromancer is your PvE king. He summons skeleton swarms that absorb damage and deals massive damage to bosses. Pair him with Goddess of War to keep his skeletons alive."
-    },
-    {
-      "heading": "Late Game Goals — Month 3 and Beyond",
-      "content": "After three months, you should be competing at a high level. Here is what to work toward.\n\nTake Ursa and Elven Archer to level 7 with forge stones. They are the best legendary investments for forge stone upgrades.\n\nUpgrade your epics to level 8+. Focus on Oracles, Flame Mages, and Poison Masters. These troops are used everywhere and benefit hugely from extra levels.\n\nPush specific rares to level 9. Forest Scouts, Shove Boy, and Bombs are the best rare troops worth taking all the way to level 9.\n\nGet into the Ruler system for clan wars. Ruler equipment from core stones adds significant power to your clan war formations.\n\nBuild multiple S+ tier mythics at level 4 or higher. Having 3-4 top-tier mythics gives you flexibility across all game modes."
-    },
-    {
-      "heading": "16 Common Mistakes New Players Make",
-      "content": "Avoid these mistakes to save weeks of wasted progress.\n\n1. Using forge stones on the wrong troops. Save forge stones for Ursa, Elven Archer, Oracles, and Flame Mages. Never waste them on commons or rares you will not use long-term.\n\n2. Not picking a Dragon Clash side immediately. The event runs periodically. Join a side the moment it starts. Missing even one day of quests wastes valuable rewards.\n\n3. Merging your last two copies of strong troops. Never merge your last two Radiant Warriors, Frost Queens, or any S-tier troop. Two level 3s are better than one level 4. Keep at least two copies at the same level.\n\n4. Spending gems on the wrong things. Extra battles, fusion, and speed-ups are all gem traps. Only spend on the Wheel and Card Master.\n\n5. Forgetting the name color trick. You can make your name any color using the format <#RGB> with 3-digit hex codes. Check borderleft.com/toolbox/hex for colors.\n\n6. Ignoring the Trial feature in clan war. You can hit towers, gates, dragons, and spiders for FREE to test formations. No morale cost. Always trial before committing real attacks.\n\n7. Not coordinating dragon times in clan war. Dragon diplomacy with neighboring teams is essential. Agree on 30-minute time slots so everyone gets a fair chance at dragon damage.\n\n8. Not using the Rope-a-Dope technique in Crimson Moon. Move your formation out of your tower, let the enemy hit (they lose extra morale), then move back in and attack them as the attacker.\n\n9. Spending all your gold at once. Stay near the gold cap but do not waste natural regeneration. Use gold on recruitment when you are near the cap.\n\n10. Using uncommons in your main formation. Uncommons are fusion material, not usable troops. Fuse them away for a chance at Bombs.\n\n11. Only recruiting at level 3. Level 1 recruitment gives mastery points toward mastery chests. Balance between level 1 and level 3 recruiting.\n\n12. Not checking the Discord for event schedules. The official Discord has +wheel, +summon, and +cardmaster commands showing upcoming schedules. Use it to plan your gem spending.\n\n13. Not understanding multi-unit vs single-unit stats. The health and attack shown is per individual troop in a squad, not the total. A Berserker with 8 individuals shows per-troop stats. A single-unit like Goblin Chef shows actual stats. This completely changes how you evaluate troops.\n\n14. Wasting forge stones on level 7 commons. Level 7 commons unlock Trigger Master, but forge stones are too precious. Only upgrade one common to level 7 for the 100-gem Power Stance achievement.\n\n15. Using Wood Shield Guard. This common is trash tier — a single-unit common with terrible stats. Use Swordsman instead (multi-unit with splash damage).\n\n16. Using Snowball Thrower or Gunner. Archer is the only common range worth using. The elemental damage on other common ranges is too low to matter."
-    },
-    {
-      "heading": "Progression Path — Week by Week",
-      "content": "Week 1-2: Focus entirely on castle upgrades. Complete all daily quests. Save your gems — do not spend them yet. Start collecting Oracles and Poison Masters as your core team.\n\nWeek 3-4: Start using gems on the Wheel when good mythic rotations appear. Build up Bombs through uncommon fusion with gold. Join an active clan — look for clans on the official Discord. Begin co-op grinding with a partner.\n\nMonth 2: Target specific mythics like Radiant Warrior and Frost Queen. Push to 2,500-5,000 trophies where Bombs dominate. Participate in clan war to learn the basics. Join Dragon Clash events when they run.\n\nMonth 3+: Level 7 your best epics and legendaries with forge stones. Enter the Ruler system for clan war. Build multiple S-tier mythics to level 4+. Aim for top 1,000 in arena. Get active in clan leadership and diplomacy."
-    },
-    {
-      "heading": "Understanding RNG — Why Results Vary",
-      "content": "War Inc: Rising is heavily driven by RNG (random number generation). Most hero skills have a percentage chance to activate, not a guarantee. Understanding this explains why the same team can win one match and lose the next.\n\nExample: The Artillery Gunner (a mystic hero) has a skill with 12% chance to activate per attack. When it procs, it deals 180% AoE damage and increases attack and attack speed by 30%. This buff stacks up to 3 times. But 12% means it only procs roughly once every 8 attacks on average. In some battles it procs 3 times in a row. In others it never procs once.\n\nThis randomness applies to stuns, slows, dodges, critical hits, and most special effects in the game. A team that counters another team on paper can still lose because the RNG did not line up.\n\nThe practical implication: do not chase a single perfect team. Build multiple viable formations. If your team loses three battles in a row against the same opponent, try again — the RNG might flip the result. When testing teams, run at least 5 battles before judging performance.\n\nAuto-Display accounts for this by optimizing for average outcomes rather than peak performance, which is why it works well for beginners."
-    },
-    {
-      "heading": "Understanding Troop Stats — Multi-Unit vs Single-Unit",
-      "content": "This is the most misunderstood mechanic in War Inc: Rising and it completely changes how you evaluate troops.\n\nMulti-unit troops (like Berserker with 8 individuals, or Forest Scouts) display their stats PER INDIVIDUAL, not as a total. A Berserker showing 1,000 HP actually has 8,000 total HP across all 8 units. Multi-unit troops are better for triggering abilities and dealing spread damage.\n\nSingle-unit troops (like Goblin Chef, Wood Shield Guard, or Radiant Warrior) show their ACTUAL stats. What you see is what you get. Single-unit troops are better as tanks, heavy hitters, and units where you need concentrated power.\n\nThis distinction matters most when comparing troops of different types. A multi-unit troop with lower per-unit stats might actually have higher total HP and damage. Always consider the unit count when evaluating a troop's true power."
-    },
-    {
-      "heading": "Useful Resources for New Players",
-      "content": "Bookmark these resources to accelerate your progression.\n\nOfficial Discord — Use commands like +wheel, +summon, and +cardmaster to check upcoming schedules. This is the best way to plan your gem spending.\n\nTop Clan Discords — Clans like Mortal Crowns and Heretic Sanctuary have public channels with strategy guides, template formations, tier lists, and experienced players who answer questions.\n\nName Color Tool — borderleft.com/toolbox/hex provides 3-digit hex codes for customizing your in-game name color. Format is <#RGB>.\n\nCommunity Tier Lists — Check this wiki's hero tier lists for the latest community rankings from Klown Kollege and other top players."
+      "heading": "Understanding Hero Stats",
+      "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot."
     }
   ],
   "preview": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banner...",
   "related_heroes": [
     {
-      "name": "Oracles",
-      "slug": "oracle"
-    },
-    {
-      "name": "Poison Master",
-      "slug": "poison-master"
-    },
-    {
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
-    },
-    {
-      "name": "Frost Queen",
-      "slug": "frost-queen"
-    },
-    {
-      "name": "Bone Marksman",
-      "slug": "bone-marksman"
-    },
-    {
-      "name": "Light Seeker",
-      "slug": "light-seeker"
-    },
-    {
-      "name": "Necromancer",
-      "slug": "necromancer"
-    },
-    {
-      "name": "Goddess of War",
-      "slug": "goddess-of-war"
-    },
-    {
       "name": "Archer",
       "slug": "archer"
     },
     {
-      "name": "Ursa",
-      "slug": "ursa"
+      "name": "Swordsman",
+      "slug": "swordsman"
     },
     {
-      "name": "Elven Archer",
-      "slug": "elven-archer"
+      "name": "Command Center",
+      "slug": "command-center-1"
     },
     {
-      "name": "Bomber",
-      "slug": "bomber"
+      "name": "Camp",
+      "slug": "camp"
     }
   ],
-  "word_count": 3380,
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What should I spend gems on in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Spend gems on the Wheel (best value, stop at milestone chests) and Card Master. Never spend gems on extra battles, fusion, speed-ups, or regular recruitment."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the best building to upgrade first in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Castle (Command Center) is always the top priority. Each level gives +50 troop energy. Spend all your wood on castle upgrades."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the best early game troops in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Focus on getting Oracles (best epic), 8-10 level 6 Poison Masters, Bombs via fusion, and Goddess of War. These will carry you through your first month."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is it worth spending gems on fusion in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Only use gold for fusion. Using gems on fusion is outdated advice from an older game version."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I get more forge stones in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Forge stones come from Infinite War rewards, Hunting rewards, daily chests, summon events, and the shop. Save them for impactful upgrades on Ursa, Elven Archer, Oracles, and Flame Mages."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I set up my account in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Link your account to 89 Trillion, Facebook, or Google Play in Settings. Set your nickname (free unlimited changes). Enter an invite code for 100 free gems. These three steps take two minutes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the castle and why is it important?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The castle (command center) determines your battle grid size and energy cap. It expands from 3×3 at level 1 to 7×6 at level 5 (42 troop slots). It also generates passive gems. Prioritize castle upgrades above all else."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I build a team as a beginner?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Use the Auto-Display feature on the team setup screen. It arranges your troops automatically. Choose from Balanced Power (all-purpose), Power First (aggressive), or Solid Fortress (defensive). Browse community templates for pre-built formations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why does my team sometimes lose to weaker opponents?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "War Inc: Rising has heavy RNG — most skills have a percentage chance to activate. A 12% proc chance means it activates roughly 1 in 8 attacks. Results vary between battles. Test teams at least 5 times before judging performance."
-        }
-      }
-    ]
-  },
+  "word_count": 363,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Beginner Guide — How to Start Strong in 2026",
-    "description": "New to War Inc: Rising? This complete beginner guide covers account setup, auto-display team building, castle grid expansion, fusion basics, daily routine, gem strategy, and a week-by-week progression path.",
-    "datePublished": "2026-06-14",
-    "dateModified": "2026-06-14",
+    "description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
+    "datePublished": "2026-01-15",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

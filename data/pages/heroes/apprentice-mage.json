@@ -2,8 +2,8 @@
   "id": 645,
   "slug": "apprentice-mage",
   "name": "Apprentice Mage",
-  "title": "Apprentice Mage - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Apprentice Mage in War Inc: Rising. Rare Tank unit costing 3. HP 1176, ATK 90, DEF 1 per level, skills, and best game modes.",
+  "title": "Apprentice Mage Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Apprentice Mage rare troop guide for War Inc: Rising. HP 1176, ATK 90, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -461,5 +461,12 @@
     "Apprentice Mage is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
     "Position Apprentice Mage in choke points to maximize their tanking potential."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Passable but replaced by Flame Mage. Fire damage barely matters — a level 7 Mage does only ~5% more damage than a level 6 Forest Scout even against fire-weak enemies. Don't waste forge stones."
+    }
+  ]
 }

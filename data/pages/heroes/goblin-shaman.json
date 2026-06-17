@@ -2,8 +2,8 @@
   "id": 838,
   "slug": "goblin-shaman",
   "name": "Goblin Shaman",
-  "title": "Goblin Shaman - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Goblin Shaman in War Inc: Rising. Rare Mage unit costing 3. HP 1380, ATK 102, DEF 1 per level, skills, and best game modes.",
+  "title": "Goblin Shaman Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Goblin Shaman rare troop guide for War Inc: Rising. HP 1380, ATK 102, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -364,5 +364,12 @@
     "Goblin Shaman deals area magic damage, effective against groups of enemies.",
     "Protect Goblin Shaman with front-line tanks to maximize their damage output."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Not worth the investment loop. Must unlock in wheel first. By the time you can fuse and upgrade him, Woodland Wizard will replace him. Skip."
+    }
+  ]
 }

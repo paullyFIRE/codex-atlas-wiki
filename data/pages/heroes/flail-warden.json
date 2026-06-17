@@ -2,8 +2,8 @@
   "id": 635,
   "slug": "flail-warden",
   "name": "Flail Warden",
-  "title": "Flail Warden - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Flail Warden in War Inc: Rising. Rare Assassin unit costing 3. HP 1500, ATK 42, DEF 1 per level, skills, and best game modes.",
+  "title": "Flail Warden Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Flail Warden rare troop guide for War Inc: Rising. HP 1500, ATK 42, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -397,5 +397,12 @@
     "Flail Warden excels at single-target burst damage, making them ideal for eliminating key threats.",
     "Deploy Flail Warden behind tanks to protect them while they deal damage."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Best rare melee. Lower stats than Goblin Warrior but splash damage handles multi-units extremely well. Play more Wardens than Goblin Warriors as a new player."
+    }
+  ]
 }

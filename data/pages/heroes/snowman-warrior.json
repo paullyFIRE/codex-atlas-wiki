@@ -2,8 +2,8 @@
   "id": 626,
   "slug": "snowman-warrior",
   "name": "Snowman Warrior",
-  "title": "Snowman Warrior - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Snowman Warrior in War Inc: Rising. Epic Mage unit costing 6. HP 1236, ATK 85, DEF 1 per level, skills, and best game modes.",
+  "title": "Snowman Warrior Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Snowman Warrior — Epic Mage guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -462,5 +462,12 @@
     "Protect Snowman Warrior with front-line tanks to maximize their damage output.",
     "High cost (6) means Snowman Warrior should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Weaker alternative to Bone Warlock. Multi-unit (each can trigger own ability). Better at slowing enemy front lines and helping your tanks win engagements. Use until you get a playable Bone Warlock."
+    }
+  ]
 }

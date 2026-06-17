@@ -2,8 +2,8 @@
   "id": 830,
   "slug": "pumpkin-guard",
   "name": "Pumpkin Guard",
-  "title": "Pumpkin Guard - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Pumpkin Guard in War Inc: Rising. Epic Special unit costing 6. HP 5160, ATK 188, DEF 2 per level, skills, and best game modes.",
+  "title": "Pumpkin Guard Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Pumpkin Guard — Epic Special guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -364,5 +364,12 @@
     "Pumpkin Guard has unique abilities that can turn the tide of battle when used correctly.",
     "High cost (6) means Pumpkin Guard should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Use until you get level 8 Goblin Chef. Taunt ability useful in Infinite War to keep pressure off other tanks. Surprisingly high damage output for a tank — solid in Evil Ivy Hunt for maximizing total damage."
+    }
+  ]
 }

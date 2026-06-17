@@ -2,8 +2,8 @@
   "id": 619,
   "slug": "berserker",
   "name": "Berserker",
-  "title": "Berserker - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Berserker in War Inc: Rising. Rare Assassin unit costing 3. HP 1464, ATK 40, DEF 1 per level, skills, and best game modes.",
+  "title": "Berserker Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Berserker rare troop guide for War Inc: Rising. HP 1464, ATK 40, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -397,5 +397,12 @@
     "Berserker excels at single-target burst damage, making them ideal for eliminating key threats.",
     "Deploy Berserker behind tanks to protect them while they deal damage."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Low value. Multi-unit with 8 individuals at level 6, but each individual is fragile (4,600 HP). Falls off quickly. Don't invest forge stones."
+    }
+  ]
 }

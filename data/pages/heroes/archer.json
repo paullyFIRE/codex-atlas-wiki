@@ -2,8 +2,8 @@
   "id": 618,
   "slug": "archer",
   "name": "Archer",
-  "title": "Archer - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Archer in War Inc: Rising. Common Warrior unit costing 2. HP 636, ATK 42, DEF 1 per level, skills, and best game modes.",
+  "title": "Archer Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Is Archer worth using in War Inc: Rising? Complete guide for this common warrior — HP 636, ATK 42, DEF 1, skills and whether to invest resources.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 1,
@@ -462,5 +462,12 @@
     "Use Archer in the front line to deal consistent damage while holding position.",
     "Low cost (2) makes Archer easy to deploy early in battle."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Beginner Tips: Common Troops",
+      "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o",
+      "advice": "Best common range pick. Highest attack among common range units, multi-target skill for reliable damage. When filling last deployment points with range, Archer is the best choice."
+    }
+  ]
 }

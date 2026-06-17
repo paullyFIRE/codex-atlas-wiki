@@ -2,8 +2,8 @@
   "id": 627,
   "slug": "flame-mage",
   "name": "Flame Mage",
-  "title": "Flame Mage - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Flame Mage in War Inc: Rising. Epic Tank unit costing 6. HP 1440, ATK 145, DEF 1 per level, skills, and best game modes.",
+  "title": "Flame Mage Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Flame Mage — Epic Tank guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -462,5 +462,12 @@
     "Position Flame Mage in choke points to maximize their tanking potential.",
     "High cost (6) means Flame Mage should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Replacement for Apprentice Mage but underperforms compared to level 9 Forest Scout even at level 7. Limited arena use (situational against bone warlocks/ninja assassins). Excels in Evil Ivy Hunt where fire damage matters."
+    }
+  ]
 }

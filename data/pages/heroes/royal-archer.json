@@ -2,8 +2,8 @@
   "id": 843,
   "slug": "royal-archer",
   "name": "Royal Archer",
-  "title": "Royal Archer - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Royal Archer is a top A-Tier epic for Hunting mode in War Inc: Rising. Best single-target DPS available in the Exchange Shop. Full stats and how to use effectively.",
+  "title": "Royal Archer Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Royal Archer — Epic Warrior guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -365,5 +365,12 @@
     "Use Royal Archer in the front line to deal consistent damage while holding position.",
     "High cost (6) means Royal Archer should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Wheel/cardmaster only. Expensive and difficult to obtain copies of. Unrealistic option for most free-to-play players."
+    }
+  ]
 }

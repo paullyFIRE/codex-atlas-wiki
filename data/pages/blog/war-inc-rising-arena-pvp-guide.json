@@ -1,131 +1,71 @@
 {
   "slug": "war-inc-rising-arena-pvp-guide",
   "name": "War Inc: Rising Arena PvP Guide — Best Formations and Heroes",
-  "title": "War Inc: Rising Arena PvP Guide — Formations, Hero Rankings and Counter Strategy | War Inc: Rising Wiki",
-  "meta_description": "Master Arena PvP in War Inc: Rising. Complete guide covering the four formations (Dash, Backstab, Outflank, Split), the best PvP heroes, counter-strategies, bomber placement, and how to climb ranks.",
+  "title": "War Inc: Rising Arena PvP Guide — Formations, Heroes, and Strategy",
+  "meta_description": "Master Arena PvP in War Inc: Rising. Learn the four key formations (Dash, Backstab, Outflank, Split), best heroes for PvP, and advanced strategy tips.",
   "type": "blog",
-  "date": "2026-06-13",
+  "date": "2026-02-01",
   "author": "War Inc Wiki Team",
-  "excerpt": "Arena PvP is where the best players separate from the rest. This guide covers the four formations in depth, which heroes dominate the current meta, how to counter common strategies, and the optimal placement for Bombers, Frost Queen, and other key units.",
   "sections": [
     {
       "heading": "Arena PvP Basics",
-      "content": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Each match is won through three things: formation choice, hero composition, and proper positioning.\n\nYour Arena rank determines your seasonal rewards including gems, exclusive skins, and currency for the shop. Climbing the ladder requires you to adapt to the current meta — what works at 2,500 trophies will not work at 5,000.\n\nThe current meta is defined by a few dominant S-tier mythics: Frost Queen for AoE damage, Light Seeker for PvP dueling, and Radiant Warrior for frontline survivability. Understanding how to use and counter these heroes is essential."
+      "content": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Matches are won through smart deployment, proper formation, and understanding hero matchups. Your Arena rank determines your seasonal rewards and bragging rights. Climbing the Arena ladder requires adapting your strategy to counter the current meta."
     },
     {
-      "heading": "Dash Formation — The Standard Baseline",
-      "content": "Dash is the default formation where your units engage the enemy directly across from them. Your A1 attacks their F1, your A2 attacks their F2, and so on.\n\nThis formation maximizes aura abilities from units like Oracles. A level 7 Oracle can cover extensive space in a Dash formation, applying its attack buff to the maximum number of allies. Dash is also the easiest formation to learn and execute.\n\nStrong against: Nothing in particular — it is the baseline.\nWeak against: Backstab formations that bypass your frontline entirely.\n\nBest used when: You are learning the game, your formation relies heavily on auras, or you are confident your raw power outmatches the opponent.\n\nPros: Maximizes aura abilities, strong unit synergies, simple to position.\nCons: Predictable positioning, vulnerable to AoE damage, no surprises."
-    },
-    {
-      "heading": "Backstab Formation — The Aggressive Play",
-      "content": "Backstab sends units directly into the enemy's back line. This devastates their damage dealers and support units before they can contribute to the fight.\n\nThis is the most potent offensive formation. It is best used with Bomber units. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum AoE coverage. A well-placed Bomber backstab can wipe out the enemy's entire back line.\n\nStrong against: Dash formations where the enemy is relying on a tightly-packed formation.\nWeak against: Split formations that split your attacking force into two smaller groups.\n\nBest used when: The opponent is using a Dash formation, you have strong Bombers, or you want to disrupt a turtling opponent."
-    },
-    {
-      "heading": "Outflank Formation — The Tactical Counter",
-      "content": "Outflank sends 10 edge units from columns 1 and 7 into the enemy's flanks. These flanking units draw aggro while your main force advances through the center.\n\nThis is the best counter to Frost Queen. Frost Queen's AoE damage is most dangerous against tightly-packed formations. By spreading your units wide with Outflank, you minimize the impact of her abilities.\n\nStrong against: Frost Queen-centric teams and Dash formations.\nWeak against: Split formations that divide your flanking forces.\n\nBest used when: The opponent has Frost Queen in their lineup, or you want to surprise a Dash user.\n\nNote: Outflank reduces Bomber effectiveness because Bombers cover a 2x3 area instead of their ideal 3x3 in Backstab."
-    },
-    {
-      "heading": "Split Formation — The Defensive Masterpiece",
-      "content": "Split shifts your left units 3 spaces to the left and your right units 2 spaces to the right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup.\n\nThe key advantage of Split is how it counters Backstab formations. When the enemy backstabs into a Split formation, their attacking force gets split into two smaller groups, each facing half your army. This reduces the effectiveness of their backstab considerably.\n\nStrong against: Backstab formations.\nWeak against: Dash formations that engage each half of your split force individually.\n\nBest used when: Disguised as Dash. Set your formation to Split but make it look like Dash in the preview. The opponent picks Backstab to counter your fake Dash, and then your real Split counters their Backstab. This mind game is the highest-level play in Arena."
+      "heading": "The Four Key Formations",
+      "content": "Dash Formation is the standard baseline — your A1 attacks enemy F1, and so on. It maximizes aura abilities and unit synergies but is predictable. Backstab Formation sends units to the enemy's back line to devastate their damage dealers — excellent with Bomber units targeting B2-B3 and B5-B6 positions. Outflank Formation sends edge units into enemy lines to draw aggro while your front advances — great for countering Frost Queen. Split Formation shifts units to create two battle fronts — the hardest formation to predict."
     },
     {
       "heading": "Best Heroes for Arena PvP",
-      "content": "Frost Queen is the current queen of Arena. Her massive AoE damage can wipe entire formations. She is most dangerous when placed in Backstab or Outflank positions.\n\nLight Seeker is the top dueling unit. His Holy Wash heals him to full when below 50% HP while dealing AoE damage to enemies. At level 4, Light Volley gives him multi-shot with +50% attack. Multiple Light Seekers stacked together are devastating.\n\nBone Marksman provides consistent ranged damage from the backline. His piercing shot targets enemy marksmen and mages first, taking out key threats before they can act.\n\nRadiant Warrior anchors your frontline. His shield and massive HP make him the best unit to absorb enemy attacks. His level 6 ability adds +20% element resistance to all nearby allies.\n\nBomber is the ultimate backstab unit. Place them in B2-B3 or B5-B6 positions in Backstab formation for maximum impact. Their self-destruct AoE can turn the tide of a match.\n\nOracles provide essential attack buffs to your damage dealers. At level 7, their aura range covers most of the formation."
+      "content": "The current Arena meta favors heroes with AoE damage and crowd control. Frost Queen leads the pack with massive area damage. Light Seeker provides holy AoE with healing. Bone Marksman delivers piercing shots from range. Radiant Warrior combines durability with damage. Tide Lord brings water-elemental wave attacks. For support, Starlight Apostle and Melody Weaver provide crucial buffs."
     },
     {
       "heading": "Countering Common Strategies",
-      "content": "The rock-paper-scissors of formations is simple: Dash beats Split, Split beats Backstab, Backstab beats Dash. Outflank counters Frost Queen specifically.\n\nIf you see Frost Queen in the opponent's lineup, use Outflank to spread your formation wide and minimize her AoE impact.\n\nIf the opponent is using a Bomber-heavy Backstab, counter with Split to break their backstab into ineffective smaller groups.\n\nAgainst Radiant Warrior frontlines, use Necromancer skeletons to disrupt the tank line, or Light Seeker's Holy Wash to burn through the shield.\n\nAlways scout the opponent's formation before the match starts. The preview shows their approximate positioning. Adjust your formation accordingly. The highest-level Arena play is about predicting and countering, not just having more power."
+      "content": "If your opponent uses Backstab formation, counter with Split formation to minimize damage. Against Dash, use Backstab to disrupt their formation. Frost Queen teams are vulnerable to Outflank formation that spreads units wide. Always scout your opponent's formation before the match starts and adjust your deployment accordingly."
     }
   ],
-  "preview": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Matches are won through smart deployment, proper formation, and understanding hero matchups...",
+  "preview": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Matches are won through smart deployment, proper formation, and understanding hero matchups. Your Arena rank deter...",
   "related_heroes": [
+    {
+      "name": "Bomber",
+      "slug": "bomber"
+    },
     {
       "name": "Frost Queen",
       "slug": "frost-queen"
     },
     {
-      "name": "Light Seeker",
-      "slug": "light-seeker"
+      "name": "Starlight Apostle",
+      "slug": "starlight-apostle"
     },
     {
       "name": "Bone Marksman",
       "slug": "bone-marksman"
     },
     {
+      "name": "Melody Weaver",
+      "slug": "melody-weaver"
+    },
+    {
       "name": "Radiant Warrior",
       "slug": "radiant-warrior"
     },
     {
-      "name": "Bomber",
-      "slug": "bomber"
+      "name": "Tide Lord",
+      "slug": "tide-lord"
     },
     {
-      "name": "Oracles",
-      "slug": "oracle"
-    },
-    {
-      "name": "Necromancer",
-      "slug": "necromancer"
-    },
-    {
-      "name": "Goddess of War",
-      "slug": "goddess-of-war"
+      "name": "Light Seeker",
+      "slug": "light-seeker"
     }
   ],
-  "word_count": 2100,
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is the best formation in War Inc: Rising Arena?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "There is no single best formation. The four formations form a rock-paper-scissors system: Dash beats Split, Split beats Backstab, Backstab beats Dash. Outflank counters Frost Queen specifically. The best formation depends on what your opponent is using."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I counter Backstab formation in Arena?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Use Split formation. Split breaks the enemy's backstab into two smaller groups, making their attack much less effective."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I counter Frost Queen in Arena?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Use Outflank formation. It spreads your units wide, minimizing the impact of Frost Queen's AoE damage."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the best hero for Arena PvP?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Frost Queen leads the current meta with massive AoE damage. Light Seeker is the top dueling unit. Bone Marksman provides consistent ranged damage. Combine them with Radiant Warrior for frontline protection."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Where should I place Bombers in Backstab formation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Place Bombers targeting B2-B3 and B5-B6 positions in Backstab formation for maximum AoE coverage on the enemy's back line."
-        }
-      }
-    ]
-  },
+  "word_count": 239,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Arena PvP Guide — Best Formations and Heroes",
-    "description": "Master Arena PvP in War Inc: Rising. Complete guide covering the four formations (Dash, Backstab, Outflank, Split), the best PvP heroes, counter-strategies, and how to climb ranks.",
-    "datePublished": "2026-06-13",
-    "dateModified": "2026-06-13",
+    "description": "Master Arena PvP in War Inc: Rising. Learn the four key formations (Dash, Backstab, Outflank, Split), best heroes for PvP, and advanced strategy tips.",
+    "datePublished": "2026-02-01",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

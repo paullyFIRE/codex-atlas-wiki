@@ -1,115 +1,59 @@
 {
   "slug": "war-inc-rising-hunting-mode-guide",
   "name": "War Inc: Rising Hunting Mode Guide — Bosses, Tips and Rewards",
-  "title": "War Inc: Rising Hunting Mode Guide — Best Heroes, Tank Stacking Strategy and Boss Tips | War Inc: Rising Wiki",
-  "meta_description": "Master Hunting mode in War Inc: Rising. Learn the tank-stacking strategy, best single-target DPS heroes, optimal formation for boss fights, and how to maximize your daily Hunting rewards.",
+  "title": "War Inc: Rising Hunting Mode Guide — Best Heroes and Boss Strategy",
+  "meta_description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
   "type": "blog",
-  "date": "2026-06-13",
+  "date": "2026-04-10",
   "author": "War Inc Wiki Team",
-  "excerpt": "Hunting mode is the best source of Forge Stones in War Inc: Rising. This guide covers the tank-stacking strategy, the best single-target damage dealers, optimal formations for each boss type, and how to maximize your daily rewards.",
   "sections": [
     {
       "heading": "Hunting Mode Overview",
-      "content": "Hunting mode pits your formation against powerful boss monsters. Each boss has unique attack patterns and weaknesses. The mode resets daily with new boss rotations.\n\nYou get 3 free Hunting battles per day. Extra battles cost gems and are almost never worth it. Make your 3 daily runs count by optimizing your formation for single-target damage.\n\nHunting is one of the best sources of Forge Stones in the game — which makes it one of the most important daily activities. Forge Stones are the primary bottleneck for pushing hero merge levels past 6. A consistent Hunting routine is a great long-term investment."
-    },
-    {
-      "heading": "The Tank-Stacking Strategy",
-      "content": "The core strategy for Hunting is tank-stacking. Stack all your tanks on one side of the formation to shift enemy aggro in one direction. This concentrates the boss's damage on your most durable units while your damage dealers attack from safety.\n\nThe preferred setup is stacking tanks on the right side. Place your highest HP and best defensive units there. Radiant Warrior is the best tank for this role — his shield and massive HP pool make him ideal for absorbing boss damage.\n\nBehind your tanks, place your single-target damage dealers. They should be protected from the boss's AoE attacks while outputting maximum damage. Place support units like Oracles and healers behind the damage dealers.\n\nThis formation gives your damage dealers maximum uptime because the boss is focused on the tank stack and not attacking your backline."
+      "content": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the best sources of Forge Stones and Legendary hero shards — both essential for progression."
     },
     {
       "heading": "Best Heroes for Hunting",
-      "content": "Hunting mode favors single-target damage dealers over AoE specialists. Here are the top performers.\n\nFlame Mages are S-tier for Hunting. Their consistent single-target damage output is unmatched. Level 8 Flame Mages are especially effective.\n\nRoyal Archers are also S-tier. They provide excellent single-target damage and are available in the Exchange Shop, making them easier to acquire than most mythics. Buy all 10 Royal Archers from the Exchange Shop each rotation.\n\nForest Scouts at level 9 are A-tier. Their 2.5 tile range when leveled makes them effective backline snipers against bosses. Place them in the back row for survival.\n\nBombs are A-tier. Their death damage contributes significant burst against bosses.\n\nOracles are essential support. Their attack buff stacking (4% per Oracle, up to 20 layers) dramatically increases your damage dealers' output.\n\nFrontline Tanks: Radiant Warrior is best. Goddess of War shields the tanks and keeps them alive longer."
+      "content": "Hunting mode favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here — Ghost Assassin, Bone Marksman, and Mist Archer are top picks. Frontline Tanks are essential to keep the boss occupied while your damage dealers work. Support heroes with healing like Grace Priest extend your team's survivability."
     },
     {
-      "heading": "Hunting Formation and Positioning",
-      "content": "Build your Hunting formation around these principles.\n\nPlace all tanks on one side (right side is the meta). This concentrates aggro and lets your damage dealers attack without interruption.\n\nPlace your single-target damage dealers in the back on the opposite side from your tanks. This gives them maximum distance from the boss.\n\nPlace Oracles and buffers in the middle. A level 7 Oracle covers extensive area.\n\nUse Goddess of War to shield your tank stack. Her shield keeps your frontline alive through the boss's heavy attacks.\n\nScouts at level 9 should be placed in the back row for survival. Their 2.5 tile radius gives them excellent range.\n\nTest different formations using the Trial feature. Different bosses may require slight adjustments to your positioning."
+      "heading": "Hunting Rewards Explained",
+      "content": "Higher difficulty levels in Hunting mode yield better rewards. Forge Stones are a common drop and essential for pushing hero merge levels past 6. Gold and hero shards are also available. Building a dedicated Hunting team that can consistently clear the highest difficulty is one of the best long-term investments in the game."
     },
     {
-      "heading": "Hunting Rewards and Daily Strategy",
-      "content": "Always complete your 3 daily Hunting runs. Even if you cannot clear the highest difficulty, lower-tier rewards still provide value.\n\nForge Stones are the primary reward from Hunting. They drop regularly and are the main reason to do Hunting every day. Gold and hero shards are secondary rewards.\n\nHigher difficulty levels yield better rewards. If you can consistently clear difficulty 3 but not 4, run difficulty 3. The gap in rewards between difficulty levels is not large enough to justify failing runs.\n\nBuilding a dedicated Hunting team is one of the best long-term investments in the game. Once your Hunting team can consistently clear the highest difficulty, your forge stone income becomes much more reliable.\n\nThe 3 free daily runs are enough for most players. Extra runs cost gems and are only worth it if you are pushing for top leaderboard positions or need forge stones urgently."
-    },
-    {
-      "heading": "Hunting-Specific Tier List",
-      "content": "S Tier: Flame Mages, Royal Archers (single-target damage dealers).\nA Tier: Forest Scouts, Bombs, Oracles.\nB Tier: Buffers and tanks.\n\nThis is a very different tier list from general PvP. AoE specialists like Frost Queen are much weaker in Hunting because they spread their damage across multiple targets. Build a separate Hunting team if your main team relies heavily on AoE.\n\nThe best Hunting team composition is 2-3 tanks (stacked on one side), 3-4 single-target damage dealers, 2 Oracles, and 1 Goddess of War for shielding."
+      "heading": "Daily Hunting Strategy",
+      "content": "Always complete your daily Hunting runs — even if you can't clear the highest difficulty, the lower-tier rewards still provide value. Study each boss's attack patterns before the fight. Time your hero deployment to avoid the boss's AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage."
     }
   ],
-  "preview": "Hunting mode pits your formation against powerful boss monsters. Each boss has unique attack patterns and weaknesses. The mode resets daily with new boss rotations. You get 3 free Hunting battles per day...",
+  "preview": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the b...",
   "related_heroes": [
     {
-      "name": "Flame Mage",
-      "slug": "flame-mage"
+      "name": "Archer",
+      "slug": "archer"
     },
     {
-      "name": "Royal Archer",
-      "slug": "royal-archer"
+      "name": "Grace Priest",
+      "slug": "grace-priest"
     },
     {
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
-    },
-    {
-      "name": "Oracles",
-      "slug": "oracle"
-    },
-    {
-      "name": "Goddess of War",
-      "slug": "goddess-of-war"
+      "name": "Ghost Assassin",
+      "slug": "ghost-assassin"
     },
     {
       "name": "Bone Marksman",
       "slug": "bone-marksman"
     },
     {
-      "name": "Forest Scout",
-      "slug": "forest-scout"
+      "name": "Mist Archer",
+      "slug": "mist-archer"
     }
   ],
-  "word_count": 1650,
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is the best strategy for Hunting mode in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Stack all tanks on one side (preferably the right) to shift boss aggro, then place single-target damage dealers like Flame Mages and Royal Archers on the opposite side."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the best heroes for Hunting mode?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Flame Mages and Royal Archers are S-tier for Hunting. Forest Scouts and Bombs are A-tier. Oracles provide essential attack buff support."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How many Hunting runs should I do daily?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Always complete your 3 free daily runs. Extra runs cost gems and are rarely worth it unless you need forge stones urgently."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are Flame Mages better than Frost Queen for Hunting?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Flame Mages deal concentrated single-target damage which is better for Hunting. Frost Queen's AoE is wasted on single bosses."
-        }
-      }
-    ]
-  },
+  "word_count": 201,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Hunting Mode Guide — Bosses, Tips and Rewards",
-    "description": "Master Hunting mode in War Inc: Rising. Learn the tank-stacking strategy, best single-target DPS heroes, optimal formation for boss fights, and how to maximize your daily Hunting rewards.",
-    "datePublished": "2026-06-13",
-    "dateModified": "2026-06-13",
+    "description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
+    "datePublished": "2026-04-10",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

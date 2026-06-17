@@ -2,8 +2,8 @@
   "id": 655,
   "slug": "frost-skeleton",
   "name": "Frost Skeleton",
-  "title": "Frost Skeleton - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Frost Skeleton in War Inc: Rising. Rare Assassin unit costing 3. HP 1464, ATK 40, DEF 1 per level, skills, and best game modes.",
+  "title": "Frost Skeleton Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Frost Skeleton rare troop guide for War Inc: Rising. HP 1464, ATK 40, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -364,5 +364,12 @@
     "Frost Skeleton excels at single-target burst damage, making them ideal for eliminating key threats.",
     "Deploy Frost Skeleton behind tanks to protect them while they deal damage."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "On death, deals area damage + speed reduction. Flexible placement: front for instant slow, middle for delayed slow, back for long delayed slow. Pairs best with Bone Marksman, Bone Gunner, Bone Warden, and Iron Bulwark for attack speed synergy."
+    }
+  ]
 }

@@ -192,13 +192,16 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
             f"{'forge stone priority' if rarity_name in ('Epic', 'Legendary') else 'team synergies'}."
         )
 
-    # Title
-    title_suffix = {
-        1: "Hero Stats and Skills",
-        4: "Building Stats and Upgrades",
-        5: "Special Entity Stats",
-    }.get(unit_type, "Stats")
-    title = f"{name} - {title_suffix} | War Inc: Rising Wiki"
+    # Title — shortened suffix for better SERP CTR
+    # Heroes use "Stats & Guide" replacing wordy "Hero Stats and Skills"
+    if unit_type == 1:
+        title = f"{name} Stats & Guide | War Inc: Rising Wiki"
+    else:
+        title_suffix = {
+            4: "Building Stats and Upgrades",
+            5: "Special Entity Stats",
+        }.get(unit_type, "Stats")
+        title = f"{name} — {title_suffix} | War Inc: Rising Wiki"
 
     # Stats table
     stats_table = []

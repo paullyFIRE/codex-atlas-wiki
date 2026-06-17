@@ -2,8 +2,8 @@
   "id": 630,
   "slug": "snowball-thrower",
   "name": "Snowball Thrower",
-  "title": "Snowball Thrower - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Is Snowball Thrower worth using in War Inc: Rising? D-Tier common — better options exist. Full stats, skills and why Archer is the only common range worth investing in.",
+  "title": "Snowball Thrower Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Is Snowball Thrower worth using in War Inc: Rising? Complete guide for this common mage — HP 732, ATK 34, DEF 1, skills and whether to invest resources.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 1,
@@ -462,5 +462,12 @@
     "Protect Snowball Thrower with front-line tanks to maximize their damage output.",
     "Low cost (2) makes Snowball Thrower easy to deploy early in battle."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Beginner Tips: Common Troops",
+      "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o",
+      "advice": "Water damage is irrelevant. Slow effect on skill is useless. Archer is strictly better in every situation."
+    }
+  ]
 }

@@ -2,8 +2,8 @@
   "id": 835,
   "slug": "paladin",
   "name": "Paladin",
-  "title": "Paladin - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Paladin in War Inc: Rising. Rare Special unit costing 3. HP 1956, ATK 72, DEF 1 per level, skills, and best game modes.",
+  "title": "Paladin Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Paladin rare troop guide for War Inc: Rising. HP 1956, ATK 72, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -363,5 +363,12 @@
   "strategy_tips": [
     "Paladin has unique abilities that can turn the tide of battle when used correctly."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Multi-unit tank with high HP and surprisingly high attack. Generates a shield every 10 seconds. Combo with Radiant Warrior: Radiant's shield starts at battle (8s duration), Paladin's activates at 10s — creates 2s overlap for extra survivability."
+    }
+  ]
 }

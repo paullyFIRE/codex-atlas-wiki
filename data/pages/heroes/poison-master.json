@@ -2,8 +2,8 @@
   "id": 624,
   "slug": "poison-master",
   "name": "Poison Master",
-  "title": "Poison Master - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Poison Master in War Inc: Rising. Epic Tank unit costing 6. HP 1212, ATK 83, DEF 1 per level, skills, and best game modes.",
+  "title": "Poison Master Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Poison Master — Epic Tank guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -462,5 +462,12 @@
     "Position Poison Master in choke points to maximize their tanking potential.",
     "High cost (6) means Poison Master should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Excellent for new player PvP against multi-unit armies — splash damage shreds them. Primary damage dealer in Infinite War since many enemies are weak to water. Falls off as you unlock stronger AoE options."
+    }
+  ]
 }

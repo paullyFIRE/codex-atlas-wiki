@@ -2,8 +2,8 @@
   "id": 832,
   "slug": "bomber",
   "name": "Bomber",
-  "title": "Bomber - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Bomber in War Inc: Rising. Rare Tank unit costing 4. HP 960, ATK 260, DEF 1 per level, skills, and best game modes.",
+  "title": "Bomber Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Bomber rare troop guide for War Inc: Rising. HP 960, ATK 260, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -364,5 +364,12 @@
     "Bomber is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
     "Position Bomber in choke points to maximize their tanking potential."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "Suicide unit dealing 3x base ATK on death. At level 7, stuns on death. Best in backstab/outflank strategies. In split formation vs backstabs, place front close to corner so he charges enemy front line rather than chasing stabbers."
+    }
+  ]
 }

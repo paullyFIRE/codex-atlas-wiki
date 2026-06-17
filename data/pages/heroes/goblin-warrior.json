@@ -2,8 +2,8 @@
   "id": 629,
   "slug": "goblin-warrior",
   "name": "Goblin Warrior",
-  "title": "Goblin Warrior - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Goblin Warrior in War Inc: Rising. Rare Assassin unit costing 3. HP 1728, ATK 60, DEF 1 per level, skills, and best game modes.",
+  "title": "Goblin Warrior Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Goblin Warrior rare troop guide for War Inc: Rising. HP 1728, ATK 60, DEF 1, skills per level, best game modes and forge stone investment analysis.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 2,
@@ -397,5 +397,12 @@
     "Goblin Warrior excels at single-target burst damage, making them ideal for eliminating key threats.",
     "Deploy Goblin Warrior behind tanks to protect them while they deal damage."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Rare Troop Guide",
+      "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms",
+      "advice": "High HP and decent damage from ability make him useable but not a priority. Flail Warden is generally the better rare melee pick for new players."
+    }
+  ]
 }

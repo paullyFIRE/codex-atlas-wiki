@@ -1,47 +1,34 @@
 {
   "slug": "war-inc-rising-formation-guide",
   "name": "War Inc: Rising Formation Guide — Dash, Backstab, Outflank and Split",
-  "title": "War Inc: Rising Formation Guide — Master All 4 Battle Formations | War Inc: Rising Wiki",
-  "meta_description": "Master the four battle formations in War Inc: Rising. Learn Dash, Backstab, Outflank, and Split formations with detailed positioning guides, counters, best heroes for each, and advanced mind games.",
+  "title": "War Inc: Rising Formation Guide — Master All 4 Battle Formations",
+  "meta_description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
   "type": "blog",
-  "date": "2026-06-13",
+  "date": "2026-03-10",
   "author": "War Inc Wiki Team",
-  "excerpt": "Formations are the single biggest skill gap in War Inc: Rising. This guide breaks down all four formations with specific positioning, hero recommendations, counter-matchups, and the mind games that separate top players from the rest.",
   "sections": [
     {
-      "heading": "Why Formation Is the Most Important Skill",
-      "content": "Your formation determines where every unit deploys on the battlefield, which enemy they target first, and how they respond to different enemy formations. A well-chosen formation makes an average team punch above its weight. A poorly chosen formation makes a stacked team underperform.\n\nThe four formations form a rock-paper-scissors system: Dash beats Split, Split beats Backstab, Backstab beats Dash. Outflank is a wild card that specifically counters Frost Queen compositions.\n\nBeyond the rock-paper-scissors, formation choice affects aura coverage, Bomber effectiveness, and how your frontline engages. Mastering formations is the single biggest skill gap between intermediate and advanced players."
+      "heading": "Why Formation Matters",
+      "content": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's effectiveness regardless of hero quality. Understanding formations is the single biggest skill gap between intermediate and advanced players."
     },
     {
-      "heading": "Dash Formation — The Standard Baseline",
-      "content": "Dash is the default formation. Your A1 attacks the enemy's F1, your A2 attacks F2, and so on. Units deploy in a straightforward line formation.\n\nThis formation maximizes aura abilities. A level 7 Oracle in a Dash formation can cover extensive space, applying its 4% stacking attack buff to the maximum number of nearby allies. Dash is also the simplest formation to position for — just put your tanks in front, damage dealers behind, and support units in the middle.\n\nStrong against: Split formation. When facing a Split, your Dash engages each half of the split force individually, giving you local numerical advantages.\n\nWeak against: Backstab formation. Since your units are in a predictable line, Backstab sends units directly into your back line with minimal resistance.\n\nBest used when: Your team relies heavily on aura abilities like Oracles, you are running a Radiant Warrior frontline, or you want to punish a Split user.\n\nIdeal positioning: Tanks in column 1, damage dealers in column 2, support in column 3, ranged DPS in the back columns."
+      "heading": "Dash Formation — The Standard",
+      "content": "Dash is the default formation — your leftmost units engage the enemy's front line directly. Your A1 attacks F1, A2 attacks F2, and so on. This formation maximizes the effectiveness of aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. Strong against: nothing in particular. Weak against: Backstab formations that bypass your frontline to hit damage dealers."
     },
     {
-      "heading": "Backstab Formation — Destroying the Back Line",
-      "content": "Backstab sends your units directly into the enemy's back line, bypassing their frontline entirely. This formation is devastating against teams that rely on support units and ranged damage dealers.\n\nThe key to Backstab is Bomber placement. Bombers cause massive AoE damage on death, and in Backstab formation they land in the enemy's back line. Optimal Bomber placement targets B2-B3 and B5-B6 positions — this covers the maximum number of enemy back-line units.\n\nFrost Queen also excels in Backstab. Her AoE damage can wipe out the enemy's support column before they can react. Place her in the backstab squad for maximum disruption.\n\nStrong against: Dash formation. Your backstab bypasses their forward wall and hits their vulnerable back line.\n\nWeak against: Split formation. The enemy's split front line divides your backstab into two smaller, less effective groups.\n\nBest used when: The opponent is using Dash, the opponent has a juicy back line of Oracles and healers, or you have strong Bombers."
+      "heading": "Backstab Formation — The Aggressor",
+      "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation. Use it with Bomber units that self-destruct for massive AoE damage. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum coverage. Strong against Dash formations. Weak against Split formations that split your forces."
     },
     {
-      "heading": "Outflank Formation — Countering Frost Queen",
-      "content": "Outflank sends 10 edge units from columns 1 and 7 into the enemy's flanks. These flanking units draw aggro while your main force advances through the center.\n\nThis formation specifically counters Frost Queen. Frost Queen's AoE damage is most dangerous against tightly-packed formations. Outflank spreads your units across the entire width of the battlefield, making her AoE hit far fewer targets.\n\nHowever, Outflank reduces Bomber effectiveness. Bombers in Outflank cover a 2x3 area instead of the ideal 3x3 they get in Backstab. If your strategy revolves around Bombers, consider a different formation.\n\nStrong against: Frost Queen compositions and Dash formations against unsuspecting opponents.\n\nWeak against: Split formation. Your flanking force gets divided against a split opponent, reducing both flanking groups' effectiveness.\n\nBest used when: The opponent has Frost Queen as their main carry, you want to surprise a Dash user in defense, or you have strong edge units."
+      "heading": "Outflank Formation — The Tactician's Choice",
+      "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks, drawing aggro while your main force advances through the center. This formation is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Strong against Frost Queen-centric teams. Weak against Split formations that split your flanking forces."
     },
     {
-      "heading": "Split Formation — The Defensive Mind Game",
-      "content": "Split shifts your left units 3 spaces to the left and right units 2 spaces to the right. This creates two separate battle fronts that operate independently.\n\nSplit is the hardest formation to predict and the best defensive setup. Its main counter is against Backstab — when the enemy backstabs into a Split formation, their attacking force gets divided between your two fronts. Each half of their backstab faces a full half of your army, dramatically reducing their effectiveness.\n\nThe advanced play is disguising Split as Dash. Set your formation to Split but arrange your preview to look like Dash. The opponent sees Dash and picks Backstab to counter it. Then your real Split counters their Backstab. This mind game is the highest level of Arena play.\n\nStrong against: Backstab formations.\n\nWeak against: Dash formations. A Dash user engages each half of your split force individually with their full army.\n\nBest used when: You want to counter Backstab, you are setting up a formation trap, or you need a strong defensive stand."
-    },
-    {
-      "heading": "Formation Matchups — The Complete Rock-Paper-Scissors",
-      "content": "The full matchup chart:\n\nDash beats Split, loses to Backstab, and is neutral against Outflank.\nBackstab beats Dash, loses to Split, and is neutral against Outflank.\nSplit beats Backstab, loses to Dash, and beats Outflank.\nOutflank beats Frost Queen teams, loses to Split, and is neutral against Dash and Backstab.\n\nIn practice, the matchup is not absolute. Team composition matters. A Backstab team with strong Bombers can still beat a Split team if the Bombers land well. A Dash team with Radiant Warrior and Goddess of War shields can survive a Backstab long enough to turn the fight.\n\nThe key is to read the opponent's formation and adjust. Previewing shows their approximate positioning. If you can predict their formation, you can counter it before the match starts."
-    },
-    {
-      "heading": "Best Heroes for Each Formation",
-      "content": "Dash: Radiant Warrior (frontline anchor), Oracles (max aura coverage), Goddess of War (shields frontline), Light Seeker (dueling frontline).\n\nBackstab: Bomber (AoE death damage), Frost Queen (AoE backline wipe), Light Seeker (disrupts backline), Necromancer (skeletons overwhelm backline).\n\nOutflank: Frost Queen counter — use strong edge units like Forest Scouts, Shove Boy, and any fast-moving melee troops. Keep your center open for Radiant Warrior and Oracles.\n\nSplit: Works well with independent units that do not rely on auras. Multi-unit troops like Forest Scouts, Poison Masters, and Rock Throwers perform well because each half of the split can operate independently."
-    },
-    {
-      "heading": "Advanced Tips and Mind Games",
-      "content": "The formation preview is both a blessing and a curse. It shows your opponent your approximate positioning, but you can manipulate it.\n\nDisguise your formation: If you want to use Split but do not want the opponent to counter with Dash, arrange your preview to look like Dash. The opponent picks Backstab (to counter your fake Dash), and your real Split counters their Backstab.\n\nKnow when to switch: Do not use the same formation every match. If you won your last match with Backstab, the opponent will expect it. Switch to Dash or Outflank to keep them guessing.\n\nTower defense in Clan War: In Clan War, the formation you set on defense matters. Check what formations the enemy team tends to use and set your defense to counter their most common pick.\n\nThe free Trial feature in Clan War lets you test formations against specific towers without spending morale. Use it to determine which formation gives you the best performance against different target types."
+      "heading": "Split Formation — The Defensive Master",
+      "content": "Split shifts left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup. It counters Backstab formations by splitting the enemy's backstab into two ineffective groups. Strong against Backstab. Weak against Dash, which engages each half of your split force individually."
     }
   ],
-  "preview": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation...",
+  "preview": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's eff...",
   "related_heroes": [
     {
       "name": "Bomber",
@@ -50,82 +37,15 @@
     {
       "name": "Frost Queen",
       "slug": "frost-queen"
-    },
-    {
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
-    },
-    {
-      "name": "Oracles",
-      "slug": "oracle"
-    },
-    {
-      "name": "Light Seeker",
-      "slug": "light-seeker"
-    },
-    {
-      "name": "Goddess of War",
-      "slug": "goddess-of-war"
-    },
-    {
-      "name": "Necromancer",
-      "slug": "necromancer"
     }
   ],
-  "word_count": 2250,
-  "faq_schema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are the four formations in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dash (standard line), Backstab (attacks enemy back line), Outflank (sends units to flanks), and Split (creates two battle fronts). They form a rock-paper-scissors system."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which formation counters Backstab?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Split formation counters Backstab by dividing the enemy's backstab force into two smaller, less effective groups."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which formation is best for Bombers?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Backstab formation is best for Bombers. Place them targeting B2-B3 and B5-B6 positions for maximum area coverage."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I counter Frost Queen in PvP?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Use Outflank formation to spread your units wide, minimizing the impact of Frost Queen's AoE damage."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I test formations for free in War Inc: Rising?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. In Clan War, use the Trial feature by clicking any tower, gate, dragon, or spider and selecting Trial. Hits are free with no morale cost."
-        }
-      }
-    ]
-  },
+  "word_count": 280,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "War Inc: Rising Formation Guide — Dash, Backstab, Outflank and Split",
-    "description": "Master the four battle formations in War Inc: Rising. Learn Dash, Backstab, Outflank, and Split formations with detailed positioning guides, counters, best heroes for each, and advanced mind games.",
-    "datePublished": "2026-06-13",
-    "dateModified": "2026-06-13",
+    "description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
+    "datePublished": "2026-03-10",
     "author": {
       "@type": "Person",
       "name": "War Inc Wiki Team"

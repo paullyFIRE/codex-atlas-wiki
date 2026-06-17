@@ -2,8 +2,8 @@
   "id": 659,
   "slug": "bone-warlock",
   "name": "Bone Warlock",
-  "title": "Bone Warlock - Hero Stats and Skills | War Inc: Rising Wiki",
-  "meta_description": "Learn about Bone Warlock in War Inc: Rising. Epic Mage unit costing 6. HP 2360, ATK 192, DEF 1 per level, skills, and best game modes.",
+  "title": "Bone Warlock Stats & Guide | War Inc: Rising Wiki",
+  "meta_description": "Bone Warlock — Epic Mage guide for War Inc: Rising. Complete stats, skills breakdown, best formations and forge stone priority.",
   "type": "heroes",
   "unit_type": 1,
   "rarity": 3,
@@ -365,5 +365,12 @@
     "Protect Bone Warlock with front-line tanks to maximize their damage output.",
     "High cost (6) means Bone Warlock should be deployed strategically when the timing is right."
   ],
-  "image": null
+  "image": null,
+  "video_guides": [
+    {
+      "title": "Epic Troop Guide",
+      "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0",
+      "advice": "Slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard. Also useful in Twin Dragon Hunt for wind damage."
+    }
+  ]
 }
