@@ -189,8 +189,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
     <a href="/" class="text-title-md text-primary tracking-tight font-display no-underline">WAR INC: RISING WIKI</a>
     <nav class="hidden md:flex gap-8">
       <a href="/heroes/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'heroes' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Heroes</a>
-      <a href="/guides/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'guides' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Guides</a>
-      <a href="/blog/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'blog' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>News</a>
+      <a href="/blog/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'blog' || currentSection === 'guides' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Guides</a>
       <a href="/tools/" class={`text-label-md uppercase tracking-wider no-underline ${currentSection === 'tools' ? 'text-primary font-bold border-b-4 border-primary pb-1' : 'text-on-surface-variant hover:text-primary transition-colors'}`}>Tools</a>
     </nav>
   </div>
@@ -226,9 +225,8 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID || '';
       </div>
       <div class="flex flex-col gap-4">
         <p class="text-label-md font-bold text-on-surface uppercase tracking-widest mb-2">Guides</p>
-        <a href="/guides/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Strategy</a>
+        <a href="/blog/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Strategy Guides</a>
         <a href="/tier-lists/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">Tier Lists</a>
-        <a href="/blog/" class="text-on-surface-variant hover:text-primary text-body-md font-medium transition-colors no-underline">News</a>
       </div>
       <div class="flex flex-col gap-4">
         <p class="text-label-md font-bold text-on-surface uppercase tracking-widest mb-2">More</p>

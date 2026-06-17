@@ -14,9 +14,8 @@ function loadPost(slug) {
 const posts = items.map(item => {
   const data = loadPost(item.slug);
   const preview = data?.preview || '';
-  const wordCount = data?.word_count || 0;
   const date = data?.date || '';
-  return { slug: item.slug, name: item.name, preview, wordCount, date, sections: data?.sections || [] };
+  return { slug: item.slug, name: item.name, preview, date, sections: data?.sections || [] };
 }).sort((a, b) => b.date.localeCompare(a.date));
 ---
 
@@ -40,7 +39,7 @@ const posts = items.map(item => {
         <h2 class="text-title-md font-display text-on-surface group-hover:text-primary transition-colors mb-3">{p.name}</h2>
         <p class="text-body-md text-on-surface-variant leading-relaxed">{p.preview}</p>
         <span class="flex items-center gap-2 text-label-md font-bold text-primary mt-4">
-          {p.wordCount} words · {p.sections.length} sections <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1 ml-auto">arrow_forward</span>
+          {p.sections.length} sections <span class="material-symbols-outlined text-sm opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1 ml-auto">arrow_forward</span>
         </span>
       </a>
     ))}
