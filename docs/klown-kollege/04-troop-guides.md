@@ -142,6 +142,32 @@ Both are heavy hitters. Comparable at similar levels. Bone Marksman has better r
 
 ---
 
+## Epic Troop Guide
+
+Epic troops are harder to obtain than rares. Most newer players will have epics at level 3-4 with maybe one reaching level 6. Knowing playability thresholds is critical.
+
+### Playability Thresholds
+- **Multi-unit epics**: Generally playable at level 5 (stats comparable to level 6 rare). Exceptions: Poison Master (level 4, toxic field) and Oracle (attack buff works at any level).
+- **Single-unit range**: Need 10,000+ HP to survive burst (ninja assassin, bomber self-destruct).
+- **Single-unit melee**: Need 20,000+ HP to tank effectively.
+
+### Epic Troop Evaluations
+
+| Troop | Verdict | Key Points |
+|-------|---------|------------|
+| **Oracle** | **S-tier priority** | 4% attack buff per unit, stacks 20x (32% at level 6). Level 7 increases range significantly. Highest forge stone priority. Use in 99% of setups. |
+| **Poison Master** | Excellent early | Splash damage shreds multi-units in PvP. Primary Infinite War damage (water vs water-weak enemies). Falls off late game. |
+| **Bone Warlock** | Strong utility | Slow triggers Bone Gunner execution barrage. Very long range. Pair with Ripple Wizard for more casts. Wind damage for Twin Dragon Hunt. |
+| **Snowman Warrior** | Budget Warlock | Multi-unit, each triggers own slow. Better at slowing front lines. Use until you get playable Bone Warlock. |
+| **Rockthrower** | Niche only | Below average stats. Only use as sacrificial stun vs Frost Queen flanks — stunning her on landing prevents AoE. |
+| **Flame Mage** | Situational | Underperforms vs Forest Scout even at level 7. Excels in Evil Ivy Hunt (fire damage). Situational in arena vs bone warlocks/ninja assassins. |
+| **Pumpkin Guard** | Transitional | Taunt useful in Infinite War. High damage for tank. Replace with level 8 Goblin Chef when possible. |
+| **Woodland Wizard** | Premium healer | Wheel/cardmaster only. More reliable healing than Woodland Guardian (faster activation). Excellent in arena and Evil Ivy Hunt. |
+| **Royal Archer** | F2P unrealistic | Wheel/cardmaster only. Expensive to obtain copies. |
+| **Dwarf Berserker** | F2P unrealistic | Wheel/cardmaster only. Expensive to obtain copies. |
+
+---
+
 ## Multi-Unit vs Single-Unit Mechanics
 
 A critical mechanic that affects how you evaluate troops:

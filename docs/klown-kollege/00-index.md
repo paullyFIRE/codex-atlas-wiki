@@ -79,6 +79,9 @@ Channel: [@KlownKollege](https://www.youtube.com/@KlownKollege) (526 subscribers
 | 60 | Event Guide War Inc Rising | Unknown | External | Event / Co-op / Lucky Dice | ✅ Saved |
 | 61 | End Game Guide War Inc Rising | Unknown | External | Troop Guide / End Game | ✅ Saved |
 | 62 | Alliance War Guide | [SMH7GTRhni8](https://www.youtube.com/watch?v=SMH7GTRhni8) | External | Clan War / Alliance War | ❌ Disabled |
+| 63 | Epic Troop Guide | [VRxHfkJX8D0](https://www.youtube.com/watch?v=VRxHfkJX8D0) | External | Troop Guide | ✅ Saved |
+| 64 | Rare Troop Guide | [TR2W-ndo_Ms](https://www.youtube.com/watch?v=TR2W-ndo_Ms) | External | Troop Guide | ✅ Saved |
+| 65 | Beginner Tips: Common Troops | [eSiJN4w0y-o](https://www.youtube.com/watch?v=eSiJN4w0y-o) | External | Beginner / Troop Guide | ✅ Saved |
 
 ---
 
@@ -87,4 +90,4 @@ Channel: [@KlownKollege](https://www.youtube.com/@KlownKollege) (526 subscribers
 - **Date format:** "~Month 2026" = approximate date based on content references; exact dates not available for all videos.
 - **Klown Kollege channel:** URLs listed where identified. Videos marked "See channel" are on the [channel page](https://www.youtube.com/@KlownKollege/videos).
 - **External videos:** 6 new transcripts added from external sources about War Inc: Rising. The Alliance War Guide (SMH7GTRhni8) had transcripts disabled on YouTube.
-- **Total transcripts saved:** 61 of 62 videos (55 Klown Kollege + 6 external saved; 1 external skipped).
+- **Total transcripts saved:** 64 of 65 videos (55 Klown Kollege + 9 external saved; 1 external skipped).

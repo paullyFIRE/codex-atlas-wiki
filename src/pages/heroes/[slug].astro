@@ -52,6 +52,7 @@ const sectionIds = [
   ...(pageData.skills.length > 0 ? [{ id: 'skills', label: 'Skills' }] : []),
   ...(communityRank ? [{ id: 'community-rank', label: 'Community Rank' }] : []),
   { id: 'strategy', label: 'Strategy' },
+  ...(pageData.video_guides?.length > 0 ? [{ id: 'video-guide', label: 'Video Guide' }] : []),
   ...(pageData.related.length > 0 ? [{ id: 'related', label: 'Related' }] : []),
 ];
 ---
@@ -273,6 +274,34 @@ const sectionIds = [
           </ul>
         )}
       </section>
+
+      <!-- Video Guide -->
+      {pageData.video_guides?.length > 0 && (
+        <section class="scroll-mt-24" id="video-guide">
+          <h2 class="font-display text-headline-lg text-on-surface mb-6 flex items-center gap-4">
+            <span class="flex-shrink-0 w-12 h-12 bg-error-container text-on-error-container rounded-full flex items-center justify-center text-title-md"><span class="material-symbols-outlined">smart_display</span></span>
+            {pageData.name} Video Guide
+          </h2>
+          <div class="space-y-4">
+            {pageData.video_guides.map((vg) => (
+              <div class="bg-white border-4 border-surface-container rounded-xl p-6 clash-card">
+                <div class="flex items-start gap-4">
+                  <div class="bg-error-container/20 p-3 rounded-full flex-shrink-0">
+                    <span class="material-symbols-outlined text-error">play_circle</span>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <a href={vg.url} target="_blank" rel="noopener noreferrer" class="text-title-md font-display text-on-surface hover:text-error transition-colors no-underline flex items-center gap-2">
+                      {vg.title}
+                      <span class="material-symbols-outlined text-sm">open_in_new</span>
+                    </a>
+                    <p class="text-body-md text-on-surface-variant mt-3 leading-relaxed">{vg.advice}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <!-- Related -->
       {pageData.related.length > 0 && (

@@ -1,0 +1,78 @@
+{
+  "slug": "war-inc-rising-epic-troops-guide",
+  "name": "Epic Troop Guide — Best Epic Heroes and Upgrade Priority",
+  "title": "Epic Troop Guide — Best Epic Units Ranked | War Inc: Rising Wiki",
+  "meta_description": "Complete epic troop guide for War Inc: Rising. Oracle upgrade priority, Poison Master for Infinite War, Bone Warlock + Bone Gunner combo, and playable level thresholds for epic units.",
+  "type": "blog",
+  "date": "2026-06-14",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Epic Troop Playability Thresholds",
+      "content": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats become comparable to a level 6 rare. Exceptions include Poison Master (useful at level 4 thanks to toxic field ability) and Oracle (attack buff works at any level). For single units, range troops should have 10,000+ HP to survive common burst abilities. Melee troops need around 20,000+ HP to tank effectively."
+    },
+    {
+      "heading": "Oracle — The Best Epic, Priority #1",
+      "content": "Oracle provides a 4% attack buff per unit to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4%, for a max of 32% increased attack power. Level 7 dramatically increases the ability range so the full effect applies consistently. Getting your Oracle to level 7 should be your highest epic priority — you'll use them in 99% of your army setups."
+    },
+    {
+      "heading": "Poison Master — Infinite War Carry",
+      "content": "Poison Master is excellent for new player PvP against multi-unit armies — splash damage shreds grouped enemies. Also a primary damage dealer in Infinite War since many enemies are weak to water. As your account progresses and you unlock stronger AoE options, Poison Master's usage falls off."
+    },
+    {
+      "heading": "Bone Warlock — Slow Effect King",
+      "content": "Bone Warlock's slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage. Snowman Warrior is a weaker alternative that excels at slowing front lines instead of backline units."
+    },
+    {
+      "heading": "Rockthrower, Flame Mage, Pumpkin Guard, and Others",
+      "content": "Rockthrower is below average but has a niche: sacrificial stun against Frost Queen flanks — stunning her on landing prevents her devastating AoE. Flame Mage underperforms compared to level 9 Forest Scout even at level 7, but excells in Evil Ivy Hunt (fire damage). Pumpkin Guard's taunt is useful in Infinite War, and he deals surprisingly high damage for a tank. Woodland Wizard (wheel/cardmaster only) is a more reliable healer than Woodland Guardian with faster activation."
+    }
+  ],
+  "preview": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats becom...",
+  "related_heroes": [
+    {
+      "name": "Evil Ivy",
+      "slug": "evil-ivy"
+    },
+    {
+      "name": "Gunner",
+      "slug": "gunner"
+    },
+    {
+      "name": "Forest Scout",
+      "slug": "forest-scout"
+    },
+    {
+      "name": "Poison Master",
+      "slug": "poison-master"
+    },
+    {
+      "name": "Snowman Warrior",
+      "slug": "snowman-warrior"
+    },
+    {
+      "name": "Flame Mage",
+      "slug": "flame-mage"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle"
+    },
+    {
+      "name": "Bone Warlock",
+      "slug": "bone-warlock"
+    }
+  ],
+  "word_count": 336,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Epic Troop Guide — Best Epic Heroes and Upgrade Priority",
+    "description": "Complete epic troop guide for War Inc: Rising. Oracle upgrade priority, Poison Master for Infinite War, Bone Warlock + Bone Gunner combo, and playable level thresholds for epic units.",
+    "datePublished": "2026-06-14",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

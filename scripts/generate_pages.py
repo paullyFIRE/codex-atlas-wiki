@@ -1586,6 +1586,92 @@ BLOG_POSTS = [
             },
         ],
     },
+    {
+        "slug": "war-inc-rising-common-troops-guide",
+        "name": "Beginner Tips: Common Troops Guide — Best Commons to Use",
+        "title": "Beginner Tips: Common Troops Guide — Best Common Heroes | War Inc: Rising Wiki",
+        "meta_description": "Learn which common troops are worth using in War Inc: Rising. Archer vs Gunner vs Snowball Thrower, Swordsman vs Demoman, and why level 7 commons are a huge power spike.",
+        "date": "2026-06-10",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Why Level 7 Commons Matter",
+                "content": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood Shield Guard which is trash). Every common to level 7 gives a Power Stance achievement worth 100 gems. Save forge stones for Ursa, Elven Archer, Oracles, and Flame Mages instead.",
+            },
+            {
+                "heading": "Melee Commons: Swordsman vs Demoman vs Wood Shield Guard",
+                "content": "Between the common melee units, Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius. Demoman's stun only hits one target — in a mirror match, Swordsman always wins. Wood Shield Guard is a single unit (not multi) and completely useless — skip entirely. In rare cases where you have 2 deployment points left and need a melee filler, always pick Swordsman.",
+            },
+            {
+                "heading": "Range Commons: Archer, Gunner, and Snowball Thrower",
+                "content": "Archer is your best common range pick — highest attack, multi-target skill, and reliable damage. Gunner deals fire damage but it's too low to matter even against fire-weak enemies like Pumpkin Guard. Snowball Thrower's water damage is equally irrelevant and its slow effect on skill is useless. When filling last deployment points with range, Archer stands above as the most reliable damage dealer.",
+            },
+            {
+                "heading": "When to Use Commons",
+                "content": "As a new player with low deployment limits, you'll rely on commons. Start replacing them with rare troops as soon as possible. In the rare case where you have 2 deployment points left: Swordsman is the best common melee, Archer is the best common range. Don't invest forge stones in commons beyond level 7 for the achievement gems — save them for higher-impact units.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-rare-troops-guide",
+        "name": "Rare Troop Guide — Best Rare Heroes to Invest In",
+        "title": "Rare Troop Guide — Best Rare Units and Upgrades | War Inc: Rising Wiki",
+        "meta_description": "Complete rare troop guide for War Inc: Rising. Which rares are worth forge stones, multi-unit vs single-unit mechanics, and the one rare that beats a level 6 mythic.",
+        "date": "2026-06-12",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Multi-Unit vs Single-Unit: A Critical Distinction",
+                "content": "Displayed HP and ATK stats for multi-units apply to EACH individual troop, not the entire squad. A level 6 Berserker has 8 individuals, each with the displayed stats — combined ~36K HP and ~800 ATK. Single units like Goblin Chef show their actual stats directly. Multi-units are better for triggering multiple abilities per attack cycle. Single units perform better as heavy hitters or tanks with concentrated stats.",
+            },
+            {
+                "heading": "Best Rare Range: Forest Scout",
+                "content": "Forest Scout is the best rare range unit — highest attack of the three rares and a multi-target ability dealing 200% damage. At level 7 with Trigger Master, he melts enemies. Place him away from other archers in a safe back position since archers and marksmen are priority targets for enemy abilities. Apprentice Mage and Goblin Shaman are not worth your resources — Apprentice Mage gets replaced by Flame Mage, and Goblin Shaman requires wheel unlock before you can even use him.",
+            },
+            {
+                "heading": "Melee Rares: Flail Warden Is Your Best Bet",
+                "content": "Flail Warden is the best rare melee — lower stats than Goblin Warrior but splash damage handles multi-units well. Berserker and Werewolf have the least value. Goblin Warrior has decent HP and damage but isn't a priority. For new players facing mainly multi-units, use more Flail Wardens than Goblin Warriors.",
+            },
+            {
+                "heading": "Tank Rares: Paladin and the Legendary Goblin Chef",
+                "content": "Paladin is a multi-unit tank with high HP and surprisingly high attack. He generates a shield every 10 seconds — combo him next to Radiant Warrior for shield overlap (Radiant's 8s shield starts at battle, Paladin's activates at 10s for a 2s overlap). The Goblin Chef (Shredder) is the one rare better than a level 6 mythic. Single unit with very high HP and ATK. His ability hits a small area for splash + 2 second stun — longer than Griffin Rider (1s) and Ursa (0.5s). At level 9 with ~1,000 forge stones, he has HP near a level 6 Night King and ATK near Light Seeker for half the deployment cost.",
+            },
+            {
+                "heading": "Utility Rares: Bomber and Frost Skeleton",
+                "content": "Bomber is a suicide unit dealing 3x base ATK on death. At level 7, he stuns on death. Best in backstab/outflank strategies. In split formation vs backstabs, place him front close to corner so he charges enemy front line instead of running toward stabbers. Frost Skeleton deals area damage + speed reduction on death. Flexible placement — front for instant slow, middle for delayed, back for long delay. Pairs best with Bone Marksman, Bone Gunner, Bone Warden, and Iron Bulwark for attack speed synergy.",
+            },
+        ],
+    },
+    {
+        "slug": "war-inc-rising-epic-troops-guide",
+        "name": "Epic Troop Guide — Best Epic Heroes and Upgrade Priority",
+        "title": "Epic Troop Guide — Best Epic Units Ranked | War Inc: Rising Wiki",
+        "meta_description": "Complete epic troop guide for War Inc: Rising. Oracle upgrade priority, Poison Master for Infinite War, Bone Warlock + Bone Gunner combo, and playable level thresholds for epic units.",
+        "date": "2026-06-14",
+        "author": "War Inc Wiki Team",
+        "sections": [
+            {
+                "heading": "Epic Troop Playability Thresholds",
+                "content": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats become comparable to a level 6 rare. Exceptions include Poison Master (useful at level 4 thanks to toxic field ability) and Oracle (attack buff works at any level). For single units, range troops should have 10,000+ HP to survive common burst abilities. Melee troops need around 20,000+ HP to tank effectively.",
+            },
+            {
+                "heading": "Oracle — The Best Epic, Priority #1",
+                "content": "Oracle provides a 4% attack buff per unit to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4%, for a max of 32% increased attack power. Level 7 dramatically increases the ability range so the full effect applies consistently. Getting your Oracle to level 7 should be your highest epic priority — you'll use them in 99% of your army setups.",
+            },
+            {
+                "heading": "Poison Master — Infinite War Carry",
+                "content": "Poison Master is excellent for new player PvP against multi-unit armies — splash damage shreds grouped enemies. Also a primary damage dealer in Infinite War since many enemies are weak to water. As your account progresses and you unlock stronger AoE options, Poison Master's usage falls off.",
+            },
+            {
+                "heading": "Bone Warlock — Slow Effect King",
+                "content": "Bone Warlock's slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage. Snowman Warrior is a weaker alternative that excels at slowing front lines instead of backline units.",
+            },
+            {
+                "heading": "Rockthrower, Flame Mage, Pumpkin Guard, and Others",
+                "content": "Rockthrower is below average but has a niche: sacrificial stun against Frost Queen flanks — stunning her on landing prevents her devastating AoE. Flame Mage underperforms compared to level 9 Forest Scout even at level 7, but excells in Evil Ivy Hunt (fire damage). Pumpkin Guard's taunt is useful in Infinite War, and he deals surprisingly high damage for a tank. Woodland Wizard (wheel/cardmaster only) is a more reliable healer than Woodland Guardian with faster activation.",
+            },
+        ],
+    },
 ]
 
 
@@ -1735,6 +1821,41 @@ def main():
             page["image"] = image_map[img_key]
 
         all_pages.append(page)
+
+    # Inject video guide references from YouTube transcripts
+    print("Injecting video guide references into hero pages...")
+    VIDEO_GUIDES = {
+        "swordsman": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Best common melee. Multi-unit with splash damage in skill radius. In a 2-deployment-point mirror match, Swordsman beats Demoman every time."}],
+        "demoman": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Stun only hits one target. Inferior to Swordsman — mirror match always loses. Only use if you have no Swordsman copies."}],
+        "woodshield-guard": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Trash. Single unit (not multi-unit) so stats apply only to one troop. Alone and useless — skip entirely. Don't spend forge stones here even for achievement."}],
+        "archer": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Best common range pick. Highest attack among common range units, multi-target skill for reliable damage. When filling last deployment points with range, Archer is the best choice."}],
+        "gunner": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Fire damage is too low to matter even against fire-weak enemies like Pumpkin Guard. Archer deals more effective damage despite no elemental advantage."}],
+        "snowball-thrower": [{"title": "Beginner Tips: Common Troops", "url": "https://www.youtube.com/watch?v=eSiJN4w0y-o", "advice": "Water damage is irrelevant. Slow effect on skill is useless. Archer is strictly better in every situation."}],
+        "forest-scout": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Best rare range unit. Highest attack of the three rare range options. Multi-target ability deals 200% damage. At level 7 with Trigger Master, damage output spikes dramatically. Place away from other archers in a safe back position."}],
+        "apprentice-mage": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Passable but replaced by Flame Mage. Fire damage barely matters — a level 7 Mage does only ~5% more damage than a level 6 Forest Scout even against fire-weak enemies. Don't waste forge stones."}],
+        "goblin-shaman": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Not worth the investment loop. Must unlock in wheel first. By the time you can fuse and upgrade him, Woodland Wizard will replace him. Skip."}],
+        "berserker": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Low value. Multi-unit with 8 individuals at level 6, but each individual is fragile (4,600 HP). Falls off quickly. Don't invest forge stones."}],
+        "goblin-warrior": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "High HP and decent damage from ability make him useable but not a priority. Flail Warden is generally the better rare melee pick for new players."}],
+        "flail-warden": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Best rare melee. Lower stats than Goblin Warrior but splash damage handles multi-units extremely well. Play more Wardens than Goblin Warriors as a new player."}],
+        "paladin": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Multi-unit tank with high HP and surprisingly high attack. Generates a shield every 10 seconds. Combo with Radiant Warrior: Radiant's shield starts at battle (8s duration), Paladin's activates at 10s — creates 2s overlap for extra survivability."}],
+        "goblin-chef": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Better than a level 6 mythic. Single unit with very high HP and ATK for a tank. Ability deals splash + 2-second stun (longer than Griffin Rider at 1s and Ursa at 0.5s). At level 9 (~1,000 forge stones): HP near level 6 Night King, ATK near Light Seeker, for half the deployment cost. Hard to get copies (wheel/cardmaster unlock required)."}],
+        "bomber": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "Suicide unit dealing 3x base ATK on death. At level 7, stuns on death. Best in backstab/outflank strategies. In split formation vs backstabs, place front close to corner so he charges enemy front line rather than chasing stabbers."}],
+        "frost-skeleton": [{"title": "Rare Troop Guide", "url": "https://www.youtube.com/watch?v=TR2W-ndo_Ms", "advice": "On death, deals area damage + speed reduction. Flexible placement: front for instant slow, middle for delayed slow, back for long delayed slow. Pairs best with Bone Marksman, Bone Gunner, Bone Warden, and Iron Bulwark for attack speed synergy."}],
+        "oracle": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Best epic troop in the game — used in 99% of army setups. 4% attack buff per Oracle stacks up to 20 times (32% max at level 6). Level 7 dramatically increases ability range so full effect applies consistently. Highest forge stone priority among all epics."}],
+        "poison-master": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Excellent for new player PvP against multi-unit armies — splash damage shreds them. Primary damage dealer in Infinite War since many enemies are weak to water. Falls off as you unlock stronger AoE options."}],
+        "bone-warlock": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard. Also useful in Twin Dragon Hunt for wind damage."}],
+        "snowman-warrior": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Weaker alternative to Bone Warlock. Multi-unit (each can trigger own ability). Better at slowing enemy front lines and helping your tanks win engagements. Use until you get a playable Bone Warlock."}],
+        "rock-thrower": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Below average overall — low HP and damage for 6-cost melee. However, has a niche use: place as sacrificial stun against Frost Queen flanks/backstabs. Stunning her on landing prevents her devastating AoE from activating."}],
+        "flame-mage": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Replacement for Apprentice Mage but underperforms compared to level 9 Forest Scout even at level 7. Limited arena use (situational against bone warlocks/ninja assassins). Excels in Evil Ivy Hunt where fire damage matters."}],
+        "pumpkin-guard": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Use until you get level 8 Goblin Chef. Taunt ability useful in Infinite War to keep pressure off other tanks. Surprisingly high damage output for a tank — solid in Evil Ivy Hunt for maximizing total damage."}],
+        "wooden-wizard": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Wheel/cardmaster only — hard to obtain. More reliable healer than Woodland Guardian with faster activation. Excellent at keeping range units alive in arena. Very useful in Evil Ivy Hunt where sustained healing matters."}],
+        "royal-archer": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Wheel/cardmaster only. Expensive and difficult to obtain copies of. Unrealistic option for most free-to-play players."}],
+        "dwarf-berserker": [{"title": "Epic Troop Guide", "url": "https://www.youtube.com/watch?v=VRxHfkJX8D0", "advice": "Wheel/cardmaster only. Expensive and difficult to obtain copies of. Unrealistic option for most free-to-play players."}],
+    }
+    for page in all_pages:
+        if page["type"] == "heroes" and page["slug"] in VIDEO_GUIDES:
+            page["video_guides"] = VIDEO_GUIDES[page["slug"]]
+    print(f"  Injected video guides for {len(VIDEO_GUIDES)} heroes")
 
     # Build new entity type pages
     print("Building equipment pages... (disabled — equipment not usable in game)")

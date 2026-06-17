@@ -1,0 +1,78 @@
+{
+  "slug": "war-inc-rising-rare-troops-guide",
+  "name": "Rare Troop Guide — Best Rare Heroes to Invest In",
+  "title": "Rare Troop Guide — Best Rare Units and Upgrades | War Inc: Rising Wiki",
+  "meta_description": "Complete rare troop guide for War Inc: Rising. Which rares are worth forge stones, multi-unit vs single-unit mechanics, and the one rare that beats a level 6 mythic.",
+  "type": "blog",
+  "date": "2026-06-12",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Multi-Unit vs Single-Unit: A Critical Distinction",
+      "content": "Displayed HP and ATK stats for multi-units apply to EACH individual troop, not the entire squad. A level 6 Berserker has 8 individuals, each with the displayed stats — combined ~36K HP and ~800 ATK. Single units like Goblin Chef show their actual stats directly. Multi-units are better for triggering multiple abilities per attack cycle. Single units perform better as heavy hitters or tanks with concentrated stats."
+    },
+    {
+      "heading": "Best Rare Range: Forest Scout",
+      "content": "Forest Scout is the best rare range unit — highest attack of the three rares and a multi-target ability dealing 200% damage. At level 7 with Trigger Master, he melts enemies. Place him away from other archers in a safe back position since archers and marksmen are priority targets for enemy abilities. Apprentice Mage and Goblin Shaman are not worth your resources — Apprentice Mage gets replaced by Flame Mage, and Goblin Shaman requires wheel unlock before you can even use him."
+    },
+    {
+      "heading": "Melee Rares: Flail Warden Is Your Best Bet",
+      "content": "Flail Warden is the best rare melee — lower stats than Goblin Warrior but splash damage handles multi-units well. Berserker and Werewolf have the least value. Goblin Warrior has decent HP and damage but isn't a priority. For new players facing mainly multi-units, use more Flail Wardens than Goblin Warriors."
+    },
+    {
+      "heading": "Tank Rares: Paladin and the Legendary Goblin Chef",
+      "content": "Paladin is a multi-unit tank with high HP and surprisingly high attack. He generates a shield every 10 seconds — combo him next to Radiant Warrior for shield overlap (Radiant's 8s shield starts at battle, Paladin's activates at 10s for a 2s overlap). The Goblin Chef (Shredder) is the one rare better than a level 6 mythic. Single unit with very high HP and ATK. His ability hits a small area for splash + 2 second stun — longer than Griffin Rider (1s) and Ursa (0.5s). At level 9 with ~1,000 forge stones, he has HP near a level 6 Night King and ATK near Light Seeker for half the deployment cost."
+    },
+    {
+      "heading": "Utility Rares: Bomber and Frost Skeleton",
+      "content": "Bomber is a suicide unit dealing 3x base ATK on death. At level 7, he stuns on death. Best in backstab/outflank strategies. In split formation vs backstabs, place him front close to corner so he charges enemy front line instead of running toward stabbers. Frost Skeleton deals area damage + speed reduction on death. Flexible placement — front for instant slow, middle for delayed, back for long delay. Pairs best with Bone Marksman, Bone Gunner, Bone Warden, and Iron Bulwark for attack speed synergy."
+    }
+  ],
+  "preview": "Displayed HP and ATK stats for multi-units apply to EACH individual troop, not the entire squad. A level 6 Berserker has 8 individuals, each with the displayed stats — combined ~36K HP and ~800 ATK. S...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Gunner",
+      "slug": "gunner"
+    },
+    {
+      "name": "Berserker",
+      "slug": "berserker"
+    },
+    {
+      "name": "Goblin Warrior",
+      "slug": "goblin-warrior"
+    },
+    {
+      "name": "Forest Scout",
+      "slug": "forest-scout"
+    },
+    {
+      "name": "Flail Warden",
+      "slug": "flail-warden"
+    },
+    {
+      "name": "Apprentice Mage",
+      "slug": "apprentice-mage"
+    },
+    {
+      "name": "Frost Skeleton",
+      "slug": "frost-skeleton"
+    }
+  ],
+  "word_count": 395,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Rare Troop Guide — Best Rare Heroes to Invest In",
+    "description": "Complete rare troop guide for War Inc: Rising. Which rares are worth forge stones, multi-unit vs single-unit mechanics, and the one rare that beats a level 6 mythic.",
+    "datePublished": "2026-06-12",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}

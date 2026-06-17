@@ -1,0 +1,74 @@
+{
+  "slug": "war-inc-rising-common-troops-guide",
+  "name": "Beginner Tips: Common Troops Guide — Best Commons to Use",
+  "title": "Beginner Tips: Common Troops Guide — Best Common Heroes | War Inc: Rising Wiki",
+  "meta_description": "Learn which common troops are worth using in War Inc: Rising. Archer vs Gunner vs Snowball Thrower, Swordsman vs Demoman, and why level 7 commons are a huge power spike.",
+  "type": "blog",
+  "date": "2026-06-10",
+  "author": "War Inc Wiki Team",
+  "sections": [
+    {
+      "heading": "Why Level 7 Commons Matter",
+      "content": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood Shield Guard which is trash). Every common to level 7 gives a Power Stance achievement worth 100 gems. Save forge stones for Ursa, Elven Archer, Oracles, and Flame Mages instead."
+    },
+    {
+      "heading": "Melee Commons: Swordsman vs Demoman vs Wood Shield Guard",
+      "content": "Between the common melee units, Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius. Demoman's stun only hits one target — in a mirror match, Swordsman always wins. Wood Shield Guard is a single unit (not multi) and completely useless — skip entirely. In rare cases where you have 2 deployment points left and need a melee filler, always pick Swordsman."
+    },
+    {
+      "heading": "Range Commons: Archer, Gunner, and Snowball Thrower",
+      "content": "Archer is your best common range pick — highest attack, multi-target skill, and reliable damage. Gunner deals fire damage but it's too low to matter even against fire-weak enemies like Pumpkin Guard. Snowball Thrower's water damage is equally irrelevant and its slow effect on skill is useless. When filling last deployment points with range, Archer stands above as the most reliable damage dealer."
+    },
+    {
+      "heading": "When to Use Commons",
+      "content": "As a new player with low deployment limits, you'll rely on commons. Start replacing them with rare troops as soon as possible. In the rare case where you have 2 deployment points left: Swordsman is the best common melee, Archer is the best common range. Don't invest forge stones in commons beyond level 7 for the achievement gems — save them for higher-impact units."
+    }
+  ],
+  "preview": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood...",
+  "related_heroes": [
+    {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
+      "name": "Gunner",
+      "slug": "gunner"
+    },
+    {
+      "name": "Demoman",
+      "slug": "demoman"
+    },
+    {
+      "name": "Snowball Thrower",
+      "slug": "snowball-thrower"
+    },
+    {
+      "name": "Swordsman",
+      "slug": "swordsman"
+    },
+    {
+      "name": "Flame Mage",
+      "slug": "flame-mage"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle"
+    },
+    {
+      "name": "Pumpkin Guard",
+      "slug": "pumpkin-guard"
+    }
+  ],
+  "word_count": 261,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Beginner Tips: Common Troops Guide — Best Commons to Use",
+    "description": "Learn which common troops are worth using in War Inc: Rising. Archer vs Gunner vs Snowball Thrower, Swordsman vs Demoman, and why level 7 commons are a huge power spike.",
+    "datePublished": "2026-06-10",
+    "author": {
+      "@type": "Person",
+      "name": "War Inc Wiki Team"
+    }
+  }
+}
