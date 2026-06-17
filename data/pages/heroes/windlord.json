@@ -522,26 +522,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Windlord a good hero in War Inc: Rising?",
+        "name": "Is Windlord good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Windlord is a Legendary Tank unit with a cost of 6 and combat power of 266. It performs well in the right team composition."
+          "text": "Yes — Windlord is a legendary tank with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Windlord?",
+        "name": "What does Windlord do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Windlord is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Windlord is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Windlord in War Inc: Rising?",
+        "name": "How much does Windlord cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Windlord costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Windlord costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -549,7 +549,7 @@
         "name": "How to get Windlord in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Windlord is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Windlord is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -578,9 +578,8 @@
     ]
   },
   "strategy_tips": [
-    "Windlord is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Windlord in choke points to maximize their tanking potential.",
-    "High cost (6) means Windlord should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Windlord is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (6) means timing matters — deploy Windlord when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

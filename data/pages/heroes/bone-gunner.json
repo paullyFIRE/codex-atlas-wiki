@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Bone Gunner a good hero in War Inc: Rising?",
+        "name": "Is Bone Gunner good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Gunner is a Legendary Warrior unit with a cost of 6 and combat power of 258. It performs well in the right team composition."
+          "text": "Yes — Bone Gunner is a legendary warrior with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Bone Gunner?",
+        "name": "What does Bone Gunner do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Gunner is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Bone Gunner is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Bone Gunner in War Inc: Rising?",
+        "name": "How much does Bone Gunner cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Gunner costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Bone Gunner costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -340,7 +340,7 @@
         "name": "How to get Bone Gunner in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Gunner is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Bone Gunner is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -369,9 +369,8 @@
     ]
   },
   "strategy_tips": [
-    "Bone Gunner is a balanced melee unit, effective in both offense and defense.",
-    "Use Bone Gunner in the front line to deal consistent damage while holding position.",
-    "High cost (6) means Bone Gunner should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Bone Gunner balances offense and defense, making them flexible in any formation.",
+    "High cost (6) means timing matters — deploy Bone Gunner when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

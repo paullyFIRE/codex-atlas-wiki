@@ -478,26 +478,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Night Scion a good hero in War Inc: Rising?",
+        "name": "Is Night Scion good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Night Scion is a Mythic Assassin unit with a cost of 8 and combat power of 425. It performs well in the right team composition."
+          "text": "Yes — Night Scion is a mythic assassin with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Night Scion?",
+        "name": "What does Night Scion do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Night Scion is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Night Scion is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Night Scion in War Inc: Rising?",
+        "name": "How much does Night Scion cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Night Scion costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Night Scion costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -505,7 +505,7 @@
         "name": "How to get Night Scion in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Night Scion is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Night Scion is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -534,9 +534,8 @@
     ]
   },
   "strategy_tips": [
-    "Night Scion excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Night Scion behind tanks to protect them while they deal damage.",
-    "High cost (8) means Night Scion should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Night Scion focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (8) means timing matters — deploy Night Scion when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Sharpen Drake a good hero in War Inc: Rising?",
+        "name": "Is Sharpen Drake good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sharpen Drake is a Common Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Sharpen Drake is a common unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Sharpen Drake?",
+        "name": "What does Sharpen Drake do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sharpen Drake is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Sharpen Drake is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Sharpen Drake in War Inc: Rising?",
+        "name": "How much does Sharpen Drake cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sharpen Drake costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Sharpen Drake costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,7 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Sharpen Drake can be effective in various battle situations depending on team composition."
+    "Sharpen Drake fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }

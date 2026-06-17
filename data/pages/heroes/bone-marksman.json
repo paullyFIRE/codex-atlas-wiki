@@ -567,26 +567,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Bone Marksman a good hero in War Inc: Rising?",
+        "name": "Is Bone Marksman good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Marksman is a Mythic Warrior unit with a cost of 8 and combat power of 407. It performs well in the right team composition."
+          "text": "Yes — Bone Marksman is a mythic warrior with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Bone Marksman?",
+        "name": "What does Bone Marksman do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Marksman is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Bone Marksman is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Bone Marksman in War Inc: Rising?",
+        "name": "How much does Bone Marksman cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Marksman costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Bone Marksman costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -594,7 +594,7 @@
         "name": "How to get Bone Marksman in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Marksman is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Bone Marksman is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -623,9 +623,8 @@
     ]
   },
   "strategy_tips": [
-    "Bone Marksman is a balanced melee unit, effective in both offense and defense.",
-    "Use Bone Marksman in the front line to deal consistent damage while holding position.",
-    "High cost (8) means Bone Marksman should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Bone Marksman balances offense and defense, making them flexible in any formation.",
+    "High cost (8) means timing matters — deploy Bone Marksman when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/711.png"
 }

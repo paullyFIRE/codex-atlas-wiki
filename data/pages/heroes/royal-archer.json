@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Royal Archer a good hero in War Inc: Rising?",
+        "name": "Is Royal Archer good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Royal Archer is a Epic Warrior unit with a cost of 6 and combat power of 345. It performs well in the right team composition."
+          "text": "Yes — Royal Archer is a epic warrior with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Royal Archer?",
+        "name": "What does Royal Archer do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Royal Archer is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Royal Archer is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Royal Archer in War Inc: Rising?",
+        "name": "How much does Royal Archer cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Royal Archer costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Royal Archer costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       }
     ]
@@ -361,9 +361,8 @@
     ]
   },
   "strategy_tips": [
-    "Royal Archer is a balanced melee unit, effective in both offense and defense.",
-    "Use Royal Archer in the front line to deal consistent damage while holding position.",
-    "High cost (6) means Royal Archer should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Royal Archer balances offense and defense, making them flexible in any formation.",
+    "High cost (6) means timing matters — deploy Royal Archer when they can make an immediate impact rather than rushing them out."
   ],
   "image": null,
   "video_guides": [

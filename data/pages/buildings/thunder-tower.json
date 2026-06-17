@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Thunder Tower a good hero in War Inc: Rising?",
+        "name": "Is Thunder Tower good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Thunder Tower is a Rare Tank unit with a cost of 0 and combat power of 406. It performs well in the right team composition."
+          "text": "Yes — Thunder Tower is a rare tank with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Thunder Tower?",
+        "name": "What does Thunder Tower do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Thunder Tower is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Thunder Tower is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Thunder Tower in War Inc: Rising?",
+        "name": "How much does Thunder Tower cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Thunder Tower costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Thunder Tower costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Thunder Tower is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Thunder Tower in choke points to maximize their tanking potential."
+    "Need a reliable frontline? Thunder Tower soaks up damage with high HP and DEF so your damage dealers can work safely."
   ],
   "image": null
 }

@@ -18,6 +18,7 @@
       "min_level_mid": 4,
       "good_for": "Every single game mode. Stack 2-4 in every formation. Level 6 gives +20% elemental resistance to all allies.",
       "strategy": "Never merge your last 2 copies. Two level 3s are better than one level 4. Pair with Paladin for shield overlap (Radiant shield at 0s, Paladin at 10s = 2s overlap).",
+      "common_mistake": "Don't put all your Radiant Warriors in the same row. Spread them across the formation so their shields cover more area. A common mistake is stacking them together and leaving flanks exposed.",
       "must_read": "War Inc: Rising Gem Guide — Wheel, Card Master & What to Spend On",
       "must_read_slug": "war-inc-rising-gem-spending-guide"
     },
@@ -29,6 +30,7 @@
       "min_level_mid": 4,
       "good_for": "PvP control mage. Excellent in Infinite War.",
       "strategy": "Keep two copies at all times. Never merge your last pair. One of the best control units in the game.",
+      "common_mistake": "Don't run Frost Queen without a frontline. She's fragile and needs a Tank in front to hold enemies in her AoE radius. New players often throw her in the front row and wonder why she dies instantly.",
       "must_read": "War Inc: Rising Tier List 2026",
       "must_read_slug": "war-inc-rising-tier-list-2026"
     },
@@ -40,6 +42,7 @@
       "min_level_mid": 4,
       "good_for": "PvP marksman deletion. Hunting boss damage. Clan War dragon damage.",
       "strategy": "Pseudo level-6 at level 4 — skill unlocks at level 4 instead of 6, making it the best early-investment mythic. Bone Shot deals 250% damage (~5K at level 4) every 8s, prioritizes enemy marksmen and mages. Place in 'money spot' (right side) of split formations. At level 4: 32K HP, 2K ATK (equivalent to level 6 Ronin). Prioritize getting to level 4 ASAP.",
+      "common_mistake": "Don't put Bone Marksman in the front row even though he has decent HP. He's still a marksman and enemy priority abilities will delete him. Keep him in the back row with a Tank in front.",
       "must_read": "War Inc: Rising Tier List 2026",
       "must_read_slug": "war-inc-rising-tier-list-2026"
     },
@@ -51,6 +54,7 @@
       "min_level_mid": 4,
       "good_for": "PvE king. Clan War dragon damage (up to 3.6M per hit). Hunting boss damage.",
       "strategy": "Skeletons deal massive AoE damage but are fragile. Must pair with Goddess of War shielding to survive dragon AoE. ~45% more morale per dragon hit than normal units. Level 4: ~32K HP.",
+      "common_mistake": "Using Necromancer without Goddess of War. His skeletons are paper-thin without shielding. If you don't have Goddess of War, bench Necromancer until you do.",
       "must_read": "War Inc: Rising Tier List 2026",
       "must_read_slug": "war-inc-rising-tier-list-2026"
     },
@@ -62,6 +66,7 @@
       "min_level_mid": 4,
       "good_for": "PvP destroyer. Stronger than Necromancer in PvP.",
       "strategy": "Holy Wash (innate): continuous AoE damage + heals to 100% when below 50% HP (~16K heal on ~32K HP). Light Volley (level 4): multi-shot + 50% attack buff (~1,000 damage boost). Pass on this hero if you can't get to level 4 — the skill unlock is essential.",
+      "common_mistake": "Don't invest in Light Seeker if you can't get him to level 4. Below level 4, he's just a decent Mythic without his key skill. Save your copies until you have four.",
       "must_read": "War Inc: Rising Tier List 2026",
       "must_read_slug": "war-inc-rising-tier-list-2026"
     },

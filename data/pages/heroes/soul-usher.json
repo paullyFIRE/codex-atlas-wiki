@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Soul Usher a good hero in War Inc: Rising?",
+        "name": "Is Soul Usher good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Soul Usher is a Epic Mage unit with a cost of 6 and combat power of 323. It performs well in the right team composition."
+          "text": "Yes — Soul Usher is a epic mage with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Soul Usher?",
+        "name": "What does Soul Usher do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Soul Usher is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Soul Usher is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Soul Usher in War Inc: Rising?",
+        "name": "How much does Soul Usher cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Soul Usher costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Soul Usher costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       }
     ]
@@ -361,9 +361,8 @@
     ]
   },
   "strategy_tips": [
-    "Soul Usher deals area magic damage, effective against groups of enemies.",
-    "Protect Soul Usher with front-line tanks to maximize their damage output.",
-    "High cost (6) means Soul Usher should be deployed strategically when the timing is right."
+    "Need to clear groups of enemies? Soul Usher deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "High cost (6) means timing matters — deploy Soul Usher when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

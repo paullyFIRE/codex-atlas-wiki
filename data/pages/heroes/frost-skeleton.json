@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Frost Skeleton a good hero in War Inc: Rising?",
+        "name": "Is Frost Skeleton good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Skeleton is a Rare Assassin unit with a cost of 3 and combat power of 249. It performs well in the right team composition."
+          "text": "Yes — Frost Skeleton is a rare assassin with a cost of 3 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Frost Skeleton?",
+        "name": "What does Frost Skeleton do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Skeleton is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Frost Skeleton is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Frost Skeleton in War Inc: Rising?",
+        "name": "How much does Frost Skeleton cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Skeleton costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Frost Skeleton costs 3 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Frost Skeleton excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Frost Skeleton behind tanks to protect them while they deal damage."
+    "Need to delete a specific enemy fast? Frost Skeleton focuses on single-target burst damage — great for taking out enemy backline carries."
   ],
   "image": null,
   "video_guides": [

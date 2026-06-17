@@ -67,26 +67,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Healing Spell a good hero in War Inc: Rising?",
+        "name": "Is Healing Spell good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Healing Spell is a Unknown Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Healing Spell is a unknown unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Healing Spell?",
+        "name": "What does Healing Spell do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Healing Spell is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Healing Spell is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Healing Spell in War Inc: Rising?",
+        "name": "How much does Healing Spell cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Healing Spell costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Healing Spell costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -115,7 +115,7 @@
     ]
   },
   "strategy_tips": [
-    "Healing Spell can be effective in various battle situations depending on team composition."
+    "Healing Spell fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }

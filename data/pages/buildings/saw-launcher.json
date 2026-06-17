@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Saw Launcher a good hero in War Inc: Rising?",
+        "name": "Is Saw Launcher good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Saw Launcher is a Rare Warrior unit with a cost of 0 and combat power of 297. It performs well in the right team composition."
+          "text": "Yes — Saw Launcher is a rare warrior with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Saw Launcher?",
+        "name": "What does Saw Launcher do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Saw Launcher is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Saw Launcher is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Saw Launcher in War Inc: Rising?",
+        "name": "How much does Saw Launcher cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Saw Launcher costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Saw Launcher costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Saw Launcher is a balanced melee unit, effective in both offense and defense.",
-    "Use Saw Launcher in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Saw Launcher balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

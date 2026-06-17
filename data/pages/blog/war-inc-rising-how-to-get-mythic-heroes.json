@@ -5,38 +5,46 @@
   "meta_description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
   "type": "blog",
   "date": "2026-03-01",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "What Are Mythic Heroes?",
-      "content": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currently 34 Mythic heroes in the game, including Light Seeker, Frost Queen, Radiant Warrior, and Tide Lord. Building a roster of Mythic heroes is the key to competing at the highest levels."
+      "heading": "The Short Version",
+      "content": "Save 30,000-50,000 gems for Limited Summon events targeting specific Mythic heroes. Use Permanent Summon for roster depth. Never spend gems on random permanent summons if you're chasing a specific hero. The $5 monthly gem pass is the best value if you spend money.\n\nThere are currently 34 Mythic heroes in War Inc: Rising. Building a solid Mythic roster takes months of consistent play — but these strategies will get you there faster."
     },
     {
-      "heading": "Summoning Methods",
-      "content": "Permanent Summon gives consistent Mythic chances over time with no expiration. Limited Summon events feature specific Mythic heroes at boosted rates. Event Summons appear during seasonal content and often include exclusive Mythic units. Save your gems for Limited Summon events featuring top-tier Mythics like those in the Light vs Dark season banners."
+      "heading": "What Makes Mythic Heroes Special",
+      "content": "Mythic (5-star) heroes have the highest base stats, strongest skills, and combat power exceeding 80,000 at max level. Think Light Seeker, Frost Queen, Radiant Warrior, Tide Lord — the heroes that define the meta.\n\nBut here's the thing: a level 3 Mythic is often worse than a level 9 Epic. Getting the hero is step one. Getting multiple copies to level them up is where the real investment lives."
     },
     {
-      "heading": "Gem Spending Strategy for Mythics",
-      "content": "The most efficient way to acquire Mythic heroes is to save 30,000-50,000 gems for Limited Summon events. Never spend gems on random permanent summons if you're targeting a specific Mythic. Daily and weekly missions, Arena rewards, and event milestones are your main sources of free gems. Consider the $5 monthly gem pass for the best value-to-cost ratio if you spend money."
+      "heading": "Three Summoning Methods Compared",
+      "content": "You have three ways to get Mythic heroes:\n\n1. Permanent Summon (300 gems each): Consistent Mythic chances over time. No expiration. Best for building roster depth. The pity system guarantees progress toward your next Mythic.\n\n2. Limited Summon (variable cost): Features specific Mythic heroes at boosted rates. Higher rates per pull but resets your pity counter if you don't hit the banner hero. Best when you need one specific hero.\n\n3. Event Summons: Appear during seasonal content. Often include exclusive Mythic units you can't get anywhere else. Use event currency on Mythic-specific rewards, not lower-rarity items.\n\nThe optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring S+ tier Mythics."
     },
     {
-      "heading": "Events and Special Banners",
-      "content": "The Light vs Dark season introduced new Mythics like Light Seeker, Necromancer, Shadow Witch, and Solar Sage. Seasonal events often include Mythic shards as milestone rewards. Clan Wars and Co-Op mode rewards occasionally include Mythic summon scrolls. Save your event currency for Mythic-specific rewards rather than spending on lower-rarity items."
+      "heading": "Savings Targets: How Many Gems You Need",
+      "content": "Here's what to aim for:\n\n- To guarantee one Limited Banner Mythic: 30,000-50,000 gems\n- For a strong Permanent Summon session: Save 10-15 summons (3,000-4,500 gems)\n- Daily + weekly income without spending: Roughly 200-300 free gems per week from missions and Arena rewards\n- The $5 monthly gem pass: Best value-to-cost ratio if you spend money\n\nAt free-to-play rates, a major Limited Banner push takes about 3-4 months of saving. Start now."
+    },
+    {
+      "heading": "Which Mythics to Prioritize",
+      "content": "Not all Mythics are created equal. Here's the priority:\n\n- S+ priority: Radiant Warrior, Frost Queen, Bone Marksman, Light Seeker, Goddess of War\n- First Mythic? Bone Marksman. It's playable at level 4 (unlike most Mythics that need level 6+) and carries hard.\n- Avoid: Don't chase niche Mythics until you have the core S+ roster.\n\nCheck the tier list and individual hero pages for detailed community rankings."
     }
   ],
-  "preview": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currentl...",
+  "preview": "Save 30,000-50,000 gems for Limited Summon events targeting specific Mythic heroes. Use Permanent Summon for roster depth. Never spend gems on random permanent summons if you're chasing a specific her...",
   "related_heroes": [
     {
       "name": "Frost Queen",
       "slug": "frost-queen"
     },
     {
-      "name": "Radiant Warrior",
-      "slug": "radiant-warrior"
+      "name": "Bone Marksman",
+      "slug": "bone-marksman"
     },
     {
-      "name": "Necromancer",
-      "slug": "necromancer"
+      "name": "Goddess of War",
+      "slug": "goddess-of-war"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
     },
     {
       "name": "Tide Lord",
@@ -45,17 +53,9 @@
     {
       "name": "Light Seeker",
       "slug": "light-seeker"
-    },
-    {
-      "name": "Solar Sage",
-      "slug": "solar-sage"
-    },
-    {
-      "name": "Shadow Witch",
-      "slug": "shadow-witch"
     }
   ],
-  "word_count": 227,
+  "word_count": 399,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -64,7 +64,7 @@
     "datePublished": "2026-03-01",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

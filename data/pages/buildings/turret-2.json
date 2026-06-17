@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Turret a good hero in War Inc: Rising?",
+        "name": "Is Turret good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Turret is a Rare Warrior unit with a cost of 0 and combat power of 186. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Turret is a rare warrior with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Turret?",
+        "name": "What does Turret do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Turret is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Turret is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Turret in War Inc: Rising?",
+        "name": "How much does Turret cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Turret costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Turret costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Turret is a balanced melee unit, effective in both offense and defense.",
-    "Use Turret in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Turret balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Gale Breaker a good hero in War Inc: Rising?",
+        "name": "Is Gale Breaker good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gale Breaker is a Common Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Gale Breaker is a common unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Gale Breaker?",
+        "name": "What does Gale Breaker do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gale Breaker is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Gale Breaker is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Gale Breaker in War Inc: Rising?",
+        "name": "How much does Gale Breaker cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gale Breaker costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Gale Breaker costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,7 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Gale Breaker can be effective in various battle situations depending on team composition."
+    "Gale Breaker fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }

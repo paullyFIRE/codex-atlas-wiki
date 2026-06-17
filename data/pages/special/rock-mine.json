@@ -308,26 +308,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Rock Mine a good hero in War Inc: Rising?",
+        "name": "Is Rock Mine good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rock Mine is a Rare Ranger unit with a cost of 0 and combat power of 231. It performs well in the right team composition."
+          "text": "Yes — Rock Mine is a rare ranger with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Rock Mine?",
+        "name": "What does Rock Mine do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rock Mine is a Ranger unit best suited for ranged physical damage from the back line."
+          "text": "Rock Mine is a ranger unit. They attack from range, dealing physical damage safely."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Rock Mine in War Inc: Rising?",
+        "name": "How much does Rock Mine cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rock Mine costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Rock Mine costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -356,8 +356,7 @@
     ]
   },
   "strategy_tips": [
-    "Rock Mine attacks from range, dealing physical damage from a safe distance.",
-    "Position Rock Mine on high ground or behind walls for maximum effectiveness."
+    "Need safe ranged damage? Rock Mine attacks from distance, dealing physical damage without risking direct engagement."
   ],
   "image": null
 }

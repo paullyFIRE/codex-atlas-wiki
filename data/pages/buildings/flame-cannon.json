@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Flame Cannon a good hero in War Inc: Rising?",
+        "name": "Is Flame Cannon good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flame Cannon is a Rare Warrior unit with a cost of 0 and combat power of 575. It is an excellent unit for most game modes."
+          "text": "Yes — Flame Cannon is a rare warrior with a cost of 0 and impressive combat power. They excel in most game modes and team compositions."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Flame Cannon?",
+        "name": "What does Flame Cannon do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flame Cannon is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Flame Cannon is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Flame Cannon in War Inc: Rising?",
+        "name": "How much does Flame Cannon cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flame Cannon costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Flame Cannon costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Flame Cannon is a balanced melee unit, effective in both offense and defense.",
-    "Use Flame Cannon in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Flame Cannon balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

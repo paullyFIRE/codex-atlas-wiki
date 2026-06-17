@@ -591,26 +591,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Blazewing Lord a good hero in War Inc: Rising?",
+        "name": "Is Blazewing Lord good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazewing Lord is a Mythic Tank unit with a cost of 8 and combat power of 403. It performs well in the right team composition."
+          "text": "Yes — Blazewing Lord is a mythic tank with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Blazewing Lord?",
+        "name": "What does Blazewing Lord do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazewing Lord is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Blazewing Lord is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Blazewing Lord in War Inc: Rising?",
+        "name": "How much does Blazewing Lord cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazewing Lord costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Blazewing Lord costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -618,7 +618,7 @@
         "name": "How to get Blazewing Lord in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazewing Lord is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Blazewing Lord is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -647,9 +647,8 @@
     ]
   },
   "strategy_tips": [
-    "Blazewing Lord is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Blazewing Lord in choke points to maximize their tanking potential.",
-    "High cost (8) means Blazewing Lord should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Blazewing Lord is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (8) means timing matters — deploy Blazewing Lord when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

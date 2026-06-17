@@ -5,42 +5,58 @@
   "meta_description": "Complete epic troop guide for War Inc: Rising. Oracle upgrade priority, Poison Master for Infinite War, Bone Warlock + Bone Gunner combo, and playable level thresholds for epic units.",
   "type": "blog",
   "date": "2026-06-14",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "Epic Troop Playability Thresholds",
-      "content": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats become comparable to a level 6 rare. Exceptions include Poison Master (useful at level 4 thanks to toxic field ability) and Oracle (attack buff works at any level). For single units, range troops should have 10,000+ HP to survive common burst abilities. Melee troops need around 20,000+ HP to tank effectively."
+      "heading": "The Short Version",
+      "content": "Oracle is the best epic in the game — upgrade to level 7 first, before any other epic. Poison Master carries early-mid Infinite War. Bone Warlock + Bone Gunner is the strongest epic combo. Every other epic has a specific role or is outclassed by rares.\n\nHere's the full breakdown with playability thresholds, upgrade priorities, and which epics to skip."
     },
     {
-      "heading": "Oracle — The Best Epic, Priority #1",
-      "content": "Oracle provides a 4% attack buff per unit to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4%, for a max of 32% increased attack power. Level 7 dramatically increases the ability range so the full effect applies consistently. Getting your Oracle to level 7 should be your highest epic priority — you'll use them in 99% of your army setups."
+      "heading": "Epic Troop Playability Thresholds",
+      "content": "Epics are harder to get than rares, so most newer players have them at level 3 or 4. That's fine — here's when each type becomes playable:\n\n- Multi-unit epics: Generally playable at level 5 (stats become comparable to a level 6 rare)\n- Exceptions: Poison Master (useful at level 4 thanks to toxic field ability), Oracle (attack buff works at any level)\n- Range units: Need 10,000+ HP to survive common burst abilities\n- Melee troops: Need around 20,000+ HP to tank effectively\n\nDon't judge an epic by its level 3 stats. Most need a few levels to hit their stride."
+    },
+    {
+      "heading": "Oracle — Priority #1, Invest Here First",
+      "content": "Oracle is the best epic troop in the game. You'll use them in 99% of your army setups. Here's why:\n\nEach Oracle provides a 4% attack buff to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4% per stack, for a max of 32% increased attack power. With 9 Oracles, that's a 36% team-wide buff. With 18, it's 72%.\n\nLevel 7 is critical — it dramatically increases the ability range so the full effect applies consistently to your whole formation. Getting Oracle to level 7 should be your highest epic priority by far."
     },
     {
       "heading": "Poison Master — Infinite War Carry",
-      "content": "Poison Master is excellent for new player PvP against multi-unit armies — splash damage shreds grouped enemies. Also a primary damage dealer in Infinite War since many enemies are weak to water. As your account progresses and you unlock stronger AoE options, Poison Master's usage falls off."
+      "content": "Poison Master shreds multi-unit armies with splash damage. In Infinite War, many enemies are weak to water damage, making Poison Master a primary damage dealer.\n\nBuild 8-10 level 6 Poison Masters to carry your Infinite War progression. It's one of the best early-to-mid game investments you can make.\n\nAs your account progresses and you unlock stronger AoE options, Poison Master's usage falls off. But for the first few months, this unit will earn its keep."
     },
     {
-      "heading": "Bone Warlock — Slow Effect King",
-      "content": "Bone Warlock's slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage. Snowman Warrior is a weaker alternative that excels at slowing front lines instead of backline units."
+      "heading": "Bone Warlock + Bone Gunner Combo",
+      "content": "Bone Warlock's slow effect is dangerous because it triggers Bone Gunner's execution barrage. The combo deals massive damage to slowed targets.\n\nBone Warlock has very long range — keep him in the back line. His energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage.\n\nSnowman Warrior is a weaker alternative. He excels at slowing enemy front lines instead of back-line units, which helps your tanks win engagements. Use him until you get Bone Warlock leveled up."
     },
     {
-      "heading": "Rockthrower, Flame Mage, Pumpkin Guard, and Others",
-      "content": "Rockthrower is below average but has a niche: sacrificial stun against Frost Queen flanks — stunning her on landing prevents her devastating AoE. Flame Mage underperforms compared to level 9 Forest Scout even at level 7, but excells in Evil Ivy Hunt (fire damage). Pumpkin Guard's taunt is useful in Infinite War, and he deals surprisingly high damage for a tank. Woodland Wizard (wheel/cardmaster only) is a more reliable healer than Woodland Guardian with faster activation."
+      "heading": "The Rest: When Each Epic Shines",
+      "content": "- Rockthrower: Below average overall. His niche is sacrificial stun against Frost Queen flanking — stunning her on landing prevents her devastating AoE from activating.\n- Flame Mage: Underperforms compared to a level 9 Forest Scout even at level 7. Excels specifically in Evil Ivy Hunt where fire damage matters.\n- Pumpkin Guard: Use until you get a level 8 Goblin Chef. Taunt is useful in Infinite War for keeping pressure off other tanks.\n- Woodland Wizard: Wheel/cardmaster only, hard to obtain. More reliable healer than Woodland Guardian with faster activation. Excellent in Evil Ivy Hunt.\n- Royal Archer and Dwarf Berserker: Wheel/cardmaster only and very expensive. Skip unless you're a heavy spender."
     }
   ],
-  "preview": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats becom...",
+  "preview": "Oracle is the best epic in the game — upgrade to level 7 first, before any other epic. Poison Master carries early-mid Infinite War. Bone Warlock + Bone Gunner is the strongest epic combo. Every other...",
   "related_heroes": [
     {
       "name": "Evil Ivy",
       "slug": "evil-ivy"
     },
     {
+      "name": "Archer",
+      "slug": "archer"
+    },
+    {
       "name": "Gunner",
       "slug": "gunner"
     },
     {
+      "name": "Berserker",
+      "slug": "berserker"
+    },
+    {
       "name": "Forest Scout",
       "slug": "forest-scout"
+    },
+    {
+      "name": "Goblin Chef",
+      "slug": "goblin-chef"
     },
     {
       "name": "Poison Master",
@@ -49,21 +65,9 @@
     {
       "name": "Snowman Warrior",
       "slug": "snowman-warrior"
-    },
-    {
-      "name": "Flame Mage",
-      "slug": "flame-mage"
-    },
-    {
-      "name": "Oracle",
-      "slug": "oracle"
-    },
-    {
-      "name": "Bone Warlock",
-      "slug": "bone-warlock"
     }
   ],
-  "word_count": 336,
+  "word_count": 534,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -72,7 +76,7 @@
     "datePublished": "2026-06-14",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

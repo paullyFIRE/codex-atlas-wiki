@@ -506,26 +506,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Evil Ivy a good hero in War Inc: Rising?",
+        "name": "Is Evil Ivy good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Evil Ivy is a Mythic Assassin unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Evil Ivy is a mythic assassin with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Evil Ivy?",
+        "name": "What does Evil Ivy do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Evil Ivy is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Evil Ivy is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Evil Ivy in War Inc: Rising?",
+        "name": "How much does Evil Ivy cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Evil Ivy costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Evil Ivy costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       },
       {
@@ -533,7 +533,7 @@
         "name": "How to get Evil Ivy in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Evil Ivy is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Evil Ivy is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -562,8 +562,7 @@
     ]
   },
   "strategy_tips": [
-    "Evil Ivy excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Evil Ivy behind tanks to protect them while they deal damage."
+    "Need to delete a specific enemy fast? Evil Ivy focuses on single-target burst damage — great for taking out enemy backline carries."
   ],
   "image": null
 }

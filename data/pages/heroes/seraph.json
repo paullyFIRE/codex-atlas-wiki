@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Seraph a good hero in War Inc: Rising?",
+        "name": "Is Seraph good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Seraph is a Mythic Assassin unit with a cost of 8 and combat power of 442. It performs well in the right team composition."
+          "text": "Yes — Seraph is a mythic assassin with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Seraph?",
+        "name": "What does Seraph do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Seraph is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Seraph is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Seraph in War Inc: Rising?",
+        "name": "How much does Seraph cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Seraph costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Seraph costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Seraph in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Seraph is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Seraph is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Seraph excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Seraph behind tanks to protect them while they deal damage.",
-    "High cost (8) means Seraph should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Seraph focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (8) means timing matters — deploy Seraph when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

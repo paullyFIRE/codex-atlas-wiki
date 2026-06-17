@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Bomber a good hero in War Inc: Rising?",
+        "name": "Is Bomber good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bomber is a Rare Tank unit with a cost of 4 and combat power of 242. It performs well in the right team composition."
+          "text": "Yes — Bomber is a rare tank with a cost of 4 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Bomber?",
+        "name": "What does Bomber do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bomber is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Bomber is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Bomber in War Inc: Rising?",
+        "name": "How much does Bomber cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bomber costs 4 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Bomber costs 4 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Bomber is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Bomber in choke points to maximize their tanking potential."
+    "Need a reliable frontline? Bomber soaks up damage with high HP and DEF so your damage dealers can work safely."
   ],
   "image": null,
   "video_guides": [

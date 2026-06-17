@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Bone Warlock a good hero in War Inc: Rising?",
+        "name": "Is Bone Warlock good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Warlock is a Epic Mage unit with a cost of 6 and combat power of 242. It performs well in the right team composition."
+          "text": "Yes — Bone Warlock is a epic mage with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Bone Warlock?",
+        "name": "What does Bone Warlock do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Warlock is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Bone Warlock is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Bone Warlock in War Inc: Rising?",
+        "name": "How much does Bone Warlock cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bone Warlock costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Bone Warlock costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       }
     ]
@@ -361,9 +361,8 @@
     ]
   },
   "strategy_tips": [
-    "Bone Warlock deals area magic damage, effective against groups of enemies.",
-    "Protect Bone Warlock with front-line tanks to maximize their damage output.",
-    "High cost (6) means Bone Warlock should be deployed strategically when the timing is right."
+    "Need to clear groups of enemies? Bone Warlock deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "High cost (6) means timing matters — deploy Bone Warlock when they can make an immediate impact rather than rushing them out."
   ],
   "image": null,
   "video_guides": [

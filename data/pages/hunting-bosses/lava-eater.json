@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Lava Eater a good hero in War Inc: Rising?",
+        "name": "Is Lava Eater good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lava Eater is a Common Assassin unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Lava Eater is a common assassin with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Lava Eater?",
+        "name": "What does Lava Eater do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lava Eater is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Lava Eater is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Lava Eater in War Inc: Rising?",
+        "name": "How much does Lava Eater cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lava Eater costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Lava Eater costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Lava Eater excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Lava Eater behind tanks to protect them while they deal damage."
+    "Need to delete a specific enemy fast? Lava Eater focuses on single-target burst damage — great for taking out enemy backline carries."
   ],
   "image": null
 }

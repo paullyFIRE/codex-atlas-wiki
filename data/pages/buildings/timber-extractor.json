@@ -308,26 +308,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Timber Extractor a good hero in War Inc: Rising?",
+        "name": "Is Timber Extractor good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Timber Extractor is a Rare Ranger unit with a cost of 0 and combat power of 231. It performs well in the right team composition."
+          "text": "Yes — Timber Extractor is a rare ranger with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Timber Extractor?",
+        "name": "What does Timber Extractor do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Timber Extractor is a Ranger unit best suited for ranged physical damage from the back line."
+          "text": "Timber Extractor is a ranger unit. They attack from range, dealing physical damage safely."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Timber Extractor in War Inc: Rising?",
+        "name": "How much does Timber Extractor cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Timber Extractor costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Timber Extractor costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -356,8 +356,7 @@
     ]
   },
   "strategy_tips": [
-    "Timber Extractor attacks from range, dealing physical damage from a safe distance.",
-    "Position Timber Extractor on high ground or behind walls for maximum effectiveness."
+    "Need safe ranged damage? Timber Extractor attacks from distance, dealing physical damage without risking direct engagement."
   ],
   "image": null,
   "upgrade_table": [

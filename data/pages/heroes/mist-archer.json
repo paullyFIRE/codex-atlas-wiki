@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Mist Archer a good hero in War Inc: Rising?",
+        "name": "Is Mist Archer good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mist Archer is a Mythic Warrior unit with a cost of 8 and combat power of 392. It performs well in the right team composition."
+          "text": "Yes — Mist Archer is a mythic warrior with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Mist Archer?",
+        "name": "What does Mist Archer do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mist Archer is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Mist Archer is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Mist Archer in War Inc: Rising?",
+        "name": "How much does Mist Archer cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mist Archer costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Mist Archer costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Mist Archer in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mist Archer is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Mist Archer is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Mist Archer is a balanced melee unit, effective in both offense and defense.",
-    "Use Mist Archer in the front line to deal consistent damage while holding position.",
-    "High cost (8) means Mist Archer should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Mist Archer balances offense and defense, making them flexible in any formation.",
+    "High cost (8) means timing matters — deploy Mist Archer when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

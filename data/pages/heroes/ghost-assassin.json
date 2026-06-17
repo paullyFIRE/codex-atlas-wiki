@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Ghost Assassin a good hero in War Inc: Rising?",
+        "name": "Is Ghost Assassin good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ghost Assassin is a Legendary Assassin unit with a cost of 6 and combat power of 342. It performs well in the right team composition."
+          "text": "Yes — Ghost Assassin is a legendary assassin with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Ghost Assassin?",
+        "name": "What does Ghost Assassin do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ghost Assassin is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Ghost Assassin is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Ghost Assassin in War Inc: Rising?",
+        "name": "How much does Ghost Assassin cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ghost Assassin costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Ghost Assassin costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Ghost Assassin in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ghost Assassin is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Ghost Assassin is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Ghost Assassin excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Ghost Assassin behind tanks to protect them while they deal damage.",
-    "High cost (6) means Ghost Assassin should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Ghost Assassin focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (6) means timing matters — deploy Ghost Assassin when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

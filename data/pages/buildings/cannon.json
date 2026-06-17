@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Cannon a good hero in War Inc: Rising?",
+        "name": "Is Cannon good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon is a Rare Warrior unit with a cost of 0 and combat power of 406. It performs well in the right team composition."
+          "text": "Yes — Cannon is a rare warrior with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Cannon?",
+        "name": "What does Cannon do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Cannon is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Cannon in War Inc: Rising?",
+        "name": "How much does Cannon cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Cannon costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Cannon is a balanced melee unit, effective in both offense and defense.",
-    "Use Cannon in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Cannon balances offense and defense, making them flexible in any formation."
   ],
   "image": null
 }

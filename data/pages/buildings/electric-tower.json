@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Electric Tower a good hero in War Inc: Rising?",
+        "name": "Is Electric Tower good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electric Tower is a Rare Warrior unit with a cost of 0 and combat power of 306. It performs well in the right team composition."
+          "text": "Yes — Electric Tower is a rare warrior with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Electric Tower?",
+        "name": "What does Electric Tower do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electric Tower is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Electric Tower is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Electric Tower in War Inc: Rising?",
+        "name": "How much does Electric Tower cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electric Tower costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Electric Tower costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Electric Tower is a balanced melee unit, effective in both offense and defense.",
-    "Use Electric Tower in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Electric Tower balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

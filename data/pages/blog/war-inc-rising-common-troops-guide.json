@@ -5,26 +5,30 @@
   "meta_description": "Learn which common troops are worth using in War Inc: Rising. Archer vs Gunner vs Snowball Thrower, Swordsman vs Demoman, and why level 7 commons are a huge power spike.",
   "type": "blog",
   "date": "2026-06-10",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
+      "heading": "The Short Version",
+      "content": "Swordsman is the best common melee. Archer is the best common range. Everything else is filler or trash. Never use Wood Shield Guard. Upgrade one Swordsman and one Archer to level 7 for the 100-gem Power Stance achievement, then stop investing in commons entirely.\n\nHere's the full breakdown of every common unit so you know exactly which ones to use and which to avoid."
+    },
+    {
       "heading": "Why Level 7 Commons Matter",
-      "content": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood Shield Guard which is trash). Every common to level 7 gives a Power Stance achievement worth 100 gems. Save forge stones for Ursa, Elven Archer, Oracles, and Flame Mages instead."
+      "content": "Level 7 is a massive power spike for any unit — higher stats AND the Trigger Master passive unlock. For a new account with low deployment limits, even commons matter at this level.\n\nBut Forge Stones are scarce. You should only push one of each common type to 7 for the Power Stance achievement (100 gems each). After that, commons get replaced by rares and epics. Save your Forge Stones for Ursa Champion, Oracle, Elven Archer, and Flame Mage — units that actually scale into endgame."
     },
     {
-      "heading": "Melee Commons: Swordsman vs Demoman vs Wood Shield Guard",
-      "content": "Between the common melee units, Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius. Demoman's stun only hits one target — in a mirror match, Swordsman always wins. Wood Shield Guard is a single unit (not multi) and completely useless — skip entirely. In rare cases where you have 2 deployment points left and need a melee filler, always pick Swordsman."
+      "heading": "Melee Commons: Swordsman vs the Rest",
+      "content": "Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius — meaning each troop in the squad can trigger the splash independently. In a 2-deployment-point mirror match, Swordsman beats Demoman every single time.\n\nDemoman's stun only hits one target. Inferior in every way. Only use him if you literally have no Swordsman copies left.\n\nWood Shield Guard is a single unit (not multi-unit), meaning his stats apply to just one troop. He's completely useless. The most common beginner mistake is thinking he's a tank — he's not. Skip entirely. Don't even upgrade him for the achievement."
     },
     {
-      "heading": "Range Commons: Archer, Gunner, and Snowball Thrower",
-      "content": "Archer is your best common range pick — highest attack, multi-target skill, and reliable damage. Gunner deals fire damage but it's too low to matter even against fire-weak enemies like Pumpkin Guard. Snowball Thrower's water damage is equally irrelevant and its slow effect on skill is useless. When filling last deployment points with range, Archer stands above as the most reliable damage dealer."
+      "heading": "Range Commons: Archer vs Gunner vs Snowball Thrower",
+      "content": "Archer is your pick. Highest attack among common range units, multi-target skill for reliable damage, and consistent performance regardless of enemy composition.\n\nGunner deals fire damage but it's too low to matter — even against fire-weak enemies like Pumpkin Guard, Archer deals more effective damage. Snowball Thrower is the worst of the three. Water damage is irrelevant early game, and the slow effect on skill is practically useless.\n\nWhen filling last deployment points with range, Archer stands above as the most reliable choice."
     },
     {
-      "heading": "When to Use Commons",
-      "content": "As a new player with low deployment limits, you'll rely on commons. Start replacing them with rare troops as soon as possible. In the rare case where you have 2 deployment points left: Swordsman is the best common melee, Archer is the best common range. Don't invest forge stones in commons beyond level 7 for the achievement gems — save them for higher-impact units."
+      "heading": "When to Stop Using Commons",
+      "content": "Start replacing commons with rares and epics as soon as your roster allows. The main exceptions:\n\n- Swordsman and Archer are viable until you have decent rare replacements (Forest Scout, Flail Warden) at level 5+\n- Don't invest Forge Stones in commons beyond the achievement threshold\n- A level 9 common is still worse than a level 6 rare in most cases\n\nIf you're past level 60 and still using commons in your main lineup, check the rare and epic guides for better options."
     }
   ],
-  "preview": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood...",
+  "preview": "Swordsman is the best common melee. Archer is the best common range. Everything else is filler or trash. Never use Wood Shield Guard. Upgrade one Swordsman and one Archer to level 7 for the 100-gem Po...",
   "related_heroes": [
     {
       "name": "Archer",
@@ -47,19 +51,19 @@
       "slug": "swordsman"
     },
     {
+      "name": "Forest Scout",
+      "slug": "forest-scout"
+    },
+    {
+      "name": "Flail Warden",
+      "slug": "flail-warden"
+    },
+    {
       "name": "Flame Mage",
       "slug": "flame-mage"
-    },
-    {
-      "name": "Oracle",
-      "slug": "oracle"
-    },
-    {
-      "name": "Pumpkin Guard",
-      "slug": "pumpkin-guard"
     }
   ],
-  "word_count": 261,
+  "word_count": 418,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -68,7 +72,7 @@
     "datePublished": "2026-06-10",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

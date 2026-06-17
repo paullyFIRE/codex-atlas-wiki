@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Apprentice Mage a good hero in War Inc: Rising?",
+        "name": "Is Apprentice Mage good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Apprentice Mage is a Rare Tank unit with a cost of 3 and combat power of 186. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Apprentice Mage is a rare tank with a cost of 3 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Apprentice Mage?",
+        "name": "What does Apprentice Mage do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Apprentice Mage is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Apprentice Mage is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Apprentice Mage in War Inc: Rising?",
+        "name": "How much does Apprentice Mage cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Apprentice Mage costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Apprentice Mage costs 3 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -458,8 +458,7 @@
     ]
   },
   "strategy_tips": [
-    "Apprentice Mage is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Apprentice Mage in choke points to maximize their tanking potential."
+    "Need a reliable frontline? Apprentice Mage soaks up damage with high HP and DEF so your damage dealers can work safely."
   ],
   "image": null,
   "video_guides": [

@@ -308,26 +308,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Stone Extractor a good hero in War Inc: Rising?",
+        "name": "Is Stone Extractor good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stone Extractor is a Rare Ranger unit with a cost of 0 and combat power of 231. It performs well in the right team composition."
+          "text": "Yes — Stone Extractor is a rare ranger with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Stone Extractor?",
+        "name": "What does Stone Extractor do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stone Extractor is a Ranger unit best suited for ranged physical damage from the back line."
+          "text": "Stone Extractor is a ranger unit. They attack from range, dealing physical damage safely."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Stone Extractor in War Inc: Rising?",
+        "name": "How much does Stone Extractor cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stone Extractor costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Stone Extractor costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -356,8 +356,7 @@
     ]
   },
   "strategy_tips": [
-    "Stone Extractor attacks from range, dealing physical damage from a safe distance.",
-    "Position Stone Extractor on high ground or behind walls for maximum effectiveness."
+    "Need safe ranged damage? Stone Extractor attacks from distance, dealing physical damage without risking direct engagement."
   ],
   "image": null,
   "upgrade_table": [

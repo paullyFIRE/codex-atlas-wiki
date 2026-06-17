@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Poison Master a good hero in War Inc: Rising?",
+        "name": "Is Poison Master good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Poison Master is a Epic Tank unit with a cost of 6 and combat power of 283. It performs well in the right team composition."
+          "text": "Yes — Poison Master is a epic tank with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Poison Master?",
+        "name": "What does Poison Master do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Poison Master is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Poison Master is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Poison Master in War Inc: Rising?",
+        "name": "How much does Poison Master cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Poison Master costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Poison Master costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       }
     ]
@@ -458,9 +458,8 @@
     ]
   },
   "strategy_tips": [
-    "Poison Master is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Poison Master in choke points to maximize their tanking potential.",
-    "High cost (6) means Poison Master should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Poison Master is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (6) means timing matters — deploy Poison Master when they can make an immediate impact rather than rushing them out."
   ],
   "image": null,
   "video_guides": [

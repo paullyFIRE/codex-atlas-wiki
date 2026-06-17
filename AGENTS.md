@@ -4,6 +4,10 @@
 
 PSEO (Programmatic SEO) blog indexing all characters, cards, entities, modes, and stats for **War Rising** (com.i89trillion.strategy.rising). Generate wiki-style onboard pages from extracted game data to drive search traffic and ad revenue. Eventually publish guides. Strive to be the most up-to-date data source for the game.
 
+## Writing Style
+
+When writing blog posts, guides, or any hand-authored content, follow the writing guide at `docs/writing-guide.md`. Key principles: write for the player first (Grade 6-9 level, active voice, short paragraphs), use "experienced player helping a friend" tone, and always choose readability over SEO when they conflict.
+
 ## Data Source & Extraction
 
 - Primary source: APK (`com.i89trillion.strategy.rising`). Download the APK and extract assets/data files (JSON, protobuf, SQLite, Lua, Unity AssetBundles, etc.) to scrape character/card/entity/stats info.

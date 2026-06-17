@@ -363,26 +363,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Mech Artisan a good hero in War Inc: Rising?",
+        "name": "Is Mech Artisan good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mech Artisan is a Mythic Assassin unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Mech Artisan is a mythic assassin with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Mech Artisan?",
+        "name": "What does Mech Artisan do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mech Artisan is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Mech Artisan is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Mech Artisan in War Inc: Rising?",
+        "name": "How much does Mech Artisan cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mech Artisan costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Mech Artisan costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -390,7 +390,7 @@
         "name": "How to get Mech Artisan in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mech Artisan is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Mech Artisan is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -419,9 +419,8 @@
     ]
   },
   "strategy_tips": [
-    "Mech Artisan excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Mech Artisan behind tanks to protect them while they deal damage.",
-    "High cost (8) means Mech Artisan should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Mech Artisan focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (8) means timing matters — deploy Mech Artisan when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

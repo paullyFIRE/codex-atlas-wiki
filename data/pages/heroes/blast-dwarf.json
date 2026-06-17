@@ -523,26 +523,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Blast Dwarf a good hero in War Inc: Rising?",
+        "name": "Is Blast Dwarf good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blast Dwarf is a Legendary Warrior unit with a cost of 6 and combat power of 312. It performs well in the right team composition."
+          "text": "Yes — Blast Dwarf is a legendary warrior with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Blast Dwarf?",
+        "name": "What does Blast Dwarf do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blast Dwarf is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Blast Dwarf is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Blast Dwarf in War Inc: Rising?",
+        "name": "How much does Blast Dwarf cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blast Dwarf costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Blast Dwarf costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -550,7 +550,7 @@
         "name": "How to get Blast Dwarf in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blast Dwarf is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Blast Dwarf is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -579,9 +579,8 @@
     ]
   },
   "strategy_tips": [
-    "Blast Dwarf is a balanced melee unit, effective in both offense and defense.",
-    "Use Blast Dwarf in the front line to deal consistent damage while holding position.",
-    "High cost (6) means Blast Dwarf should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Blast Dwarf balances offense and defense, making them flexible in any formation.",
+    "High cost (6) means timing matters — deploy Blast Dwarf when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

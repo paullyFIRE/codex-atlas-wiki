@@ -346,26 +346,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Flail Warden a good hero in War Inc: Rising?",
+        "name": "Is Flail Warden good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flail Warden is a Rare Assassin unit with a cost of 3 and combat power of 215. It performs well in the right team composition."
+          "text": "Yes — Flail Warden is a rare assassin with a cost of 3 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Flail Warden?",
+        "name": "What does Flail Warden do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flail Warden is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Flail Warden is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Flail Warden in War Inc: Rising?",
+        "name": "How much does Flail Warden cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flail Warden costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Flail Warden costs 3 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -394,8 +394,7 @@
     ]
   },
   "strategy_tips": [
-    "Flail Warden excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Flail Warden behind tanks to protect them while they deal damage."
+    "Need to delete a specific enemy fast? Flail Warden focuses on single-target burst damage — great for taking out enemy backline carries."
   ],
   "image": null,
   "video_guides": [

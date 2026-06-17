@@ -363,26 +363,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Stasis Guard a good hero in War Inc: Rising?",
+        "name": "Is Stasis Guard good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stasis Guard is a Mythic Mage unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Stasis Guard is a mythic mage with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Stasis Guard?",
+        "name": "What does Stasis Guard do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stasis Guard is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Stasis Guard is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Stasis Guard in War Inc: Rising?",
+        "name": "How much does Stasis Guard cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stasis Guard costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Stasis Guard costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -390,7 +390,7 @@
         "name": "How to get Stasis Guard in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Stasis Guard is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Stasis Guard is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -419,9 +419,8 @@
     ]
   },
   "strategy_tips": [
-    "Stasis Guard deals area magic damage, effective against groups of enemies.",
-    "Protect Stasis Guard with front-line tanks to maximize their damage output.",
-    "High cost (8) means Stasis Guard should be deployed strategically when the timing is right."
+    "Need to clear groups of enemies? Stasis Guard deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "High cost (8) means timing matters — deploy Stasis Guard when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

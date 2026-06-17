@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Electromagnetic Coil a good hero in War Inc: Rising?",
+        "name": "Is Electromagnetic Coil good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electromagnetic Coil is a Rare Warrior unit with a cost of 0 and combat power of 408. It performs well in the right team composition."
+          "text": "Yes — Electromagnetic Coil is a rare warrior with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Electromagnetic Coil?",
+        "name": "What does Electromagnetic Coil do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electromagnetic Coil is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Electromagnetic Coil is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Electromagnetic Coil in War Inc: Rising?",
+        "name": "How much does Electromagnetic Coil cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Electromagnetic Coil costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Electromagnetic Coil costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Electromagnetic Coil is a balanced melee unit, effective in both offense and defense.",
-    "Use Electromagnetic Coil in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Electromagnetic Coil balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

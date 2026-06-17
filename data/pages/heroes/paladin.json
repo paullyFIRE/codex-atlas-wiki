@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Paladin a good hero in War Inc: Rising?",
+        "name": "Is Paladin good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Paladin is a Rare Special unit with a cost of 3 and combat power of 235. It performs well in the right team composition."
+          "text": "Yes — Paladin is a rare special with a cost of 3 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Paladin?",
+        "name": "What does Paladin do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Paladin is a Special unit best suited for providing unique utility to the team."
+          "text": "Paladin is a special unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Paladin in War Inc: Rising?",
+        "name": "How much does Paladin cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Paladin costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Paladin costs 3 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -361,7 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Paladin has unique abilities that can turn the tide of battle when used correctly."
+    "Need a wildcard? Paladin has unique abilities that can swing a fight when used at the right moment."
   ],
   "image": null,
   "video_guides": [

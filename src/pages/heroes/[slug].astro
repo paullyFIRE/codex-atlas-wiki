@@ -235,6 +235,14 @@ const sectionIds = [
                     <p class="text-body-md text-on-surface-variant">{communityRank.strategy}</p>
                   </div>
                 )}
+                {communityRank.common_mistake && (
+                  <div class="mt-4 bg-error-container/10 border-2 border-error-container/30 rounded-xl p-6">
+                    <h3 class="text-title-md font-display text-error mb-3 flex items-center gap-2">
+                      <span class="material-symbols-outlined text-lg">warning</span> Common Mistake
+                    </h3>
+                    <p class="text-body-md text-on-surface-variant">{communityRank.common_mistake}</p>
+                  </div>
+                )}
                 {communityRank.must_read && (
                   <p class="mt-4 text-body-md">
                     <strong>Learn more:</strong> <a href={`/blog/${communityRank.must_read_slug}/`} class="text-secondary hover:underline">{communityRank.must_read}</a>

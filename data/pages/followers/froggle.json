@@ -142,26 +142,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Froggle a good hero in War Inc: Rising?",
+        "name": "Is Froggle good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Froggle is a Unknown Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Froggle is a unknown unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Froggle?",
+        "name": "What does Froggle do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Froggle is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Froggle is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Froggle in War Inc: Rising?",
+        "name": "How much does Froggle cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Froggle costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Froggle costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -190,7 +190,7 @@
     ]
   },
   "strategy_tips": [
-    "Froggle can be effective in various battle situations depending on team composition."
+    "Froggle fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }

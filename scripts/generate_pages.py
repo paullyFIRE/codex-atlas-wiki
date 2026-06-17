@@ -323,30 +323,30 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         "author": {"@type": "Organization", "name": "Fastone Games"},
     }
 
-    # FAQPage schema — 3-4 common questions per hero
+    # FAQPage schema — 3-4 common questions per hero (conversational tone)
     faq_items = [
         {
             "@type": "Question",
-            "name": f"Is {name} a good hero in War Inc: Rising?",
+            "name": f"Is {name} good in War Inc: Rising?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f"{name} is a {rarity_name} {prof_name} unit with a cost of {cost} and combat power of {combat_power}. {'It is an excellent unit for most game modes.' if combat_power > 500 else 'It performs well in the right team composition.' if combat_power > 200 else 'It is a solid choice for early to mid-game progression.'}"
+                "text": f"Yes — {name} is a {rarity_name.lower()} {prof_name.lower()} with a cost of {cost} and {'impressive' if combat_power > 500 else 'solid' if combat_power > 200 else 'reasonable'} combat power. {'They excel in most game modes and team compositions.' if combat_power > 500 else 'They perform well in the right setup.' if combat_power > 200 else 'They\'re a solid choice for early to mid-game progression.'}"
             },
         },
         {
             "@type": "Question",
-            "name": f"What is the best role for {name}?",
+            "name": f"What does {name} do best?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f"{name} is a {prof_name} unit best suited for {'tanking and absorbing damage on the front line.' if prof_name == 'Tank' else 'dealing melee damage and holding the front line.' if prof_name == 'Warrior' else 'bursting down high-priority targets.' if prof_name == 'Assassin' else 'dealing area magic damage from a safe position.' if prof_name == 'Mage' else 'healing and buffing allied units.' if prof_name == 'Support' else 'ranged physical damage from the back line.' if prof_name == 'Ranger' else 'providing unique utility to the team.'}"
+                "text": f"{name} is a {prof_name.lower()} unit. {'Put them on the frontline to absorb damage and protect your team.' if prof_name == 'Tank' else 'Use them for melee damage and holding the front line.' if prof_name == 'Warrior' else 'They burst down high-priority targets like enemy mages and marksmen.' if prof_name == 'Assassin' else 'They deal area magic damage from a safe position — great against grouped enemies.' if prof_name == 'Mage' else 'They heal and buff your team, keeping everyone alive longer.' if prof_name == 'Support' else 'They attack from range, dealing physical damage safely.' if prof_name == 'Ranger' else 'They bring unique utility that can swing fights in your favor.'}"
             },
         },
         {
             "@type": "Question",
-            "name": f"What is the cost of {name} in War Inc: Rising?",
+            "name": f"How much does {name} cost to deploy?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f"{name} costs {cost} Elixir to deploy. This {'makes them easy to fit into any team early in battle.' if cost <= 2 else 'gives them a moderate cost suitable for mid-game deployment.' if cost <= 4 else 'means they are a high-cost unit that should be deployed strategically.'}"
+                "text": f"{name} costs {cost} Elixir. {'That\'s cheap — you can deploy them early to build pressure.' if cost <= 2 else 'That\'s a mid-range cost, fitting well into most team compositions.' if cost <= 4 else 'That\'s expensive — deploy them when the timing is right for maximum impact.'}"
             },
         },
     ]
@@ -356,7 +356,7 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
             "name": f"How to get {name} in War Inc: Rising?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": f"{name} is a {rarity_name} rarity unit. You can obtain them through the summoning system, events, and special banners. {'Save gems for limited summon events for the best chance.' if rarity == 5 else 'Permanent summon is a reliable way to add them over time.'}"
+                "text": f"{name} is a {rarity_name.lower()} rarity unit. You can get them through summoning, events, and special banners. {'Save gems for limited summon events — they offer the best rates for Mythic heroes.' if rarity == 5 else 'Permanent summon is reliable for adding Legendary heroes over time.' if rarity == 4 else 'Keep an eye on event shops and special offers for this rarity.'}"
             },
         })
     faq_schema = {
@@ -378,35 +378,35 @@ def build_page_data(unit_id: str, unit: dict, name_map: dict, loc: dict,
         ],
     }
 
-    # Auto-generated strategy tips
+    # Auto-generated strategy tips - player-first tone
     strategy_tips = []
-    if prof_name == "Tank":
-        strategy_tips.append(f"{name} is a durable front-line unit with high HP and DEF, ideal for absorbing damage.")
-        strategy_tips.append(f"Position {name} in choke points to maximize their tanking potential.")
-    elif prof_name == "Warrior":
-        strategy_tips.append(f"{name} is a balanced melee unit, effective in both offense and defense.")
-        strategy_tips.append(f"Use {name} in the front line to deal consistent damage while holding position.")
-    elif prof_name == "Assassin":
-        strategy_tips.append(f"{name} excels at single-target burst damage, making them ideal for eliminating key threats.")
-        strategy_tips.append(f"Deploy {name} behind tanks to protect them while they deal damage.")
-    elif prof_name == "Mage":
-        strategy_tips.append(f"{name} deals area magic damage, effective against groups of enemies.")
-        strategy_tips.append(f"Protect {name} with front-line tanks to maximize their damage output.")
-    elif prof_name == "Support":
-        strategy_tips.append(f"{name} provides healing and buffs to allied units, extending their survivability.")
-        strategy_tips.append(f"Keep {name} behind the front line to ensure they survive and support the team.")
-    elif prof_name == "Ranger":
-        strategy_tips.append(f"{name} attacks from range, dealing physical damage from a safe distance.")
-        strategy_tips.append(f"Position {name} on high ground or behind walls for maximum effectiveness.")
-    elif prof_name == "Special":
-        strategy_tips.append(f"{name} has unique abilities that can turn the tide of battle when used correctly.")
-    else:
-        strategy_tips.append(f"{name} can be effective in various battle situations depending on team composition.")
 
+    # Lead with the player's goal - what can this hero do for you?
+    if prof_name == "Tank":
+        if cost and cost >= 5:
+            strategy_tips.append(f"Need someone to absorb big hits? {name} is your wall — high HP and DEF for holding the line against heavy attackers.")
+        else:
+            strategy_tips.append(f"Need a reliable frontline? {name} soaks up damage with high HP and DEF so your damage dealers can work safely.")
+    elif prof_name == "Warrior":
+        strategy_tips.append(f"Need a melee unit that can both deal damage and take hits? {name} balances offense and defense, making them flexible in any formation.")
+    elif prof_name == "Assassin":
+        strategy_tips.append(f"Need to delete a specific enemy fast? {name} focuses on single-target burst damage — great for taking out enemy backline carries.")
+    elif prof_name == "Mage":
+        strategy_tips.append(f"Need to clear groups of enemies? {name} deals area magic damage that shreds clustered units. Keep them protected behind your frontline.")
+    elif prof_name == "Support":
+        strategy_tips.append(f"Need your team to survive longer? {name} heals and buffs nearby allies, keeping your key units in the fight.")
+    elif prof_name == "Ranger":
+        strategy_tips.append(f"Need safe ranged damage? {name} attacks from distance, dealing physical damage without risking direct engagement.")
+    elif prof_name == "Special":
+        strategy_tips.append(f"Need a wildcard? {name} has unique abilities that can swing a fight when used at the right moment.")
+    else:
+        strategy_tips.append(f"{name} fits into various team compositions — experiment to find their best role.")
+
+    # Positioning advice based on cost
     if cost and cost <= 2:
-        strategy_tips.append(f"Low cost ({cost}) makes {name} easy to deploy early in battle.")
+        strategy_tips.append(f"Low deployment cost ({cost}) means you can drop {name} early to start building pressure fast.")
     elif cost and cost >= 5:
-        strategy_tips.append(f"High cost ({cost}) means {name} should be deployed strategically when the timing is right.")
+        strategy_tips.append(f"High cost ({cost}) means timing matters — deploy {name} when they can make an immediate impact rather than rushing them out.")
 
     page = {
         "id": unit["id"],
@@ -1175,27 +1175,31 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Beginner Guide — Tips, Strategy and Progression",
         "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
         "date": "2026-01-15",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Early Priorities (Levels 1–60)",
-                "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates.",
+                "heading": "The Short Version",
+                "content": "Play through campaign to unlock all modes first. Spend your gems on Permanent Summon scrolls until you have a solid roster. Upgrade your Command Center for passive income. Never waste gems on speed-ups or building resources. Build a balanced team of 5-7 heroes with at least one Tank, one damage dealer, and one Support.\n\nThis guide walks through everything a new player needs to know — from your first 60 levels to endgame team building. If you learn nothing else, remember this: Forge Stones are the most scarce resource in the game, so spend them wisely.",
             },
             {
-                "heading": "Summoning Strategy",
-                "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season.",
+                "heading": "Early Priorities (Levels 1-60)",
+                "content": "Your first 60 levels are about unlocking options. Every campaign stage you clear opens a new game mode, building, or feature. Don't stress about optimization yet — just push through content gates.\n\nSpend your initial gems on Permanent Summon scrolls. It's tempting to chase the shiny Limited Banner hero, but a broad roster beats a narrow one every time. Building depth early gives you flexibility for different game modes and events.\n\nUpgrade your Command Center whenever possible. Each level increases your passive income, and those small amounts add up over days and weeks.",
             },
             {
-                "heading": "Resource Management: Gems, Gold and Forge Stones",
-                "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes.",
+                "heading": "Where to Spend Gems (and Where Not To)",
+                "content": "Gems are the most valuable currency. Here's where they should go:\n\n- Permanent Summon scrolls: Your bread and butter for roster depth.\n- Energy refills (50 gems): Only during events with Mythic shard rewards or double-drop campaigns.\n- Limited Summon banners: Save 30,000-50,000 gems for chasing specific meta heroes.\n\nWhere NOT to spend gems:\n- Building construction speed-ups. Time is free. Wait.\n- Resources (gold, wood) from the shop. Terrible value.\n- Refreshing daily missions. The return is minimal.\n\nA common beginner trap is spending gems on the first Limited Banner you see. Don't. Build your foundation first.",
+            },
+            {
+                "heading": "Gold and Forge Stones: The Real Bottleneck",
+                "content": "Gold comes naturally from campaign, events, and the mine dice rolls. You'll mostly use it for rolling the mine and basic upgrades. It's not usually a problem.\n\nForge Stones are a different story. You need them from Merge Level 6 onwards, and they're the most scarce resource in the game. Hunting mode is your best source. Never spend Forge Stones on heroes you don't regularly use. A common mistake is spreading them across 10+ heroes instead of focusing on 3-5 core units.\n\nOne level 8 hero is worth more than eight level 5 heroes. Pick your core team and stick with it.",
             },
             {
                 "heading": "Building Your First Team",
-                "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations.",
+                "content": "A balanced team needs three things: a frontline that can take hits, damage dealers to dish it out, and support to keep everyone alive.\n\nStart with lower-cost units (2-3 Elixir) so you can deploy early. Swordsman (cost 2) and Archer (cost 2) are your best common options. They'll carry you through early content while you collect better heroes.\n\nAs you unlock higher rarities, gradually replace commons. But never merge away your last copy of a hero you actively use. Keep at least one deployable version.\n\nAim for profession diversity: one Tank, one Warrior, one Mage, and one Support covers most situations. You can specialize later when you know which game modes you enjoy most.",
             },
             {
-                "heading": "Understanding Hero Stats",
-                "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot.",
+                "heading": "Common Mistakes New Players Make",
+                "content": "1. Spending gems on speed-ups and shop resources. Just wait.\n2. Investing Forge Stones in every hero they own. Focus on 3-5 core units.\n3. Merging away the last copy of a hero they use. Always keep one.\n4. Chasing Limited Banners before building roster depth. Build first, specialize later.\n5. Ignoring the Command Center. Upgrade it whenever possible — passive income matters.\n6. Using Wood Shield Guard. Seriously, don't. It's a single-unit common with terrible stats.",
             },
         ],
     },
@@ -1205,23 +1209,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Tier List 2026 — All Heroes Ranked S-Tier to F-Tier",
         "meta_description": "Our complete War Inc: Rising tier list ranks all 95 heroes from S-Tier to F-Tier. Find the best heroes for Arena, Co-Op, and every game mode.",
         "date": "2026-01-20",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
+                "heading": "The Short Version",
+                "content": "S-Tier heroes dominate every game mode. Light Seeker, Radiant Warrior, Frost Queen, Bone Marksman, and Mist Archer are the strongest heroes in the game right now. If you have the chance to acquire any of them, take it.\n\nBut having five S-Tier heroes won't automatically win battles. Team composition, synergy bonuses, and proper positioning matter just as much as raw power. Use this tier list to prioritize acquisition, but build your teams around complementing strengths rather than stacking top-tier names.",
+            },
+            {
                 "heading": "How We Rank Heroes",
-                "content": "Tier rankings are based on combat power, skill effectiveness, and versatility across game modes. S-Tier heroes excel in multiple modes and team compositions. A-Tier heroes are strong choices with minor limitations. B-Tier heroes perform well in specific situations. C-Tier and below are generally outclassed by higher-tier alternatives but can still be effective in early progression.",
+                "content": "These rankings are based on combat power, skill effectiveness, and versatility across game modes. A hero that dominates in Arena but fails in Co-Op gets a lower rank than a hero that performs well everywhere.\n\nS-Tier heroes excel in multiple modes and team compositions. A-Tier heroes are strong with minor limitations. B-Tier heroes perform well in specific situations. C-Tier and below are generally outclassed but can still work in early progression.\n\nCheck individual hero pages for the full community rankings with strategy tips and minimum level requirements.",
             },
             {
                 "heading": "S-Tier Heroes (Best of the Best)",
-                "content": "S-Tier heroes dominate the current meta with outstanding stats and skills. These include top Mythic units like Light Seeker, Bone Marksman, Mist Archer, Radiant Warrior, Frost Queen, and Tide Lord. These heroes have combat power exceeding 80,000 and perform exceptionally well in both PvP and PvE content. Prioritize adding S-Tier heroes to your roster whenever possible through summoning events.",
+                "content": "These are the heroes you should prioritize acquiring and investing in:\n\n- Radiant Warrior (S+): Best tank in the game. Use 2-4 in every formation. Level 6 gives +20% elemental resistance to all allies.\n- Frost Queen (S+): Best control mage. Her massive AoE ice damage dominates Arena and Infinite War.\n- Bone Marksman (S+): Best marksman deletion. Pseudo-level 6 at level 4 — one of the best early investments.\n- Light Seeker (S+): PvP destroyer. Holy Wash heals to 100% when below 50% HP. Needs level 4 to shine.\n- Necromancer (S+): PvE king. Skeletons deal massive AoE damage. Needs Goddess of War shielding to survive.\n- Goddess of War (S+): Essential support. Shields nearby troops and combos with Red Blade + Barbarian.\n\nCombat power for S-Tier heroes exceeds 80,000 at max level. These are your long-term investment targets.",
             },
             {
                 "heading": "A-Tier Heroes (Excellent Choices)",
-                "content": "A-Tier heroes are excellent choices with combat power between 45,000 and 80,000. Heroes like Necromancer, Darkmoon Queen, Jungle Ranger, Goddess of War, Starlight Apostle, Melody Weaver, and Ripple Wizard fall here. These heroes are powerful in specific modes and team compositions. They can carry you through most content when built correctly.",
+                "content": "A-Tier heroes are powerful in specific modes and team compositions. They can carry you through most content when built correctly.\n\n- Oracle (S): Best epic. Attack buffer used in 99% of army setups. Level 7 is transformative.\n- Ursa Champion (S): Best Legendary forge stone investment. Level 7 stun is game-changing.\n- Elven Archer (S): Best Legendary range damage. Excellent forge stone target.\n- Ripple Wizard (S): Best energy battery. Aqua Revival grants energy every 2.5 seconds.\n- Poison Master (S): Carries early-mid Infinite War. 8-10 at level 6 is transformative.\n\nThese heroes fall between 45,000 and 80,000 combat power. They're not the absolute best, but they'll never let you down in the right composition.",
             },
             {
                 "heading": "Building Around Your Tier List",
-                "content": "Having a few S-Tier heroes doesn't automatically win battles. Team composition, synergy bonuses, and proper positioning matter just as much as raw power. Balance your team with heroes from different professions — a team of five S-Tier Mages will struggle against a balanced composition. Use our tier list as a guide for which heroes to invest in, but build your team around complementing strengths and covering weaknesses.",
+                "content": "A team of five S-Tier Mages will struggle against a balanced composition. Raw power isn't everything.\n\nUse the tier list as a guide for which heroes to invest Forge Stones in. But build your actual teams around synergy bonuses, cost curves, and formation compatibility.\n\nCheck the hero synergy sections on each page to find which heroes work well together. A smart B-Tier pick that enables your S-Tier carry is often better than a second S-Tier that doesn't fit.",
             },
         ],
     },
@@ -1257,23 +1265,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Co-Op Guide — Best Heroes, Strategy and Rewards",
         "meta_description": "Master Co-Op mode in War Inc: Rising. Learn the best hero picks, strategy for reaching level 80+, mine upgrades, dice rolling, and team coordination.",
         "date": "2026-02-10",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Co-Op Mode Overview",
-                "content": "Co-Op mode lets you team up with another player to take on increasingly difficult waves of enemies. Coordination and complementary hero picks are essential. The mode rewards you with gems, gold, and rare hero shards. Reaching higher levels requires both players to understand the optimal strategy.",
+                "heading": "The Short Version",
+                "content": "Co-Op is the best source of gems and rare hero shards in War Inc: Rising. You team up with another player to survive increasingly difficult waves. The key to reaching level 80+ is simple: one player builds economy (mine upgrades), the other builds military (recruits). Communicate before the match starts.\n\nThis guide covers the best heroes, the mine upgrade strategy, and how to coordinate with your partner for maximum wave progress.",
+            },
+            {
+                "heading": "How Co-Op Works",
+                "content": "You and a partner face waves of enemies that get harder over time. Between waves, you use Silver Coins and Gold to upgrade your mine, recruit new units, and roll the dice. Your partner does the same on their side.\n\nThe rewards scale with how far you get — higher waves mean better loot. Reaching level 80+ requires both players to understand the strategy and execute their roles.",
             },
             {
                 "heading": "Best Heroes for Co-Op",
-                "content": "Top-tier Co-Op heroes excel at sustained damage and survival. Mist Archer provides consistent ranged DPS with stealth mechanics. Venospore Killer applies powerful damage-over-time. Flame Duelist delivers combo attacks. Nine-Tailed Fox offers burst damage. Melody Weaver provides crucial buffs to your partner's team as well. Oracle's aura buffs at level 7 cover extensive battlefield area.",
+                "content": "Co-Op favors sustained damage and survivability. Burst heroes that shine in PvP often fall flat here.\n\n- Mist Archer: Consistent ranged DPS with stealth. Never stops dealing damage.\n- Venospore Killer: Excellent damage-over-time. Wears down tanky wave enemies.\n- Flame Duelist: Combo attacks stack up well over long fights.\n- Nine-Tailed Fox: Burst damage that resets between waves.\n- Melody Weaver: Buffs your partner's team too, not just yours.\n- Oracle: Level 7 aura buffs cover extensive battlefield area.",
             },
             {
-                "heading": "The Mine Upgrade Strategy",
-                "content": "To reach level 80+ in Co-Op, focus your Silver Coins on Mine upgrades over Recruit Chance early on. Mine upgrades provide compounding returns as the game progresses. Use Gold to roll the Dice consistently — dice map upgrades can give +100 Silver Coins, +60 Gold, and even Legendary minions. Balance between damage-dealing and buff-providing Mythics for optimal performance.",
+                "heading": "The Mine Upgrade Strategy (Reach Level 80+)",
+                "content": "Silver Coins are the most important resource in Co-Op. Here's the priority:\n\n1. Mine upgrades first. Each level gives compounding returns throughout the match.\n2. Recruit Chance second. Get your units on the field sooner.\n3. Gold to roll the Dice consistently. Dice map upgrades can give +100 Silver Coins, +60 Gold, and even Legendary minions.\n\nA common mistake is spending Silver Coins on recruit upgrades too early. The mine pays for everything over time — invest in it first.",
             },
             {
-                "heading": "Team Coordination Tips",
-                "content": "Communicate with your partner before the match starts. Agree on who will focus on mine upgrades and who will recruit. Share resource generation — one player builds economy while the other builds military strength. Both players should have at least one high-level Mythic hero for the later waves. Don't panic if early waves feel easy — the difficulty ramps significantly after wave 50.",
+                "heading": "Team Coordination: The Split Strategy",
+                "content": "Before the match starts, agree on roles:\n\n- Player 1: Economy focus. Spend on mine upgrades and dice rolls.\n- Player 2: Military focus. Spend on recruit upgrades and unit deployment.\n\nBoth players should have at least one high-level Mythic hero for the later waves. Don't panic if early waves feel easy — the difficulty ramps significantly after wave 50.\n\nIf you're playing with a random partner, assume they won't coordinate. Build a self-sufficient team that can carry if needed.",
             },
         ],
     },
@@ -1309,23 +1321,27 @@ BLOG_POSTS = [
         "title": "How to Get Mythic Heroes in War Inc: Rising — Summoning and Gem Guide",
         "meta_description": "Learn how to get Mythic heroes in War Inc: Rising. Complete guide to summoning, gem spending, limited banners, events, and the best strategies for building your Mythic roster.",
         "date": "2026-03-01",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "What Are Mythic Heroes?",
-                "content": "Mythic (5-star rarity) heroes are the most powerful units in War Inc: Rising. They have the highest base stats, the strongest skills, and combat power exceeding 80,000 at max level. There are currently 34 Mythic heroes in the game, including Light Seeker, Frost Queen, Radiant Warrior, and Tide Lord. Building a roster of Mythic heroes is the key to competing at the highest levels.",
+                "heading": "The Short Version",
+                "content": "Save 30,000-50,000 gems for Limited Summon events targeting specific Mythic heroes. Use Permanent Summon for roster depth. Never spend gems on random permanent summons if you're chasing a specific hero. The $5 monthly gem pass is the best value if you spend money.\n\nThere are currently 34 Mythic heroes in War Inc: Rising. Building a solid Mythic roster takes months of consistent play — but these strategies will get you there faster.",
             },
             {
-                "heading": "Summoning Methods",
-                "content": "Permanent Summon gives consistent Mythic chances over time with no expiration. Limited Summon events feature specific Mythic heroes at boosted rates. Event Summons appear during seasonal content and often include exclusive Mythic units. Save your gems for Limited Summon events featuring top-tier Mythics like those in the Light vs Dark season banners.",
+                "heading": "What Makes Mythic Heroes Special",
+                "content": "Mythic (5-star) heroes have the highest base stats, strongest skills, and combat power exceeding 80,000 at max level. Think Light Seeker, Frost Queen, Radiant Warrior, Tide Lord — the heroes that define the meta.\n\nBut here's the thing: a level 3 Mythic is often worse than a level 9 Epic. Getting the hero is step one. Getting multiple copies to level them up is where the real investment lives.",
             },
             {
-                "heading": "Gem Spending Strategy for Mythics",
-                "content": "The most efficient way to acquire Mythic heroes is to save 30,000-50,000 gems for Limited Summon events. Never spend gems on random permanent summons if you're targeting a specific Mythic. Daily and weekly missions, Arena rewards, and event milestones are your main sources of free gems. Consider the $5 monthly gem pass for the best value-to-cost ratio if you spend money.",
+                "heading": "Three Summoning Methods Compared",
+                "content": "You have three ways to get Mythic heroes:\n\n1. Permanent Summon (300 gems each): Consistent Mythic chances over time. No expiration. Best for building roster depth. The pity system guarantees progress toward your next Mythic.\n\n2. Limited Summon (variable cost): Features specific Mythic heroes at boosted rates. Higher rates per pull but resets your pity counter if you don't hit the banner hero. Best when you need one specific hero.\n\n3. Event Summons: Appear during seasonal content. Often include exclusive Mythic units you can't get anywhere else. Use event currency on Mythic-specific rewards, not lower-rarity items.\n\nThe optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring S+ tier Mythics.",
             },
             {
-                "heading": "Events and Special Banners",
-                "content": "The Light vs Dark season introduced new Mythics like Light Seeker, Necromancer, Shadow Witch, and Solar Sage. Seasonal events often include Mythic shards as milestone rewards. Clan Wars and Co-Op mode rewards occasionally include Mythic summon scrolls. Save your event currency for Mythic-specific rewards rather than spending on lower-rarity items.",
+                "heading": "Savings Targets: How Many Gems You Need",
+                "content": "Here's what to aim for:\n\n- To guarantee one Limited Banner Mythic: 30,000-50,000 gems\n- For a strong Permanent Summon session: Save 10-15 summons (3,000-4,500 gems)\n- Daily + weekly income without spending: Roughly 200-300 free gems per week from missions and Arena rewards\n- The $5 monthly gem pass: Best value-to-cost ratio if you spend money\n\nAt free-to-play rates, a major Limited Banner push takes about 3-4 months of saving. Start now.",
+            },
+            {
+                "heading": "Which Mythics to Prioritize",
+                "content": "Not all Mythics are created equal. Here's the priority:\n\n- S+ priority: Radiant Warrior, Frost Queen, Bone Marksman, Light Seeker, Goddess of War\n- First Mythic? Bone Marksman. It's playable at level 4 (unlike most Mythics that need level 6+) and carries hard.\n- Avoid: Don't chase niche Mythics until you have the core S+ roster.\n\nCheck the tier list and individual hero pages for detailed community rankings.",
             },
         ],
     },
@@ -1335,27 +1351,31 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Formation Guide — Master All 4 Battle Formations",
         "meta_description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
         "date": "2026-03-10",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Why Formation Matters",
-                "content": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's effectiveness regardless of hero quality. Understanding formations is the single biggest skill gap between intermediate and advanced players.",
+                "heading": "The Short Version",
+                "content": "Your formation determines which enemies your units target first, how they move across the battlefield, and whether they survive the first engagement. It's the single biggest skill gap between intermediate and advanced players.\n\nThere are four formations: Dash (standard), Backstab (aggressive), Outflank (tactical), and Split (defensive). Each counters one other formation and loses to another. The key is scouting your opponent before the match and picking the right counter.",
             },
             {
                 "heading": "Dash Formation — The Standard",
-                "content": "Dash is the default formation — your leftmost units engage the enemy's front line directly. Your A1 attacks F1, A2 attacks F2, and so on. This formation maximizes the effectiveness of aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. Strong against: nothing in particular. Weak against: Backstab formations that bypass your frontline to hit damage dealers.",
+                "content": "Dash is the default formation. Your leftmost units engage the enemy's front line directly — A1 attacks F1, A2 attacks F2, and so on.\n\nThis formation maximizes aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. It's the safest choice when you don't know what your opponent is using.\n\nStrong against: Nothing in particular. It's the neutral option.\nWeak against: Backstab formations that bypass your frontline to hit damage dealers.",
             },
             {
                 "heading": "Backstab Formation — The Aggressor",
-                "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation. Use it with Bomber units that self-destruct for massive AoE damage. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum coverage. Strong against Dash formations. Weak against Split formations that split your forces.",
+                "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation.\n\nUse it with Bomber units that self-destruct for massive AoE damage. Place Bombers to target positions B2-B3 and B5-B6 for maximum coverage.\n\nStrong against: Dash formations that rely on a tank wall.\nWeak against: Split formations that spread your backstab force into two ineffective groups.",
             },
             {
                 "heading": "Outflank Formation — The Tactician's Choice",
-                "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks, drawing aggro while your main force advances through the center. This formation is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Strong against Frost Queen-centric teams. Weak against Split formations that split your flanking forces.",
+                "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks. They draw aggro while your main force advances through the center.\n\nThis is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Spreading out forces her to choose which group to target.\n\nStrong against: Frost Queen-centric teams.\nWeak against: Split formations that split your flanking forces into isolated groups.",
             },
             {
                 "heading": "Split Formation — The Defensive Master",
-                "content": "Split shifts left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup. It counters Backstab formations by splitting the enemy's backstab into two ineffective groups. Strong against Backstab. Weak against Dash, which engages each half of your split force individually.",
+                "content": "Split shifts your left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts.\n\nThis is the hardest formation to predict and the best defensive setup. It counters Backstab by splitting the backstab into two ineffective groups.\n\nStrong against: Backstab.\nWeak against: Dash, which engages each half of your split force individually.",
+            },
+            {
+                "heading": "How to Counter Each Formation",
+                "content": "Here's the counter wheel at a glance:\n\n- See Dash coming? Use Backstab to hit their backline.\n- See Backstab coming? Use Split to neutralize it.\n- See Split coming? Use Dash to engage each half 1v1.\n- See Outflank? Split works well here too.\n\nScouting is everything. If you can identify your opponent's formation before the match starts, you can pick the counter and win before the first unit deploys.",
             },
         ],
     },
@@ -1595,23 +1615,27 @@ BLOG_POSTS = [
         "title": "Beginner Tips: Common Troops Guide — Best Common Heroes | War Inc: Rising Wiki",
         "meta_description": "Learn which common troops are worth using in War Inc: Rising. Archer vs Gunner vs Snowball Thrower, Swordsman vs Demoman, and why level 7 commons are a huge power spike.",
         "date": "2026-06-10",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
+                "heading": "The Short Version",
+                "content": "Swordsman is the best common melee. Archer is the best common range. Everything else is filler or trash. Never use Wood Shield Guard. Upgrade one Swordsman and one Archer to level 7 for the 100-gem Power Stance achievement, then stop investing in commons entirely.\n\nHere's the full breakdown of every common unit so you know exactly which ones to use and which to avoid.",
+            },
+            {
                 "heading": "Why Level 7 Commons Matter",
-                "content": "Level 7 is a huge power spike for common troops — higher stats AND the Trigger Master passive ability unlock. However, Forge Stones are scarce so upgrade only one of each troop to level 7 (except Wood Shield Guard which is trash). Every common to level 7 gives a Power Stance achievement worth 100 gems. Save forge stones for Ursa, Elven Archer, Oracles, and Flame Mages instead.",
+                "content": "Level 7 is a massive power spike for any unit — higher stats AND the Trigger Master passive unlock. For a new account with low deployment limits, even commons matter at this level.\n\nBut Forge Stones are scarce. You should only push one of each common type to 7 for the Power Stance achievement (100 gems each). After that, commons get replaced by rares and epics. Save your Forge Stones for Ursa Champion, Oracle, Elven Archer, and Flame Mage — units that actually scale into endgame.",
             },
             {
-                "heading": "Melee Commons: Swordsman vs Demoman vs Wood Shield Guard",
-                "content": "Between the common melee units, Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius. Demoman's stun only hits one target — in a mirror match, Swordsman always wins. Wood Shield Guard is a single unit (not multi) and completely useless — skip entirely. In rare cases where you have 2 deployment points left and need a melee filler, always pick Swordsman.",
+                "heading": "Melee Commons: Swordsman vs the Rest",
+                "content": "Swordsman is the clear winner. He's a multi-unit with splash damage in his skill radius — meaning each troop in the squad can trigger the splash independently. In a 2-deployment-point mirror match, Swordsman beats Demoman every single time.\n\nDemoman's stun only hits one target. Inferior in every way. Only use him if you literally have no Swordsman copies left.\n\nWood Shield Guard is a single unit (not multi-unit), meaning his stats apply to just one troop. He's completely useless. The most common beginner mistake is thinking he's a tank — he's not. Skip entirely. Don't even upgrade him for the achievement.",
             },
             {
-                "heading": "Range Commons: Archer, Gunner, and Snowball Thrower",
-                "content": "Archer is your best common range pick — highest attack, multi-target skill, and reliable damage. Gunner deals fire damage but it's too low to matter even against fire-weak enemies like Pumpkin Guard. Snowball Thrower's water damage is equally irrelevant and its slow effect on skill is useless. When filling last deployment points with range, Archer stands above as the most reliable damage dealer.",
+                "heading": "Range Commons: Archer vs Gunner vs Snowball Thrower",
+                "content": "Archer is your pick. Highest attack among common range units, multi-target skill for reliable damage, and consistent performance regardless of enemy composition.\n\nGunner deals fire damage but it's too low to matter — even against fire-weak enemies like Pumpkin Guard, Archer deals more effective damage. Snowball Thrower is the worst of the three. Water damage is irrelevant early game, and the slow effect on skill is practically useless.\n\nWhen filling last deployment points with range, Archer stands above as the most reliable choice.",
             },
             {
-                "heading": "When to Use Commons",
-                "content": "As a new player with low deployment limits, you'll rely on commons. Start replacing them with rare troops as soon as possible. In the rare case where you have 2 deployment points left: Swordsman is the best common melee, Archer is the best common range. Don't invest forge stones in commons beyond level 7 for the achievement gems — save them for higher-impact units.",
+                "heading": "When to Stop Using Commons",
+                "content": "Start replacing commons with rares and epics as soon as your roster allows. The main exceptions:\n\n- Swordsman and Archer are viable until you have decent rare replacements (Forest Scout, Flail Warden) at level 5+\n- Don't invest Forge Stones in commons beyond the achievement threshold\n- A level 9 common is still worse than a level 6 rare in most cases\n\nIf you're past level 60 and still using commons in your main lineup, check the rare and epic guides for better options.",
             },
         ],
     },
@@ -1621,27 +1645,31 @@ BLOG_POSTS = [
         "title": "Rare Troop Guide — Best Rare Units and Upgrades | War Inc: Rising Wiki",
         "meta_description": "Complete rare troop guide for War Inc: Rising. Which rares are worth forge stones, multi-unit vs single-unit mechanics, and the one rare that beats a level 6 mythic.",
         "date": "2026-06-12",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Multi-Unit vs Single-Unit: A Critical Distinction",
-                "content": "Displayed HP and ATK stats for multi-units apply to EACH individual troop, not the entire squad. A level 6 Berserker has 8 individuals, each with the displayed stats — combined ~36K HP and ~800 ATK. Single units like Goblin Chef show their actual stats directly. Multi-units are better for triggering multiple abilities per attack cycle. Single units perform better as heavy hitters or tanks with concentrated stats.",
+                "heading": "The Short Version",
+                "content": "Forest Scout is the best rare range. Flail Warden is the best rare melee. Goblin Chef beats a level 6 Mythic at level 9 — the single best rare investment if you can get copies. Bomber dominates the 2,500-5,000 trophy range. Skip Apprentice Mage, Goblin Shaman, and Berserker entirely.\n\nThis guide covers every rare unit so you know exactly which ones deserve your Forge Stones and which are traps.",
+            },
+            {
+                "heading": "Multi-Unit vs Single-Unit: What the Stats Actually Mean",
+                "content": "This is the most important thing to understand about rare troops: the displayed HP and ATK stats for multi-units apply to EACH individual, not the entire squad.\n\nExample: A level 6 Berserker has 8 individuals. Each has ~4,600 HP and ~100 ATK shown in the stat sheet. The combined squad has roughly 36K HP and 800 ATK. Single units like Goblin Chef show their actual stats directly.\n\nMulti-units are better at triggering multiple abilities per attack cycle. Single units perform better as heavy hitters with concentrated stats. Knowing the difference changes how you evaluate every unit.",
             },
             {
                 "heading": "Best Rare Range: Forest Scout",
-                "content": "Forest Scout is the best rare range unit — highest attack of the three rares and a multi-target ability dealing 200% damage. At level 7 with Trigger Master, he melts enemies. Place him away from other archers in a safe back position since archers and marksmen are priority targets for enemy abilities. Apprentice Mage and Goblin Shaman are not worth your resources — Apprentice Mage gets replaced by Flame Mage, and Goblin Shaman requires wheel unlock before you can even use him.",
+                "content": "Forest Scout has the highest attack of the three rare range options and a multi-target ability dealing 200% damage. At level 7 with Trigger Master, the damage output spikes dramatically. He's the best rare troop to invest Forge Stones in — worth taking all the way to level 9.\n\nPosition: Place him away from other archers in a safe back position. Archers and marksmen are priority targets for enemy abilities. A dead Forest Scout deals no damage.\n\nApprentice Mage and Goblin Shaman are not worth your resources. Apprentice Mage gets replaced by Flame Mage eventually, and Goblin Shaman requires a wheel unlock before you can even use him.",
             },
             {
-                "heading": "Melee Rares: Flail Warden Is Your Best Bet",
-                "content": "Flail Warden is the best rare melee — lower stats than Goblin Warrior but splash damage handles multi-units well. Berserker and Werewolf have the least value. Goblin Warrior has decent HP and damage but isn't a priority. For new players facing mainly multi-units, use more Flail Wardens than Goblin Warriors.",
+                "heading": "Best Rare Melee: Flail Warden",
+                "content": "Flail Warden has lower individual stats than Goblin Warrior, but his splash damage handles multi-units extremely well. In the early-mid game where you face mostly multi-unit enemies, Flail Warden outperforms every other rare melee.\n\nGoblin Warrior has decent HP and damage but isn't a priority investment. Berserker has the least value of all rare melees — 8 individuals sounds good on paper, but each is fragile at ~4,600 HP and falls off quickly.",
             },
             {
-                "heading": "Tank Rares: Paladin and the Legendary Goblin Chef",
-                "content": "Paladin is a multi-unit tank with high HP and surprisingly high attack. He generates a shield every 10 seconds — combo him next to Radiant Warrior for shield overlap (Radiant's 8s shield starts at battle, Paladin's activates at 10s for a 2s overlap). The Goblin Chef (Shredder) is the one rare better than a level 6 mythic. Single unit with very high HP and ATK. His ability hits a small area for splash + 2 second stun — longer than Griffin Rider (1s) and Ursa (0.5s). At level 9 with ~1,000 forge stones, he has HP near a level 6 Night King and ATK near Light Seeker for half the deployment cost.",
+                "heading": "Goblin Chef: The Rare That Beats Mythics",
+                "content": "Goblin Chef (also called Shredder) is the one rare that's better than a level 6 Mythic. At level 9 with ~1,000 Forge Stones invested, he has HP near a level 6 Night King and ATK near Light Seeker — for half the deployment cost.\n\nHis ability hits a small area for splash damage plus a 2-second stun. That's longer than Griffin Rider's 1s and Ursa's 0.5s stun.\n\nThe catch: he's wheel/cardmaster only. Getting copies is hard. But if you can, he's the single best rare investment in the game.",
             },
             {
-                "heading": "Utility Rares: Bomber and Frost Skeleton",
-                "content": "Bomber is a suicide unit dealing 3x base ATK on death. At level 7, he stuns on death. Best in backstab/outflank strategies. In split formation vs backstabs, place him front close to corner so he charges enemy front line instead of running toward stabbers. Frost Skeleton deals area damage + speed reduction on death. Flexible placement — front for instant slow, middle for delayed, back for long delay. Pairs best with Bone Marksman, Bone Gunner, Bone Warden, and Iron Bulwark for attack speed synergy.",
+                "heading": "Utility Rares: Bomber, Paladin, Frost Skeleton",
+                "content": "Bomber is a suicide unit dealing 3x base ATK on death. At level 7, he stuns enemies on death. He dominates the 2,500-5,000 trophy range in Arena. The cheapest way to get him is uncommon fusion with gold.\n\nPaladin is a multi-unit tank with shields every 10 seconds. Combo him with Radiant Warrior for shield overlap: Radiant's shield activates at battle start (8s duration), Paladin's at 10s — creating a 2-second window where both shields are active.\n\nFrost Skeleton deals area damage + speed reduction on death. Flexible placement: front for instant slow, middle for delayed slow, back for long-delayed slow. Pairs best with Bone Marksman, Bone Gunner, and Iron Bulwark for attack speed synergy.",
             },
         ],
     },
@@ -1651,27 +1679,31 @@ BLOG_POSTS = [
         "title": "Epic Troop Guide — Best Epic Units Ranked | War Inc: Rising Wiki",
         "meta_description": "Complete epic troop guide for War Inc: Rising. Oracle upgrade priority, Poison Master for Infinite War, Bone Warlock + Bone Gunner combo, and playable level thresholds for epic units.",
         "date": "2026-06-14",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Epic Troop Playability Thresholds",
-                "content": "Epic troops are harder to obtain than rares, so most newer players will have them sitting at level 3 or 4. For multi-unit epics, the playable level is generally level 5 — that's when their stats become comparable to a level 6 rare. Exceptions include Poison Master (useful at level 4 thanks to toxic field ability) and Oracle (attack buff works at any level). For single units, range troops should have 10,000+ HP to survive common burst abilities. Melee troops need around 20,000+ HP to tank effectively.",
+                "heading": "The Short Version",
+                "content": "Oracle is the best epic in the game — upgrade to level 7 first, before any other epic. Poison Master carries early-mid Infinite War. Bone Warlock + Bone Gunner is the strongest epic combo. Every other epic has a specific role or is outclassed by rares.\n\nHere's the full breakdown with playability thresholds, upgrade priorities, and which epics to skip.",
             },
             {
-                "heading": "Oracle — The Best Epic, Priority #1",
-                "content": "Oracle provides a 4% attack buff per unit to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4%, for a max of 32% increased attack power. Level 7 dramatically increases the ability range so the full effect applies consistently. Getting your Oracle to level 7 should be your highest epic priority — you'll use them in 99% of your army setups.",
+                "heading": "Epic Troop Playability Thresholds",
+                "content": "Epics are harder to get than rares, so most newer players have them at level 3 or 4. That's fine — here's when each type becomes playable:\n\n- Multi-unit epics: Generally playable at level 5 (stats become comparable to a level 6 rare)\n- Exceptions: Poison Master (useful at level 4 thanks to toxic field ability), Oracle (attack buff works at any level)\n- Range units: Need 10,000+ HP to survive common burst abilities\n- Melee troops: Need around 20,000+ HP to tank effectively\n\nDon't judge an epic by its level 3 stats. Most need a few levels to hit their stride.",
+            },
+            {
+                "heading": "Oracle — Priority #1, Invest Here First",
+                "content": "Oracle is the best epic troop in the game. You'll use them in 99% of your army setups. Here's why:\n\nEach Oracle provides a 4% attack buff to nearby allies, stacking up to 20 times. At level 6, each Oracle gives 4% per stack, for a max of 32% increased attack power. With 9 Oracles, that's a 36% team-wide buff. With 18, it's 72%.\n\nLevel 7 is critical — it dramatically increases the ability range so the full effect applies consistently to your whole formation. Getting Oracle to level 7 should be your highest epic priority by far.",
             },
             {
                 "heading": "Poison Master — Infinite War Carry",
-                "content": "Poison Master is excellent for new player PvP against multi-unit armies — splash damage shreds grouped enemies. Also a primary damage dealer in Infinite War since many enemies are weak to water. As your account progresses and you unlock stronger AoE options, Poison Master's usage falls off.",
+                "content": "Poison Master shreds multi-unit armies with splash damage. In Infinite War, many enemies are weak to water damage, making Poison Master a primary damage dealer.\n\nBuild 8-10 level 6 Poison Masters to carry your Infinite War progression. It's one of the best early-to-mid game investments you can make.\n\nAs your account progresses and you unlock stronger AoE options, Poison Master's usage falls off. But for the first few months, this unit will earn its keep.",
             },
             {
-                "heading": "Bone Warlock — Slow Effect King",
-                "content": "Bone Warlock's slow effect is dangerous when paired with Bone Gunner (triggers execution barrage). Very long range ability — keep positioned safely in back line. Energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage. Snowman Warrior is a weaker alternative that excels at slowing front lines instead of backline units.",
+                "heading": "Bone Warlock + Bone Gunner Combo",
+                "content": "Bone Warlock's slow effect is dangerous because it triggers Bone Gunner's execution barrage. The combo deals massive damage to slowed targets.\n\nBone Warlock has very long range — keep him in the back line. His energy-based ability pairs well with Ripple Wizard for faster casts. Also useful in Twin Dragon Hunt for wind damage.\n\nSnowman Warrior is a weaker alternative. He excels at slowing enemy front lines instead of back-line units, which helps your tanks win engagements. Use him until you get Bone Warlock leveled up.",
             },
             {
-                "heading": "Rockthrower, Flame Mage, Pumpkin Guard, and Others",
-                "content": "Rockthrower is below average but has a niche: sacrificial stun against Frost Queen flanks — stunning her on landing prevents her devastating AoE. Flame Mage underperforms compared to level 9 Forest Scout even at level 7, but excells in Evil Ivy Hunt (fire damage). Pumpkin Guard's taunt is useful in Infinite War, and he deals surprisingly high damage for a tank. Woodland Wizard (wheel/cardmaster only) is a more reliable healer than Woodland Guardian with faster activation.",
+                "heading": "The Rest: When Each Epic Shines",
+                "content": "- Rockthrower: Below average overall. His niche is sacrificial stun against Frost Queen flanking — stunning her on landing prevents her devastating AoE from activating.\n- Flame Mage: Underperforms compared to a level 9 Forest Scout even at level 7. Excels specifically in Evil Ivy Hunt where fire damage matters.\n- Pumpkin Guard: Use until you get a level 8 Goblin Chef. Taunt is useful in Infinite War for keeping pressure off other tanks.\n- Woodland Wizard: Wheel/cardmaster only, hard to obtain. More reliable healer than Woodland Guardian with faster activation. Excellent in Evil Ivy Hunt.\n- Royal Archer and Dwarf Berserker: Wheel/cardmaster only and very expensive. Skip unless you're a heavy spender.",
             },
         ],
     },

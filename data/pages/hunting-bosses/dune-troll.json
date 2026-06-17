@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Dune Troll a good hero in War Inc: Rising?",
+        "name": "Is Dune Troll good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dune Troll is a Common Assassin unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Dune Troll is a common assassin with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Dune Troll?",
+        "name": "What does Dune Troll do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dune Troll is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Dune Troll is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Dune Troll in War Inc: Rising?",
+        "name": "How much does Dune Troll cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dune Troll costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Dune Troll costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Dune Troll excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Dune Troll behind tanks to protect them while they deal damage."
+    "Need to delete a specific enemy fast? Dune Troll focuses on single-target burst damage — great for taking out enemy backline carries."
   ],
   "image": null
 }

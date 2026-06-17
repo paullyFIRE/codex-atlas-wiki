@@ -615,26 +615,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Darkmoon Queen a good hero in War Inc: Rising?",
+        "name": "Is Darkmoon Queen good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Darkmoon Queen is a Mythic Mage unit with a cost of 8 and combat power of 391. It performs well in the right team composition."
+          "text": "Yes — Darkmoon Queen is a mythic mage with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Darkmoon Queen?",
+        "name": "What does Darkmoon Queen do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Darkmoon Queen is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Darkmoon Queen is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Darkmoon Queen in War Inc: Rising?",
+        "name": "How much does Darkmoon Queen cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Darkmoon Queen costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Darkmoon Queen costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -642,7 +642,7 @@
         "name": "How to get Darkmoon Queen in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Darkmoon Queen is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Darkmoon Queen is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -671,9 +671,8 @@
     ]
   },
   "strategy_tips": [
-    "Darkmoon Queen deals area magic damage, effective against groups of enemies.",
-    "Protect Darkmoon Queen with front-line tanks to maximize their damage output.",
-    "High cost (8) means Darkmoon Queen should be deployed strategically when the timing is right."
+    "Need to clear groups of enemies? Darkmoon Queen deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "High cost (8) means timing matters — deploy Darkmoon Queen when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/708.png"
 }

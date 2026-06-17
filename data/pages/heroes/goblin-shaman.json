@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Goblin Shaman a good hero in War Inc: Rising?",
+        "name": "Is Goblin Shaman good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Goblin Shaman is a Rare Mage unit with a cost of 3 and combat power of 235. It performs well in the right team composition."
+          "text": "Yes — Goblin Shaman is a rare mage with a cost of 3 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Goblin Shaman?",
+        "name": "What does Goblin Shaman do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Goblin Shaman is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Goblin Shaman is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Goblin Shaman in War Inc: Rising?",
+        "name": "How much does Goblin Shaman cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Goblin Shaman costs 3 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Goblin Shaman costs 3 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Goblin Shaman deals area magic damage, effective against groups of enemies.",
-    "Protect Goblin Shaman with front-line tanks to maximize their damage output."
+    "Need to clear groups of enemies? Goblin Shaman deals area magic damage that shreds clustered units. Keep them protected behind your frontline."
   ],
   "image": null,
   "video_guides": [

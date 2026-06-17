@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Archer a good hero in War Inc: Rising?",
+        "name": "Is Archer good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Archer is a Common Warrior unit with a cost of 2 and combat power of 97. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Archer is a common warrior with a cost of 2 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Archer?",
+        "name": "What does Archer do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Archer is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Archer is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Archer in War Inc: Rising?",
+        "name": "How much does Archer cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Archer costs 2 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Archer costs 2 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -458,9 +458,8 @@
     ]
   },
   "strategy_tips": [
-    "Archer is a balanced melee unit, effective in both offense and defense.",
-    "Use Archer in the front line to deal consistent damage while holding position.",
-    "Low cost (2) makes Archer easy to deploy early in battle."
+    "Need a melee unit that can both deal damage and take hits? Archer balances offense and defense, making them flexible in any formation.",
+    "Low deployment cost (2) means you can drop Archer early to start building pressure fast."
   ],
   "image": null,
   "video_guides": [

@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Snowball Thrower a good hero in War Inc: Rising?",
+        "name": "Is Snowball Thrower good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Snowball Thrower is a Common Mage unit with a cost of 2 and combat power of 91. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Snowball Thrower is a common mage with a cost of 2 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Snowball Thrower?",
+        "name": "What does Snowball Thrower do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Snowball Thrower is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Snowball Thrower is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Snowball Thrower in War Inc: Rising?",
+        "name": "How much does Snowball Thrower cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Snowball Thrower costs 2 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Snowball Thrower costs 2 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -458,9 +458,8 @@
     ]
   },
   "strategy_tips": [
-    "Snowball Thrower deals area magic damage, effective against groups of enemies.",
-    "Protect Snowball Thrower with front-line tanks to maximize their damage output.",
-    "Low cost (2) makes Snowball Thrower easy to deploy early in battle."
+    "Need to clear groups of enemies? Snowball Thrower deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "Low deployment cost (2) means you can drop Snowball Thrower early to start building pressure fast."
   ],
   "image": null,
   "video_guides": [

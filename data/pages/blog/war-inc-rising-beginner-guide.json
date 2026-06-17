@@ -5,30 +5,34 @@
   "meta_description": "New to War Inc: Rising? This beginner guide covers early priorities, summoning strategy, resource management, team building, and progression tips to level up fast.",
   "type": "blog",
   "date": "2026-01-15",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "Early Priorities (Levels 1–60)",
-      "content": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banners — building a broad roster early gives you flexibility. Upgrade your Command Center whenever possible to increase passive income. Don't hoard resources early; invest in your core team of 5-7 heroes to push through content gates."
+      "heading": "The Short Version",
+      "content": "Play through campaign to unlock all modes first. Spend your gems on Permanent Summon scrolls until you have a solid roster. Upgrade your Command Center for passive income. Never waste gems on speed-ups or building resources. Build a balanced team of 5-7 heroes with at least one Tank, one damage dealer, and one Support.\n\nThis guide walks through everything a new player needs to know — from your first 60 levels to endgame team building. If you learn nothing else, remember this: Forge Stones are the most scarce resource in the game, so spend them wisely."
     },
     {
-      "heading": "Summoning Strategy",
-      "content": "There are two summon paths: Permanent Summon and Limited Summon. Permanent Summon is your bread-and-butter for building roster depth — it consistently adds Legendaries over time. Limited Summon offers higher rates for specific banner heroes but is short-lived. The optimal strategy is to use Permanent Summon for core progression and save gems for Limited Summon only when chasing a specific meta-defining hero like those in the Light vs Dark season."
+      "heading": "Early Priorities (Levels 1-60)",
+      "content": "Your first 60 levels are about unlocking options. Every campaign stage you clear opens a new game mode, building, or feature. Don't stress about optimization yet — just push through content gates.\n\nSpend your initial gems on Permanent Summon scrolls. It's tempting to chase the shiny Limited Banner hero, but a broad roster beats a narrow one every time. Building depth early gives you flexibility for different game modes and events.\n\nUpgrade your Command Center whenever possible. Each level increases your passive income, and those small amounts add up over days and weeks."
     },
     {
-      "heading": "Resource Management: Gems, Gold and Forge Stones",
-      "content": "Gems are the most valuable currency. Prioritize spending them on permanent summon scrolls, energy refills for farming events, and limited banners for top-tier heroes. Avoid using gems on speed-ups or building resources — those come naturally. Gold is primarily used for rolling the Dice in the mine for hero upgrades. Forge Stones are the main bottleneck for pushing hero merge levels past 6; save them for impactful upgrades on your main team rather than spreading thin across all heroes."
+      "heading": "Where to Spend Gems (and Where Not To)",
+      "content": "Gems are the most valuable currency. Here's where they should go:\n\n- Permanent Summon scrolls: Your bread and butter for roster depth.\n- Energy refills (50 gems): Only during events with Mythic shard rewards or double-drop campaigns.\n- Limited Summon banners: Save 30,000-50,000 gems for chasing specific meta heroes.\n\nWhere NOT to spend gems:\n- Building construction speed-ups. Time is free. Wait.\n- Resources (gold, wood) from the shop. Terrible value.\n- Refreshing daily missions. The return is minimal.\n\nA common beginner trap is spending gems on the first Limited Banner you see. Don't. Build your foundation first."
+    },
+    {
+      "heading": "Gold and Forge Stones: The Real Bottleneck",
+      "content": "Gold comes naturally from campaign, events, and the mine dice rolls. You'll mostly use it for rolling the mine and basic upgrades. It's not usually a problem.\n\nForge Stones are a different story. You need them from Merge Level 6 onwards, and they're the most scarce resource in the game. Hunting mode is your best source. Never spend Forge Stones on heroes you don't regularly use. A common mistake is spreading them across 10+ heroes instead of focusing on 3-5 core units.\n\nOne level 8 hero is worth more than eight level 5 heroes. Pick your core team and stick with it."
     },
     {
       "heading": "Building Your First Team",
-      "content": "A balanced team needs a front-line tank, damage dealers, and support. Start with a core of 2-3 lower-cost units (2-3 Elixir) to deploy early, then add your heavy hitters. Common heroes like Swordsman (cost 2) and Archer (cost 2) provide excellent value early. As you unlock higher-rarity heroes, gradually replace them — but never merge away your last copy of a hero you use. Aim for professions diversity: one Tank, one Warrior, one Mage, and one Support covers most situations."
+      "content": "A balanced team needs three things: a frontline that can take hits, damage dealers to dish it out, and support to keep everyone alive.\n\nStart with lower-cost units (2-3 Elixir) so you can deploy early. Swordsman (cost 2) and Archer (cost 2) are your best common options. They'll carry you through early content while you collect better heroes.\n\nAs you unlock higher rarities, gradually replace commons. But never merge away your last copy of a hero you actively use. Keep at least one deployable version.\n\nAim for profession diversity: one Tank, one Warrior, one Mage, and one Support covers most situations. You can specialize later when you know which game modes you enjoy most."
     },
     {
-      "heading": "Understanding Hero Stats",
-      "content": "Every hero has HP, ATK, DEF, Attack Speed, Move Speed, and Attack Range. These stats scale per level (1-12). HP determines survivability — essential for front-line Tanks. ATK drives damage output, critical for Assassins, Mages, and Rangers. DEF reduces incoming damage. Move Speed affects positioning speed, while Attack Range determines how far a unit can strike. Always compare stats-per-cost when deciding between two heroes for a slot."
+      "heading": "Common Mistakes New Players Make",
+      "content": "1. Spending gems on speed-ups and shop resources. Just wait.\n2. Investing Forge Stones in every hero they own. Focus on 3-5 core units.\n3. Merging away the last copy of a hero they use. Always keep one.\n4. Chasing Limited Banners before building roster depth. Build first, specialize later.\n5. Ignoring the Command Center. Upgrade it whenever possible — passive income matters.\n6. Using Wood Shield Guard. Seriously, don't. It's a single-unit common with terrible stats."
     }
   ],
-  "preview": "Your first 60 levels set the foundation for everything. Focus on completing campaign stages to unlock game modes. Spend your initial gems on permanent summon scrolls rather than rushing limited banner...",
+  "preview": "Play through campaign to unlock all modes first. Spend your gems on Permanent Summon scrolls until you have a solid roster. Upgrade your Command Center for passive income. Never waste gems on speed-up...",
   "related_heroes": [
     {
       "name": "Archer",
@@ -47,7 +51,7 @@
       "slug": "camp"
     }
   ],
-  "word_count": 363,
+  "word_count": 580,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -56,7 +60,7 @@
     "datePublished": "2026-01-15",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

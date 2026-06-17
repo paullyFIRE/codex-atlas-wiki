@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Tidal Drake a good hero in War Inc: Rising?",
+        "name": "Is Tidal Drake good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tidal Drake is a Common Tank unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Tidal Drake is a common tank with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Tidal Drake?",
+        "name": "What does Tidal Drake do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tidal Drake is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Tidal Drake is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Tidal Drake in War Inc: Rising?",
+        "name": "How much does Tidal Drake cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tidal Drake costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Tidal Drake costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Tidal Drake is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Tidal Drake in choke points to maximize their tanking potential."
+    "Need a reliable frontline? Tidal Drake soaks up damage with high HP and DEF so your damage dealers can work safely."
   ],
   "image": null
 }

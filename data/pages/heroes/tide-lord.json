@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Tide Lord a good hero in War Inc: Rising?",
+        "name": "Is Tide Lord good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tide Lord is a Mythic Tank unit with a cost of 10 and combat power of 463. It performs well in the right team composition."
+          "text": "Yes — Tide Lord is a mythic tank with a cost of 10 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Tide Lord?",
+        "name": "What does Tide Lord do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tide Lord is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Tide Lord is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Tide Lord in War Inc: Rising?",
+        "name": "How much does Tide Lord cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tide Lord costs 10 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Tide Lord costs 10 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -340,7 +340,7 @@
         "name": "How to get Tide Lord in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tide Lord is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Tide Lord is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -369,9 +369,8 @@
     ]
   },
   "strategy_tips": [
-    "Tide Lord is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Tide Lord in choke points to maximize their tanking potential.",
-    "High cost (10) means Tide Lord should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Tide Lord is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (10) means timing matters — deploy Tide Lord when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/845.png"
 }

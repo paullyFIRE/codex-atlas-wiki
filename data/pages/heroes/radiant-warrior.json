@@ -346,26 +346,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Radiant Warrior a good hero in War Inc: Rising?",
+        "name": "Is Radiant Warrior good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Radiant Warrior is a Mythic Special unit with a cost of 8 and combat power of 449. It performs well in the right team composition."
+          "text": "Yes — Radiant Warrior is a mythic special with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Radiant Warrior?",
+        "name": "What does Radiant Warrior do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Radiant Warrior is a Special unit best suited for providing unique utility to the team."
+          "text": "Radiant Warrior is a special unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Radiant Warrior in War Inc: Rising?",
+        "name": "How much does Radiant Warrior cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Radiant Warrior costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Radiant Warrior costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -373,7 +373,7 @@
         "name": "How to get Radiant Warrior in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Radiant Warrior is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Radiant Warrior is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -402,8 +402,8 @@
     ]
   },
   "strategy_tips": [
-    "Radiant Warrior has unique abilities that can turn the tide of battle when used correctly.",
-    "High cost (8) means Radiant Warrior should be deployed strategically when the timing is right."
+    "Need a wildcard? Radiant Warrior has unique abilities that can swing a fight when used at the right moment.",
+    "High cost (8) means timing matters — deploy Radiant Warrior when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/762.png"
 }

@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Frost Cannon a good hero in War Inc: Rising?",
+        "name": "Is Frost Cannon good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Cannon is a Rare Warrior unit with a cost of 0 and combat power of 575. It is an excellent unit for most game modes."
+          "text": "Yes — Frost Cannon is a rare warrior with a cost of 0 and impressive combat power. They excel in most game modes and team compositions."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Frost Cannon?",
+        "name": "What does Frost Cannon do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Cannon is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Frost Cannon is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Frost Cannon in War Inc: Rising?",
+        "name": "How much does Frost Cannon cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frost Cannon costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Frost Cannon costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Frost Cannon is a balanced melee unit, effective in both offense and defense.",
-    "Use Frost Cannon in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Frost Cannon balances offense and defense, making them flexible in any formation."
   ],
   "image": null,
   "upgrade_table": [

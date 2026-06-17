@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Necromancer a good hero in War Inc: Rising?",
+        "name": "Is Necromancer good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Necromancer is a Mythic Tank unit with a cost of 8 and combat power of 378. It performs well in the right team composition."
+          "text": "Yes — Necromancer is a mythic tank with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Necromancer?",
+        "name": "What does Necromancer do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Necromancer is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Necromancer is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Necromancer in War Inc: Rising?",
+        "name": "How much does Necromancer cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Necromancer costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Necromancer costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Necromancer in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Necromancer is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Necromancer is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Necromancer is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Necromancer in choke points to maximize their tanking potential.",
-    "High cost (8) means Necromancer should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Necromancer is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (8) means timing matters — deploy Necromancer when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

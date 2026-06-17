@@ -5,30 +5,34 @@
   "meta_description": "Master the four battle formations in War Inc: Rising: Dash, Backstab, Outflank, and Split. Learn when to use each formation and how to counter common strategies.",
   "type": "blog",
   "date": "2026-03-10",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "Why Formation Matters",
-      "content": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's effectiveness regardless of hero quality. Understanding formations is the single biggest skill gap between intermediate and advanced players."
+      "heading": "The Short Version",
+      "content": "Your formation determines which enemies your units target first, how they move across the battlefield, and whether they survive the first engagement. It's the single biggest skill gap between intermediate and advanced players.\n\nThere are four formations: Dash (standard), Backstab (aggressive), Outflank (tactical), and Split (defensive). Each counters one other formation and loses to another. The key is scouting your opponent before the match and picking the right counter."
     },
     {
       "heading": "Dash Formation — The Standard",
-      "content": "Dash is the default formation — your leftmost units engage the enemy's front line directly. Your A1 attacks F1, A2 attacks F2, and so on. This formation maximizes the effectiveness of aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. Strong against: nothing in particular. Weak against: Backstab formations that bypass your frontline to hit damage dealers."
+      "content": "Dash is the default formation. Your leftmost units engage the enemy's front line directly — A1 attacks F1, A2 attacks F2, and so on.\n\nThis formation maximizes aura abilities and unit synergies. Frontline Tanks cover the most area, and support units sit safely behind. It's the safest choice when you don't know what your opponent is using.\n\nStrong against: Nothing in particular. It's the neutral option.\nWeak against: Backstab formations that bypass your frontline to hit damage dealers."
     },
     {
       "heading": "Backstab Formation — The Aggressor",
-      "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation. Use it with Bomber units that self-destruct for massive AoE damage. Optimal Bomber placement targets B2-B3 and B5-B6 positions for maximum coverage. Strong against Dash formations. Weak against Split formations that split your forces."
+      "content": "Backstab sends units directly to the enemy's back line, targeting their damage dealers first. This is the most potent offensive formation.\n\nUse it with Bomber units that self-destruct for massive AoE damage. Place Bombers to target positions B2-B3 and B5-B6 for maximum coverage.\n\nStrong against: Dash formations that rely on a tank wall.\nWeak against: Split formations that spread your backstab force into two ineffective groups."
     },
     {
       "heading": "Outflank Formation — The Tactician's Choice",
-      "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks, drawing aggro while your main force advances through the center. This formation is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Strong against Frost Queen-centric teams. Weak against Split formations that split your flanking forces."
+      "content": "Outflank sends 10 edge units (columns 1 and 7) into the enemy's flanks. They draw aggro while your main force advances through the center.\n\nThis is the best counter to Frost Queen, whose AoE is most dangerous against tightly-packed formations. Spreading out forces her to choose which group to target.\n\nStrong against: Frost Queen-centric teams.\nWeak against: Split formations that split your flanking forces into isolated groups."
     },
     {
       "heading": "Split Formation — The Defensive Master",
-      "content": "Split shifts left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts. This is the hardest formation to predict and the best defensive setup. It counters Backstab formations by splitting the enemy's backstab into two ineffective groups. Strong against Backstab. Weak against Dash, which engages each half of your split force individually."
+      "content": "Split shifts your left units 3 spaces left and right units 2 spaces right, creating two separate battle fronts.\n\nThis is the hardest formation to predict and the best defensive setup. It counters Backstab by splitting the backstab into two ineffective groups.\n\nStrong against: Backstab.\nWeak against: Dash, which engages each half of your split force individually."
+    },
+    {
+      "heading": "How to Counter Each Formation",
+      "content": "Here's the counter wheel at a glance:\n\n- See Dash coming? Use Backstab to hit their backline.\n- See Backstab coming? Use Split to neutralize it.\n- See Split coming? Use Dash to engage each half 1v1.\n- See Outflank? Split works well here too.\n\nScouting is everything. If you can identify your opponent's formation before the match starts, you can pick the counter and win before the first unit deploys."
     }
   ],
-  "preview": "Your formation determines where each unit deploys on the battlefield, which enemy they target first, and how they respond to the enemy's formation. A well-chosen formation can multiply your team's eff...",
+  "preview": "Your formation determines which enemies your units target first, how they move across the battlefield, and whether they survive the first engagement. It's the single biggest skill gap between intermed...",
   "related_heroes": [
     {
       "name": "Bomber",
@@ -39,7 +43,7 @@
       "slug": "frost-queen"
     }
   ],
-  "word_count": 280,
+  "word_count": 408,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -48,7 +52,7 @@
     "datePublished": "2026-03-10",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

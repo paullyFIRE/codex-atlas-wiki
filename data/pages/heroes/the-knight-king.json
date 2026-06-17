@@ -346,26 +346,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is The Knight King a good hero in War Inc: Rising?",
+        "name": "Is The Knight King good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Knight King is a Mythic Special unit with a cost of 8 and combat power of 420. It performs well in the right team composition."
+          "text": "Yes — The Knight King is a mythic special with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for The Knight King?",
+        "name": "What does The Knight King do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Knight King is a Special unit best suited for providing unique utility to the team."
+          "text": "The Knight King is a special unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of The Knight King in War Inc: Rising?",
+        "name": "How much does The Knight King cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Knight King costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "The Knight King costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -373,7 +373,7 @@
         "name": "How to get The Knight King in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Knight King is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "The Knight King is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -402,8 +402,8 @@
     ]
   },
   "strategy_tips": [
-    "The Knight King has unique abilities that can turn the tide of battle when used correctly.",
-    "High cost (8) means The Knight King should be deployed strategically when the timing is right."
+    "Need a wildcard? The Knight King has unique abilities that can swing a fight when used at the right moment.",
+    "High cost (8) means timing matters — deploy The Knight King when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/749.png"
 }

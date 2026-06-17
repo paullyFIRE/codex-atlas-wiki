@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Elven Archer a good hero in War Inc: Rising?",
+        "name": "Is Elven Archer good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Elven Archer is a Legendary Warrior unit with a cost of 6 and combat power of 286. It performs well in the right team composition."
+          "text": "Yes — Elven Archer is a legendary warrior with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Elven Archer?",
+        "name": "What does Elven Archer do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Elven Archer is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Elven Archer is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Elven Archer in War Inc: Rising?",
+        "name": "How much does Elven Archer cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Elven Archer costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Elven Archer costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Elven Archer in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Elven Archer is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Elven Archer is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Elven Archer is a balanced melee unit, effective in both offense and defense.",
-    "Use Elven Archer in the front line to deal consistent damage while holding position.",
-    "High cost (6) means Elven Archer should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Elven Archer balances offense and defense, making them flexible in any formation.",
+    "High cost (6) means timing matters — deploy Elven Archer when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

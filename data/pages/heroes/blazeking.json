@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Blazeking a good hero in War Inc: Rising?",
+        "name": "Is Blazeking good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazeking is a Mythic Tank unit with a cost of 10 and combat power of 463. It performs well in the right team composition."
+          "text": "Yes — Blazeking is a mythic tank with a cost of 10 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Blazeking?",
+        "name": "What does Blazeking do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazeking is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Blazeking is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Blazeking in War Inc: Rising?",
+        "name": "How much does Blazeking cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazeking costs 10 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Blazeking costs 10 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -340,7 +340,7 @@
         "name": "How to get Blazeking in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Blazeking is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Blazeking is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -369,9 +369,8 @@
     ]
   },
   "strategy_tips": [
-    "Blazeking is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Blazeking in choke points to maximize their tanking potential.",
-    "High cost (10) means Blazeking should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Blazeking is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (10) means timing matters — deploy Blazeking when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/846.png"
 }

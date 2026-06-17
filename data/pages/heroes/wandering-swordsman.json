@@ -341,26 +341,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Wandering Swordsman a good hero in War Inc: Rising?",
+        "name": "Is Wandering Swordsman good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wandering Swordsman is a Mythic Assassin unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Wandering Swordsman is a mythic assassin with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Wandering Swordsman?",
+        "name": "What does Wandering Swordsman do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wandering Swordsman is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Wandering Swordsman is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Wandering Swordsman in War Inc: Rising?",
+        "name": "How much does Wandering Swordsman cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wandering Swordsman costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Wandering Swordsman costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -368,7 +368,7 @@
         "name": "How to get Wandering Swordsman in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wandering Swordsman is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Wandering Swordsman is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -397,9 +397,8 @@
     ]
   },
   "strategy_tips": [
-    "Wandering Swordsman excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Wandering Swordsman behind tanks to protect them while they deal damage.",
-    "High cost (8) means Wandering Swordsman should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Wandering Swordsman focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (8) means timing matters — deploy Wandering Swordsman when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

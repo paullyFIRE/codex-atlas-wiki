@@ -410,26 +410,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Melody Weaver a good hero in War Inc: Rising?",
+        "name": "Is Melody Weaver good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Melody Weaver is a Mythic Mage unit with a cost of 8 and combat power of 390. It performs well in the right team composition."
+          "text": "Yes — Melody Weaver is a mythic mage with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Melody Weaver?",
+        "name": "What does Melody Weaver do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Melody Weaver is a Mage unit best suited for dealing area magic damage from a safe position."
+          "text": "Melody Weaver is a mage unit. They deal area magic damage from a safe position — great against grouped enemies."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Melody Weaver in War Inc: Rising?",
+        "name": "How much does Melody Weaver cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Melody Weaver costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Melody Weaver costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -437,7 +437,7 @@
         "name": "How to get Melody Weaver in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Melody Weaver is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Melody Weaver is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -466,9 +466,8 @@
     ]
   },
   "strategy_tips": [
-    "Melody Weaver deals area magic damage, effective against groups of enemies.",
-    "Protect Melody Weaver with front-line tanks to maximize their damage output.",
-    "High cost (8) means Melody Weaver should be deployed strategically when the timing is right."
+    "Need to clear groups of enemies? Melody Weaver deals area magic damage that shreds clustered units. Keep them protected behind your frontline.",
+    "High cost (8) means timing matters — deploy Melody Weaver when they can make an immediate impact rather than rushing them out."
   ],
   "image": "/images/heroes/736.png"
 }

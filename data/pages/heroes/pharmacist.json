@@ -405,26 +405,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Pharmacist a good hero in War Inc: Rising?",
+        "name": "Is Pharmacist good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pharmacist is a Mythic Tank unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Pharmacist is a mythic tank with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Pharmacist?",
+        "name": "What does Pharmacist do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pharmacist is a Tank unit best suited for tanking and absorbing damage on the front line."
+          "text": "Pharmacist is a tank unit. Put them on the frontline to absorb damage and protect your team."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Pharmacist in War Inc: Rising?",
+        "name": "How much does Pharmacist cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pharmacist costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Pharmacist costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -432,7 +432,7 @@
         "name": "How to get Pharmacist in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pharmacist is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Pharmacist is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -461,9 +461,8 @@
     ]
   },
   "strategy_tips": [
-    "Pharmacist is a durable front-line unit with high HP and DEF, ideal for absorbing damage.",
-    "Position Pharmacist in choke points to maximize their tanking potential.",
-    "High cost (8) means Pharmacist should be deployed strategically when the timing is right."
+    "Need someone to absorb big hits? Pharmacist is your wall — high HP and DEF for holding the line against heavy attackers.",
+    "High cost (8) means timing matters — deploy Pharmacist when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

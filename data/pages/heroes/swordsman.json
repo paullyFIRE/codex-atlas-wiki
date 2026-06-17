@@ -346,26 +346,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Swordsman a good hero in War Inc: Rising?",
+        "name": "Is Swordsman good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Swordsman is a Common Assassin unit with a cost of 2 and combat power of 109. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Swordsman is a common assassin with a cost of 2 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Swordsman?",
+        "name": "What does Swordsman do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Swordsman is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Swordsman is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Swordsman in War Inc: Rising?",
+        "name": "How much does Swordsman cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Swordsman costs 2 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Swordsman costs 2 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -394,9 +394,8 @@
     ]
   },
   "strategy_tips": [
-    "Swordsman excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Swordsman behind tanks to protect them while they deal damage.",
-    "Low cost (2) makes Swordsman easy to deploy early in battle."
+    "Need to delete a specific enemy fast? Swordsman focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "Low deployment cost (2) means you can drop Swordsman early to start building pressure fast."
   ],
   "image": null,
   "video_guides": [

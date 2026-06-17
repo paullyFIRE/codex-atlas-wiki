@@ -377,26 +377,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Steam Robot a good hero in War Inc: Rising?",
+        "name": "Is Steam Robot good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Steam Robot is a Mythic Support unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Steam Robot is a mythic support with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Steam Robot?",
+        "name": "What does Steam Robot do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Steam Robot is a Support unit best suited for healing and buffing allied units."
+          "text": "Steam Robot is a support unit. They heal and buff your team, keeping everyone alive longer."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Steam Robot in War Inc: Rising?",
+        "name": "How much does Steam Robot cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Steam Robot costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Steam Robot costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -404,7 +404,7 @@
         "name": "How to get Steam Robot in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Steam Robot is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Steam Robot is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -433,9 +433,8 @@
     ]
   },
   "strategy_tips": [
-    "Steam Robot provides healing and buffs to allied units, extending their survivability.",
-    "Keep Steam Robot behind the front line to ensure they survive and support the team.",
-    "High cost (8) means Steam Robot should be deployed strategically when the timing is right."
+    "Need your team to survive longer? Steam Robot heals and buffs nearby allies, keeping your key units in the fight.",
+    "High cost (8) means timing matters — deploy Steam Robot when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

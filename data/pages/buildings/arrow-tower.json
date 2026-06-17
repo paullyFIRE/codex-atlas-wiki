@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Arrow Tower a good hero in War Inc: Rising?",
+        "name": "Is Arrow Tower good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Arrow Tower is a Rare Warrior unit with a cost of 0 and combat power of 379. It performs well in the right team composition."
+          "text": "Yes — Arrow Tower is a rare warrior with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Arrow Tower?",
+        "name": "What does Arrow Tower do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Arrow Tower is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Arrow Tower is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Arrow Tower in War Inc: Rising?",
+        "name": "How much does Arrow Tower cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Arrow Tower costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Arrow Tower costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Arrow Tower is a balanced melee unit, effective in both offense and defense.",
-    "Use Arrow Tower in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Arrow Tower balances offense and defense, making them flexible in any formation."
   ],
   "image": null
 }

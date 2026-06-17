@@ -308,26 +308,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Command Center a good hero in War Inc: Rising?",
+        "name": "Is Command Center good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Command Center is a Rare Ranger unit with a cost of 0 and combat power of 500. It performs well in the right team composition."
+          "text": "Yes — Command Center is a rare ranger with a cost of 0 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Command Center?",
+        "name": "What does Command Center do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Command Center is a Ranger unit best suited for ranged physical damage from the back line."
+          "text": "Command Center is a ranger unit. They attack from range, dealing physical damage safely."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Command Center in War Inc: Rising?",
+        "name": "How much does Command Center cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Command Center costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Command Center costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -356,8 +356,7 @@
     ]
   },
   "strategy_tips": [
-    "Command Center attacks from range, dealing physical damage from a safe distance.",
-    "Position Command Center on high ground or behind walls for maximum effectiveness."
+    "Need safe ranged damage? Command Center attacks from distance, dealing physical damage without risking direct engagement."
   ],
   "image": null,
   "upgrade_table": [

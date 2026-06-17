@@ -346,26 +346,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Dark Knight a good hero in War Inc: Rising?",
+        "name": "Is Dark Knight good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dark Knight is a Mythic Special unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Dark Knight is a mythic special with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Dark Knight?",
+        "name": "What does Dark Knight do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dark Knight is a Special unit best suited for providing unique utility to the team."
+          "text": "Dark Knight is a special unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Dark Knight in War Inc: Rising?",
+        "name": "How much does Dark Knight cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dark Knight costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Dark Knight costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -373,7 +373,7 @@
         "name": "How to get Dark Knight in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dark Knight is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Dark Knight is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -402,8 +402,8 @@
     ]
   },
   "strategy_tips": [
-    "Dark Knight has unique abilities that can turn the tide of battle when used correctly.",
-    "High cost (8) means Dark Knight should be deployed strategically when the timing is right."
+    "Need a wildcard? Dark Knight has unique abilities that can swing a fight when used at the right moment.",
+    "High cost (8) means timing matters — deploy Dark Knight when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

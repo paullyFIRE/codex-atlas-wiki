@@ -341,26 +341,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Weakened One a good hero in War Inc: Rising?",
+        "name": "Is Weakened One good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weakened One is a Mythic Assassin unit with a cost of 8 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Weakened One is a mythic assassin with a cost of 8 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Weakened One?",
+        "name": "What does Weakened One do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weakened One is a Assassin unit best suited for bursting down high-priority targets."
+          "text": "Weakened One is a assassin unit. They burst down high-priority targets like enemy mages and marksmen."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Weakened One in War Inc: Rising?",
+        "name": "How much does Weakened One cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weakened One costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Weakened One costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -368,7 +368,7 @@
         "name": "How to get Weakened One in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weakened One is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Weakened One is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -397,9 +397,8 @@
     ]
   },
   "strategy_tips": [
-    "Weakened One excels at single-target burst damage, making them ideal for eliminating key threats.",
-    "Deploy Weakened One behind tanks to protect them while they deal damage.",
-    "High cost (8) means Weakened One should be deployed strategically when the timing is right."
+    "Need to delete a specific enemy fast? Weakened One focuses on single-target burst damage — great for taking out enemy backline carries.",
+    "High cost (8) means timing matters — deploy Weakened One when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

@@ -187,26 +187,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Statue a good hero in War Inc: Rising?",
+        "name": "Is Statue good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Statue is a Unknown Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Statue is a unknown unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Statue?",
+        "name": "What does Statue do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Statue is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Statue is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Statue in War Inc: Rising?",
+        "name": "How much does Statue cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Statue costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Statue costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -235,7 +235,7 @@
     ]
   },
   "strategy_tips": [
-    "Statue can be effective in various battle situations depending on team composition."
+    "Statue fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }

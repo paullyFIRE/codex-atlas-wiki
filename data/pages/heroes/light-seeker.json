@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Light Seeker a good hero in War Inc: Rising?",
+        "name": "Is Light Seeker good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Light Seeker is a Mythic Warrior unit with a cost of 8 and combat power of 407. It performs well in the right team composition."
+          "text": "Yes — Light Seeker is a mythic warrior with a cost of 8 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Light Seeker?",
+        "name": "What does Light Seeker do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Light Seeker is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Light Seeker is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Light Seeker in War Inc: Rising?",
+        "name": "How much does Light Seeker cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Light Seeker costs 8 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Light Seeker costs 8 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -340,7 +340,7 @@
         "name": "How to get Light Seeker in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Light Seeker is a Mythic rarity unit. You can obtain them through the summoning system, events, and special banners. Save gems for limited summon events for the best chance."
+          "text": "Light Seeker is a mythic rarity unit. You can get them through summoning, events, and special banners. Save gems for limited summon events — they offer the best rates for Mythic heroes."
         }
       }
     ]
@@ -369,9 +369,8 @@
     ]
   },
   "strategy_tips": [
-    "Light Seeker is a balanced melee unit, effective in both offense and defense.",
-    "Use Light Seeker in the front line to deal consistent damage while holding position.",
-    "High cost (8) means Light Seeker should be deployed strategically when the timing is right."
+    "Need a melee unit that can both deal damage and take hits? Light Seeker balances offense and defense, making them flexible in any formation.",
+    "High cost (8) means timing matters — deploy Light Seeker when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

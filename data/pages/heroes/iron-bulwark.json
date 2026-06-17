@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Iron Bulwark a good hero in War Inc: Rising?",
+        "name": "Is Iron Bulwark good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Iron Bulwark is a Legendary Special unit with a cost of 6 and combat power of 341. It performs well in the right team composition."
+          "text": "Yes — Iron Bulwark is a legendary special with a cost of 6 and solid combat power. They perform well in the right setup."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Iron Bulwark?",
+        "name": "What does Iron Bulwark do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Iron Bulwark is a Special unit best suited for providing unique utility to the team."
+          "text": "Iron Bulwark is a special unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Iron Bulwark in War Inc: Rising?",
+        "name": "How much does Iron Bulwark cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Iron Bulwark costs 6 Elixir to deploy. This means they are a high-cost unit that should be deployed strategically."
+          "text": "Iron Bulwark costs 6 Elixir. That's expensive — deploy them when the timing is right for maximum impact."
         }
       },
       {
@@ -340,7 +340,7 @@
         "name": "How to get Iron Bulwark in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Iron Bulwark is a Legendary rarity unit. You can obtain them through the summoning system, events, and special banners. Permanent summon is a reliable way to add them over time."
+          "text": "Iron Bulwark is a legendary rarity unit. You can get them through summoning, events, and special banners. Permanent summon is reliable for adding Legendary heroes over time."
         }
       }
     ]
@@ -369,8 +369,8 @@
     ]
   },
   "strategy_tips": [
-    "Iron Bulwark has unique abilities that can turn the tide of battle when used correctly.",
-    "High cost (6) means Iron Bulwark should be deployed strategically when the timing is right."
+    "Need a wildcard? Iron Bulwark has unique abilities that can swing a fight when used at the right moment.",
+    "High cost (6) means timing matters — deploy Iron Bulwark when they can make an immediate impact rather than rushing them out."
   ],
   "image": null
 }

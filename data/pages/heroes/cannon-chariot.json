@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Cannon Chariot a good hero in War Inc: Rising?",
+        "name": "Is Cannon Chariot good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon Chariot is a Rare Warrior unit with a cost of 4 and combat power of 133. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Cannon Chariot is a rare warrior with a cost of 4 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Cannon Chariot?",
+        "name": "What does Cannon Chariot do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon Chariot is a Warrior unit best suited for dealing melee damage and holding the front line."
+          "text": "Cannon Chariot is a warrior unit. Use them for melee damage and holding the front line."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Cannon Chariot in War Inc: Rising?",
+        "name": "How much does Cannon Chariot cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cannon Chariot costs 4 Elixir to deploy. This gives them a moderate cost suitable for mid-game deployment."
+          "text": "Cannon Chariot costs 4 Elixir. That's a mid-range cost, fitting well into most team compositions."
         }
       }
     ]
@@ -361,8 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Cannon Chariot is a balanced melee unit, effective in both offense and defense.",
-    "Use Cannon Chariot in the front line to deal consistent damage while holding position."
+    "Need a melee unit that can both deal damage and take hits? Cannon Chariot balances offense and defense, making them flexible in any formation."
   ],
   "image": null
 }

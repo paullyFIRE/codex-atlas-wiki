@@ -313,26 +313,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is Spiked Beetle a good hero in War Inc: Rising?",
+        "name": "Is Spiked Beetle good in War Inc: Rising?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Spiked Beetle is a Common Unknown unit with a cost of 0 and combat power of 0. It is a solid choice for early to mid-game progression."
+          "text": "Yes — Spiked Beetle is a common unknown with a cost of 0 and reasonable combat power. They're a solid choice for early to mid-game progression."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the best role for Spiked Beetle?",
+        "name": "What does Spiked Beetle do best?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Spiked Beetle is a Unknown unit best suited for providing unique utility to the team."
+          "text": "Spiked Beetle is a unknown unit. They bring unique utility that can swing fights in your favor."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the cost of Spiked Beetle in War Inc: Rising?",
+        "name": "How much does Spiked Beetle cost to deploy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Spiked Beetle costs 0 Elixir to deploy. This makes them easy to fit into any team early in battle."
+          "text": "Spiked Beetle costs 0 Elixir. That's cheap — you can deploy them early to build pressure."
         }
       }
     ]
@@ -361,7 +361,7 @@
     ]
   },
   "strategy_tips": [
-    "Spiked Beetle can be effective in various battle situations depending on team composition."
+    "Spiked Beetle fits into various team compositions — experiment to find their best role."
   ],
   "image": null
 }
