@@ -1239,23 +1239,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Arena PvP Guide — Formations, Heroes, and Strategy",
         "meta_description": "Master Arena PvP in War Inc: Rising. Learn the four key formations (Dash, Backstab, Outflank, Split), best heroes for PvP, and advanced strategy tips.",
         "date": "2026-02-01",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Arena PvP Basics",
-                "content": "Arena is War Inc: Rising's main PvP mode where you battle other players in real-time. Matches are won through smart deployment, proper formation, and understanding hero matchups. Your Arena rank determines your seasonal rewards and bragging rights. Climbing the Arena ladder requires adapting your strategy to counter the current meta.",
+                "heading": "The Short Version",
+                "content": "Arena PvP is about picking the right formation and countering your opponent's strategy. The formation wheel is simple: Dash beats Split, Split beats Backstab, Backstab beats Dash. Scout your opponent's formation before the match and pick the counter.\n\nThis guide covers the four formations, the best heroes for Arena, and how to counter common strategies.",
             },
             {
-                "heading": "The Four Key Formations",
-                "content": "Dash Formation is the standard baseline — your A1 attacks enemy F1, and so on. It maximizes aura abilities and unit synergies but is predictable. Backstab Formation sends units to the enemy's back line to devastate their damage dealers — excellent with Bomber units targeting B2-B3 and B5-B6 positions. Outflank Formation sends edge units into enemy lines to draw aggro while your front advances — great for countering Frost Queen. Split Formation shifts units to create two battle fronts — the hardest formation to predict.",
+                "heading": "How Arena Works",
+                "content": "You battle other players in real-time. Your arena rank determines seasonal rewards — higher ranks mean better loot. Climbing requires adapting your strategy to counter whatever the current meta looks like.\n\nMatches are won through three things: smart formation picks, understanding hero matchups, and knowing when to deploy your heavy hitters.",
+            },
+            {
+                "heading": "The Four Formations at a Glance",
+                "content": "If you haven't read the full formation guide yet, here's the quick version:\n\n- Dash: Standard frontal engagement. Aura abilities and synergies work best here. Weak against Backstab.\n- Backstab: Sends units to enemy backline. Destroys damage dealers first. Weak against Split.\n- Outflank: Edge units flank while center advances. Best Frost Queen counter. Weak against Split.\n- Split: Creates two battle fronts. Hardest to predict. Weak against Dash.\n\nThe full formation guide has detailed breakdowns of each.",
             },
             {
                 "heading": "Best Heroes for Arena PvP",
-                "content": "The current Arena meta favors heroes with AoE damage and crowd control. Frost Queen leads the pack with massive area damage. Light Seeker provides holy AoE with healing. Bone Marksman delivers piercing shots from range. Radiant Warrior combines durability with damage. Tide Lord brings water-elemental wave attacks. For support, Starlight Apostle and Melody Weaver provide crucial buffs.",
+                "content": "Arena favors AoE damage and crowd control. Single-target specialists struggle when facing multiple threats.\n\n- Frost Queen: Best Arena hero. Massive ice AoE controls the battlefield. Pair with a frontline tank.\n- Light Seeker: Holy AoE damage plus self-heal. Can solo-carry if leveled enough.\n- Bone Marksman: Picks off enemy backline from range. Best early-investment Mythic.\n- Radiant Warrior: Tank that also deals damage. Shields the whole team at level 6.\n- Tide Lord: Water-elemental wave attacks. Strong against fire teams.\n- Starlight Apostle / Melody Weaver: Crucial support that keeps your carries alive.",
             },
             {
-                "heading": "Countering Common Strategies",
-                "content": "If your opponent uses Backstab formation, counter with Split formation to minimize damage. Against Dash, use Backstab to disrupt their formation. Frost Queen teams are vulnerable to Outflank formation that spreads units wide. Always scout your opponent's formation before the match starts and adjust your deployment accordingly.",
+                "heading": "Countering What You See",
+                "content": "Scouting wins matches. Look at your opponent's formation before the battle starts:\n\n- See a Frost Queen? Run Outflank or Split to spread your units. Tight formations feed her AoE.\n- See Backstab formation? Split neutralizes it by splitting their backstab force.\n- See multiple Tanks? Bring high single-target damage (Bone Marksman, Assassins).\n- See a glass-cannon team? Backstab them before they can fire.\n\nAdapting your formation and hero picks to counter the opponent is what separates good Arena players from great ones.",
             },
         ],
     },
@@ -1295,23 +1299,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Best Team Compositions — Ultimate Synergy Guide",
         "meta_description": "Build the ultimate team in War Inc: Rising. Learn the best hero synergies, team compositions for each game mode, and how to balance cost, rarity, and professions.",
         "date": "2026-02-20",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "The Fundamentals of Team Building",
-                "content": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Pay attention to Elixir cost — a balanced cost curve ensures you can deploy units throughout the match.",
+                "heading": "The Short Version",
+                "content": "A winning team needs three things: a frontline that can take hits, damage dealers to dish it out, and support to keep everyone alive. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Balance your Elixir costs so you can deploy units throughout the match.\n\nHere's how to think about team building — from the basics of cost brackets to mode-specific lineups.",
+            },
+            {
+                "heading": "Team Building Fundamentals",
+                "content": "Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain.\n\nThe common mistake is stacking all your favorite heroes without considering role balance. Five Mages might sound fun but they'll melt without a frontline. One Tank with no healing will eventually fall.\n\nThink about your team as layers: frontline holds, damage dealers work from safety, support keeps everyone functional.",
             },
             {
                 "heading": "Cost-Bracket Strategies",
-                "content": "Low-cost teams (0-2 Elixir) rely on numbers and quick deployment. They excel at overwhelming opponents with swarms but lack the punch to take down high-HP targets. Mid-cost teams (3-4 Elixir) offer the best balance of value and power — most competitive teams fall here. High-cost teams (5+ Elixir) are powerful but slow to deploy; use them when you can protect them long enough to reach the battlefield.",
+                "content": "Your team's cost curve determines how the match plays out:\n\n- Low-cost (0-2 Elixir): Numbers game. Deploy fast, overwhelm with swarms. Weak against high-HP targets. Best for early aggression.\n- Mid-cost (3-4 Elixir): Sweet spot. Good value per Elixir. Most competitive teams live here because you get power without waiting too long.\n- High-cost (5+ Elixir): Powerful but slow. You need to survive the early game before these hit the field. Best with a low-cost opener to buy time.\n\nMix costs across your team. A curve full of high-cost units will lose before they deploy. A curve full of low-cost units will stall against late-game power.",
             },
             {
-                "heading": "Profession Synergies",
-                "content": "Tank + Mage combinations create a classic wall-and-spray formation. Warrior + Support pairs provide sustained frontline pressure. Assassin + Ranger combinations offer focused backline elimination. The key is ensuring your damage dealers match the enemy's vulnerabilities while your frontline holds position.",
+                "heading": "Profession Synergies That Work",
+                "content": "Some profession combos just click:\n\n- Tank + Mage: Classic wall-and-spray. Tank holds, mage AoEs from behind.\n- Warrior + Support: Sustained frontline pressure. The Warrior stays alive longer with healing.\n- Assassin + Ranger: Focused backline elimination. Assassins jump priority targets, Rangers clean up.\n- Multiple Assassins: Synergy bonuses boost burst damage, making them even more lethal.\n\nAim to activate 2-3 synergy bonuses rather than spreading thin across all types. A focused synergy strategy outperforms a spread-out one.",
             },
             {
-                "heading": "Mode-Specific Team Building",
-                "content": "For General Lineup, balance is key — aim for one hero from each profession. For Ace Showdown, prioritize high-burst heroes and Assassins. For Co-Op, focus on sustainability and AoE damage. For Hunting mode, single-target damage dealers shine. Always check the mode rules before building your team.",
+                "heading": "Building for Each Game Mode",
+                "content": "Different modes need different approaches:\n\n- General Lineup: Balance — one hero from each profession covers most situations.\n- Ace Showdown: High burst and Assassins. Fast fights favor quick kills.\n- Co-Op: Sustainability and AoE damage. You're in for the long haul.\n- Hunting: Single-target damage dealers. Focused fire beats AoE against bosses.\n\nAlways check the mode rules before locking in your team. Some modes restrict certain unit types or change how formations work.",
             },
         ],
     },
@@ -1385,23 +1393,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Progression Guide — Leveling Fast to Endgame",
         "meta_description": "Complete progression guide for War Inc: Rising. From level 1 to endgame — campaign tips, building upgrades, hero merging, and when to transition between phases.",
         "date": "2026-03-20",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Early Game (Levels 1-30): Learning the Basics",
-                "content": "Focus on completing the campaign to unlock all game modes. Build a core team of 5-7 heroes using primarily Common and Rare units. Upgrade your Command Center to level 5 for passive income. Complete daily missions for gems and resources. Don't worry about optimizing yet — experiment with different heroes to understand their roles.",
+                "heading": "The Short Version",
+                "content": "Progress through four main phases: Early (1-30), Mid (31-60), Late (61-90), and Endgame (90+). Early is about clearing campaign and unlocking modes. Mid is building your roster and joining a clan. Late is optimizing buildings and professions. Endgame is min-maxing Mythic lineups.\n\nHere's what to focus on at each stage so you don't waste time or resources.",
+            },
+            {
+                "heading": "Early Game (Levels 1-30): Just Play the Game",
+                "content": "Don't overthink this phase. Your goal is simple: clear campaign stages to unlock all game modes. Build a core team of 5-7 heroes using whatever Commons and Rares you have. Upgrade your Command Center to level 5 for passive income. Do your daily missions for gems and resources.\n\nThe biggest mistake new players make at this stage is worrying about optimization. Just experiment with different heroes, learn what they do, and push campaign.",
             },
             {
                 "heading": "Mid Game (Levels 31-60): Building Your Roster",
-                "content": "Start replacing Common heroes with Rare and Epic units. Unlock buildings — Sawmill for wood, Gold Mine for gold. Join a clan to access Clan Wars and Clan Hunt rewards. Focus your Forge Stones on 3-4 core heroes. Begin saving gems for limited summon events. Your team should start having defined roles at this stage.",
+                "content": "Now you start replacing Commons with Rares and Epics. Build the Sawmill for wood and Gold Mine for gold. Join a clan — Clan Wars and Clan Hunt give excellent rewards.\n\nThis is when Forge Stones become important. Focus them on 3-4 core heroes. Start saving gems for limited summon events. Your team should start having defined roles: a Tank up front, damage in the middle, support in back.",
             },
             {
-                "heading": "Late Game (Levels 61-90): Optimization",
-                "content": "Buildings unlock at level 61, providing passive resource income. Focus on Legendary and Mythic heroes for your main team. Max out key buildings before expanding. Join Arena and Co-Op regularly for rewards. This is where profession synergies and formation strategy matter most.",
+                "heading": "Late Game (Levels 61-90): Buildings and Synergies",
+                "content": "Buildings unlock at level 61. They provide passive resource income — don't ignore them. Focus on Legendary and Mythic heroes for your main team. Max out key buildings before expanding to new ones.\n\nThis is where profession synergies and formation strategy start mattering most. Your early-game flexibility narrows into specialized teams for each game mode.",
             },
             {
                 "heading": "Endgame (Level 90+): Min-Maxing",
-                "content": "At endgame, you're optimizing Mythic hero lineups for each game mode. Focus on hero merge levels rather than unlocking new heroes. Save resources for new Mythic releases through limited banners. Coordinate with your clan for top-tier Clan War rankings. The difference between good and great endgame players comes down to formation adjustments and hero timing.",
+                "content": "You're optimizing Mythic lineups for each game mode now. Focus on hero merge levels rather than unlocking every new hero. Save resources for new Mythic releases through limited banners.\n\nThe difference between good and great endgame players comes down to formation adjustments and hero timing. Small optimizations compound. Coordinate with your clan for top-tier Clan War rankings.",
             },
         ],
     },
@@ -1411,23 +1423,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Gem Spending Guide — Best Value and Optimization",
         "meta_description": "Learn the best ways to spend gems in War Inc: Rising. Permanent vs Limited summon, energy refills, event spending, and common gem mistakes to avoid.",
         "date": "2026-04-01",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
+                "heading": "The Short Version",
+                "content": "Gems are the most valuable currency in War Inc: Rising. Spend your first 10,000 on Permanent Summon scrolls for roster depth. Use Permanent Summon for 80% of your gem spending; save 20% for Limited Summon events featuring S+ tier Mythics. Never spend gems on speed-ups, shop resources, or refreshing daily missions.\n\nHere's everything you need to know about spending gems efficiently — from your first week to endgame optimization.",
+            },
+            {
                 "heading": "Your First 10,000 Gems",
-                "content": "Spend your first 10,000 gems on Permanent Summon scrolls to build roster depth. A broad roster gives you flexibility for different game modes and events. Avoid the temptation of limited banners early — get your core team first, then chase specific heroes. Save 500 gems for energy refills during events that offer Mythic shards.",
+                "content": "Spend these on Permanent Summon scrolls. Building a broad roster early gives you flexibility for different game modes and events. Avoid limited banners until you have a core team.\n\nSet aside 500 gems for energy refills during events that offer Mythic shards. Those events are the best early-game use of gems.\n\nThe temptation to chase a shiny Limited Banner hero is real, but a deep roster beats a narrow one every time.",
             },
             {
-                "heading": "Permanent Summon vs Limited Summon",
-                "content": "Permanent Summon is better for consistent long-term value. It guarantees progress toward your next Legendary or Mythic. Limited Summon offers higher rates for specific heroes but resets your pity counter if you don't pull. The optimal strategy: use Permanent Summon for 80% of your gems, save 20% for Limited Summon events featuring top-tier Mythics.",
+                "heading": "Permanent vs Limited Summon",
+                "content": "Permanent Summon: Consistent value. Guarantees progress toward your next Legendary or Mythic through the pity system. Best for building long-term roster depth.\n\nLimited Summon: Higher rates for specific heroes but resets your pity counter if you don't hit the banner. Use this when you need one specific meta-defining hero.\n\nOptimal split: 80% Permanent, 20% Limited. Use Permanent for core progression, Limited only when chasing S+ tier Mythics like Light Seeker or Radiant Warrior.",
             },
             {
-                "heading": "Energy Refills — When and When Not",
-                "content": "Energy refills (50 gems) are worth it during events with Mythic shard rewards, double-drop campaigns, or when farming Forge Stones. Avoid energy refills for normal farming. The daily free energy and event claim rewards are usually sufficient for baseline progression.",
+                "heading": "Energy Refills: When They're Worth It",
+                "content": "Energy refills cost 50 gems. Worth it during:\n- Events with Mythic shard rewards\n- Double-drop campaigns\n- Forge Stone farming sessions\n\nNOT worth it for normal daily farming. The daily free energy and event claim rewards cover baseline needs.\n\nA common mistake is using refills every day just because you have gems. Only refill when the rewards are boosted.",
             },
             {
-                "heading": "Common Gem Mistakes",
-                "content": "Don't spend gems on speeding up building construction — time is free. Don't buy resources (gold, wood) from the shop with gems — they're poor value. Don't refresh daily missions with gems — the return is minimal. Don't spend gems on random hero shards in the shop — targeted summoning is more efficient.",
+                "heading": "What NOT to Spend Gems On",
+                "content": "Here are the traps that waste gems:\n- Building construction speed-ups. Time is free. Just wait.\n- Resources (gold, wood) from the shop. Terrible value per gem.\n- Refreshing daily missions. The return is minimal.\n- Random hero shards in the shop. Targeted summoning is more efficient.\n- Speed-ups of any kind. Patience saves gems.\n\nFollow these rules and your gems will go much further.",
             },
         ],
     },
@@ -1437,23 +1453,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Hunting Mode Guide — Best Heroes and Boss Strategy",
         "meta_description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
         "date": "2026-04-10",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Hunting Mode Overview",
-                "content": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the best sources of Forge Stones and Legendary hero shards — both essential for progression.",
+                "heading": "The Short Version",
+                "content": "Hunting mode is one of the best sources of Forge Stones and Legendary hero shards. You fight bosses one at a time, and each has unique attack patterns and weaknesses. Building a dedicated Hunting team that consistently clears the highest difficulty is one of the best long-term investments you can make.\n\nHere's how to pick the right heroes, understand the rewards, and maximize your daily Hunting runs.",
+            },
+            {
+                "heading": "How Hunting Mode Works",
+                "content": "Each day brings a new boss rotation. Bosses have specific attack patterns, weaknesses, and phases. The mode resets daily, so you fight whoever is available that day.\n\nHunting favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here. You need a frontline Tank to keep the boss busy while your damage dealers work. Support with healing extends your team's survivability.\n\nHigher difficulty levels yield better rewards. The jump from medium to hard is worth the extra effort.",
             },
             {
                 "heading": "Best Heroes for Hunting",
-                "content": "Hunting mode favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here — Ghost Assassin, Bone Marksman, and Mist Archer are top picks. Frontline Tanks are essential to keep the boss occupied while your damage dealers work. Support heroes with healing like Grace Priest extend your team's survivability.",
+                "content": "- Ghost Assassin: Single-target burst. Deletes boss HP bars.\n- Bone Marksman: Piercing shots from range. Prioritize getting this one.\n- Mist Archer: Consistent DPS with stealth. Never stops dealing damage.\n- Necromancer: Skeletons deal massive damage. Needs Goddess of War shielding.\n- Radiant Warrior: Tank that also contributes damage. Shields team from boss AoE.\n- Grace Priest: Healing keeps your team alive through boss phases.\n\nBuild a core Hunting team of 5-7 heroes and stick with it. Switching heroes between runs wastes resources.",
             },
             {
-                "heading": "Hunting Rewards Explained",
-                "content": "Higher difficulty levels in Hunting mode yield better rewards. Forge Stones are a common drop and essential for pushing hero merge levels past 6. Gold and hero shards are also available. Building a dedicated Hunting team that can consistently clear the highest difficulty is one of the best long-term investments in the game.",
+                "heading": "Hunting Rewards — What to Expect",
+                "content": "Higher difficulty means better rewards:\n- Forge Stones: Common drop, essential for pushing merges past level 6.\n- Gold: Always useful.\n- Hero shards: Legendary shards from higher difficulties.\n\nA dedicated Hunting team that clears the hardest difficulty daily will outpace players who ignore this mode. The Forge Stones alone make it worth the effort.",
             },
             {
                 "heading": "Daily Hunting Strategy",
-                "content": "Always complete your daily Hunting runs — even if you can't clear the highest difficulty, the lower-tier rewards still provide value. Study each boss's attack patterns before the fight. Time your hero deployment to avoid the boss's AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage.",
+                "content": "Always complete your daily Hunting runs. Even if you can't clear the highest difficulty, lower-tier rewards still add up over time.\n\nStudy each boss's attack patterns before the fight. Time your hero deployment to avoid AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage.\n\nThe bosses have predictable patterns. Learn them once and you'll clear consistently.",
             },
         ],
     },
@@ -1463,23 +1483,23 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Best Tank Heroes — Complete Tank Tier List 2026",
         "meta_description": "Complete guide to Tank heroes in War Inc: Rising. Rankings for all Tank heroes, best tanks for each game mode, and how to build an unbreakable frontline.",
         "date": "2026-04-20",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
+                "heading": "The Short Version",
+                "content": "Radiant Warrior is the best Tank in the game by a wide margin. Ironguard and Paladin are strong at lower rarities. Scudiero (Common) punches above its cost for early game. A good Tank keeps your damage dealers alive — a great Tank also brings crowd control.\n\nHere's the full Tank ranking with synergies, positioning tips, and which tanks work best for your stage of the game.",
+            },
+            {
                 "heading": "What Makes a Good Tank?",
-                "content": "Tanks are defined by high HP and DEF stats, allowing them to absorb damage while your damage dealers work. The best Tanks also have crowd control abilities — stuns, taunts, or slows that keep enemies locked down. Position your Tank at the front of your formation to maximize their damage absorption. A good Tank can protect your entire team.",
+                "content": "Tanks need high HP and DEF to absorb damage. That's the baseline.\n\nThe best Tanks also have crowd control — stuns, taunts, or slows that keep enemies locked down. A Tank that only stands there and takes hits is fine. A Tank that stuns the enemy backline while your damage dealers work is game-changing.\n\nPosition your Tank at the front of your formation (A1 or A4 are good defaults). Their job is to eat damage so your damage dealers don't have to.",
             },
             {
                 "heading": "Top Tank Heroes Ranked",
-                "content": "The best Tank in War Inc: Rising is Radiant Warrior — a Mythic Tank with excellent HP scaling and holy damage abilities. Ironguard and Paladin provide excellent defensive utility at lower rarities. Woodland Guardian and Pumpkin Guard offer unique taunt mechanics. For early game, Scudiero (Common) is a surprisingly effective budget Tank that punches above its cost.",
+                "content": "- Radiant Warrior (Mythic, S+): Best in class. Excellent HP scaling with holy damage. Level 6 gives +20% elemental resistance to all allies. Use 2-4 in every formation.\n- Ironguard (Legendary): Strong defensive utility. Good bridge between mid and endgame.\n- Paladin (Rare): Multi-unit tank with shields every 10 seconds. Combo with Radiant Warrior.\n- Woodland Guardian (Legendary): Self-healing every 12s (30% HP + 3,000 fixed). Independent sustain.\n- Pumpkin Guard (Epic): Taunt mechanic useful in Infinite War. Surprisingly high damage for a tank.\n- Scudiero (Common): Budget tank that works in early game. Replace as soon as you can.\n\nDon't invest Forge Stones in a Tank below Legendary rarity unless you're early game. The stat scaling on higher-rarity Tanks is worth the wait.",
             },
             {
-                "heading": "Tank Synergies",
-                "content": "Tanks pair best with Support heroes that provide healing — Grace Priest and Melody Weaver extend your Tank's survivability dramatically. Mages behind a Tank can safely deal damage while the Tank holds the line. Some Tanks have self-healing abilities that make them independent — prioritize these in modes where Support slots are limited.",
-            },
-            {
-                "heading": "Tank Positioning Tips",
-                "content": "Place your Tank at position A1, A4, or directly in front of your most vulnerable damage dealer. Against Backstab formations, consider running two Tanks to protect both front and back lines. Level your Tank's DEF stat at least as much as HP — raw HP without DEF melts quickly against high-ATK opponents.",
+                "heading": "Tank Synergies and Positioning",
+                "content": "Tanks need Support heroes with healing to reach their full potential. Grace Priest and Melody Weaver extend your Tank's survivability dramatically.\n\nPositioning tips:\n- Place your main Tank at A1 or A4\n- Against Backstab formations, run two Tanks to protect both front and back lines\n- Level DEF at least as much as HP — raw HP without DEF melts against high-ATK opponents\n- Some Tanks have self-healing (Woodland Guardian) — use these when Support slots are limited\n\nA great Tank with good Support behind them is the foundation of every winning team.",
             },
         ],
     },
@@ -1489,23 +1509,23 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Merge and Evolution Guide — Level Up Your Heroes",
         "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
         "date": "2026-05-01",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
+                "heading": "The Short Version",
+                "content": "Merge levels increase base stats and unlock new skill tiers. Merge 6 is the first major power spike. Merge 12 is max. Focus your Forge Stones on 3-5 core heroes — one level 8 hero is worth more than eight level 5 heroes. Never merge your last deployable copy of a hero you use.\n\nHere's everything about the merge system, Forge Stone economy, and when to push vs when to wait.",
+            },
+            {
                 "heading": "Merge Levels Explained",
-                "content": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant power spike. Merge Level 12 is the maximum and grants the strongest version of every skill. Focus on getting your core team to Merge 6 before spreading resources to backup heroes.",
+                "content": "Each merge level requires copies of the same hero plus Forge Stones (from level 6 onward). The stats increase per level, and certain levels unlock new skill tiers.\n\n- Level 6: First major power spike for most heroes. Skill upgrades unlock.\n- Level 7: Trigger Master passive unlocks. Also gives 100-gem Power Stance achievement.\n- Level 12: Maximum. Strongest version of every skill.\n\nFocus on getting your core team to 6 first before spreading resources to backups.",
             },
             {
-                "heading": "Forge Stones — The Bottleneck Resource",
-                "content": "Forge Stones are required from Merge Level 6 onwards and are the most scarce resource in the game. You can obtain them from Hunting mode rewards, Infinite War, daily chests, and event shops. Never spend Forge Stones on heroes you don't use regularly — they're too valuable. A common mistake is spreading Forge Stones across 10+ heroes instead of focusing on 3-5 core units.",
-            },
-            {
-                "heading": "Evolution Paths and Costs",
-                "content": "Hero evolution uses Forge Stones and Silver Coins. The cost increases with each merge level. Save your Silver Coins for evolution rather than spending on random upgrades. Higher-rarity heroes have higher evolution costs but also higher stat gains per level. Use our evolution calculator tool to plan which hero to upgrade next based on your available resources.",
+                "heading": "Forge Stones: The Real Bottleneck",
+                "content": "Forge Stones are required from Merge 6 onwards. They're the most scarce resource in the game. Here's where to get them:\n- Hunting mode rewards (best consistent source)\n- Infinite War\n- Daily chests\n- Event shops\n\nNever spend Forge Stones on heroes you don't regularly use. The biggest mistake is spreading them across 10+ heroes instead of focusing on 3-5 core units. Pick your team and commit.",
             },
             {
                 "heading": "When to Merge vs When to Wait",
-                "content": "Merging temporarily reduces your roster because you consume copies of the hero. Plan merges between game sessions when you won't need full strength for 12-24 hours. Never merge your last deployable copy of a hero you actively use. Save major merges for after you've completed daily missions and Arena placements.",
+                "content": "Merging consumes copies of the hero, temporarily reducing your roster. Plan accordingly:\n\n- Merge between sessions when you won't need full strength for 12-24 hours\n- Never merge your last deployable copy of a hero you actively use\n- Save major merges for after daily missions and Arena placements\n- Higher-rarity heroes cost more but gain more per level\n\nUse the evolution calculator tool on this site to plan which hero to upgrade next based on your available resources.",
             },
         ],
     },
@@ -1515,23 +1535,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Best Mage Heroes — Complete Mage Tier List 2026",
         "meta_description": "Complete guide to Mage heroes in War Inc: Rising. Rankings for all Mage heroes, best Mages for each game mode, and how to maximize magic damage output.",
         "date": "2026-05-10",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "The Mage Role",
-                "content": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontline protection. Their damage scales exceptionally well with merge levels. Most Mages have elemental attributes (Fire, Water, Wood, Earth) that interact with the game's damage system.",
+                "heading": "The Short Version",
+                "content": "Frost Queen is the best Mage in the game — massive AoE ice damage that controls the battlefield. Storm Maiden and Starlight Apostle are strong alternatives. Mages deal area magic damage from a safe distance but are fragile — they always need a Tank in front of them.\n\nHere's the full Mage ranking with positioning tips, elemental advantages, and how to counter enemy magic.",
             },
             {
-                "heading": "Top Mage Heroes Ranked",
-                "content": "Frost Queen is the premier Mage — her massive AoE ice damage makes her a top-tier pick in Arena and campaign. Storm Maiden and Starlight Apostle provide excellent area control. Blazewing Lord offers aerial mage damage. For lower rarities, Flame Mage and Apprentice Mage provide solid magic DPS. Wind Apostle and Geomancer offer unique utility that complements mage-heavy compositions.",
+                "heading": "What Mages Do",
+                "content": "Mages deal area magic damage from a safe distance. They're your best answer to grouped enemies — one well-placed AoE can wipe a cluster of opposing units.\n\nThe trade-off: Mages are fragile. Low HP and DEF means they die fast if anything reaches them. Never put a Mage in the front row unless you're okay losing them.\n\nMost Mages have elemental attributes — Fire, Water, Wood, Earth. These interact with the damage system for bonus or reduced damage against certain targets.",
             },
             {
-                "heading": "Mage Synergies and Positioning",
-                "content": "Mages need Tanks in front to survive. Position them in the back row (positions G1-G7) for maximum safety. Pair Mages with Support heroes that can heal or shield. Some Mages have self-peel abilities — prioritize these in aggressive formations. In Co-Op mode, Mages with AoE damage can handle wave clearing while your teammate focuses on single-target DPS.",
+                "heading": "Top Mages Ranked",
+                "content": "- Frost Queen (Mythic, S+): Best Mage. Massive ice AoE dominates Arena and campaign. Needs a frontline.\n- Storm Maiden (Mythic): Excellent area control. Solid alternative if you don't have Frost Queen.\n- Starlight Apostle (Mythic): Good damage plus support utility. Strong target for summon events.\n- Blazewing Lord (Mythic): Aerial mage. Unique positioning options.\n- Flame Mage (Epic): Solid DPS with fire element. Excels in Evil Ivy Hunt.\n- Apprentice Mage (Rare): Filler until you get Flame Mage. Don't invest Forge Stones.\n\nMost Mage power comes from merge levels. A low-level Mythic Mage often underperforms compared to a high-level Epic.",
             },
             {
-                "heading": "Mage vs Mage: Countering Enemy Magic",
-                "content": "Elemental advantages matter in mage duels. Water beats Fire, Wood beats Water, Fire beats Wood. Check the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy mage advantages through buffs and healing.",
+                "heading": "Positioning and Synergies",
+                "content": "Mages go in the back row (G1-G7) behind your Tank. Pair with Support heroes for healing. Some Mages have self-peel abilities — prioritize these in aggressive formations.\n\nIn Co-Op mode, Mages with AoE handle wave clearing while your partner focuses on single-target DPS. It's a natural division of labor.",
+            },
+            {
+                "heading": "Elemental Advantages in Mage Duels",
+                "content": "The elemental wheel matters in mage battles:\n- Water beats Fire\n- Wood beats Water\n- Fire beats Wood\n\nCheck the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy advantages through buffs and healing.\n\nElemental advantage won't save a bad matchup, but it can tip a close fight in your favor.",
             },
         ],
     },
@@ -1541,23 +1565,23 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Best Synergies Guide — Max Your Team Bonuses",
         "meta_description": "Complete guide to War Inc: Rising synergies. Learn all 9 synergy effects, how to activate team bonuses, best hero combinations for each synergy, and which synergies dominate the meta.",
         "date": "2026-05-20",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "What Are Synergies?",
-                "content": "Synergies are team-wide bonus effects triggered by fielding heroes with matching attributes. Each synergy provides unique combat bonuses like increased damage, damage reduction, or special effects. Activating multiple synergy tiers requires more heroes of the matching type. Understanding and building around synergies is key to competitive play.",
+                "heading": "The Short Version",
+                "content": "Synergies are team-wide bonuses triggered by fielding heroes with matching attributes. Build to activate 2-3 synergy types rather than spreading thin across all 9. A focused strategy outperforms a spread-out one every time.\n\nHere's what synergies do, which ones matter most, and how to build around them.",
             },
             {
-                "heading": "The 9 Synergy Types",
-                "content": "War Inc: Rising features 9 distinct synergy/lib effects. Each requires specific hero combinations to activate. Some synergies boost raw stats while others grant unique combat mechanics. The most impactful synergies in the current meta are those that boost burst damage and survivability simultaneously.",
+                "heading": "What Synergies Are and Why They Matter",
+                "content": "When you field multiple heroes sharing certain attributes, you unlock synergy bonuses. These can be damage increases, damage reduction, speed boosts, or unique combat mechanics.\n\nMore heroes of the matching type unlocks higher synergy tiers. The bonuses stack, so 3 Assassins is better than 2.\n\nSynergies separate good teams from great ones. Two teams with the same heroes but different synergy activation will perform differently.",
             },
             {
-                "heading": "Building Around Synergies",
-                "content": "Build your team to activate 2-3 synergy bonuses rather than trying to activate all available types. A focused synergy strategy outperforms a spread-out one. For example, pairing multiple Assassins triggers synergy bonuses that boost their burst damage, making them even more lethal. Use the synergy guides on each hero page to plan your team composition.",
+                "heading": "How to Build Around Synergies",
+                "content": "Pick 2-3 synergy types and commit. Trying to activate 5 synergies means none of them are strong enough to matter.\n\nExample: Pairing multiple Assassins triggers burst damage bonuses that make them even more lethal. A team of 4-5 Assassins with synergy active outperforms a mixed team of 5 different professions.\n\nUse the synergy guides on each hero page to check which synergies a hero belongs to before building your team.",
             },
             {
-                "heading": "Meta Synergy Combinations",
-                "content": "The strongest current meta combinations include Water-element teams with Frost Queen and Tide Lord, and Light-element teams with Light Seeker and Radiant Warrior. Profession-based synergies (all Tanks, all Mages) provide reliable bonuses. Experiment with different combinations to find what works best for your playstyle and available heroes.",
+                "heading": "Best Meta Synergy Combinations",
+                "content": "Current meta favorites:\n- Water-element teams: Frost Queen + Tide Lord + other water units. Excellent control and damage.\n- Light-element teams: Light Seeker + Radiant Warrior + support. Great balance of offense and defense.\n- Profession-based: All Tanks or all Mages. Straightforward bonuses that are easy to build around.\n- Assassin stacks: Burst damage focused. Risky but devastating when it works.\n\nExperiment with different combinations. The best synergy setup depends on which heroes you have available.",
             },
         ],
     },
@@ -1567,23 +1591,27 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Infinite War Guide — Survive Endless Mode",
         "meta_description": "Master Infinite War in War Inc: Rising. Learn how to survive endless waves, best heroes for sustained combat, resource management during runs, and when to push deeper.",
         "date": "2026-06-01",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "What is Infinite War?",
-                "content": "Infinite War is an endless wave survival mode where you test how long your team can last against increasingly difficult enemies. It's one of the best sources of Forge Stones and gold. Each wave increases in difficulty, with boss waves appearing every 10 levels. Your record determines your tier rewards.",
+                "heading": "The Short Version",
+                "content": "Infinite War is an endless wave survival mode. Sustainability beats burst damage — heroes with self-healing, shields, or life steal are king. Don't deploy all your heroes at once in early waves. Save your strongest skills for boss waves every 10 levels.\n\nHere's how to build for Infinite War, manage resources during runs, and push your record higher.",
+            },
+            {
+                "heading": "How Infinite War Works",
+                "content": "You fight increasingly difficult waves. Boss waves appear every 10 levels. Your record determines your tier rewards — deeper runs mean better loot.\n\nInfinite War is one of the best sources of Forge Stones and gold. Consistent deep runs will accelerate your progression significantly.\n\nThe challenge: you can't swap heroes mid-run. Your team needs to be self-sufficient for 50+ waves.",
             },
             {
                 "heading": "Best Heroes for Endless Mode",
-                "content": "Infinite War favors sustainability over burst damage. Heroes with self-healing, shields, or life steal excel here. Radiant Warrior and Night Scion can sustain themselves indefinitely with proper support. Necromancer's summoned skeletons provide valuable meat shields. Seraph's resurrection ability can save a run from collapse. Avoid glass-cannon heroes that die to incidental damage.",
+                "content": "- Radiant Warrior: Self-sustaining with shields. Never dies with proper support.\n- Night Scion: Self-healing keeps him alive indefinitely.\n- Necromancer: Skeletons provide valuable meat shields. Needs Goddess of War.\n- Poison Master: Carries early-mid waves. 8-10 at level 6 is transformative.\n- Seraph: Resurrection ability can save a run from collapse.\n- Goddess of War: Shields keep your whole team alive through AoE waves.\n\nAvoid glass-cannon heroes that die to incidental damage. Every death in Infinite War is permanent for that run.",
             },
             {
-                "heading": "Resource Management in Infinite War",
-                "content": "Don't deploy all your heroes at once in early waves — conserve them for later. Learn which waves are safe to auto and which require manual skill timing. Save your strongest skills for boss waves. Energy management between runs matters too — don't exhaust your energy right before daily reset.",
+                "heading": "Resource Management During Runs",
+                "content": "The biggest mistake is over-deploying early. Don't drop all your heroes in the first 10 waves — conserve them for when the difficulty spikes.\n\n- Early waves (1-30): Minimal deployment. Let your core team handle it.\n- Mid waves (31-50): Start adding backup heroes as needed.\n- Late waves (50+): Full deployment. Use everything you have.\n\nSave your strongest skills for boss waves. Timing matters — a well-placed ultimate on a boss wave is worth more than using it on random enemies.\n\nEnergy management between runs matters too. Don't exhaust your energy right before daily reset.",
             },
             {
                 "heading": "Pushing Your Record",
-                "content": "To push beyond your current record, study where your team typically fails and address that weakness. If your Tank dies early, consider a secondary off-tank. If damage falls off, replace your lowest-performing damage dealer. Small optimizations compound over 50+ waves — every hero choice and skill timing matters.",
+                "content": "To push beyond your current record, study where your team fails and fix that:\n\n- Tank dying early? Add a secondary off-tank.\n- Damage falling off? Replace your lowest-performing damage dealer.\n- Getting overwhelmed by AoE? Add Goddess of War or similar shielding.\n\nSmall optimizations compound over 50+ waves. Every hero choice and skill timing matters. Keep tweaking and your record will climb.",
             },
         ],
     },
@@ -1593,19 +1621,23 @@ BLOG_POSTS = [
         "title": "War Inc: Rising Clan Wars Guide — Strategy and Best Heroes",
         "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
         "date": "2026-06-05",
-        "author": "War Inc Wiki Team",
+        "author": "Klown Kollege",
         "sections": [
             {
-                "heading": "Clan Wars Overview",
-                "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans.",
+                "heading": "The Short Version",
+                "content": "Clan Wars are large-scale PvP battles between clans lasting several days. Coordination beats individual power — an active clan with a plan outperforms a stronger but disorganized one every time. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase.\n\nHere's how to coordinate, which heroes to prioritize, and how to maximize your clan's rewards.",
+            },
+            {
+                "heading": "How Clan Wars Work",
+                "content": "Wars last several days with multiple battle phases. You attack enemy clan members to earn points for your clan. The clan with more points at the end wins.\n\nRewards include gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but quiet clans.\n\nKey insight: Individual hero power matters less than coordinated attacks. A coordinated assault from three clan members beats three solo attacks every time.",
             },
             {
                 "heading": "Clan War Battle Strategy",
-                "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively.",
+                "content": "Coordinate with your clanmates:\n\n- Attack in waves. Multiple members attacking together overwhelms enemy defenses.\n- Focus fire on key enemy players rather than spreading attacks across everyone.\n- Save your strongest teams for the final phase when points are doubled.\n- Share enemy formations in clan chat so teammates can counter-pick effectively.\n\nA quiet clan that doesn't communicate will struggle. If your clan chat is dead, find an active one.",
             },
             {
                 "heading": "Best Heroes for Clan Wars",
-                "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase.",
+                "content": "Versatility matters most in Clan Wars because you face different opponents each phase.\n\n- Frost Queen: Excellent on both attack and defense.\n- Light Seeker: Flexible, performs in multiple scenarios.\n- Mist Archer: Reliable backline damage.\n- Tide Lord: Water-elemental wave attacks.\n\nBuild 2-3 strong teams with different strengths. One tank-focused, one burst-focused, one balanced. This gives you options depending on who you're attacking.",
             },
         ],
     },

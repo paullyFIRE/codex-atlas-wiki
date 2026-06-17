@@ -5,22 +5,26 @@
   "meta_description": "Master Clan Wars in War Inc: Rising. Learn clan battle strategy, best heroes for clan war scenarios, coordination tips, and how to maximize clan rewards.",
   "type": "blog",
   "date": "2026-06-05",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "Clan Wars Overview",
-      "content": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you with gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but disorganized clans."
+      "heading": "The Short Version",
+      "content": "Clan Wars are large-scale PvP battles between clans lasting several days. Coordination beats individual power — an active clan with a plan outperforms a stronger but disorganized one every time. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase.\n\nHere's how to coordinate, which heroes to prioritize, and how to maximize your clan's rewards."
+    },
+    {
+      "heading": "How Clan Wars Work",
+      "content": "Wars last several days with multiple battle phases. You attack enemy clan members to earn points for your clan. The clan with more points at the end wins.\n\nRewards include gems, exclusive hero shards, and clan currency for the clan shop. Active clans that communicate consistently outperform more powerful but quiet clans.\n\nKey insight: Individual hero power matters less than coordinated attacks. A coordinated assault from three clan members beats three solo attacks every time."
     },
     {
       "heading": "Clan War Battle Strategy",
-      "content": "Coordinate attack waves with your clanmates to overwhelm enemy defenses. Focus fire on key enemy players rather than spreading attacks. Save your strongest teams for the final phase when points are doubled. Communicate enemy formations in clan chat so teammates can counter-pick effectively."
+      "content": "Coordinate with your clanmates:\n\n- Attack in waves. Multiple members attacking together overwhelms enemy defenses.\n- Focus fire on key enemy players rather than spreading attacks across everyone.\n- Save your strongest teams for the final phase when points are doubled.\n- Share enemy formations in clan chat so teammates can counter-pick effectively.\n\nA quiet clan that doesn't communicate will struggle. If your clan chat is dead, find an active one."
     },
     {
       "heading": "Best Heroes for Clan Wars",
-      "content": "Versatile heroes that perform well in multiple scenarios are most valuable in Clan Wars. Frost Queen and Light Seeker excel across attack and defense. Mist Archer and Tide Lord provide flexible deployment options. Build 2-3 strong teams rather than one super-team so you can launch multiple attacks per war phase."
+      "content": "Versatility matters most in Clan Wars because you face different opponents each phase.\n\n- Frost Queen: Excellent on both attack and defense.\n- Light Seeker: Flexible, performs in multiple scenarios.\n- Mist Archer: Reliable backline damage.\n- Tide Lord: Water-elemental wave attacks.\n\nBuild 2-3 strong teams with different strengths. One tank-focused, one burst-focused, one balanced. This gives you options depending on who you're attacking."
     }
   ],
-  "preview": "Clan Wars are large-scale PvP battles between clans. Each war lasts several days with multiple battle phases. Coordination and strategy matter more than individual hero power. Clan Wars reward you wit...",
+  "preview": "Clan Wars are large-scale PvP battles between clans lasting several days. Coordination beats individual power — an active clan with a plan outperforms a stronger but disorganized one every time. Build...",
   "related_heroes": [
     {
       "name": "Archer",
@@ -43,7 +47,7 @@
       "slug": "light-seeker"
     }
   ],
-  "word_count": 146,
+  "word_count": 272,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -52,7 +56,7 @@
     "datePublished": "2026-06-05",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

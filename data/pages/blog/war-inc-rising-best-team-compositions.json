@@ -5,28 +5,32 @@
   "meta_description": "Build the ultimate team in War Inc: Rising. Learn the best hero synergies, team compositions for each game mode, and how to balance cost, rarity, and professions.",
   "type": "blog",
   "date": "2026-02-20",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "The Fundamentals of Team Building",
-      "content": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Pay attention to Elixir cost — a balanced cost curve ensures you can deploy units throughout the match."
+      "heading": "The Short Version",
+      "content": "A winning team needs three things: a frontline that can take hits, damage dealers to dish it out, and support to keep everyone alive. Mixing professions triggers synergy bonuses that multiply your team's effectiveness. Balance your Elixir costs so you can deploy units throughout the match.\n\nHere's how to think about team building — from the basics of cost brackets to mode-specific lineups."
+    },
+    {
+      "heading": "Team Building Fundamentals",
+      "content": "Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least one Support for sustain.\n\nThe common mistake is stacking all your favorite heroes without considering role balance. Five Mages might sound fun but they'll melt without a frontline. One Tank with no healing will eventually fall.\n\nThink about your team as layers: frontline holds, damage dealers work from safety, support keeps everyone functional."
     },
     {
       "heading": "Cost-Bracket Strategies",
-      "content": "Low-cost teams (0-2 Elixir) rely on numbers and quick deployment. They excel at overwhelming opponents with swarms but lack the punch to take down high-HP targets. Mid-cost teams (3-4 Elixir) offer the best balance of value and power — most competitive teams fall here. High-cost teams (5+ Elixir) are powerful but slow to deploy; use them when you can protect them long enough to reach the battlefield."
+      "content": "Your team's cost curve determines how the match plays out:\n\n- Low-cost (0-2 Elixir): Numbers game. Deploy fast, overwhelm with swarms. Weak against high-HP targets. Best for early aggression.\n- Mid-cost (3-4 Elixir): Sweet spot. Good value per Elixir. Most competitive teams live here because you get power without waiting too long.\n- High-cost (5+ Elixir): Powerful but slow. You need to survive the early game before these hit the field. Best with a low-cost opener to buy time.\n\nMix costs across your team. A curve full of high-cost units will lose before they deploy. A curve full of low-cost units will stall against late-game power."
     },
     {
-      "heading": "Profession Synergies",
-      "content": "Tank + Mage combinations create a classic wall-and-spray formation. Warrior + Support pairs provide sustained frontline pressure. Assassin + Ranger combinations offer focused backline elimination. The key is ensuring your damage dealers match the enemy's vulnerabilities while your frontline holds position."
+      "heading": "Profession Synergies That Work",
+      "content": "Some profession combos just click:\n\n- Tank + Mage: Classic wall-and-spray. Tank holds, mage AoEs from behind.\n- Warrior + Support: Sustained frontline pressure. The Warrior stays alive longer with healing.\n- Assassin + Ranger: Focused backline elimination. Assassins jump priority targets, Rangers clean up.\n- Multiple Assassins: Synergy bonuses boost burst damage, making them even more lethal.\n\nAim to activate 2-3 synergy bonuses rather than spreading thin across all types. A focused synergy strategy outperforms a spread-out one."
     },
     {
-      "heading": "Mode-Specific Team Building",
-      "content": "For General Lineup, balance is key — aim for one hero from each profession. For Ace Showdown, prioritize high-burst heroes and Assassins. For Co-Op, focus on sustainability and AoE damage. For Hunting mode, single-target damage dealers shine. Always check the mode rules before building your team."
+      "heading": "Building for Each Game Mode",
+      "content": "Different modes need different approaches:\n\n- General Lineup: Balance — one hero from each profession covers most situations.\n- Ace Showdown: High burst and Assassins. Fast fights favor quick kills.\n- Co-Op: Sustainability and AoE damage. You're in for the long haul.\n- Hunting: Single-target damage dealers. Focused fire beats AoE against bosses.\n\nAlways check the mode rules before locking in your team. Some modes restrict certain unit types or change how formations work."
     }
   ],
-  "preview": "A winning team composition balances frontline durability, damage output, and support. Every team needs at least one Tank to absorb damage, 2-3 damage dealers (Mage, Assassin, or Ranger), and at least ...",
+  "preview": "A winning team needs three things: a frontline that can take hits, damage dealers to dish it out, and support to keep everyone alive. Mixing professions triggers synergy bonuses that multiply your tea...",
   "related_heroes": [],
-  "word_count": 217,
+  "word_count": 395,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -35,7 +39,7 @@
     "datePublished": "2026-02-20",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

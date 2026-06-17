@@ -5,27 +5,35 @@
   "meta_description": "Complete guide to Mage heroes in War Inc: Rising. Rankings for all Mage heroes, best Mages for each game mode, and how to maximize magic damage output.",
   "type": "blog",
   "date": "2026-05-10",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "The Mage Role",
-      "content": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontline protection. Their damage scales exceptionally well with merge levels. Most Mages have elemental attributes (Fire, Water, Wood, Earth) that interact with the game's damage system."
+      "heading": "The Short Version",
+      "content": "Frost Queen is the best Mage in the game — massive AoE ice damage that controls the battlefield. Storm Maiden and Starlight Apostle are strong alternatives. Mages deal area magic damage from a safe distance but are fragile — they always need a Tank in front of them.\n\nHere's the full Mage ranking with positioning tips, elemental advantages, and how to counter enemy magic."
     },
     {
-      "heading": "Top Mage Heroes Ranked",
-      "content": "Frost Queen is the premier Mage — her massive AoE ice damage makes her a top-tier pick in Arena and campaign. Storm Maiden and Starlight Apostle provide excellent area control. Blazewing Lord offers aerial mage damage. For lower rarities, Flame Mage and Apprentice Mage provide solid magic DPS. Wind Apostle and Geomancer offer unique utility that complements mage-heavy compositions."
+      "heading": "What Mages Do",
+      "content": "Mages deal area magic damage from a safe distance. They're your best answer to grouped enemies — one well-placed AoE can wipe a cluster of opposing units.\n\nThe trade-off: Mages are fragile. Low HP and DEF means they die fast if anything reaches them. Never put a Mage in the front row unless you're okay losing them.\n\nMost Mages have elemental attributes — Fire, Water, Wood, Earth. These interact with the damage system for bonus or reduced damage against certain targets."
     },
     {
-      "heading": "Mage Synergies and Positioning",
-      "content": "Mages need Tanks in front to survive. Position them in the back row (positions G1-G7) for maximum safety. Pair Mages with Support heroes that can heal or shield. Some Mages have self-peel abilities — prioritize these in aggressive formations. In Co-Op mode, Mages with AoE damage can handle wave clearing while your teammate focuses on single-target DPS."
+      "heading": "Top Mages Ranked",
+      "content": "- Frost Queen (Mythic, S+): Best Mage. Massive ice AoE dominates Arena and campaign. Needs a frontline.\n- Storm Maiden (Mythic): Excellent area control. Solid alternative if you don't have Frost Queen.\n- Starlight Apostle (Mythic): Good damage plus support utility. Strong target for summon events.\n- Blazewing Lord (Mythic): Aerial mage. Unique positioning options.\n- Flame Mage (Epic): Solid DPS with fire element. Excels in Evil Ivy Hunt.\n- Apprentice Mage (Rare): Filler until you get Flame Mage. Don't invest Forge Stones.\n\nMost Mage power comes from merge levels. A low-level Mythic Mage often underperforms compared to a high-level Epic."
     },
     {
-      "heading": "Mage vs Mage: Countering Enemy Magic",
-      "content": "Elemental advantages matter in mage duels. Water beats Fire, Wood beats Water, Fire beats Wood. Check the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy mage advantages through buffs and healing."
+      "heading": "Positioning and Synergies",
+      "content": "Mages go in the back row (G1-G7) behind your Tank. Pair with Support heroes for healing. Some Mages have self-peel abilities — prioritize these in aggressive formations.\n\nIn Co-Op mode, Mages with AoE handle wave clearing while your partner focuses on single-target DPS. It's a natural division of labor."
+    },
+    {
+      "heading": "Elemental Advantages in Mage Duels",
+      "content": "The elemental wheel matters in mage battles:\n- Water beats Fire\n- Wood beats Water\n- Fire beats Wood\n\nCheck the enemy team's mage composition and counter with the appropriate element. Support Mages like Starlight Apostle can neutralize enemy advantages through buffs and healing.\n\nElemental advantage won't save a bad matchup, but it can tip a close fight in your favor."
     }
   ],
-  "preview": "Mages deal area magic damage from a safe distance, making them essential for clearing grouped enemies and controlling the battlefield. Mages are generally fragile with low HP and DEF, requiring frontl...",
+  "preview": "Frost Queen is the best Mage in the game — massive AoE ice damage that controls the battlefield. Storm Maiden and Starlight Apostle are strong alternatives. Mages deal area magic damage from a safe di...",
   "related_heroes": [
+    {
+      "name": "Evil Ivy",
+      "slug": "evil-ivy"
+    },
     {
       "name": "Apprentice Mage",
       "slug": "apprentice-mage"
@@ -33,14 +41,6 @@
     {
       "name": "Flame Mage",
       "slug": "flame-mage"
-    },
-    {
-      "name": "Wind Apostle",
-      "slug": "wind-apostle"
-    },
-    {
-      "name": "Geomancer",
-      "slug": "geomancer"
     },
     {
       "name": "Frost Queen",
@@ -57,9 +57,13 @@
     {
       "name": "Starlight Apostle",
       "slug": "starlight-apostle"
+    },
+    {
+      "name": "Camp",
+      "slug": "camp"
     }
   ],
-  "word_count": 213,
+  "word_count": 356,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -68,7 +72,7 @@
     "datePublished": "2026-05-10",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

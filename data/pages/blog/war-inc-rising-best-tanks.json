@@ -5,26 +5,26 @@
   "meta_description": "Complete guide to Tank heroes in War Inc: Rising. Rankings for all Tank heroes, best tanks for each game mode, and how to build an unbreakable frontline.",
   "type": "blog",
   "date": "2026-04-20",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
+      "heading": "The Short Version",
+      "content": "Radiant Warrior is the best Tank in the game by a wide margin. Ironguard and Paladin are strong at lower rarities. Scudiero (Common) punches above its cost for early game. A good Tank keeps your damage dealers alive — a great Tank also brings crowd control.\n\nHere's the full Tank ranking with synergies, positioning tips, and which tanks work best for your stage of the game."
+    },
+    {
       "heading": "What Makes a Good Tank?",
-      "content": "Tanks are defined by high HP and DEF stats, allowing them to absorb damage while your damage dealers work. The best Tanks also have crowd control abilities — stuns, taunts, or slows that keep enemies locked down. Position your Tank at the front of your formation to maximize their damage absorption. A good Tank can protect your entire team."
+      "content": "Tanks need high HP and DEF to absorb damage. That's the baseline.\n\nThe best Tanks also have crowd control — stuns, taunts, or slows that keep enemies locked down. A Tank that only stands there and takes hits is fine. A Tank that stuns the enemy backline while your damage dealers work is game-changing.\n\nPosition your Tank at the front of your formation (A1 or A4 are good defaults). Their job is to eat damage so your damage dealers don't have to."
     },
     {
       "heading": "Top Tank Heroes Ranked",
-      "content": "The best Tank in War Inc: Rising is Radiant Warrior — a Mythic Tank with excellent HP scaling and holy damage abilities. Ironguard and Paladin provide excellent defensive utility at lower rarities. Woodland Guardian and Pumpkin Guard offer unique taunt mechanics. For early game, Scudiero (Common) is a surprisingly effective budget Tank that punches above its cost."
+      "content": "- Radiant Warrior (Mythic, S+): Best in class. Excellent HP scaling with holy damage. Level 6 gives +20% elemental resistance to all allies. Use 2-4 in every formation.\n- Ironguard (Legendary): Strong defensive utility. Good bridge between mid and endgame.\n- Paladin (Rare): Multi-unit tank with shields every 10 seconds. Combo with Radiant Warrior.\n- Woodland Guardian (Legendary): Self-healing every 12s (30% HP + 3,000 fixed). Independent sustain.\n- Pumpkin Guard (Epic): Taunt mechanic useful in Infinite War. Surprisingly high damage for a tank.\n- Scudiero (Common): Budget tank that works in early game. Replace as soon as you can.\n\nDon't invest Forge Stones in a Tank below Legendary rarity unless you're early game. The stat scaling on higher-rarity Tanks is worth the wait."
     },
     {
-      "heading": "Tank Synergies",
-      "content": "Tanks pair best with Support heroes that provide healing — Grace Priest and Melody Weaver extend your Tank's survivability dramatically. Mages behind a Tank can safely deal damage while the Tank holds the line. Some Tanks have self-healing abilities that make them independent — prioritize these in modes where Support slots are limited."
-    },
-    {
-      "heading": "Tank Positioning Tips",
-      "content": "Place your Tank at position A1, A4, or directly in front of your most vulnerable damage dealer. Against Backstab formations, consider running two Tanks to protect both front and back lines. Level your Tank's DEF stat at least as much as HP — raw HP without DEF melts quickly against high-ATK opponents."
+      "heading": "Tank Synergies and Positioning",
+      "content": "Tanks need Support heroes with healing to reach their full potential. Grace Priest and Melody Weaver extend your Tank's survivability dramatically.\n\nPositioning tips:\n- Place your main Tank at A1 or A4\n- Against Backstab formations, run two Tanks to protect both front and back lines\n- Level DEF at least as much as HP — raw HP without DEF melts against high-ATK opponents\n- Some Tanks have self-healing (Woodland Guardian) — use these when Support slots are limited\n\nA great Tank with good Support behind them is the foundation of every winning team."
     }
   ],
-  "preview": "Tanks are defined by high HP and DEF stats, allowing them to absorb damage while your damage dealers work. The best Tanks also have crowd control abilities — stuns, taunts, or slows that keep enemies ...",
+  "preview": "Radiant Warrior is the best Tank in the game by a wide margin. Ironguard and Paladin are strong at lower rarities. Scudiero (Common) punches above its cost for early game. A good Tank keeps your damag...",
   "related_heroes": [
     {
       "name": "Paladin",
@@ -55,7 +55,7 @@
       "slug": "radiant-warrior"
     }
   ],
-  "word_count": 221,
+  "word_count": 366,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -64,7 +64,7 @@
     "datePublished": "2026-04-20",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

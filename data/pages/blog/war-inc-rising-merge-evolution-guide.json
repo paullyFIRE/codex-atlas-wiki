@@ -5,28 +5,28 @@
   "meta_description": "Master hero merging and evolution in War Inc: Rising. Complete guide to merge levels, Forge Stones, evolution costs, and when to upgrade your heroes for maximum value.",
   "type": "blog",
   "date": "2026-05-01",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
+      "heading": "The Short Version",
+      "content": "Merge levels increase base stats and unlock new skill tiers. Merge 6 is the first major power spike. Merge 12 is max. Focus your Forge Stones on 3-5 core heroes — one level 8 hero is worth more than eight level 5 heroes. Never merge your last deployable copy of a hero you use.\n\nHere's everything about the merge system, Forge Stone economy, and when to push vs when to wait."
+    },
+    {
       "heading": "Merge Levels Explained",
-      "content": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant power spike. Merge Level 12 is the maximum and grants the strongest version of every skill. Focus on getting your core team to Merge 6 before spreading resources to backup heroes."
+      "content": "Each merge level requires copies of the same hero plus Forge Stones (from level 6 onward). The stats increase per level, and certain levels unlock new skill tiers.\n\n- Level 6: First major power spike for most heroes. Skill upgrades unlock.\n- Level 7: Trigger Master passive unlocks. Also gives 100-gem Power Stance achievement.\n- Level 12: Maximum. Strongest version of every skill.\n\nFocus on getting your core team to 6 first before spreading resources to backups."
     },
     {
-      "heading": "Forge Stones — The Bottleneck Resource",
-      "content": "Forge Stones are required from Merge Level 6 onwards and are the most scarce resource in the game. You can obtain them from Hunting mode rewards, Infinite War, daily chests, and event shops. Never spend Forge Stones on heroes you don't use regularly — they're too valuable. A common mistake is spreading Forge Stones across 10+ heroes instead of focusing on 3-5 core units."
-    },
-    {
-      "heading": "Evolution Paths and Costs",
-      "content": "Hero evolution uses Forge Stones and Silver Coins. The cost increases with each merge level. Save your Silver Coins for evolution rather than spending on random upgrades. Higher-rarity heroes have higher evolution costs but also higher stat gains per level. Use our evolution calculator tool to plan which hero to upgrade next based on your available resources."
+      "heading": "Forge Stones: The Real Bottleneck",
+      "content": "Forge Stones are required from Merge 6 onwards. They're the most scarce resource in the game. Here's where to get them:\n- Hunting mode rewards (best consistent source)\n- Infinite War\n- Daily chests\n- Event shops\n\nNever spend Forge Stones on heroes you don't regularly use. The biggest mistake is spreading them across 10+ heroes instead of focusing on 3-5 core units. Pick your team and commit."
     },
     {
       "heading": "When to Merge vs When to Wait",
-      "content": "Merging temporarily reduces your roster because you consume copies of the hero. Plan merges between game sessions when you won't need full strength for 12-24 hours. Never merge your last deployable copy of a hero you actively use. Save major merges for after you've completed daily missions and Arena placements."
+      "content": "Merging consumes copies of the hero, temporarily reducing your roster. Plan accordingly:\n\n- Merge between sessions when you won't need full strength for 12-24 hours\n- Never merge your last deployable copy of a hero you actively use\n- Save major merges for after daily missions and Arena placements\n- Higher-rarity heroes cost more but gain more per level\n\nUse the evolution calculator tool on this site to plan which hero to upgrade next based on your available resources."
     }
   ],
-  "preview": "Hero merge levels increase base stats and unlock new skill tiers. Each merge level requires copies of the same hero and Forge Stones. Merge Level 6 is where most heroes unlock their first significant ...",
+  "preview": "Merge levels increase base stats and unlock new skill tiers. Merge 6 is the first major power spike. Merge 12 is max. Focus your Forge Stones on 3-5 core heroes — one level 8 hero is worth more than e...",
   "related_heroes": [],
-  "word_count": 236,
+  "word_count": 295,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -35,7 +35,7 @@
     "datePublished": "2026-05-01",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }

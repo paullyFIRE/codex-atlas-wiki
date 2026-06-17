@@ -5,26 +5,30 @@
   "meta_description": "Master Hunting mode in War Inc: Rising. Guide to all 20 Hunting bosses, best heroes for each boss, rewards, and strategies for maximizing your Hunting runs.",
   "type": "blog",
   "date": "2026-04-10",
-  "author": "War Inc Wiki Team",
+  "author": "Klown Kollege",
   "sections": [
     {
-      "heading": "Hunting Mode Overview",
-      "content": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the best sources of Forge Stones and Legendary hero shards — both essential for progression."
+      "heading": "The Short Version",
+      "content": "Hunting mode is one of the best sources of Forge Stones and Legendary hero shards. You fight bosses one at a time, and each has unique attack patterns and weaknesses. Building a dedicated Hunting team that consistently clears the highest difficulty is one of the best long-term investments you can make.\n\nHere's how to pick the right heroes, understand the rewards, and maximize your daily Hunting runs."
+    },
+    {
+      "heading": "How Hunting Mode Works",
+      "content": "Each day brings a new boss rotation. Bosses have specific attack patterns, weaknesses, and phases. The mode resets daily, so you fight whoever is available that day.\n\nHunting favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here. You need a frontline Tank to keep the boss busy while your damage dealers work. Support with healing extends your team's survivability.\n\nHigher difficulty levels yield better rewards. The jump from medium to hard is worth the extra effort."
     },
     {
       "heading": "Best Heroes for Hunting",
-      "content": "Hunting mode favors single-target damage dealers over AoE specialists. Assassins and Rangers perform best here — Ghost Assassin, Bone Marksman, and Mist Archer are top picks. Frontline Tanks are essential to keep the boss occupied while your damage dealers work. Support heroes with healing like Grace Priest extend your team's survivability."
+      "content": "- Ghost Assassin: Single-target burst. Deletes boss HP bars.\n- Bone Marksman: Piercing shots from range. Prioritize getting this one.\n- Mist Archer: Consistent DPS with stealth. Never stops dealing damage.\n- Necromancer: Skeletons deal massive damage. Needs Goddess of War shielding.\n- Radiant Warrior: Tank that also contributes damage. Shields team from boss AoE.\n- Grace Priest: Healing keeps your team alive through boss phases.\n\nBuild a core Hunting team of 5-7 heroes and stick with it. Switching heroes between runs wastes resources."
     },
     {
-      "heading": "Hunting Rewards Explained",
-      "content": "Higher difficulty levels in Hunting mode yield better rewards. Forge Stones are a common drop and essential for pushing hero merge levels past 6. Gold and hero shards are also available. Building a dedicated Hunting team that can consistently clear the highest difficulty is one of the best long-term investments in the game."
+      "heading": "Hunting Rewards — What to Expect",
+      "content": "Higher difficulty means better rewards:\n- Forge Stones: Common drop, essential for pushing merges past level 6.\n- Gold: Always useful.\n- Hero shards: Legendary shards from higher difficulties.\n\nA dedicated Hunting team that clears the hardest difficulty daily will outpace players who ignore this mode. The Forge Stones alone make it worth the effort."
     },
     {
       "heading": "Daily Hunting Strategy",
-      "content": "Always complete your daily Hunting runs — even if you can't clear the highest difficulty, the lower-tier rewards still provide value. Study each boss's attack patterns before the fight. Time your hero deployment to avoid the boss's AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage."
+      "content": "Always complete your daily Hunting runs. Even if you can't clear the highest difficulty, lower-tier rewards still add up over time.\n\nStudy each boss's attack patterns before the fight. Time your hero deployment to avoid AoE attacks. Save your hero skills for boss vulnerability phases to maximize damage.\n\nThe bosses have predictable patterns. Learn them once and you'll clear consistently."
     }
   ],
-  "preview": "Hunting mode sends you against powerful boss monsters for valuable rewards. Each boss has unique attack patterns and weaknesses. The mode resets daily with a new boss rotation. Hunting is one of the b...",
+  "preview": "Hunting mode is one of the best sources of Forge Stones and Legendary hero shards. You fight bosses one at a time, and each has unique attack patterns and weaknesses. Building a dedicated Hunting team...",
   "related_heroes": [
     {
       "name": "Archer",
@@ -45,9 +49,21 @@
     {
       "name": "Mist Archer",
       "slug": "mist-archer"
+    },
+    {
+      "name": "Goddess of War",
+      "slug": "goddess-of-war"
+    },
+    {
+      "name": "Radiant Warrior",
+      "slug": "radiant-warrior"
+    },
+    {
+      "name": "Necromancer",
+      "slug": "necromancer"
     }
   ],
-  "word_count": 201,
+  "word_count": 346,
   "schema": {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -56,7 +72,7 @@
     "datePublished": "2026-04-10",
     "author": {
       "@type": "Person",
-      "name": "War Inc Wiki Team"
+      "name": "Klown Kollege"
     }
   }
 }
